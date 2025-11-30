@@ -12,8 +12,13 @@ const productSchema = new mongoose.Schema(
     promotion: String,
     features: [String],
     description: String,
-    imageUrl: String,
-    stock: Number
+    imageUrl: String, // Giữ lại để backward compatible
+    images: [String], // Array of image URLs from Cloudinary
+    stock: Number,
+    options: [{
+      name: String,      // "1 tháng", "5 tháng", "12 tháng"
+      price: Number     // Giá cho option này
+    }]
   },
   {
     timestamps: true

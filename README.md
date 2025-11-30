@@ -24,11 +24,24 @@ keyt-shop-backend/
 npm install
 ```
 
-### 2. Đảm bảo MongoDB đang chạy
+### 2. Thiết lập `.env`
 ```bash
-# Kiểm tra MongoDB đang chạy trên port 27017
-# Database: TechShopDB
+# Copy file mẫu và điền URI thật
+cp .env.example .env
+# Hoặc tạo .env thủ công:
+# MONGODB_URL=mongodb+srv://keyt_database:<db_password>@cluster0.0ll6vqh.mongodb.net/?appName=Cluster0
 ```
+
+Trường hợp chạy local hãy đảm bảo `mongodb://127.0.0.1:27017/TechShopDB` đang sẵn sàng.
+
+### 3. Biến môi trường bảo mật
+Trong `.env`, hãy luôn định nghĩa:
+```
+MONGODB_URL=...
+JWT_SECRET=chuoi-bi-mat-rieng
+GOOGLE_CLIENT_ID=xxxxxxxxxxx.apps.googleusercontent.com
+```
+`JWT_SECRET` sẽ dùng để tạo và xác minh token khi đăng nhập. `GOOGLE_CLIENT_ID` dùng trong route `/api/auth/google` để xác minh ID token từ Google.
 
 ### 3. Chạy backend
 
