@@ -1,18 +1,19 @@
 const nodemailer = require('nodemailer');
 
 // Create transporter
+// Support both MAIL_* and SMTP_* environment variables for flexibility
 const transporter = nodemailer.createTransport({
-  host: process.env.MAIL_HOST || 'smtp.gmail.com',
-  port: parseInt(process.env.MAIL_PORT || '587'),
-  secure: false,
+  host: process.env.MAIL_HOST || process.env.SMTP_HOST || 'smtp.gmail.com',
+  port: parseInt(process.env.MAIL_PORT || process.env.SMTP_PORT || '587'),
+  secure: process.env.MAIL_SECURE === 'true' || process.env.SMTP_SECURE === 'true' || false,
   auth: {
-    user: process.env.MAIL_USERNAME || 'tiemtaphoakeyt@gmail.com',
-    pass: process.env.MAIL_PASSWORD // REQUIRED: Must be set in .env file
+    user: process.env.MAIL_USERNAME || process.env.SMTP_USER || 'tiemtaphoakeyt@gmail.com',
+    pass: process.env.MAIL_PASSWORD || process.env.SMTP_PASS // REQUIRED: Must be set in .env file
   }
 });
 
 const fromEmail = process.env.MAIL_FROM || 'Tiệm Tạp Hóa KeyT <tiemtaphoakeyt@gmail.com>';
-const replyToEmail = process.env.MAIL_REPLY_TO || 'tiemtaphoakeyt@gmail.com';
+const replyToEmail = process.env.MAIL_REPLY_TO || process.env.SMTP_USER || 'tiemtaphoakeyt@gmail.com';
 
 /**
  * Send email

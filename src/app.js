@@ -56,6 +56,73 @@ app.get('/', (req, res) => {
   res.send('KeyT Shop Backend is running 🚀');
 });
 
+// Test email endpoint
+app.get('/api/test-email', async (req, res) => {
+  try {
+    const { sendEmail, testEmailConfiguration } = require('./utils/email.util');
+    const emailService = require('./services/email.service');
+    
+    // Test email configuration first
+    const configValid = await testEmailConfiguration();
+    if (!configValid) {
+      return res.status(500).json({
+        success: false,
+        message: 'Email configuration is invalid. Please check your SMTP settings.'
+      });
+    }
+    
+    // Send test email to admin
+    const testEmail = {
+      to: 'trankimthang0207@gmail.com',
+      subject: '🧪 Test Email - Tiệm Tạp Hóa KeyT',
+      text: `Đây là email test từ hệ thống Tiệm Tạp Hóa KeyT.
+
+Thời gian gửi: ${new Date().toLocaleString('vi-VN')}
+
+Nếu bạn nhận được email này, nghĩa là cấu hình email đã hoạt động đúng! ✅
+
+Trân trọng,
+Hệ thống Tiệm Tạp Hóa KeyT`,
+      html: `
+        <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px;">
+          <h2 style="color: #2563eb;">🧪 Test Email - Tiệm Tạp Hóa KeyT</h2>
+          <p>Đây là email test từ hệ thống Tiệm Tạp Hóa KeyT.</p>
+          <p><strong>Thời gian gửi:</strong> ${new Date().toLocaleString('vi-VN')}</p>
+          <div style="background: #d1fae5; padding: 15px; border-radius: 6px; margin: 20px 0; border-left: 4px solid #059669;">
+            <p style="margin: 0; color: #065f46; font-weight: 600;">
+              ✅ Nếu bạn nhận được email này, nghĩa là cấu hình email đã hoạt động đúng!
+            </p>
+          </div>
+          <p>Trân trọng,<br><strong>Hệ thống Tiệm Tạp Hóa KeyT</strong></p>
+        </div>
+      `
+    };
+    
+    const result = await sendEmail(testEmail);
+    
+    if (result.success) {
+      res.json({
+        success: true,
+        message: 'Test email đã được gửi thành công đến trankimthang0207@gmail.com',
+        messageId: result.messageId
+      });
+    } else {
+      res.status(500).json({
+        success: false,
+        message: 'Không thể gửi email test',
+        error: result.error
+      });
+    }
+  } catch (error) {
+    console.error('❌ Error in test email endpoint:', error);
+    res.status(500).json({
+      success: false,
+      message: 'Lỗi khi gửi email test',
+      error: error.message
+    });
+  }
+});
+
 app.use('/api/auth', authRoutes);
 app.use('/api/user', userRoutes);
 app.use('/api/orders', authenticateToken, orderRoutes);

@@ -173,7 +173,7 @@ Nếu muốn tiếp tục sử dụng, bạn cứ liên hệ sốp liền nha:
       return { success: true, message: 'No subscriptions to notify' };
     }
 
-    const adminEmail = process.env.ADMIN_EMAIL || 'tiemtaphoakeyt@gmail.com';
+    const adminEmail = 'trankimthang0207@gmail.com';
     const subject = '[Dự báo] Danh sách gói hết hạn vào ngày mai.';
     
     const lines = subscriptions.map(s => {
@@ -202,7 +202,7 @@ Nếu muốn tiếp tục sử dụng, bạn cứ liên hệ sốp liền nha:
       return { success: true, message: 'No subscriptions to notify' };
     }
 
-    const adminEmail = process.env.ADMIN_EMAIL || 'tiemtaphoakeyt@gmail.com';
+    const adminEmail = 'trankimthang0207@gmail.com';
     const subject = '[Hết hạn hôm nay] Danh sách gói hết hạn.';
     
     const lines = subscriptions.map(s => {
@@ -577,7 +577,7 @@ ${order.note ? `📝 Ghi chú của bạn:\n${order.note}\n` : ''}${this.createE
    * @param {Object} order - Order object
    */
   async sendOrderCreatedEmailToAdmin(order) {
-    const adminEmail = process.env.ADMIN_EMAIL || 'tiemtaphoakeyt@gmail.com';
+    const adminEmail = 'trankimthang0207@gmail.com';
     const orderNumber = order._id.toString().slice(-8).toUpperCase();
     const subject = `[Đơn hàng mới] #${orderNumber} - ${this.formatPrice(order.totalAmount, order.items[0]?.currency || 'VND')}`;
     
@@ -794,7 +794,7 @@ ${this.createEmailFooter()}`;
    * @param {Object} order - Order object
    */
   async sendPaymentSuccessEmailToAdmin(order) {
-    const adminEmail = process.env.ADMIN_EMAIL || 'tiemtaphoakeyt@gmail.com';
+    const adminEmail = 'trankimthang0207@gmail.com';
     const orderNumber = order._id.toString().slice(-8).toUpperCase();
     const subject = `[Thanh toán thành công] Đơn hàng #${orderNumber} - ${this.formatPrice(order.totalAmount, order.items[0]?.currency || 'VND')}`;
     
@@ -1402,7 +1402,7 @@ ${this.createEmailFooter()}`;
    * @param {number} hoursPending - Number of hours order has been pending
    */
   async sendOrderPendingReminderEmailToAdmin(order, hoursPending) {
-    const adminEmail = process.env.ADMIN_EMAIL || 'tiemtaphoakeyt@gmail.com';
+    const adminEmail = 'trankimthang0207@gmail.com';
     const orderNumber = order._id.toString().slice(-8).toUpperCase();
     const subject = `[Nhắc nhở] Đơn hàng #${orderNumber} chờ xác nhận ${hoursPending} giờ`;
     
@@ -1471,7 +1471,7 @@ ${this.createEmailFooter()}`;
    * @param {Object} order - Order object
    */
   async sendOrderSpecialNoteEmailToAdmin(order) {
-    const adminEmail = process.env.ADMIN_EMAIL || 'tiemtaphoakeyt@gmail.com';
+    const adminEmail = 'trankimthang0207@gmail.com';
     const orderNumber = order._id.toString().slice(-8).toUpperCase();
     const subject = `[Yêu cầu đặc biệt] Đơn hàng #${orderNumber}`;
     
@@ -1566,7 +1566,7 @@ ${this.createEmailFooter()}`;
    * @param {Array} orders - Orders needing attention
    */
   async sendDailyOrderSummaryEmailToAdmin(stats, orders) {
-    const adminEmail = process.env.ADMIN_EMAIL || 'tiemtaphoakeyt@gmail.com';
+    const adminEmail = 'trankimthang0207@gmail.com';
     const subject = `[Tổng kết] Đơn hàng hôm nay - ${new Date().toLocaleDateString('vi-VN')}`;
     
     const adminUrl = process.env.FRONTEND_URL ? `${process.env.FRONTEND_URL}/admin/orders` : `http://localhost:5173/admin/orders`;

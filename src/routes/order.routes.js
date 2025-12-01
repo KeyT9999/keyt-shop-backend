@@ -35,6 +35,33 @@ router.post('/', async (req, res) => {
     }
     const order = await Order.create(orderData);
 
+    // Send emails to admin and user immediately (non-blocking)
+    try {
+      await emailService.sendOrderCreatedEmailToAdmin(order);
+      console.log('✅ Order created email sent to admin');
+    } catch (emailErr) {
+      console.error('⚠️ Failed to send order created email to admin:', emailErr.message);
+    }
+
+    try {
+      await emailService.sendOrderCreatedEmailToUser(order);
+      console.log('✅ Order created email sent to user');
+    } catch (emailErr) {
+      console.error('⚠️ Failed to send order created email to user:', emailErr.message);
+    }
+
+    // Send special note email if order has note or requiredFieldsData
+    const hasSpecialNote = order.note && order.note.trim();
+    const hasRequiredFields = order.items.some(item => item.requiredFieldsData && item.requiredFieldsData.length > 0);
+    if (hasSpecialNote || hasRequiredFields) {
+      try {
+        await emailService.sendOrderSpecialNoteEmailToAdmin(order);
+        console.log('✅ Special note email sent to admin');
+      } catch (emailErr) {
+        console.error('⚠️ Failed to send special note email to admin:', emailErr.message);
+      }
+    }
+
     // Automatically create PayOS payment link
     try {
       // Check if PayOS credentials are configured
@@ -82,33 +109,6 @@ router.post('/', async (req, res) => {
       orderResponse.checkoutUrl = paymentResult.data.checkoutUrl;
       orderResponse.qrCode = paymentResult.data.qrCode;
 
-      // Send emails (non-blocking)
-      try {
-        await emailService.sendOrderCreatedEmailToUser(order);
-        console.log('✅ Order created email sent to user');
-      } catch (emailErr) {
-        console.error('⚠️ Failed to send order created email to user:', emailErr.message);
-      }
-
-      try {
-        await emailService.sendOrderCreatedEmailToAdmin(order);
-        console.log('✅ Order created email sent to admin');
-      } catch (emailErr) {
-        console.error('⚠️ Failed to send order created email to admin:', emailErr.message);
-      }
-
-      // Send special note email if order has note or requiredFieldsData
-      const hasSpecialNote = order.note && order.note.trim();
-      const hasRequiredFields = order.items.some(item => item.requiredFieldsData && item.requiredFieldsData.length > 0);
-      if (hasSpecialNote || hasRequiredFields) {
-        try {
-          await emailService.sendOrderSpecialNoteEmailToAdmin(order);
-          console.log('✅ Special note email sent to admin');
-        } catch (emailErr) {
-          console.error('⚠️ Failed to send special note email to admin:', emailErr.message);
-        }
-      }
-
       res.status(201).json(orderResponse);
     } catch (payosError) {
       console.error('❌ Lỗi tạo payment link PayOS:', payosError.message);
@@ -120,33 +120,6 @@ router.post('/', async (req, res) => {
       // Payment link can be created later via /api/payos/create-payment
       const orderResponse = order.toObject();
       orderResponse.payosError = payosError.message;
-
-      // Send emails even if PayOS fails (non-blocking)
-      try {
-        await emailService.sendOrderCreatedEmailToUser(order);
-        console.log('✅ Order created email sent to user');
-      } catch (emailErr) {
-        console.error('⚠️ Failed to send order created email to user:', emailErr.message);
-      }
-
-      try {
-        await emailService.sendOrderCreatedEmailToAdmin(order);
-        console.log('✅ Order created email sent to admin');
-      } catch (emailErr) {
-        console.error('⚠️ Failed to send order created email to admin:', emailErr.message);
-      }
-
-      // Send special note email if order has note or requiredFieldsData
-      const hasSpecialNote = order.note && order.note.trim();
-      const hasRequiredFields = order.items.some(item => item.requiredFieldsData && item.requiredFieldsData.length > 0);
-      if (hasSpecialNote || hasRequiredFields) {
-        try {
-          await emailService.sendOrderSpecialNoteEmailToAdmin(order);
-          console.log('✅ Special note email sent to admin');
-        } catch (emailErr) {
-          console.error('⚠️ Failed to send special note email to admin:', emailErr.message);
-        }
-      }
 
       res.status(201).json(orderResponse);
     }

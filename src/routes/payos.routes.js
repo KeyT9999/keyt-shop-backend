@@ -198,24 +198,42 @@ router.post('/webhook', express.raw({ type: 'application/json' }), async (req, r
 router.get('/order-by-code/:payosOrderCode', async (req, res) => {
   try {
     const { payosOrderCode } = req.params;
+    console.log('🔍 Searching for order with PayOS code:', payosOrderCode);
+    
     const orderCodeNumber = parseInt(payosOrderCode);
 
     if (isNaN(orderCodeNumber)) {
+      console.error('❌ Invalid order code format:', payosOrderCode);
       return res.status(400).json({ 
         success: false,
-        message: 'Invalid order code' 
+        message: 'Invalid order code format' 
       });
     }
 
-    const order = await Order.findOne({ payosOrderCode: orderCodeNumber });
+    console.log('🔍 Parsed order code number:', orderCodeNumber);
+    
+    // Try to find order by payosOrderCode (as number)
+    let order = await Order.findOne({ payosOrderCode: orderCodeNumber });
+    
+    // If not found, try as string (for backward compatibility)
+    if (!order) {
+      console.log('🔍 Order not found as number, trying as string...');
+      order = await Order.findOne({ payosOrderCode: payosOrderCode });
+    }
 
     if (!order) {
+      console.error('❌ Order not found for PayOS code:', payosOrderCode, '(parsed as:', orderCodeNumber, ')');
+      // Log all orders with payosOrderCode for debugging
+      const allOrdersWithPayOS = await Order.find({ payosOrderCode: { $exists: true } }).select('_id payosOrderCode').limit(10);
+      console.log('📋 Sample orders with PayOS codes:', allOrdersWithPayOS.map(o => ({ id: o._id, code: o.payosOrderCode })));
+      
       return res.status(404).json({ 
         success: false,
-        message: 'Order not found' 
+        message: `Order not found for PayOS code: ${payosOrderCode}` 
       });
     }
 
+    console.log('✅ Order found:', order._id);
     res.json({
       success: true,
       order: {
