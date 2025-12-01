@@ -1,5 +1,6 @@
 const cron = require('node-cron');
 const subscriptionService = require('../services/subscription.service');
+const orderEmailSchedulerService = require('../services/order-email-scheduler.service');
 
 /**
  * Initialize scheduled jobs
@@ -27,6 +28,48 @@ function initializeScheduler() {
       console.log(`✅ Sent admin digest for ${count} subscriptions ending today`);
     } catch (err) {
       console.error('❌ Error in sendAdminDigestForToday:', err);
+    }
+  }, {
+    scheduled: true,
+    timezone: 'Asia/Ho_Chi_Minh'
+  });
+
+  // Run every hour - Send payment reminders to users
+  cron.schedule('0 * * * *', async () => {
+    console.log('🕐 Running scheduled job: checkAndSendPaymentReminders');
+    try {
+      const result = await orderEmailSchedulerService.checkAndSendPaymentReminders();
+      console.log(`✅ Payment reminders sent: ${result.count || 0} orders`);
+    } catch (err) {
+      console.error('❌ Error in checkAndSendPaymentReminders:', err);
+    }
+  }, {
+    scheduled: true,
+    timezone: 'Asia/Ho_Chi_Minh'
+  });
+
+  // Run every 6 hours - Send pending order reminders to admin
+  cron.schedule('0 */6 * * *', async () => {
+    console.log('🕐 Running scheduled job: checkAndSendPendingOrderReminders');
+    try {
+      const result = await orderEmailSchedulerService.checkAndSendPendingOrderReminders();
+      console.log(`✅ Pending order reminders sent: ${result.count || 0} orders`);
+    } catch (err) {
+      console.error('❌ Error in checkAndSendPendingOrderReminders:', err);
+    }
+  }, {
+    scheduled: true,
+    timezone: 'Asia/Ho_Chi_Minh'
+  });
+
+  // Run every day at 20:00 - Send daily order summary to admin
+  cron.schedule('0 20 * * *', async () => {
+    console.log('🕐 Running scheduled job: sendDailyOrderSummary');
+    try {
+      const result = await orderEmailSchedulerService.sendDailyOrderSummary();
+      console.log(`✅ Daily order summary sent: ${result.stats?.todayOrders || 0} orders today`);
+    } catch (err) {
+      console.error('❌ Error in sendDailyOrderSummary:', err);
     }
   }, {
     scheduled: true,

@@ -1,60 +1,65 @@
-require('dotenv').config();
 const mongoose = require('mongoose');
-const bcrypt = require('bcrypt');
 const User = require('../src/models/user.model');
+const connectDB = require('../src/config/db');
 
-const USERS = [
-  {
-    username: 'admin-keyt',
-    email: 'admin@keytshop.test',
-    password: 'Admin1234',
-    loginType: 'login-common',
-    admin: true
-  },
-  {
-    username: 'user-keyt',
-    email: 'user@keytshop.test',
-    password: 'User1234',
-    loginType: 'login-common',
-    admin: false
+async function createUser() {
+  try {
+    // Connect to MongoDB
+    await connectDB();
+    console.log('✅ Connected to MongoDB');
+
+    // Get user info from command line arguments or use defaults
+    const args = process.argv.slice(2);
+    const username = args[0] || 'testuser';
+    const email = args[1] || 'test@example.com';
+    const password = args[2] || '123456';
+    const isAdmin = args[3] === 'true' || args[3] === 'admin' || false;
+
+    // Check if user already exists
+    const existingUser = await User.findOne({ 
+      $or: [{ username }, { email }] 
+    });
+
+    if (existingUser) {
+      console.log('❌ User already exists:');
+      console.log(`   Username: ${existingUser.username}`);
+      console.log(`   Email: ${existingUser.email}`);
+      process.exit(1);
+    }
+
+    // Create new user
+    const user = await User.create({
+      username,
+      email,
+      password,
+      admin: isAdmin,
+      emailVerified: true, // Auto-verify for script-created users
+      loginType: 'login-common'
+    });
+
+    console.log('✅ User created successfully!');
+    console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
+    console.log(`Username: ${user.username}`);
+    console.log(`Email: ${user.email}`);
+    console.log(`Password: ${password}`);
+    console.log(`Admin: ${user.admin ? 'Yes' : 'No'}`);
+    console.log(`Email Verified: ${user.emailVerified ? 'Yes' : 'No'}`);
+    console.log(`User ID: ${user._id}`);
+    console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
+
+    // Close connection
+    await mongoose.connection.close();
+    console.log('✅ Database connection closed');
+    process.exit(0);
+  } catch (error) {
+    console.error('❌ Error creating user:', error.message);
+    if (error.code === 11000) {
+      console.error('   Duplicate key error - username or email already exists');
+    }
+    await mongoose.connection.close();
+    process.exit(1);
   }
-];
-
-async function createIfMissing(candidate) {
-  const exists = await User.findOne({ email: candidate.email });
-  if (exists) {
-    console.log(`✔️ User already exists: ${candidate.email}`);
-    return;
-  }
-
-  const passwordHash =
-    candidate.password === null || candidate.password === undefined
-      ? null
-      : await bcrypt.hash(candidate.password, 10);
-
-  await User.create({
-    username: candidate.username,
-    email: candidate.email,
-    password: passwordHash,
-    loginType: candidate.loginType,
-    admin: candidate.admin
-  });
-  console.log(`✅ Created user ${candidate.username} (${candidate.email})`);
 }
 
-async function main() {
-  const mongoUri = process.env.MONGODB_URI || process.env.MONGODB_URL || 'mongodb://127.0.0.1:27017/keyt_db';
-  await mongoose.connect(mongoUri);
-
-  for (const user of USERS) {
-    await createIfMissing(user);
-  }
-
-  await mongoose.disconnect();
-}
-
-main().catch((err) => {
-  console.error(err);
-  process.exit(1);
-});
-
+// Run the script
+createUser();

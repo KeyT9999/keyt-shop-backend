@@ -18,6 +18,20 @@ const productSchema = new mongoose.Schema(
     options: [{
       name: String,      // "1 tháng", "5 tháng", "12 tháng"
       price: Number     // Giá cho option này
+    }],
+    // Điều kiện cần - thông tin bổ sung cần thiết khi mua sản phẩm
+    requiredFields: [{
+      label: String,        // "Email Canva", "Email để nhận docs", "Account:MK"
+      type: {
+        type: String,
+        enum: ['email', 'text', 'account'],
+        default: 'text'
+      },
+      placeholder: String,  // "Vui lòng nhập email Canva của bạn"
+      required: {
+        type: Boolean,
+        default: true
+      }
     }]
   },
   {

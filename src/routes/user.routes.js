@@ -222,7 +222,8 @@ router.put(
 
 /**
  * GET /api/user/orders
- * Get user's order history
+ * Get user's order history with filters, search, and sort
+ * Query params: orderStatus, paymentStatus, startDate, endDate, search, sortBy, sortOrder, page, limit
  */
 router.get('/orders', async (req, res) => {
   try {
@@ -231,12 +232,93 @@ router.get('/orders', async (req, res) => {
       return res.status(404).json({ message: 'User not found' });
     }
 
-    // Find orders by user email (since orders are linked by customer email)
-    const orders = await Order.find({ 'customer.email': user.email })
-      .sort({ createdAt: -1 })
+    const {
+      orderStatus,
+      paymentStatus,
+      search,
+      startDate,
+      endDate,
+      sortBy = 'date',
+      sortOrder = 'desc',
+      page = 1,
+      limit = 20
+    } = req.query;
+
+    // Base query: only user's orders (by email)
+    const query = { 'customer.email': user.email };
+
+    // Filter by orderStatus
+    if (orderStatus) {
+      query.orderStatus = orderStatus;
+    }
+
+    // Filter by paymentStatus
+    if (paymentStatus) {
+      query.paymentStatus = paymentStatus;
+    }
+
+    // Date range filter
+    if (startDate || endDate) {
+      query.createdAt = {};
+      if (startDate) {
+        query.createdAt.$gte = new Date(startDate);
+      }
+      if (endDate) {
+        // Include the entire end date
+        const end = new Date(endDate);
+        end.setHours(23, 59, 59, 999);
+        query.createdAt.$lte = end;
+      }
+    }
+
+    // Search filter (order ID only for user)
+    if (search) {
+      // Escape special regex characters
+      const escapedSearch = search.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      query._id = { $regex: escapedSearch, $options: 'i' };
+    }
+
+    // Build sort object
+    let sort = {};
+    switch (sortBy) {
+      case 'date':
+        sort.createdAt = sortOrder === 'asc' ? 1 : -1;
+        break;
+      case 'amount':
+        sort.totalAmount = sortOrder === 'asc' ? 1 : -1;
+        break;
+      case 'status':
+        sort.orderStatus = sortOrder === 'asc' ? 1 : -1;
+        break;
+      default:
+        sort.createdAt = -1;
+    }
+
+    // Pagination
+    const pageNum = parseInt(page);
+    const limitNum = parseInt(limit);
+    const skip = (pageNum - 1) * limitNum;
+
+    // Get total count for pagination
+    const total = await Order.countDocuments(query);
+
+    // Fetch orders with pagination
+    const orders = await Order.find(query)
+      .populate('confirmedBy', 'username email')
+      .sort(sort)
+      .skip(skip)
+      .limit(limitNum)
       .lean();
 
-    res.json(orders);
+    const totalPages = Math.ceil(total / limitNum);
+
+    res.json({
+      orders,
+      total,
+      page: pageNum,
+      limit: limitNum,
+      totalPages
+    });
   } catch (err) {
     console.error('❌ Error fetching orders:', err);
     res.status(500).json({ message: 'Không thể lấy lịch sử đơn hàng' });
@@ -254,7 +336,9 @@ router.get('/orders/:orderId', async (req, res) => {
       return res.status(404).json({ message: 'User not found' });
     }
 
-    const order = await Order.findById(req.params.orderId).lean();
+    const order = await Order.findById(req.params.orderId)
+      .populate('confirmedBy', 'username email')
+      .lean();
     if (!order) {
       return res.status(404).json({ message: 'Order not found' });
     }
@@ -268,6 +352,123 @@ router.get('/orders/:orderId', async (req, res) => {
   } catch (err) {
     console.error('❌ Error fetching order:', err);
     res.status(500).json({ message: 'Không thể lấy thông tin đơn hàng' });
+  }
+});
+
+/**
+ * GET /api/user/orders/:orderId/invoice
+ * Get order invoice data (print-friendly format)
+ */
+router.get('/orders/:orderId/invoice', async (req, res) => {
+  try {
+    const user = await User.findById(req.user.id);
+    if (!user) {
+      return res.status(404).json({ message: 'User not found' });
+    }
+
+    const order = await Order.findById(req.params.orderId)
+      .populate('confirmedBy', 'username email')
+      .lean();
+    if (!order) {
+      return res.status(404).json({ message: 'Order not found' });
+    }
+
+    // Verify order belongs to user
+    if (order.customer.email !== user.email) {
+      return res.status(403).json({ message: 'Bạn không có quyền xem hóa đơn này' });
+    }
+
+    // Return order data in invoice format
+    res.json({
+      invoice: {
+        orderId: order._id,
+        orderNumber: order._id.toString().slice(-8).toUpperCase(),
+        createdAt: order.createdAt,
+        customer: order.customer,
+        items: order.items,
+        totalAmount: order.totalAmount,
+        currency: order.items[0]?.currency || 'VND',
+        orderStatus: order.orderStatus,
+        paymentStatus: order.paymentStatus,
+        note: order.note,
+        adminNotes: order.adminNotes,
+        // Timeline dates
+        confirmedAt: order.confirmedAt,
+        processingAt: order.processingAt,
+        completedAt: order.completedAt,
+        confirmedBy: order.confirmedBy
+      }
+    });
+  } catch (err) {
+    console.error('❌ Error fetching invoice:', err);
+    res.status(500).json({ message: 'Không thể lấy hóa đơn' });
+  }
+});
+
+/**
+ * POST /api/user/orders/:orderId/feedback
+ * Submit feedback/review for an order item
+ * Body: { productId: string, rating: number (1-5), comment: string }
+ */
+router.post('/orders/:orderId/feedback', [
+  body('productId').notEmpty().withMessage('Product ID is required'),
+  body('rating').isInt({ min: 1, max: 5 }).withMessage('Rating must be between 1 and 5'),
+  body('comment').optional().trim()
+], async (req, res) => {
+  const errors = validationResult(req);
+  if (!errors.isEmpty()) {
+    return res.status(400).json({ errors: errors.array() });
+  }
+
+  try {
+    const user = await User.findById(req.user.id);
+    if (!user) {
+      return res.status(404).json({ message: 'User not found' });
+    }
+
+    const { orderId } = req.params;
+    const { productId, rating, comment } = req.body;
+
+    const order = await Order.findById(orderId);
+    if (!order) {
+      return res.status(404).json({ message: 'Order not found' });
+    }
+
+    // Verify order belongs to user
+    if (order.customer.email !== user.email) {
+      return res.status(403).json({ message: 'Bạn không có quyền đánh giá đơn hàng này' });
+    }
+
+    // Verify order is completed
+    if (order.orderStatus !== 'completed') {
+      return res.status(400).json({ message: 'Chỉ có thể đánh giá đơn hàng đã hoàn thành' });
+    }
+
+    // Find the item in the order
+    const itemIndex = order.items.findIndex(
+      item => item.productId.toString() === productId
+    );
+
+    if (itemIndex === -1) {
+      return res.status(404).json({ message: 'Sản phẩm không tìm thấy trong đơn hàng' });
+    }
+
+    // Update feedback for the item
+    order.items[itemIndex].feedback = {
+      rating: parseInt(rating),
+      comment: comment || '',
+      createdAt: new Date()
+    };
+
+    await order.save();
+
+    res.json({
+      message: 'Đánh giá đã được lưu thành công',
+      feedback: order.items[itemIndex].feedback
+    });
+  } catch (err) {
+    console.error('❌ Error submitting feedback:', err);
+    res.status(500).json({ message: 'Không thể lưu đánh giá' });
   }
 });
 

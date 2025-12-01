@@ -58,36 +58,57 @@ const ensureUniqueUsername = async (base) => {
 router.post(
   '/register',
   [
-    body('username').isLength({ min: 6 }).withMessage('Username tối thiểu 6 ký tự').trim().escape(),
-    body('email').isEmail().withMessage('Email không hợp lệ').normalizeEmail(),
-    body('password').isLength({ min: 6 }).withMessage('Password tối thiểu 6 ký tự').trim()
+    body('username')
+      .trim()
+      .isLength({ min: 6 })
+      .withMessage('Username tối thiểu 6 ký tự')
+      .matches(/^[a-zA-Z0-9_]+$/)
+      .withMessage('Username chỉ được chứa chữ cái, số và dấu gạch dưới'),
+    body('email')
+      .trim()
+      .isEmail()
+      .withMessage('Email không hợp lệ')
+      .normalizeEmail(),
+    body('password')
+      .trim()
+      .isLength({ min: 6 })
+      .withMessage('Password tối thiểu 6 ký tự')
   ],
   async (req, res) => {
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
-      return res.status(400).json({ errors: errors.array() });
+      console.log('❌ Validation errors:', errors.array());
+      return res.status(400).json({ 
+        message: 'Dữ liệu không hợp lệ',
+        errors: errors.array() 
+      });
     }
 
     const { username, email, password } = req.body;
+    console.log('📝 Register attempt:', { username, email, passwordLength: password?.length });
 
     try {
       getJwtSecret();
       const existingUser = await User.findOne({ $or: [{ username }, { email }] });
       if (existingUser) {
+        console.log('❌ User already exists:', { username, email });
         return res.status(409).json({ message: 'Username hoặc email đã tồn tại.' });
       }
 
       const verificationToken = tokenService.generateToken();
       const verificationExpires = new Date(Date.now() + 24 * 60 * 60 * 1000);
 
+      console.log('✅ Creating user...');
       const user = await User.create({
         username,
         email,
         password,
+        loginType: 'login-common', // Explicitly set loginType
         emailVerified: false,
         emailVerificationToken: verificationToken,
         emailVerificationExpires: verificationExpires
       });
+      console.log('✅ User created:', { id: user._id, username: user.username, email: user.email });
       const token = createToken(user);
 
       // Send welcome email
@@ -120,6 +141,21 @@ router.post(
       console.error('❌ Lỗi register:', err);
       if (err.code === 'MISSING_JWT_SECRET') {
         return res.status(500).json({ message: err.message });
+      }
+      // Handle validation errors
+      if (err.name === 'ValidationError') {
+        const validationErrors = Object.values(err.errors).map((e) => e.message);
+        return res.status(400).json({ 
+          message: 'Dữ liệu không hợp lệ',
+          errors: validationErrors 
+        });
+      }
+      // Handle duplicate key errors
+      if (err.code === 11000) {
+        const field = Object.keys(err.keyPattern)[0];
+        return res.status(409).json({ 
+          message: `${field === 'username' ? 'Username' : 'Email'} đã tồn tại.` 
+        });
       }
       res.status(500).json({ message: 'Không thể đăng ký, thử lại sau.' });
     }

@@ -11,6 +11,7 @@ const userRoutes = require('./routes/user.routes');
 const productRoutes = require('./routes/product.routes');
 const uploadRoutes = require('./routes/upload.routes');
 const categoryRoutes = require('./routes/category.routes');
+const payosRoutes = require('./routes/payos.routes');
 const { authenticateToken } = require('./middleware/auth.middleware');
 
 const app = express();
@@ -31,6 +32,7 @@ app.use('/api/admin', adminRoutes);
 app.use('/api/products', productRoutes);
 app.use('/api/upload', uploadRoutes);
 app.use('/api/categories', categoryRoutes);
+app.use('/api/payos', payosRoutes);
 
 module.exports = app;
 

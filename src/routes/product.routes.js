@@ -83,7 +83,13 @@ router.post(
         options: (req.body.options || []).map(opt => ({
           name: opt.name?.trim() || '',
           price: Number(opt.price) || 0
-        })).filter(opt => opt.name && opt.price > 0)
+        })).filter(opt => opt.name && opt.price > 0),
+        requiredFields: (req.body.requiredFields || []).map(field => ({
+          label: field.label?.trim() || '',
+          type: field.type || 'text',
+          placeholder: field.placeholder?.trim() || '',
+          required: field.required !== undefined ? field.required : true
+        })).filter(field => field.label && field.placeholder)
       };
 
       const product = new Product(productData);
@@ -156,6 +162,14 @@ router.put(
           name: opt.name?.trim() || '',
           price: Number(opt.price) || 0
         })).filter(opt => opt.name && opt.price > 0);
+      }
+      if (req.body.requiredFields !== undefined) {
+        product.requiredFields = (req.body.requiredFields || []).map(field => ({
+          label: field.label?.trim() || '',
+          type: field.type || 'text',
+          placeholder: field.placeholder?.trim() || '',
+          required: field.required !== undefined ? field.required : true
+        })).filter(field => field.label && field.placeholder);
       }
 
       await product.save();
