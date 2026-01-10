@@ -2,6 +2,7 @@ const express = require('express');
 const { body, validationResult } = require('express-validator');
 const { authenticateToken, requireAdmin } = require('../middleware/auth.middleware');
 const Product = require('../models/product.model');
+const PriceChangeLog = require('../models/priceChangeLog.model');
 
 const router = express.Router();
 
@@ -50,7 +51,9 @@ router.post(
     body('currency').trim().notEmpty().withMessage('Đơn vị tiền tệ là bắt buộc'),
     body('billingCycle').trim().notEmpty().withMessage('Chu kỳ thanh toán là bắt buộc'),
     body('category').trim().notEmpty().withMessage('Danh mục là bắt buộc'),
-    body('stock').optional().isInt({ min: 0 }).withMessage('Số lượng tồn kho phải là số nguyên dương'),
+    body('stock').optional().isInt({ min: 0 }).withMessage('Số lượng tồn kho phải là số nguyên không âm'),
+    body('status').optional().isIn(['in_stock', 'out_of_stock', 'discontinued']).withMessage('Trạng thái không hợp lệ'),
+    body('lowStockThreshold').optional().isInt({ min: 0 }).withMessage('Ngưỡng tồn kho phải >= 0'),
     body('isHot').optional().isBoolean().withMessage('isHot phải là boolean'),
     body('promotion').optional().trim(),
     body('description').optional().trim(),
@@ -74,6 +77,8 @@ router.post(
         billingCycle: req.body.billingCycle,
         category: req.body.category,
         stock: req.body.stock || 0,
+        status: req.body.status || 'in_stock',
+        lowStockThreshold: req.body.lowStockThreshold || 0,
         isHot: req.body.isHot || false,
         promotion: req.body.promotion || null,
         description: req.body.description || null,
@@ -120,7 +125,9 @@ router.put(
     body('currency').optional().trim().notEmpty().withMessage('Đơn vị tiền tệ không được để trống'),
     body('billingCycle').optional().trim().notEmpty().withMessage('Chu kỳ thanh toán không được để trống'),
     body('category').optional().trim().notEmpty().withMessage('Danh mục không được để trống'),
-    body('stock').optional().isInt({ min: 0 }).withMessage('Số lượng tồn kho phải là số nguyên dương'),
+    body('stock').optional().isInt({ min: 0 }).withMessage('Số lượng tồn kho phải là số nguyên không âm'),
+    body('status').optional().isIn(['in_stock', 'out_of_stock', 'discontinued']).withMessage('Trạng thái không hợp lệ'),
+    body('lowStockThreshold').optional().isInt({ min: 0 }).withMessage('Ngưỡng tồn kho phải >= 0'),
     body('isHot').optional().isBoolean().withMessage('isHot phải là boolean'),
     body('promotion').optional().trim(),
     body('description').optional().trim(),
@@ -140,13 +147,16 @@ router.put(
         return res.status(404).json({ message: 'Product not found' });
       }
 
-      // Update only provided fields
+      // Update only provided fields, track price change
+      const oldPrice = product.price;
       if (req.body.name !== undefined) product.name = req.body.name;
       if (req.body.price !== undefined) product.price = req.body.price;
       if (req.body.currency !== undefined) product.currency = req.body.currency;
       if (req.body.billingCycle !== undefined) product.billingCycle = req.body.billingCycle;
       if (req.body.category !== undefined) product.category = req.body.category;
       if (req.body.stock !== undefined) product.stock = req.body.stock;
+      if (req.body.status !== undefined) product.status = req.body.status;
+      if (req.body.lowStockThreshold !== undefined) product.lowStockThreshold = req.body.lowStockThreshold;
       if (req.body.isHot !== undefined) product.isHot = req.body.isHot;
       if (req.body.promotion !== undefined) product.promotion = req.body.promotion || null;
       if (req.body.description !== undefined) product.description = req.body.description || null;
@@ -173,6 +183,22 @@ router.put(
       }
 
       await product.save();
+
+      // Log price change if modified
+      if (req.body.price !== undefined && req.body.price !== oldPrice) {
+        try {
+          await PriceChangeLog.create({
+            productId: product._id,
+            oldPrice,
+            newPrice: product.price,
+            currency: product.currency,
+            changedBy: req.user?.id || null,
+            reason: req.body.priceChangeReason || 'update_product'
+          });
+        } catch (logErr) {
+          console.warn('⚠️ Failed to log price change:', logErr.message);
+        }
+      }
 
       res.json({
         message: 'Cập nhật sản phẩm thành công',

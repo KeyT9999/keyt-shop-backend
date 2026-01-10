@@ -2,6 +2,7 @@ const express = require('express');
 const Order = require('../models/order.model');
 const payosService = require('../services/payos.service');
 const emailService = require('../services/email.service');
+const Product = require('../models/product.model');
 
 const router = express.Router();
 
@@ -22,6 +23,33 @@ router.post('/', async (req, res) => {
   }
 
   try {
+    // Check stock and reserve
+    for (const item of items) {
+      const product = await Product.findById(item.productId);
+      if (!product) {
+        return res.status(400).json({ message: `Sản phẩm không tồn tại: ${item.productId}` });
+      }
+      if (product.status === 'discontinued') {
+        return res.status(400).json({ message: `Sản phẩm đã ngừng kinh doanh: ${product.name}` });
+      }
+      if (product.status === 'out_of_stock' || (product.stock || 0) < item.quantity) {
+        return res.status(400).json({ message: `Sản phẩm ${product.name} không đủ tồn kho.` });
+      }
+    }
+
+    // Deduct stock
+    for (const item of items) {
+      await Product.findOneAndUpdate(
+        { _id: item.productId, stock: { $gte: item.quantity } },
+        {
+          $inc: { stock: -item.quantity },
+          $set: {
+            status: 'in_stock'
+          }
+        }
+      );
+    }
+
     const orderData = { 
       userId, 
       customer, 

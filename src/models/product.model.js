@@ -14,7 +14,21 @@ const productSchema = new mongoose.Schema(
     description: String,
     imageUrl: String, // Giữ lại để backward compatible
     images: [String], // Array of image URLs from Cloudinary
-    stock: Number,
+    stock: {
+      type: Number,
+      default: 0,
+      min: 0
+    },
+    status: {
+      type: String,
+      enum: ['in_stock', 'out_of_stock', 'discontinued'],
+      default: 'in_stock'
+    },
+    lowStockThreshold: {
+      type: Number,
+      default: 0,
+      min: 0
+    },
     options: [{
       name: String,      // "1 tháng", "5 tháng", "12 tháng"
       price: Number     // Giá cho option này
