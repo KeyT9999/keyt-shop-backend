@@ -52,7 +52,7 @@ router.post(
       }
 
       const result = await uploadToCloudinary(req.file.buffer, 'products');
-      
+
       res.json({
         message: 'Upload ảnh thành công',
         imageUrl: result.secure_url,
@@ -80,12 +80,12 @@ router.post(
         return res.status(400).json({ message: 'Không có file được upload' });
       }
 
-      const uploadPromises = req.files.map(file => 
+      const uploadPromises = req.files.map(file =>
         uploadToCloudinary(file.buffer, 'products')
       );
 
       const results = await Promise.all(uploadPromises);
-      
+
       res.json({
         message: `Upload ${results.length} ảnh thành công`,
         images: results.map(result => ({
@@ -115,7 +115,7 @@ router.post(
       }
 
       const result = await uploadToCloudinary(req.file.buffer, 'avatars');
-      
+
       res.json({
         message: 'Upload avatar thành công',
         imageUrl: result.secure_url,
@@ -124,6 +124,35 @@ router.post(
     } catch (err) {
       console.error('❌ Error uploading avatar:', err);
       res.status(500).json({ message: 'Không thể upload avatar: ' + err.message });
+    }
+  }
+);
+
+/**
+ * POST /api/upload/banner
+ * Upload banner image (admin only)
+ */
+router.post(
+  '/banner',
+  authenticateToken,
+  requireAdmin,
+  upload.single('image'),
+  async (req, res) => {
+    try {
+      if (!req.file) {
+        return res.status(400).json({ message: 'Không có file được upload' });
+      }
+
+      const result = await uploadToCloudinary(req.file.buffer, 'banners');
+
+      res.json({
+        message: 'Upload banner thành công',
+        imageUrl: result.secure_url,
+        publicId: result.public_id
+      });
+    } catch (err) {
+      console.error('❌ Error uploading banner:', err);
+      res.status(500).json({ message: 'Không thể upload ảnh: ' + err.message });
     }
   }
 );

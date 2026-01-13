@@ -14,6 +14,7 @@ const productRoutes = require('./routes/product.routes');
 const uploadRoutes = require('./routes/upload.routes');
 const categoryRoutes = require('./routes/category.routes');
 const payosRoutes = require('./routes/payos.routes');
+const bannerRoutes = require('./routes/banner.routes');
 const { authenticateToken } = require('./middleware/auth.middleware');
 
 const app = express();
@@ -23,7 +24,7 @@ const corsOptions = {
   origin: function (origin, callback) {
     // Allow requests with no origin (like mobile apps or curl requests)
     if (!origin) return callback(null, true);
-    
+
     // List of allowed origins
     const allowedOrigins = [
       process.env.FRONTEND_URL || 'http://localhost:5173',
@@ -32,7 +33,7 @@ const corsOptions = {
       // Add your Vercel domain here after deployment
       // Example: 'https://your-app.vercel.app'
     ];
-    
+
     // Check if origin is allowed
     if (allowedOrigins.some(allowed => origin.includes(allowed.replace(/^https?:\/\//, '')))) {
       callback(null, true);
@@ -63,7 +64,7 @@ app.get('/api/test-email', async (req, res) => {
   try {
     const { sendEmail, testEmailConfiguration } = require('./utils/email.util');
     const emailService = require('./services/email.service');
-    
+
     // Test email configuration first
     const configValid = await testEmailConfiguration();
     if (!configValid) {
@@ -72,7 +73,7 @@ app.get('/api/test-email', async (req, res) => {
         message: 'Email configuration is invalid. Please check your SMTP settings.'
       });
     }
-    
+
     // Send test email to admin
     const testEmail = {
       to: 'trankimthang0207@gmail.com',
@@ -99,9 +100,9 @@ Hệ thống Tiệm Tạp Hóa KeyT`,
         </div>
       `
     };
-    
+
     const result = await sendEmail(testEmail);
-    
+
     if (result.success) {
       res.json({
         success: true,
@@ -137,6 +138,7 @@ app.use('/api/products', productRoutes);
 app.use('/api/upload', uploadRoutes);
 app.use('/api/categories', categoryRoutes);
 app.use('/api/payos', payosRoutes);
+app.use('/api/banners', bannerRoutes);
 
 module.exports = app;
 
