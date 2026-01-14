@@ -1,4 +1,4 @@
-const express = require('express');
+﻿const express = require('express');
 const { body, validationResult } = require('express-validator');
 const { authenticateToken, requireAdmin } = require('../middleware/auth.middleware');
 const chatGptAccountService = require('../services/chatgpt-account.service');
@@ -46,7 +46,7 @@ router.get('/dashboard/stats', authenticateToken, requireAdmin, async (req, res)
       }
     });
   } catch (err) {
-    console.error('❌ Error fetching dashboard stats:', err);
+    console.error('âŒ Error fetching dashboard stats:', err);
     res.status(500).json({ message: 'Server error' });
   }
 });
@@ -60,7 +60,7 @@ router.get('/user-login-history/:userId', authenticateToken, requireAdmin, async
     const { userId } = req.params;
     const user = await chatGptAccountService.getUserById(userId);
     if (!user) {
-      return res.status(404).json({ message: 'Không tìm thấy user.' });
+      return res.status(404).json({ message: 'KhÃ´ng tÃ¬m tháº¥y user.' });
     }
 
     const [history, historyAsc, first2Ips, distinctIpCount] = await Promise.all([
@@ -77,7 +77,7 @@ router.get('/user-login-history/:userId', authenticateToken, requireAdmin, async
       distinctIpCount
     });
   } catch (err) {
-    console.error('❌ Error fetching user login history:', err);
+    console.error('âŒ Error fetching user login history:', err);
     res.status(500).json({ message: 'Server error' });
   }
 });
@@ -91,7 +91,7 @@ router.get('/otp-requests', authenticateToken, requireAdmin, async (req, res) =>
     const otpInfos = await otpRequestService.getAllUsersOtpInfo();
     res.json(otpInfos);
   } catch (err) {
-    console.error('❌ Error fetching OTP requests:', err);
+    console.error('âŒ Error fetching OTP requests:', err);
     res.status(500).json({ message: 'Server error' });
   }
 });
@@ -118,7 +118,7 @@ router.get('/users', authenticateToken, requireAdmin, async (req, res) => {
       otpInfoMap
     });
   } catch (err) {
-    console.error('❌ Error fetching users:', err);
+    console.error('âŒ Error fetching users:', err);
     res.status(500).json({ message: 'Server error' });
   }
 });
@@ -132,9 +132,9 @@ router.post(
   authenticateToken,
   requireAdmin,
   [
-    body('username').isLength({ min: 6 }).withMessage('Username phải có ít nhất 6 ký tự').trim(),
-    body('email').isEmail().withMessage('Email không hợp lệ').normalizeEmail(),
-    body('password').isLength({ min: 6 }).withMessage('Password phải có ít nhất 6 ký tự'),
+    body('username').isLength({ min: 6 }).withMessage('Username pháº£i cÃ³ Ã­t nháº¥t 6 kÃ½ tá»±').trim(),
+    body('email').isEmail().withMessage('Email khÃ´ng há»£p lá»‡').normalizeEmail(),
+    body('password').isLength({ min: 6 }).withMessage('Password pháº£i cÃ³ Ã­t nháº¥t 6 kÃ½ tá»±'),
     body('admin').optional().isBoolean()
   ],
   async (req, res) => {
@@ -149,13 +149,13 @@ router.post(
       // Check if username already exists
       const existingUsername = await User.findOne({ username });
       if (existingUsername) {
-        return res.status(409).json({ message: 'Username đã tồn tại' });
+        return res.status(409).json({ message: 'Username Ä‘Ã£ tá»“n táº¡i' });
       }
 
       // Check if email already exists
       const existingEmail = await User.findOne({ email });
       if (existingEmail) {
-        return res.status(409).json({ message: 'Email đã tồn tại' });
+        return res.status(409).json({ message: 'Email Ä‘Ã£ tá»“n táº¡i' });
       }
 
       // Create user
@@ -171,7 +171,7 @@ router.post(
       await user.save();
 
       res.status(201).json({
-        message: 'Tạo user thành công',
+        message: 'Táº¡o user thÃ nh cÃ´ng',
         user: {
           _id: user._id,
           username: user.username,
@@ -180,7 +180,7 @@ router.post(
         }
       });
     } catch (err) {
-      console.error('❌ Error creating user:', err);
+      console.error('âŒ Error creating user:', err);
       res.status(500).json({ message: 'Server error' });
     }
   }
@@ -195,9 +195,9 @@ router.put(
   authenticateToken,
   requireAdmin,
   [
-    body('username').optional().isLength({ min: 6 }).withMessage('Username phải có ít nhất 6 ký tự').trim(),
-    body('email').optional().isEmail().withMessage('Email không hợp lệ').normalizeEmail(),
-    body('password').optional().isLength({ min: 6 }).withMessage('Password phải có ít nhất 6 ký tự'),
+    body('username').optional().isLength({ min: 6 }).withMessage('Username pháº£i cÃ³ Ã­t nháº¥t 6 kÃ½ tá»±').trim(),
+    body('email').optional().isEmail().withMessage('Email khÃ´ng há»£p lá»‡').normalizeEmail(),
+    body('password').optional().isLength({ min: 6 }).withMessage('Password pháº£i cÃ³ Ã­t nháº¥t 6 kÃ½ tá»±'),
     body('admin').optional().isBoolean()
   ],
   async (req, res) => {
@@ -211,7 +211,7 @@ router.put(
       const user = await User.findById(userId);
 
       if (!user) {
-        return res.status(404).json({ message: 'Không tìm thấy user' });
+        return res.status(404).json({ message: 'KhÃ´ng tÃ¬m tháº¥y user' });
       }
 
       const { username, email, password, admin } = req.body;
@@ -220,7 +220,7 @@ router.put(
       if (username && username !== user.username) {
         const existingUsername = await User.findOne({ username });
         if (existingUsername) {
-          return res.status(409).json({ message: 'Username đã tồn tại' });
+          return res.status(409).json({ message: 'Username Ä‘Ã£ tá»“n táº¡i' });
         }
         user.username = username;
       }
@@ -229,7 +229,7 @@ router.put(
       if (email && email !== user.email) {
         const existingEmail = await User.findOne({ email });
         if (existingEmail) {
-          return res.status(409).json({ message: 'Email đã tồn tại' });
+          return res.status(409).json({ message: 'Email Ä‘Ã£ tá»“n táº¡i' });
         }
         user.email = email;
       }
@@ -247,7 +247,7 @@ router.put(
       await user.save();
 
       res.json({
-        message: 'Cập nhật user thành công',
+        message: 'Cáº­p nháº­t user thÃ nh cÃ´ng',
         user: {
           _id: user._id,
           username: user.username,
@@ -256,7 +256,7 @@ router.put(
         }
       });
     } catch (err) {
-      console.error('❌ Error updating user:', err);
+      console.error('âŒ Error updating user:', err);
       res.status(500).json({ message: 'Server error' });
     }
   }
@@ -272,19 +272,19 @@ router.delete('/users/:userId', authenticateToken, requireAdmin, async (req, res
 
     // Prevent deleting yourself
     if (userId === req.user.id) {
-      return res.status(400).json({ message: 'Không thể xóa chính mình' });
+      return res.status(400).json({ message: 'KhÃ´ng thá»ƒ xÃ³a chÃ­nh mÃ¬nh' });
     }
 
     const user = await User.findById(userId);
     if (!user) {
-      return res.status(404).json({ message: 'Không tìm thấy user' });
+      return res.status(404).json({ message: 'KhÃ´ng tÃ¬m tháº¥y user' });
     }
 
     await User.findByIdAndDelete(userId);
 
-    res.json({ message: 'Đã xóa user thành công' });
+    res.json({ message: 'ÄÃ£ xÃ³a user thÃ nh cÃ´ng' });
   } catch (err) {
-    console.error('❌ Error deleting user:', err);
+    console.error('âŒ Error deleting user:', err);
     res.status(500).json({ message: 'Server error' });
   }
 });
@@ -297,18 +297,18 @@ router.get('/orders/stats', authenticateToken, requireAdmin, async (req, res) =>
   try {
     const now = new Date();
 
-    // Tính toán thời gian chính xác (dùng UTC để tránh timezone issues)
+    // TÃ­nh toÃ¡n thá»i gian chÃ­nh xÃ¡c (dÃ¹ng UTC Ä‘á»ƒ trÃ¡nh timezone issues)
     // Start of today: 00:00:00.000 (local time)
     const startOfToday = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 0, 0, 0, 0);
     // End of today: 23:59:59.999 (local time)
     const endOfToday = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 23, 59, 59, 999);
 
-    // Start of month: ngày 1, 00:00:00.000
+    // Start of month: ngÃ y 1, 00:00:00.000
     const startOfMonth = new Date(now.getFullYear(), now.getMonth(), 1, 0, 0, 0, 0);
-    // End of month: hiện tại
+    // End of month: hiá»‡n táº¡i
     const endOfMonth = now;
 
-    // Tổng đơn hàng hôm nay (tất cả đơn được tạo trong ngày hôm nay)
+    // Tá»•ng Ä‘Æ¡n hÃ ng hÃ´m nay (táº¥t cáº£ Ä‘Æ¡n Ä‘Æ°á»£c táº¡o trong ngÃ y hÃ´m nay)
     const todayOrders = await Order.countDocuments({
       createdAt: {
         $gte: startOfToday,
@@ -316,8 +316,8 @@ router.get('/orders/stats', authenticateToken, requireAdmin, async (req, res) =>
       }
     });
 
-    // Đơn chờ xác nhận (tất cả đơn có orderStatus = 'pending')
-    // Hoặc đơn cũ có status = 'pending' nhưng chưa có orderStatus
+    // ÄÆ¡n chá» xÃ¡c nháº­n (táº¥t cáº£ Ä‘Æ¡n cÃ³ orderStatus = 'pending')
+    // Hoáº·c Ä‘Æ¡n cÅ© cÃ³ status = 'pending' nhÆ°ng chÆ°a cÃ³ orderStatus
     const pendingConfirmation = await Order.countDocuments({
       $or: [
         { orderStatus: 'pending' },
@@ -331,12 +331,12 @@ router.get('/orders/stats', authenticateToken, requireAdmin, async (req, res) =>
       ]
     });
 
-    // Đơn đang xử lý (tất cả đơn có orderStatus = 'processing')
+    // ÄÆ¡n Ä‘ang xá»­ lÃ½ (táº¥t cáº£ Ä‘Æ¡n cÃ³ orderStatus = 'processing')
     const processing = await Order.countDocuments({
       orderStatus: 'processing'
     });
 
-    // Doanh thu hôm nay: Tính tổng giá trị đơn đã thanh toán hôm nay
+    // Doanh thu hÃ´m nay: TÃ­nh tá»•ng giÃ¡ trá»‹ Ä‘Æ¡n Ä‘Ã£ thanh toÃ¡n hÃ´m nay
     const todayOrdersList = await Order.find({
       createdAt: {
         $gte: startOfToday,
@@ -356,7 +356,7 @@ router.get('/orders/stats', authenticateToken, requireAdmin, async (req, res) =>
       return sum;
     }, 0);
 
-    // Doanh thu tháng này: Tính tổng giá trị đơn đã thanh toán trong tháng
+    // Doanh thu thÃ¡ng nÃ y: TÃ­nh tá»•ng giÃ¡ trá»‹ Ä‘Æ¡n Ä‘Ã£ thanh toÃ¡n trong thÃ¡ng
     const monthOrdersList = await Order.find({
       createdAt: {
         $gte: startOfMonth,
@@ -372,8 +372,8 @@ router.get('/orders/stats', authenticateToken, requireAdmin, async (req, res) =>
       return sum + (order.totalAmount || 0);
     }, 0);
 
-    // Debug log để kiểm tra
-    console.log('📊 Order Stats:', {
+    // Debug log Ä‘á»ƒ kiá»ƒm tra
+    console.log('ðŸ“Š Order Stats:', {
       now: now.toISOString(),
       startOfToday: startOfToday.toISOString(),
       endOfToday: endOfToday.toISOString(),
@@ -392,7 +392,7 @@ router.get('/orders/stats', authenticateToken, requireAdmin, async (req, res) =>
       monthRevenue
     });
   } catch (err) {
-    console.error('❌ Error fetching order stats:', err);
+    console.error('âŒ Error fetching order stats:', err);
     res.status(500).json({ message: 'Server error' });
   }
 });
@@ -514,7 +514,7 @@ router.get('/orders', authenticateToken, requireAdmin, async (req, res) => {
       totalPages
     });
   } catch (err) {
-    console.error('❌ Error fetching orders:', err);
+    console.error('âŒ Error fetching orders:', err);
     res.status(500).json({ message: 'Server error' });
   }
 });
@@ -523,241 +523,3 @@ router.get('/orders', authenticateToken, requireAdmin, async (req, res) => {
  * Get order by ID (Admin only)
  * GET /api/admin/orders/:id
  */
-router.get('/orders/:id', authenticateToken, requireAdmin, async (req, res) => {
-  try {
-    const { id } = req.params;
-    const order = await Order.findById(id)
-      .populate('userId', 'username email')
-      .populate('confirmedBy', 'username email');
-
-    if (!order) {
-      return res.status(404).json({ message: 'Không tìm thấy đơn hàng' });
-    }
-
-    res.json(order);
-  } catch (err) {
-    console.error('❌ Error fetching order:', err);
-    res.status(500).json({ message: 'Server error' });
-  }
-});
-
-/**
- * Confirm order (Admin only)
- * PUT /api/admin/orders/:id/confirm
- */
-router.put('/orders/:id/confirm', authenticateToken, requireAdmin, async (req, res) => {
-  try {
-    const { id } = req.params;
-    const order = await Order.findById(id);
-
-    if (!order) {
-      return res.status(404).json({ message: 'Không tìm thấy đơn hàng' });
-    }
-
-    if (order.orderStatus !== 'pending') {
-      return res.status(400).json({ message: 'Chỉ có thể xác nhận đơn hàng ở trạng thái pending' });
-    }
-
-    order.orderStatus = 'confirmed';
-    order.confirmedAt = new Date();
-    order.confirmedBy = req.user.id;
-    await order.save();
-
-    await order.populate('confirmedBy', 'username email');
-
-    // Send confirmation email to user (non-blocking)
-    try {
-      await emailService.sendOrderConfirmedEmailToUser(order);
-      console.log('✅ Order confirmed email sent to user');
-    } catch (emailErr) {
-      console.error('⚠️ Failed to send order confirmed email to user:', emailErr.message);
-    }
-
-    res.json({
-      message: 'Đã xác nhận đơn hàng thành công',
-      order
-    });
-  } catch (err) {
-    console.error('❌ Error confirming order:', err);
-    res.status(500).json({ message: 'Server error' });
-  }
-});
-
-/**
- * Start processing order (Admin only)
- * PUT /api/admin/orders/:id/processing
- */
-router.put('/orders/:id/processing', authenticateToken, requireAdmin, async (req, res) => {
-  try {
-    const { id } = req.params;
-    const order = await Order.findById(id);
-
-    if (!order) {
-      return res.status(404).json({ message: 'Không tìm thấy đơn hàng' });
-    }
-
-    if (order.orderStatus !== 'confirmed') {
-      return res.status(400).json({ message: 'Chỉ có thể bắt đầu xử lý đơn hàng đã được xác nhận' });
-    }
-
-    order.orderStatus = 'processing';
-    order.processingAt = new Date();
-    await order.save();
-
-    // Send processing email to user (non-blocking)
-    try {
-      await emailService.sendOrderProcessingEmailToUser(order);
-      console.log('✅ Order processing email sent to user');
-    } catch (emailErr) {
-      console.error('⚠️ Failed to send order processing email to user:', emailErr.message);
-    }
-
-    res.json({
-      message: 'Đã bắt đầu xử lý đơn hàng',
-      order
-    });
-  } catch (err) {
-    console.error('❌ Error starting order processing:', err);
-    res.status(500).json({ message: 'Server error' });
-  }
-});
-
-/**
- * Complete order (Admin only)
- * PUT /api/admin/orders/:id/complete
- */
-router.put('/orders/:id/complete', authenticateToken, requireAdmin, async (req, res) => {
-  try {
-    const { id } = req.params;
-    const order = await Order.findById(id);
-
-    if (!order) {
-      return res.status(404).json({ message: 'Không tìm thấy đơn hàng' });
-    }
-
-    if (order.orderStatus !== 'processing') {
-      return res.status(400).json({ message: 'Chỉ có thể hoàn thành đơn hàng đang xử lý' });
-    }
-
-    order.orderStatus = 'completed';
-    order.completedAt = new Date();
-    await order.save();
-
-    // Send completed email to user (non-blocking)
-    try {
-      await emailService.sendOrderCompletedEmailToUser(order);
-      console.log('✅ Order completed email sent to user');
-    } catch (emailErr) {
-      console.error('⚠️ Failed to send order completed email to user:', emailErr.message);
-    }
-
-    res.json({
-      message: 'Đã hoàn thành đơn hàng',
-      order
-    });
-  } catch (err) {
-    console.error('❌ Error completing order:', err);
-    res.status(500).json({ message: 'Server error' });
-  }
-});
-
-/**
- * Cancel order (Admin only)
- * PUT /api/admin/orders/:id/cancel
- */
-router.put('/orders/:id/cancel', authenticateToken, requireAdmin, async (req, res) => {
-  try {
-    const { id } = req.params;
-    const order = await Order.findById(id);
-
-    if (!order) {
-      return res.status(404).json({ message: 'Không tìm thấy đơn hàng' });
-    }
-
-    if (order.orderStatus === 'completed') {
-      return res.status(400).json({ message: 'Không thể hủy đơn hàng đã hoàn thành' });
-    }
-
-    if (order.orderStatus === 'cancelled') {
-      return res.status(400).json({ message: 'Đơn hàng đã bị hủy' });
-    }
-
-    order.orderStatus = 'cancelled';
-    await order.save();
-
-    // Send cancellation email to user (non-blocking)
-    const reason = req.body.reason || req.body.cancelReason;
-    try {
-      await emailService.sendOrderCancelledEmailToUser(order, reason);
-      console.log('✅ Order cancelled email sent to user');
-    } catch (emailErr) {
-      console.error('⚠️ Failed to send order cancelled email to user:', emailErr.message);
-    }
-
-    res.json({
-      message: 'Đã hủy đơn hàng',
-      order
-    });
-  } catch (err) {
-    console.error('❌ Error cancelling order:', err);
-    res.status(500).json({ message: 'Server error' });
-  }
-});
-
-/**
- * Update order (Admin only) - for adminNotes and other fields
- * PUT /api/admin/orders/:id
- */
-router.put(
-  '/orders/:id',
-  authenticateToken,
-  requireAdmin,
-  [
-    body('adminNotes').optional().isString().trim(),
-    body('orderStatus').optional().isIn(['pending', 'confirmed', 'processing', 'completed', 'cancelled']),
-    body('paymentStatus').optional().isIn(['pending', 'paid', 'failed'])
-  ],
-  async (req, res) => {
-    const errors = validationResult(req);
-    if (!errors.isEmpty()) {
-      return res.status(400).json({ errors: errors.array() });
-    }
-
-    try {
-      const { id } = req.params;
-      const { adminNotes, orderStatus, paymentStatus } = req.body;
-
-      const order = await Order.findById(id);
-
-      if (!order) {
-        return res.status(404).json({ message: 'Không tìm thấy đơn hàng' });
-      }
-
-      if (adminNotes !== undefined) {
-        order.adminNotes = adminNotes;
-      }
-
-      if (orderStatus !== undefined) {
-        order.orderStatus = orderStatus;
-      }
-
-      if (paymentStatus !== undefined) {
-        order.paymentStatus = paymentStatus;
-      }
-
-      await order.save();
-      await order.populate('confirmedBy', 'username email');
-
-      res.json({
-        message: 'Đã cập nhật đơn hàng',
-        order
-      });
-    } catch (err) {
-      console.error('❌ Error updating order:', err);
-      res.status(500).json({ message: 'Server error' });
-    }
-  }
-);
-
-module.exports = router;
-

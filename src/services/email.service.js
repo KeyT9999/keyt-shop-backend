@@ -3,6 +3,18 @@ const { formatDate } = require('../utils/date.util');
 
 class EmailService {
   /**
+   * Get admin email from environment variable
+   * @returns {string} - Admin email address
+   */
+  getAdminEmail() {
+    const adminEmail = process.env.ADMIN_EMAIL || 'trankimthang0207@gmail.com';
+    if (!adminEmail) {
+      console.warn('⚠️ ADMIN_EMAIL not set in environment variables, using default');
+    }
+    return adminEmail;
+  }
+
+  /**
    * Send password reset email
    * @param {string} toEmail - Recipient email
    * @param {string} username - Username
@@ -12,7 +24,7 @@ class EmailService {
   async sendPasswordResetEmail(toEmail, username, resetLink) {
     const subject = 'Đặt lại mật khẩu - Tiệm Tạp Hóa KeyT';
     const text = this.createPasswordResetEmailContent(username, resetLink);
-    
+
     return await sendEmail({
       to: toEmail,
       subject,
@@ -79,7 +91,7 @@ Trân trọng,
   async sendWelcomeEmail(toEmail, username) {
     const subject = 'Chào mừng bạn đến với Tiệm Tạp Hóa KeyT';
     const text = this.createWelcomeEmailContent(username);
-    
+
     return await sendEmail({
       to: toEmail,
       subject,
@@ -173,9 +185,9 @@ Nếu muốn tiếp tục sử dụng, bạn cứ liên hệ sốp liền nha:
       return { success: true, message: 'No subscriptions to notify' };
     }
 
-    const adminEmail = 'trankimthang0207@gmail.com';
+    const adminEmail = this.getAdminEmail();
     const subject = '[Dự báo] Danh sách gói hết hạn vào ngày mai.';
-    
+
     const lines = subscriptions.map(s => {
       const endStr = formatDate(s.endDate);
       const zalo = s.contactZalo || '-';
@@ -202,9 +214,9 @@ Nếu muốn tiếp tục sử dụng, bạn cứ liên hệ sốp liền nha:
       return { success: true, message: 'No subscriptions to notify' };
     }
 
-    const adminEmail = 'trankimthang0207@gmail.com';
+    const adminEmail = this.getAdminEmail();
     const subject = '[Hết hạn hôm nay] Danh sách gói hết hạn.';
-    
+
     const lines = subscriptions.map(s => {
       const endStr = formatDate(s.endDate);
       const zalo = s.contactZalo || '-';
@@ -231,7 +243,7 @@ Nếu muốn tiếp tục sử dụng, bạn cứ liên hệ sốp liền nha:
   async sendPasswordResetOtpEmail(toEmail, username, otp) {
     const subject = 'Mã OTP đặt lại mật khẩu - Tiệm Tạp Hóa KeyT';
     const text = this.createPasswordResetOtpEmailContent(username, otp);
-    
+
     return await sendEmail({
       to: toEmail,
       subject,
@@ -382,7 +394,7 @@ Trân trọng,
       second: '2-digit'
     });
     const frontendUrl = process.env.FRONTEND_URL || 'http://localhost:5173';
-    
+
     return `
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 📧 Email này được gửi tự động, vui lòng không trả lời email này.
@@ -442,9 +454,9 @@ Trân trọng,
    * @param {Object} order - Order object
    */
   async sendOrderCreatedEmailToUser(order) {
-    const orderNumber = order._id.toString().slice(-8).toUpperCase();
+    const orderNumber = order.orderCode;
     const subject = `Xác nhận đơn hàng #${orderNumber} - Tiệm Tạp Hóa KeyT`;
-    
+
     const itemsHtml = order.items.map((item, index) => `
       <tr>
         <td style="padding: 12px; border-bottom: 1px solid #e5e5e5; text-align: center;">${index + 1}</td>
@@ -543,8 +555,8 @@ Trân trọng,
    * Create text version of order created email
    */
   createOrderCreatedEmailTextContent(order) {
-    const orderNumber = order._id.toString().slice(-8).toUpperCase();
-    const itemsText = order.items.map((item, index) => 
+    const orderNumber = order.orderCode;
+    const itemsText = order.items.map((item, index) =>
       `${index + 1}. ${item.name} x${item.quantity} - ${this.formatPrice(item.price, item.currency)} = ${this.formatPrice(item.price * item.quantity, item.currency)}`
     ).join('\n');
 
@@ -577,10 +589,10 @@ ${order.note ? `📝 Ghi chú của bạn:\n${order.note}\n` : ''}${this.createE
    * @param {Object} order - Order object
    */
   async sendOrderCreatedEmailToAdmin(order) {
-    const adminEmail = 'trankimthang0207@gmail.com';
-    const orderNumber = order._id.toString().slice(-8).toUpperCase();
+    const adminEmail = this.getAdminEmail();
+    const orderNumber = order.orderCode;
     const subject = `[Đơn hàng mới] #${orderNumber} - ${this.formatPrice(order.totalAmount, order.items[0]?.currency || 'VND')}`;
-    
+
     const itemsHtml = order.items.map((item, index) => `
       <tr>
         <td style="padding: 10px; border-bottom: 1px solid #e5e5e5; text-align: center;">${index + 1}</td>
@@ -590,10 +602,10 @@ ${order.note ? `📝 Ghi chú của bạn:\n${order.note}\n` : ''}${this.createE
       </tr>
     `).join('');
 
-    const requiredFieldsHtml = order.items.some(item => item.requiredFieldsData && item.requiredFieldsData.length > 0) 
+    const requiredFieldsHtml = order.items.some(item => item.requiredFieldsData && item.requiredFieldsData.length > 0)
       ? order.items.map((item, itemIndex) => {
-          if (!item.requiredFieldsData || item.requiredFieldsData.length === 0) return '';
-          return `
+        if (!item.requiredFieldsData || item.requiredFieldsData.length === 0) return '';
+        return `
             <div style="margin-top: 10px; padding: 10px; background-color: #fef3c7; border-radius: 6px; border-left: 3px solid #f59e0b;">
               <strong>${item.name}:</strong>
               ${item.requiredFieldsData.map(field => `
@@ -601,7 +613,7 @@ ${order.note ? `📝 Ghi chú của bạn:\n${order.note}\n` : ''}${this.createE
               `).join('')}
             </div>
           `;
-        }).filter(html => html).join('')
+      }).filter(html => html).join('')
       : '';
 
     const adminUrl = process.env.FRONTEND_URL ? `${process.env.FRONTEND_URL}/admin/orders/${order._id}` : `http://localhost:5173/admin/orders/${order._id}`;
@@ -686,16 +698,16 @@ ${order.note ? `📝 Ghi chú của bạn:\n${order.note}\n` : ''}${this.createE
    * Create text version of order created email to admin
    */
   createOrderCreatedEmailToAdminTextContent(order) {
-    const orderNumber = order._id.toString().slice(-8).toUpperCase();
-    const itemsText = order.items.map((item, index) => 
+    const orderNumber = order.orderCode;
+    const itemsText = order.items.map((item, index) =>
       `${index + 1}. ${item.name} x${item.quantity} - ${this.formatPrice(item.price, item.currency)}`
     ).join('\n');
 
     const requiredFieldsText = order.items.some(item => item.requiredFieldsData && item.requiredFieldsData.length > 0)
       ? '\n\n⚠️ Thông tin bổ sung:\n' + order.items.map(item => {
-          if (!item.requiredFieldsData || item.requiredFieldsData.length === 0) return '';
-          return `${item.name}:\n` + item.requiredFieldsData.map(field => `  • ${field.label}: ${field.value}`).join('\n');
-        }).filter(text => text).join('\n\n')
+        if (!item.requiredFieldsData || item.requiredFieldsData.length === 0) return '';
+        return `${item.name}:\n` + item.requiredFieldsData.map(field => `  • ${field.label}: ${field.value}`).join('\n');
+      }).filter(text => text).join('\n\n')
       : '';
 
     const adminUrl = process.env.FRONTEND_URL ? `${process.env.FRONTEND_URL}/admin/orders/${order._id}` : `http://localhost:5173/admin/orders/${order._id}`;
@@ -729,9 +741,9 @@ ${this.createEmailFooter()}`;
    * @param {Object} order - Order object
    */
   async sendPaymentSuccessEmailToUser(order) {
-    const orderNumber = order._id.toString().slice(-8).toUpperCase();
+    const orderNumber = order.orderCode;
     const subject = `Thanh toán thành công - Đơn hàng #${orderNumber}`;
-    
+
     const orderUrl = process.env.FRONTEND_URL ? `${process.env.FRONTEND_URL}/orders/${order._id}` : `http://localhost:5173/orders/${order._id}`;
 
     const content = `
@@ -794,10 +806,10 @@ ${this.createEmailFooter()}`;
    * @param {Object} order - Order object
    */
   async sendPaymentSuccessEmailToAdmin(order) {
-    const adminEmail = 'trankimthang0207@gmail.com';
-    const orderNumber = order._id.toString().slice(-8).toUpperCase();
+    const adminEmail = this.getAdminEmail();
+    const orderNumber = order.orderCode;
     const subject = `[Thanh toán thành công] Đơn hàng #${orderNumber} - ${this.formatPrice(order.totalAmount, order.items[0]?.currency || 'VND')}`;
-    
+
     const adminUrl = process.env.FRONTEND_URL ? `${process.env.FRONTEND_URL}/admin/orders/${order._id}` : `http://localhost:5173/admin/orders/${order._id}`;
 
     const content = `
@@ -859,9 +871,9 @@ ${this.createEmailFooter()}`;
    * @param {Object} order - Order object
    */
   async sendOrderConfirmedEmailToUser(order) {
-    const orderNumber = order._id.toString().slice(-8).toUpperCase();
+    const orderNumber = order.orderCode;
     const subject = `Đơn hàng #${orderNumber} đã được xác nhận`;
-    
+
     const orderUrl = process.env.FRONTEND_URL ? `${process.env.FRONTEND_URL}/orders/${order._id}` : `http://localhost:5173/orders/${order._id}`;
     const confirmedBy = typeof order.confirmedBy === 'object' && order.confirmedBy ? order.confirmedBy.username : 'Admin';
 
@@ -927,9 +939,9 @@ ${this.createEmailFooter()}`;
    * @param {Object} order - Order object
    */
   async sendOrderProcessingEmailToUser(order) {
-    const orderNumber = order._id.toString().slice(-8).toUpperCase();
+    const orderNumber = order.orderCode;
     const subject = `Đơn hàng #${orderNumber} đang được xử lý`;
-    
+
     const orderUrl = process.env.FRONTEND_URL ? `${process.env.FRONTEND_URL}/orders/${order._id}` : `http://localhost:5173/orders/${order._id}`;
 
     const itemsList = order.items.map(item => `• ${item.name} x${item.quantity}`).join('<br>');
@@ -1006,16 +1018,16 @@ ${this.createEmailFooter()}`;
    * @param {Object} order - Order object
    */
   async sendOrderCompletedEmailToUser(order) {
-    const orderNumber = order._id.toString().slice(-8).toUpperCase();
+    const orderNumber = order.orderCode;
     const subject = `🎉 Đơn hàng #${orderNumber} đã hoàn thành!`;
-    
+
     const orderUrl = process.env.FRONTEND_URL ? `${process.env.FRONTEND_URL}/orders/${order._id}` : `http://localhost:5173/orders/${order._id}`;
     const reviewUrl = process.env.FRONTEND_URL ? `${process.env.FRONTEND_URL}/orders/${order._id}` : `http://localhost:5173/orders/${order._id}`;
 
     const itemsList = order.items.map(item => {
       let itemInfo = `• <strong>${item.name}</strong> x${item.quantity}`;
       if (item.requiredFieldsData && item.requiredFieldsData.length > 0) {
-        itemInfo += '<br>' + item.requiredFieldsData.map(field => 
+        itemInfo += '<br>' + item.requiredFieldsData.map(field =>
           `  └ ${field.label}: <strong>${field.value}</strong>`
         ).join('<br>');
       }
@@ -1081,12 +1093,12 @@ Thời gian hoàn thành: ${order.completedAt ? new Date(order.completedAt).toLo
 
 📦 Chi tiết sản phẩm/dịch vụ:
 ${order.items.map(item => {
-  let itemInfo = `• ${item.name} x${item.quantity}`;
-  if (item.requiredFieldsData && item.requiredFieldsData.length > 0) {
-    itemInfo += '\n' + item.requiredFieldsData.map(field => `  └ ${field.label}: ${field.value}`).join('\n');
-  }
-  return itemInfo;
-}).join('\n\n')}
+      let itemInfo = `• ${item.name} x${item.quantity}`;
+      if (item.requiredFieldsData && item.requiredFieldsData.length > 0) {
+        itemInfo += '\n' + item.requiredFieldsData.map(field => `  └ ${field.label}: ${field.value}`).join('\n');
+      }
+      return itemInfo;
+    }).join('\n\n')}
 
 💡 Hướng dẫn sử dụng:
 • Vui lòng kiểm tra thông tin sản phẩm/dịch vụ ở trên
@@ -1113,13 +1125,13 @@ ${this.createEmailFooter()}`;
    * @param {string} reason - Cancellation reason (optional)
    */
   async sendOrderCancelledEmailToUser(order, reason) {
-    const orderNumber = order._id.toString().slice(-8).toUpperCase();
+    const orderNumber = order.orderCode;
     const subject = `Đơn hàng #${orderNumber} đã bị hủy`;
-    
+
     const orderUrl = process.env.FRONTEND_URL ? `${process.env.FRONTEND_URL}/orders/${order._id}` : `http://localhost:5173/orders/${order._id}`;
     const shopUrl = process.env.FRONTEND_URL ? `${process.env.FRONTEND_URL}/products` : `http://localhost:5173/products`;
 
-    const refundInfo = order.paymentStatus === 'paid' 
+    const refundInfo = order.paymentStatus === 'paid'
       ? '<p style="margin: 10px 0 0 0; color: #065f46; font-size: 14px;">💰 Tiền sẽ được hoàn lại trong vòng 3-5 ngày làm việc.</p>'
       : '';
 
@@ -1188,9 +1200,9 @@ ${this.createEmailFooter()}`;
    * @param {string} reason - Failure reason (optional)
    */
   async sendPaymentFailedEmailToUser(order, reason) {
-    const orderNumber = order._id.toString().slice(-8).toUpperCase();
+    const orderNumber = order.orderCode;
     const subject = `Thanh toán thất bại - Đơn hàng #${orderNumber}`;
-    
+
     const orderUrl = process.env.FRONTEND_URL ? `${process.env.FRONTEND_URL}/orders/${order._id}` : `http://localhost:5173/orders/${order._id}`;
 
     const content = `
@@ -1268,9 +1280,9 @@ ${this.createEmailFooter()}`;
    * @param {Object} order - Order object
    */
   async sendPaymentExpiredEmailToUser(order) {
-    const orderNumber = order._id.toString().slice(-8).toUpperCase();
+    const orderNumber = order.orderCode;
     const subject = `Link thanh toán hết hạn - Đơn hàng #${orderNumber}`;
-    
+
     const orderUrl = process.env.FRONTEND_URL ? `${process.env.FRONTEND_URL}/orders/${order._id}` : `http://localhost:5173/orders/${order._id}`;
 
     const content = `
@@ -1331,9 +1343,9 @@ ${this.createEmailFooter()}`;
    * @param {Object} order - Order object
    */
   async sendPaymentReminderEmailToUser(order) {
-    const orderNumber = order._id.toString().slice(-8).toUpperCase();
+    const orderNumber = order.orderCode;
     const subject = `⏰ Nhắc nhở thanh toán - Đơn hàng #${orderNumber}`;
-    
+
     const orderUrl = process.env.FRONTEND_URL ? `${process.env.FRONTEND_URL}/orders/${order._id}` : `http://localhost:5173/orders/${order._id}`;
     const paymentUrl = order.checkoutUrl || orderUrl;
 
@@ -1402,10 +1414,10 @@ ${this.createEmailFooter()}`;
    * @param {number} hoursPending - Number of hours order has been pending
    */
   async sendOrderPendingReminderEmailToAdmin(order, hoursPending) {
-    const adminEmail = 'trankimthang0207@gmail.com';
-    const orderNumber = order._id.toString().slice(-8).toUpperCase();
+    const adminEmail = this.getAdminEmail();
+    const orderNumber = order.orderCode;
     const subject = `[Nhắc nhở] Đơn hàng #${orderNumber} chờ xác nhận ${hoursPending} giờ`;
-    
+
     const adminUrl = process.env.FRONTEND_URL ? `${process.env.FRONTEND_URL}/admin/orders/${order._id}` : `http://localhost:5173/admin/orders/${order._id}`;
 
     const content = `
@@ -1471,16 +1483,16 @@ ${this.createEmailFooter()}`;
    * @param {Object} order - Order object
    */
   async sendOrderSpecialNoteEmailToAdmin(order) {
-    const adminEmail = 'trankimthang0207@gmail.com';
-    const orderNumber = order._id.toString().slice(-8).toUpperCase();
+    const adminEmail = this.getAdminEmail();
+    const orderNumber = order.orderCode;
     const subject = `[Yêu cầu đặc biệt] Đơn hàng #${orderNumber}`;
-    
+
     const adminUrl = process.env.FRONTEND_URL ? `${process.env.FRONTEND_URL}/admin/orders/${order._id}` : `http://localhost:5173/admin/orders/${order._id}`;
 
-    const requiredFieldsHtml = order.items.some(item => item.requiredFieldsData && item.requiredFieldsData.length > 0) 
+    const requiredFieldsHtml = order.items.some(item => item.requiredFieldsData && item.requiredFieldsData.length > 0)
       ? order.items.map((item, itemIndex) => {
-          if (!item.requiredFieldsData || item.requiredFieldsData.length === 0) return '';
-          return `
+        if (!item.requiredFieldsData || item.requiredFieldsData.length === 0) return '';
+        return `
             <div style="margin-top: 10px; padding: 10px; background-color: #fef3c7; border-radius: 6px; border-left: 3px solid #f59e0b;">
               <strong>${item.name}:</strong>
               ${item.requiredFieldsData.map(field => `
@@ -1488,7 +1500,7 @@ ${this.createEmailFooter()}`;
               `).join('')}
             </div>
           `;
-        }).filter(html => html).join('')
+      }).filter(html => html).join('')
       : '';
 
     const content = `
@@ -1545,9 +1557,9 @@ Email: ${order.customer.email}
 Số điện thoại: ${order.customer.phone}
 
 ${order.note ? `📝 Ghi chú khách hàng:\n${order.note}\n\n` : ''}${order.items.some(item => item.requiredFieldsData && item.requiredFieldsData.length > 0) ? '⚠️ Thông tin bổ sung:\n' + order.items.map(item => {
-  if (!item.requiredFieldsData || item.requiredFieldsData.length === 0) return '';
-  return `${item.name}:\n` + item.requiredFieldsData.map(field => `  • ${field.label}: ${field.value}`).join('\n');
-}).filter(text => text).join('\n\n') + '\n\n' : ''}⚠️ Lưu ý: Đơn hàng này có yêu cầu đặc biệt. Vui lòng xem xét và xử lý cẩn thận.
+      if (!item.requiredFieldsData || item.requiredFieldsData.length === 0) return '';
+      return `${item.name}:\n` + item.requiredFieldsData.map(field => `  • ${field.label}: ${field.value}`).join('\n');
+    }).filter(text => text).join('\n\n') + '\n\n' : ''}⚠️ Lưu ý: Đơn hàng này có yêu cầu đặc biệt. Vui lòng xem xét và xử lý cẩn thận.
 
 🔗 Xem và xử lý: ${adminUrl}
 ${this.createEmailFooter()}`;
@@ -1566,9 +1578,9 @@ ${this.createEmailFooter()}`;
    * @param {Array} orders - Orders needing attention
    */
   async sendDailyOrderSummaryEmailToAdmin(stats, orders) {
-    const adminEmail = 'trankimthang0207@gmail.com';
+    const adminEmail = this.getAdminEmail();
     const subject = `[Tổng kết] Đơn hàng hôm nay - ${new Date().toLocaleDateString('vi-VN')}`;
-    
+
     const adminUrl = process.env.FRONTEND_URL ? `${process.env.FRONTEND_URL}/admin/orders` : `http://localhost:5173/admin/orders`;
 
     const ordersHtml = orders && orders.length > 0 ? orders.map(order => {
@@ -1646,9 +1658,9 @@ Thống kê:
 • Doanh thu hôm nay: ${this.formatPrice(stats.todayRevenue || 0, 'VND')}
 
 ${orders && orders.length > 0 ? `\n⚠️ Đơn hàng cần chú ý:\n${orders.map(order => {
-  const orderNumber = order._id.toString().slice(-8).toUpperCase();
-  return `• #${orderNumber} - ${order.customer.name} - ${this.formatPrice(order.totalAmount, order.items[0]?.currency || 'VND')} - ${order.orderStatus}`;
-}).join('\n')}\n` : ''}🔗 Xem tất cả đơn hàng: ${adminUrl}
+      const orderNumber = order._id.toString().slice(-8).toUpperCase();
+      return `• #${orderNumber} - ${order.customer.name} - ${this.formatPrice(order.totalAmount, order.items[0]?.currency || 'VND')} - ${order.orderStatus}`;
+    }).join('\n')}\n` : ''}🔗 Xem tất cả đơn hàng: ${adminUrl}
 ${this.createEmailFooter()}`;
 
     return await sendEmail({

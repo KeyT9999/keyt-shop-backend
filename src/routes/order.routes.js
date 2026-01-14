@@ -3,6 +3,7 @@ const Order = require('../models/order.model');
 const payosService = require('../services/payos.service');
 const emailService = require('../services/email.service');
 const Product = require('../models/product.model');
+const { generateUniqueOrderCode } = require('../utils/orderCode.util');
 
 const router = express.Router();
 
@@ -50,10 +51,15 @@ router.post('/', async (req, res) => {
       );
     }
 
-    const orderData = { 
-      userId, 
-      customer, 
-      items, 
+    // Sinh mã đơn hàng 6 chữ số duy nhất
+    const orderCode = await generateUniqueOrderCode();
+    console.log(`✅ Mã đơn hàng được tạo: ${orderCode}`);
+
+    const orderData = {
+      orderCode,
+      userId,
+      customer,
+      items,
       totalAmount,
       orderStatus: 'pending',
       paymentStatus: 'pending'
@@ -106,7 +112,7 @@ router.post('/', async (req, res) => {
       const paymentData = {
         orderCode: payosOrderCode,
         amount: order.totalAmount,
-        description: `Don hang ${order._id.toString().slice(-8)}`,
+        description: `Don hang #${order.orderCode}`,
         cancelUrl,
         returnUrl,
         buyerInfo: {

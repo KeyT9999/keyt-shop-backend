@@ -75,8 +75,9 @@ app.get('/api/test-email', async (req, res) => {
     }
 
     // Send test email to admin
+    const adminEmail = emailService.getAdminEmail();
     const testEmail = {
-      to: 'trankimthang0207@gmail.com',
+      to: adminEmail,
       subject: '🧪 Test Email - Tiệm Tạp Hóa KeyT',
       text: `Đây là email test từ hệ thống Tiệm Tạp Hóa KeyT.
 
@@ -106,7 +107,7 @@ Hệ thống Tiệm Tạp Hóa KeyT`,
     if (result.success) {
       res.json({
         success: true,
-        message: 'Test email đã được gửi thành công đến trankimthang0207@gmail.com',
+        message: `Test email đã được gửi thành công đến ${adminEmail}`,
         messageId: result.messageId
       });
     } else {

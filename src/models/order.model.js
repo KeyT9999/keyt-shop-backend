@@ -50,6 +50,15 @@ const orderItemSchema = new mongoose.Schema(
 
 const orderSchema = new mongoose.Schema(
   {
+    // Mã đơn hàng 6 chữ số duy nhất cho khách hàng tra cứu
+    orderCode: {
+      type: Number,
+      required: true,
+      unique: true,
+      min: 100000,
+      max: 999999,
+      index: true
+    },
     userId: {
       type: mongoose.Schema.Types.ObjectId,
       ref: 'User',
