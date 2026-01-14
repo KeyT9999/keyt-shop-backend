@@ -375,10 +375,15 @@ Trân trọng,
    * Helper function to format price
    */
   formatPrice(amount, currency = 'VND') {
-    if (currency === 'VND') {
+    // Normalize currency code (handle VNĐ -> VND)
+    const normalizedCurrency = typeof currency === 'string' 
+      ? currency.replace(/VNĐ|VND/i, 'VND').toUpperCase()
+      : 'VND';
+    
+    if (normalizedCurrency === 'VND') {
       return new Intl.NumberFormat('vi-VN').format(amount) + ' VNĐ';
     }
-    return new Intl.NumberFormat('en-US', { style: 'currency', currency }).format(amount);
+    return new Intl.NumberFormat('en-US', { style: 'currency', currency: normalizedCurrency }).format(amount);
   }
 
   /**

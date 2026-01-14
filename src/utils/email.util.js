@@ -25,6 +25,14 @@ const replyToEmail = process.env.MAIL_REPLY_TO || process.env.SMTP_USER || 'tiem
  * @returns {Promise<Object>} - Result with success flag and messageId or error
  */
 async function sendEmail({ to, subject, text, html }) {
+  // Check if email password is configured
+  const emailPassword = process.env.MAIL_PASSWORD || process.env.SMTP_PASS;
+  if (!emailPassword) {
+    const errorMsg = 'Email password (MAIL_PASSWORD or SMTP_PASS) is not configured in environment variables';
+    console.error('❌ Email configuration error:', errorMsg);
+    throw new Error(errorMsg);
+  }
+
   try {
     const info = await transporter.sendMail({
       from: fromEmail,
@@ -38,7 +46,8 @@ async function sendEmail({ to, subject, text, html }) {
     return { success: true, messageId: info.messageId };
   } catch (error) {
     console.error('❌ Email error:', error);
-    return { success: false, error: error.message };
+    // Throw error instead of returning { success: false } so that try-catch blocks can catch it
+    throw new Error(`Failed to send email: ${error.message}`);
   }
 }
 
