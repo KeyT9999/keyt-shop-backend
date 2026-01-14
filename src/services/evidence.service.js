@@ -2,7 +2,7 @@ const axios = require('axios');
 const pdfParse = require('pdf-parse');
 const { GoogleGenerativeAI } = require('@google/generative-ai');
 
-const MAX_RESULTS = 5;
+const MAX_RESULTS = 10;
 const MAX_CONTENT_LENGTH = 6 * 1024 * 1024; // 6MB limit to avoid huge downloads
 const REQUEST_TIMEOUT_MS = 20000;
 
@@ -11,7 +11,6 @@ const PREFERRED_SOURCES = [
   // General top journals
   { label: 'Nature', domain: /(?:^|\.)nature\.com$/, score: 1.0 },
   { label: 'Science', domain: /(?:^|\.)science\.org$/, score: 1.0 },
-  { label: 'PNAS', domain: /(?:^|\.)pnas\.org$/, score: 0.95 },
   // Medicine / Biology
   { label: 'The Lancet', domain: /(?:^|\.)thelancet\.com$/, score: 1.0 },
   { label: 'NEJM', domain: /(?:^|\.)nejm\.org$/, score: 1.0 },
