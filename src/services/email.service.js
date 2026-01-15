@@ -77,7 +77,7 @@ Trân trọng,
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 📧 Email này được gửi tự động, vui lòng không trả lời email này.
-🔗 Website: https://mailapp-07zp.onrender.com
+🔗 Website: https://taphoakeyt.vercel.app
 ⏰ Thời gian gửi: ${now}
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`;
   }
@@ -114,7 +114,7 @@ Trân trọng,
       second: '2-digit'
     });
 
-    const frontendUrl = process.env.FRONTEND_URL || 'https://mailapp-07zp.onrender.com';
+    const frontendUrl = process.env.FRONTEND_URL || 'https://taphoakeyt.vercel.app';
 
     return `🎉 Xin chào ${username},
 
@@ -328,7 +328,7 @@ Trân trọng,
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 📧 Email này được gửi tự động, vui lòng không trả lời email này.
-🔗 Website: https://mailapp-07zp.onrender.com
+🔗 Website: https://taphoakeyt.vercel.app
 ⏰ Thời gian gửi: ${now}
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`;
   }
@@ -366,7 +366,7 @@ Trân trọng,
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 📧 Email này được gửi tự động, vui lòng không trả lời email này.
-🔗 Website: https://mailapp-07zp.onrender.com
+🔗 Website: https://taphoakeyt.vercel.app
 ⏰ Thời gian gửi: ${now}
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`;
   }
