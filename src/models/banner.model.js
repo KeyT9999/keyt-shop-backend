@@ -12,7 +12,13 @@ const bannerSchema = new mongoose.Schema(
         },
         imageUrl: {
             type: String,
-            required: true
+            required: function() {
+                return !this.youtubeUrl; // imageUrl is required if no youtubeUrl
+            }
+        },
+        youtubeUrl: {
+            type: String,
+            trim: true
         },
         link: {
             type: String,

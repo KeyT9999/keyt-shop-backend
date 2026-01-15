@@ -24,26 +24,6 @@ router.post('/get-otp', authenticateToken, async (req, res) => {
       return res.status(404).json({ message: 'Không tìm thấy email ChatGPT trong hệ thống!' });
     }
 
-    // Get client IP and user agent
-    const ipAddress = req.headers['x-forwarded-for']?.split(',')[0] || 
-                      req.headers['x-real-ip'] || 
-                      req.connection.remoteAddress;
-    const userAgent = req.headers['user-agent'];
-
-    // Check IP limit (max 2 IPs)
-    const allowed = await otpRequestService.recordOtpRequestWithIpLimit(
-      req.user.id,
-      normalized,
-      ipAddress,
-      userAgent
-    );
-
-    if (!allowed) {
-      return res.status(403).json({
-        message: 'Bạn chỉ được lấy OTP từ tối đa 2 thiết bị/IP đầu tiên đã đăng ký. Nếu cần hỗ trợ, vui lòng liên hệ admin.'
-      });
-    }
-
     // Generate OTP
     const otp = getTOTPCode(account.secretKey);
 

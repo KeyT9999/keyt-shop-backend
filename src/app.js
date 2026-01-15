@@ -30,19 +30,34 @@ const corsOptions = {
       process.env.FRONTEND_URL || 'http://localhost:5173',
       'http://localhost:5173',
       'http://localhost:3000',
-      // Add your Vercel domain here after deployment
-      // Example: 'https://your-app.vercel.app'
+      'https://taphoakeyt.vercel.app',
+      'https://*.vercel.app', // Allow all Vercel preview deployments
     ];
 
     // Check if origin is allowed
-    if (allowedOrigins.some(allowed => origin.includes(allowed.replace(/^https?:\/\//, '')))) {
+    const originDomain = origin.replace(/^https?:\/\//, '');
+    
+    // Check exact match or Vercel preview deployments
+    const isAllowed = allowedOrigins.some(allowed => {
+      const allowedDomain = allowed.replace(/^https?:\/\//, '');
+      // Exact match
+      if (originDomain === allowedDomain) return true;
+      // Vercel preview deployments (*.vercel.app)
+      if (allowedDomain === '*.vercel.app' && originDomain.endsWith('.vercel.app')) return true;
+      // Partial match (for flexible matching)
+      if (originDomain.includes(allowedDomain) || allowedDomain.includes(originDomain)) return true;
+      return false;
+    });
+
+    if (isAllowed) {
       callback(null, true);
     } else {
-      // In production, you might want to be more strict
-      // For now, allow all origins in development
+      // In production, reject unknown origins
       if (process.env.NODE_ENV === 'production') {
+        console.warn(`⚠️ CORS blocked origin: ${origin}`);
         callback(new Error('Not allowed by CORS'));
       } else {
+        // In development, allow all
         callback(null, true);
       }
     }
