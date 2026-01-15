@@ -11,7 +11,7 @@ async function createAdmin() {
     // Admin credentials
     const adminData = {
       username: 'admin-keyt',
-      email: 'admin@keytshop.com',
+      email: 'trankimthang0207@gmail.com',
       password: 'Admin123456',
       admin: true,
       emailVerified: true, // Set to true so admin can login immediately
@@ -62,7 +62,7 @@ async function createAdmin() {
 
     console.log('\n📋 Login credentials:');
     console.log('Username: admin-keyt');
-    console.log('Email: admin@keytshop.com');
+    console.log('Email: trankimthang0207@gmail.com');
     console.log('Password: Admin123456');
     console.log('\n⚠️  Please change the password after first login!');
 
