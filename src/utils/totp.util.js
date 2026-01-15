@@ -46,9 +46,10 @@ function getTOTPCode(secretKey) {
   // Decode base32 secret
   const key = base32Decode(secretKey);
   
-  // Create time buffer (8 bytes, big-endian)
-  const timeBuffer = Buffer.allocUnsafe(8);
-  timeBuffer.writeUInt32BE(time, 4);
+  // Create time buffer (8 bytes, big-endian) - MUST initialize with zeros!
+  const timeBuffer = Buffer.alloc(8); // Use alloc() instead of allocUnsafe() to initialize with zeros
+  timeBuffer.writeUInt32BE(0, 0); // Write 0 to high-order bytes
+  timeBuffer.writeUInt32BE(time, 4); // Write time counter to low-order bytes
   
   // Calculate HMAC-SHA1
   const hmac = crypto.createHmac('sha1', key);
