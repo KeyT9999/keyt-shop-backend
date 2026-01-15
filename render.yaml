@@ -15,7 +15,7 @@ services:
       - key: JWT_SECRET
         sync: false
       - key: FRONTEND_URL
-        sync: false
+        value: https://taphoakeyt.vercel.app
       - key: MAIL_HOST
         value: smtp.gmail.com
       - key: MAIL_PORT
