@@ -24,7 +24,7 @@ router.post('/', async (req, res) => {
   }
 
   try {
-    // Check stock and reserve
+    // Check stock availability (but don't deduct yet - stock will be deducted when order is completed)
     for (const item of items) {
       const product = await Product.findById(item.productId);
       if (!product) {
@@ -33,22 +33,18 @@ router.post('/', async (req, res) => {
       if (product.status === 'discontinued') {
         return res.status(400).json({ message: `Sản phẩm đã ngừng kinh doanh: ${product.name}` });
       }
-      if (product.status === 'out_of_stock' || (product.stock || 0) < item.quantity) {
-        return res.status(400).json({ message: `Sản phẩm ${product.name} không đủ tồn kho.` });
-      }
-    }
-
-    // Deduct stock
-    for (const item of items) {
-      await Product.findOneAndUpdate(
-        { _id: item.productId, stock: { $gte: item.quantity } },
-        {
-          $inc: { stock: -item.quantity },
-          $set: {
-            status: 'in_stock'
-          }
+      // For preloaded accounts, check available (unused) accounts
+      if (product.isPreloadedAccount && product.preloadedAccounts) {
+        const availableAccountsCount = product.preloadedAccounts.filter((acc) => !acc.used).length;
+        if (availableAccountsCount < item.quantity) {
+          return res.status(400).json({ message: `Sản phẩm ${product.name} không đủ tài khoản có sẵn (còn lại: ${availableAccountsCount}).` });
         }
-      );
+      } else {
+        // For regular products, check stock
+        if (product.status === 'out_of_stock' || (product.stock || 0) < item.quantity) {
+          return res.status(400).json({ message: `Sản phẩm ${product.name} không đủ tồn kho.` });
+        }
+      }
     }
 
     // Sinh mã đơn hàng 6 chữ số duy nhất
@@ -69,31 +65,13 @@ router.post('/', async (req, res) => {
     }
     const order = await Order.create(orderData);
 
-    // Send emails to admin and user immediately (non-blocking)
-    try {
-      await emailService.sendOrderCreatedEmailToAdmin(order);
-      console.log('✅ Order created email sent to admin');
-    } catch (emailErr) {
-      console.error('⚠️ Failed to send order created email to admin:', emailErr.message);
-    }
-
+    // Send email to user immediately when order is created (non-blocking)
+    // Note: Email "Đơn Hàng Mới" for admin (combined with payment success and special note if any) will be sent when payment is successful
     try {
       await emailService.sendOrderCreatedEmailToUser(order);
       console.log('✅ Order created email sent to user');
     } catch (emailErr) {
       console.error('⚠️ Failed to send order created email to user:', emailErr.message);
-    }
-
-    // Send special note email if order has note or requiredFieldsData
-    const hasSpecialNote = order.note && order.note.trim();
-    const hasRequiredFields = order.items.some(item => item.requiredFieldsData && item.requiredFieldsData.length > 0);
-    if (hasSpecialNote || hasRequiredFields) {
-      try {
-        await emailService.sendOrderSpecialNoteEmailToAdmin(order);
-        console.log('✅ Special note email sent to admin');
-      } catch (emailErr) {
-        console.error('⚠️ Failed to send special note email to admin:', emailErr.message);
-      }
     }
 
     // Automatically create PayOS payment link

@@ -43,6 +43,10 @@ const orderItemSchema = new mongoose.Schema(
       createdAt: {
         type: Date
       }
+    },
+    // Account đã gửi cho khách hàng (nếu sản phẩm là preloaded account)
+    deliveredAccount: {
+      type: String  // Format: "username:password"
     }
   },
   { _id: false }

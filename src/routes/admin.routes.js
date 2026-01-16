@@ -8,6 +8,7 @@ const subscriptionService = require('../services/subscription.service');
 const emailService = require('../services/email.service');
 const User = require('../models/user.model');
 const Order = require('../models/order.model');
+const Product = require('../models/product.model');
 
 const router = express.Router();
 
@@ -303,10 +304,22 @@ router.get('/orders/stats', authenticateToken, requireAdmin, async (req, res) =>
     // End of today: 23:59:59.999 (local time)
     const endOfToday = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 23, 59, 59, 999);
 
+    // Start of week: Monday of current week
+    const startOfWeek = new Date(now);
+    const dayOfWeek = now.getDay();
+    const diff = now.getDate() - dayOfWeek + (dayOfWeek === 0 ? -6 : 1); // Adjust when day is Sunday
+    startOfWeek.setDate(diff);
+    startOfWeek.setHours(0, 0, 0, 0);
+    
     // Start of month: ngày 1, 00:00:00.000
     const startOfMonth = new Date(now.getFullYear(), now.getMonth(), 1, 0, 0, 0, 0);
     // End of month: hiện tại
     const endOfMonth = now;
+    
+    // Start of year: ngày 1 tháng 1, 00:00:00.000
+    const startOfYear = new Date(now.getFullYear(), 0, 1, 0, 0, 0, 0);
+    // End of year: hiện tại
+    const endOfYear = now;
 
     // Tổng đơn hàng hôm nay (tất cả đơn được tạo trong ngày hôm nay)
     const todayOrders = await Order.countDocuments({
@@ -336,7 +349,7 @@ router.get('/orders/stats', authenticateToken, requireAdmin, async (req, res) =>
       orderStatus: 'processing'
     });
 
-    // Doanh thu hôm nay: Tính tổng giá trị đơn đã thanh toán hôm nay
+    // Doanh thu hôm nay: Tính tổng giá trị đơn đã thanh toán hôm nay (loại bỏ cancelled)
     const todayOrdersList = await Order.find({
       createdAt: {
         $gte: startOfToday,
@@ -345,18 +358,20 @@ router.get('/orders/stats', authenticateToken, requireAdmin, async (req, res) =>
       $or: [
         { paymentStatus: 'paid' },
         { status: 'paid', paymentStatus: { $exists: false } }
-      ]
+      ],
+      orderStatus: { $ne: 'cancelled' }
     });
 
     const todayRevenue = todayOrdersList.reduce((sum, order) => {
       const isPaid = order.paymentStatus === 'paid' || (order.status === 'paid' && !order.paymentStatus);
-      if (isPaid) {
+      const isNotCancelled = order.orderStatus !== 'cancelled';
+      if (isPaid && isNotCancelled) {
         return sum + (order.totalAmount || 0);
       }
       return sum;
     }, 0);
 
-    // Doanh thu tháng này: Tính tổng giá trị đơn đã thanh toán trong tháng
+    // Doanh thu tháng này: Tính tổng giá trị đơn đã thanh toán trong tháng (loại bỏ cancelled)
     const monthOrdersList = await Order.find({
       createdAt: {
         $gte: startOfMonth,
@@ -365,11 +380,58 @@ router.get('/orders/stats', authenticateToken, requireAdmin, async (req, res) =>
       $or: [
         { paymentStatus: 'paid' },
         { status: 'paid', paymentStatus: { $exists: false } }
-      ]
+      ],
+      orderStatus: { $ne: 'cancelled' }
     });
 
     const monthRevenue = monthOrdersList.reduce((sum, order) => {
-      return sum + (order.totalAmount || 0);
+      const isNotCancelled = order.orderStatus !== 'cancelled';
+      if (isNotCancelled) {
+        return sum + (order.totalAmount || 0);
+      }
+      return sum;
+    }, 0);
+
+    // Doanh thu tuần này: Tính tổng giá trị đơn đã thanh toán trong tuần (loại bỏ cancelled)
+    const weekOrdersList = await Order.find({
+      createdAt: {
+        $gte: startOfWeek,
+        $lte: now
+      },
+      $or: [
+        { paymentStatus: 'paid' },
+        { status: 'paid', paymentStatus: { $exists: false } }
+      ],
+      orderStatus: { $ne: 'cancelled' }
+    });
+
+    const weekRevenue = weekOrdersList.reduce((sum, order) => {
+      const isNotCancelled = order.orderStatus !== 'cancelled';
+      if (isNotCancelled) {
+        return sum + (order.totalAmount || 0);
+      }
+      return sum;
+    }, 0);
+
+    // Doanh thu năm này: Tính tổng giá trị đơn đã thanh toán trong năm (loại bỏ cancelled)
+    const yearOrdersList = await Order.find({
+      createdAt: {
+        $gte: startOfYear,
+        $lte: endOfYear
+      },
+      $or: [
+        { paymentStatus: 'paid' },
+        { status: 'paid', paymentStatus: { $exists: false } }
+      ],
+      orderStatus: { $ne: 'cancelled' }
+    });
+
+    const yearRevenue = yearOrdersList.reduce((sum, order) => {
+      const isNotCancelled = order.orderStatus !== 'cancelled';
+      if (isNotCancelled) {
+        return sum + (order.totalAmount || 0);
+      }
+      return sum;
     }, 0);
 
     // Debug log để kiểm tra
@@ -381,7 +443,9 @@ router.get('/orders/stats', authenticateToken, requireAdmin, async (req, res) =>
       pendingConfirmation,
       processing,
       todayRevenue,
-      monthRevenue
+      weekRevenue,
+      monthRevenue,
+      yearRevenue
     });
 
     res.json({
@@ -389,7 +453,9 @@ router.get('/orders/stats', authenticateToken, requireAdmin, async (req, res) =>
       pendingConfirmation,
       processing,
       todayRevenue,
-      monthRevenue
+      weekRevenue,
+      monthRevenue,
+      yearRevenue
     });
   } catch (err) {
     console.error('❌ Error fetching order stats:', err);
@@ -629,7 +695,7 @@ router.put('/orders/:id/processing', authenticateToken, requireAdmin, async (req
 router.put('/orders/:id/complete', authenticateToken, requireAdmin, async (req, res) => {
   try {
     const { id } = req.params;
-    const order = await Order.findById(id);
+    const order = await Order.findById(id).populate('userId', 'email');
 
     if (!order) {
       return res.status(404).json({ message: 'Không tìm thấy đơn hàng' });
@@ -643,9 +709,154 @@ router.put('/orders/:id/complete', authenticateToken, requireAdmin, async (req, 
     order.completedAt = new Date();
     await order.save();
 
-    // Send completed email to user (non-blocking)
+    // Auto-create subscriptions if order is paid and completed
+    if (order.paymentStatus === 'paid') {
+      try {
+        // Get customer email (prefer userId email, fallback to order.customer.email)
+        const customerEmail = (order.userId && order.userId.email) || order.customer.email;
+        
+        // Create subscription for each item in the order
+        for (const item of order.items) {
+          try {
+            // Get product details to calculate duration
+            const product = await Product.findById(item.productId);
+            if (!product) {
+              console.warn(`⚠️ Product ${item.productId} not found for order ${order._id}`);
+              continue;
+            }
+
+            // Calculate end date based on product name or billingCycle
+            const startDate = order.completedAt || new Date();
+            const endDate = calculateSubscriptionEndDate(product, item.name, startDate);
+
+            // Create subscription
+            await subscriptionService.save({
+              customerEmail: customerEmail.toLowerCase(),
+              serviceName: item.name,
+              startDate: startDate,
+              endDate: endDate,
+              contactZalo: order.customer.phone || null,
+              contactInstagram: null
+            });
+
+            console.log(`✅ Created subscription for ${customerEmail} - ${item.name}`);
+          } catch (subErr) {
+            console.error(`❌ Failed to create subscription for item ${item.name}:`, subErr.message);
+            // Continue with other items even if one fails
+          }
+        }
+      } catch (subErr) {
+        console.error('❌ Error creating subscriptions:', subErr.message);
+        // Don't fail the order completion if subscription creation fails
+      }
+    }
+
+    // Get completion instructions from products in the order and handle preloaded accounts
+    let completionInstructions = '';
+    const deliveredAccounts = [];
+    
     try {
-      await emailService.sendOrderCompletedEmailToUser(order);
+      // Populate productId in order items if not already populated
+      await order.populate('items.productId');
+      
+      // Get all products from order items
+      const productIds = order.items.map(item => item.productId?._id || item.productId);
+      const products = await Product.find({ _id: { $in: productIds } });
+      const productMap = new Map(products.map(p => [p._id.toString(), p]));
+      
+      // Combine all completion instructions (unique, non-empty)
+      const instructionsSet = new Set();
+      
+      // Process each order item for preloaded accounts
+      for (let i = 0; i < order.items.length; i++) {
+        const item = order.items[i];
+        const productId = item.productId?._id?.toString() || item.productId?.toString();
+        const product = productMap.get(productId);
+        
+        if (!product) continue;
+        
+        // Collect completion instructions
+        if (product.completionInstructions && product.completionInstructions.trim()) {
+          instructionsSet.add(product.completionInstructions.trim());
+        }
+        
+        // Handle preloaded accounts - tự động lấy account chưa dùng
+        if (product.isPreloadedAccount && product.preloadedAccounts && product.preloadedAccounts.length > 0) {
+          // Tìm 1 account chưa dùng
+          const availableAccount = product.preloadedAccounts.find((acc) => !acc.used);
+          
+          if (availableAccount) {
+            // Đánh dấu account đã dùng
+            availableAccount.used = true;
+            availableAccount.usedAt = new Date();
+            availableAccount.usedForOrder = order._id;
+            
+            // Lưu account vào order item (nếu item chưa có deliveredAccount field, ta cần lưu trực tiếp vào database)
+            deliveredAccounts.push({
+              itemIndex: i,
+              account: availableAccount.account
+            });
+            
+            // Giảm stock khi account được sử dụng
+            if (product.stock > 0) {
+              product.stock -= 1;
+            }
+            
+            // Lưu product với account đã đánh dấu used và stock đã giảm
+            await product.save();
+            
+            console.log(`✅ Assigned preloaded account to order ${order._id}, item ${i}: ${availableAccount.account.split(':')[0]}, stock updated to ${product.stock}`);
+          } else {
+            console.warn(`⚠️ No available preloaded account for product ${product.name} in order ${order._id}`);
+          }
+        }
+      }
+      
+      // Join with newlines if multiple products have instructions
+      completionInstructions = Array.from(instructionsSet).join('\n\n');
+      
+      // Cập nhật order.items với deliveredAccount (nếu order schema hỗ trợ)
+      // Nếu không, ta sẽ pass deliveredAccounts vào email service
+      if (deliveredAccounts.length > 0) {
+        for (const { itemIndex, account } of deliveredAccounts) {
+          if (order.items[itemIndex]) {
+            order.items[itemIndex].deliveredAccount = account;
+          }
+        }
+        await order.save();
+      }
+
+      // Deduct stock for all products when order is completed
+      // Note: Preloaded accounts already had stock deducted above
+      for (let i = 0; i < order.items.length; i++) {
+        const item = order.items[i];
+        const productId = item.productId?._id?.toString() || item.productId?.toString();
+        const product = productMap.get(productId);
+        
+        if (!product) continue;
+        
+        // Skip preloaded accounts (already handled above)
+        if (product.isPreloadedAccount && product.preloadedAccounts && product.preloadedAccounts.length > 0) {
+          continue;
+        }
+        
+        // Deduct stock for regular products
+        if (product.stock >= item.quantity) {
+          product.stock -= item.quantity;
+          await product.save();
+          console.log(`✅ Deducted stock for product ${product.name}: -${item.quantity}, remaining: ${product.stock}`);
+        } else {
+          console.warn(`⚠️ Insufficient stock for product ${product.name}: requested ${item.quantity}, available ${product.stock}`);
+        }
+      }
+    } catch (instrErr) {
+      console.error('⚠️ Error getting completion instructions or handling accounts:', instrErr.message);
+      // Continue without instructions/accounts if there's an error
+    }
+
+    // Send completed email to user (non-blocking) with completion instructions and accounts
+    try {
+      await emailService.sendOrderCompletedEmailToUser(order, completionInstructions);
       console.log('✅ Order completed email sent to user');
     } catch (emailErr) {
       console.error('⚠️ Failed to send order completed email to user:', emailErr.message);
@@ -660,6 +871,52 @@ router.put('/orders/:id/complete', authenticateToken, requireAdmin, async (req, 
     res.status(500).json({ message: 'Server error' });
   }
 });
+
+/**
+ * Helper function to calculate subscription end date
+ * @param {Object} product - Product object
+ * @param {string} itemName - Item name from order
+ * @param {Date} startDate - Start date
+ * @returns {Date} - End date
+ */
+function calculateSubscriptionEndDate(product, itemName, startDate) {
+  const endDate = new Date(startDate);
+  
+  // Try to parse duration from item name (e.g., "Canva Pro 1 Năm", "Netflix Premium 3 tháng")
+  const nameMatch = itemName.match(/(\d+)\s*(năm|tháng|month|year)/i);
+  if (nameMatch) {
+    const duration = parseInt(nameMatch[1]);
+    const unit = nameMatch[2].toLowerCase();
+    
+    if (unit === 'năm' || unit === 'year') {
+      endDate.setFullYear(endDate.getFullYear() + duration);
+    } else if (unit === 'tháng' || unit === 'month') {
+      endDate.setMonth(endDate.getMonth() + duration);
+    }
+    return endDate;
+  }
+
+  // Fallback to product billingCycle
+  if (product.billingCycle) {
+    const billingMatch = product.billingCycle.match(/(\d+)\s*(năm|tháng|month|year)/i);
+    if (billingMatch) {
+      const duration = parseInt(billingMatch[1]);
+      const unit = billingMatch[2].toLowerCase();
+      
+      if (unit === 'năm' || unit === 'year') {
+        endDate.setFullYear(endDate.getFullYear() + duration);
+      } else if (unit === 'tháng' || unit === 'month') {
+        endDate.setMonth(endDate.getMonth() + duration);
+      }
+      return endDate;
+    }
+  }
+
+  // Default: 1 year if no duration found
+  console.warn(`⚠️ Could not parse duration from product "${itemName}", defaulting to 1 year`);
+  endDate.setFullYear(endDate.getFullYear() + 1);
+  return endDate;
+}
 
 /**
  * Cancel order (Admin only)

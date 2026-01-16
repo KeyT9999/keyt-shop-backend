@@ -187,6 +187,50 @@ class SubscriptionService {
   }
 
   /**
+   * Find subscriptions ending today and not yet expired notified
+   * @returns {Promise<Array>} - Subscriptions to notify as expired
+   */
+  async findEndingTodayAndNotExpiredNotified() {
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+    
+    const todayEnd = new Date(today);
+    todayEnd.setHours(23, 59, 59, 999);
+
+    return await ServiceSubscription.find({
+      endDate: { $gte: today, $lte: todayEnd },
+      expiredNotified: { $ne: true }
+    });
+  }
+
+  /**
+   * Notify customers about expired subscriptions (T0 - on expiry date)
+   * @returns {Promise<number>} - Number of notifications sent
+   */
+  async notifyCustomersExpiredToday() {
+    const expired = await this.findEndingTodayAndNotExpiredNotified();
+    if (expired.length === 0) return 0;
+
+    let notified = 0;
+    for (const subscription of expired) {
+      try {
+        await emailService.sendSubscriptionExpiredToCustomer(
+          subscription.customerEmail,
+          subscription.serviceName,
+          subscription.endDate
+        );
+        subscription.expiredNotified = true;
+        await subscription.save();
+        notified++;
+      } catch (err) {
+        console.error(`Failed to notify expired ${subscription.customerEmail}:`, err);
+      }
+    }
+
+    return notified;
+  }
+
+  /**
    * Send reminder now for a subscription
    * @param {string} subscriptionId - Subscription ID
    * @returns {Promise<boolean>} - True if sent successfully

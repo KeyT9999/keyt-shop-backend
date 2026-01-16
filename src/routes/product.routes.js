@@ -94,7 +94,17 @@ router.post(
           type: field.type || 'text',
           placeholder: field.placeholder?.trim() || '',
           required: field.required !== undefined ? field.required : true
-        })).filter(field => field.label && field.placeholder)
+        })).filter(field => field.label && field.placeholder),
+        completionInstructions: req.body.completionInstructions || '',
+        isPreloadedAccount: req.body.isPreloadedAccount || false,
+        preloadedAccounts: (req.body.preloadedAccounts || []).map(acc => ({
+          account: acc.account || '',
+          used: acc.used || false
+        })).filter(acc => acc.account),
+        // Nếu là preloaded account, tự động đồng bộ stock với số accounts chưa dùng
+        stock: req.body.isPreloadedAccount 
+          ? (req.body.preloadedAccounts || []).filter(acc => acc.account && !acc.used).length 
+          : (req.body.stock || 0)
       };
 
       const product = new Product(productData);
@@ -180,6 +190,39 @@ router.put(
           placeholder: field.placeholder?.trim() || '',
           required: field.required !== undefined ? field.required : true
         })).filter(field => field.label && field.placeholder);
+      }
+      if (req.body.completionInstructions !== undefined) {
+        product.completionInstructions = req.body.completionInstructions || '';
+      }
+      if (req.body.isPreloadedAccount !== undefined) {
+        product.isPreloadedAccount = req.body.isPreloadedAccount || false;
+      }
+      if (req.body.preloadedAccounts !== undefined) {
+        // Chỉ cập nhật nếu là mảng mới từ frontend
+        // Giữ lại trạng thái "used" của accounts hiện có nếu account đó vẫn còn trong danh sách mới
+        const newAccounts = req.body.preloadedAccounts || [];
+        const existingAccountsMap = new Map();
+        product.preloadedAccounts.forEach((acc) => {
+          if (acc.used) {
+            existingAccountsMap.set(acc.account, acc);
+          }
+        });
+        
+        product.preloadedAccounts = newAccounts.map((acc) => {
+          const existing = existingAccountsMap.get(acc.account);
+          return {
+            account: acc.account || '',
+            used: existing ? existing.used : (acc.used || false),
+            usedAt: existing ? existing.usedAt : undefined,
+            usedForOrder: existing ? existing.usedForOrder : undefined
+          };
+        }).filter(acc => acc.account);
+        
+        // Tự động đồng bộ stock với số accounts chưa dùng
+        if (product.isPreloadedAccount) {
+          const unusedAccountsCount = product.preloadedAccounts.filter(acc => !acc.used).length;
+          product.stock = unusedAccountsCount;
+        }
       }
 
       await product.save();
