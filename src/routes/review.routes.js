@@ -119,7 +119,7 @@ router.get('/product/:productId', async (req, res) => {
 
     // Tính toán thống kê rating
     const stats = await Review.aggregate([
-      { $match: { productId: require('mongoose').Types.ObjectId(productId), status: 'active' } },
+      { $match: { productId: new require('mongoose').Types.ObjectId(productId), status: 'active' } },
       {
         $group: {
           _id: null,
