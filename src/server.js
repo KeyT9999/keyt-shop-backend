@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 5000;
 
 async function startServer() {
   await connectDB();
-  await seedProducts();
+  // await seedProducts(); // Disabled: Auto-seed products on server start
   
   // Initialize scheduled jobs
   initializeScheduler();
