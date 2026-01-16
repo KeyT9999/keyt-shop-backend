@@ -32,6 +32,10 @@ const serviceSubscriptionSchema = new mongoose.Schema(
     preExpiryNotified: {
       type: Boolean,
       default: false
+    },
+    expiredNotified: {
+      type: Boolean,
+      default: false
     }
   },
   {
@@ -42,6 +46,7 @@ const serviceSubscriptionSchema = new mongoose.Schema(
 // Index for finding subscriptions by end date
 serviceSubscriptionSchema.index({ endDate: 1 });
 serviceSubscriptionSchema.index({ endDate: 1, preExpiryNotified: 1 });
+serviceSubscriptionSchema.index({ endDate: 1, expiredNotified: 1 });
 
 const ServiceSubscription = mongoose.model('ServiceSubscription', serviceSubscriptionSchema);
 

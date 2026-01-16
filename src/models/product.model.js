@@ -46,6 +46,28 @@ const productSchema = new mongoose.Schema(
         type: Boolean,
         default: true
       }
+    }],
+    // Hướng dẫn khách hàng làm sau khi admin hoàn thành đơn hàng
+    completionInstructions: {
+      type: String,
+      default: ''
+    },
+    // Account có sẵn - tự động gửi khi hoàn thành đơn hàng
+    isPreloadedAccount: {
+      type: Boolean,
+      default: false
+    },
+    preloadedAccounts: [{
+      account: String,  // Format: "username:password"
+      used: {
+        type: Boolean,
+        default: false
+      },
+      usedAt: Date,
+      usedForOrder: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'Order'
+      }
     }]
   },
   {

@@ -70,7 +70,6 @@ ${resetLink}
 📞 Hỗ trợ:
 Nếu bạn gặp vấn đề, vui lòng liên hệ:
 • Zalo: 0868899104
-• Email: support@keyt.com
 
 Trân trọng,
 🎯 Đội ngũ Tiệm Tạp Hóa KeyT
@@ -134,8 +133,6 @@ Chào mừng bạn đến với Tiệm Tạp Hóa KeyT!
 
 📞 Hỗ trợ khách hàng:
 • Zalo: 0868899104
-• Email: tiemtaphoakeyt@gmail.com
-• Thời gian hỗ trợ: 24/7
 
 Trân trọng,
 🎯 Đội ngũ Tiệm Tạp Hóa KeyT
@@ -162,9 +159,7 @@ Trân trọng,
 Gói ${serviceName} của bạn sẽ hết hạn vào ngày ${endStr} đó ạ 🕒
 
 Nếu muốn tiếp tục sử dụng, bạn cứ liên hệ sốp liền nha:
-📱 Zalo: https://zalo.me/0868899104
-
-📸 Instagram: https://www.instagram.com/taphoakeyt/
+📱 Zalo: 0868899104
 
 💖 Sốp chờ tin nhắn của ní đó ạ 💕`;
 
@@ -172,6 +167,77 @@ Nếu muốn tiếp tục sử dụng, bạn cứ liên hệ sốp liền nha:
       to: toEmail,
       subject,
       text
+    });
+  }
+
+  /**
+   * Send subscription expired notification to customer (T0 - on expiry date)
+   * @param {string} toEmail - Customer email
+   * @param {string} serviceName - Service name
+   * @param {Date} endDate - End date
+   * @returns {Promise<Object>} - Send result
+   */
+  async sendSubscriptionExpiredToCustomer(toEmail, serviceName, endDate) {
+    const endStr = formatDate(endDate);
+    const frontendUrl = process.env.FRONTEND_URL || 'https://taphoakeyt.vercel.app';
+    const subject = `[Thông báo] Gói "${serviceName}" đã hết hạn (${endStr})`;
+    
+    const htmlContent = this.createHtmlEmailWrapper(`
+      <div style="text-align: center; padding: 20px 0;">
+        <h2 style="color: #1E293B; margin: 0 0 16px 0; font-size: 1.5rem;">Gói dịch vụ đã hết hạn</h2>
+        <p style="color: #64748B; font-size: 1rem; margin: 0 0 8px 0;">Gói <strong style="color: #F05A28;">${serviceName}</strong> của bạn đã hết hạn vào ngày <strong>${endStr}</strong></p>
+      </div>
+      
+      <div style="background: #FEF2F2; border-left: 4px solid #EF4444; padding: 16px; margin: 24px 0; border-radius: 8px;">
+        <p style="color: #991B1B; margin: 0; font-weight: 600; font-size: 0.95rem;">
+          ⚠️ Gói dịch vụ của bạn đã hết hạn. Vui lòng gia hạn để tiếp tục sử dụng.
+        </p>
+      </div>
+      
+      <div style="text-align: center; margin: 32px 0;">
+        <p style="color: #1E293B; font-size: 1rem; margin: 0 0 16px 0; font-weight: 600;">Để gia hạn, vui lòng liên hệ:</p>
+        <div style="display: flex; justify-content: center;">
+          <a href="https://zalo.me/0868899104" style="display: inline-block; padding: 12px 24px; background: #0068FF; color: white; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 0.95rem;">
+            📱 Liên hệ Zalo: 0868899104
+          </a>
+        </div>
+      </div>
+      
+      <div style="background: #F8FAFC; padding: 20px; border-radius: 12px; margin: 24px 0;">
+        <p style="color: #64748B; margin: 0 0 12px 0; font-size: 0.9rem; font-weight: 600;">Thông tin gói dịch vụ:</p>
+        <table style="width: 100%; border-collapse: collapse;">
+          <tr>
+            <td style="padding: 8px 0; color: #64748B; font-size: 0.9rem;">Tên dịch vụ:</td>
+            <td style="padding: 8px 0; color: #1E293B; font-size: 0.9rem; font-weight: 600; text-align: right;">${serviceName}</td>
+          </tr>
+          <tr>
+            <td style="padding: 8px 0; color: #64748B; font-size: 0.9rem;">Ngày hết hạn:</td>
+            <td style="padding: 8px 0; color: #EF4444; font-size: 0.9rem; font-weight: 600; text-align: right;">${endStr}</td>
+          </tr>
+        </table>
+      </div>
+    `, subject);
+    
+    const textContent = `Gói dịch vụ đã hết hạn
+
+Gói ${serviceName} của bạn đã hết hạn vào ngày ${endStr}.
+
+⚠️ Gói dịch vụ của bạn đã hết hạn. Vui lòng gia hạn để tiếp tục sử dụng.
+
+Để gia hạn, vui lòng liên hệ:
+📱 Zalo: 0868899104
+
+Thông tin gói dịch vụ:
+- Tên dịch vụ: ${serviceName}
+- Ngày hết hạn: ${endStr}
+
+${this.createEmailFooter(frontendUrl)}`;
+
+    return await sendEmail({
+      to: toEmail,
+      subject,
+      text: textContent,
+      html: htmlContent
     });
   }
 
@@ -321,7 +387,6 @@ ${otp}
 📞 Hỗ trợ:
 Nếu bạn gặp vấn đề, vui lòng liên hệ:
 • Zalo: 0868899104
-• Email: support@keyt.com
 
 Trân trọng,
 🎯 Đội ngũ Tiệm Tạp Hóa KeyT
@@ -398,13 +463,13 @@ Trân trọng,
       minute: '2-digit',
       second: '2-digit'
     });
-    const frontendUrl = process.env.FRONTEND_URL || 'http://localhost:5173';
+    const frontendUrl = process.env.FRONTEND_URL || 'https://taphoakeyt.vercel.app';
 
     return `
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 📧 Email này được gửi tự động, vui lòng không trả lời email này.
 🔗 Website: ${frontendUrl}
-📞 Hỗ trợ Zalo: https://zalo.me/84868899104
+📞 Hỗ trợ Zalo: 0868899104
 ⏰ Thời gian gửi: ${now}
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`;
   }
@@ -443,7 +508,7 @@ Trân trọng,
             <td style="background-color: #f9fafb; padding: 20px; text-align: center; border-top: 1px solid #e5e5e5; font-size: 12px; color: #6b7280;">
               <p style="margin: 5px 0;">📧 Email tự động - Không trả lời email này</p>
               <p style="margin: 5px 0;">📞 Hỗ trợ: <a href="https://zalo.me/84868899104" style="color: #2563eb;">Zalo 0868899104</a></p>
-              <p style="margin: 5px 0;">🔗 Website: ${process.env.FRONTEND_URL || 'http://localhost:5173'}</p>
+              <p style="margin: 5px 0;">🔗 Website: <a href="https://taphoakeyt.vercel.app" style="color: #2563eb;">https://taphoakeyt.vercel.app</a></p>
             </td>
           </tr>
         </table>
@@ -807,6 +872,173 @@ ${this.createEmailFooter()}`;
   }
 
   /**
+   * Send combined email to admin: Đơn Hàng Mới + Thanh toán thành công + Yêu cầu đặc biệt (if any)
+   * @param {Object} order - Order object
+   */
+  async sendOrderNewAndPaidEmailToAdmin(order) {
+    const adminEmail = this.getAdminEmail();
+    const orderNumber = order.orderCode;
+    const subject = `[Đơn hàng mới - Đã thanh toán] #${orderNumber} - ${this.formatPrice(order.totalAmount, order.items[0]?.currency || 'VND')}`;
+
+    const itemsHtml = order.items.map((item, index) => `
+      <tr>
+        <td style="padding: 10px; border-bottom: 1px solid #e5e5e5; text-align: center;">${index + 1}</td>
+        <td style="padding: 10px; border-bottom: 1px solid #e5e5e5;">${item.name}</td>
+        <td style="padding: 10px; border-bottom: 1px solid #e5e5e5; text-align: center;">${item.quantity}</td>
+        <td style="padding: 10px; border-bottom: 1px solid #e5e5e5; text-align: right;">${this.formatPrice(item.price, item.currency)}</td>
+      </tr>
+    `).join('');
+
+    const requiredFieldsHtml = order.items.some(item => item.requiredFieldsData && item.requiredFieldsData.length > 0)
+      ? order.items.map((item, itemIndex) => {
+        if (!item.requiredFieldsData || item.requiredFieldsData.length === 0) return '';
+        return `
+            <div style="margin-top: 10px; padding: 10px; background-color: #fef3c7; border-radius: 6px; border-left: 3px solid #f59e0b;">
+              <strong>${item.name}:</strong>
+              ${item.requiredFieldsData.map(field => `
+                <p style="margin: 5px 0; font-size: 14px;">• <strong>${field.label}:</strong> ${field.value}</p>
+              `).join('')}
+            </div>
+          `;
+      }).filter(html => html).join('')
+      : '';
+
+    const hasSpecialNote = order.note && order.note.trim();
+    const hasRequiredFields = order.items.some(item => item.requiredFieldsData && item.requiredFieldsData.length > 0);
+
+    const adminUrl = process.env.FRONTEND_URL ? `${process.env.FRONTEND_URL}/admin/orders/${order._id}` : `http://localhost:5173/admin/orders/${order._id}`;
+
+    const content = `
+      <h2 style="color: #059669; margin-top: 0;">💰 Đơn hàng mới - Đã thanh toán thành công</h2>
+      
+      <div style="background-color: #d1fae5; padding: 15px; border-radius: 8px; margin: 20px 0; border-left: 4px solid #059669;">
+        <p style="margin: 0 0 10px 0; font-size: 18px; font-weight: 700; color: #065f46;">Mã đơn hàng: #${orderNumber}</p>
+        <p style="margin: 0 0 5px 0; font-size: 14px; color: #064e3b;">
+          Ngày đặt: ${new Date(order.createdAt).toLocaleString('vi-VN')}
+        </p>
+        <p style="margin: 5px 0 0; font-size: 20px; font-weight: 700; color: #059669;">
+          Số tiền đã thanh toán: ${this.formatPrice(order.totalAmount, order.items[0]?.currency || 'VND')}
+        </p>
+      </div>
+
+      <h3 style="color: #1f2937; margin-top: 25px;">👤 Thông tin khách hàng</h3>
+      <div style="background-color: #f9fafb; padding: 15px; border-radius: 6px; margin: 15px 0;">
+        <p style="margin: 5px 0;"><strong>Tên:</strong> ${order.customer.name}</p>
+        <p style="margin: 5px 0;"><strong>Email:</strong> ${order.customer.email}</p>
+        <p style="margin: 5px 0;"><strong>Số điện thoại:</strong> ${order.customer.phone}</p>
+      </div>
+
+      <h3 style="color: #1f2937; margin-top: 25px;">📦 Sản phẩm</h3>
+      <table width="100%" cellpadding="0" cellspacing="0" style="border-collapse: collapse; margin: 15px 0;">
+        <thead>
+          <tr style="background-color: #f9fafb;">
+            <th style="padding: 10px; text-align: left; border-bottom: 2px solid #e5e5e5; font-weight: 600; color: #374151;">STT</th>
+            <th style="padding: 10px; text-align: left; border-bottom: 2px solid #e5e5e5; font-weight: 600; color: #374151;">Sản phẩm</th>
+            <th style="padding: 10px; text-align: center; border-bottom: 2px solid #e5e5e5; font-weight: 600; color: #374151;">SL</th>
+            <th style="padding: 10px; text-align: right; border-bottom: 2px solid #e5e5e5; font-weight: 600; color: #374151;">Đơn giá</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${itemsHtml}
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3" style="padding: 12px; text-align: right; font-weight: 600; color: #374151; border-top: 2px solid #e5e5e5;">Tổng tiền:</td>
+            <td style="padding: 12px; text-align: right; font-weight: 700; font-size: 16px; color: #059669; border-top: 2px solid #e5e5e5;">${this.formatPrice(order.totalAmount, order.items[0]?.currency || 'VND')}</td>
+          </tr>
+        </tfoot>
+      </table>
+
+      ${requiredFieldsHtml ? `
+        <h3 style="color: #1f2937; margin-top: 25px;">⚠️ Thông tin bổ sung từ khách hàng</h3>
+        ${requiredFieldsHtml}
+      ` : ''}
+
+      ${hasSpecialNote ? `
+        <h3 style="color: #1f2937; margin-top: 25px;">📝 Ghi chú khách hàng</h3>
+        <div style="background-color: #fef3c7; padding: 15px; border-radius: 6px; margin: 15px 0; border-left: 4px solid #f59e0b;">
+          <p style="margin: 0; color: #78350f; white-space: pre-line;">${order.note}</p>
+        </div>
+      ` : ''}
+
+      ${hasSpecialNote || hasRequiredFields ? `
+        <div style="background-color: #fee2e2; padding: 15px; border-radius: 6px; margin: 20px 0; border-left: 4px solid #dc2626;">
+          <p style="margin: 0; color: #991b1b; font-size: 14px; line-height: 1.6;">
+            <strong>⚠️ Lưu ý:</strong> Đơn hàng này có yêu cầu đặc biệt. Vui lòng xem xét và xử lý cẩn thận.
+          </p>
+        </div>
+      ` : ''}
+
+      <div style="background-color: #fef3c7; padding: 15px; border-radius: 6px; margin: 20px 0; border-left: 4px solid #f59e0b;">
+        <p style="margin: 0; color: #92400e; font-size: 14px; line-height: 1.6;">
+          <strong>⚠️ Lưu ý:</strong> Đơn hàng đã thanh toán, cần xác nhận và xử lý sớm.
+        </p>
+      </div>
+
+      <div style="text-align: center; margin: 30px 0;">
+        <a href="${adminUrl}" style="display: inline-block; padding: 15px 30px; background-color: #2563eb; color: #ffffff; text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 16px;">
+          🔗 Xem và xử lý đơn hàng
+        </a>
+      </div>
+    `;
+
+    const html = this.createHtmlEmailWrapper(content, subject);
+    const text = this.createOrderNewAndPaidEmailToAdminTextContent(order);
+
+    return await sendEmail({
+      to: adminEmail,
+      subject,
+      text,
+      html
+    });
+  }
+
+  /**
+   * Create text version of order new and paid email to admin
+   */
+  createOrderNewAndPaidEmailToAdminTextContent(order) {
+    const orderNumber = order.orderCode;
+    const itemsText = order.items.map((item, index) =>
+      `${index + 1}. ${item.name} x${item.quantity} - ${this.formatPrice(item.price, item.currency)}`
+    ).join('\n');
+
+    const requiredFieldsText = order.items.some(item => item.requiredFieldsData && item.requiredFieldsData.length > 0)
+      ? '\n\n⚠️ Thông tin bổ sung:\n' + order.items.map(item => {
+        if (!item.requiredFieldsData || item.requiredFieldsData.length === 0) return '';
+        return `${item.name}:\n` + item.requiredFieldsData.map(field => `  • ${field.label}: ${field.value}`).join('\n');
+      }).filter(text => text).join('\n\n')
+      : '';
+
+    const hasSpecialNote = order.note && order.note.trim();
+    const hasRequiredFields = order.items.some(item => item.requiredFieldsData && item.requiredFieldsData.length > 0);
+
+    const adminUrl = process.env.FRONTEND_URL ? `${process.env.FRONTEND_URL}/admin/orders/${order._id}` : `http://localhost:5173/admin/orders/${order._id}`;
+
+    return `💰 Đơn hàng mới - Đã thanh toán thành công
+
+Mã đơn hàng: #${orderNumber}
+Ngày đặt: ${new Date(order.createdAt).toLocaleString('vi-VN')}
+Số tiền đã thanh toán: ${this.formatPrice(order.totalAmount, order.items[0]?.currency || 'VND')}
+
+👤 Thông tin khách hàng:
+Tên: ${order.customer.name}
+Email: ${order.customer.email}
+Số điện thoại: ${order.customer.phone}
+
+📦 Sản phẩm:
+${itemsText}
+
+Tổng tiền: ${this.formatPrice(order.totalAmount, order.items[0]?.currency || 'VND')}
+${requiredFieldsText}
+${hasSpecialNote ? `\n📝 Ghi chú khách hàng:\n${order.note}\n` : ''}
+${hasSpecialNote || hasRequiredFields ? '\n⚠️ Lưu ý: Đơn hàng này có yêu cầu đặc biệt. Vui lòng xem xét và xử lý cẩn thận.\n' : ''}
+⚠️ Lưu ý: Đơn hàng đã thanh toán, cần xác nhận và xử lý sớm.
+
+🔗 Xem và xử lý: ${adminUrl}
+${this.createEmailFooter()}`;
+  }
+
+  /**
    * Send payment success email to admin
    * @param {Object} order - Order object
    */
@@ -902,7 +1134,6 @@ ${this.createEmailFooter()}`;
         <p style="margin: 0; color: #1e40af; font-size: 14px; line-height: 1.6;">
           <strong>📋 Bước tiếp theo:</strong><br>
           • Admin đang chuẩn bị xử lý đơn hàng của bạn<br>
-          • Thời gian xử lý dự kiến: 1-2 giờ làm việc<br>
           • Bạn sẽ nhận được email thông báo khi đơn hàng bắt đầu được xử lý
         </p>
       </div>
@@ -925,7 +1156,6 @@ Thời gian xác nhận: ${order.confirmedAt ? new Date(order.confirmedAt).toLoc
 
 📋 Bước tiếp theo:
 • Admin đang chuẩn bị xử lý đơn hàng của bạn
-• Thời gian xử lý dự kiến: 1-2 giờ làm việc
 • Bạn sẽ nhận được email thông báo khi đơn hàng bắt đầu được xử lý
 
 Xem chi tiết: ${orderUrl}
@@ -1022,7 +1252,7 @@ ${this.createEmailFooter()}`;
    * Send order completed email to user
    * @param {Object} order - Order object
    */
-  async sendOrderCompletedEmailToUser(order) {
+  async sendOrderCompletedEmailToUser(order, completionInstructions = '') {
     const orderNumber = order.orderCode;
     const subject = `🎉 Đơn hàng #${orderNumber} đã hoàn thành!`;
 
@@ -1062,13 +1292,56 @@ ${this.createEmailFooter()}`;
         </div>
       </div>
 
-      <div style="background-color: #fef3c7; padding: 15px; border-radius: 6px; margin: 20px 0; border-left: 4px solid #f59e0b;">
-        <p style="margin: 0; color: #92400e; font-size: 14px; line-height: 1.6;">
-          <strong>💡 Hướng dẫn sử dụng:</strong><br>
-          • Vui lòng kiểm tra thông tin sản phẩm/dịch vụ ở trên<br>
-          • Nếu có vấn đề, vui lòng liên hệ hỗ trợ qua Zalo: <a href="https://zalo.me/84868899104" style="color: #2563eb;">0868899104</a><br>
-          • Chúng tôi luôn sẵn sàng hỗ trợ bạn 24/7
+      ${(() => {
+        // Kiểm tra xem có item nào có deliveredAccount không
+        const itemsWithAccount = order.items.filter(item => item.deliveredAccount);
+        if (itemsWithAccount.length === 0) return '';
+        
+        let accountSection = `
+      <div style="background-color: #dbeafe; padding: 20px; border-radius: 8px; margin: 20px 0; border-left: 4px solid #2563eb;">
+        <h3 style="color: #1e40af; margin-top: 0; margin-bottom: 15px; font-size: 18px;">🔑 Thông tin tài khoản của bạn</h3>
+        `;
+        
+        itemsWithAccount.forEach(item => {
+          const [username, password] = item.deliveredAccount.split(':');
+          accountSection += `
+        <div style="margin-bottom: 16px; padding: 12px; background: #ffffff; border-radius: 6px; border: 1px solid #bfdbfe;">
+          <p style="margin: 0 0 8px 0; font-weight: 600; color: #1e293b; font-size: 14px;">${item.name}:</p>
+          <p style="margin: 4px 0; color: #374151; font-size: 14px;">
+            👤 <strong>Username:</strong> <code style="background: #f3f4f6; padding: 4px 8px; border-radius: 4px; font-family: monospace; color: #1f2937;">${username || 'N/A'}</code>
+          </p>
+          <p style="margin: 4px 0; color: #374151; font-size: 14px;">
+            🔒 <strong>Password:</strong> <code style="background: #f3f4f6; padding: 4px 8px; border-radius: 4px; font-family: monospace; color: #1f2937;">${password || 'N/A'}</code>
+          </p>
+        </div>
+          `;
+        });
+        
+        accountSection += `
+        <p style="margin: 15px 0 0 0; color: #1e40af; font-size: 13px; line-height: 1.6;">
+          ⚠️ <strong>Lưu ý:</strong> Vui lòng lưu thông tin tài khoản này ở nơi an toàn. Nếu quên, vui lòng liên hệ hỗ trợ qua Zalo: <a href="https://zalo.me/84868899104" style="color: #2563eb; text-decoration: underline;">0868899104</a>
         </p>
+      </div>
+        `;
+        
+        return accountSection;
+      })()}
+
+      <div style="background-color: #fef3c7; padding: 15px; border-radius: 6px; margin: 20px 0; border-left: 4px solid #f59e0b;">
+        <p style="margin: 0 0 10px 0; color: #92400e; font-size: 14px; font-weight: 600;">
+          <strong>💡 Hướng dẫn sử dụng:</strong>
+        </p>
+        ${completionInstructions && completionInstructions.trim() ? `
+          <div style="color: #78350f; font-size: 14px; line-height: 1.8; white-space: pre-line; margin-bottom: 10px;">
+            ${completionInstructions}
+          </div>
+        ` : `
+          <p style="margin: 0; color: #92400e; font-size: 14px; line-height: 1.6;">
+            • Vui lòng kiểm tra thông tin sản phẩm/dịch vụ ở trên<br>
+            • Nếu có vấn đề, vui lòng liên hệ hỗ trợ qua Zalo: <a href="https://zalo.me/84868899104" style="color: #2563eb;">0868899104</a><br>
+            • Chúng tôi luôn sẵn sàng hỗ trợ bạn 24/7
+          </p>
+        `}
       </div>
 
       <div style="text-align: center; margin: 30px 0;">
@@ -1105,10 +1378,25 @@ ${order.items.map(item => {
       return itemInfo;
     }).join('\n\n')}
 
+${(() => {
+      const itemsWithAccount = order.items.filter(item => item.deliveredAccount);
+      if (itemsWithAccount.length === 0) return '';
+      
+      let accountText = '\n🔑 Thông tin tài khoản của bạn:\n';
+      itemsWithAccount.forEach(item => {
+        const [username, password] = item.deliveredAccount.split(':');
+        accountText += `\n${item.name}:\n`;
+        accountText += `  👤 Username: ${username || 'N/A'}\n`;
+        accountText += `  🔒 Password: ${password || 'N/A'}\n`;
+      });
+      accountText += '\n⚠️ Lưu ý: Vui lòng lưu thông tin tài khoản này ở nơi an toàn. Nếu quên, vui lòng liên hệ hỗ trợ qua Zalo: 0868899104\n';
+      return accountText;
+    })()}
+
 💡 Hướng dẫn sử dụng:
-• Vui lòng kiểm tra thông tin sản phẩm/dịch vụ ở trên
+${completionInstructions && completionInstructions.trim() ? completionInstructions : `• Vui lòng kiểm tra thông tin sản phẩm/dịch vụ ở trên
 • Nếu có vấn đề, vui lòng liên hệ hỗ trợ qua Zalo: 0868899104
-• Chúng tôi luôn sẵn sàng hỗ trợ bạn 24/7
+• Chúng tôi luôn sẵn sàng hỗ trợ bạn 24/7`}
 
 Đánh giá sản phẩm: ${reviewUrl}
 Xem chi tiết: ${orderUrl}
@@ -1137,7 +1425,7 @@ ${this.createEmailFooter()}`;
     const shopUrl = process.env.FRONTEND_URL ? `${process.env.FRONTEND_URL}/products` : `http://localhost:5173/products`;
 
     const refundInfo = order.paymentStatus === 'paid'
-      ? '<p style="margin: 10px 0 0 0; color: #065f46; font-size: 14px;">💰 Tiền sẽ được hoàn lại trong vòng 3-5 ngày làm việc.</p>'
+      ? '<p style="margin: 10px 0 0 0; color: #065f46; font-size: 14px; font-weight: 600;">💰 Tiền sẽ được hoàn lại sau khi bạn gửi tin nhắn cho admin.</p><p style="margin: 10px 0 0 0; color: #065f46; font-size: 14px;">📷 Vui lòng chụp màn hình mail này và gửi Zalo cho admin <a href="https://zalo.me/84868899104" style="color: #2563eb; font-weight: 600;">0868899104</a> để hoàn lại tiền.</p>'
       : '';
 
     const content = `
@@ -1184,7 +1472,7 @@ Xin chào ${order.customer.name},
 
 Rất tiếc, đơn hàng #${orderNumber} của bạn đã bị hủy.
 
-${reason ? `Lý do hủy:\n${reason}\n\n` : ''}${order.paymentStatus === 'paid' ? '💰 Tiền sẽ được hoàn lại trong vòng 3-5 ngày làm việc.\n\n' : ''}💡 Bạn có thể:
+${reason ? `Lý do hủy:\n${reason}\n\n` : ''}${order.paymentStatus === 'paid' ? '💰 Tiền sẽ được hoàn lại sau khi bạn gửi tin nhắn cho admin.\n📷 Vui lòng chụp màn hình mail này và gửi Zalo cho admin 0868899104 để hoàn lại tiền.\n\n' : ''}💡 Bạn có thể:
 • Đặt lại đơn hàng mới tại cửa hàng của chúng tôi
 • Liên hệ hỗ trợ nếu có thắc mắc: Zalo 0868899104
 

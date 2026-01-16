@@ -1,4 +1,5 @@
 const express = require('express');
+const mongoose = require('mongoose');
 const Review = require('../models/review.model');
 const Order = require('../models/order.model');
 const Product = require('../models/product.model');
@@ -119,7 +120,7 @@ router.get('/product/:productId', async (req, res) => {
 
     // Tính toán thống kê rating
     const stats = await Review.aggregate([
-      { $match: { productId: require('mongoose').Types.ObjectId(productId), status: 'active' } },
+      { $match: { productId: new mongoose.Types.ObjectId(productId), status: 'active' } },
       {
         $group: {
           _id: null,

@@ -34,6 +34,20 @@ function initializeScheduler() {
     timezone: 'Asia/Ho_Chi_Minh'
   });
 
+  // Run every day at 08:10 - Notify customers about expired subscriptions (T0)
+  cron.schedule('0 10 8 * * *', async () => {
+    console.log('🕐 Running scheduled job: notifyCustomersExpiredToday');
+    try {
+      const notified = await subscriptionService.notifyCustomersExpiredToday();
+      console.log(`✅ Notified ${notified} customers about expired subscriptions`);
+    } catch (err) {
+      console.error('❌ Error in notifyCustomersExpiredToday:', err);
+    }
+  }, {
+    scheduled: true,
+    timezone: 'Asia/Ho_Chi_Minh'
+  });
+
   // Run every hour - Send payment reminders to users
   cron.schedule('0 * * * *', async () => {
     console.log('🕐 Running scheduled job: checkAndSendPaymentReminders');
