@@ -3,6 +3,7 @@ const mongoose = require('mongoose');
 const Review = require('../models/review.model');
 const Order = require('../models/order.model');
 const Product = require('../models/product.model');
+const { reviewLimiter } = require('../middleware/rateLimiter.middleware');
 
 const router = express.Router();
 
@@ -10,7 +11,7 @@ const router = express.Router();
  * POST /api/reviews
  * Tạo review mới (cần đăng nhập)
  */
-router.post('/', async (req, res) => {
+router.post('/', reviewLimiter, async (req, res) => {
   try {
     const userId = req.user?.id;
     if (!userId) {

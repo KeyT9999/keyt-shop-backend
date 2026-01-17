@@ -4,10 +4,11 @@ const payosService = require('../services/payos.service');
 const emailService = require('../services/email.service');
 const Product = require('../models/product.model');
 const { generateUniqueOrderCode } = require('../utils/orderCode.util');
+const { orderLimiter } = require('../middleware/rateLimiter.middleware');
 
 const router = express.Router();
 
-router.post('/', async (req, res) => {
+router.post('/', orderLimiter, async (req, res) => {
   const { customer, items, totalAmount, note } = req.body;
   const userId = req.user?.id || null;
 
@@ -154,11 +155,13 @@ router.post('/', async (req, res) => {
 /**
  * GET /api/orders/:id
  * Get order details by ID
+ * SECURITY: Admin notes are only visible to admins
  */
 router.get('/:id', async (req, res) => {
   try {
     const { id } = req.params;
     const userId = req.user?.id || null;
+    const isAdmin = req.user?.admin === true;
 
     const order = await Order.findById(id);
 
@@ -176,7 +179,13 @@ router.get('/:id', async (req, res) => {
       await order.populate('confirmedBy', 'username email');
     }
 
-    res.json(order);
+    const orderObj = order.toObject();
+    // Only admins can see adminNotes
+    if (!isAdmin && orderObj.adminNotes) {
+      delete orderObj.adminNotes;
+    }
+
+    res.json(orderObj);
   } catch (err) {
     console.error('❌ Lỗi khi lấy chi tiết đơn hàng:', err);
     res.status(500).json({ message: 'Lỗi máy chủ, vui lòng thử lại sau.' });

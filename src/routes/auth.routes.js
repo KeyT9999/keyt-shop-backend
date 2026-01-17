@@ -8,6 +8,7 @@ const userLoginHistoryService = require('../services/user-login-history.service'
 const emailService = require('../services/email.service');
 const passwordResetService = require('../services/password-reset.service');
 const tokenService = require('../services/token.service');
+const { registerLimiter, passwordResetLimiter, emailVerificationLimiter } = require('../middleware/rateLimiter.middleware');
 
 const router = express.Router();
 
@@ -57,6 +58,7 @@ const ensureUniqueUsername = async (base) => {
 
 router.post(
   '/register',
+  registerLimiter,
   [
     body('username')
       .trim()
@@ -224,6 +226,7 @@ router.post(
 
 router.post(
   '/forgot-password',
+  passwordResetLimiter,
   [
     body('email').isEmail().withMessage('Email không hợp lệ').normalizeEmail()
   ],
@@ -251,6 +254,7 @@ router.post(
 
 router.post(
   '/reset-password',
+  passwordResetLimiter,
   [
     body('token').notEmpty().withMessage('Token không được để trống'),
     body('newPassword').isLength({ min: 6 }).withMessage('Mật khẩu mới tối thiểu 6 ký tự').trim()
@@ -385,6 +389,7 @@ router.post(
 
 router.post(
   '/resend-verification',
+  emailVerificationLimiter,
   [body('email').isEmail().withMessage('Email không hợp lệ').normalizeEmail()],
   async (req, res) => {
     const errors = validationResult(req);
