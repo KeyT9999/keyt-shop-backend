@@ -788,8 +788,8 @@ async function autoCompleteOrderWithPreloadedAccounts(order) {
 function calculateSubscriptionEndDate(product, itemName, startDate) {
   const endDate = new Date(startDate);
   
-  // Try to parse duration from item name (e.g., "Canva Pro 1 Năm", "Netflix Premium 3 tháng")
-  const nameMatch = itemName.match(/(\d+)\s*(năm|tháng|month|year)/i);
+  // Try to parse duration from item name (e.g., "Canva Pro 1 Năm", "Netflix Premium 3 tháng", "Test 7 ngày")
+  const nameMatch = itemName.match(/(\d+)\s*(năm|tháng|ngày|month|year|day|days)/i);
   if (nameMatch) {
     const duration = parseInt(nameMatch[1]);
     const unit = nameMatch[2].toLowerCase();
@@ -798,13 +798,15 @@ function calculateSubscriptionEndDate(product, itemName, startDate) {
       endDate.setFullYear(endDate.getFullYear() + duration);
     } else if (unit === 'tháng' || unit === 'month') {
       endDate.setMonth(endDate.getMonth() + duration);
+    } else if (unit === 'ngày' || unit === 'day' || unit === 'days') {
+      endDate.setDate(endDate.getDate() + duration);
     }
     return endDate;
   }
 
   // Fallback to product billingCycle
   if (product.billingCycle) {
-    const billingMatch = product.billingCycle.match(/(\d+)\s*(năm|tháng|month|year)/i);
+    const billingMatch = product.billingCycle.match(/(\d+)\s*(năm|tháng|ngày|month|year|day|days)/i);
     if (billingMatch) {
       const duration = parseInt(billingMatch[1]);
       const unit = billingMatch[2].toLowerCase();
@@ -813,6 +815,8 @@ function calculateSubscriptionEndDate(product, itemName, startDate) {
         endDate.setFullYear(endDate.getFullYear() + duration);
       } else if (unit === 'tháng' || unit === 'month') {
         endDate.setMonth(endDate.getMonth() + duration);
+      } else if (unit === 'ngày' || unit === 'day' || unit === 'days') {
+        endDate.setDate(endDate.getDate() + duration);
       }
       return endDate;
     }

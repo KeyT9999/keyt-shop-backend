@@ -6,7 +6,7 @@ const productSchema = new mongoose.Schema(
     name: String,
     price: Number,
     currency: String,
-    billingCycle: String, // "năm" / "tháng"
+    billingCycle: String, // "7 ngày", "14 ngày", "1 tháng", "3 tháng", "6 tháng", "1 năm", "Vĩnh viễn"
     category: String,     // "Thiết kế", ...
     isHot: Boolean,
     promotion: String,
@@ -30,7 +30,7 @@ const productSchema = new mongoose.Schema(
       min: 0
     },
     options: [{
-      name: String,      // "1 tháng", "5 tháng", "12 tháng"
+      name: String,      // "7 ngày", "14 ngày", "1 tháng", "5 tháng", "12 tháng"
       price: Number     // Giá cho option này
     }],
     // Điều kiện cần - thông tin bổ sung cần thiết khi mua sản phẩm
