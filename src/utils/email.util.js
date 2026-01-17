@@ -9,7 +9,15 @@ const transporter = nodemailer.createTransport({
   auth: {
     user: process.env.MAIL_USERNAME || process.env.SMTP_USER || 'tiemtaphoakeyt@gmail.com',
     pass: process.env.MAIL_PASSWORD || process.env.SMTP_PASS // REQUIRED: Must be set in .env file
-  }
+  },
+  // Add timeout settings to prevent connection timeout errors
+  connectionTimeout: 60000, // 60 seconds - time to wait for connection to be established
+  greetingTimeout: 30000,   // 30 seconds - time to wait for greeting from server
+  socketTimeout: 60000,     // 60 seconds - time to wait for socket inactivity
+  // Retry configuration
+  pool: true,
+  maxConnections: 1,
+  maxMessages: 3
 });
 
 const fromEmail = process.env.MAIL_FROM || 'Tiệm Tạp Hóa KeyT <tiemtaphoakeyt@gmail.com>';
