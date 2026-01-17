@@ -16,7 +16,7 @@ const categoryRoutes = require('./routes/category.routes');
 const payosRoutes = require('./routes/payos.routes');
 const bannerRoutes = require('./routes/banner.routes');
 const reviewRoutes = require('./routes/review.routes');
-const { authenticateToken } = require('./middleware/auth.middleware');
+const { authenticateToken, requireAdmin } = require('./middleware/auth.middleware');
 
 const app = express();
 
@@ -75,8 +75,15 @@ app.get('/', (req, res) => {
   res.send('KeyT Shop Backend is running 🚀');
 });
 
-// Test email endpoint
-app.get('/api/test-email', async (req, res) => {
+// Test email endpoint - SECURITY: Only accessible to admins, disabled in production
+app.get('/api/test-email', authenticateToken, requireAdmin, async (req, res) => {
+  // Disable in production for additional security
+  if (process.env.NODE_ENV === 'production' && process.env.ALLOW_TEST_EMAIL !== 'true') {
+    return res.status(404).json({ 
+      success: false,
+      message: 'Endpoint not found' 
+    });
+  }
   try {
     const { sendEmail, testEmailConfiguration } = require('./utils/email.util');
     const emailService = require('./services/email.service');

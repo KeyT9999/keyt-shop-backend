@@ -348,7 +348,13 @@ router.get('/orders/:orderId', async (req, res) => {
       return res.status(403).json({ message: 'Bạn không có quyền xem đơn hàng này' });
     }
 
-    res.json(order);
+    // Remove adminNotes for non-admin users
+    const orderObj = order;
+    if (!user.admin && orderObj.adminNotes) {
+      delete orderObj.adminNotes;
+    }
+
+    res.json(orderObj);
   } catch (err) {
     console.error('❌ Error fetching order:', err);
     res.status(500).json({ message: 'Không thể lấy thông tin đơn hàng' });
@@ -378,7 +384,7 @@ router.get('/orders/:orderId/invoice', async (req, res) => {
       return res.status(403).json({ message: 'Bạn không có quyền xem hóa đơn này' });
     }
 
-    // Return order data in invoice format
+    // Return order data in invoice format (exclude adminNotes for non-admin users)
     res.json({
       invoice: {
         orderId: order._id,
@@ -391,7 +397,8 @@ router.get('/orders/:orderId/invoice', async (req, res) => {
         orderStatus: order.orderStatus,
         paymentStatus: order.paymentStatus,
         note: order.note,
-        adminNotes: order.adminNotes,
+        // Only include adminNotes for admin users
+        ...(user.admin && order.adminNotes ? { adminNotes: order.adminNotes } : {}),
         // Timeline dates
         confirmedAt: order.confirmedAt,
         processingAt: order.processingAt,
