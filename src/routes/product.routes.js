@@ -1,5 +1,6 @@
 const express = require('express');
 const { body, validationResult } = require('express-validator');
+const jwt = require('jsonwebtoken');
 const { authenticateToken, requireAdmin } = require('../middleware/auth.middleware');
 const Product = require('../models/product.model');
 const PriceChangeLog = require('../models/priceChangeLog.model');
@@ -9,11 +10,38 @@ const router = express.Router();
 /**
  * GET /api/products
  * Get all products (public)
+ * SECURITY: Preloaded accounts are only visible to admins
  */
 router.get('/', async (req, res) => {
   try {
+    // Check if user is admin (optional token check)
+    let isAdmin = false;
+    try {
+      const header = req.headers.authorization;
+      if (header && header.startsWith('Bearer ')) {
+        const token = header.split(' ')[1];
+        const decoded = jwt.verify(token, process.env.JWT_SECRET);
+        isAdmin = decoded.admin === true;
+      }
+    } catch (tokenErr) {
+      // Token invalid or missing - treat as non-admin (public access)
+      isAdmin = false;
+    }
+
     const products = await Product.find({}).sort({ createdAt: -1 });
-    res.json(products);
+    
+    // Filter preloadedAccounts for non-admin users
+    const filteredProducts = products.map(product => {
+      const productObj = product.toObject();
+      // Only admins can see preloadedAccounts
+      if (!isAdmin && productObj.isPreloadedAccount && productObj.preloadedAccounts) {
+        // Remove sensitive account data, but keep isPreloadedAccount flag
+        delete productObj.preloadedAccounts;
+      }
+      return productObj;
+    });
+
+    res.json(filteredProducts);
   } catch (err) {
     console.error('❌ Error fetching products:', err);
     res.status(500).json({ message: 'Server error' });
@@ -23,14 +51,37 @@ router.get('/', async (req, res) => {
 /**
  * GET /api/products/:id
  * Get product by ID (public)
+ * SECURITY: Preloaded accounts are only visible to admins
  */
 router.get('/:id', async (req, res) => {
   try {
+    // Check if user is admin (optional token check)
+    let isAdmin = false;
+    try {
+      const header = req.headers.authorization;
+      if (header && header.startsWith('Bearer ')) {
+        const token = header.split(' ')[1];
+        const decoded = jwt.verify(token, process.env.JWT_SECRET);
+        isAdmin = decoded.admin === true;
+      }
+    } catch (tokenErr) {
+      // Token invalid or missing - treat as non-admin (public access)
+      isAdmin = false;
+    }
+
     const product = await Product.findById(req.params.id);
     if (!product) {
       return res.status(404).json({ message: 'Product not found' });
     }
-    res.json(product);
+
+    const productObj = product.toObject();
+    // Only admins can see preloadedAccounts
+    if (!isAdmin && productObj.isPreloadedAccount && productObj.preloadedAccounts) {
+      // Remove sensitive account data, but keep isPreloadedAccount flag
+      delete productObj.preloadedAccounts;
+    }
+
+    res.json(productObj);
   } catch (err) {
     console.error('❌ Error fetching product:', err);
     res.status(500).json({ message: 'Server error' });
