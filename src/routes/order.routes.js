@@ -86,8 +86,16 @@ router.post('/', async (req, res) => {
       }
 
       const payosOrderCode = parseInt(Date.now().toString().slice(-9) + Math.floor(Math.random() * 1000));
-      const returnUrl = process.env.PAYOS_RETURN_URL || `${process.env.FRONTEND_URL || 'http://localhost:5173'}/orders/${order._id}?payment=success`;
-      const cancelUrl = process.env.PAYOS_CANCEL_URL || `${process.env.FRONTEND_URL || 'http://localhost:5173'}/orders/${order._id}?payment=cancelled`;
+      
+      // Get frontend URL with warning if not set
+      const frontendUrl = process.env.FRONTEND_URL;
+      if (!frontendUrl) {
+        console.warn('⚠️ WARNING: FRONTEND_URL is not set in environment variables!');
+        console.warn('⚠️ Using localhost fallback - THIS SHOULD NOT HAPPEN IN PRODUCTION!');
+      }
+      
+      const returnUrl = process.env.PAYOS_RETURN_URL || `${frontendUrl || 'http://localhost:5173'}/payment-success`;
+      const cancelUrl = process.env.PAYOS_CANCEL_URL || `${frontendUrl || 'http://localhost:5173'}/orders`;
 
       const paymentData = {
         orderCode: payosOrderCode,
