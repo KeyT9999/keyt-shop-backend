@@ -25,8 +25,13 @@ router.post('/', async (req, res) => {
 
   try {
     // Check stock availability (but don't deduct yet - stock will be deducted when order is completed)
+    // OPTIMIZED: Query all products in parallel instead of sequentially
+    const productIds = items.map(item => item.productId);
+    const products = await Product.find({ _id: { $in: productIds } });
+    const productMap = new Map(products.map(p => [p._id.toString(), p]));
+
     for (const item of items) {
-      const product = await Product.findById(item.productId);
+      const product = productMap.get(item.productId);
       if (!product) {
         return res.status(400).json({ message: `Sản phẩm không tồn tại: ${item.productId}` });
       }
@@ -65,14 +70,11 @@ router.post('/', async (req, res) => {
     }
     const order = await Order.create(orderData);
 
-    // Send email to user immediately when order is created (non-blocking)
+    // Send email to user immediately when order is created (non-blocking - fire and forget)
     // Note: Email "Đơn Hàng Mới" for admin (combined with payment success and special note if any) will be sent when payment is successful
-    try {
-      await emailService.sendOrderCreatedEmailToUser(order);
-      console.log('✅ Order created email sent to user');
-    } catch (emailErr) {
+    emailService.sendOrderCreatedEmailToUser(order).catch((emailErr) => {
       console.error('⚠️ Failed to send order created email to user:', emailErr.message);
-    }
+    });
 
     // Automatically create PayOS payment link
     try {
@@ -84,8 +86,16 @@ router.post('/', async (req, res) => {
       }
 
       const payosOrderCode = parseInt(Date.now().toString().slice(-9) + Math.floor(Math.random() * 1000));
-      const returnUrl = process.env.PAYOS_RETURN_URL || `${process.env.FRONTEND_URL || 'http://localhost:5173'}/orders/${order._id}?payment=success`;
-      const cancelUrl = process.env.PAYOS_CANCEL_URL || `${process.env.FRONTEND_URL || 'http://localhost:5173'}/orders/${order._id}?payment=cancelled`;
+      
+      // Get frontend URL with warning if not set
+      const frontendUrl = process.env.FRONTEND_URL;
+      if (!frontendUrl) {
+        console.warn('⚠️ WARNING: FRONTEND_URL is not set in environment variables!');
+        console.warn('⚠️ Using localhost fallback - THIS SHOULD NOT HAPPEN IN PRODUCTION!');
+      }
+      
+      const returnUrl = process.env.PAYOS_RETURN_URL || `${frontendUrl || 'http://localhost:5173'}/payment-success`;
+      const cancelUrl = process.env.PAYOS_CANCEL_URL || `${frontendUrl || 'http://localhost:5173'}/orders`;
 
       const paymentData = {
         orderCode: payosOrderCode,

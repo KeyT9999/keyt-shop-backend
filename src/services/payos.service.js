@@ -114,7 +114,8 @@ async function createPaymentLink(orderData) {
           'x-client-id': CLIENT_ID,
           'x-api-key': API_KEY,
           'Content-Type': 'application/json'
-        }
+        },
+        timeout: 10000 // 10 seconds timeout to prevent hanging
       }
     );
 
@@ -152,7 +153,8 @@ async function getPaymentInfo(id) {
         headers: {
           'x-client-id': CLIENT_ID,
           'x-api-key': API_KEY
-        }
+        },
+        timeout: 10000 // 10 seconds timeout to prevent hanging
       }
     );
 
@@ -198,7 +200,8 @@ async function cancelPaymentLink(id, cancellationReason) {
           'x-client-id': CLIENT_ID,
           'x-api-key': API_KEY,
           'Content-Type': 'application/json'
-        }
+        },
+        timeout: 10000 // 10 seconds timeout to prevent hanging
       }
     );
 
@@ -235,7 +238,8 @@ async function getAccountBalance() {
         headers: {
           'x-client-id': CLIENT_ID,
           'x-api-key': API_KEY
-        }
+        },
+        timeout: 10000 // 10 seconds timeout to prevent hanging
       }
     );
 
