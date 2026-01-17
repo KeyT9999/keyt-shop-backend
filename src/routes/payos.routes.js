@@ -301,11 +301,12 @@ router.get('/order-by-code/:payosOrderCode', async (req, res) => {
       });
     }
 
-    // Only return minimal necessary information for public endpoint
-    // Don't return _id, payosOrderCode, or other sensitive data
+    // Return order information including _id for payment success redirect
+    // This is needed for the frontend to redirect to the order detail page
     res.json({
       success: true,
       order: {
+        _id: order._id,
         orderStatus: order.orderStatus,
         paymentStatus: order.paymentStatus
       }
