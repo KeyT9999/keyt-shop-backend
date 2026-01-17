@@ -62,6 +62,20 @@ function initializeScheduler() {
     timezone: 'Asia/Ho_Chi_Minh'
   });
 
+  // Run every hour - Auto-cancel unpaid orders after 6 hours
+  cron.schedule('0 * * * *', async () => {
+    console.log('🕐 Running scheduled job: autoCancelUnpaidOrders');
+    try {
+      const result = await orderEmailSchedulerService.autoCancelUnpaidOrders();
+      console.log(`✅ Auto-cancelled unpaid orders: ${result.count || 0} orders`);
+    } catch (err) {
+      console.error('❌ Error in autoCancelUnpaidOrders:', err);
+    }
+  }, {
+    scheduled: true,
+    timezone: 'Asia/Ho_Chi_Minh'
+  });
+
   // Run every 6 hours - Send pending order reminders to admin
   cron.schedule('0 */6 * * *', async () => {
     console.log('🕐 Running scheduled job: checkAndSendPendingOrderReminders');

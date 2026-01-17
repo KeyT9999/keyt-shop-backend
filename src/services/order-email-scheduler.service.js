@@ -5,29 +5,42 @@ class OrderEmailSchedulerService {
   /**
    * Check and send payment reminders to users
    * Finds orders that are pending payment for more than 2 hours
+   * Only sends reminder once per order
    */
   async checkAndSendPaymentReminders() {
     try {
       const twoHoursAgo = new Date(Date.now() - 2 * 60 * 60 * 1000);
       
+      // Only find orders that:
+      // 1. Are pending payment
+      // 2. Were created more than 2 hours ago
+      // 3. Haven't had a payment reminder sent yet
       const orders = await Order.find({
         orderStatus: 'pending',
         paymentStatus: 'pending',
-        createdAt: { $lte: twoHoursAgo }
+        createdAt: { $lte: twoHoursAgo },
+        paymentReminderSentAt: { $exists: false }
       });
 
       console.log(`📧 Found ${orders.length} orders needing payment reminders`);
 
+      let sentCount = 0;
       for (const order of orders) {
         try {
           await emailService.sendPaymentReminderEmailToUser(order);
+          
+          // Mark that payment reminder has been sent
+          order.paymentReminderSentAt = new Date();
+          await order.save();
+          
           console.log(`✅ Payment reminder sent for order ${order._id}`);
+          sentCount++;
         } catch (err) {
           console.error(`❌ Failed to send payment reminder for order ${order._id}:`, err.message);
         }
       }
 
-      return { success: true, count: orders.length };
+      return { success: true, count: sentCount };
     } catch (err) {
       console.error('❌ Error checking payment reminders:', err);
       return { success: false, error: err.message };
@@ -66,6 +79,56 @@ class OrderEmailSchedulerService {
       return { success: true, count: orders.length };
     } catch (err) {
       console.error('❌ Error checking pending order reminders:', err);
+      return { success: false, error: err.message };
+    }
+  }
+
+  /**
+   * Auto-cancel unpaid orders after 6 hours
+   * Finds orders that are pending payment for more than 6 hours and cancels them
+   */
+  async autoCancelUnpaidOrders() {
+    try {
+      const sixHoursAgo = new Date(Date.now() - 6 * 60 * 60 * 1000);
+      
+      // Find orders that:
+      // 1. Are pending payment
+      // 2. Are still in pending status (not already cancelled or completed)
+      // 3. Were created more than 6 hours ago
+      const orders = await Order.find({
+        orderStatus: 'pending',
+        paymentStatus: 'pending',
+        createdAt: { $lte: sixHoursAgo }
+      });
+
+      console.log(`🔄 Found ${orders.length} unpaid orders to auto-cancel (older than 6 hours)`);
+
+      let cancelledCount = 0;
+      for (const order of orders) {
+        try {
+          // Cancel the order
+          order.orderStatus = 'cancelled';
+          await order.save();
+
+          // Send cancellation email to user (non-blocking)
+          const reason = 'Đơn hàng đã tự động hủy do quá thời gian thanh toán (6 giờ)';
+          try {
+            await emailService.sendOrderCancelledEmailToUser(order, reason);
+            console.log(`✅ Cancellation email sent for order ${order._id}`);
+          } catch (emailErr) {
+            console.error(`⚠️ Failed to send cancellation email for order ${order._id}:`, emailErr.message);
+          }
+
+          console.log(`✅ Auto-cancelled order ${order._id} (order code: #${order.orderCode})`);
+          cancelledCount++;
+        } catch (err) {
+          console.error(`❌ Failed to auto-cancel order ${order._id}:`, err.message);
+        }
+      }
+
+      return { success: true, count: cancelledCount };
+    } catch (err) {
+      console.error('❌ Error auto-cancelling unpaid orders:', err);
       return { success: false, error: err.message };
     }
   }
