@@ -147,6 +147,10 @@ const orderSchema = new mongoose.Schema(
     },
     qrCode: {
       type: String
+    },
+    // Track payment reminder emails
+    paymentReminderSentAt: {
+      type: Date
     }
   },
   {
