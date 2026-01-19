@@ -159,6 +159,7 @@ class SubscriptionService {
           subscription.endDate
         );
         subscription.preExpiryNotified = true;
+        subscription.manualReminderSentAt = new Date();
         await subscription.save();
         notified++;
       } catch (err) {
@@ -246,6 +247,7 @@ class SubscriptionService {
         subscription.endDate
       );
       subscription.preExpiryNotified = true;
+      subscription.manualReminderSentAt = new Date();
       await subscription.save();
       return true;
     } catch (err) {

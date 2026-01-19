@@ -161,7 +161,9 @@ Gói ${serviceName} của bạn sẽ hết hạn vào ngày ${endStr} đó ạ �
 Nếu muốn tiếp tục sử dụng, bạn cứ liên hệ sốp liền nha:
 📱 Zalo: 0868899104
 
-💖 Sốp chờ tin nhắn của ní đó ạ 💕`;
+💖 Sốp chờ tin nhắn của ní đó ạ 💕
+
+Nếu bạn đã gia hạn rồi hoặc không gia hạn xin vui lòng bỏ qua email này. Cảm ơn bạn nhiều nhe`;
 
     return await sendEmail({
       to: toEmail,

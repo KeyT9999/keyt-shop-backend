@@ -36,6 +36,10 @@ const serviceSubscriptionSchema = new mongoose.Schema(
     expiredNotified: {
       type: Boolean,
       default: false
+    },
+    // Track when manual reminder was sent (from admin dashboard)
+    manualReminderSentAt: {
+      type: Date
     }
   },
   {
