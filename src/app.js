@@ -31,7 +31,8 @@ const corsOptions = {
       process.env.FRONTEND_URL || 'http://localhost:5173',
       'http://localhost:5173',
       'http://localhost:3000',
-      'https://taphoakeyt.vercel.app',
+      'https://www.taphoakeyt.com',
+      'https://taphoakeyt.vercel.app', // Keep for backward compatibility
       'https://www.taphoakeyt.com',
       'https://taphoakeyt.com',
       'https://*.vercel.app', // Allow all Vercel preview deployments
