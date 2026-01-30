@@ -35,7 +35,7 @@ Vào **Environment** tab và đảm bảo có các biến sau:
 MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/database?retryWrites=true&w=majority
 JWT_SECRET=your-secret-key-min-32-chars
 GOOGLE_CLIENT_ID=your-client-id.apps.googleusercontent.com
-FRONTEND_URL=https://taphoakeyt.vercel.app
+FRONTEND_URL=https://www.taphoakeyt.com
 ```
 
 #### ⚠️ Kiểm tra:
@@ -84,7 +84,7 @@ VITE_API_BASE_URL=https://your-backend-url.onrender.com/api
 
 #### 4.2. Kiểm tra Browser Console
 
-1. Mở website https://taphoakeyt.vercel.app
+1. Mở website https://www.taphoakeyt.com
 2. Mở Developer Tools (F12)
 3. Vào tab **Console**
 4. Thử login và xem có lỗi gì không
@@ -131,7 +131,7 @@ Nếu thấy lỗi CORS trong browser console:
 
 1. Kiểm tra `FRONTEND_URL` trong Render đã set đúng chưa
 2. Kiểm tra logs backend có dòng: `⚠️ CORS blocked origin: ...`
-3. Đảm bảo `src/app.js` có allow `https://taphoakeyt.vercel.app`
+3. Đảm bảo `src/app.js` có allow `https://www.taphoakeyt.com`
 
 ### Bước 7: Fix Google Login
 
@@ -141,11 +141,11 @@ Nếu thấy lỗi CORS trong browser console:
 2. Chọn project của bạn
 3. Vào **APIs & Services** → **Credentials**
 4. Kiểm tra **Authorized JavaScript origins** có:
-   - `https://taphoakeyt.vercel.app`
+   - `https://www.taphoakeyt.com`
    - `http://localhost:5173` (cho dev)
 
 5. Kiểm tra **Authorized redirect URIs** có:
-   - `https://taphoakeyt.vercel.app` (nếu cần)
+   - `https://www.taphoakeyt.com` (nếu cần)
 
 #### 7.2. Kiểm tra GOOGLE_CLIENT_ID
 
@@ -197,7 +197,7 @@ VITE_API_BASE_URL=https://your-backend-url.onrender.com/api
 
 ```bash
 # 1. Kiểm tra FRONTEND_URL trong Render:
-FRONTEND_URL=https://taphoakeyt.vercel.app
+FRONTEND_URL=https://www.taphoakeyt.com
 
 # 2. Redeploy backend
 

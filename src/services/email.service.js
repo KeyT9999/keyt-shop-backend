@@ -76,7 +76,7 @@ Trân trọng,
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 📧 Email này được gửi tự động, vui lòng không trả lời email này.
-🔗 Website: https://taphoakeyt.vercel.app
+🔗 Website: https://www.taphoakeyt.com
 ⏰ Thời gian gửi: ${now}
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`;
   }
@@ -113,7 +113,7 @@ Trân trọng,
       second: '2-digit'
     });
 
-    const frontendUrl = process.env.FRONTEND_URL || 'https://taphoakeyt.vercel.app';
+    const frontendUrl = process.env.FRONTEND_URL || 'https://www.taphoakeyt.com';
 
     return `🎉 Xin chào ${username},
 
@@ -181,7 +181,7 @@ Nếu bạn đã gia hạn rồi hoặc không gia hạn xin vui lòng bỏ qua 
    */
   async sendSubscriptionExpiredToCustomer(toEmail, serviceName, endDate) {
     const endStr = formatDate(endDate);
-    const frontendUrl = process.env.FRONTEND_URL || 'https://taphoakeyt.vercel.app';
+    const frontendUrl = process.env.FRONTEND_URL || 'https://www.taphoakeyt.com';
     const subject = `[Thông báo] Gói "${serviceName}" đã hết hạn (${endStr})`;
     
     const htmlContent = this.createHtmlEmailWrapper(`
@@ -395,7 +395,7 @@ Trân trọng,
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 📧 Email này được gửi tự động, vui lòng không trả lời email này.
-🔗 Website: https://taphoakeyt.vercel.app
+🔗 Website: https://www.taphoakeyt.com
 ⏰ Thời gian gửi: ${now}
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`;
   }
@@ -433,7 +433,7 @@ Trân trọng,
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 📧 Email này được gửi tự động, vui lòng không trả lời email này.
-🔗 Website: https://taphoakeyt.vercel.app
+🔗 Website: https://www.taphoakeyt.com
 ⏰ Thời gian gửi: ${now}
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`;
   }
@@ -465,7 +465,7 @@ Trân trọng,
       minute: '2-digit',
       second: '2-digit'
     });
-    const frontendUrl = process.env.FRONTEND_URL || 'https://taphoakeyt.vercel.app';
+    const frontendUrl = process.env.FRONTEND_URL || 'https://www.taphoakeyt.com';
 
     return `
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -510,7 +510,7 @@ Trân trọng,
             <td style="background-color: #f9fafb; padding: 20px; text-align: center; border-top: 1px solid #e5e5e5; font-size: 12px; color: #6b7280;">
               <p style="margin: 5px 0;">📧 Email tự động - Không trả lời email này</p>
               <p style="margin: 5px 0;">📞 Hỗ trợ: <a href="https://zalo.me/84868899104" style="color: #2563eb;">Zalo 0868899104</a></p>
-              <p style="margin: 5px 0;">🔗 Website: <a href="https://taphoakeyt.vercel.app" style="color: #2563eb;">https://taphoakeyt.vercel.app</a></p>
+              <p style="margin: 5px 0;">🔗 Website: <a href="https://www.taphoakeyt.com" style="color: #2563eb;">https://www.taphoakeyt.com</a></p>
             </td>
           </tr>
         </table>

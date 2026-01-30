@@ -50,7 +50,7 @@ Vào **Environment** tab và thêm các biến sau:
 ```
 NODE_ENV=production
 PORT=10000
-FRONTEND_URL=https://taphoakeyt.vercel.app
+FRONTEND_URL=https://www.taphoakeyt.com
 ```
 
 ### 4.2. Database:
@@ -88,8 +88,8 @@ CLOUDINARY_API_SECRET=your-api-secret
 PAYOS_CLIENT_ID=your-client-id
 PAYOS_API_KEY=your-api-key
 PAYOS_CHECKSUM_KEY=your-checksum-key
-PAYOS_RETURN_URL=https://taphoakeyt.vercel.app/orders/:id?payment=success
-PAYOS_CANCEL_URL=https://taphoakeyt.vercel.app/orders/:id?payment=cancelled
+PAYOS_RETURN_URL=https://www.taphoakeyt.com/orders/:id?payment=success
+PAYOS_CANCEL_URL=https://www.taphoakeyt.com/orders/:id?payment=cancelled
 ```
 
 ## Bước 5: Deploy
