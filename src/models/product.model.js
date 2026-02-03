@@ -68,7 +68,13 @@ const productSchema = new mongoose.Schema(
         type: mongoose.Schema.Types.ObjectId,
         ref: 'Order'
       }
-    }]
+    }],
+    // Thứ tự hiển thị sản phẩm (số càng nhỏ càng hiển thị trước)
+    sortOrder: {
+      type: Number,
+      default: 999,
+      min: 0
+    }
   },
   {
     timestamps: true

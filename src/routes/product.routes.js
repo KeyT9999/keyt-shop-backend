@@ -28,7 +28,7 @@ router.get('/', async (req, res) => {
       isAdmin = false;
     }
 
-    const products = await Product.find({}).sort({ createdAt: -1 });
+    const products = await Product.find({}).sort({ sortOrder: 1, createdAt: -1 });
     
     // Filter preloadedAccounts for non-admin users
     const filteredProducts = products.map(product => {
@@ -112,7 +112,8 @@ router.post(
     body('features').optional().isArray().withMessage('Features phải là mảng'),
     body('options').optional().isArray().withMessage('Options phải là mảng'),
     body('options.*.name').optional().trim().notEmpty().withMessage('Tên option không được để trống'),
-    body('options.*.price').optional().isNumeric().withMessage('Giá option phải là số')
+    body('options.*.price').optional().isNumeric().withMessage('Giá option phải là số'),
+    body('sortOrder').optional().isInt({ min: 0 }).withMessage('Thứ tự sắp xếp phải là số nguyên >= 0')
   ],
   async (req, res) => {
     const errors = validationResult(req);
@@ -155,7 +156,8 @@ router.post(
         // Nếu là preloaded account, tự động đồng bộ stock với số accounts chưa dùng
         stock: req.body.isPreloadedAccount 
           ? (req.body.preloadedAccounts || []).filter(acc => acc.account && !acc.used).length 
-          : (req.body.stock || 0)
+          : (req.body.stock || 0),
+        sortOrder: req.body.sortOrder !== undefined ? Number(req.body.sortOrder) : 999
       };
 
       const product = new Product(productData);
@@ -194,7 +196,8 @@ router.put(
     body('description').optional().trim(),
     body('imageUrl').optional().trim(),
     body('features').optional().isArray().withMessage('Features phải là mảng'),
-    body('options').optional().isArray().withMessage('Options phải là mảng')
+    body('options').optional().isArray().withMessage('Options phải là mảng'),
+    body('sortOrder').optional().isInt({ min: 0 }).withMessage('Thứ tự sắp xếp phải là số nguyên >= 0')
   ],
   async (req, res) => {
     const errors = validationResult(req);
@@ -247,6 +250,9 @@ router.put(
       }
       if (req.body.isPreloadedAccount !== undefined) {
         product.isPreloadedAccount = req.body.isPreloadedAccount || false;
+      }
+      if (req.body.sortOrder !== undefined) {
+        product.sortOrder = Number(req.body.sortOrder);
       }
       if (req.body.preloadedAccounts !== undefined) {
         // Chỉ cập nhật nếu là mảng mới từ frontend
