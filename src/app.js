@@ -16,6 +16,7 @@ const categoryRoutes = require('./routes/category.routes');
 const payosRoutes = require('./routes/payos.routes');
 const bannerRoutes = require('./routes/banner.routes');
 const reviewRoutes = require('./routes/review.routes');
+const visitRoutes = require('./routes/visit.routes');
 const { authenticateToken, requireAdmin } = require('./middleware/auth.middleware');
 
 const app = express();
@@ -167,6 +168,7 @@ app.use('/api/categories', categoryRoutes);
 app.use('/api/payos', payosRoutes);
 app.use('/api/banners', bannerRoutes);
 app.use('/api/reviews', authenticateToken, reviewRoutes);
+app.use('/api/visits', visitRoutes);
 
 module.exports = app;
 
