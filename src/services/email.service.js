@@ -76,7 +76,7 @@ Trân trọng,
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 📧 Email này được gửi tự động, vui lòng không trả lời email này.
-🔗 Website: https://www.taphoakeyt.com
+🔗 Website: https://taphoakeyt.com
 ⏰ Thời gian gửi: ${now}
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`;
   }
@@ -113,7 +113,7 @@ Trân trọng,
       second: '2-digit'
     });
 
-    const frontendUrl = process.env.FRONTEND_URL || 'https://www.taphoakeyt.com';
+    const frontendUrl = process.env.FRONTEND_URL || 'https://taphoakeyt.com';
 
     return `🎉 Xin chào ${username},
 
@@ -181,7 +181,7 @@ Nếu bạn đã gia hạn rồi hoặc không gia hạn xin vui lòng bỏ qua 
    */
   async sendSubscriptionExpiredToCustomer(toEmail, serviceName, endDate) {
     const endStr = formatDate(endDate);
-    const frontendUrl = process.env.FRONTEND_URL || 'https://www.taphoakeyt.com';
+    const frontendUrl = process.env.FRONTEND_URL || 'https://taphoakeyt.com';
     const subject = `[Thông báo] Gói "${serviceName}" đã hết hạn (${endStr})`;
     
     const htmlContent = this.createHtmlEmailWrapper(`
@@ -395,7 +395,7 @@ Trân trọng,
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 📧 Email này được gửi tự động, vui lòng không trả lời email này.
-🔗 Website: https://www.taphoakeyt.com
+🔗 Website: https://taphoakeyt.com
 ⏰ Thời gian gửi: ${now}
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`;
   }
@@ -433,7 +433,7 @@ Trân trọng,
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 📧 Email này được gửi tự động, vui lòng không trả lời email này.
-🔗 Website: https://www.taphoakeyt.com
+🔗 Website: https://taphoakeyt.com
 ⏰ Thời gian gửi: ${now}
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`;
   }
@@ -465,7 +465,7 @@ Trân trọng,
       minute: '2-digit',
       second: '2-digit'
     });
-    const frontendUrl = process.env.FRONTEND_URL || 'https://www.taphoakeyt.com';
+    const frontendUrl = process.env.FRONTEND_URL || 'https://taphoakeyt.com';
 
     return `
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -510,7 +510,7 @@ Trân trọng,
             <td style="background-color: #f9fafb; padding: 20px; text-align: center; border-top: 1px solid #e5e5e5; font-size: 12px; color: #6b7280;">
               <p style="margin: 5px 0;">📧 Email tự động - Không trả lời email này</p>
               <p style="margin: 5px 0;">📞 Hỗ trợ: <a href="https://zalo.me/84868899104" style="color: #2563eb;">Zalo 0868899104</a></p>
-              <p style="margin: 5px 0;">🔗 Website: <a href="https://www.taphoakeyt.com" style="color: #2563eb;">https://www.taphoakeyt.com</a></p>
+              <p style="margin: 5px 0;">🔗 Website: <a href="https://taphoakeyt.com" style="color: #2563eb;">https://taphoakeyt.com</a></p>
             </td>
           </tr>
         </table>
@@ -688,7 +688,7 @@ ${order.note ? `📝 Ghi chú của bạn:\n${order.note}\n` : ''}${this.createE
       }).filter(html => html).join('')
       : '';
 
-    const adminUrl = process.env.FRONTEND_URL ? `${process.env.FRONTEND_URL}/admin/orders/${order._id}` : `http://localhost:5173/admin/orders/${order._id}`;
+    const adminUrl = process.env.FRONTEND_URL ? `${process.env.FRONTEND_URL}/admin/orders/${order._id}` : `https://taphoakeyt.com/admin/orders/${order._id}`;
 
     const content = `
       <h2 style="color: #dc2626; margin-top: 0;">🔔 Đơn hàng mới cần xử lý</h2>
@@ -782,7 +782,7 @@ ${order.note ? `📝 Ghi chú của bạn:\n${order.note}\n` : ''}${this.createE
       }).filter(text => text).join('\n\n')
       : '';
 
-    const adminUrl = process.env.FRONTEND_URL ? `${process.env.FRONTEND_URL}/admin/orders/${order._id}` : `http://localhost:5173/admin/orders/${order._id}`;
+    const adminUrl = process.env.FRONTEND_URL ? `${process.env.FRONTEND_URL}/admin/orders/${order._id}` : `https://taphoakeyt.com/admin/orders/${order._id}`;
 
     return `🔔 Đơn hàng mới cần xử lý
 
@@ -816,7 +816,7 @@ ${this.createEmailFooter()}`;
     const orderNumber = order.orderCode;
     const subject = `Thanh toán thành công - Đơn hàng #${orderNumber}`;
 
-    const orderUrl = process.env.FRONTEND_URL ? `${process.env.FRONTEND_URL}/orders/${order._id}` : `http://localhost:5173/orders/${order._id}`;
+    const orderUrl = process.env.FRONTEND_URL ? `${process.env.FRONTEND_URL}/orders/${order._id}` : `https://taphoakeyt.com/orders/${order._id}`;
 
     const content = `
       <h2 style="color: #059669; margin-top: 0;">✅ Thanh toán thành công!</h2>
@@ -908,7 +908,7 @@ ${this.createEmailFooter()}`;
     const hasSpecialNote = order.note && order.note.trim();
     const hasRequiredFields = order.items.some(item => item.requiredFieldsData && item.requiredFieldsData.length > 0);
 
-    const adminUrl = process.env.FRONTEND_URL ? `${process.env.FRONTEND_URL}/admin/orders/${order._id}` : `http://localhost:5173/admin/orders/${order._id}`;
+    const adminUrl = process.env.FRONTEND_URL ? `${process.env.FRONTEND_URL}/admin/orders/${order._id}` : `https://taphoakeyt.com/admin/orders/${order._id}`;
 
     const content = `
       <h2 style="color: #059669; margin-top: 0;">💰 Đơn hàng mới - Đã thanh toán thành công</h2>
@@ -1014,7 +1014,7 @@ ${this.createEmailFooter()}`;
     const hasSpecialNote = order.note && order.note.trim();
     const hasRequiredFields = order.items.some(item => item.requiredFieldsData && item.requiredFieldsData.length > 0);
 
-    const adminUrl = process.env.FRONTEND_URL ? `${process.env.FRONTEND_URL}/admin/orders/${order._id}` : `http://localhost:5173/admin/orders/${order._id}`;
+    const adminUrl = process.env.FRONTEND_URL ? `${process.env.FRONTEND_URL}/admin/orders/${order._id}` : `https://taphoakeyt.com/admin/orders/${order._id}`;
 
     return `💰 Đơn hàng mới - Đã thanh toán thành công
 
@@ -1049,7 +1049,7 @@ ${this.createEmailFooter()}`;
     const orderNumber = order.orderCode;
     const subject = `[Thanh toán thành công] Đơn hàng #${orderNumber} - ${this.formatPrice(order.totalAmount, order.items[0]?.currency || 'VND')}`;
 
-    const adminUrl = process.env.FRONTEND_URL ? `${process.env.FRONTEND_URL}/admin/orders/${order._id}` : `http://localhost:5173/admin/orders/${order._id}`;
+    const adminUrl = process.env.FRONTEND_URL ? `${process.env.FRONTEND_URL}/admin/orders/${order._id}` : `https://taphoakeyt.com/admin/orders/${order._id}`;
 
     const content = `
       <h2 style="color: #059669; margin-top: 0;">💰 Đơn hàng đã thanh toán</h2>
@@ -1113,7 +1113,7 @@ ${this.createEmailFooter()}`;
     const orderNumber = order.orderCode;
     const subject = `Đơn hàng #${orderNumber} đã được xác nhận`;
 
-    const orderUrl = process.env.FRONTEND_URL ? `${process.env.FRONTEND_URL}/orders/${order._id}` : `http://localhost:5173/orders/${order._id}`;
+    const orderUrl = process.env.FRONTEND_URL ? `${process.env.FRONTEND_URL}/orders/${order._id}` : `https://taphoakeyt.com/orders/${order._id}`;
     const confirmedBy = typeof order.confirmedBy === 'object' && order.confirmedBy ? order.confirmedBy.username : 'Admin';
 
     const content = `
@@ -1179,7 +1179,7 @@ ${this.createEmailFooter()}`;
     const orderNumber = order.orderCode;
     const subject = `Đơn hàng #${orderNumber} đang được xử lý`;
 
-    const orderUrl = process.env.FRONTEND_URL ? `${process.env.FRONTEND_URL}/orders/${order._id}` : `http://localhost:5173/orders/${order._id}`;
+    const orderUrl = process.env.FRONTEND_URL ? `${process.env.FRONTEND_URL}/orders/${order._id}` : `https://taphoakeyt.com/orders/${order._id}`;
 
     const itemsList = order.items.map(item => `• ${item.name} x${item.quantity}`).join('<br>');
 
@@ -1258,8 +1258,8 @@ ${this.createEmailFooter()}`;
     const orderNumber = order.orderCode;
     const subject = `🎉 Đơn hàng #${orderNumber} đã hoàn thành!`;
 
-    const orderUrl = process.env.FRONTEND_URL ? `${process.env.FRONTEND_URL}/orders/${order._id}` : `http://localhost:5173/orders/${order._id}`;
-    const reviewUrl = process.env.FRONTEND_URL ? `${process.env.FRONTEND_URL}/orders/${order._id}` : `http://localhost:5173/orders/${order._id}`;
+    const orderUrl = process.env.FRONTEND_URL ? `${process.env.FRONTEND_URL}/orders/${order._id}` : `https://taphoakeyt.com/orders/${order._id}`;
+    const reviewUrl = process.env.FRONTEND_URL ? `${process.env.FRONTEND_URL}/orders/${order._id}` : `https://taphoakeyt.com/orders/${order._id}`;
 
     const itemsList = order.items.map(item => {
       let itemInfo = `• <strong>${item.name}</strong> x${item.quantity}`;
@@ -1423,8 +1423,8 @@ ${this.createEmailFooter()}`;
     const orderNumber = order.orderCode;
     const subject = `Đơn hàng #${orderNumber} đã bị hủy`;
 
-    const orderUrl = process.env.FRONTEND_URL ? `${process.env.FRONTEND_URL}/orders/${order._id}` : `http://localhost:5173/orders/${order._id}`;
-    const shopUrl = process.env.FRONTEND_URL ? `${process.env.FRONTEND_URL}/products` : `http://localhost:5173/products`;
+    const orderUrl = process.env.FRONTEND_URL ? `${process.env.FRONTEND_URL}/orders/${order._id}` : `https://taphoakeyt.com/orders/${order._id}`;
+    const shopUrl = process.env.FRONTEND_URL ? `${process.env.FRONTEND_URL}/products` : `https://taphoakeyt.com/products`;
 
     const refundInfo = order.paymentStatus === 'paid'
       ? '<p style="margin: 10px 0 0 0; color: #065f46; font-size: 14px; font-weight: 600;">💰 Tiền sẽ được hoàn lại sau khi bạn gửi tin nhắn cho admin.</p><p style="margin: 10px 0 0 0; color: #065f46; font-size: 14px;">📷 Vui lòng chụp màn hình mail này và gửi Zalo cho admin <a href="https://zalo.me/84868899104" style="color: #2563eb; font-weight: 600;">0868899104</a> để hoàn lại tiền.</p>'
@@ -1498,7 +1498,7 @@ ${this.createEmailFooter()}`;
     const orderNumber = order.orderCode;
     const subject = `Thanh toán thất bại - Đơn hàng #${orderNumber}`;
 
-    const orderUrl = process.env.FRONTEND_URL ? `${process.env.FRONTEND_URL}/orders/${order._id}` : `http://localhost:5173/orders/${order._id}`;
+    const orderUrl = process.env.FRONTEND_URL ? `${process.env.FRONTEND_URL}/orders/${order._id}` : `https://taphoakeyt.com/orders/${order._id}`;
 
     const content = `
       <h2 style="color: #dc2626; margin-top: 0;">❌ Thanh toán thất bại</h2>
@@ -1578,7 +1578,7 @@ ${this.createEmailFooter()}`;
     const orderNumber = order.orderCode;
     const subject = `Link thanh toán hết hạn - Đơn hàng #${orderNumber}`;
 
-    const orderUrl = process.env.FRONTEND_URL ? `${process.env.FRONTEND_URL}/orders/${order._id}` : `http://localhost:5173/orders/${order._id}`;
+    const orderUrl = process.env.FRONTEND_URL ? `${process.env.FRONTEND_URL}/orders/${order._id}` : `https://taphoakeyt.com/orders/${order._id}`;
 
     const content = `
       <h2 style="color: #d97706; margin-top: 0;">⏰ Link thanh toán đã hết hạn</h2>
@@ -1641,7 +1641,7 @@ ${this.createEmailFooter()}`;
     const orderNumber = order.orderCode;
     const subject = `⏰ Nhắc nhở thanh toán - Đơn hàng #${orderNumber}`;
 
-    const orderUrl = process.env.FRONTEND_URL ? `${process.env.FRONTEND_URL}/orders/${order._id}` : `http://localhost:5173/orders/${order._id}`;
+    const orderUrl = process.env.FRONTEND_URL ? `${process.env.FRONTEND_URL}/orders/${order._id}` : `https://taphoakeyt.com/orders/${order._id}`;
     const paymentUrl = order.checkoutUrl || orderUrl;
 
     const content = `
@@ -1713,7 +1713,7 @@ ${this.createEmailFooter()}`;
     const orderNumber = order.orderCode;
     const subject = `[Nhắc nhở] Đơn hàng #${orderNumber} chờ xác nhận ${hoursPending} giờ`;
 
-    const adminUrl = process.env.FRONTEND_URL ? `${process.env.FRONTEND_URL}/admin/orders/${order._id}` : `http://localhost:5173/admin/orders/${order._id}`;
+    const adminUrl = process.env.FRONTEND_URL ? `${process.env.FRONTEND_URL}/admin/orders/${order._id}` : `https://taphoakeyt.com/admin/orders/${order._id}`;
 
     const content = `
       <h2 style="color: #d97706; margin-top: 0;">⏰ Đơn hàng chờ xác nhận lâu</h2>
@@ -1782,7 +1782,7 @@ ${this.createEmailFooter()}`;
     const orderNumber = order.orderCode;
     const subject = `[Yêu cầu đặc biệt] Đơn hàng #${orderNumber}`;
 
-    const adminUrl = process.env.FRONTEND_URL ? `${process.env.FRONTEND_URL}/admin/orders/${order._id}` : `http://localhost:5173/admin/orders/${order._id}`;
+    const adminUrl = process.env.FRONTEND_URL ? `${process.env.FRONTEND_URL}/admin/orders/${order._id}` : `https://taphoakeyt.com/admin/orders/${order._id}`;
 
     const requiredFieldsHtml = order.items.some(item => item.requiredFieldsData && item.requiredFieldsData.length > 0)
       ? order.items.map((item, itemIndex) => {
@@ -1876,14 +1876,14 @@ ${this.createEmailFooter()}`;
     const adminEmail = this.getAdminEmail();
     const subject = `[Tổng kết] Đơn hàng hôm nay - ${new Date().toLocaleDateString('vi-VN')}`;
 
-    const adminUrl = process.env.FRONTEND_URL ? `${process.env.FRONTEND_URL}/admin/orders` : `http://localhost:5173/admin/orders`;
+    const adminUrl = process.env.FRONTEND_URL ? `${process.env.FRONTEND_URL}/admin/orders` : `https://taphoakeyt.com/admin/orders`;
 
     const ordersHtml = orders && orders.length > 0 ? orders.map(order => {
       const orderNumber = order._id.toString().slice(-8).toUpperCase();
       return `
         <tr>
           <td style="padding: 10px; border-bottom: 1px solid #e5e5e5;">
-            <a href="${process.env.FRONTEND_URL || 'http://localhost:5173'}/admin/orders/${order._id}" style="color: #2563eb; text-decoration: none;">#${orderNumber}</a>
+            <a href="${process.env.FRONTEND_URL || 'https://taphoakeyt.com'}/admin/orders/${order._id}" style="color: #2563eb; text-decoration: none;">#${orderNumber}</a>
           </td>
           <td style="padding: 10px; border-bottom: 1px solid #e5e5e5;">${order.customer.name}</td>
           <td style="padding: 10px; border-bottom: 1px solid #e5e5e5; text-align: right;">${this.formatPrice(order.totalAmount, order.items[0]?.currency || 'VND')}</td>
