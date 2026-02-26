@@ -38,6 +38,26 @@ router.post('/get-otp', authenticateToken, async (req, res) => {
 });
 
 /**
+ * Generate 2FA code from raw secret key (User)
+ * POST /api/chatgpt/generate-2fa
+ */
+router.post('/generate-2fa', authenticateToken, async (req, res) => {
+  try {
+    const { secretKey } = req.body;
+    if (!secretKey) {
+      return res.status(400).json({ message: 'Vui lòng nhập mã bí mật.' });
+    }
+    const cleaned = secretKey.replace(/\s+/g, '');
+    const code = getTOTPCode(cleaned);
+    const expiresIn = 30 - (Math.floor(Date.now() / 1000) % 30);
+    res.json({ code, expiresIn });
+  } catch (err) {
+    console.error('❌ Error generating 2FA:', err);
+    res.status(500).json({ message: 'Mã bí mật không hợp lệ.' });
+  }
+});
+
+/**
  * Get all ChatGPT accounts (Admin only)
  * GET /api/chatgpt/accounts
  */

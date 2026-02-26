@@ -2,7 +2,7 @@ const User = require('../models/user.model');
 const emailService = require('./email.service');
 const tokenService = require('./token.service');
 
-const FRONTEND_URL = process.env.FRONTEND_URL || 'http://localhost:5173';
+const FRONTEND_URL = process.env.FRONTEND_URL || 'https://taphoakeyt.com';
 const RESET_PATH = '/reset-password';
 
 class PasswordResetService {

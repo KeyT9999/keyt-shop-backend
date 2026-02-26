@@ -122,7 +122,7 @@ router.post(
       }
 
 
-      const verifyLink = `${process.env.FRONTEND_URL || 'http://localhost:5173'}/verify-email?token=${verificationToken}`;
+      const verifyLink = `${process.env.FRONTEND_URL || 'https://taphoakeyt.com'}/verify-email?token=${verificationToken}`;
       try {
         await emailService.sendEmailVerificationEmail(user.email, user.username, verifyLink);
       } catch (emailErr) {
@@ -413,7 +413,7 @@ router.post(
       user.emailVerificationExpires = new Date(Date.now() + 24 * 60 * 60 * 1000);
       await user.save();
 
-      const verifyLink = `${process.env.FRONTEND_URL || 'http://localhost:5173'}/verify-email?token=${token}`;
+      const verifyLink = `${process.env.FRONTEND_URL || 'https://taphoakeyt.com'}/verify-email?token=${token}`;
       await emailService.sendEmailVerificationEmail(user.email, user.username, verifyLink);
 
       res.json({ message: 'Link xác minh đã được gửi tới email của bạn.' });
