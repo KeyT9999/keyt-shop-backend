@@ -128,5 +128,34 @@ router.post('/:id/send-reminder', authenticateToken, requireAdmin, async (req, r
   }
 });
 
+/**
+ * Renew subscription - update endDate and reset notification flags (Admin only)
+ * POST /api/subscriptions/:id/renew
+ */
+router.post('/:id/renew', authenticateToken, requireAdmin, async (req, res) => {
+  try {
+    const { newEndDate } = req.body;
+    if (!newEndDate) {
+      return res.status(400).json({ message: 'Vui lòng chọn ngày hết hạn mới.' });
+    }
+
+    const subscription = await subscriptionService.findById(req.params.id);
+    if (!subscription) {
+      return res.status(404).json({ message: 'Không tìm thấy subscription.' });
+    }
+
+    subscription.endDate = new Date(newEndDate);
+    subscription.preExpiryNotified = false;
+    subscription.expiredNotified = false;
+    subscription.manualReminderSentAt = null;
+
+    await subscription.save();
+    res.json(subscription);
+  } catch (err) {
+    console.error('❌ Error renewing subscription:', err);
+    res.status(500).json({ message: 'Server error' });
+  }
+});
+
 module.exports = router;
 
