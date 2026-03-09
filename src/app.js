@@ -155,6 +155,8 @@ Hệ thống Tiệm Tạp Hóa KeyT`,
   }
 });
 
+const sitemapRoutes = require('./routes/sitemap.routes');
+
 app.use('/api/auth', authRoutes);
 app.use('/api/user', userRoutes);
 app.use('/api/orders', authenticateToken, orderRoutes);
@@ -171,6 +173,7 @@ app.use('/api/banners', bannerRoutes);
 app.use('/api/reviews', authenticateToken, reviewRoutes);
 app.use('/api/visits', visitRoutes);
 app.use('/api/announcements', announcementRoutes);
+app.use('/api/sitemap', sitemapRoutes);
 
 module.exports = app;
 
