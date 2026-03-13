@@ -8,6 +8,28 @@ const { orderLimiter } = require('../middleware/rateLimiter.middleware');
 
 const router = express.Router();
 
+/**
+ * GET /api/orders/my
+ * Lấy danh sách đơn hàng của user hiện tại
+ */
+router.get('/my', async (req, res) => {
+  try {
+    const userId = req.user?.id;
+    if (!userId) {
+      return res.status(401).json({ message: 'Vui lòng đăng nhập.' });
+    }
+
+    const orders = await Order.find({ userId })
+      .sort({ createdAt: -1 })
+      .select('_id orderCode totalAmount orderStatus paymentStatus createdAt');
+
+    return res.json({ orders });
+  } catch (err) {
+    console.error('❌ Lỗi khi lấy danh sách đơn hàng:', err);
+    return res.status(500).json({ message: 'Lỗi máy chủ, vui lòng thử lại sau.' });
+  }
+});
+
 router.post('/', orderLimiter, async (req, res) => {
   const { customer, items, totalAmount, note } = req.body;
   const userId = req.user?.id || null;
@@ -148,6 +170,48 @@ router.post('/', orderLimiter, async (req, res) => {
     }
   } catch (err) {
     console.error('❌ Lỗi tạo đơn hàng:', err);
+    res.status(500).json({ message: 'Lỗi máy chủ, vui lòng thử lại sau.' });
+  }
+});
+
+/**
+ * GET /api/orders/vault
+ * Lấy danh sách tài khoản Két sắt số (delivered accounts)
+ */
+router.get('/vault', async (req, res) => {
+  try {
+    const userId = req.user?.id;
+    if (!userId) {
+      return res.status(401).json({ message: 'Vui lòng đăng nhập để xem két sắt số.' });
+    }
+
+    const orders = await Order.find({
+      userId,
+      orderStatus: 'completed'
+    }).populate('items.productId', 'name image isPreloadedAccount').sort({ completedAt: -1, createdAt: -1 });
+
+    const vaultItems = [];
+    orders.forEach(order => {
+      if (order.items && Array.isArray(order.items)) {
+        order.items.forEach((item, index) => {
+          if (item.deliveredAccount) {
+            vaultItems.push({
+              id: `${order._id}_${index}`,
+              orderId: order._id,
+              orderCode: order.orderCode,
+              purchaseDate: order.completedAt || order.createdAt,
+              productName: item.name || item.productId?.name,
+              productImage: item.productId?.image,
+              accountDetails: item.deliveredAccount
+            });
+          }
+        });
+      }
+    });
+
+    res.json(vaultItems);
+  } catch (err) {
+    console.error('❌ Lỗi khi lấy Két sắt số:', err);
     res.status(500).json({ message: 'Lỗi máy chủ, vui lòng thử lại sau.' });
   }
 });

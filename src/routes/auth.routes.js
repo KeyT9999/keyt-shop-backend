@@ -8,6 +8,7 @@ const userLoginHistoryService = require('../services/user-login-history.service'
 const emailService = require('../services/email.service');
 const passwordResetService = require('../services/password-reset.service');
 const tokenService = require('../services/token.service');
+const zaloAuthController = require('../controllers/zaloAuth.controller');
 const { registerLimiter, passwordResetLimiter, emailVerificationLimiter } = require('../middleware/rateLimiter.middleware');
 
 const router = express.Router();
@@ -353,6 +354,9 @@ router.post('/google', async (req, res) => {
     res.status(400).json({ message: 'Token Google không hợp lệ.' });
   }
 });
+
+// Zalo Login endpoint
+router.post('/zalo', zaloAuthController.loginWithZalo);
 
 router.post(
   '/verify-email',
