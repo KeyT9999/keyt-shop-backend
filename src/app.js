@@ -35,6 +35,7 @@ const corsOptions = {
       'http://localhost:3000',
       'http://localhost:2999', // Zalo Mini App simulator (localhost)
       'http://127.0.0.1:2999', // Zalo Mini App simulator (loopback)
+      'https://zalo.me', // Zalo Mini App production host
       'https://www.taphoakeyt.com',
       'https://taphoakeyt.vercel.app', // Keep for backward compatibility
       'https://www.taphoakeyt.com',
