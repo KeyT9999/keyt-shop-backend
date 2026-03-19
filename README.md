@@ -40,6 +40,13 @@ Trong `.env`, hãy luôn định nghĩa:
 MONGODB_URL=...
 JWT_SECRET=chuoi-bi-mat-rieng
 GOOGLE_CLIENT_ID=xxxxxxxxxxx.apps.googleusercontent.com
+RECAPTCHA_SITE_KEY=your-recaptcha-site-key
+RECAPTCHA_SECRET_KEY=your-recaptcha-secret-key
+```
+```
+MONGODB_URL=...
+JWT_SECRET=chuoi-bi-mat-rieng
+GOOGLE_CLIENT_ID=xxxxxxxxxxx.apps.googleusercontent.com
 ```
 `JWT_SECRET` sẽ dùng để tạo và xác minh token khi đăng nhập. `GOOGLE_CLIENT_ID` dùng trong route `/api/auth/google` để xác minh ID token từ Google.
 

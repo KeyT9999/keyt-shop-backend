@@ -1,8 +1,6 @@
-const axios = require('axios');
-const jwt = require('jsonwebtoken');
+﻿const jwt = require('jsonwebtoken');
 const User = require('../models/user.model');
 const userLoginHistoryService = require('../services/user-login-history.service');
-const emailService = require('../services/email.service');
 
 const getJwtSecret = () => {
   const secret = process.env.JWT_SECRET;
@@ -31,66 +29,63 @@ const ensureUniqueUsername = async (base) => {
   return candidate.length >= 6 ? candidate : `${candidate}zalo`;
 };
 
-// Gọi Zalo Graph API để lấy SĐT
-const getZaloUserPhone = async (accessToken) => {
-  try {
-    const response = await axios.get('https://graph.zalo.me/v2.0/me/info', {
-      headers: {
-        access_token: accessToken,
-        code: accessToken // Trong phiên bản Zalo Access Token thực tế, pass vào header hoặc querystring
-      }
-    });
-    
-    // Lưu ý: Zalo trả về dữ liệu tuỳ thuộc app có quyền lấy phone hay không
-    // Data mockup hoặc fallback nếu app chưa xét duyệt
-    return response.data;
-  } catch (error) {
-    console.error('Call Zalo API Error:', error?.response?.data || error.message);
-    throw new Error('Lỗi xác thực Zalo Token');
-  }
+const normalizeString = (value) => {
+  if (value === undefined || value === null) return '';
+  return String(value).trim();
 };
 
 const loginWithZalo = async (req, res) => {
-  const { accessToken, userId: zaloUserId, name: zaloName, phone: zaloPhone } = req.body;
-
-  if (!accessToken) {
-    return res.status(400).json({ message: 'Missing Zalo Access Token' });
-  }
+  const accessToken = normalizeString(req.body?.accessToken || req.body?.access_token);
+  const zaloUserId = normalizeString(req.body?.userId || req.body?.user_id);
+  const zaloName = normalizeString(req.body?.name);
+  const zaloPhone = normalizeString(req.body?.phone);
 
   try {
-    // 1. (Optional) Verify token by calling Zalo Graph API
-    // Thực tế nếu app chưa duyệt Quyền lấy SĐT, Zalo sẽ không trả về phone.
-    // Tạm thời tin tưởng phone truyền lên (trong môi trường test ZMP), hoặc dùng zaloUserId.
-    
-    // const zaloData = await getZaloUserPhone(accessToken);
-    const phoneToUse = zaloPhone || zaloUserId; 
-    
-    if (!phoneToUse) {
-         return res.status(400).json({ message: 'Không thể lấy thông tin định danh từ Zalo' });
+    const zaloIdentity = normalizeString(zaloPhone || zaloUserId);
+
+    if (!zaloIdentity) {
+      return res.status(400).json({ message: 'Không thể lấy thông tin định danh từ Zalo' });
     }
 
-    // 2. Lookup existing user by phone (fallback to email if linked)
-    let user = await User.findOne({ username: phoneToUse });
+    // The current backend flow maps a Zalo account by stable identity and does not
+    // validate the access token with Zalo servers. In simulator/dev, the SDK may not
+    // return an access token even when userId is available, so we allow this fallback.
+    if (!accessToken) {
+      console.warn('⚠️ Zalo login without access token, using user identity fallback:', zaloIdentity);
+    }
 
-    // 3. Nếu chưa có user -> Create mới
+    const legacyUsername = zaloIdentity;
+    const canonicalUsername = `zalo_${zaloIdentity}`;
+    const usernameCandidates = Array.from(new Set([legacyUsername, canonicalUsername]));
+
+    // Only reuse users created by Zalo login to avoid taking over regular accounts.
+    let user = await User.findOne({
+      username: { $in: usernameCandidates },
+      loginType: 'login-zalo'
+    });
+
+    // If user does not exist -> create new one.
     if (!user) {
-      const base = `zalo_${phoneToUse}`.slice(0, 15);
+      const base = canonicalUsername.slice(0, 15);
       const username = await ensureUniqueUsername(base);
-      
-      const defaultEmail = `${username}@zalo.local`; // Bắt buộc điền tạm do model User bắt Email unique
-      
+      const defaultEmail = `${username}@zalo.local`;
+
       user = await User.create({
-        username: phoneToUse, // Tạm dùng sdt làm username
-        email: defaultEmail, 
-        password: null, // Không có pass vì login zalo
+        username,
+        email: defaultEmail,
+        password: null,
         loginType: 'login-zalo',
-        emailVerified: true // Zalo phone coi như verified
+        emailVerified: true,
+        displayName: zaloName || null
       });
-      
+
       console.log('✅ Created Zalo User:', user.username);
+    } else if (zaloName && !user.displayName) {
+      user.displayName = zaloName;
+      await user.save();
     }
 
-    // 4. Record History
+    // Record login history.
     const ipAddress = req.headers['x-forwarded-for']?.split(',')[0] || req.connection.remoteAddress;
     const userAgent = req.headers['user-agent'] || 'ZaloMiniApp';
     try {
@@ -99,7 +94,7 @@ const loginWithZalo = async (req, res) => {
       console.warn('⚠️ Failed to record login history:', historyErr.message);
     }
 
-    // 5. Generate Internal JWT
+    // Generate internal JWT.
     const token = createToken(user);
 
     return res.json({
@@ -112,7 +107,6 @@ const loginWithZalo = async (req, res) => {
       },
       token
     });
-
   } catch (error) {
     console.error('❌ Zalo login error:', error);
     res.status(500).json({ message: 'Đăng nhập Zalo thất bại.', error: error.message });
