@@ -10,6 +10,7 @@ const passwordResetService = require('../services/password-reset.service');
 const tokenService = require('../services/token.service');
 const zaloAuthController = require('../controllers/zaloAuth.controller');
 const { registerLimiter, passwordResetLimiter, emailVerificationLimiter } = require('../middleware/rateLimiter.middleware');
+const { requireRecaptcha } = require('../middleware/recaptcha.middleware');
 
 const router = express.Router();
 
@@ -60,6 +61,7 @@ const ensureUniqueUsername = async (base) => {
 router.post(
   '/register',
   registerLimiter,
+  requireRecaptcha('register'),
   [
     body('username')
       .trim()
@@ -168,6 +170,7 @@ router.post(
 router.post(
   '/login',
   loginLimiter,
+  requireRecaptcha('login'),
   [
     body('username').notEmpty().withMessage('Username không được để trống').trim().escape(),
     body('password').notEmpty().withMessage('Password không được để trống').trim()
@@ -228,6 +231,7 @@ router.post(
 router.post(
   '/forgot-password',
   passwordResetLimiter,
+  requireRecaptcha('forgot_password'),
   [
     body('email').isEmail().withMessage('Email không hợp lệ').normalizeEmail()
   ],
@@ -282,7 +286,7 @@ router.post(
   }
 );
 
-router.post('/google', async (req, res) => {
+router.post('/google', requireRecaptcha('google_login'), async (req, res) => {
   const { credential } = req.body || {};
   if (!credential) {
     return res.status(400).json({ message: 'Google token chưa có.' });
@@ -394,6 +398,7 @@ router.post(
 router.post(
   '/resend-verification',
   emailVerificationLimiter,
+  requireRecaptcha('resend_verification'),
   [body('email').isEmail().withMessage('Email không hợp lệ').normalizeEmail()],
   async (req, res) => {
     const errors = validationResult(req);

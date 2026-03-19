@@ -16,6 +16,7 @@ const categoryRoutes = require('./routes/category.routes');
 const payosRoutes = require('./routes/payos.routes');
 const bannerRoutes = require('./routes/banner.routes');
 const reviewRoutes = require('./routes/review.routes');
+const publicRoutes = require('./routes/public.routes');
 const visitRoutes = require('./routes/visit.routes');
 const announcementRoutes = require('./routes/announcement.routes');
 const { authenticateToken, requireAdmin } = require('./middleware/auth.middleware');
@@ -177,6 +178,7 @@ app.use('/api/reviews', authenticateToken, reviewRoutes);
 app.use('/api/visits', visitRoutes);
 app.use('/api/announcements', announcementRoutes);
 app.use('/api/sitemap', sitemapRoutes);
+app.use('/api/public', publicRoutes);
 
 module.exports = app;
 

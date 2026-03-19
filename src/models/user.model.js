@@ -26,7 +26,7 @@ const userSchema = new mongoose.Schema(
     },
     loginType: {
       type: String,
-      enum: ['login-common', 'login-google'],
+      enum: ['login-common', 'login-google', 'login-zalo'],
       default: 'login-common'
     },
     googleId: {
