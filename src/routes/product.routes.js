@@ -140,6 +140,11 @@ router.post(
     body('lowStockThreshold').optional().isInt({ min: 0 }).withMessage('Ngưỡng tồn kho phải >= 0'),
     body('isHot').optional().isBoolean().withMessage('isHot phải là boolean'),
     body('isTiemBanhNetflix').optional().isBoolean().withMessage('isTiemBanhNetflix phải là boolean'),
+    body('affiliateEnabled').optional().isBoolean().withMessage('affiliateEnabled phải là boolean'),
+    body('affiliateCommissionPercent')
+      .optional()
+      .isFloat({ min: 0, max: 100 })
+      .withMessage('Phần trăm hoa hồng phải nằm trong khoảng 0-100'),
     body('promotion').optional().trim(),
     body('description').optional().trim(),
     body('imageUrl').optional().trim(),
@@ -178,6 +183,11 @@ router.post(
         completionInstructions: req.body.completionInstructions || '',
         isPreloadedAccount,
         isTiemBanhNetflix,
+        affiliateEnabled: req.body.affiliateEnabled === true,
+        affiliateCommissionPercent:
+          req.body.affiliateEnabled === true
+            ? Math.max(0, Number(req.body.affiliateCommissionPercent) || 0)
+            : 0,
         preloadedAccounts,
         stock: isPreloadedAccount
           ? preloadedAccounts.filter((acc) => !acc.used).length
@@ -218,6 +228,11 @@ router.put(
     body('lowStockThreshold').optional().isInt({ min: 0 }).withMessage('Ngưỡng tồn kho phải >= 0'),
     body('isHot').optional().isBoolean().withMessage('isHot phải là boolean'),
     body('isTiemBanhNetflix').optional().isBoolean().withMessage('isTiemBanhNetflix phải là boolean'),
+    body('affiliateEnabled').optional().isBoolean().withMessage('affiliateEnabled phải là boolean'),
+    body('affiliateCommissionPercent')
+      .optional()
+      .isFloat({ min: 0, max: 100 })
+      .withMessage('Phần trăm hoa hồng phải nằm trong khoảng 0-100'),
     body('promotion').optional().trim(),
     body('description').optional().trim(),
     body('imageUrl').optional().trim(),
@@ -270,6 +285,18 @@ router.put(
 
       if (req.body.isTiemBanhNetflix !== undefined) {
         product.isTiemBanhNetflix = req.body.isTiemBanhNetflix === true;
+      }
+
+      if (req.body.affiliateEnabled !== undefined) {
+        product.affiliateEnabled = req.body.affiliateEnabled === true;
+      }
+
+      if (req.body.affiliateCommissionPercent !== undefined) {
+        product.affiliateCommissionPercent = product.affiliateEnabled
+          ? Math.max(0, Number(req.body.affiliateCommissionPercent) || 0)
+          : 0;
+      } else if (req.body.affiliateEnabled === false) {
+        product.affiliateCommissionPercent = 0;
       }
 
       if (product.isTiemBanhNetflix) {

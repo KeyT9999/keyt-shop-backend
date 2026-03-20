@@ -5,6 +5,7 @@ const emailService = require('../services/email.service');
 const Product = require('../models/product.model');
 const { generateUniqueOrderCode } = require('../utils/orderCode.util');
 const { orderLimiter } = require('../middleware/rateLimiter.middleware');
+const affiliateService = require('../services/affiliate.service');
 
 const router = express.Router();
 
@@ -31,7 +32,7 @@ router.get('/my', async (req, res) => {
 });
 
 router.post('/', orderLimiter, async (req, res) => {
-  const { customer, items, totalAmount, note } = req.body;
+  const { customer, items, totalAmount, note, referralCode } = req.body;
   const userId = req.user?.id || null;
 
   if (!customer || !customer.name || !customer.email || !customer.phone) {
@@ -79,15 +80,37 @@ router.post('/', orderLimiter, async (req, res) => {
     const orderCode = await generateUniqueOrderCode();
     console.log(`✅ Mã đơn hàng được tạo: ${orderCode}`);
 
+    const normalizedItems = items.map((item) => {
+      const product = productMap.get(item.productId);
+      const affiliateSnapshot = affiliateService.computeItemAffiliateSnapshot(product, item);
+
+      return {
+        ...item,
+        affiliateEnabled: affiliateSnapshot.affiliateEnabled,
+        affiliateCommissionRate: affiliateSnapshot.affiliateCommissionRate,
+        affiliateCommissionAmount: affiliateSnapshot.affiliateCommissionAmount
+      };
+    });
+
     const orderData = {
       orderCode,
       userId,
       customer,
-      items,
+      items: normalizedItems,
       totalAmount,
       orderStatus: 'pending',
       paymentStatus: 'pending'
     };
+
+    const attribution = await affiliateService.buildOrderAffiliateAttribution({
+      referralCode,
+      buyerUserId: userId
+    });
+    if (attribution) {
+      orderData.affiliateReferrerUserId = attribution.referrerUserId;
+      orderData.affiliateReferralCode = attribution.referralCode;
+      orderData.affiliateAttributedAt = new Date();
+    }
     if (note && note.trim()) {
       orderData.note = note.trim();
     }

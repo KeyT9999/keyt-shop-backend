@@ -4,6 +4,7 @@ const Product = require('../models/product.model');
 const payosService = require('../services/payos.service');
 const emailService = require('../services/email.service');
 const subscriptionService = require('../services/subscription.service');
+const affiliateService = require('../services/affiliate.service');
 const {
   provisionNetflixSlots,
   completeNetflixOnlyOrder,
@@ -198,6 +199,11 @@ router.post('/webhook', express.raw({ type: 'application/json' }), async (req, r
       const netflixOnlyOrder = hasNetflixProduct ? isNetflixOnlyOrder(order) : false;
       const fulfillment = await handlePostPaidFulfillment(order);
       const autoFulfilledOrder = fulfillment.autoFulfilledOrder;
+      try {
+        await affiliateService.syncAffiliateForOrder(order);
+      } catch (affiliateErr) {
+        console.error('❌ Error syncing affiliate earning after webhook PAID:', affiliateErr.message);
+      }
       
       // #region agent log
       fetch('http://127.0.0.1:7242/ingest/082cf926-dfa2-44d1-a974-8ed2d16c158c',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'payos.routes.js:webhook:CHECK_RESULT',message:'Post-paid fulfillment check result',data:{orderId:order._id?.toString(),hasPreloadedAccount,hasNetflixProduct,netflixOnlyOrder,orderStatus:order.orderStatus},timestamp:Date.now(),sessionId:'debug-session',runId:'run1',hypothesisId:'B'})}).catch(()=>{});
@@ -267,11 +273,21 @@ router.post('/webhook', express.raw({ type: 'application/json' }), async (req, r
       // Nếu muốn tự động hủy order khi payment cancelled, uncomment dòng sau:
       // order.orderStatus = 'cancelled';
       await order.save();
+      try {
+        await affiliateService.syncAffiliateForOrder(order);
+      } catch (affiliateErr) {
+        console.error('❌ Error syncing affiliate earning after webhook CANCELLED:', affiliateErr.message);
+      }
       console.log(`⚠️ Order ${order._id} payment cancelled via PayOS webhook`);
     } else if (data.status === 'EXPIRED') {
       // Payment expired
       order.paymentStatus = 'failed';
       await order.save();
+      try {
+        await affiliateService.syncAffiliateForOrder(order);
+      } catch (affiliateErr) {
+        console.error('❌ Error syncing affiliate earning after webhook EXPIRED:', affiliateErr.message);
+      }
       console.log(`❌ Order ${order._id} payment expired via PayOS webhook`);
 
       // Send payment expired email (non-blocking)
@@ -285,6 +301,11 @@ router.post('/webhook', express.raw({ type: 'application/json' }), async (req, r
       // Payment failed
       order.paymentStatus = 'failed';
       await order.save();
+      try {
+        await affiliateService.syncAffiliateForOrder(order);
+      } catch (affiliateErr) {
+        console.error('❌ Error syncing affiliate earning after webhook FAILED:', affiliateErr.message);
+      }
       console.log(`❌ Order ${order._id} payment failed via PayOS webhook`);
 
       // Send payment failed email (non-blocking)
@@ -447,6 +468,11 @@ router.get('/payment-info/:orderId', authenticateToken, async (req, res) => {
           const netflixOnlyOrder = hasNetflixProduct ? isNetflixOnlyOrder(order) : false;
           const fulfillment = await handlePostPaidFulfillment(order);
           const autoFulfilledOrder = fulfillment.autoFulfilledOrder;
+          try {
+            await affiliateService.syncAffiliateForOrder(order);
+          } catch (affiliateErr) {
+            console.error('❌ Error syncing affiliate earning after payment-info PAID:', affiliateErr.message);
+          }
           
           // #region agent log
           fetch('http://127.0.0.1:7242/ingest/082cf926-dfa2-44d1-a974-8ed2d16c158c',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'payos.routes.js:payment-info:CHECK_RESULT',message:'Post-paid fulfillment check result (payment-info)',data:{orderId:order._id?.toString(),hasPreloadedAccount,hasNetflixProduct,netflixOnlyOrder,orderStatus:order.orderStatus},timestamp:Date.now(),sessionId:'debug-session',runId:'run1',hypothesisId:'B'})}).catch(()=>{});
@@ -512,6 +538,11 @@ router.get('/payment-info/:orderId', authenticateToken, async (req, res) => {
           if (order.paymentStatus !== 'failed') {
             order.paymentStatus = 'failed';
             await order.save();
+            try {
+              await affiliateService.syncAffiliateForOrder(order);
+            } catch (affiliateErr) {
+              console.error('❌ Error syncing affiliate earning after payment-info EXPIRED:', affiliateErr.message);
+            }
 
             // Send payment expired email (non-blocking)
             try {
@@ -525,6 +556,11 @@ router.get('/payment-info/:orderId', authenticateToken, async (req, res) => {
           if (order.paymentStatus !== 'failed') {
             order.paymentStatus = 'failed';
             await order.save();
+            try {
+              await affiliateService.syncAffiliateForOrder(order);
+            } catch (affiliateErr) {
+              console.error('❌ Error syncing affiliate earning after payment-info FAILED:', affiliateErr.message);
+            }
 
             // Send payment failed email (non-blocking)
             if (previousPaymentStatus !== 'failed') {

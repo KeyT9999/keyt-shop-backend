@@ -6,6 +6,7 @@ const otpRequestService = require('../services/otp-request.service');
 const userLoginHistoryService = require('../services/user-login-history.service');
 const subscriptionService = require('../services/subscription.service');
 const emailService = require('../services/email.service');
+const affiliateService = require('../services/affiliate.service');
 const User = require('../models/user.model');
 const Order = require('../models/order.model');
 const Product = require('../models/product.model');
@@ -796,6 +797,11 @@ router.put('/orders/:id/complete', authenticateToken, requireAdmin, async (req, 
     order.orderStatus = 'completed';
     order.completedAt = new Date();
     await order.save();
+    try {
+      await affiliateService.syncAffiliateForOrder(order);
+    } catch (affiliateErr) {
+      console.error('❌ Error syncing affiliate on admin complete:', affiliateErr.message);
+    }
 
     // Auto-create subscriptions if order is paid and completed
     if (order.paymentStatus === 'paid') {
@@ -1033,6 +1039,11 @@ router.put('/orders/:id/cancel', authenticateToken, requireAdmin, async (req, re
 
     order.orderStatus = 'cancelled';
     await order.save();
+    try {
+      await affiliateService.syncAffiliateForOrder(order);
+    } catch (affiliateErr) {
+      console.error('❌ Error syncing affiliate on admin cancel:', affiliateErr.message);
+    }
 
     // Send cancellation email to user (non-blocking)
     const reason = req.body.reason || req.body.cancelReason;
@@ -1095,6 +1106,11 @@ router.put(
       }
 
       await order.save();
+      try {
+        await affiliateService.syncAffiliateForOrder(order);
+      } catch (affiliateErr) {
+        console.error('❌ Error syncing affiliate on admin order update:', affiliateErr.message);
+      }
       await order.populate('confirmedBy', 'username email');
 
       res.json({
@@ -1249,6 +1265,138 @@ router.put(
     } catch (err) {
       console.error('❌ Error rejecting Netflix replacement ticket:', err);
       res.status(500).json({ message: 'Server error' });
+    }
+  }
+);
+
+/**
+ * GET /api/admin/affiliate/overview
+ */
+router.get('/affiliate/overview', authenticateToken, requireAdmin, async (req, res) => {
+  try {
+    const data = await affiliateService.getAdminAffiliateOverview();
+    res.json(data);
+  } catch (err) {
+    console.error('❌ Error loading affiliate overview:', err);
+    res.status(500).json({ message: 'Server error' });
+  }
+});
+
+/**
+ * GET /api/admin/affiliate/earnings
+ */
+router.get('/affiliate/earnings', authenticateToken, requireAdmin, async (req, res) => {
+  try {
+    const data = await affiliateService.listAffiliateEarningsForAdmin(req.query);
+    res.json(data);
+  } catch (err) {
+    console.error('❌ Error loading affiliate earnings:', err);
+    res.status(500).json({ message: 'Server error' });
+  }
+});
+
+/**
+ * GET /api/admin/affiliate/withdrawals
+ */
+router.get('/affiliate/withdrawals', authenticateToken, requireAdmin, async (req, res) => {
+  try {
+    const data = await affiliateService.listAffiliateWithdrawalsForAdmin(req.query);
+    res.json(data);
+  } catch (err) {
+    console.error('❌ Error loading affiliate withdrawals:', err);
+    res.status(500).json({ message: 'Server error' });
+  }
+});
+
+/**
+ * PUT /api/admin/affiliate/withdrawals/:withdrawalId/approve
+ */
+router.put(
+  '/affiliate/withdrawals/:withdrawalId/approve',
+  authenticateToken,
+  requireAdmin,
+  [body('adminNote').optional().isString().trim().isLength({ max: 1000 })],
+  async (req, res) => {
+    const errors = validationResult(req);
+    if (!errors.isEmpty()) {
+      return res.status(400).json({ errors: errors.array() });
+    }
+
+    try {
+      const withdrawal = await affiliateService.approveAffiliateWithdrawal(
+        req.params.withdrawalId,
+        req.user.id,
+        req.body.adminNote
+      );
+      res.json({
+        message: 'Đã duyệt yêu cầu rút tiền',
+        withdrawal
+      });
+    } catch (err) {
+      console.error('❌ Error approving affiliate withdrawal:', err);
+      res.status(400).json({ message: err.message || 'Không thể duyệt yêu cầu' });
+    }
+  }
+);
+
+/**
+ * PUT /api/admin/affiliate/withdrawals/:withdrawalId/reject
+ */
+router.put(
+  '/affiliate/withdrawals/:withdrawalId/reject',
+  authenticateToken,
+  requireAdmin,
+  [body('adminNote').optional().isString().trim().isLength({ max: 1000 })],
+  async (req, res) => {
+    const errors = validationResult(req);
+    if (!errors.isEmpty()) {
+      return res.status(400).json({ errors: errors.array() });
+    }
+
+    try {
+      const withdrawal = await affiliateService.rejectAffiliateWithdrawal(
+        req.params.withdrawalId,
+        req.user.id,
+        req.body.adminNote
+      );
+      res.json({
+        message: 'Đã từ chối yêu cầu rút tiền',
+        withdrawal
+      });
+    } catch (err) {
+      console.error('❌ Error rejecting affiliate withdrawal:', err);
+      res.status(400).json({ message: err.message || 'Không thể từ chối yêu cầu' });
+    }
+  }
+);
+
+/**
+ * PUT /api/admin/affiliate/withdrawals/:withdrawalId/pay
+ */
+router.put(
+  '/affiliate/withdrawals/:withdrawalId/pay',
+  authenticateToken,
+  requireAdmin,
+  [body('adminNote').optional().isString().trim().isLength({ max: 1000 })],
+  async (req, res) => {
+    const errors = validationResult(req);
+    if (!errors.isEmpty()) {
+      return res.status(400).json({ errors: errors.array() });
+    }
+
+    try {
+      const withdrawal = await affiliateService.markAffiliateWithdrawalPaid(
+        req.params.withdrawalId,
+        req.user.id,
+        req.body.adminNote
+      );
+      res.json({
+        message: 'Đã đánh dấu chuyển khoản thành công',
+        withdrawal
+      });
+    } catch (err) {
+      console.error('❌ Error marking affiliate withdrawal as paid:', err);
+      res.status(400).json({ message: err.message || 'Không thể cập nhật trạng thái' });
     }
   }
 );
