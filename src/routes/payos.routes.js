@@ -4,9 +4,59 @@ const Product = require('../models/product.model');
 const payosService = require('../services/payos.service');
 const emailService = require('../services/email.service');
 const subscriptionService = require('../services/subscription.service');
+const {
+  provisionNetflixSlots,
+  completeNetflixOnlyOrder,
+  hasTiemBanhNetflixProduct,
+  hasPreloadedAccountProduct,
+  isNetflixOnlyOrder,
+  isNetflixOnlyOrderReady
+} = require('../services/netflix-order-provision.service');
 const { authenticateToken } = require('../middleware/auth.middleware');
 
 const router = express.Router();
+
+async function handlePostPaidFulfillment(order) {
+  const hasPreloadedAccount = hasPreloadedAccountProduct(order);
+  const hasNetflixProduct = hasTiemBanhNetflixProduct(order);
+  const netflixOnlyOrder = hasNetflixProduct ? isNetflixOnlyOrder(order) : false;
+
+  if (!hasNetflixProduct && hasPreloadedAccount && order.orderStatus !== 'completed') {
+    await autoCompleteOrderWithPreloadedAccounts(order);
+    return {
+      hasPreloadedAccount,
+      hasNetflixProduct,
+      netflixOnlyOrder,
+      autoFulfilledOrder: order.orderStatus === 'completed'
+    };
+  }
+
+  if (hasNetflixProduct) {
+    try {
+      await provisionNetflixSlots(order);
+      if (isNetflixOnlyOrderReady(order) && order.orderStatus !== 'completed') {
+        await completeNetflixOnlyOrder(order);
+      } else if (order.isModified()) {
+        await order.save();
+      }
+    } catch (netflixErr) {
+      console.error('❌ Error provisioning Netflix order after payment:', netflixErr.message);
+      if (order.isModified()) {
+        await order.save();
+      }
+    }
+  } else if (order.isModified()) {
+    await order.save();
+  }
+
+  return {
+    hasPreloadedAccount,
+    hasNetflixProduct,
+    netflixOnlyOrder,
+    autoFulfilledOrder:
+      order.orderStatus === 'completed' && (hasPreloadedAccount || netflixOnlyOrder)
+  };
+}
 
 /**
  * POST /api/payos/create-payment
@@ -143,23 +193,18 @@ router.post('/webhook', express.raw({ type: 'application/json' }), async (req, r
       // #endregion
       
       // Kiểm tra xem order có sản phẩm preloaded account không
-      const hasPreloadedAccount = order.items.some(item => {
-        const product = item.productId?._id ? item.productId : null;
-        const result = product && product.isPreloadedAccount && product.preloadedAccounts && product.preloadedAccounts.length > 0;
-        // #region agent log
-        if (product) {
-          fetch('http://127.0.0.1:7242/ingest/082cf926-dfa2-44d1-a974-8ed2d16c158c',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'payos.routes.js:webhook:CHECK_ITEM',message:'Checking item for preloaded account',data:{orderId:order._id?.toString(),productId:product._id?.toString(),productName:product.name,isPreloadedAccount:product.isPreloadedAccount,preloadedAccountsCount:product.preloadedAccounts?.length||0,result},timestamp:Date.now(),sessionId:'debug-session',runId:'run1',hypothesisId:'B'})}).catch(()=>{});
-        }
-        // #endregion
-        return result;
-      });
+      const hasPreloadedAccount = hasPreloadedAccountProduct(order);
+      const hasNetflixProduct = hasTiemBanhNetflixProduct(order);
+      const netflixOnlyOrder = hasNetflixProduct ? isNetflixOnlyOrder(order) : false;
+      const fulfillment = await handlePostPaidFulfillment(order);
+      const autoFulfilledOrder = fulfillment.autoFulfilledOrder;
       
       // #region agent log
-      fetch('http://127.0.0.1:7242/ingest/082cf926-dfa2-44d1-a974-8ed2d16c158c',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'payos.routes.js:webhook:CHECK_RESULT',message:'Preloaded account check result',data:{orderId:order._id?.toString(),hasPreloadedAccount,orderStatus:order.orderStatus,shouldAutoComplete:hasPreloadedAccount && order.orderStatus !== 'completed'},timestamp:Date.now(),sessionId:'debug-session',runId:'run1',hypothesisId:'B'})}).catch(()=>{});
+      fetch('http://127.0.0.1:7242/ingest/082cf926-dfa2-44d1-a974-8ed2d16c158c',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'payos.routes.js:webhook:CHECK_RESULT',message:'Post-paid fulfillment check result',data:{orderId:order._id?.toString(),hasPreloadedAccount,hasNetflixProduct,netflixOnlyOrder,orderStatus:order.orderStatus},timestamp:Date.now(),sessionId:'debug-session',runId:'run1',hypothesisId:'B'})}).catch(()=>{});
       // #endregion
       
       // Nếu có preloaded account, tự động complete order
-      if (hasPreloadedAccount && order.orderStatus !== 'completed') {
+      if (false && hasPreloadedAccount && order.orderStatus !== 'completed') {
         // #region agent log
         fetch('http://127.0.0.1:7242/ingest/082cf926-dfa2-44d1-a974-8ed2d16c158c',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'payos.routes.js:webhook:CALLING_AUTOCOMPLETE',message:'Calling autoCompleteOrderWithPreloadedAccounts',data:{orderId:order._id?.toString()},timestamp:Date.now(),sessionId:'debug-session',runId:'run1',hypothesisId:'A'})}).catch(()=>{});
         // #endregion
@@ -185,7 +230,7 @@ router.post('/webhook', express.raw({ type: 'application/json' }), async (req, r
       console.log(`✅ Order ${order._id} payment marked as paid via PayOS webhook`);
 
       // Auto-create subscriptions if order is already completed and now paid
-      if (order.orderStatus === 'completed' && previousPaymentStatus !== 'paid') {
+      if (order.orderStatus === 'completed' && previousPaymentStatus !== 'paid' && !autoFulfilledOrder) {
         try {
           await createSubscriptionsFromOrder(order);
         } catch (subErr) {
@@ -199,7 +244,7 @@ router.post('/webhook', express.raw({ type: 'application/json' }), async (req, r
       // Lưu ý: Nếu order đã auto-completed với preloaded accounts, email Order Completed đã được gửi trong autoCompleteOrderWithPreloadedAccounts
       if (previousPaymentStatus !== 'paid') {
         // Chỉ gửi payment success email nếu order chưa được auto-completed
-        if (!hasPreloadedAccount || order.orderStatus !== 'completed') {
+        if (!autoFulfilledOrder) {
           try {
             await emailService.sendPaymentSuccessEmailToUser(order);
             console.log('✅ Payment success email sent to user');
@@ -384,8 +429,10 @@ router.get('/payment-info/:orderId', authenticateToken, async (req, res) => {
 
         // Update payment status if payment was completed
         const previousPaymentStatus = order.paymentStatus;
-        if (paymentInfo.data.status === 'PAID' && order.paymentStatus !== 'paid') {
-          order.paymentStatus = 'paid';
+        if (paymentInfo.data.status === 'PAID') {
+          if (order.paymentStatus !== 'paid') {
+            order.paymentStatus = 'paid';
+          }
           
           // Populate productId để kiểm tra preloaded accounts
           await order.populate('items.productId');
@@ -395,17 +442,18 @@ router.get('/payment-info/:orderId', authenticateToken, async (req, res) => {
           // #endregion
           
           // Kiểm tra xem order có sản phẩm preloaded account không
-          const hasPreloadedAccount = order.items.some(item => {
-            const product = item.productId?._id ? item.productId : null;
-            return product && product.isPreloadedAccount && product.preloadedAccounts && product.preloadedAccounts.length > 0;
-          });
+          const hasPreloadedAccount = hasPreloadedAccountProduct(order);
+          const hasNetflixProduct = hasTiemBanhNetflixProduct(order);
+          const netflixOnlyOrder = hasNetflixProduct ? isNetflixOnlyOrder(order) : false;
+          const fulfillment = await handlePostPaidFulfillment(order);
+          const autoFulfilledOrder = fulfillment.autoFulfilledOrder;
           
           // #region agent log
-          fetch('http://127.0.0.1:7242/ingest/082cf926-dfa2-44d1-a974-8ed2d16c158c',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'payos.routes.js:payment-info:CHECK_RESULT',message:'Preloaded account check result (payment-info)',data:{orderId:order._id?.toString(),hasPreloadedAccount,orderStatus:order.orderStatus,shouldAutoComplete:hasPreloadedAccount && order.orderStatus !== 'completed'},timestamp:Date.now(),sessionId:'debug-session',runId:'run1',hypothesisId:'B'})}).catch(()=>{});
+          fetch('http://127.0.0.1:7242/ingest/082cf926-dfa2-44d1-a974-8ed2d16c158c',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'payos.routes.js:payment-info:CHECK_RESULT',message:'Post-paid fulfillment check result (payment-info)',data:{orderId:order._id?.toString(),hasPreloadedAccount,hasNetflixProduct,netflixOnlyOrder,orderStatus:order.orderStatus},timestamp:Date.now(),sessionId:'debug-session',runId:'run1',hypothesisId:'B'})}).catch(()=>{});
           // #endregion
           
           // Nếu có preloaded account, tự động complete order
-          if (hasPreloadedAccount && order.orderStatus !== 'completed') {
+          if (false && hasPreloadedAccount && order.orderStatus !== 'completed') {
             // #region agent log
             fetch('http://127.0.0.1:7242/ingest/082cf926-dfa2-44d1-a974-8ed2d16c158c',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'payos.routes.js:payment-info:CALLING_AUTOCOMPLETE',message:'Calling autoCompleteOrderWithPreloadedAccounts (payment-info)',data:{orderId:order._id?.toString()},timestamp:Date.now(),sessionId:'debug-session',runId:'run1',hypothesisId:'A'})}).catch(()=>{});
             // #endregion
@@ -429,7 +477,7 @@ router.get('/payment-info/:orderId', authenticateToken, async (req, res) => {
           }
 
           // Auto-create subscriptions if order is already completed and now paid
-          if (order.orderStatus === 'completed' && previousPaymentStatus !== 'paid') {
+          if (order.orderStatus === 'completed' && previousPaymentStatus !== 'paid' && !autoFulfilledOrder) {
             try {
               await createSubscriptionsFromOrder(order);
             } catch (subErr) {
@@ -443,7 +491,7 @@ router.get('/payment-info/:orderId', authenticateToken, async (req, res) => {
           // Lưu ý: Nếu order đã auto-completed với preloaded accounts, email Order Completed đã được gửi trong autoCompleteOrderWithPreloadedAccounts
           if (previousPaymentStatus !== 'paid') {
             // Chỉ gửi payment success email nếu order chưa được auto-completed
-            if (!hasPreloadedAccount || order.orderStatus !== 'completed') {
+            if (!autoFulfilledOrder) {
               try {
                 await emailService.sendPaymentSuccessEmailToUser(order);
                 console.log('✅ Payment success email sent to user');
