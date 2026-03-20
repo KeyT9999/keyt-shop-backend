@@ -73,6 +73,20 @@ const orderItemSchema = new mongoose.Schema(
     deliveredAccount: {
       type: String  // Format: "username:password"
     },
+    affiliateEnabled: {
+      type: Boolean,
+      default: false
+    },
+    affiliateCommissionRate: {
+      type: Number,
+      default: 0,
+      min: 0
+    },
+    affiliateCommissionAmount: {
+      type: Number,
+      default: 0,
+      min: 0
+    },
     tiemBanhSlots: {
       type: [tiemBanhNetflixSlotSchema],
       default: []
@@ -142,6 +156,19 @@ const orderSchema = new mongoose.Schema(
     note: {
       type: String,
       trim: true
+    },
+    affiliateReferrerUserId: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: 'User',
+      index: true
+    },
+    affiliateReferralCode: {
+      type: String,
+      trim: true,
+      uppercase: true
+    },
+    affiliateAttributedAt: {
+      type: Date
     },
     // Admin management fields
     confirmedAt: {

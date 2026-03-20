@@ -61,6 +61,16 @@ const productSchema = new mongoose.Schema(
       type: Boolean,
       default: false
     },
+    affiliateEnabled: {
+      type: Boolean,
+      default: false
+    },
+    affiliateCommissionPercent: {
+      type: Number,
+      default: 0,
+      min: 0,
+      max: 100
+    },
     preloadedAccounts: [{
       account: String,  // Format: "username:password"
       used: {
