@@ -1,5 +1,30 @@
 const mongoose = require('mongoose');
 
+const tiemBanhNetflixSlotSchema = new mongoose.Schema(
+  {
+    logId: String,
+    cookie: String,
+    cookieNumber: Number,
+    pcLoginLink: String,
+    mobileLoginLink: String,
+    tokenExpires: Number,
+    timeRemaining: Number,
+    provisionStatus: {
+      type: String,
+      enum: ['pending', 'ok', 'failed'],
+      default: 'pending'
+    },
+    provisionedAt: Date,
+    lastRegenAt: Date,
+    regenFallbackCount: {
+      type: Number,
+      default: 0,
+      min: 0
+    }
+  },
+  { _id: false }
+);
+
 const orderItemSchema = new mongoose.Schema(
   {
     productId: {
@@ -47,6 +72,10 @@ const orderItemSchema = new mongoose.Schema(
     // Account đã gửi cho khách hàng (nếu sản phẩm là preloaded account)
     deliveredAccount: {
       type: String  // Format: "username:password"
+    },
+    tiemBanhSlots: {
+      type: [tiemBanhNetflixSlotSchema],
+      default: []
     }
   },
   { _id: false }

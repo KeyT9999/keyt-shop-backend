@@ -9,8 +9,96 @@ const emailService = require('../services/email.service');
 const User = require('../models/user.model');
 const Order = require('../models/order.model');
 const Product = require('../models/product.model');
+const NetflixReplacementTicket = require('../models/netflixReplacementTicket.model');
 
 const router = express.Router();
+
+function getTicketOrderValue(ticket) {
+  if (!ticket?.orderId) return null;
+  return ticket.orderId._id ? ticket.orderId : null;
+}
+
+function buildAdminReplacementTicketPayload(ticket) {
+  const order = getTicketOrderValue(ticket);
+  const item = order?.items?.[ticket.itemIndex];
+  const slot = item?.tiemBanhSlots?.[ticket.slotIndex];
+  const requester = ticket.userId && ticket.userId._id ? ticket.userId : null;
+  const handledBy =
+    (ticket.reviewedBy && ticket.reviewedBy._id ? ticket.reviewedBy : null) ||
+    (ticket.approvedBy && ticket.approvedBy._id ? ticket.approvedBy : null);
+
+  return {
+    _id: ticket._id,
+    status: ticket.status,
+    consumed: Boolean(ticket.consumed),
+    evidence: ticket.evidence || '',
+    decisionReason: ticket.decisionReason || '',
+    createdAt: ticket.createdAt,
+    updatedAt: ticket.updatedAt,
+    approvedAt: ticket.approvedAt || null,
+    rejectedAt: ticket.rejectedAt || null,
+    itemIndex: ticket.itemIndex,
+    slotIndex: ticket.slotIndex,
+    requester: requester
+      ? {
+          _id: requester._id,
+          username: requester.username,
+          email: requester.email
+        }
+      : null,
+    handledBy: handledBy
+      ? {
+          _id: handledBy._id,
+          username: handledBy.username,
+          email: handledBy.email
+        }
+      : null,
+    order: order
+      ? {
+          _id: order._id,
+          orderCode: order.orderCode,
+          orderStatus: order.orderStatus,
+          paymentStatus: order.paymentStatus,
+          totalAmount: order.totalAmount,
+          createdAt: order.createdAt,
+          customer: order.customer
+        }
+      : {
+          _id: ticket.orderId
+        },
+    item: item
+      ? {
+          index: ticket.itemIndex,
+          name: item.name,
+          quantity: item.quantity,
+          price: item.price,
+          currency: item.currency
+        }
+      : null,
+    slot: slot
+      ? {
+          index: ticket.slotIndex,
+          logId: slot.logId || '',
+          cookieNumber: slot.cookieNumber,
+          provisionStatus: slot.provisionStatus,
+          tokenExpires: slot.tokenExpires,
+          provisionedAt: slot.provisionedAt || null,
+          lastRegenAt: slot.lastRegenAt || null,
+          regenFallbackCount: slot.regenFallbackCount || 0,
+          pcLoginLink: slot.pcLoginLink || '',
+          mobileLoginLink: slot.mobileLoginLink || ''
+        }
+      : null
+  };
+}
+
+async function loadAdminReplacementTicket(ticketId) {
+  return NetflixReplacementTicket.findById(ticketId)
+    .populate('userId', 'username email')
+    .populate('approvedBy', 'username email')
+    .populate('reviewedBy', 'username email')
+    .populate('orderId', 'orderCode orderStatus paymentStatus totalAmount createdAt customer items');
+}
 
 /**
  * Get admin dashboard stats
@@ -1015,6 +1103,151 @@ router.put(
       });
     } catch (err) {
       console.error('❌ Error updating order:', err);
+      res.status(500).json({ message: 'Server error' });
+    }
+  }
+);
+
+/**
+ * GET /api/admin/netflix-replacement-tickets
+ */
+router.get('/netflix-replacement-tickets', authenticateToken, requireAdmin, async (req, res) => {
+  try {
+    const status = ['pending', 'approved', 'rejected'].includes(req.query.status)
+      ? req.query.status
+      : undefined;
+    const page = Math.max(parseInt(req.query.page, 10) || 1, 1);
+    const limit = Math.min(Math.max(parseInt(req.query.limit, 10) || 20, 1), 100);
+
+    const filter = {};
+    if (status) {
+      filter.status = status;
+    }
+
+    const [tickets, total, pendingCount, approvedCount, rejectedCount] = await Promise.all([
+      NetflixReplacementTicket.find(filter)
+        .sort({ status: 1, createdAt: -1 })
+        .skip((page - 1) * limit)
+        .limit(limit)
+        .populate('userId', 'username email')
+        .populate('approvedBy', 'username email')
+        .populate('reviewedBy', 'username email')
+        .populate('orderId', 'orderCode orderStatus paymentStatus totalAmount createdAt customer items')
+        .lean(),
+      NetflixReplacementTicket.countDocuments(filter),
+      NetflixReplacementTicket.countDocuments({ status: 'pending' }),
+      NetflixReplacementTicket.countDocuments({ status: 'approved' }),
+      NetflixReplacementTicket.countDocuments({ status: 'rejected' })
+    ]);
+
+    res.json({
+      tickets: tickets.map(buildAdminReplacementTicketPayload),
+      total,
+      page,
+      limit,
+      totalPages: Math.max(1, Math.ceil(total / limit)),
+      counts: {
+        pending: pendingCount,
+        approved: approvedCount,
+        rejected: rejectedCount
+      }
+    });
+  } catch (err) {
+    console.error('❌ Error loading Netflix replacement tickets:', err);
+    res.status(500).json({ message: 'Server error' });
+  }
+});
+
+/**
+ * PUT /api/admin/netflix-replacement-tickets/:ticketId/approve
+ */
+router.put(
+  '/netflix-replacement-tickets/:ticketId/approve',
+  authenticateToken,
+  requireAdmin,
+  [body('reason').optional().isString().trim().isLength({ max: 1000 })],
+  async (req, res) => {
+    const errors = validationResult(req);
+    if (!errors.isEmpty()) {
+      return res.status(400).json({ errors: errors.array() });
+    }
+
+    try {
+      const ticket = await loadAdminReplacementTicket(req.params.ticketId);
+      if (!ticket) {
+        return res.status(404).json({ message: 'Không tìm thấy ticket' });
+      }
+      if (ticket.status !== 'pending') {
+        return res.status(400).json({ message: 'Chỉ ticket đang chờ duyệt mới có thể phê duyệt' });
+      }
+
+      const order = getTicketOrderValue(ticket);
+      const slot = order?.items?.[ticket.itemIndex]?.tiemBanhSlots?.[ticket.slotIndex];
+      if (!order || !slot) {
+        return res.status(400).json({ message: 'Không tìm thấy order hoặc slot Netflix tương ứng' });
+      }
+      if (order.paymentStatus !== 'paid') {
+        return res.status(400).json({ message: 'Đơn hàng chưa thanh toán, không thể duyệt đổi cookie' });
+      }
+
+      ticket.status = 'approved';
+      ticket.reviewedBy = req.user.id;
+      ticket.approvedBy = req.user.id;
+      ticket.approvedAt = new Date();
+      ticket.rejectedAt = undefined;
+      ticket.decisionReason = typeof req.body.reason === 'string' ? req.body.reason.trim() : '';
+      await ticket.save();
+
+      const refreshed = await loadAdminReplacementTicket(ticket._id);
+      res.json({
+        message: 'Đã duyệt ticket đổi cookie',
+        ticket: buildAdminReplacementTicketPayload(refreshed)
+      });
+    } catch (err) {
+      console.error('❌ Error approving Netflix replacement ticket:', err);
+      res.status(500).json({ message: 'Server error' });
+    }
+  }
+);
+
+/**
+ * PUT /api/admin/netflix-replacement-tickets/:ticketId/reject
+ */
+router.put(
+  '/netflix-replacement-tickets/:ticketId/reject',
+  authenticateToken,
+  requireAdmin,
+  [body('reason').isString().trim().isLength({ min: 1, max: 1000 })],
+  async (req, res) => {
+    const errors = validationResult(req);
+    if (!errors.isEmpty()) {
+      return res.status(400).json({ errors: errors.array() });
+    }
+
+    try {
+      const ticket = await loadAdminReplacementTicket(req.params.ticketId);
+      if (!ticket) {
+        return res.status(404).json({ message: 'Không tìm thấy ticket' });
+      }
+      if (ticket.status !== 'pending') {
+        return res.status(400).json({ message: 'Chỉ ticket đang chờ duyệt mới có thể từ chối' });
+      }
+
+      ticket.status = 'rejected';
+      ticket.reviewedBy = req.user.id;
+      ticket.approvedBy = undefined;
+      ticket.approvedAt = undefined;
+      ticket.rejectedAt = new Date();
+      ticket.decisionReason = req.body.reason.trim();
+      await ticket.save();
+
+      const refreshed = await loadAdminReplacementTicket(ticket._id);
+      res.json({
+        message: 'Đã từ chối ticket đổi cookie',
+        ticket: buildAdminReplacementTicketPayload(refreshed)
+      });
+    } catch (err) {
+      console.error('❌ Error rejecting Netflix replacement ticket:', err);
       res.status(500).json({ message: 'Server error' });
     }
   }

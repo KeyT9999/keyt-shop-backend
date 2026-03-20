@@ -57,6 +57,10 @@ const productSchema = new mongoose.Schema(
       type: Boolean,
       default: false
     },
+    isTiemBanhNetflix: {
+      type: Boolean,
+      default: false
+    },
     preloadedAccounts: [{
       account: String,  // Format: "username:password"
       used: {

@@ -7,6 +7,46 @@ const PriceChangeLog = require('../models/priceChangeLog.model');
 
 const router = express.Router();
 
+function isTrue(value) {
+  return value === true;
+}
+
+function buildRequiredFields(requiredFields) {
+  return (requiredFields || [])
+    .map((field) => ({
+      label: field.label?.trim() || '',
+      type: field.type || 'text',
+      placeholder: field.placeholder?.trim() || '',
+      required: field.required !== undefined ? field.required : true
+    }))
+    .filter((field) => field.label && field.placeholder);
+}
+
+function buildOptions(options) {
+  return (options || [])
+    .map((opt) => ({
+      name: opt.name?.trim() || '',
+      price: Number(opt.price) || 0
+    }))
+    .filter((opt) => opt.name && opt.price > 0);
+}
+
+function buildPreloadedAccounts(preloadedAccounts) {
+  return (preloadedAccounts || [])
+    .map((acc) => ({
+      account: acc.account || '',
+      used: acc.used || false
+    }))
+    .filter((acc) => acc.account);
+}
+
+function resolveProductFlags(body) {
+  const isTiemBanhNetflix = isTrue(body.isTiemBanhNetflix);
+  const isPreloadedAccount = isTiemBanhNetflix ? false : isTrue(body.isPreloadedAccount);
+
+  return { isTiemBanhNetflix, isPreloadedAccount };
+}
+
 /**
  * GET /api/products
  * Get all products (public)
@@ -14,8 +54,8 @@ const router = express.Router();
  */
 router.get('/', async (req, res) => {
   try {
-    // Check if user is admin (optional token check)
     let isAdmin = false;
+
     try {
       const header = req.headers.authorization;
       if (header && header.startsWith('Bearer ')) {
@@ -24,18 +64,14 @@ router.get('/', async (req, res) => {
         isAdmin = decoded.admin === true;
       }
     } catch (tokenErr) {
-      // Token invalid or missing - treat as non-admin (public access)
       isAdmin = false;
     }
 
     const products = await Product.find({}).sort({ sortOrder: 1, createdAt: -1 });
-    
-    // Filter preloadedAccounts for non-admin users
-    const filteredProducts = products.map(product => {
+
+    const filteredProducts = products.map((product) => {
       const productObj = product.toObject();
-      // Only admins can see preloadedAccounts
       if (!isAdmin && productObj.isPreloadedAccount && productObj.preloadedAccounts) {
-        // Remove sensitive account data, but keep isPreloadedAccount flag
         delete productObj.preloadedAccounts;
       }
       return productObj;
@@ -43,7 +79,7 @@ router.get('/', async (req, res) => {
 
     res.json(filteredProducts);
   } catch (err) {
-    console.error('❌ Error fetching products:', err);
+    console.error('Error fetching products:', err);
     res.status(500).json({ message: 'Server error' });
   }
 });
@@ -55,8 +91,8 @@ router.get('/', async (req, res) => {
  */
 router.get('/:id', async (req, res) => {
   try {
-    // Check if user is admin (optional token check)
     let isAdmin = false;
+
     try {
       const header = req.headers.authorization;
       if (header && header.startsWith('Bearer ')) {
@@ -65,7 +101,6 @@ router.get('/:id', async (req, res) => {
         isAdmin = decoded.admin === true;
       }
     } catch (tokenErr) {
-      // Token invalid or missing - treat as non-admin (public access)
       isAdmin = false;
     }
 
@@ -75,15 +110,13 @@ router.get('/:id', async (req, res) => {
     }
 
     const productObj = product.toObject();
-    // Only admins can see preloadedAccounts
     if (!isAdmin && productObj.isPreloadedAccount && productObj.preloadedAccounts) {
-      // Remove sensitive account data, but keep isPreloadedAccount flag
       delete productObj.preloadedAccounts;
     }
 
     res.json(productObj);
   } catch (err) {
-    console.error('❌ Error fetching product:', err);
+    console.error('Error fetching product:', err);
     res.status(500).json({ message: 'Server error' });
   }
 });
@@ -106,6 +139,7 @@ router.post(
     body('status').optional().isIn(['in_stock', 'out_of_stock', 'discontinued']).withMessage('Trạng thái không hợp lệ'),
     body('lowStockThreshold').optional().isInt({ min: 0 }).withMessage('Ngưỡng tồn kho phải >= 0'),
     body('isHot').optional().isBoolean().withMessage('isHot phải là boolean'),
+    body('isTiemBanhNetflix').optional().isBoolean().withMessage('isTiemBanhNetflix phải là boolean'),
     body('promotion').optional().trim(),
     body('description').optional().trim(),
     body('imageUrl').optional().trim(),
@@ -122,13 +156,15 @@ router.post(
     }
 
     try {
+      const { isTiemBanhNetflix, isPreloadedAccount } = resolveProductFlags(req.body);
+      const preloadedAccounts = isPreloadedAccount ? buildPreloadedAccounts(req.body.preloadedAccounts) : [];
+
       const productData = {
         name: req.body.name,
         price: req.body.price,
         currency: req.body.currency,
         billingCycle: req.body.billingCycle,
         category: req.body.category,
-        stock: req.body.stock || 0,
         status: req.body.status || 'in_stock',
         lowStockThreshold: req.body.lowStockThreshold || 0,
         isHot: req.body.isHot || false,
@@ -137,25 +173,14 @@ router.post(
         imageUrl: req.body.imageUrl || (req.body.images && req.body.images.length > 0 ? req.body.images[0] : null),
         images: req.body.images || [],
         features: req.body.features || [],
-        options: (req.body.options || []).map(opt => ({
-          name: opt.name?.trim() || '',
-          price: Number(opt.price) || 0
-        })).filter(opt => opt.name && opt.price > 0),
-        requiredFields: (req.body.requiredFields || []).map(field => ({
-          label: field.label?.trim() || '',
-          type: field.type || 'text',
-          placeholder: field.placeholder?.trim() || '',
-          required: field.required !== undefined ? field.required : true
-        })).filter(field => field.label && field.placeholder),
+        options: buildOptions(req.body.options),
+        requiredFields: buildRequiredFields(req.body.requiredFields),
         completionInstructions: req.body.completionInstructions || '',
-        isPreloadedAccount: req.body.isPreloadedAccount || false,
-        preloadedAccounts: (req.body.preloadedAccounts || []).map(acc => ({
-          account: acc.account || '',
-          used: acc.used || false
-        })).filter(acc => acc.account),
-        // Nếu là preloaded account, tự động đồng bộ stock với số accounts chưa dùng
-        stock: req.body.isPreloadedAccount 
-          ? (req.body.preloadedAccounts || []).filter(acc => acc.account && !acc.used).length 
+        isPreloadedAccount,
+        isTiemBanhNetflix,
+        preloadedAccounts,
+        stock: isPreloadedAccount
+          ? preloadedAccounts.filter((acc) => !acc.used).length
           : (req.body.stock || 0),
         sortOrder: req.body.sortOrder !== undefined ? Number(req.body.sortOrder) : 999
       };
@@ -168,7 +193,7 @@ router.post(
         product
       });
     } catch (err) {
-      console.error('❌ Error creating product:', err);
+      console.error('Error creating product:', err);
       res.status(500).json({ message: 'Không thể tạo sản phẩm' });
     }
   }
@@ -192,6 +217,7 @@ router.put(
     body('status').optional().isIn(['in_stock', 'out_of_stock', 'discontinued']).withMessage('Trạng thái không hợp lệ'),
     body('lowStockThreshold').optional().isInt({ min: 0 }).withMessage('Ngưỡng tồn kho phải >= 0'),
     body('isHot').optional().isBoolean().withMessage('isHot phải là boolean'),
+    body('isTiemBanhNetflix').optional().isBoolean().withMessage('isTiemBanhNetflix phải là boolean'),
     body('promotion').optional().trim(),
     body('description').optional().trim(),
     body('imageUrl').optional().trim(),
@@ -211,8 +237,8 @@ router.put(
         return res.status(404).json({ message: 'Product not found' });
       }
 
-      // Update only provided fields, track price change
       const oldPrice = product.price;
+
       if (req.body.name !== undefined) product.name = req.body.name;
       if (req.body.price !== undefined) product.price = req.body.price;
       if (req.body.currency !== undefined) product.currency = req.body.currency;
@@ -224,67 +250,66 @@ router.put(
       if (req.body.isHot !== undefined) product.isHot = req.body.isHot;
       if (req.body.promotion !== undefined) product.promotion = req.body.promotion || null;
       if (req.body.description !== undefined) product.description = req.body.description || null;
+
       if (req.body.images !== undefined) {
         product.images = req.body.images || [];
-        // Cập nhật imageUrl từ ảnh đầu tiên để backward compatible
         product.imageUrl = product.images.length > 0 ? product.images[0] : null;
       }
+
       if (req.body.imageUrl !== undefined) product.imageUrl = req.body.imageUrl || null;
       if (req.body.features !== undefined) product.features = req.body.features || [];
-      if (req.body.options !== undefined) {
-        product.options = (req.body.options || []).map(opt => ({
-          name: opt.name?.trim() || '',
-          price: Number(opt.price) || 0
-        })).filter(opt => opt.name && opt.price > 0);
-      }
-      if (req.body.requiredFields !== undefined) {
-        product.requiredFields = (req.body.requiredFields || []).map(field => ({
-          label: field.label?.trim() || '',
-          type: field.type || 'text',
-          placeholder: field.placeholder?.trim() || '',
-          required: field.required !== undefined ? field.required : true
-        })).filter(field => field.label && field.placeholder);
-      }
+      if (req.body.options !== undefined) product.options = buildOptions(req.body.options);
+      if (req.body.requiredFields !== undefined) product.requiredFields = buildRequiredFields(req.body.requiredFields);
       if (req.body.completionInstructions !== undefined) {
         product.completionInstructions = req.body.completionInstructions || '';
       }
+
       if (req.body.isPreloadedAccount !== undefined) {
         product.isPreloadedAccount = req.body.isPreloadedAccount || false;
       }
+
+      if (req.body.isTiemBanhNetflix !== undefined) {
+        product.isTiemBanhNetflix = req.body.isTiemBanhNetflix === true;
+      }
+
+      if (product.isTiemBanhNetflix) {
+        product.isPreloadedAccount = false;
+        product.preloadedAccounts = [];
+      }
+
       if (req.body.sortOrder !== undefined) {
         product.sortOrder = Number(req.body.sortOrder);
       }
-      if (req.body.preloadedAccounts !== undefined) {
-        // Chỉ cập nhật nếu là mảng mới từ frontend
-        // Giữ lại trạng thái "used" của accounts hiện có nếu account đó vẫn còn trong danh sách mới
+
+      if (req.body.preloadedAccounts !== undefined && !product.isTiemBanhNetflix) {
         const newAccounts = req.body.preloadedAccounts || [];
         const existingAccountsMap = new Map();
+
         product.preloadedAccounts.forEach((acc) => {
           if (acc.used) {
             existingAccountsMap.set(acc.account, acc);
           }
         });
-        
-        product.preloadedAccounts = newAccounts.map((acc) => {
-          const existing = existingAccountsMap.get(acc.account);
-          return {
-            account: acc.account || '',
-            used: existing ? existing.used : (acc.used || false),
-            usedAt: existing ? existing.usedAt : undefined,
-            usedForOrder: existing ? existing.usedForOrder : undefined
-          };
-        }).filter(acc => acc.account);
-        
-        // Tự động đồng bộ stock với số accounts chưa dùng
+
+        product.preloadedAccounts = newAccounts
+          .map((acc) => {
+            const existing = existingAccountsMap.get(acc.account);
+            return {
+              account: acc.account || '',
+              used: existing ? existing.used : (acc.used || false),
+              usedAt: existing ? existing.usedAt : undefined,
+              usedForOrder: existing ? existing.usedForOrder : undefined
+            };
+          })
+          .filter((acc) => acc.account);
+
         if (product.isPreloadedAccount) {
-          const unusedAccountsCount = product.preloadedAccounts.filter(acc => !acc.used).length;
-          product.stock = unusedAccountsCount;
+          product.stock = product.preloadedAccounts.filter((acc) => !acc.used).length;
         }
       }
 
       await product.save();
 
-      // Log price change if modified
       if (req.body.price !== undefined && req.body.price !== oldPrice) {
         try {
           await PriceChangeLog.create({
@@ -296,7 +321,7 @@ router.put(
             reason: req.body.priceChangeReason || 'update_product'
           });
         } catch (logErr) {
-          console.warn('⚠️ Failed to log price change:', logErr.message);
+          console.warn('Failed to log price change:', logErr.message);
         }
       }
 
@@ -305,7 +330,7 @@ router.put(
         product
       });
     } catch (err) {
-      console.error('❌ Error updating product:', err);
+      console.error('Error updating product:', err);
       res.status(500).json({ message: 'Không thể cập nhật sản phẩm' });
     }
   }
@@ -328,10 +353,9 @@ router.delete('/:id', authenticateToken, requireAdmin, async (req, res) => {
       message: 'Xóa sản phẩm thành công'
     });
   } catch (err) {
-    console.error('❌ Error deleting product:', err);
+    console.error('Error deleting product:', err);
     res.status(500).json({ message: 'Không thể xóa sản phẩm' });
   }
 });
 
 module.exports = router;
-
