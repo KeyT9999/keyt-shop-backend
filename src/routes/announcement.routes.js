@@ -75,10 +75,8 @@ router.put(
     try {
       const { title = '', message, isActive = false } = req.body;
 
-      // Enforce only one active announcement at a time
-      if (isActive === true) {
-        await Announcement.updateMany({ isActive: true }, { $set: { isActive: false } });
-      }
+      // Enforce only one active announcement at a time, or none if isActive is false
+      await Announcement.updateMany({ isActive: true }, { $set: { isActive: false } });
 
       const announcement = await Announcement.create({
         title,
