@@ -38,6 +38,37 @@ router.post('/get-otp', authenticateToken, async (req, res) => {
 });
 
 /**
+ * Get OTP for Gemini email (User)
+ * POST /api/chatgpt/get-otp-gemini
+ */
+router.post('/get-otp-gemini', authenticateToken, async (req, res) => {
+  try {
+    const { geminiEmail } = req.body;
+    if (!geminiEmail) {
+      return res.status(400).json({ message: 'Vui lòng nhập email Gemini.' });
+    }
+
+    const normalized = geminiEmail.trim().toLowerCase();
+    const account = await chatGptAccountService.findByEmail(normalized);
+
+    if (!account) {
+      return res.status(404).json({ message: 'Không tìm thấy email Gemini trong hệ thống!' });
+    }
+
+    // Generate OTP
+    const otp = getTOTPCode(account.secretKey);
+
+    res.json({
+      otp,
+      geminiEmail: account.chatgptEmail
+    });
+  } catch (err) {
+    console.error('❌ Error getting Gemini OTP:', err);
+    res.status(500).json({ message: 'Có lỗi xảy ra khi tạo mã OTP Gemini.' });
+  }
+});
+
+/**
  * Generate 2FA code from raw secret key (User)
  * POST /api/chatgpt/generate-2fa
  */
