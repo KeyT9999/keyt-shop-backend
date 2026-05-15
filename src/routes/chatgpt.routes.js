@@ -27,6 +27,11 @@ router.post('/get-otp', authenticateToken, async (req, res) => {
     // Generate OTP
     const otp = getTOTPCode(account.secretKey);
 
+    // Record OTP request for statistics
+    const ipAddress = req.headers['x-forwarded-for'] || req.connection.remoteAddress || req.ip;
+    const userAgent = req.headers['user-agent'] || null;
+    await otpRequestService.recordOtpRequest(req.user.id, normalized, ipAddress, userAgent);
+
     res.json({
       otp,
       chatgptEmail: account.chatgptEmail
@@ -57,6 +62,11 @@ router.post('/get-otp-gemini', authenticateToken, async (req, res) => {
 
     // Generate OTP
     const otp = getTOTPCode(account.secretKey);
+
+    // Record OTP request for statistics
+    const ipAddress = req.headers['x-forwarded-for'] || req.connection.remoteAddress || req.ip;
+    const userAgent = req.headers['user-agent'] || null;
+    await otpRequestService.recordOtpRequest(req.user.id, normalized, ipAddress, userAgent);
 
     res.json({
       otp,

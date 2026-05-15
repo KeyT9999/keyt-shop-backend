@@ -1,4 +1,5 @@
 const OtpRequest = require('../models/otp-request.model');
+const User = require('../models/user.model');
 
 class OtpRequestService {
   /**
@@ -91,46 +92,52 @@ class OtpRequestService {
 
   /**
    * Get all users OTP info (for admin)
+   * Returns ALL users with their OTP request count (0 if never requested)
    * @returns {Promise<Array>} - Array of user OTP info
    */
   async getAllUsersOtpInfo() {
-    const results = await OtpRequest.aggregate([
+    // Get OTP stats grouped by user
+    const otpStats = await OtpRequest.aggregate([
       {
         $group: {
           _id: '$userId',
           count: { $sum: 1 },
           lastRequest: { $max: '$requestedAt' }
         }
-      },
-      {
-        $lookup: {
-          from: 'users',
-          localField: '_id',
-          foreignField: '_id',
-          as: 'user'
-        }
-      },
-      {
-        $unwind: {
-          path: '$user',
-          preserveNullAndEmptyArrays: true
-        }
-      },
-      {
-        $project: {
-          userId: '$_id',
-          user: 1,
-          count: 1,
-          lastRequest: 1
-        }
       }
     ]);
 
-    return results.map(result => ({
-      user: result.user,
-      count: result.count || 0,
-      lastRequest: result.lastRequest
+    // Create a map for quick lookup
+    const otpMap = {};
+    otpStats.forEach(stat => {
+      otpMap[stat._id.toString()] = {
+        count: stat.count,
+        lastRequest: stat.lastRequest
+      };
+    });
+
+    // Get ALL users
+    const allUsers = await User.find({}).select('_id username email admin createdAt').lean();
+
+    // Merge: all users + their OTP stats (sorted by count desc, then by lastRequest desc)
+    const results = allUsers.map(user => ({
+      user: {
+        _id: user._id,
+        username: user.username,
+        email: user.email,
+        admin: user.admin
+      },
+      count: otpMap[user._id.toString()]?.count || 0,
+      lastRequest: otpMap[user._id.toString()]?.lastRequest || null
     }));
+
+    results.sort((a, b) => {
+      const timeA = a.lastRequest ? new Date(a.lastRequest).getTime() : 0;
+      const timeB = b.lastRequest ? new Date(b.lastRequest).getTime() : 0;
+      return timeB - timeA;
+    });
+
+    return results;
   }
 
   /**

@@ -1,6 +1,7 @@
 const express = require('express');
 const { authenticateToken, requireAdmin } = require('../middleware/auth.middleware');
 const geminiAccountService = require('../services/gemini-account.service');
+const otpRequestService = require('../services/otp-request.service');
 const { getTOTPCode } = require('../utils/totp.util');
 
 const router = express.Router();
@@ -24,6 +25,11 @@ router.post('/get-otp', authenticateToken, async (req, res) => {
     }
 
     const otp = getTOTPCode(account.secretKey);
+
+    // Record OTP request for statistics
+    const ipAddress = req.headers['x-forwarded-for'] || req.connection.remoteAddress || req.ip;
+    const userAgent = req.headers['user-agent'] || null;
+    await otpRequestService.recordOtpRequest(req.user.id, normalized, ipAddress, userAgent);
 
     res.json({
       otp,

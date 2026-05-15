@@ -6,6 +6,13 @@ const MAX_RESULTS = 10;
 const MAX_CONTENT_LENGTH = 6 * 1024 * 1024; // 6MB limit to avoid huge downloads
 const REQUEST_TIMEOUT_MS = 20000;
 
+// ─── Semantic Scholar API ────────────────────────────────────────────────────
+const S2_BASE = 'https://api.semanticscholar.org/graph/v1';
+const S2_FIELDS = 'title,abstract,authors,year,url,openAccessPdf,externalIds,publicationTypes,publicationDate,journal';
+const S2_TIMEOUT_MS = 12000;
+// Rate-limit: ~100 req/5min unauthenticated. Key nếu có để trong S2_API_KEY env.
+const S2_API_KEY = process.env.S2_API_KEY || null;
+
 // Preferred high-trust sources (domain regex and weight)
 const PREFERRED_SOURCES = [
   // General top journals
@@ -492,6 +499,208 @@ async function fetchVerdict(query, evidenceItems, model, lang) {
   }
 }
 
+// ─── Semantic Scholar Integration ────────────────────────────────────────────
+
+/**
+ * Dịch query tiếng Việt sang tiếng Anh bằng Gemini để tìm kiếm học thuật tốt hơn.
+ * Nếu query đã là tiếng Anh thì trả về nguyên bản.
+ */
+async function translateQueryForSearch(query, model, lang) {
+  if (lang === 'en') return query;
+  try {
+    const result = await model.generateContent({
+      contents: [{ role: 'user', parts: [{ text:
+        `Translate this Vietnamese claim to an English academic search query (max 15 words, no quotes):\n"${query}"\nReturn ONLY the English query, nothing else.`
+      }] }],
+      generationConfig: { temperature: 0.1 },
+      safetySettings: SAFETY_SETTINGS,
+    });
+    const translated = (result?.response?.text() || '').trim().replace(/"/g, '');
+    return translated || query;
+  } catch {
+    return query;
+  }
+}
+
+/**
+ * Gọi Semantic Scholar API (miễn phí, không cần key) để tìm paper thật.
+ * Trả về mảng EvidenceItem đã được map từ kết quả S2.
+ */
+async function searchSemanticScholar(searchQuery, maxResults) {
+  const limit = Math.min(maxResults, MAX_RESULTS);
+  const headers = { 'User-Agent': 'KeyT-EvidenceChecker/1.0' };
+  if (S2_API_KEY) headers['x-api-key'] = S2_API_KEY;
+
+  try {
+    const response = await axios.get(`${S2_BASE}/paper/search`, {
+      params: {
+        query: searchQuery,
+        fields: S2_FIELDS,
+        limit,
+        offset: 0,
+      },
+      headers,
+      timeout: S2_TIMEOUT_MS,
+    });
+
+    const papers = response.data?.data || [];
+    if (!papers.length) return [];
+
+    return papers
+      .map((paper) => {
+        // Ưu tiên DOI link, rồi openAccessPdf, rồi url S2
+        const doi = paper.externalIds?.DOI;
+        const doiUrl = doi ? `https://doi.org/${doi}` : null;
+        const pdfUrl = paper.openAccessPdf?.url || null;
+        const url = doiUrl || pdfUrl || paper.url || '';
+
+        const authors = Array.isArray(paper.authors)
+          ? paper.authors.slice(0, 3).map((a) => a.name).join(', ') + (paper.authors.length > 3 ? ' et al.' : '')
+          : '';
+
+        const year = paper.year || '';
+        const journal = paper.journal?.name || '';
+        const pubTypes = Array.isArray(paper.publicationTypes) ? paper.publicationTypes.join(', ') : '';
+
+        // Snippet = abstract (truncated) hoặc mô tả journal/year
+        const abstract = (paper.abstract || '').slice(0, 400);
+        const snippet = abstract
+          || `${pubTypes ? pubTypes + '. ' : ''}${journal ? 'Published in ' + journal + '. ' : ''}${year ? 'Year: ' + year + '.' : ''}`;
+
+        const { sourceLabel, sourceScore } = getSourceMeta(url);
+        const isOpenAccess = !!pdfUrl;
+
+        return {
+          title: paper.title || 'Untitled',
+          url,
+          snippet: snippet.trim(),
+          location: year ? `Year: ${year}` : '',
+          reasoning: '',           // Sẽ được Gemini điền sau
+          confidence: undefined,   // Sẽ được Gemini đánh giá sau
+          sourceLabel: sourceLabel !== 'unknown' ? sourceLabel : (journal || 'Semantic Scholar'),
+          sourceScore: sourceScore > 0 ? sourceScore : 0.5, // S2 papers đều uy tín hơn unknown
+          verification: 'trusted', // Paper thật từ S2 → luôn trusted
+          verificationNote: `Paper thật từ Semantic Scholar${isOpenAccess ? ' (Open Access)' : ''}. ${authors ? 'Authors: ' + authors : ''}`.trim(),
+          broken: false,
+          sourceType: isOpenAccess ? 'pdf' : 'html',
+          // Metadata bổ sung
+          authors,
+          year,
+          journal,
+          isOpenAccess,
+          paperId: paper.paperId,
+        };
+      })
+      .filter((item) => item.url); // Loại bỏ paper không có URL
+  } catch (error) {
+    console.warn('⚠️ Semantic Scholar search failed:', error?.message || error);
+    return []; // Fail gracefully
+  }
+}
+
+/**
+ * Dùng Gemini để thêm reasoning + confidence cho từng paper từ Semantic Scholar.
+ * Đây là bước "analysis" thuần tuý — Gemini không bịa URL mới.
+ */
+async function enrichWithGeminiReasoning(query, items, model, lang) {
+  if (!items.length) return items;
+
+  const itemsSummary = items
+    .map((it, i) => `[${i + 1}] Title: "${it.title}"\nAbstract snippet: ${it.snippet || 'N/A'}\nSource: ${it.sourceLabel}`)
+    .join('\n\n');
+
+  const prompt = lang === 'vi' ? `
+Bạn là trợ lý fact-check học thuật. Dưới đây là ${items.length} bài báo khoa học thật (từ Semantic Scholar) liên quan đến tuyên bố:
+"${query}"
+
+${itemsSummary}
+
+Với MỖI bài báo, hãy phân tích và trả về JSON array:
+[
+  {
+    "index": 1,
+    "reasoning": "1-2 câu giải thích tại sao bài báo này là bằng chứng cho/chống lại tuyên bố",
+    "confidence": 0.0-1.0
+  },
+  ...
+]
+Chỉ trả về JSON array. Không có markdown.`.trim() : `
+You are an academic fact-checking assistant. Below are ${items.length} real academic papers (from Semantic Scholar) related to the claim:
+"${query}"
+
+${itemsSummary}
+
+For EACH paper, analyze and return a JSON array:
+[
+  {
+    "index": 1,
+    "reasoning": "1-2 sentences explaining how this paper supports or challenges the claim",
+    "confidence": 0.0-1.0
+  },
+  ...
+]
+Return only the JSON array. No markdown.`.trim();
+
+  try {
+    const result = await model.generateContent({
+      contents: [{ role: 'user', parts: [{ text: prompt }] }],
+      generationConfig: { temperature: 0.15 },
+      safetySettings: SAFETY_SETTINGS,
+    });
+    const text = result?.response?.text();
+    if (!text) return items;
+
+    const jsonText = extractJson(text);
+    const analyses = JSON.parse(jsonText);
+
+    if (!Array.isArray(analyses)) return items;
+
+    return items.map((item, idx) => {
+      const analysis = analyses.find((a) => a.index === idx + 1) || {};
+      return {
+        ...item,
+        reasoning: analysis.reasoning || item.reasoning || '',
+        confidence: Number.isFinite(analysis.confidence) ? analysis.confidence : 0.7,
+      };
+    });
+  } catch (err) {
+    console.warn('⚠️ Gemini reasoning enrichment failed (non-critical):', err?.message);
+    return items.map((item) => ({ ...item, confidence: item.confidence ?? 0.7 }));
+  }
+}
+
+/**
+ * Fallback: dùng Gemini tự generate evidence nếu Semantic Scholar không đủ kết quả.
+ * Giữ nguyên logic cũ nhưng chỉ gọi khi cần bổ sung.
+ */
+async function fetchGeminiFallbackEvidence(query, maxResults, model, lang) {
+  const prompt = buildPrompt(query, maxResults, lang);
+  try {
+    const result = await model.generateContent({
+      contents: [{ role: 'user', parts: [{ text: prompt }] }],
+      generationConfig: { temperature: 0.2 },
+      safetySettings: SAFETY_SETTINGS,
+    });
+    const text = result?.response?.text();
+    if (!text) return [];
+    const items = parseEvidenceResponse(text, maxResults);
+    // Verify links của Gemini-generated items
+    return await Promise.all(items.map(verifyEvidenceItem));
+  } catch (error) {
+    const rawMessage = error?.response?.error?.message || error?.message || '';
+    if (rawMessage.toUpperCase().includes('RECITATION') || rawMessage.includes('Candidate was blocked')) {
+      const err = new Error(
+        'Gemini từ chối trả lời do lo ngại bản quyền nội dung. Hãy thử paraphrase lại câu hỏi hoặc đặt câu hỏi học thuật cụ thể hơn.'
+      );
+      err.statusCode = 422;
+      err.code = 'RECITATION_BLOCKED';
+      throw err;
+    }
+    console.warn('⚠️ Gemini fallback evidence failed:', rawMessage);
+    return [];
+  }
+}
+
 async function findEvidence({ query, apiKey, maxResults = MAX_RESULTS }) {
   if (!query || !query.trim()) {
     const error = new Error('Nội dung cần xác thực không được để trống.');
@@ -504,68 +713,54 @@ async function findEvidence({ query, apiKey, maxResults = MAX_RESULTS }) {
     throw error;
   }
 
-  // Phát hiện ngôn ngữ để build prompt phù hợp
+  const limit = Math.min(maxResults, MAX_RESULTS);
   const lang = detectLanguage(query);
-  console.log(`🔍 evidence.service: query lang=${lang}, maxResults=${maxResults}`);
+  console.log(`🔍 evidence.service: query lang=${lang}, maxResults=${limit}`);
 
   const genAI = new GoogleGenerativeAI(apiKey.trim());
   const model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash' });
 
-  const prompt = buildPrompt(query, Math.min(maxResults, MAX_RESULTS), lang);
+  // ── Step 1: Dịch query sang tiếng Anh nếu cần (S2 search tốt hơn với EN) ──
+  const searchQuery = await translateQueryForSearch(query, model, lang);
+  console.log(`🌐 evidence.service: search query="${searchQuery}"`);
 
-  let text;
-  try {
-    const result = await model.generateContent({
-      contents: [{ role: 'user', parts: [{ text: prompt }] }],
-      generationConfig: { temperature: 0.2 },
-      // Safety settings: chỉ block ở ngưỡng HIGH để tránh false positive RECITATION
-      safetySettings: SAFETY_SETTINGS,
-    });
+  // ── Step 2: Tìm paper THẬT từ Semantic Scholar ──────────────────────────
+  let s2Items = await searchSemanticScholar(searchQuery, limit);
+  console.log(`📚 evidence.service: Semantic Scholar returned ${s2Items.length} papers`);
 
-    text = result?.response?.text();
-    console.log(`✅ evidence.service: Gemini response received, length=${text ? text.length : 0}`);
-  } catch (error) {
-    const rawMessage = error?.response?.error?.message || error?.message || '';
+  // ── Step 3: Nếu S2 trả đủ kết quả → enrich reasoning bằng Gemini ────────
+  let finalItems = [];
 
-    // Xử lý riêng lỗi RECITATION - đưa ra message thân thiện
-    if (rawMessage.toUpperCase().includes('RECITATION') || rawMessage.includes('Candidate was blocked')) {
-      const err = new Error(
-        'Gemini từ chối trả lời do lo ngại bản quyền nội dung. Hãy thử paraphrase lại câu hỏi hoặc đặt câu hỏi học thuật cụ thể hơn.'
-      );
-      err.statusCode = 422;
-      err.code = 'RECITATION_BLOCKED';
-      throw err;
-    }
+  if (s2Items.length >= Math.ceil(limit / 2)) {
+    // Có đủ paper thật → chỉ cần Gemini analyze reasoning
+    const enriched = await enrichWithGeminiReasoning(query, s2Items.slice(0, limit), model, lang);
+    finalItems = enriched;
+  } else {
+    // S2 trả ít kết quả → bổ sung thêm từ Gemini fallback
+    const needed = limit - s2Items.length;
+    const geminiItems = await fetchGeminiFallbackEvidence(query, needed, model, lang);
 
-    const apiMessage = rawMessage || 'Đã xảy ra lỗi khi kết nối Gemini.';
-    const err = new Error(apiMessage);
-    err.statusCode = error?.response?.error?.code || 500;
-    throw err;
+    // Enrich reasoning cho S2 items nếu có
+    const enrichedS2 = s2Items.length > 0
+      ? await enrichWithGeminiReasoning(query, s2Items, model, lang)
+      : [];
+
+    // Merge: S2 trước (uy tín hơn), Gemini bổ sung sau
+    finalItems = [...enrichedS2, ...geminiItems].slice(0, limit);
+    console.log(`🔀 evidence.service: merged ${enrichedS2.length} S2 + ${geminiItems.length} Gemini items`);
   }
 
-  if (!text) {
-    const error = new Error('Không nhận được phản hồi từ Gemini.');
-    error.statusCode = 502;
-    throw error;
-  }
-
-  const items = parseEvidenceResponse(text, Math.min(maxResults, MAX_RESULTS));
-  if (!items.length) {
+  if (!finalItems.length) {
     return { evidence: [], verdict: null };
   }
 
-  // Re-rank ưu tiên nguồn uy tín
-  const sorted = items.slice().sort((a, b) => (b.sourceScore || 0) - (a.sourceScore || 0));
-  const trusted = sorted.filter((i) => (i.sourceScore || 0) > 0);
-  const pick = trusted.length ? trusted : items;
+  // ── Step 4: Re-rank theo sourceScore ─────────────────────────────────────
+  finalItems.sort((a, b) => (b.sourceScore || 0) - (a.sourceScore || 0));
 
-  // Xác minh từng evidence item (kiểm tra link + text matching)
-  const verified = await Promise.all(pick.map(verifyEvidenceItem));
+  // ── Step 5: Tổng hợp Overall Verdict bằng Gemini ─────────────────────────
+  const verdict = await fetchVerdict(query, finalItems, model, lang);
 
-  // Gọi Verdict sau khi đã có evidence (fail-safe: không throw nếu lỗi)
-  const verdict = await fetchVerdict(query, verified, model, lang);
-
-  return { evidence: verified, verdict };
+  return { evidence: finalItems, verdict };
 }
 
 async function splitClaims({ text, apiKey }) {
