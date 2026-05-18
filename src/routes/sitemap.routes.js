@@ -23,6 +23,7 @@ router.get('/', async (req, res) => {
       { url: '/privacy-policy', priority: 0.4, changefreq: 'yearly' },
       { url: '/terms-of-service', priority: 0.4, changefreq: 'yearly' },
       { url: '/photo-frame', priority: 0.6, changefreq: 'monthly' },
+      { url: '/compress', priority: 0.8, changefreq: 'monthly' },
       { url: '/evidence', priority: 0.6, changefreq: 'monthly' },
     ];
 

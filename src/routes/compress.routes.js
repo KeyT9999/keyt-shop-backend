@@ -2,46 +2,71 @@
 
 const express = require('express');
 const multer = require('multer');
-const { compress, getMetadata, normalizeOptions, MIME_TO_FORMAT } = require('../services/compression.service');
+const rateLimit = require('express-rate-limit');
+const { compress, getMetadata, MIME_TO_FORMAT } = require('../services/compression.service');
 const { getConfig } = require('../config/compression.config');
 
 const router = express.Router();
 
-// Multer instance for compress endpoint - memory storage, no file filter
-// (compression service handles format validation)
-const upload = multer({
-  storage: multer.memoryStorage(),
-  limits: {
-    fileSize: 200 * 1024 * 1024 // Set high; we check maxFileSize from config manually
+// ─── Rate Limiting ────────────────────────────────────────────────────────────
+// 20 requests per minute per IP — chặn DOS/bot abuse
+const compressLimiter = rateLimit({
+  windowMs: 60 * 1000, // 1 phút
+  max: 20, // tối đa 20 request/phút/IP
+  message: { error: true, message: 'Quá nhiều yêu cầu. Vui lòng thử lại sau 1 phút.' },
+  standardHeaders: true,
+  legacyHeaders: false,
+  skip: (req) => {
+    return process.env.NODE_ENV === 'development' && process.env.SKIP_RATE_LIMIT === 'true';
   }
 });
 
+// ─── Multer Config ────────────────────────────────────────────────────────────
+// Giới hạn 15MB tại multer layer — chặn OOM trước khi buffer vào RAM
+const upload = multer({
+  storage: multer.memoryStorage(),
+  limits: {
+    fileSize: 15 * 1024 * 1024 // 15MB hard limit
+  }
+});
+
+// ─── MIME Validation ──────────────────────────────────────────────────────────
+const ALLOWED_MIMES = new Set(Object.keys(MIME_TO_FORMAT));
+
 /**
  * POST /api/compress
- * Compress a single image file
+ * Nén một ảnh duy nhất
  *
  * Query params:
- *   - format {string} Output format (default: 'webp'). Use 'auto' to keep input format.
- *   - quality {number} Quality 1-100
- *   - width {number} Max width in pixels
+ *   - format {string} Định dạng output (default: 'webp'). Dùng 'auto' để giữ format gốc.
+ *   - quality {number} Chất lượng 1-100
+ *   - width {number} Chiều rộng tối đa (px)
  *
- * Body: multipart/form-data with 'file' field
+ * Body: multipart/form-data với field 'file'
  *
  * Response: { name, mime, originalSize, compressedSize, savedBytes, ratio, data, error }
  */
-router.post('/', upload.single('file'), async (req, res) => {
+router.post('/', compressLimiter, upload.single('file'), async (req, res) => {
   try {
-    // Check if file provided
+    // Kiểm tra file có được gửi không
     if (!req.file) {
       return res.status(400).json({ error: true, message: 'file required' });
     }
 
-    // Check file size against config maxFileSize
+    // Kiểm tra MIME type — chặn file không phải ảnh
+    if (!ALLOWED_MIMES.has(req.file.mimetype)) {
+      return res.status(400).json({
+        error: true,
+        message: `Định dạng không hỗ trợ: ${req.file.mimetype}. Cho phép: JPEG, PNG, WebP, AVIF, GIF`
+      });
+    }
+
+    // Kiểm tra file size theo config (env var hoặc default 10MB)
     const config = getConfig();
     if (req.file.buffer.length > config.maxFileSize) {
       return res.status(413).json({
         error: true,
-        message: `File size exceeds ${config.maxFileSize / (1024 * 1024)}MB limit`
+        message: `File vượt quá ${Math.round(config.maxFileSize / (1024 * 1024))}MB`
       });
     }
 
@@ -50,23 +75,23 @@ router.post('/', upload.single('file'), async (req, res) => {
     const quality = req.query.quality !== undefined ? Number(req.query.quality) : undefined;
     const width = req.query.width !== undefined ? Number(req.query.width) : undefined;
 
-    // Handle 'auto' format: detect input MIME and use same format for output
-    let format = rawFormat;
-    if (rawFormat === 'auto') {
-      format = 'auto';
-    }
-
     // Build options
-    const options = { format };
+    const options = { format: rawFormat };
     if (quality !== undefined) options.quality = quality;
     if (width !== undefined) options.width = width;
-    // Pass inputMime for 'auto' format detection
     options.inputMime = req.file.mimetype;
 
     const originalSize = req.file.buffer.length;
 
-    // Compress
-    const result = await compress(req.file.buffer, options);
+    // Compress với timeout 30 giây
+    const timeoutMs = 30000;
+    const result = await Promise.race([
+      compress(req.file.buffer, options),
+      new Promise((_, reject) =>
+        setTimeout(() => reject(new Error('Xử lý quá lâu. Vui lòng thử ảnh nhỏ hơn.')), timeoutMs)
+      )
+    ]);
+
     const metadata = getMetadata(originalSize, result.buffer.length);
 
     return res.json({
@@ -80,12 +105,12 @@ router.post('/', upload.single('file'), async (req, res) => {
       error: false
     });
   } catch (err) {
-    // If compression error, return it in the response
-    return res.json({
+    // Trả HTTP 500 thay vì 200 khi lỗi — đúng REST convention
+    return res.status(500).json({
       name: req.file ? req.file.originalname : 'unknown',
       originalSize: req.file ? req.file.buffer.length : 0,
       error: true,
-      message: err.message
+      message: err.message || 'Lỗi khi nén ảnh'
     });
   }
 });

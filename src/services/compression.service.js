@@ -3,6 +3,11 @@
 const sharp = require('sharp');
 const { getConfig, SUPPORTED_FORMATS } = require('../config/compression.config');
 
+// Tắt cache Sharp để giảm memory usage trên Render (512MB RAM)
+sharp.cache(false);
+// Giới hạn concurrency để tránh OOM khi nhiều request đồng thời
+sharp.concurrency(1);
+
 // ─── Custom Error ─────────────────────────────────────────────────────────────
 
 class CompressionError extends Error {

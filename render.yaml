@@ -44,6 +44,8 @@ services:
         sync: false
       - key: PAYOS_CANCEL_URL
         sync: false
+      - key: COMPRESS_MAX_FILE_SIZE_MB
+        value: "10"
       - key: GOOGLE_CLIENT_ID
         sync: false
 
