@@ -1,9 +1,14 @@
+const http = require('http');
 const app = require('./app');
 const connectDB = require('./config/db');
 const seedProducts = require('./utils/seedProducts');
 const { initializeScheduler } = require('./utils/scheduler');
+const { initSocket } = require('./socket');
 
 const PORT = process.env.PORT || 5000;
+
+// Create HTTP server wrapping Express app
+const server = http.createServer(app);
 
 async function startServer() {
   await connectDB();
@@ -12,7 +17,10 @@ async function startServer() {
   // Initialize scheduled jobs
   initializeScheduler();
 
-  app.listen(PORT, () => {
+  // Initialize Socket.io
+  initSocket(server);
+
+  server.listen(PORT, () => {
     console.log(`🚀 Server listening on port ${PORT}`);
   });
 }
