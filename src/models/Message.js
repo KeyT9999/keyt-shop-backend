@@ -17,8 +17,29 @@ const MessageSchema = new mongoose.Schema({
   },
   content: {
     type: String,
-    required: true,
+    default: '',
     maxlength: 2000
+  },
+  messageType: {
+    type: String,
+    enum: ['text', 'image', 'file'],
+    default: 'text'
+  },
+  fileUrl: {
+    type: String,
+    default: null
+  },
+  fileName: {
+    type: String,
+    default: null
+  },
+  fileSize: {
+    type: Number,
+    default: null
+  },
+  fileMime: {
+    type: String,
+    default: null
   },
   readStatus: {
     type: Boolean,
@@ -28,6 +49,17 @@ const MessageSchema = new mongoose.Schema({
     type: Date,
     default: Date.now
   }
+});
+
+// Custom validation: fileUrl required for image/file messages, content required for text
+MessageSchema.pre('validate', function(next) {
+  if (this.messageType === 'text' && (!this.content || this.content.trim() === '')) {
+    return next(new Error('content is required for text messages'));
+  }
+  if ((this.messageType === 'image' || this.messageType === 'file') && (!this.fileUrl || this.fileUrl.trim() === '')) {
+    return next(new Error('fileUrl is required for image and file messages'));
+  }
+  next();
 });
 
 // Indexes for query performance

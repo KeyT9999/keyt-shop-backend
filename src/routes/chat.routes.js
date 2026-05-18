@@ -8,6 +8,7 @@ const {
   getActiveConversation,
   resolveConversation,
 } = require('../controllers/chat.controller');
+const { upload, uploadChatFile } = require('../controllers/chatUpload.controller');
 
 // Admin only — list all conversations
 router.get('/conversations', authenticateToken, requireAdmin, getConversations);
@@ -20,5 +21,8 @@ router.get('/conversation/active', optionalAuth, getActiveConversation);
 
 // Admin only — resolve a conversation
 router.post('/conversations/:id/resolve', authenticateToken, requireAdmin, resolveConversation);
+
+// Customer/session — upload file for chat
+router.post('/upload', optionalAuth, upload.single('file'), uploadChatFile);
 
 module.exports = router;

@@ -77,17 +77,20 @@ function registerChatHandlers(io, socket) {
   // ─── chat:send_message ──────────────────────────────────────────────
   socket.on('chat:send_message', async (data) => {
     try {
-      const { conversationId, content } = data || {};
+      const { conversationId, content, messageType, fileUrl, fileName, fileSize, fileMime } = data || {};
+      const isFileMessage = messageType === 'image' || messageType === 'file';
 
-      // Validate content
-      if (!content || typeof content !== 'string') {
-        return socket.emit('error', { code: 'VALIDATION_ERROR', message: 'Message content required' });
+      // Validate content — allow empty content for file/image messages
+      if (!isFileMessage) {
+        if (!content || typeof content !== 'string') {
+          return socket.emit('error', { code: 'VALIDATION_ERROR', message: 'Message content required' });
+        }
       }
 
-      // Strip HTML and trim
-      const sanitized = content.replace(/<[^>]*>/g, '').trim();
+      // Strip HTML and trim for text content
+      const sanitized = content ? content.replace(/<[^>]*>/g, '').trim() : '';
 
-      if (sanitized.length < 1 || sanitized.length > 2000) {
+      if (!isFileMessage && (sanitized.length < 1 || sanitized.length > 2000)) {
         return socket.emit('error', {
           code: 'VALIDATION_ERROR',
           message: 'Message must be 1-2000 characters',
@@ -102,23 +105,44 @@ function registerChatHandlers(io, socket) {
       const senderType = socket.userRole === 'admin' ? 'admin' : 'customer';
       const sender = senderType === 'admin' ? socket.user.id : (socket.sessionId || 'unknown');
 
-      // Create Message document
-      const message = await Message.create({
+      // Build message data
+      const messageData = {
         conversationId,
         sender,
         senderType,
         content: sanitized,
-      });
+        messageType: messageType || 'text',
+      };
+
+      // Attach file fields when present
+      if (isFileMessage) {
+        messageData.fileUrl = fileUrl;
+        messageData.fileName = fileName;
+        messageData.fileSize = fileSize;
+        messageData.fileMime = fileMime;
+      }
+
+      // Create Message document
+      const message = await Message.create(messageData);
+
+      // Determine lastMessage preview
+      let lastMessagePreview;
+      if (messageType === 'image') {
+        lastMessagePreview = '🖼️ Ảnh';
+      } else if (messageType === 'file') {
+        lastMessagePreview = '📎 File';
+      } else {
+        lastMessagePreview = sanitized.substring(0, 100);
+      }
 
       // Update Conversation denormalized fields
       const updateFields = {
-        lastMessage: sanitized.substring(0, 100),
+        lastMessage: lastMessagePreview,
         lastMessageAt: message.timestamp,
       };
 
       // Increment unreadCount only for customer messages (admin hasn't read yet)
       if (senderType === 'customer') {
-        updateFields.$inc = { unreadCount: 1 };
         await Conversation.findByIdAndUpdate(conversationId, {
           ...updateFields,
           $inc: { unreadCount: 1 },
