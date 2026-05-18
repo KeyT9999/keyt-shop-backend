@@ -1,40 +1,15 @@
 const express = require('express');
 const upload = require('../middleware/upload.middleware');
-const cloudinary = require('../config/cloudinary.config');
 const { authenticateToken, requireAdmin } = require('../middleware/auth.middleware');
-const { Readable } = require('stream');
+const { createCompressionMiddleware } = require('../middleware/compression.middleware');
+const storageAdapter = require('../services/storage.adapter');
 
 const router = express.Router();
 
-/**
- * Helper function to upload buffer to Cloudinary
- */
-const uploadToCloudinary = (buffer, folder) => {
-  return new Promise((resolve, reject) => {
-    const uploadStream = cloudinary.uploader.upload_stream(
-      {
-        folder: folder,
-        resource_type: 'image',
-        transformation: [
-          { width: 1000, height: 1000, crop: 'limit' },
-          { quality: 'auto' }
-        ]
-      },
-      (error, result) => {
-        if (error) {
-          reject(error);
-        } else {
-          resolve(result);
-        }
-      }
-    );
-
-    const readableStream = new Readable();
-    readableStream.push(buffer);
-    readableStream.push(null);
-    readableStream.pipe(uploadStream);
-  });
-};
+// Route-specific compression options
+const productCompression = createCompressionMiddleware({ width: 1000, height: 1000, quality: 80, format: 'webp' });
+const avatarCompression = createCompressionMiddleware({ width: 400, quality: 80, format: 'webp' });
+const bannerCompression = createCompressionMiddleware({ width: 1920, quality: 85, format: 'webp' });
 
 /**
  * POST /api/upload/product
@@ -45,18 +20,19 @@ router.post(
   authenticateToken,
   requireAdmin,
   upload.single('image'),
+  productCompression,
   async (req, res) => {
     try {
       if (!req.file) {
         return res.status(400).json({ message: 'Không có file được upload' });
       }
 
-      const result = await uploadToCloudinary(req.file.buffer, 'products');
+      const result = await storageAdapter.upload(req.file.buffer, 'products');
 
       res.json({
         message: 'Upload ảnh thành công',
-        imageUrl: result.secure_url,
-        publicId: result.public_id
+        imageUrl: result.url,
+        publicId: result.resourceId
       });
     } catch (err) {
       console.error('❌ Error uploading product image:', err);
@@ -68,30 +44,67 @@ router.post(
 /**
  * POST /api/upload/products
  * Upload multiple product images (admin only)
+ * Handles partial failures: returns successes and failures separately
  */
 router.post(
   '/products',
   authenticateToken,
   requireAdmin,
-  upload.array('images', 10), // Tối đa 10 ảnh
+  upload.array('images', 10),
+  productCompression,
   async (req, res) => {
     try {
       if (!req.files || req.files.length === 0) {
         return res.status(400).json({ message: 'Không có file được upload' });
       }
 
-      const uploadPromises = req.files.map(file =>
-        uploadToCloudinary(file.buffer, 'products')
+      const uploadPromises = req.files.map((file, index) =>
+        storageAdapter.upload(file.buffer, 'products')
+          .then(result => ({ status: 'fulfilled', value: result, index }))
+          .catch(error => ({ status: 'rejected', reason: error, index }))
       );
 
-      const results = await Promise.all(uploadPromises);
+      const settled = await Promise.all(uploadPromises);
 
+      const images = [];
+      const failures = [];
+
+      settled.forEach((result, i) => {
+        if (result.status === 'fulfilled') {
+          images.push({
+            imageUrl: result.value.url,
+            publicId: result.value.resourceId
+          });
+        } else {
+          const fileName = req.files[i].originalname || `file_${i}`;
+          failures.push({
+            name: fileName,
+            error: result.reason?.message || 'Unknown error'
+          });
+        }
+      });
+
+      // All failed
+      if (images.length === 0) {
+        return res.status(500).json({
+          message: 'Không thể upload ảnh',
+          failures
+        });
+      }
+
+      // All succeeded - backward compatible response
+      if (failures.length === 0) {
+        return res.json({
+          message: `Upload ${images.length} ảnh thành công`,
+          images
+        });
+      }
+
+      // Partial success
       res.json({
-        message: `Upload ${results.length} ảnh thành công`,
-        images: results.map(result => ({
-          imageUrl: result.secure_url,
-          publicId: result.public_id
-        }))
+        message: `Upload ${images.length}/${images.length + failures.length} ảnh thành công`,
+        images,
+        failures
       });
     } catch (err) {
       console.error('❌ Error uploading product images:', err);
@@ -108,18 +121,19 @@ router.post(
   '/avatar',
   authenticateToken,
   upload.single('image'),
+  avatarCompression,
   async (req, res) => {
     try {
       if (!req.file) {
         return res.status(400).json({ message: 'Không có file được upload' });
       }
 
-      const result = await uploadToCloudinary(req.file.buffer, 'avatars');
+      const result = await storageAdapter.upload(req.file.buffer, 'avatars');
 
       res.json({
         message: 'Upload avatar thành công',
-        imageUrl: result.secure_url,
-        publicId: result.public_id
+        imageUrl: result.url,
+        publicId: result.resourceId
       });
     } catch (err) {
       console.error('❌ Error uploading avatar:', err);
@@ -137,18 +151,19 @@ router.post(
   authenticateToken,
   requireAdmin,
   upload.single('image'),
+  bannerCompression,
   async (req, res) => {
     try {
       if (!req.file) {
         return res.status(400).json({ message: 'Không có file được upload' });
       }
 
-      const result = await uploadToCloudinary(req.file.buffer, 'banners');
+      const result = await storageAdapter.upload(req.file.buffer, 'banners');
 
       res.json({
         message: 'Upload banner thành công',
-        imageUrl: result.secure_url,
-        publicId: result.public_id
+        imageUrl: result.url,
+        publicId: result.resourceId
       });
     } catch (err) {
       console.error('❌ Error uploading banner:', err);
@@ -158,4 +173,3 @@ router.post(
 );
 
 module.exports = router;
-

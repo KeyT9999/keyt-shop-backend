@@ -22,6 +22,7 @@ const visitRoutes = require('./routes/visit.routes');
 const announcementRoutes = require('./routes/announcement.routes');
 const netflixRoutes = require('./routes/tiembanh-netflix.routes');
 const affiliateRoutes = require('./routes/affiliate.routes');
+const compressRoutes = require('./routes/compress.routes');
 const { authenticateToken, requireAdmin } = require('./middleware/auth.middleware');
 
 const app = express();
@@ -183,6 +184,7 @@ app.use('/api/visits', visitRoutes);
 app.use('/api/announcements', announcementRoutes);
 app.use('/api/netflix', authenticateToken, netflixRoutes);
 app.use('/api/affiliate', authenticateToken, affiliateRoutes);
+app.use('/api/compress', compressRoutes);
 app.use('/api/sitemap', sitemapRoutes);
 app.use('/api/public', publicRoutes);
 
