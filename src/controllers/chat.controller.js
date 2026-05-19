@@ -1,6 +1,8 @@
 const Conversation = require('../models/Conversation');
 const Message = require('../models/Message');
 
+const escapeRegex = (value) => value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
 /**
  * GET /api/chat/conversations
  * Admin only — list conversations paginated, filterable by status, sorted by lastMessageAt desc
@@ -14,6 +16,16 @@ const getConversations = async (req, res) => {
     const filter = {};
     if (req.query.status && ['active', 'resolved'].includes(req.query.status)) {
       filter.status = req.query.status;
+    }
+
+    const rawSearch = typeof req.query.search === 'string' ? req.query.search.trim() : '';
+    if (rawSearch) {
+      const searchRegex = new RegExp(escapeRegex(rawSearch.slice(0, 100)), 'i');
+      filter.$or = [
+        { customerName: searchRegex },
+        { customerEmail: searchRegex },
+        { sessionId: searchRegex },
+      ];
     }
 
     const [conversations, total] = await Promise.all([
