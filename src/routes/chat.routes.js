@@ -7,6 +7,11 @@ const {
   getMessages,
   getActiveConversation,
   resolveConversation,
+  addReaction,
+  removeReaction,
+  editMessage,
+  deleteMessage,
+  searchMessages,
 } = require('../controllers/chat.controller');
 const { upload, uploadChatFile } = require('../controllers/chatUpload.controller');
 
@@ -24,5 +29,20 @@ router.post('/conversations/:id/resolve', authenticateToken, requireAdmin, resol
 
 // Customer/session — upload file for chat
 router.post('/upload', optionalAuth, upload.single('file'), uploadChatFile);
+
+// Add reaction to message
+router.post('/messages/:messageId/reactions', optionalAuth, addReaction);
+
+// Remove reaction from message
+router.delete('/messages/:messageId/reactions/:emoji', optionalAuth, removeReaction);
+
+// Edit message
+router.put('/messages/:messageId', optionalAuth, editMessage);
+
+// Delete message
+router.delete('/messages/:messageId', optionalAuth, deleteMessage);
+
+// Search messages in conversation
+router.get('/conversations/:conversationId/search', optionalAuth, searchMessages);
 
 module.exports = router;

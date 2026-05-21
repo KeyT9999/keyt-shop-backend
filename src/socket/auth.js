@@ -8,6 +8,7 @@ const jwt = require('jsonwebtoken');
  */
 function socketAuth(socket, next) {
   const { token, sessionId, role } = socket.handshake.auth;
+  const uuidV4Regex = /^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 
   if (role === 'admin') {
     if (!token) {
@@ -22,12 +23,19 @@ function socketAuth(socket, next) {
     }
   } else {
     // Customer connection - validate sessionId format (UUID v4)
-    const uuidV4Regex = /^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
     if (!sessionId || !uuidV4Regex.test(sessionId)) {
       return next(new Error('AUTH_INVALID'));
     }
     socket.sessionId = sessionId;
     socket.userRole = 'customer';
+
+    if (token) {
+      try {
+        socket.user = jwt.verify(token, process.env.JWT_SECRET);
+      } catch (err) {
+        return next(new Error(err.name === 'TokenExpiredError' ? 'AUTH_EXPIRED' : 'AUTH_INVALID'));
+      }
+    }
   }
 
   next();

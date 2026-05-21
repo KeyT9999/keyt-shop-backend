@@ -45,6 +45,46 @@ const MessageSchema = new mongoose.Schema({
     type: Boolean,
     default: false
   },
+  reactions: [{
+    emoji: {
+      type: String,
+      required: true,
+      validate: {
+        validator: function(v) {
+          // Validate emoji is one of allowed emojis
+          const allowedEmojis = ['👍', '❤️', '😂', '😮', '😢', '🙏'];
+          return allowedEmojis.includes(v);
+        },
+        message: props => `${props.value} is not a valid emoji`
+      }
+    },
+    users: [{
+      type: String,
+      required: true
+    }]
+  }],
+  isDeleted: {
+    type: Boolean,
+    default: false
+  },
+  deletedAt: {
+    type: Date,
+    default: null
+  },
+  editedAt: {
+    type: Date,
+    default: null
+  },
+  editHistory: [{
+    content: {
+      type: String,
+      required: true
+    },
+    editedAt: {
+      type: Date,
+      default: Date.now
+    }
+  }],
   timestamp: {
     type: Date,
     default: Date.now
@@ -65,6 +105,7 @@ MessageSchema.pre('validate', function(next) {
 // Indexes for query performance
 MessageSchema.index({ conversationId: 1, timestamp: 1 });
 MessageSchema.index({ conversationId: 1, readStatus: 1 });
+MessageSchema.index({ content: 'text' }); // Text index for search
 
 const Message = mongoose.model('Message', MessageSchema);
 
