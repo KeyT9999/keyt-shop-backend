@@ -32,9 +32,13 @@ router.post('/get-otp', authenticateToken, async (req, res) => {
     const userAgent = req.headers['user-agent'] || null;
     await otpRequestService.recordOtpRequest(req.user.id, normalized, ipAddress, userAgent);
 
+    // Calculate how many seconds remain in the current TOTP window
+    const expiresIn = 30 - (Math.floor(Date.now() / 1000) % 30);
+
     res.json({
       otp,
-      chatgptEmail: account.chatgptEmail
+      chatgptEmail: account.chatgptEmail,
+      expiresIn
     });
   } catch (err) {
     console.error('❌ Error getting OTP:', err);

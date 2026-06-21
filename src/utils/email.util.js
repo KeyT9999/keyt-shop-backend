@@ -20,7 +20,7 @@ const transporter = nodemailer.createTransport({
   maxMessages: 3
 });
 
-const fromEmail = process.env.MAIL_FROM || 'Tiệm Tạp Hóa KeyT <tiemtaphoakeyt@gmail.com>';
+const fromEmail = process.env.MAIL_FROM || 'Mindora AI <tiemtaphoakeyt@gmail.com>';
 const replyToEmail = process.env.MAIL_REPLY_TO || process.env.SMTP_USER || 'tiemtaphoakeyt@gmail.com';
 
 /**

@@ -115,26 +115,26 @@ app.get('/api/test-email', authenticateToken, requireAdmin, async (req, res) => 
     const adminEmail = emailService.getAdminEmail();
     const testEmail = {
       to: adminEmail,
-      subject: '🧪 Test Email - Tiệm Tạp Hóa KeyT',
-      text: `Đây là email test từ hệ thống Tiệm Tạp Hóa KeyT.
+      subject: '🧪 Test Email - Mindora AI',
+      text: `Đây là email test từ hệ thống Mindora AI.
 
 Thời gian gửi: ${new Date().toLocaleString('vi-VN')}
 
 Nếu bạn nhận được email này, nghĩa là cấu hình email đã hoạt động đúng! ✅
 
 Trân trọng,
-Hệ thống Tiệm Tạp Hóa KeyT`,
+Hệ thống Mindora AI`,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px;">
-          <h2 style="color: #2563eb;">🧪 Test Email - Tiệm Tạp Hóa KeyT</h2>
-          <p>Đây là email test từ hệ thống Tiệm Tạp Hóa KeyT.</p>
+          <h2 style="color: #2563eb;">🧪 Test Email - Mindora AI</h2>
+          <p>Đây là email test từ hệ thống Mindora AI.</p>
           <p><strong>Thời gian gửi:</strong> ${new Date().toLocaleString('vi-VN')}</p>
           <div style="background: #d1fae5; padding: 15px; border-radius: 6px; margin: 20px 0; border-left: 4px solid #059669;">
             <p style="margin: 0; color: #065f46; font-weight: 600;">
               ✅ Nếu bạn nhận được email này, nghĩa là cấu hình email đã hoạt động đúng!
             </p>
           </div>
-          <p>Trân trọng,<br><strong>Hệ thống Tiệm Tạp Hóa KeyT</strong></p>
+          <p>Trân trọng,<br><strong>Hệ thống Mindora AI</strong></p>
         </div>
       `
     };

@@ -22,7 +22,7 @@ class EmailService {
    * @returns {Promise<Object>} - Send result
    */
   async sendPasswordResetEmail(toEmail, username, resetLink) {
-    const subject = 'Đặt lại mật khẩu - Tiệm Tạp Hóa KeyT';
+    const subject = 'Đặt lại mật khẩu - Mindora AI';
     const text = this.createPasswordResetEmailContent(username, resetLink);
 
     return await sendEmail({
@@ -50,7 +50,7 @@ class EmailService {
 
     return `Xin chào bạn iu ${username},
 
-Bạn đã yêu cầu đặt lại mật khẩu cho tài khoản tại Tiệm Tạp Hóa KeyT.
+Bạn đã yêu cầu đặt lại mật khẩu cho tài khoản tại Mindora AI.
 
 Để đặt lại mật khẩu, vui lòng click vào link bên dưới:
 
@@ -72,7 +72,7 @@ Nếu bạn gặp vấn đề, vui lòng liên hệ:
 • Zalo: 0868899104
 
 Trân trọng,
-🎯 Đội ngũ Tiệm Tạp Hóa KeyT
+🎯 Đội ngũ Mindora AI
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 📧 Email này được gửi tự động, vui lòng không trả lời email này.
@@ -88,7 +88,7 @@ Trân trọng,
    * @returns {Promise<Object>} - Send result
    */
   async sendWelcomeEmail(toEmail, username) {
-    const subject = 'Chào mừng bạn đến với Tiệm Tạp Hóa KeyT';
+    const subject = 'Chào mừng bạn đến với Mindora AI';
     const text = this.createWelcomeEmailContent(username);
 
     return await sendEmail({
@@ -117,7 +117,7 @@ Trân trọng,
 
     return `🎉 Xin chào ${username},
 
-Chào mừng bạn đến với Tiệm Tạp Hóa KeyT!
+Chào mừng bạn đến với Mindora AI!
 
 ✅ Tài khoản của bạn đã được tạo thành công.
 🚀 Bạn có thể đăng nhập và bắt đầu sử dụng dịch vụ ngay bây giờ.
@@ -135,7 +135,7 @@ Chào mừng bạn đến với Tiệm Tạp Hóa KeyT!
 • Zalo: 0868899104
 
 Trân trọng,
-🎯 Đội ngũ Tiệm Tạp Hóa KeyT
+🎯 Đội ngũ Mindora AI
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 📧 Email này được gửi tự động, vui lòng không trả lời email này.
@@ -309,7 +309,7 @@ ${this.createEmailFooter(frontendUrl)}`;
    * @returns {Promise<Object>} - Send result
    */
   async sendPasswordResetOtpEmail(toEmail, username, otp) {
-    const subject = 'Mã OTP đặt lại mật khẩu - Tiệm Tạp Hóa KeyT';
+    const subject = 'Mã OTP đặt lại mật khẩu - Mindora AI';
     const text = this.createPasswordResetOtpEmailContent(username, otp);
 
     return await sendEmail({
@@ -326,7 +326,7 @@ ${this.createEmailFooter(frontendUrl)}`;
    * @param {string} verifyLink
    */
   async sendEmailVerificationEmail(toEmail, username, verifyLink) {
-    const subject = 'Xác minh email - Tiệm Tạp Hóa KeyT';
+    const subject = 'Xác minh email - Mindora AI';
     const text = this.createEmailVerificationContent(username, verifyLink);
 
     return await sendEmail({
@@ -343,7 +343,7 @@ ${this.createEmailFooter(frontendUrl)}`;
    * @param {string} resetLink
    */
   async sendPasswordResetLinkEmail(toEmail, username, resetLink) {
-    const subject = 'Đặt lại mật khẩu - Tiệm Tạp Hóa KeyT';
+    const subject = 'Đặt lại mật khẩu - Mindora AI';
     const text = this.createPasswordResetEmailContent(username, resetLink);
 
     return await sendEmail({
@@ -371,7 +371,7 @@ ${this.createEmailFooter(frontendUrl)}`;
 
     return `Xin chào bạn iu ${username},
 
-Bạn đã yêu cầu đặt lại mật khẩu cho tài khoản tại Tiệm Tạp Hóa KeyT.
+Bạn đã yêu cầu đặt lại mật khẩu cho tài khoản tại Mindora AI.
 
 🔐 MÃ OTP CỦA BẠN:
 ${otp}
@@ -391,7 +391,7 @@ Nếu bạn gặp vấn đề, vui lòng liên hệ:
 • Zalo: 0868899104
 
 Trân trọng,
-🎯 Đội ngũ Tiệm Tạp Hóa KeyT
+🎯 Đội ngũ Mindora AI
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 📧 Email này được gửi tự động, vui lòng không trả lời email này.
@@ -417,7 +417,7 @@ Trân trọng,
 
     return `Xin chào ${username},
 
-🎉 Cảm ơn bạn đã đăng ký tài khoản tại Tiệm Tạp Hóa KeyT!
+🎉 Cảm ơn bạn đã đăng ký tài khoản tại Mindora AI!
 
 Để hoàn tất quá trình đăng ký và kích hoạt tài khoản, vui lòng xác minh email của bạn bằng cách nhấn vào link dưới đây:
 
@@ -429,7 +429,7 @@ ${verifyLink}
 • Nếu bạn không tạo tài khoản, hãy bỏ qua email này
 
 Trân trọng,
-🎯 Đội ngũ Tiệm Tạp Hóa KeyT
+🎯 Đội ngũ Mindora AI
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 📧 Email này được gửi tự động, vui lòng không trả lời email này.
@@ -496,7 +496,7 @@ Trân trọng,
           <!-- Header -->
           <tr>
             <td style="background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%); padding: 30px 20px; text-align: center;">
-              <h1 style="margin: 0; color: #ffffff; font-size: 24px; font-weight: 700;">🎯 Tiệm Tạp Hóa KeyT</h1>
+              <h1 style="margin: 0; color: #ffffff; font-size: 24px; font-weight: 700;">🎯 Mindora AI</h1>
             </td>
           </tr>
           <!-- Content -->
@@ -527,7 +527,7 @@ Trân trọng,
    */
   async sendOrderCreatedEmailToUser(order) {
     const orderNumber = order.orderCode;
-    const subject = `Xác nhận đơn hàng #${orderNumber} - Tiệm Tạp Hóa KeyT`;
+    const subject = `Xác nhận đơn hàng #${orderNumber} - Mindora AI`;
 
     const itemsHtml = order.items.map((item, index) => `
       <tr>
