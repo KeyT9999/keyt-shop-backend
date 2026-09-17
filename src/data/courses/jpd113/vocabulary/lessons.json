@@ -2,73 +2,73 @@
   {
     "lessonCode": "1-1",
     "slug": "vocabulary-jpd113-n5-1-1",
-    "title": "1-1: Giới thiệu bản thân",
+    "title": "Giới thiệu bản thân",
     "description": "Từ vựng về chào hỏi, tên, quốc tịch, nghề nghiệp cơ bản.",
     "order": 1,
-    "itemCount": 41
+    "itemCount": 37
   },
   {
     "lessonCode": "1-2",
     "slug": "vocabulary-jpd113-n5-1-2",
-    "title": "1-2: Đếm tháng và Tuổi tác",
+    "title": "Đếm tháng và Tuổi tác",
     "description": "Từ vựng đếm tháng 1-12, đếm tuổi và thời gian.",
     "order": 2,
-    "itemCount": 76
+    "itemCount": 58
   },
   {
     "lessonCode": "1-3",
     "slug": "vocabulary-jpd113-n5-1-3",
-    "title": "1-3: Sở thích & Thời gian rảnh",
+    "title": "Sở thích & Thời gian rảnh",
     "description": "Từ vựng về các sở thích, hoạt động giải trí phổ biến.",
     "order": 3,
-    "itemCount": 14
+    "itemCount": 13
   },
   {
     "lessonCode": "2-1",
     "slug": "vocabulary-jpd113-n5-2-1",
-    "title": "2-1: Địa điểm mua sắm",
+    "title": "Địa điểm mua sắm",
     "description": "Từ vựng về cửa hàng, siêu thị, nhà ga, số tầng trong tòa nhà.",
     "order": 4,
-    "itemCount": 44
+    "itemCount": 42
   },
   {
     "lessonCode": "2-2",
     "slug": "vocabulary-jpd113-n5-2-2",
-    "title": "2-2: Đồ vật và số đếm",
+    "title": "Đồ vật và số đếm",
     "description": "Từ vựng đồ dùng hàng ngày, đồ điện tử và cách đếm đồ vật.",
     "order": 5,
-    "itemCount": 55
+    "itemCount": 50
   },
   {
     "lessonCode": "2-3",
     "slug": "vocabulary-jpd113-n5-2-3",
-    "title": "2-3: Đồ ăn và gọi món",
+    "title": "Đồ ăn và gọi món",
     "description": "Từ vựng về các món ăn, đồ uống và cách gọi món trong nhà hàng.",
     "order": 6,
-    "itemCount": 50
+    "itemCount": 43
   },
   {
     "lessonCode": "3-1",
     "slug": "vocabulary-jpd113-n5-3-1",
-    "title": "3-1: Thời gian và địa điểm",
+    "title": "Thời gian và địa điểm",
     "description": "Từ vựng về giờ giấc, các ngày trong tuần, sáng/trưa/tối.",
     "order": 7,
-    "itemCount": 35
+    "itemCount": 30
   },
   {
     "lessonCode": "3-2",
     "slug": "vocabulary-jpd113-n5-3-2",
-    "title": "3-2: Hoạt động và mùa",
+    "title": "Hoạt động và mùa",
     "description": "Từ vựng về 4 mùa trong năm và các hoạt động dã ngoại, thể thao.",
     "order": 8,
-    "itemCount": 33
+    "itemCount": 31
   },
   {
     "lessonCode": "3-3",
     "slug": "vocabulary-jpd113-n5-3-3",
-    "title": "3-3: Sinh hoạt hằng ngày",
+    "title": "Sinh hoạt hằng ngày",
     "description": "Từ vựng về chuỗi hành động thường nhật: thức dậy, ăn cơm, đi ngủ.",
     "order": 9,
-    "itemCount": 31
+    "itemCount": 30
   }
 ]

@@ -4,471 +4,318 @@
     "term": "～さい",
     "reading": "～さい",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "Lượng từ",
+    "partOfSpeech": "Lượng từ",
+    "meaning": "~ tuổi",
     "examples": []
   },
   {
     "order": 2,
-    "term": "~ tuổi",
-    "reading": "2.",
-    "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "～がつ",
-    "examples": []
-  },
-  {
-    "order": 3,
     "term": "～がつ",
-    "reading": "Lượng từ",
+    "reading": "～がつ",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
+    "partOfSpeech": "Lượng từ",
     "meaning": "Tháng ~",
     "examples": []
   },
   {
-    "order": 4,
+    "order": 3,
     "term": "いっさい",
     "reading": "いっさい",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "Lượng từ",
+    "partOfSpeech": "Lượng từ",
+    "meaning": "1 tuổi",
     "examples": []
   },
   {
-    "order": 5,
-    "term": "1 tuổi",
-    "reading": "4.",
-    "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "にさい",
-    "examples": []
-  },
-  {
-    "order": 6,
+    "order": 4,
     "term": "にさい",
-    "reading": "Lượng từ",
+    "reading": "にさい",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
+    "partOfSpeech": "Lượng từ",
     "meaning": "2 tuổi",
     "examples": []
   },
   {
-    "order": 7,
+    "order": 5,
     "term": "さんさい",
     "reading": "さんさい",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "Lượng từ",
+    "partOfSpeech": "Lượng từ",
+    "meaning": "3 tuổi",
     "examples": []
   },
   {
-    "order": 8,
-    "term": "3 tuổi",
-    "reading": "6.",
-    "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "よんさい",
-    "examples": []
-  },
-  {
-    "order": 9,
+    "order": 6,
     "term": "よんさい",
-    "reading": "Lượng từ",
+    "reading": "よんさい",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
+    "partOfSpeech": "Lượng từ",
     "meaning": "4 tuổi",
     "examples": []
   },
   {
-    "order": 10,
+    "order": 7,
     "term": "ごさい",
     "reading": "ごさい",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "Lượng từ",
+    "partOfSpeech": "Lượng từ",
+    "meaning": "5 tuổi",
     "examples": []
   },
   {
-    "order": 11,
-    "term": "5 tuổi",
-    "reading": "8.",
-    "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "ろくさい",
-    "examples": []
-  },
-  {
-    "order": 12,
+    "order": 8,
     "term": "ろくさい",
-    "reading": "Lượng từ",
+    "reading": "ろくさい",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
+    "partOfSpeech": "Lượng từ",
     "meaning": "6 tuổi",
     "examples": []
   },
   {
-    "order": 13,
+    "order": 9,
     "term": "ななさい",
     "reading": "ななさい",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "Lượng từ",
+    "partOfSpeech": "Lượng từ",
+    "meaning": "7 tuổi",
     "examples": []
   },
   {
-    "order": 14,
-    "term": "7 tuổi",
-    "reading": "10.",
-    "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "はっさい",
-    "examples": []
-  },
-  {
-    "order": 15,
+    "order": 10,
     "term": "はっさい",
-    "reading": "Lượng từ",
+    "reading": "はっさい",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
+    "partOfSpeech": "Lượng từ",
     "meaning": "8 tuổi",
     "examples": []
   },
   {
-    "order": 16,
+    "order": 11,
     "term": "きゅうさい",
     "reading": "きゅうさい",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "Lượng từ",
+    "partOfSpeech": "Lượng từ",
+    "meaning": "9 tuổi",
     "examples": []
   },
   {
-    "order": 17,
-    "term": "9 tuổi",
-    "reading": "12.",
-    "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "じゅっさい",
-    "examples": []
-  },
-  {
-    "order": 18,
+    "order": 12,
     "term": "じゅっさい",
-    "reading": "Lượng từ",
+    "reading": "じゅっさい",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
+    "partOfSpeech": "Lượng từ",
     "meaning": "10 tuổi",
     "examples": []
   },
   {
-    "order": 19,
+    "order": 13,
     "term": "じゅういっさい",
     "reading": "じゅういっさい",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "Lượng từ",
+    "partOfSpeech": "Lượng từ",
+    "meaning": "11 tuổi",
     "examples": []
   },
   {
-    "order": 20,
-    "term": "11 tuổi",
-    "reading": "14.",
-    "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "じゅうごさい",
-    "examples": []
-  },
-  {
-    "order": 21,
+    "order": 14,
     "term": "じゅうごさい",
-    "reading": "Lượng từ",
+    "reading": "じゅうごさい",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
+    "partOfSpeech": "Lượng từ",
     "meaning": "15 tuổi",
     "examples": []
   },
   {
-    "order": 22,
+    "order": 15,
     "term": "はたち",
     "reading": "はたち",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "Lượng từ",
-    "examples": []
-  },
-  {
-    "order": 23,
-    "term": "20 tuổi",
-    "reading": "16.",
-    "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "にじゅっさい",
-    "examples": []
-  },
-  {
-    "order": 24,
-    "term": "にじゅっさい",
-    "reading": "Lượng từ",
-    "romaji": "",
-    "partOfSpeech": "Danh từ",
+    "partOfSpeech": "Lượng từ",
     "meaning": "20 tuổi",
     "examples": []
   },
   {
-    "order": 25,
+    "order": 16,
+    "term": "にじゅっさい",
+    "reading": "にじゅっさい",
+    "romaji": "",
+    "partOfSpeech": "Lượng từ",
+    "meaning": "20 tuổi",
+    "examples": []
+  },
+  {
+    "order": 17,
     "term": "さんじゅっさい",
     "reading": "さんじゅっさい",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "Lượng từ",
+    "partOfSpeech": "Lượng từ",
+    "meaning": "30 tuổi",
     "examples": []
   },
   {
-    "order": 26,
-    "term": "30 tuổi",
-    "reading": "18.",
-    "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "さんじゅうはっさい",
-    "examples": []
-  },
-  {
-    "order": 27,
+    "order": 18,
     "term": "さんじゅうはっさい",
-    "reading": "Lượng từ",
+    "reading": "さんじゅうはっさい",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
+    "partOfSpeech": "Lượng từ",
     "meaning": "38 tuổi",
     "examples": []
   },
   {
-    "order": 28,
+    "order": 19,
     "term": "なんさい",
     "reading": "なんさい",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "Từ nghi vấn",
+    "partOfSpeech": "Từ nghi vấn",
+    "meaning": "Bao nhiêu tuổi",
     "examples": []
   },
   {
-    "order": 29,
-    "term": "Bao nhiêu tuổi",
-    "reading": "20.",
-    "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "おいくつ",
-    "examples": []
-  },
-  {
-    "order": 30,
+    "order": 20,
     "term": "おいくつ",
-    "reading": "Từ nghi vấn",
+    "reading": "おいくつ",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
+    "partOfSpeech": "Từ nghi vấn",
     "meaning": "Mấy tuổi (lịch sự)",
     "examples": []
   },
   {
-    "order": 31,
+    "order": 21,
     "term": "いちがつ",
     "reading": "いちがつ",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "Lượng từ",
+    "partOfSpeech": "Lượng từ",
+    "meaning": "Tháng 1",
     "examples": []
   },
   {
-    "order": 32,
-    "term": "Tháng 1",
-    "reading": "22.",
-    "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "にがつ",
-    "examples": []
-  },
-  {
-    "order": 33,
+    "order": 22,
     "term": "にがつ",
-    "reading": "Lượng từ",
+    "reading": "にがつ",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
+    "partOfSpeech": "Lượng từ",
     "meaning": "Tháng 2",
     "examples": []
   },
   {
-    "order": 34,
+    "order": 23,
     "term": "さんがつ",
     "reading": "さんがつ",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "Lượng từ",
+    "partOfSpeech": "Lượng từ",
+    "meaning": "Tháng 3",
     "examples": []
   },
   {
-    "order": 35,
-    "term": "Tháng 3",
-    "reading": "24.",
-    "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "しがつ",
-    "examples": []
-  },
-  {
-    "order": 36,
+    "order": 24,
     "term": "しがつ",
-    "reading": "Lượng từ",
+    "reading": "しがつ",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
+    "partOfSpeech": "Lượng từ",
     "meaning": "Tháng 4",
     "examples": []
   },
   {
-    "order": 37,
+    "order": 25,
     "term": "ごがつ",
     "reading": "ごがつ",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "Lượng từ",
+    "partOfSpeech": "Lượng từ",
+    "meaning": "Tháng 5",
     "examples": []
   },
   {
-    "order": 38,
-    "term": "Tháng 5",
-    "reading": "26.",
-    "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "ろくがつ",
-    "examples": []
-  },
-  {
-    "order": 39,
+    "order": 26,
     "term": "ろくがつ",
-    "reading": "Lượng từ",
+    "reading": "ろくがつ",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
+    "partOfSpeech": "Lượng từ",
     "meaning": "Tháng 6",
     "examples": []
   },
   {
-    "order": 40,
+    "order": 27,
     "term": "しちがつ",
     "reading": "しちがつ",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "Lượng từ",
+    "partOfSpeech": "Lượng từ",
+    "meaning": "Tháng 7",
     "examples": []
   },
   {
-    "order": 41,
-    "term": "Tháng 7",
-    "reading": "28.",
-    "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "はちがつ",
-    "examples": []
-  },
-  {
-    "order": 42,
+    "order": 28,
     "term": "はちがつ",
-    "reading": "Lượng từ",
+    "reading": "はちがつ",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
+    "partOfSpeech": "Lượng từ",
     "meaning": "Tháng 8",
     "examples": []
   },
   {
-    "order": 43,
+    "order": 29,
     "term": "くがつ",
     "reading": "くがつ",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "Lượng từ",
+    "partOfSpeech": "Lượng từ",
+    "meaning": "Tháng 9",
     "examples": []
   },
   {
-    "order": 44,
-    "term": "Tháng 9",
-    "reading": "30.",
-    "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "じゅうがつ",
-    "examples": []
-  },
-  {
-    "order": 45,
+    "order": 30,
     "term": "じゅうがつ",
-    "reading": "Lượng từ",
+    "reading": "じゅうがつ",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
+    "partOfSpeech": "Lượng từ",
     "meaning": "Tháng 10",
     "examples": []
   },
   {
-    "order": 46,
+    "order": 31,
     "term": "じゅういちがつ",
     "reading": "じゅういちがつ",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "Lượng từ",
+    "partOfSpeech": "Lượng từ",
+    "meaning": "Tháng 11",
     "examples": []
   },
   {
-    "order": 47,
-    "term": "Tháng 11",
-    "reading": "32.",
-    "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "じゅうにがつ",
-    "examples": []
-  },
-  {
-    "order": 48,
+    "order": 32,
     "term": "じゅうにがつ",
-    "reading": "Lượng từ",
+    "reading": "じゅうにがつ",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
+    "partOfSpeech": "Lượng từ",
     "meaning": "Tháng 12",
     "examples": []
   },
   {
-    "order": 49,
+    "order": 33,
     "term": "なんがつ",
     "reading": "なんがつ",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "Từ nghi vấn",
+    "partOfSpeech": "Từ nghi vấn",
+    "meaning": "Tháng mấy",
     "examples": []
   },
   {
-    "order": 50,
+    "order": 34,
     "term": "いつ",
     "reading": "いつ",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "Từ nghi vấn",
+    "partOfSpeech": "Từ nghi vấn",
+    "meaning": "Khi nào",
     "examples": []
   },
   {
-    "order": 51,
-    "term": "Khi nào",
-    "reading": "2.",
-    "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "ブラジル",
-    "examples": []
-  },
-  {
-    "order": 52,
+    "order": 35,
     "term": "ブラジル",
-    "reading": "Danh từ",
+    "reading": "ブラジル",
     "romaji": "",
     "partOfSpeech": "Danh từ",
     "meaning": "Brazil",
     "examples": []
   },
   {
-    "order": 53,
+    "order": 36,
     "term": "たんじょうび",
     "reading": "たんじょうび",
     "romaji": "",
@@ -477,34 +324,25 @@
     "examples": []
   },
   {
-    "order": 54,
+    "order": 37,
     "term": "～にち",
     "reading": "～にち",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "Lượng từ",
-    "examples": []
-  },
-  {
-    "order": 55,
-    "term": "Ngày ~",
-    "reading": "5.",
-    "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "～か",
-    "examples": []
-  },
-  {
-    "order": 56,
-    "term": "～か",
-    "reading": "Lượng từ",
-    "romaji": "",
-    "partOfSpeech": "Danh từ",
+    "partOfSpeech": "Lượng từ",
     "meaning": "Ngày ~",
     "examples": []
   },
   {
-    "order": 57,
+    "order": 38,
+    "term": "～か",
+    "reading": "～か",
+    "romaji": "",
+    "partOfSpeech": "Lượng từ",
+    "meaning": "Ngày ~",
+    "examples": []
+  },
+  {
+    "order": 39,
     "term": "ついたち",
     "reading": "ついたち",
     "romaji": "",
@@ -513,7 +351,7 @@
     "examples": []
   },
   {
-    "order": 58,
+    "order": 40,
     "term": "ふつか",
     "reading": "ふつか",
     "romaji": "",
@@ -522,7 +360,7 @@
     "examples": []
   },
   {
-    "order": 59,
+    "order": 41,
     "term": "みっか",
     "reading": "みっか",
     "romaji": "",
@@ -531,7 +369,7 @@
     "examples": []
   },
   {
-    "order": 60,
+    "order": 42,
     "term": "よっか",
     "reading": "よっか",
     "romaji": "",
@@ -540,7 +378,7 @@
     "examples": []
   },
   {
-    "order": 61,
+    "order": 43,
     "term": "いつか",
     "reading": "いつか",
     "romaji": "",
@@ -549,7 +387,7 @@
     "examples": []
   },
   {
-    "order": 62,
+    "order": 44,
     "term": "むいか",
     "reading": "むいか",
     "romaji": "",
@@ -558,7 +396,7 @@
     "examples": []
   },
   {
-    "order": 63,
+    "order": 45,
     "term": "なのか",
     "reading": "なのか",
     "romaji": "",
@@ -567,7 +405,7 @@
     "examples": []
   },
   {
-    "order": 64,
+    "order": 46,
     "term": "ようか",
     "reading": "ようか",
     "romaji": "",
@@ -576,7 +414,7 @@
     "examples": []
   },
   {
-    "order": 65,
+    "order": 47,
     "term": "ここのか",
     "reading": "ここのか",
     "romaji": "",
@@ -585,7 +423,7 @@
     "examples": []
   },
   {
-    "order": 66,
+    "order": 48,
     "term": "とおか",
     "reading": "とおか",
     "romaji": "",
@@ -594,7 +432,7 @@
     "examples": []
   },
   {
-    "order": 67,
+    "order": 49,
     "term": "じゅういちにち",
     "reading": "じゅういちにち",
     "romaji": "",
@@ -603,7 +441,7 @@
     "examples": []
   },
   {
-    "order": 68,
+    "order": 50,
     "term": "じゅうににち",
     "reading": "じゅうににち",
     "romaji": "",
@@ -612,7 +450,7 @@
     "examples": []
   },
   {
-    "order": 69,
+    "order": 51,
     "term": "じゅうよっか",
     "reading": "じゅうよっか",
     "romaji": "",
@@ -621,7 +459,7 @@
     "examples": []
   },
   {
-    "order": 70,
+    "order": 52,
     "term": "じゅうはちにち",
     "reading": "じゅうはちにち",
     "romaji": "",
@@ -630,7 +468,7 @@
     "examples": []
   },
   {
-    "order": 71,
+    "order": 53,
     "term": "じゅうくにち",
     "reading": "じゅうくにち",
     "romaji": "",
@@ -639,7 +477,7 @@
     "examples": []
   },
   {
-    "order": 72,
+    "order": 54,
     "term": "はつか",
     "reading": "はつか",
     "romaji": "",
@@ -648,7 +486,7 @@
     "examples": []
   },
   {
-    "order": 73,
+    "order": 55,
     "term": "にじゅうよっか",
     "reading": "にじゅうよっか",
     "romaji": "",
@@ -657,7 +495,7 @@
     "examples": []
   },
   {
-    "order": 74,
+    "order": 56,
     "term": "にじゅうくにち",
     "reading": "にじゅうくにち",
     "romaji": "",
@@ -666,7 +504,7 @@
     "examples": []
   },
   {
-    "order": 75,
+    "order": 57,
     "term": "さんじゅうにち",
     "reading": "さんじゅうにち",
     "romaji": "",
@@ -675,12 +513,12 @@
     "examples": []
   },
   {
-    "order": 76,
+    "order": 58,
     "term": "なんにち",
     "reading": "なんにち",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "Từ nghi vấn",
+    "partOfSpeech": "Từ nghi vấn",
+    "meaning": "Ngày mấy",
     "examples": []
   }
 ]

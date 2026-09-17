@@ -310,30 +310,21 @@
     "term": "なんかい",
     "reading": "なんかい",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "Từ nghi vấn",
+    "partOfSpeech": "Từ nghi vấn",
+    "meaning": "Tầng mấy",
     "examples": []
   },
   {
     "order": 36,
-    "term": "Tầng mấy",
-    "reading": "36.",
-    "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "いっかい",
-    "examples": []
-  },
-  {
-    "order": 37,
     "term": "いっかい",
-    "reading": "Danh từ",
+    "reading": "いっかい",
     "romaji": "",
     "partOfSpeech": "Danh từ",
     "meaning": "Tầng 1",
     "examples": []
   },
   {
-    "order": 38,
+    "order": 37,
     "term": "ろっかい",
     "reading": "ろっかい",
     "romaji": "",
@@ -342,7 +333,7 @@
     "examples": []
   },
   {
-    "order": 39,
+    "order": 38,
     "term": "じゅっかい",
     "reading": "じゅっかい",
     "romaji": "",
@@ -351,7 +342,7 @@
     "examples": []
   },
   {
-    "order": 40,
+    "order": 39,
     "term": "ほんや",
     "reading": "ほんや",
     "romaji": "",
@@ -360,34 +351,25 @@
     "examples": []
   },
   {
-    "order": 41,
+    "order": 40,
     "term": "どこ",
     "reading": "どこ",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "Từ nghi vấn",
+    "partOfSpeech": "Từ nghi vấn",
+    "meaning": "Ở đâu",
     "examples": []
   },
   {
-    "order": 42,
-    "term": "Ở đâu",
-    "reading": "41.",
-    "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "いらっしゃいませ",
-    "examples": []
-  },
-  {
-    "order": 43,
+    "order": 41,
     "term": "いらっしゃいませ",
-    "reading": "Cụm từ",
+    "reading": "いらっしゃいませ",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
+    "partOfSpeech": "Cụm từ",
     "meaning": "Xin chào quý khách",
     "examples": []
   },
   {
-    "order": 44,
+    "order": 42,
     "term": "どうもありがとうございます",
     "reading": "どうもありがとうございます",
     "romaji": "",

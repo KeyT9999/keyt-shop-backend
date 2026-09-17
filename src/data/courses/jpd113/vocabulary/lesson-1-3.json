@@ -85,30 +85,21 @@
     "term": "なん",
     "reading": "なん",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "Từ nghi vấn",
+    "partOfSpeech": "Từ nghi vấn",
+    "meaning": "Cái gì",
     "examples": []
   },
   {
     "order": 11,
-    "term": "Cái gì",
-    "reading": "11.",
-    "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "つり",
-    "examples": []
-  },
-  {
-    "order": 12,
     "term": "つり",
-    "reading": "Danh từ",
+    "reading": "つり",
     "romaji": "",
     "partOfSpeech": "Danh từ",
     "meaning": "Câu cá",
     "examples": []
   },
   {
-    "order": 13,
+    "order": 12,
     "term": "おなじ",
     "reading": "おなじ",
     "romaji": "",
@@ -117,7 +108,7 @@
     "examples": []
   },
   {
-    "order": 14,
+    "order": 13,
     "term": "おなじですね",
     "reading": "おなじですね",
     "romaji": "",

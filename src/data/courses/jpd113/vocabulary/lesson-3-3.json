@@ -184,30 +184,21 @@
     "term": "なにも",
     "reading": "なにも",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "Từ nghi vấn",
+    "partOfSpeech": "Từ nghi vấn",
+    "meaning": "Không gì cả",
     "examples": []
   },
   {
     "order": 22,
-    "term": "Không gì cả",
-    "reading": "22.",
-    "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "どこへも",
-    "examples": []
-  },
-  {
-    "order": 23,
     "term": "どこへも",
-    "reading": "Từ nghi vấn",
+    "reading": "どこへも",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
+    "partOfSpeech": "Từ nghi vấn",
     "meaning": "Đâu cũng không",
     "examples": []
   },
   {
-    "order": 24,
+    "order": 23,
     "term": "かいます",
     "reading": "かいます",
     "romaji": "",
@@ -216,7 +207,7 @@
     "examples": []
   },
   {
-    "order": 25,
+    "order": 24,
     "term": "ききます",
     "reading": "ききます",
     "romaji": "",
@@ -225,7 +216,7 @@
     "examples": []
   },
   {
-    "order": 26,
+    "order": 25,
     "term": "はたらきます",
     "reading": "はたらきます",
     "romaji": "",
@@ -234,7 +225,7 @@
     "examples": []
   },
   {
-    "order": 27,
+    "order": 26,
     "term": "よみます",
     "reading": "よみます",
     "romaji": "",
@@ -243,7 +234,7 @@
     "examples": []
   },
   {
-    "order": 28,
+    "order": 27,
     "term": "おきます",
     "reading": "おきます",
     "romaji": "",
@@ -252,7 +243,7 @@
     "examples": []
   },
   {
-    "order": 29,
+    "order": 28,
     "term": "ねます",
     "reading": "ねます",
     "romaji": "",
@@ -261,7 +252,7 @@
     "examples": []
   },
   {
-    "order": 30,
+    "order": 29,
     "term": "べんきょうします",
     "reading": "べんきょうします",
     "romaji": "",
@@ -270,7 +261,7 @@
     "examples": []
   },
   {
-    "order": 31,
+    "order": 30,
     "term": "きます",
     "reading": "きます",
     "romaji": "",

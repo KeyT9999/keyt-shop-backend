@@ -229,57 +229,39 @@
     "term": "～さん",
     "reading": "～さん",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "Hậu tố",
+    "partOfSpeech": "Hậu tố",
+    "meaning": "Anh / chị ~",
     "examples": []
   },
   {
     "order": 27,
-    "term": "Anh / chị ~",
-    "reading": "27.",
+    "term": "～人",
+    "reading": "～じん",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "～人",
-    "examples": []
-  },
-  {
-    "order": 28,
-    "term": "～じん",
-    "reading": "Hậu tố",
-    "romaji": "",
-    "partOfSpeech": "Danh từ",
+    "partOfSpeech": "Hậu tố",
     "meaning": "Người nước ~",
     "examples": []
   },
   {
-    "order": 29,
+    "order": 28,
     "term": "どちら",
     "reading": "どちら",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "Từ nghi vấn",
+    "partOfSpeech": "Từ nghi vấn",
+    "meaning": "Ở đâu / phía nào",
     "examples": []
   },
   {
-    "order": 30,
-    "term": "Ở đâu / phía nào",
-    "reading": "29.",
-    "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "はじめまして",
-    "examples": []
-  },
-  {
-    "order": 31,
+    "order": 29,
     "term": "はじめまして",
-    "reading": "Cụm từ",
+    "reading": "はじめまして",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
+    "partOfSpeech": "Cụm từ",
     "meaning": "Rất vui được gặp",
     "examples": []
   },
   {
-    "order": 32,
+    "order": 30,
     "term": "どうぞよろしくおねがいします",
     "reading": "どうぞよろしくおねがいします",
     "romaji": "",
@@ -288,7 +270,7 @@
     "examples": []
   },
   {
-    "order": 33,
+    "order": 31,
     "term": "こちらこそ",
     "reading": "こちらこそ",
     "romaji": "",
@@ -297,34 +279,25 @@
     "examples": []
   },
   {
-    "order": 34,
+    "order": 32,
     "term": "あのう",
     "reading": "あのう",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "Thán từ",
+    "partOfSpeech": "Thán từ",
+    "meaning": "À...",
     "examples": []
   },
   {
-    "order": 35,
-    "term": "À...",
-    "reading": "33.",
-    "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "すみません",
-    "examples": []
-  },
-  {
-    "order": 36,
+    "order": 33,
     "term": "すみません",
-    "reading": "Cụm từ",
+    "reading": "すみません",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
+    "partOfSpeech": "Cụm từ",
     "meaning": "Xin lỗi",
     "examples": []
   },
   {
-    "order": 37,
+    "order": 34,
     "term": "そうですか",
     "reading": "そうですか",
     "romaji": "",
@@ -333,34 +306,25 @@
     "examples": []
   },
   {
-    "order": 38,
+    "order": 35,
     "term": "はい",
     "reading": "はい",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "Thán từ",
+    "partOfSpeech": "Thán từ",
+    "meaning": "Vâng",
     "examples": []
   },
   {
-    "order": 39,
-    "term": "Vâng",
-    "reading": "36.",
-    "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "いいえ",
-    "examples": []
-  },
-  {
-    "order": 40,
+    "order": 36,
     "term": "いいえ",
-    "reading": "Thán từ",
+    "reading": "いいえ",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
+    "partOfSpeech": "Thán từ",
     "meaning": "Không",
     "examples": []
   },
   {
-    "order": 41,
+    "order": 37,
     "term": "学校",
     "reading": "がっこう",
     "romaji": "",

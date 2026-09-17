@@ -148,30 +148,21 @@
     "term": "いちねん",
     "reading": "いちねん",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "Lượng từ",
+    "partOfSpeech": "Lượng từ",
+    "meaning": "1 năm",
     "examples": []
   },
   {
     "order": 18,
-    "term": "1 năm",
-    "reading": "18.",
-    "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "はる",
-    "examples": []
-  },
-  {
-    "order": 19,
     "term": "はる",
-    "reading": "Danh từ chỉ thời gian",
+    "reading": "はる",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
+    "partOfSpeech": "Danh từ chỉ thời gian",
     "meaning": "Mùa xuân",
     "examples": []
   },
   {
-    "order": 20,
+    "order": 19,
     "term": "なつ",
     "reading": "なつ",
     "romaji": "",
@@ -180,7 +171,7 @@
     "examples": []
   },
   {
-    "order": 21,
+    "order": 20,
     "term": "あき",
     "reading": "あき",
     "romaji": "",
@@ -189,7 +180,7 @@
     "examples": []
   },
   {
-    "order": 22,
+    "order": 21,
     "term": "ふゆ",
     "reading": "ふゆ",
     "romaji": "",
@@ -198,7 +189,7 @@
     "examples": []
   },
   {
-    "order": 23,
+    "order": 22,
     "term": "ゴールデンウイーク",
     "reading": "ゴールデンウイーク",
     "romaji": "",
@@ -207,34 +198,25 @@
     "examples": []
   },
   {
-    "order": 24,
+    "order": 23,
     "term": "なに",
     "reading": "なに",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "Từ nghi vấn",
+    "partOfSpeech": "Từ nghi vấn",
+    "meaning": "Cái gì",
     "examples": []
   },
   {
-    "order": 25,
-    "term": "Cái gì",
-    "reading": "24.",
-    "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "いきます",
-    "examples": []
-  },
-  {
-    "order": 26,
+    "order": 24,
     "term": "いきます",
-    "reading": "Động từ",
+    "reading": "いきます",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
+    "partOfSpeech": "Động từ",
     "meaning": "Đi",
     "examples": []
   },
   {
-    "order": 27,
+    "order": 25,
     "term": "かえります",
     "reading": "かえります",
     "romaji": "",
@@ -243,7 +225,7 @@
     "examples": []
   },
   {
-    "order": 28,
+    "order": 26,
     "term": "のみます",
     "reading": "のみます",
     "romaji": "",
@@ -252,7 +234,7 @@
     "examples": []
   },
   {
-    "order": 29,
+    "order": 27,
     "term": "たべます",
     "reading": "たべます",
     "romaji": "",
@@ -261,7 +243,7 @@
     "examples": []
   },
   {
-    "order": 30,
+    "order": 28,
     "term": "みます",
     "reading": "みます",
     "romaji": "",
@@ -270,7 +252,7 @@
     "examples": []
   },
   {
-    "order": 31,
+    "order": 29,
     "term": "します",
     "reading": "します",
     "romaji": "",
@@ -279,7 +261,7 @@
     "examples": []
   },
   {
-    "order": 32,
+    "order": 30,
     "term": "スキーをします",
     "reading": "スキーをします",
     "romaji": "",
@@ -288,7 +270,7 @@
     "examples": []
   },
   {
-    "order": 33,
+    "order": 31,
     "term": "いいですね",
     "reading": "いいですね",
     "romaji": "",

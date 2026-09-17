@@ -76,25 +76,21 @@ async function seedSingleCourse(courseSlug, coursesDir) {
         const lessonDoc = vocabLessonMap[lessonCode];
         if (lessonDoc) {
           const items = JSON.parse(fs.readFileSync(path.join(vocabDir, file), 'utf8'));
-          for (const item of items) {
-            await VocabularyItem.findOneAndUpdate(
-              { lessonId: lessonDoc._id, order: item.order },
-              {
-                $set: {
-                  courseId: course._id,
-                  courseCode: course.code,
-                  lessonId: lessonDoc._id,
-                  order: item.order,
-                  term: item.term,
-                  reading: item.reading,
-                  romaji: item.romaji || '',
-                  partOfSpeech: item.partOfSpeech || 'Danh từ',
-                  meaning: item.meaning,
-                  examples: item.examples || []
-                }
-              },
-              { upsert: true, new: true }
-            );
+          await VocabularyItem.deleteMany({ lessonId: lessonDoc._id });
+          if (items.length > 0) {
+            const docsToInsert = items.map((item) => ({
+              courseId: course._id,
+              courseCode: course.code,
+              lessonId: lessonDoc._id,
+              order: item.order,
+              term: item.term,
+              reading: item.reading,
+              romaji: item.romaji || '',
+              partOfSpeech: item.partOfSpeech || 'Danh từ',
+              meaning: item.meaning,
+              examples: item.examples || []
+            }));
+            await VocabularyItem.insertMany(docsToInsert);
           }
           await CourseLesson.findByIdAndUpdate(lessonDoc._id, { itemCount: items.length });
           console.log(`✅ Upserted ${items.length} Vocabulary Items into Lesson ${lessonCode}`);

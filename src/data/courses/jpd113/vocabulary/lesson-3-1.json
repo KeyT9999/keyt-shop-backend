@@ -121,57 +121,39 @@
     "term": "～じ",
     "reading": "～じ",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "Lượng từ",
+    "partOfSpeech": "Lượng từ",
+    "meaning": "~ giờ",
     "examples": []
   },
   {
     "order": 15,
-    "term": "~ giờ",
-    "reading": "15.",
-    "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "～ふん/ぷん",
-    "examples": []
-  },
-  {
-    "order": 16,
     "term": "～ふん/ぷん",
-    "reading": "Lượng từ",
+    "reading": "～ふん/ぷん",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
+    "partOfSpeech": "Lượng từ",
     "meaning": "~ phút",
     "examples": []
   },
   {
-    "order": 17,
+    "order": 16,
     "term": "～じはん",
     "reading": "～じはん",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "Lượng từ",
+    "partOfSpeech": "Lượng từ",
+    "meaning": "~ giờ rưỡi",
     "examples": []
   },
   {
-    "order": 18,
-    "term": "~ giờ rưỡi",
-    "reading": "17.",
-    "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "～ようび",
-    "examples": []
-  },
-  {
-    "order": 19,
+    "order": 17,
     "term": "～ようび",
-    "reading": "Lượng từ",
+    "reading": "～ようび",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
+    "partOfSpeech": "Lượng từ",
     "meaning": "Thứ ~",
     "examples": []
   },
   {
-    "order": 20,
+    "order": 18,
     "term": "げつようび",
     "reading": "げつようび",
     "romaji": "",
@@ -180,7 +162,7 @@
     "examples": []
   },
   {
-    "order": 21,
+    "order": 19,
     "term": "かようび",
     "reading": "かようび",
     "romaji": "",
@@ -189,7 +171,7 @@
     "examples": []
   },
   {
-    "order": 22,
+    "order": 20,
     "term": "すいようび",
     "reading": "すいようび",
     "romaji": "",
@@ -198,7 +180,7 @@
     "examples": []
   },
   {
-    "order": 23,
+    "order": 21,
     "term": "もくようび",
     "reading": "もくようび",
     "romaji": "",
@@ -207,7 +189,7 @@
     "examples": []
   },
   {
-    "order": 24,
+    "order": 22,
     "term": "きんようび",
     "reading": "きんようび",
     "romaji": "",
@@ -216,7 +198,7 @@
     "examples": []
   },
   {
-    "order": 25,
+    "order": 23,
     "term": "どようび",
     "reading": "どようび",
     "romaji": "",
@@ -225,7 +207,7 @@
     "examples": []
   },
   {
-    "order": 26,
+    "order": 24,
     "term": "日ようび",
     "reading": "にちようび",
     "romaji": "",
@@ -234,83 +216,56 @@
     "examples": []
   },
   {
-    "order": 27,
+    "order": 25,
     "term": "ごふん",
     "reading": "ごふん",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "Số đếm",
+    "partOfSpeech": "Số đếm",
+    "meaning": "5 phút",
     "examples": []
   },
   {
-    "order": 28,
-    "term": "5 phút",
-    "reading": "26.",
-    "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "じゅっぷん",
-    "examples": []
-  },
-  {
-    "order": 29,
+    "order": 26,
     "term": "じゅっぷん",
-    "reading": "Số đếm",
+    "reading": "じゅっぷん",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
+    "partOfSpeech": "Số đếm",
     "meaning": "10 phút",
     "examples": []
   },
   {
-    "order": 30,
+    "order": 27,
     "term": "さんじゅっぷん",
     "reading": "さんじゅっぷん",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "Số đếm",
+    "partOfSpeech": "Số đếm",
+    "meaning": "30 phút",
     "examples": []
   },
   {
-    "order": 31,
-    "term": "30 phút",
-    "reading": "28.",
-    "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "よじ",
-    "examples": []
-  },
-  {
-    "order": 32,
+    "order": 28,
     "term": "よじ",
-    "reading": "Số đếm",
+    "reading": "よじ",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
+    "partOfSpeech": "Số đếm",
     "meaning": "4 giờ",
     "examples": []
   },
   {
-    "order": 33,
+    "order": 29,
     "term": "しちじ",
     "reading": "しちじ",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "Số đếm",
+    "partOfSpeech": "Số đếm",
+    "meaning": "7 giờ",
     "examples": []
   },
   {
-    "order": 34,
-    "term": "7 giờ",
-    "reading": "30.",
-    "romaji": "",
-    "partOfSpeech": "Danh từ",
-    "meaning": "くじ",
-    "examples": []
-  },
-  {
-    "order": 35,
+    "order": 30,
     "term": "くじ",
-    "reading": "Số đếm",
+    "reading": "くじ",
     "romaji": "",
-    "partOfSpeech": "Danh từ",
+    "partOfSpeech": "Số đếm",
     "meaning": "9 giờ",
     "examples": []
   }
