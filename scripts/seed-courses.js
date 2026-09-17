@@ -11,35 +11,37 @@ const KanjiItem = require('../src/models/kanji-item.model');
 const GrammarItem = require('../src/models/grammar-item.model');
 const { Exam } = require('../src/models/exam.model');
 
-async function seedCourses() {
-  console.log('🚀 Starting Course & Lesson Seed Engine...');
+async function seedSingleCourse(courseSlug, coursesDir) {
+  const courseFolder = path.join(coursesDir, courseSlug);
+  if (!fs.existsSync(courseFolder)) {
+    console.warn(`Directory not found for course: ${courseFolder}`);
+    return;
+  }
 
-  try {
-    await connectDB();
+  console.log(`\n==============================================`);
+  console.log(`🚀 Seeding Course: [${courseSlug.toUpperCase()}]`);
+  console.log(`==============================================`);
 
-    const coursesDir = path.join(__dirname, '../src/data/courses');
-    const jpd123Dir = path.join(coursesDir, 'jpd123');
+  // 1. Seed Course Metadata
+  const courseMetaPath = path.join(courseFolder, 'course.json');
+  if (!fs.existsSync(courseMetaPath)) {
+    console.warn(`No course.json found in ${courseFolder}`);
+    return;
+  }
+  const courseData = JSON.parse(fs.readFileSync(courseMetaPath, 'utf8'));
 
-    if (!fs.existsSync(jpd123Dir)) {
-      throw new Error(`Data directory not found: ${jpd123Dir}`);
-    }
+  const course = await Course.findOneAndUpdate(
+    { code: courseData.code },
+    { $set: courseData },
+    { upsert: true, new: true }
+  );
+  console.log(`✅ Upserted Course: [${course.code}] ${course.title} (ID: ${course._id})`);
 
-    // 1. Seed Course Metadata
-    const courseMetaPath = path.join(jpd123Dir, 'course.json');
-    const courseData = JSON.parse(fs.readFileSync(courseMetaPath, 'utf8'));
-
-    const course = await Course.findOneAndUpdate(
-      { code: courseData.code },
-      { $set: courseData },
-      { upsert: true, new: true }
-    );
-    console.log(`✅ Upserted Course: [${course.code}] ${course.title} (ID: ${course._id})`);
-
-    // 2. Seed Vocabulary Lessons
-    const vocabLessonsPath = path.join(jpd123Dir, 'vocabulary/lessons.json');
+  // 2. Seed Vocabulary Lessons
+  const vocabLessonsPath = path.join(courseFolder, 'vocabulary/lessons.json');
+  const vocabLessonMap = {};
+  if (fs.existsSync(vocabLessonsPath)) {
     const vocabLessons = JSON.parse(fs.readFileSync(vocabLessonsPath, 'utf8'));
-
-    const vocabLessonMap = {};
     for (const l of vocabLessons) {
       const lessonDoc = await CourseLesson.findOneAndUpdate(
         { courseCode: course.code, sectionType: 'vocabulary', slug: l.slug },
@@ -63,8 +65,8 @@ async function seedCourses() {
     }
     console.log(`✅ Upserted ${vocabLessons.length} Vocabulary Lessons for ${course.code}`);
 
-    // 3. Seed Vocabulary Items for all lesson-*.json files dynamically
-    const vocabDir = path.join(jpd123Dir, 'vocabulary');
+    // Seed Vocabulary Items for all lesson-*.json files dynamically
+    const vocabDir = path.join(courseFolder, 'vocabulary');
     const lessonFiles = fs.readdirSync(vocabDir).filter((f) => f.startsWith('lesson-') && f.endsWith('.json'));
 
     for (const file of lessonFiles) {
@@ -85,8 +87,8 @@ async function seedCourses() {
                   order: item.order,
                   term: item.term,
                   reading: item.reading,
-                  romaji: item.romaji,
-                  partOfSpeech: item.partOfSpeech,
+                  romaji: item.romaji || '',
+                  partOfSpeech: item.partOfSpeech || 'Danh từ',
                   meaning: item.meaning,
                   examples: item.examples || []
                 }
@@ -99,133 +101,154 @@ async function seedCourses() {
         }
       }
     }
+  }
 
-    // 4. Seed Kanji Lessons & Items
-    const kanjiLessonsPath = path.join(jpd123Dir, 'kanji/lessons.json');
-    if (fs.existsSync(kanjiLessonsPath)) {
-      const kanjiLessons = JSON.parse(fs.readFileSync(kanjiLessonsPath, 'utf8'));
-      for (const l of kanjiLessons) {
-        const kanjiLessonDoc = await CourseLesson.findOneAndUpdate(
-          { courseCode: course.code, sectionType: 'kanji', slug: l.slug },
-          {
-            $set: {
-              courseId: course._id,
-              courseCode: course.code,
-              sectionType: 'kanji',
-              lessonCode: l.lessonCode,
-              slug: l.slug,
-              title: l.title,
-              description: l.description,
-              order: l.order,
-              itemCount: l.itemCount,
-              isPublished: true
-            }
-          },
-          { upsert: true, new: true }
-        );
-
-        if (Array.isArray(l.items) && l.items.length > 0) {
-          for (const item of l.items) {
-            await KanjiItem.findOneAndUpdate(
-              { lessonId: kanjiLessonDoc._id, order: item.order },
-              {
-                $set: {
-                  courseId: course._id,
-                  courseCode: course.code,
-                  lessonId: kanjiLessonDoc._id,
-                  order: item.order,
-                  character: item.character,
-                  meaning: item.meaning || [],
-                  onyomi: item.onyomi || [],
-                  kunyomi: item.kunyomi || [],
-                  strokeCount: item.strokeCount,
-                  mnemonic: item.mnemonic,
-                  exampleWords: item.exampleWords || []
-                }
-              },
-              { upsert: true, new: true }
-            );
+  // 3. Seed Kanji Lessons & Items
+  const kanjiLessonsPath = path.join(courseFolder, 'kanji/lessons.json');
+  if (fs.existsSync(kanjiLessonsPath)) {
+    const kanjiLessons = JSON.parse(fs.readFileSync(kanjiLessonsPath, 'utf8'));
+    for (const l of kanjiLessons) {
+      const kanjiLessonDoc = await CourseLesson.findOneAndUpdate(
+        { courseCode: course.code, sectionType: 'kanji', slug: l.slug },
+        {
+          $set: {
+            courseId: course._id,
+            courseCode: course.code,
+            sectionType: 'kanji',
+            lessonCode: l.lessonCode,
+            slug: l.slug,
+            title: l.title,
+            description: l.description,
+            order: l.order,
+            itemCount: l.itemCount,
+            isPublished: true
           }
-          console.log(`✅ Upserted ${l.items.length} Kanji items into ${l.lessonCode}`);
+        },
+        { upsert: true, new: true }
+      );
+
+      if (Array.isArray(l.items) && l.items.length > 0) {
+        for (const item of l.items) {
+          await KanjiItem.findOneAndUpdate(
+            { lessonId: kanjiLessonDoc._id, order: item.order },
+            {
+              $set: {
+                courseId: course._id,
+                courseCode: course.code,
+                lessonId: kanjiLessonDoc._id,
+                order: item.order,
+                character: item.character,
+                meaning: item.meaning || [],
+                onyomi: item.onyomi || [],
+                kunyomi: item.kunyomi || [],
+                strokeCount: item.strokeCount,
+                mnemonic: item.mnemonic,
+                exampleWords: item.exampleWords || []
+              }
+            },
+            { upsert: true, new: true }
+          );
         }
+        console.log(`✅ Upserted ${l.items.length} Kanji items into ${l.lessonCode}`);
       }
-      console.log(`✅ Upserted ${kanjiLessons.length} Kanji Lessons for ${course.code}`);
+    }
+    console.log(`✅ Upserted ${kanjiLessons.length} Kanji Lessons for ${course.code}`);
+  }
+
+  // 4. Seed Grammar Lessons & Items
+  const grammarLessonsPath = path.join(courseFolder, 'grammar/lessons.json');
+  if (fs.existsSync(grammarLessonsPath)) {
+    const grammarLessons = JSON.parse(fs.readFileSync(grammarLessonsPath, 'utf8'));
+    for (const l of grammarLessons) {
+      const grammarLessonDoc = await CourseLesson.findOneAndUpdate(
+        { courseCode: course.code, sectionType: 'grammar', slug: l.slug },
+        {
+          $set: {
+            courseId: course._id,
+            courseCode: course.code,
+            sectionType: 'grammar',
+            lessonCode: l.lessonCode,
+            slug: l.slug,
+            title: l.title,
+            description: l.description,
+            order: l.order,
+            itemCount: l.itemCount,
+            isPublished: true
+          }
+        },
+        { upsert: true, new: true }
+      );
+
+      if (Array.isArray(l.items) && l.items.length > 0) {
+        for (const item of l.items) {
+          await GrammarItem.findOneAndUpdate(
+            { lessonId: grammarLessonDoc._id, order: item.order },
+            {
+              $set: {
+                courseId: course._id,
+                courseCode: course.code,
+                lessonId: grammarLessonDoc._id,
+                order: item.order,
+                title: item.title,
+                pattern: item.pattern,
+                meaning: item.meaning,
+                explanation: item.explanation,
+                structures: item.structures || [],
+                examples: item.examples || [],
+                notes: item.notes || []
+              }
+            },
+            { upsert: true, new: true }
+          );
+        }
+        console.log(`✅ Upserted ${l.items.length} Grammar items into ${l.lessonCode}`);
+      }
+    }
+    console.log(`✅ Upserted ${grammarLessons.length} Grammar Lessons for ${course.code}`);
+  }
+
+  // 5. Seed Sample Exam Scaffold
+  const examSlug = `${course.code.toLowerCase()}-mock-exam-midterm`;
+  const examDoc = await Exam.findOneAndUpdate(
+    { courseCode: course.code, slug: examSlug },
+    {
+      $set: {
+        courseId: course._id,
+        courseCode: course.code,
+        slug: examSlug,
+        title: `Đề Thi Thử Giữa Kỳ ${course.code} (N5 Format)`,
+        description: `Bài kiểm tra tổng hợp kiến thức ${course.code}.`,
+        durationMinutes: 45,
+        passingScore: 60,
+        totalQuestions: 15,
+        isPublished: true,
+        order: 1
+      }
+    },
+    { upsert: true, new: true }
+  );
+  console.log(`✅ Upserted Exam Scaffold: ${examDoc.title}`);
+}
+
+async function seedCourses() {
+  console.log('🚀 Starting Universal Course & Lesson Seed Engine...');
+
+  try {
+    await connectDB();
+
+    const coursesDir = path.join(__dirname, '../src/data/courses');
+    const availableCourses = fs.readdirSync(coursesDir).filter((f) => {
+      const full = path.join(coursesDir, f);
+      return fs.statSync(full).isDirectory() && fs.existsSync(path.join(full, 'course.json'));
+    });
+
+    console.log(`Found ${availableCourses.length} course(s) to seed: ${availableCourses.join(', ')}`);
+
+    for (const cSlug of availableCourses) {
+      await seedSingleCourse(cSlug, coursesDir);
     }
 
-    // 5. Seed Grammar Lessons & Items
-    const grammarLessonsPath = path.join(jpd123Dir, 'grammar/lessons.json');
-    if (fs.existsSync(grammarLessonsPath)) {
-      const grammarLessons = JSON.parse(fs.readFileSync(grammarLessonsPath, 'utf8'));
-      for (const l of grammarLessons) {
-        const grammarLessonDoc = await CourseLesson.findOneAndUpdate(
-          { courseCode: course.code, sectionType: 'grammar', slug: l.slug },
-          {
-            $set: {
-              courseId: course._id,
-              courseCode: course.code,
-              sectionType: 'grammar',
-              lessonCode: l.lessonCode,
-              slug: l.slug,
-              title: l.title,
-              description: l.description,
-              order: l.order,
-              itemCount: l.itemCount,
-              isPublished: true
-            }
-          },
-          { upsert: true, new: true }
-        );
-
-        if (Array.isArray(l.items) && l.items.length > 0) {
-          for (const item of l.items) {
-            await GrammarItem.findOneAndUpdate(
-              { lessonId: grammarLessonDoc._id, order: item.order },
-              {
-                $set: {
-                  courseId: course._id,
-                  courseCode: course.code,
-                  lessonId: grammarLessonDoc._id,
-                  order: item.order,
-                  title: item.title,
-                  pattern: item.pattern,
-                  meaning: item.meaning,
-                  explanation: item.explanation,
-                  structures: item.structures || [],
-                  examples: item.examples || [],
-                  notes: item.notes || []
-                }
-              },
-              { upsert: true, new: true }
-            );
-          }
-          console.log(`✅ Upserted ${l.items.length} Grammar items into ${l.lessonCode}`);
-        }
-      }
-      console.log(`✅ Upserted ${grammarLessons.length} Grammar Lessons for ${course.code}`);
-    }
-
-    // 6. Seed Sample Exam Scaffold (Placeholder structure for section 4)
-    const examDoc = await Exam.findOneAndUpdate(
-      { courseCode: course.code, slug: 'jpd123-mock-exam-midterm' },
-      {
-        $set: {
-          courseId: course._id,
-          courseCode: course.code,
-          slug: 'jpd123-mock-exam-midterm',
-          title: 'Đề Thi Thử Giữa Kỳ JPD123 (N5 Format)',
-          description: 'Bài kiểm tra tổng hợp kiến thức Từ vựng, Hán tự và Ngữ pháp bài 4 đến bài 5.',
-          durationMinutes: 45,
-          passingScore: 60,
-          totalQuestions: 15,
-          isPublished: true,
-          order: 1
-        }
-      },
-      { upsert: true, new: true }
-    );
-    console.log(`✅ Upserted Exam Scaffold: ${examDoc.title}`);
-
-    console.log('🎉 Course & Lesson Seed Engine completed successfully!');
+    console.log('\n🎉 ALL Courses & Lessons seeded successfully into MongoDB!');
   } catch (err) {
     console.error('❌ Seed error:', err);
     process.exit(1);

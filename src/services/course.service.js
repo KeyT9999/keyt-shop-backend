@@ -82,6 +82,8 @@ const courseService = {
       }
     }
 
+    const totalExamQuestions = exams.reduce((acc, e) => acc + (e.totalQuestions || e.questions?.length || 0), 0);
+
     const sections = [
       {
         type: 'kanji',
@@ -120,13 +122,25 @@ const courseService = {
         colorTheme: 'indigo'
       },
       {
+        type: 'speaking',
+        title: 'Thi Nói',
+        japaneseTitle: '会話',
+        kanjiChar: '話',
+        description: 'Luyện đọc đoạn văn, phản xạ hỏi đáp Q&A và thi thử 1-1 với Giám thị AI chuẩn FPT.',
+        totalLessons: 4,
+        totalItems: 22,
+        userMastered: 0,
+        percent: 0,
+        colorTheme: 'purple'
+      },
+      {
         type: 'exam',
         title: 'Luyện Thi',
         japaneseTitle: '試験',
         kanjiChar: '試',
-        description: 'Đề thi thử định dạng chuẩn JLPT có chấm điểm và đồng hồ bấm giờ.',
-        totalLessons: exams.length,
-        totalItems: exams.length,
+        description: 'Đề thi thử Final Exam (FE) thực tế có chấm điểm và đồng hồ bấm giờ 60 phút.',
+        totalLessons: exams.length || 2,
+        totalItems: totalExamQuestions || (code === 'JPD113' ? 60 : 73),
         userMastered: userProgressData.sections.exam.mastered,
         percent: userProgressData.sections.exam.percent,
         colorTheme: 'emerald'

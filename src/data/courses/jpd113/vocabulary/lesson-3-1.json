@@ -1,0 +1,317 @@
+[
+  {
+    "order": 1,
+    "term": "いま",
+    "reading": "いま",
+    "romaji": "",
+    "partOfSpeech": "Danh từ chỉ thời gian",
+    "meaning": "Bây giờ",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "ごぜん",
+    "reading": "ごぜん",
+    "romaji": "",
+    "partOfSpeech": "Danh từ chỉ thời gian",
+    "meaning": "Buổi sáng / AM",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "ごご",
+    "reading": "ごご",
+    "romaji": "",
+    "partOfSpeech": "Danh từ chỉ thời gian",
+    "meaning": "Buổi chiều / PM",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "ひる",
+    "reading": "ひる",
+    "romaji": "",
+    "partOfSpeech": "Danh từ chỉ thời gian",
+    "meaning": "Buổi trưa",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "ぎんこう",
+    "reading": "ぎんこう",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Ngân hàng",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "たいいくかん",
+    "reading": "たいいくかん",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Nhà thi đấu",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "としょかん",
+    "reading": "としょかん",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Thư viện",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "びょういん",
+    "reading": "びょういん",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Bệnh viện",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "ゆうびんきょく",
+    "reading": "ゆうびんきょく",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Bưu điện",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "じゅぎょう",
+    "reading": "じゅぎょう",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Tiết học",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "テスト",
+    "reading": "テスト",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Bài kiểm tra",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "やすみ",
+    "reading": "やすみ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Ngày nghỉ",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "じかん",
+    "reading": "じかん",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Thời gian",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "～じ",
+    "reading": "～じ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Lượng từ",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "~ giờ",
+    "reading": "15.",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "～ふん/ぷん",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "～ふん/ぷん",
+    "reading": "Lượng từ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "~ phút",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "～じはん",
+    "reading": "～じはん",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Lượng từ",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "~ giờ rưỡi",
+    "reading": "17.",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "～ようび",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "～ようび",
+    "reading": "Lượng từ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Thứ ~",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "げつようび",
+    "reading": "げつようび",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Thứ hai",
+    "examples": []
+  },
+  {
+    "order": 21,
+    "term": "かようび",
+    "reading": "かようび",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Thứ ba",
+    "examples": []
+  },
+  {
+    "order": 22,
+    "term": "すいようび",
+    "reading": "すいようび",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Thứ tư",
+    "examples": []
+  },
+  {
+    "order": 23,
+    "term": "もくようび",
+    "reading": "もくようび",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Thứ năm",
+    "examples": []
+  },
+  {
+    "order": 24,
+    "term": "きんようび",
+    "reading": "きんようび",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Thứ sáu",
+    "examples": []
+  },
+  {
+    "order": 25,
+    "term": "どようび",
+    "reading": "どようび",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Thứ bảy",
+    "examples": []
+  },
+  {
+    "order": 26,
+    "term": "日ようび",
+    "reading": "にちようび",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Chủ nhật",
+    "examples": []
+  },
+  {
+    "order": 27,
+    "term": "ごふん",
+    "reading": "ごふん",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Số đếm",
+    "examples": []
+  },
+  {
+    "order": 28,
+    "term": "5 phút",
+    "reading": "26.",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "じゅっぷん",
+    "examples": []
+  },
+  {
+    "order": 29,
+    "term": "じゅっぷん",
+    "reading": "Số đếm",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "10 phút",
+    "examples": []
+  },
+  {
+    "order": 30,
+    "term": "さんじゅっぷん",
+    "reading": "さんじゅっぷん",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Số đếm",
+    "examples": []
+  },
+  {
+    "order": 31,
+    "term": "30 phút",
+    "reading": "28.",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "よじ",
+    "examples": []
+  },
+  {
+    "order": 32,
+    "term": "よじ",
+    "reading": "Số đếm",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "4 giờ",
+    "examples": []
+  },
+  {
+    "order": 33,
+    "term": "しちじ",
+    "reading": "しちじ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Số đếm",
+    "examples": []
+  },
+  {
+    "order": 34,
+    "term": "7 giờ",
+    "reading": "30.",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "くじ",
+    "examples": []
+  },
+  {
+    "order": 35,
+    "term": "くじ",
+    "reading": "Số đếm",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "9 giờ",
+    "examples": []
+  }
+]

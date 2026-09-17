@@ -1,0 +1,497 @@
+[
+  {
+    "order": 1,
+    "term": "これ",
+    "reading": "これ",
+    "romaji": "",
+    "partOfSpeech": "Đại từ chỉ vật",
+    "meaning": "Cái này",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "それ",
+    "reading": "それ",
+    "romaji": "",
+    "partOfSpeech": "Đại từ chỉ vật",
+    "meaning": "Cái đó",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "あれ",
+    "reading": "あれ",
+    "romaji": "",
+    "partOfSpeech": "Đại từ chỉ vật",
+    "meaning": "Cái kia",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "このN",
+    "reading": "このN",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Định từ",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "Cái N này",
+    "reading": "5.",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "そのN",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "そのN",
+    "reading": "Định từ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Cái N đó",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "あのN",
+    "reading": "あのN",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Định từ",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "Cái N kia",
+    "reading": "7.",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "かばん",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "かばん",
+    "reading": "Danh từ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Cái cặp",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "ズボン",
+    "reading": "ズボン",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Quần",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "Tシャツ",
+    "reading": "Tシャツ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Áo thun",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "とけい",
+    "reading": "とけい",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Đồng hồ",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "～えん",
+    "reading": "～えん",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Lượng từ",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "~ yên",
+    "reading": "12.",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "～ドン",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "～ドン",
+    "reading": "Lượng từ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "~ đồng",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "～ドル",
+    "reading": "～ドル",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Lượng từ",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "~ đô la",
+    "reading": "14.",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "いくら",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "いくら",
+    "reading": "Từ nghi vấn",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Bao nhiêu tiền",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "じゃ",
+    "reading": "じゃ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Liên từ",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "Thế thì / vậy thì",
+    "reading": "16.",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "ひゃく",
+    "examples": []
+  },
+  {
+    "order": 21,
+    "term": "ひゃく",
+    "reading": "Số đếm",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "100",
+    "examples": []
+  },
+  {
+    "order": 22,
+    "term": "さんびゃく",
+    "reading": "さんびゃく",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Số đếm",
+    "examples": []
+  },
+  {
+    "order": 23,
+    "term": "ごひゃく",
+    "reading": "ごひゃく",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Số đếm",
+    "examples": []
+  },
+  {
+    "order": 24,
+    "term": "ろっぴゃく",
+    "reading": "ろっぴゃく",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Số đếm",
+    "examples": []
+  },
+  {
+    "order": 25,
+    "term": "はっぴゃく",
+    "reading": "はっぴゃく",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Số đếm",
+    "examples": []
+  },
+  {
+    "order": 26,
+    "term": "せん",
+    "reading": "せん",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Số đếm",
+    "examples": []
+  },
+  {
+    "order": 27,
+    "term": "さんぜん",
+    "reading": "さんぜん",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Số đếm",
+    "examples": []
+  },
+  {
+    "order": 28,
+    "term": "ろくせん",
+    "reading": "ろくせん",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Số đếm",
+    "examples": []
+  },
+  {
+    "order": 29,
+    "term": "はっせん",
+    "reading": "はっせん",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Số đếm",
+    "examples": []
+  },
+  {
+    "order": 30,
+    "term": "いちまん",
+    "reading": "いちまん",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Số đếm",
+    "examples": []
+  },
+  {
+    "order": 31,
+    "term": "きゅうまん",
+    "reading": "きゅうまん",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Số đếm",
+    "examples": []
+  },
+  {
+    "order": 32,
+    "term": "ひゃくにじゅう",
+    "reading": "ひゃくにじゅう",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Số đếm",
+    "examples": []
+  },
+  {
+    "order": 33,
+    "term": "ひゃくよんじゅう",
+    "reading": "ひゃくよんじゅう",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Số đếm",
+    "examples": []
+  },
+  {
+    "order": 34,
+    "term": "にひゃくはちじゅう",
+    "reading": "にひゃくはちじゅう",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Số đếm",
+    "examples": []
+  },
+  {
+    "order": 35,
+    "term": "さんびゃくごじゅう",
+    "reading": "さんびゃくごじゅう",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Số đếm",
+    "examples": []
+  },
+  {
+    "order": 36,
+    "term": "よんひゃくきゅう",
+    "reading": "よんひゃくきゅう",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Số đếm",
+    "examples": []
+  },
+  {
+    "order": 37,
+    "term": "ななひゃくきゅう",
+    "reading": "ななひゃくきゅう",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Số đếm",
+    "examples": []
+  },
+  {
+    "order": 38,
+    "term": "はっぴゃくはちじゅう",
+    "reading": "はっぴゃくはちじゅう",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Số đếm",
+    "examples": []
+  },
+  {
+    "order": 39,
+    "term": "はっぴゃくきゅうじゅうきゅう",
+    "reading": "はっぴゃくきゅうじゅうきゅう",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Số đếm",
+    "examples": []
+  },
+  {
+    "order": 40,
+    "term": "きゅうひゃくさんじゅう",
+    "reading": "きゅうひゃくさんじゅう",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Số đếm",
+    "examples": []
+  },
+  {
+    "order": 41,
+    "term": "きゅうひゃくきゅうじゅうきゅう",
+    "reading": "きゅうひゃくきゅうじゅうきゅう",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Số đếm",
+    "examples": []
+  },
+  {
+    "order": 42,
+    "term": "せんひゃく",
+    "reading": "せんひゃく",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Số đếm",
+    "examples": []
+  },
+  {
+    "order": 43,
+    "term": "せんごひゃく",
+    "reading": "せんごひゃく",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Số đếm",
+    "examples": []
+  },
+  {
+    "order": 44,
+    "term": "ななせんろっぴゃく",
+    "reading": "ななせんろっぴゃく",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Số đếm",
+    "examples": []
+  },
+  {
+    "order": 45,
+    "term": "きゅうせんななひゃく",
+    "reading": "きゅうせんななひゃく",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Số đếm",
+    "examples": []
+  },
+  {
+    "order": 46,
+    "term": "いちまんはっせん",
+    "reading": "いちまんはっせん",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Số đếm",
+    "examples": []
+  },
+  {
+    "order": 47,
+    "term": "にまん",
+    "reading": "にまん",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Số đếm",
+    "examples": []
+  },
+  {
+    "order": 48,
+    "term": "にまんさんぜん",
+    "reading": "にまんさんぜん",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Số đếm",
+    "examples": []
+  },
+  {
+    "order": 49,
+    "term": "にまんごせん",
+    "reading": "にまんごせん",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Số đếm",
+    "examples": []
+  },
+  {
+    "order": 50,
+    "term": "はちまんさんぜんよんひゃく",
+    "reading": "はちまんさんぜんよんひゃく",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Số đếm",
+    "examples": []
+  },
+  {
+    "order": 51,
+    "term": "きゅうまんせんごひゃく",
+    "reading": "きゅうまんせんごひゃく",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Số đếm",
+    "examples": []
+  },
+  {
+    "order": 52,
+    "term": "よんじゅうまんせん",
+    "reading": "よんじゅうまんせん",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Số đếm",
+    "examples": []
+  },
+  {
+    "order": 53,
+    "term": "ろくじゅうななまんはっせん",
+    "reading": "ろくじゅうななまんはっせん",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Số đếm",
+    "examples": []
+  },
+  {
+    "order": 54,
+    "term": "さんびゃくろくじゅうはちまん",
+    "reading": "さんびゃくろくじゅうはちまん",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Số đếm",
+    "examples": []
+  },
+  {
+    "order": 55,
+    "term": "はっぴゃくさんじゅうよんまん",
+    "reading": "はっぴゃくさんじゅうよんまん",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Số đếm",
+    "examples": []
+  }
+]

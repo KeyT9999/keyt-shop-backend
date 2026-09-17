@@ -1,0 +1,371 @@
+[
+  {
+    "order": 1,
+    "term": "私",
+    "reading": "わたし",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Tôi",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "なまえ",
+    "reading": "なまえ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Tên",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "おなまえ",
+    "reading": "おなまえ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Tên (lịch sự)",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "くに",
+    "reading": "くに",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Đất nước",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "おくに",
+    "reading": "おくに",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Đất nước (lịch sự)",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "日本",
+    "reading": "にほん",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Nhật Bản",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "かんこく",
+    "reading": "かんこく",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Hàn Quốc",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "ちゅうごく",
+    "reading": "ちゅうごく",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Trung Quốc",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "アメリカ",
+    "reading": "アメリカ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Mỹ",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "イタリア",
+    "reading": "イタリア",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Ý",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "オーストラリア",
+    "reading": "オーストラリア",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Úc",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "タイ",
+    "reading": "タイ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Thái Lan",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "ベトナム",
+    "reading": "ベトナム",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Việt Nam",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "ロシア",
+    "reading": "ロシア",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Nga",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "こうこう",
+    "reading": "こうこう",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Trường cấp 3",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "大学",
+    "reading": "だいがく",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Đại học",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "日本語",
+    "reading": "にほんご",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Tiếng Nhật",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "日本語学校",
+    "reading": "にほんごがっこう",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Trường tiếng Nhật",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "しごと",
+    "reading": "しごと",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Công việc",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "おしごと",
+    "reading": "おしごと",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Công việc (lịch sự)",
+    "examples": []
+  },
+  {
+    "order": 21,
+    "term": "学生",
+    "reading": "がくせい",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Học sinh / sinh viên",
+    "examples": []
+  },
+  {
+    "order": 22,
+    "term": "せんせい",
+    "reading": "せんせい",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Giáo viên",
+    "examples": []
+  },
+  {
+    "order": 23,
+    "term": "きょうし",
+    "reading": "きょうし",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Giáo viên",
+    "examples": []
+  },
+  {
+    "order": 24,
+    "term": "かいしゃいん",
+    "reading": "かいしゃいん",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Nhân viên công ty",
+    "examples": []
+  },
+  {
+    "order": 25,
+    "term": "しゃいん",
+    "reading": "しゃいん",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Nhân viên",
+    "examples": []
+  },
+  {
+    "order": 26,
+    "term": "～さん",
+    "reading": "～さん",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Hậu tố",
+    "examples": []
+  },
+  {
+    "order": 27,
+    "term": "Anh / chị ~",
+    "reading": "27.",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "～人",
+    "examples": []
+  },
+  {
+    "order": 28,
+    "term": "～じん",
+    "reading": "Hậu tố",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Người nước ~",
+    "examples": []
+  },
+  {
+    "order": 29,
+    "term": "どちら",
+    "reading": "どちら",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Từ nghi vấn",
+    "examples": []
+  },
+  {
+    "order": 30,
+    "term": "Ở đâu / phía nào",
+    "reading": "29.",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "はじめまして",
+    "examples": []
+  },
+  {
+    "order": 31,
+    "term": "はじめまして",
+    "reading": "Cụm từ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Rất vui được gặp",
+    "examples": []
+  },
+  {
+    "order": 32,
+    "term": "どうぞよろしくおねがいします",
+    "reading": "どうぞよろしくおねがいします",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "Rất mong được giúp đỡ",
+    "examples": []
+  },
+  {
+    "order": 33,
+    "term": "こちらこそ",
+    "reading": "こちらこそ",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "Chính tôi mới vậy",
+    "examples": []
+  },
+  {
+    "order": 34,
+    "term": "あのう",
+    "reading": "あのう",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Thán từ",
+    "examples": []
+  },
+  {
+    "order": 35,
+    "term": "À...",
+    "reading": "33.",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "すみません",
+    "examples": []
+  },
+  {
+    "order": 36,
+    "term": "すみません",
+    "reading": "Cụm từ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Xin lỗi",
+    "examples": []
+  },
+  {
+    "order": 37,
+    "term": "そうですか",
+    "reading": "そうですか",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "Vậy à",
+    "examples": []
+  },
+  {
+    "order": 38,
+    "term": "はい",
+    "reading": "はい",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Thán từ",
+    "examples": []
+  },
+  {
+    "order": 39,
+    "term": "Vâng",
+    "reading": "36.",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "いいえ",
+    "examples": []
+  },
+  {
+    "order": 40,
+    "term": "いいえ",
+    "reading": "Thán từ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Không",
+    "examples": []
+  },
+  {
+    "order": 41,
+    "term": "学校",
+    "reading": "がっこう",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Trường học",
+    "examples": []
+  }
+]

@@ -1,0 +1,398 @@
+[
+  {
+    "order": 1,
+    "term": "ここ",
+    "reading": "ここ",
+    "romaji": "",
+    "partOfSpeech": "Đại từ chỉ địa điểm",
+    "meaning": "Ở đây",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "こちら",
+    "reading": "こちら",
+    "romaji": "",
+    "partOfSpeech": "Đại từ chỉ địa điểm",
+    "meaning": "Phía này (lịch sự)",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "そこ",
+    "reading": "そこ",
+    "romaji": "",
+    "partOfSpeech": "Đại từ chỉ địa điểm",
+    "meaning": "Ở đó",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "そちら",
+    "reading": "そちら",
+    "romaji": "",
+    "partOfSpeech": "Đại từ chỉ địa điểm",
+    "meaning": "Phía đó (lịch sự)",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "あそこ",
+    "reading": "あそこ",
+    "romaji": "",
+    "partOfSpeech": "Đại từ chỉ địa điểm",
+    "meaning": "Ở kia",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "あちら",
+    "reading": "あちら",
+    "romaji": "",
+    "partOfSpeech": "Đại từ chỉ địa điểm",
+    "meaning": "Phía kia (lịch sự)",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "インフォメーション",
+    "reading": "インフォメーション",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Quầy thông tin",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "ATM",
+    "reading": "ATM",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Máy ATM",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "エスカレーター",
+    "reading": "エスカレーター",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Thang cuốn",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "エレベーター",
+    "reading": "エレベーター",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Thang máy",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "きつえんじょ",
+    "reading": "きつえんじょ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Khu hút thuốc",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "トイレ",
+    "reading": "トイレ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Nhà vệ sinh",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "レジ",
+    "reading": "レジ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Quầy tính tiền",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "きっさてん",
+    "reading": "きっさてん",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Quán cà phê",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "スーパー",
+    "reading": "スーパー",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Siêu thị",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "１００円ショップ",
+    "reading": "１００えんショップ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Cửa hàng 100 yên",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "レストラン",
+    "reading": "レストラン",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Nhà hàng",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "ちか",
+    "reading": "ちか",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Tầng hầm",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "カメラ",
+    "reading": "カメラ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Máy ảnh",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "けいたいでんわ",
+    "reading": "けいたいでんわ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Điện thoại di động",
+    "examples": []
+  },
+  {
+    "order": 21,
+    "term": "でんしじしょ",
+    "reading": "でんしじしょ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Từ điển điện tử",
+    "examples": []
+  },
+  {
+    "order": 22,
+    "term": "パソコン",
+    "reading": "パソコン",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Máy tính",
+    "examples": []
+  },
+  {
+    "order": 23,
+    "term": "くつ",
+    "reading": "くつ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Giày",
+    "examples": []
+  },
+  {
+    "order": 24,
+    "term": "けしゴム",
+    "reading": "けしゴム",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Cục tẩy",
+    "examples": []
+  },
+  {
+    "order": 25,
+    "term": "ペン",
+    "reading": "ペン",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Bút",
+    "examples": []
+  },
+  {
+    "order": 26,
+    "term": "トイレットペーパー",
+    "reading": "トイレットペーパー",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Giấy vệ sinh",
+    "examples": []
+  },
+  {
+    "order": 27,
+    "term": "本",
+    "reading": "ほん",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Sách",
+    "examples": []
+  },
+  {
+    "order": 28,
+    "term": "あぶら",
+    "reading": "あぶら",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Dầu ăn",
+    "examples": []
+  },
+  {
+    "order": 29,
+    "term": "ケーキ",
+    "reading": "ケーキ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Bánh kem",
+    "examples": []
+  },
+  {
+    "order": 30,
+    "term": "こめ",
+    "reading": "こめ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Gạo",
+    "examples": []
+  },
+  {
+    "order": 31,
+    "term": "たまご",
+    "reading": "たまご",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Trứng",
+    "examples": []
+  },
+  {
+    "order": 32,
+    "term": "パン",
+    "reading": "パン",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Bánh mì",
+    "examples": []
+  },
+  {
+    "order": 33,
+    "term": "みず",
+    "reading": "みず",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Nước",
+    "examples": []
+  },
+  {
+    "order": 34,
+    "term": "てんいん",
+    "reading": "てんいん",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Nhân viên cửa hàng",
+    "examples": []
+  },
+  {
+    "order": 35,
+    "term": "なんかい",
+    "reading": "なんかい",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Từ nghi vấn",
+    "examples": []
+  },
+  {
+    "order": 36,
+    "term": "Tầng mấy",
+    "reading": "36.",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "いっかい",
+    "examples": []
+  },
+  {
+    "order": 37,
+    "term": "いっかい",
+    "reading": "Danh từ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Tầng 1",
+    "examples": []
+  },
+  {
+    "order": 38,
+    "term": "ろっかい",
+    "reading": "ろっかい",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Tầng 6",
+    "examples": []
+  },
+  {
+    "order": 39,
+    "term": "じゅっかい",
+    "reading": "じゅっかい",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Tầng 10",
+    "examples": []
+  },
+  {
+    "order": 40,
+    "term": "ほんや",
+    "reading": "ほんや",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Hiệu sách",
+    "examples": []
+  },
+  {
+    "order": 41,
+    "term": "どこ",
+    "reading": "どこ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Từ nghi vấn",
+    "examples": []
+  },
+  {
+    "order": 42,
+    "term": "Ở đâu",
+    "reading": "41.",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "いらっしゃいませ",
+    "examples": []
+  },
+  {
+    "order": 43,
+    "term": "いらっしゃいませ",
+    "reading": "Cụm từ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Xin chào quý khách",
+    "examples": []
+  },
+  {
+    "order": 44,
+    "term": "どうもありがとうございます",
+    "reading": "どうもありがとうございます",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "Cảm ơn rất nhiều",
+    "examples": []
+  }
+]

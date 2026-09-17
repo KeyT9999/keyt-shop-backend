@@ -1,0 +1,1356 @@
+[
+  {
+    "lessonCode": "LESSON-1",
+    "slug": "kanji-jpd113-n5-1",
+    "title": "Giới thiệu bản thân và Trường học",
+    "description": "Bài học Hán tự LESSON-1: Giới thiệu bản thân và Trường học (10 chữ Hán, 20 từ ghép).",
+    "order": 1,
+    "itemCount": 10,
+    "items": [
+      {
+        "order": 1,
+        "character": "私",
+        "hanViet": "TƯ",
+        "meaning": [
+          "Tôi, riêng tư"
+        ],
+        "onyomi": [
+          "シ"
+        ],
+        "kunyomi": [
+          "わたし",
+          "わたくし"
+        ],
+        "strokeCount": 7,
+        "mnemonic": "Chữ 私 (TƯ) có nghĩa là Tôi, riêng tư.",
+        "exampleWords": []
+      },
+      {
+        "order": 2,
+        "character": "日",
+        "hanViet": "NHẬT",
+        "meaning": [
+          "Mặt trời, ngày"
+        ],
+        "onyomi": [
+          "ニチ",
+          "ジツ"
+        ],
+        "kunyomi": [
+          "ひ",
+          "か"
+        ],
+        "strokeCount": 4,
+        "mnemonic": "Chữ 日 (NHẬT) có nghĩa là Mặt trời, ngày.",
+        "exampleWords": []
+      },
+      {
+        "order": 3,
+        "character": "本",
+        "hanViet": "BẢN",
+        "meaning": [
+          "Gốc, sách, căn bản"
+        ],
+        "onyomi": [
+          "ホン"
+        ],
+        "kunyomi": [
+          "もと"
+        ],
+        "strokeCount": 5,
+        "mnemonic": "Chữ 本 (BẢN) có nghĩa là Gốc, sách, căn bản.",
+        "exampleWords": []
+      },
+      {
+        "order": 4,
+        "character": "大",
+        "hanViet": "ĐẠI",
+        "meaning": [
+          "To, lớn"
+        ],
+        "onyomi": [
+          "ダイ",
+          "タイ"
+        ],
+        "kunyomi": [
+          "おおきい"
+        ],
+        "strokeCount": 3,
+        "mnemonic": "Chữ 大 (ĐẠI) có nghĩa là To, lớn.",
+        "exampleWords": []
+      },
+      {
+        "order": 5,
+        "character": "学",
+        "hanViet": "HỌC",
+        "meaning": [
+          "Học tập"
+        ],
+        "onyomi": [
+          "ガク"
+        ],
+        "kunyomi": [
+          "まなぶ"
+        ],
+        "strokeCount": 8,
+        "mnemonic": "Chữ 学 (HỌC) có nghĩa là Học tập.",
+        "exampleWords": []
+      },
+      {
+        "order": 6,
+        "character": "語",
+        "hanViet": "NGỮ",
+        "meaning": [
+          "Ngôn ngữ, tiếng nói"
+        ],
+        "onyomi": [
+          "ゴ"
+        ],
+        "kunyomi": [
+          "かたる"
+        ],
+        "strokeCount": 14,
+        "mnemonic": "Chữ 語 (NGỮ) có nghĩa là Ngôn ngữ, tiếng nói.",
+        "exampleWords": []
+      },
+      {
+        "order": 7,
+        "character": "校",
+        "hanViet": "HIỆU",
+        "meaning": [
+          "Trường học"
+        ],
+        "onyomi": [],
+        "kunyomi": [
+          "コウ"
+        ],
+        "strokeCount": 10,
+        "mnemonic": "Chữ 校 (HIỆU) có nghĩa là Trường học.",
+        "exampleWords": []
+      },
+      {
+        "order": 8,
+        "character": "生",
+        "hanViet": "SINH",
+        "meaning": [
+          "Sinh sống, sinh ra"
+        ],
+        "onyomi": [
+          "セイ",
+          "ショウ"
+        ],
+        "kunyomi": [
+          "いきる",
+          "うまれる",
+          "なま"
+        ],
+        "strokeCount": 5,
+        "mnemonic": "Chữ 生 (SINH) có nghĩa là Sinh sống, sinh ra.",
+        "exampleWords": []
+      },
+      {
+        "order": 9,
+        "character": "人",
+        "hanViet": "NHÂN",
+        "meaning": [
+          "Người"
+        ],
+        "onyomi": [
+          "ジン",
+          "ニン"
+        ],
+        "kunyomi": [
+          "ひと"
+        ],
+        "strokeCount": 2,
+        "mnemonic": "Chữ 人 (NHÂN) có nghĩa là Người.",
+        "exampleWords": []
+      },
+      {
+        "order": 10,
+        "character": "才",
+        "hanViet": "TÀI",
+        "meaning": [
+          "Tuổi, tài năng"
+        ],
+        "onyomi": [],
+        "kunyomi": [
+          "サイ"
+        ],
+        "strokeCount": 3,
+        "mnemonic": "Chữ 才 (TÀI) có nghĩa là Tuổi, tài năng.",
+        "exampleWords": []
+      }
+    ],
+    "vocabulary": [
+      {
+        "order": 1,
+        "term": "(20)",
+        "reading": "私",
+        "meaning": "わたし"
+      },
+      {
+        "order": 2,
+        "term": "tôi",
+        "reading": "人",
+        "meaning": "ひと"
+      },
+      {
+        "order": 3,
+        "term": "Con người",
+        "reading": "あの人",
+        "meaning": "あのひと"
+      },
+      {
+        "order": 4,
+        "term": "Người kia",
+        "reading": "2才",
+        "meaning": "にさい"
+      },
+      {
+        "order": 5,
+        "term": "2 tuổi",
+        "reading": "8才",
+        "meaning": "はっさい"
+      },
+      {
+        "order": 6,
+        "term": "8 tuổi",
+        "reading": "何才",
+        "meaning": "なんさい"
+      },
+      {
+        "order": 7,
+        "term": "Mấy tuổi",
+        "reading": "大学",
+        "meaning": "だいがく"
+      },
+      {
+        "order": 8,
+        "term": "Đại học",
+        "reading": "学生",
+        "meaning": "がくせい"
+      },
+      {
+        "order": 9,
+        "term": "Học sinh",
+        "reading": "先生",
+        "meaning": "せんせい"
+      },
+      {
+        "order": 10,
+        "term": "Thầy/cô giáo",
+        "reading": "学校",
+        "meaning": "がっこう"
+      },
+      {
+        "order": 11,
+        "term": "Trường học",
+        "reading": "10日",
+        "meaning": "とおか"
+      },
+      {
+        "order": 12,
+        "term": "Mùng 10",
+        "reading": "日曜日",
+        "meaning": "にちようび"
+      },
+      {
+        "order": 13,
+        "term": "Chủ nhật",
+        "reading": "日",
+        "meaning": "ひ"
+      },
+      {
+        "order": 14,
+        "term": "Ngày",
+        "reading": "休日",
+        "meaning": "きゅうじつ"
+      },
+      {
+        "order": 15,
+        "term": "Ngày nghỉ",
+        "reading": "本",
+        "meaning": "ほん"
+      },
+      {
+        "order": 16,
+        "term": "sách",
+        "reading": "日本",
+        "meaning": "にほん"
+      },
+      {
+        "order": 17,
+        "term": "Nhật Bản",
+        "reading": "日本人",
+        "meaning": "にほんじん"
+      },
+      {
+        "order": 18,
+        "term": "Người Nhật Bản",
+        "reading": "日本語",
+        "meaning": "にほんご"
+      },
+      {
+        "order": 19,
+        "term": "Tiếng Nhật",
+        "reading": "ベトナム語",
+        "meaning": "ベトナムご"
+      },
+      {
+        "order": 20,
+        "term": "Tiếng Việt",
+        "reading": "～人",
+        "meaning": "〜じん"
+      }
+    ]
+  },
+  {
+    "lessonCode": "LESSON-2",
+    "slug": "kanji-jpd113-n5-2",
+    "title": "Số đếm và Đơn vị tiền tệ",
+    "description": "Bài học Hán tự LESSON-2: Số đếm và Đơn vị tiền tệ (14 chữ Hán, 50 từ ghép).",
+    "order": 2,
+    "itemCount": 14,
+    "items": [
+      {
+        "order": 1,
+        "character": "一",
+        "hanViet": "NHẤT",
+        "meaning": [
+          "Số một"
+        ],
+        "onyomi": [
+          "イチ",
+          "イツ"
+        ],
+        "kunyomi": [
+          "ひと.つ"
+        ],
+        "strokeCount": 1,
+        "mnemonic": "Chữ 一 (NHẤT) có nghĩa là Số một.",
+        "exampleWords": [
+          {
+            "order": 48,
+            "term": "一万",
+            "reading": "いちまん",
+            "meaning": "10.000"
+          },
+          {
+            "order": 50,
+            "term": "一万円",
+            "reading": "いちまんえん",
+            "meaning": "10.000Yên"
+          }
+        ]
+      },
+      {
+        "order": 2,
+        "character": "二",
+        "hanViet": "NHỊ",
+        "meaning": [
+          "Số hai"
+        ],
+        "onyomi": [
+          "ニ"
+        ],
+        "kunyomi": [
+          "ふた.つ"
+        ],
+        "strokeCount": 2,
+        "mnemonic": "Chữ 二 (NHỊ) có nghĩa là Số hai.",
+        "exampleWords": []
+      },
+      {
+        "order": 3,
+        "character": "三",
+        "hanViet": "TAM",
+        "meaning": [
+          "Số ba"
+        ],
+        "onyomi": [
+          "サン"
+        ],
+        "kunyomi": [
+          "みっ.つ"
+        ],
+        "strokeCount": 3,
+        "mnemonic": "Chữ 三 (TAM) có nghĩa là Số ba.",
+        "exampleWords": [
+          {
+            "order": 42,
+            "term": "三百",
+            "reading": "さんびゃく",
+            "meaning": "300"
+          },
+          {
+            "order": 46,
+            "term": "三千",
+            "reading": "さんぜん",
+            "meaning": "3000"
+          }
+        ]
+      },
+      {
+        "order": 4,
+        "character": "四",
+        "hanViet": "TỨ",
+        "meaning": [
+          "Số bốn"
+        ],
+        "onyomi": [
+          "シ"
+        ],
+        "kunyomi": [
+          "よん",
+          "よっ.つ"
+        ],
+        "strokeCount": 5,
+        "mnemonic": "Chữ 四 (TỨ) có nghĩa là Số bốn.",
+        "exampleWords": []
+      },
+      {
+        "order": 5,
+        "character": "五",
+        "hanViet": "NGŨ",
+        "meaning": [
+          "Số năm"
+        ],
+        "onyomi": [
+          "ゴ"
+        ],
+        "kunyomi": [
+          "いつ.つ"
+        ],
+        "strokeCount": 4,
+        "mnemonic": "Chữ 五 (NGŨ) có nghĩa là Số năm.",
+        "exampleWords": []
+      },
+      {
+        "order": 6,
+        "character": "六",
+        "hanViet": "LỤC",
+        "meaning": [
+          "Số sáu"
+        ],
+        "onyomi": [
+          "ロク"
+        ],
+        "kunyomi": [
+          "むっ.つ"
+        ],
+        "strokeCount": 4,
+        "mnemonic": "Chữ 六 (LỤC) có nghĩa là Số sáu.",
+        "exampleWords": [
+          {
+            "order": 43,
+            "term": "六百",
+            "reading": "ろっぴゃく",
+            "meaning": "600"
+          }
+        ]
+      },
+      {
+        "order": 7,
+        "character": "七",
+        "hanViet": "THẤT",
+        "meaning": [
+          "Số bảy"
+        ],
+        "onyomi": [
+          "シチ"
+        ],
+        "kunyomi": [
+          "なな",
+          "なな.つ"
+        ],
+        "strokeCount": 2,
+        "mnemonic": "Chữ 七 (THẤT) có nghĩa là Số bảy.",
+        "exampleWords": []
+      },
+      {
+        "order": 8,
+        "character": "八",
+        "hanViet": "BÁT",
+        "meaning": [
+          "Số tám"
+        ],
+        "onyomi": [
+          "ハチ"
+        ],
+        "kunyomi": [
+          "やって.つ"
+        ],
+        "strokeCount": 2,
+        "mnemonic": "Chữ 八 (BÁT) có nghĩa là Số tám.",
+        "exampleWords": [
+          {
+            "order": 44,
+            "term": "八百",
+            "reading": "はっぴゃく",
+            "meaning": "800"
+          },
+          {
+            "order": 47,
+            "term": "八千",
+            "reading": "はっせん",
+            "meaning": "8000"
+          }
+        ]
+      },
+      {
+        "order": 9,
+        "character": "九",
+        "hanViet": "CỬU",
+        "meaning": [
+          "Số chín"
+        ],
+        "onyomi": [
+          "キュウ",
+          "ク"
+        ],
+        "kunyomi": [
+          "ここの.つ"
+        ],
+        "strokeCount": 2,
+        "mnemonic": "Chữ 九 (CỬU) có nghĩa là Số chín.",
+        "exampleWords": []
+      },
+      {
+        "order": 10,
+        "character": "十",
+        "hanViet": "THẬP",
+        "meaning": [
+          "Số mười"
+        ],
+        "onyomi": [
+          "ジュウ"
+        ],
+        "kunyomi": [
+          "とお"
+        ],
+        "strokeCount": 2,
+        "mnemonic": "Chữ 十 (THẬP) có nghĩa là Số mười.",
+        "exampleWords": []
+      },
+      {
+        "order": 11,
+        "character": "百",
+        "hanViet": "BÁCH",
+        "meaning": [
+          "Một trăm"
+        ],
+        "onyomi": [],
+        "kunyomi": [
+          "ヒャク"
+        ],
+        "strokeCount": 6,
+        "mnemonic": "Chữ 百 (BÁCH) có nghĩa là Một trăm.",
+        "exampleWords": [
+          {
+            "order": 42,
+            "term": "三百",
+            "reading": "さんびゃく",
+            "meaning": "300"
+          },
+          {
+            "order": 43,
+            "term": "六百",
+            "reading": "ろっぴゃく",
+            "meaning": "600"
+          },
+          {
+            "order": 44,
+            "term": "八百",
+            "reading": "はっぴゃく",
+            "meaning": "800"
+          },
+          {
+            "order": 49,
+            "term": "百円",
+            "reading": "ひゃくえん",
+            "meaning": "100Yên"
+          }
+        ]
+      },
+      {
+        "order": 12,
+        "character": "千",
+        "hanViet": "THIÊN",
+        "meaning": [
+          "Một nghìn"
+        ],
+        "onyomi": [
+          "セン"
+        ],
+        "kunyomi": [
+          "ち"
+        ],
+        "strokeCount": 3,
+        "mnemonic": "Chữ 千 (THIÊN) có nghĩa là Một nghìn.",
+        "exampleWords": [
+          {
+            "order": 45,
+            "term": "千",
+            "reading": "せん",
+            "meaning": "1000"
+          },
+          {
+            "order": 46,
+            "term": "三千",
+            "reading": "さんぜん",
+            "meaning": "3000"
+          },
+          {
+            "order": 47,
+            "term": "八千",
+            "reading": "はっせん",
+            "meaning": "8000"
+          }
+        ]
+      },
+      {
+        "order": 13,
+        "character": "万",
+        "hanViet": "VẠN",
+        "meaning": [
+          "Mười nghìn"
+        ],
+        "onyomi": [],
+        "kunyomi": [
+          "マン",
+          "バン"
+        ],
+        "strokeCount": 3,
+        "mnemonic": "Chữ 万 (VẠN) có nghĩa là Mười nghìn.",
+        "exampleWords": [
+          {
+            "order": 48,
+            "term": "一万",
+            "reading": "いちまん",
+            "meaning": "10.000"
+          },
+          {
+            "order": 50,
+            "term": "一万円",
+            "reading": "いちまんえん",
+            "meaning": "10.000Yên"
+          }
+        ]
+      },
+      {
+        "order": 14,
+        "character": "円",
+        "hanViet": "VIÊN",
+        "meaning": [
+          "Hình tròn, đồng Yên"
+        ],
+        "onyomi": [
+          "エン"
+        ],
+        "kunyomi": [
+          "まる.い"
+        ],
+        "strokeCount": 4,
+        "mnemonic": "Chữ 円 (VIÊN) có nghĩa là Hình tròn, đồng Yên.",
+        "exampleWords": [
+          {
+            "order": 49,
+            "term": "百円",
+            "reading": "ひゃくえん",
+            "meaning": "100Yên"
+          },
+          {
+            "order": 50,
+            "term": "一万円",
+            "reading": "いちまんえん",
+            "meaning": "10.000Yên"
+          }
+        ]
+      }
+    ],
+    "vocabulary": [
+      {
+        "order": 1,
+        "term": "(50)",
+        "reading": "一日",
+        "meaning": "ついたち"
+      },
+      {
+        "order": 2,
+        "term": "Ngày mồng 1",
+        "reading": "一月",
+        "meaning": "いちがつ"
+      },
+      {
+        "order": 3,
+        "term": "tháng 1",
+        "reading": "一人",
+        "meaning": "ひとり"
+      },
+      {
+        "order": 4,
+        "term": "1 người",
+        "reading": "一つ",
+        "meaning": "ひとつ"
+      },
+      {
+        "order": 5,
+        "term": "1 chiếc",
+        "reading": "一",
+        "meaning": "いち"
+      },
+      {
+        "order": 6,
+        "term": "Số 1",
+        "reading": "二日",
+        "meaning": "ふつか"
+      },
+      {
+        "order": 7,
+        "term": "Ngày mồng 2",
+        "reading": "二月",
+        "meaning": "にがつ"
+      },
+      {
+        "order": 8,
+        "term": "Tháng 2",
+        "reading": "二つ",
+        "meaning": "ふたつ"
+      },
+      {
+        "order": 9,
+        "term": "2 cái",
+        "reading": "二",
+        "meaning": "に"
+      },
+      {
+        "order": 10,
+        "term": "Số 2",
+        "reading": "三日",
+        "meaning": "みっか"
+      },
+      {
+        "order": 11,
+        "term": "Ngày mồng 3",
+        "reading": "三月",
+        "meaning": "さんがつ"
+      },
+      {
+        "order": 12,
+        "term": "tháng 3",
+        "reading": "三人",
+        "meaning": "さんにん"
+      },
+      {
+        "order": 13,
+        "term": "3 người",
+        "reading": "三",
+        "meaning": "さん"
+      },
+      {
+        "order": 14,
+        "term": "Số 3",
+        "reading": "四日",
+        "meaning": "よっか"
+      },
+      {
+        "order": 15,
+        "term": "Ngày mồng 4",
+        "reading": "四月",
+        "meaning": "しがつ"
+      },
+      {
+        "order": 16,
+        "term": "tháng 4",
+        "reading": "四人",
+        "meaning": "よにん"
+      },
+      {
+        "order": 17,
+        "term": "4 người",
+        "reading": "四",
+        "meaning": "よん"
+      },
+      {
+        "order": 18,
+        "term": "Số 4",
+        "reading": "五日",
+        "meaning": "いつか"
+      },
+      {
+        "order": 19,
+        "term": "Ngày mồng 5",
+        "reading": "五月",
+        "meaning": "ごがつ"
+      },
+      {
+        "order": 20,
+        "term": "tháng 5",
+        "reading": "五つ",
+        "meaning": "いつつ"
+      },
+      {
+        "order": 21,
+        "term": "5 cái",
+        "reading": "五",
+        "meaning": "ご"
+      },
+      {
+        "order": 22,
+        "term": "Số 5",
+        "reading": "六日",
+        "meaning": "むいか"
+      },
+      {
+        "order": 23,
+        "term": "Ngày mồng 6",
+        "reading": "六月",
+        "meaning": "ろくがつ"
+      },
+      {
+        "order": 24,
+        "term": "tháng 6",
+        "reading": "六つ",
+        "meaning": "むっつ"
+      },
+      {
+        "order": 25,
+        "term": "6 cái",
+        "reading": "六",
+        "meaning": "ろく"
+      },
+      {
+        "order": 26,
+        "term": "Số 6",
+        "reading": "七日",
+        "meaning": "なのか"
+      },
+      {
+        "order": 27,
+        "term": "Ngày mồng 7",
+        "reading": "七月",
+        "meaning": "しちがつ"
+      },
+      {
+        "order": 28,
+        "term": "tháng 7",
+        "reading": "七つ",
+        "meaning": "ななつ"
+      },
+      {
+        "order": 29,
+        "term": "7 cái",
+        "reading": "七",
+        "meaning": "なな/しち"
+      },
+      {
+        "order": 30,
+        "term": "Số 7",
+        "reading": "八日",
+        "meaning": "ようか"
+      },
+      {
+        "order": 31,
+        "term": "Ngày mồng 8",
+        "reading": "八月",
+        "meaning": "はちがつ"
+      },
+      {
+        "order": 32,
+        "term": "Tháng 8",
+        "reading": "八つ",
+        "meaning": "やっつ"
+      },
+      {
+        "order": 33,
+        "term": "8 cái",
+        "reading": "八",
+        "meaning": "はち"
+      },
+      {
+        "order": 34,
+        "term": "Số 8",
+        "reading": "九日",
+        "meaning": "ここのか"
+      },
+      {
+        "order": 35,
+        "term": "Ngày mồng 9",
+        "reading": "九月",
+        "meaning": "くがつ"
+      },
+      {
+        "order": 36,
+        "term": "tháng 9",
+        "reading": "九つ",
+        "meaning": "ここのつ"
+      },
+      {
+        "order": 37,
+        "term": "9 cái",
+        "reading": "九",
+        "meaning": "きゅう"
+      },
+      {
+        "order": 38,
+        "term": "Số 9",
+        "reading": "十日",
+        "meaning": "とおka"
+      },
+      {
+        "order": 39,
+        "term": "Ngày mồng 10",
+        "reading": "十月",
+        "meaning": "じゅうがつ"
+      },
+      {
+        "order": 40,
+        "term": "tháng 10",
+        "reading": "十",
+        "meaning": "じゅう"
+      },
+      {
+        "order": 41,
+        "term": "Số 10",
+        "reading": "二百",
+        "meaning": "にひゃく"
+      },
+      {
+        "order": 42,
+        "term": "三百",
+        "reading": "さんびゃく",
+        "meaning": "300"
+      },
+      {
+        "order": 43,
+        "term": "六百",
+        "reading": "ろっぴゃく",
+        "meaning": "600"
+      },
+      {
+        "order": 44,
+        "term": "八百",
+        "reading": "はっぴゃく",
+        "meaning": "800"
+      },
+      {
+        "order": 45,
+        "term": "千",
+        "reading": "せん",
+        "meaning": "1000"
+      },
+      {
+        "order": 46,
+        "term": "三千",
+        "reading": "さんぜん",
+        "meaning": "3000"
+      },
+      {
+        "order": 47,
+        "term": "八千",
+        "reading": "はっせん",
+        "meaning": "8000"
+      },
+      {
+        "order": 48,
+        "term": "一万",
+        "reading": "いちまん",
+        "meaning": "10.000"
+      },
+      {
+        "order": 49,
+        "term": "百円",
+        "reading": "ひゃくえん",
+        "meaning": "100Yên"
+      },
+      {
+        "order": 50,
+        "term": "一万円",
+        "reading": "いちまんえん",
+        "meaning": "10.000Yên"
+      }
+    ]
+  },
+  {
+    "lessonCode": "LESSON-3",
+    "slug": "kanji-jpd113-n5-3",
+    "title": "Thời gian và Ngày trong tuần",
+    "description": "Bài học Hán tự LESSON-3: Thời gian và Ngày trong tuần (11 chữ Hán, 28 từ ghép).",
+    "order": 3,
+    "itemCount": 11,
+    "items": [
+      {
+        "order": 1,
+        "character": "月",
+        "hanViet": "NGUYỆT",
+        "meaning": [
+          "Mặt trăng, tháng, thứ Hai"
+        ],
+        "onyomi": [
+          "ゲツ",
+          "ガツ"
+        ],
+        "kunyomi": [
+          "つき"
+        ],
+        "strokeCount": 4,
+        "mnemonic": "Chữ 月 (NGUYỆT) có nghĩa là Mặt trăng, tháng, thứ Hai.",
+        "exampleWords": []
+      },
+      {
+        "order": 2,
+        "character": "火",
+        "hanViet": "HỎA",
+        "meaning": [
+          "Lửa, thứ Ba"
+        ],
+        "onyomi": [
+          "カ"
+        ],
+        "kunyomi": [
+          "ひ",
+          "び",
+          "ほ"
+        ],
+        "strokeCount": 4,
+        "mnemonic": "Chữ 火 (HỎA) có nghĩa là Lửa, thứ Ba.",
+        "exampleWords": []
+      },
+      {
+        "order": 3,
+        "character": "水",
+        "hanViet": "THỦY",
+        "meaning": [
+          "Nước, thứ Tư"
+        ],
+        "onyomi": [
+          "スイ"
+        ],
+        "kunyomi": [
+          "みず"
+        ],
+        "strokeCount": 4,
+        "mnemonic": "Chữ 水 (THỦY) có nghĩa là Nước, thứ Tư.",
+        "exampleWords": []
+      },
+      {
+        "order": 4,
+        "character": "木",
+        "hanViet": "MỘC",
+        "meaning": [
+          "Cây, thứ Năm"
+        ],
+        "onyomi": [
+          "モク",
+          "ボク"
+        ],
+        "kunyomi": [
+          "き",
+          "こ"
+        ],
+        "strokeCount": 4,
+        "mnemonic": "Chữ 木 (MỘC) có nghĩa là Cây, thứ Năm.",
+        "exampleWords": []
+      },
+      {
+        "order": 5,
+        "character": "金",
+        "hanViet": "KIM",
+        "meaning": [
+          "Tiền, vàng, thứ Sáu"
+        ],
+        "onyomi": [
+          "キン",
+          "コン"
+        ],
+        "kunyomi": [
+          "かね",
+          "かな"
+        ],
+        "strokeCount": 8,
+        "mnemonic": "Chữ 金 (KIM) có nghĩa là Tiền, vàng, thứ Sáu.",
+        "exampleWords": []
+      },
+      {
+        "order": 6,
+        "character": "土",
+        "hanViet": "THỔ",
+        "meaning": [
+          "Đất, thứ Bảy"
+        ],
+        "onyomi": [
+          "ド",
+          "ト"
+        ],
+        "kunyomi": [
+          "つち"
+        ],
+        "strokeCount": 3,
+        "mnemonic": "Chữ 土 (THỔ) có nghĩa là Đất, thứ Bảy.",
+        "exampleWords": []
+      },
+      {
+        "order": 7,
+        "character": "何",
+        "hanViet": "HÀ",
+        "meaning": [
+          "Cái gì"
+        ],
+        "onyomi": [
+          "カ"
+        ],
+        "kunyomi": [
+          "なに",
+          "なん"
+        ],
+        "strokeCount": 7,
+        "mnemonic": "Chữ 何 (HÀ) có nghĩa là Cái gì.",
+        "exampleWords": []
+      },
+      {
+        "order": 8,
+        "character": "年",
+        "hanViet": "NIÊN",
+        "meaning": [
+          "Năm"
+        ],
+        "onyomi": [
+          "ネン"
+        ],
+        "kunyomi": [
+          "とし"
+        ],
+        "strokeCount": 6,
+        "mnemonic": "Chữ 年 (NIÊN) có nghĩa là Năm.",
+        "exampleWords": []
+      },
+      {
+        "order": 9,
+        "character": "時",
+        "hanViet": "THỜI",
+        "meaning": [
+          "Thời gian, giờ"
+        ],
+        "onyomi": [
+          "ジ"
+        ],
+        "kunyomi": [
+          "とき"
+        ],
+        "strokeCount": 10,
+        "mnemonic": "Chữ 時 (THỜI) có nghĩa là Thời gian, giờ.",
+        "exampleWords": []
+      },
+      {
+        "order": 10,
+        "character": "間",
+        "hanViet": "GIAN",
+        "meaning": [
+          "Khoảng trống, ở giữa, trong~, gian phòng"
+        ],
+        "onyomi": [
+          "カン",
+          "ケン"
+        ],
+        "kunyomi": [
+          "あいだ",
+          "ま"
+        ],
+        "strokeCount": 12,
+        "mnemonic": "Chữ 間 (GIAN) có nghĩa là Khoảng trống, ở giữa, trong~, gian phòng.",
+        "exampleWords": []
+      },
+      {
+        "order": 11,
+        "character": "分",
+        "hanViet": "PHÂN",
+        "meaning": [
+          "Phân chia, hiểu, phút"
+        ],
+        "onyomi": [
+          "ブン",
+          "フン",
+          "ブ"
+        ],
+        "kunyomi": [
+          "わ.ける",
+          "わ.かる"
+        ],
+        "strokeCount": 4,
+        "mnemonic": "Chữ 分 (PHÂN) có nghĩa là Phân chia, hiểu, phút.",
+        "exampleWords": []
+      }
+    ],
+    "vocabulary": [
+      {
+        "order": 1,
+        "term": "(28)",
+        "reading": "月",
+        "meaning": "つき"
+      },
+      {
+        "order": 2,
+        "term": "mặt trăng",
+        "reading": "一月",
+        "meaning": "いちがつ"
+      },
+      {
+        "order": 3,
+        "term": "Tháng 1",
+        "reading": "十二月",
+        "meaning": "じゅうにがつ"
+      },
+      {
+        "order": 4,
+        "term": "Tháng 12",
+        "reading": "月曜日",
+        "meaning": "げつようび"
+      },
+      {
+        "order": 5,
+        "term": "Thứ 2",
+        "reading": "花火",
+        "meaning": "はなび"
+      },
+      {
+        "order": 6,
+        "term": "pháo hoa",
+        "reading": "火",
+        "meaning": "ひ"
+      },
+      {
+        "order": 7,
+        "term": "lửa",
+        "reading": "火曜日",
+        "meaning": "かようび"
+      },
+      {
+        "order": 8,
+        "term": "Thứ 3",
+        "reading": "水",
+        "meaning": "みず"
+      },
+      {
+        "order": 9,
+        "term": "nước",
+        "reading": "水曜日",
+        "meaning": "すいようび"
+      },
+      {
+        "order": 10,
+        "term": "Thứ 4",
+        "reading": "木",
+        "meaning": "き"
+      },
+      {
+        "order": 11,
+        "term": "Cây",
+        "reading": "木曜日",
+        "meaning": "もくようび"
+      },
+      {
+        "order": 12,
+        "term": "Thứ 5",
+        "reading": "お金",
+        "meaning": "おかね"
+      },
+      {
+        "order": 13,
+        "term": "tiền",
+        "reading": "金曜日",
+        "meaning": "きんようび"
+      },
+      {
+        "order": 14,
+        "term": "Thứ 6",
+        "reading": "土",
+        "meaning": "つち"
+      },
+      {
+        "order": 15,
+        "term": "Đất",
+        "reading": "土曜日",
+        "meaning": "どようび"
+      },
+      {
+        "order": 16,
+        "term": "Thứ 7",
+        "reading": "何",
+        "meaning": "なん/なに"
+      },
+      {
+        "order": 17,
+        "term": "Cái gì",
+        "reading": "何月",
+        "meaning": "なんがつ"
+      },
+      {
+        "order": 18,
+        "term": "tháng mấy",
+        "reading": "何人",
+        "meaning": "なんにん"
+      },
+      {
+        "order": 19,
+        "term": "mấy người",
+        "reading": "何曜日",
+        "meaning": "なんようび"
+      },
+      {
+        "order": 20,
+        "term": "Thứ mấy",
+        "reading": "何年",
+        "meaning": "なんねん"
+      },
+      {
+        "order": 21,
+        "term": "Năm bao nhiêu",
+        "reading": "今年",
+        "meaning": "ことし"
+      },
+      {
+        "order": 22,
+        "term": "Năm nay",
+        "reading": "九時",
+        "meaning": "くじ"
+      },
+      {
+        "order": 23,
+        "term": "9 giờ",
+        "reading": "何時",
+        "meaning": "なんじ"
+      },
+      {
+        "order": 24,
+        "term": "Mấy giờ",
+        "reading": "時間",
+        "meaning": "じかん"
+      },
+      {
+        "order": 25,
+        "term": "Thời gian",
+        "reading": "何時間",
+        "meaning": "なんじかん"
+      },
+      {
+        "order": 26,
+        "term": "Mấy tiếng",
+        "reading": "分かります",
+        "meaning": "わかります"
+      },
+      {
+        "order": 27,
+        "term": "Hiểu",
+        "reading": "半分",
+        "meaning": "はんぶん"
+      },
+      {
+        "order": 28,
+        "term": "1/2",
+        "reading": "六分",
+        "meaning": "ろっぷん"
+      }
+    ]
+  }
+]

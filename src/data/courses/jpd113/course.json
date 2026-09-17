@@ -1,0 +1,16 @@
+{
+  "code": "JPD113",
+  "title": "Tiếng Nhật Sơ Cấp 1 (JPD113)",
+  "shortDescription": "Khóa học tiếng Nhật N5 khởi động dành cho sinh viên trường Đại học FPT và người mới bắt đầu.",
+  "description": "Chương trình tiếng Nhật JPD113 toàn diện gồm Bài 1 đến Bài 3: Hán Tự (35 chữ Hán cơ bản), Từ Vựng (hơn 250 từ vựng nền tảng), Ngữ Pháp (21 mẫu câu trọng tâm) và Luyện Thi Nói 1-1 & Đề Thi Final Exam (FE).",
+  "level": "N5",
+  "thumbnail": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=800&q=80",
+  "isPublished": true,
+  "sortOrder": 0,
+  "stats": {
+    "totalVocabulary": 260,
+    "totalKanji": 35,
+    "totalGrammar": 21,
+    "totalExams": 2
+  }
+}

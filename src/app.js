@@ -26,6 +26,7 @@ const compressRoutes = require('./routes/compress.routes');
 const chatRoutes = require('./routes/chat.routes');
 const courseRoutes = require('./routes/course.routes');
 const learningRoutes = require('./routes/learning.routes');
+const speakingRoutes = require('./routes/speaking.routes');
 const { authenticateToken, requireAdmin } = require('./middleware/auth.middleware');
 
 const app = express();
@@ -192,6 +193,7 @@ app.use('/api/chat', chatRoutes);
 app.use('/api/sitemap', sitemapRoutes);
 app.use('/api/public', publicRoutes);
 app.use('/api/courses', courseRoutes);
+app.use('/api/courses', speakingRoutes);
 app.use('/api/learning', learningRoutes);
 
 module.exports = app;

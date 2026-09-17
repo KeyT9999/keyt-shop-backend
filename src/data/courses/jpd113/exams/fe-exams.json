@@ -1,0 +1,538 @@
+{
+  "courseCode": "JPD113",
+  "totalQuestions": 30,
+  "exams": [
+    {
+      "id": "jpd113-fe-exam-01",
+      "slug": "jpd113-fe-exam-01",
+      "title": "Đề Thi Thử Final Exam JPD113 - Đề Số 01 (Tổng Hợp Bài 1 - 3)",
+      "description": "Bộ đề thi thử trắc nghiệm định dạng đề thi khảo thí Đại học FPT môn Tiếng Nhật Sơ Cấp 1 (JPD113). Kiểm tra kiến thức Từ vựng, Chữ Hán, Trợ từ và Ngữ pháp.",
+      "durationMinutes": 60,
+      "passingScore": 60,
+      "totalQuestions": 35,
+      "questions": [
+        {
+          "id": "J113-FE1-01",
+          "order": 1,
+          "source": "FE JPD113 Exam Bank",
+          "questionNumber": "Câu 1",
+          "category": "particles",
+          "question": "わたし（　）グエン・ヴァン・ナムです。",
+          "options": [
+            "が",
+            "は",
+            "を",
+            "に"
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "は",
+          "explanation": "Cấu trúc câu khẳng định danh từ: N1 は N2 です (N1 là N2). Trợ từ は dùng để đánh dấu chủ ngữ/chủ đề."
+        },
+        {
+          "id": "J113-FE1-02",
+          "order": 2,
+          "source": "FE JPD113 Exam Bank",
+          "questionNumber": "Câu 2",
+          "category": "particles",
+          "question": "ナムさんは FPTだいがく（　）がくせいです。",
+          "options": [
+            "の",
+            "に",
+            "と",
+            "で"
+          ],
+          "correctAnswer": "A",
+          "correctAnswerText": "の",
+          "explanation": "Cấu trúc N1 の N2: N2 thuộc về tổ chức/trường học N1 (Sinh viên của trường Đại học FPT)."
+        },
+        {
+          "id": "J113-FE1-03",
+          "order": 3,
+          "source": "FE JPD113 Exam Bank",
+          "questionNumber": "Câu 3",
+          "category": "kanji",
+          "question": "Chữ Hán của từ「がくせい」là chữ nào dưới đây?",
+          "options": [
+            "先生",
+            "学生",
+            "学校",
+            "大学"
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "学生",
+          "explanation": "がくせい được viết bằng chữ Hán là 学生 (HỌC SINH)."
+        },
+        {
+          "id": "J113-FE1-04",
+          "order": 4,
+          "source": "FE JPD113 Exam Bank",
+          "questionNumber": "Câu 4",
+          "category": "grammar",
+          "question": "A:「たなかさんは いしゃですか。」ー B:「いいえ、いしゃ（　）。」",
+          "options": [
+            "です",
+            "じゃありません",
+            "でした",
+            "じゃありませんでした"
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "じゃありません",
+          "explanation": "Phủ định thì hiện tại của câu danh từ với です là じゃありません (Không phải là...)."
+        },
+        {
+          "id": "J113-FE1-05",
+          "order": 5,
+          "source": "FE JPD113 Exam Bank",
+          "questionNumber": "Câu 5",
+          "category": "vocabulary",
+          "question": "Cách đọc đúng của từ chỉ số tuổi「20才」trong tiếng Nhật là gì?",
+          "options": [
+            "にじゅっさい",
+            "はたち",
+            "にじっさい",
+            "Cả A và B đều đúng"
+          ],
+          "correctAnswer": "D",
+          "correctAnswerText": "Cả A và B đều đúng",
+          "explanation": "20 tuổi có thể đọc theo quy tắc là にじゅっさい (hoặc にじっさい), hoặc cách đọc đặc biệt truyền thống là はたち."
+        },
+        {
+          "id": "J113-FE1-06",
+          "order": 6,
+          "source": "FE JPD113 Exam Bank",
+          "questionNumber": "Câu 6",
+          "category": "particles",
+          "question": "A:「わたしは ベトナム人です。」ー B:「わたし（　）ベトナム人です。」",
+          "options": [
+            "は",
+            "も",
+            "の",
+            "が"
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "も",
+          "explanation": "Trợ từ も mang nghĩa 'cũng' dùng khi lặp lại thuộc tính giống người phía trước."
+        },
+        {
+          "id": "J113-FE1-07",
+          "order": 7,
+          "source": "FE JPD113 Exam Bank",
+          "questionNumber": "Câu 7",
+          "category": "kanji",
+          "question": "Cách đọc âm Hán Việt của chữ Hán「百」và「千」lần lượt là:",
+          "options": [
+            "THẬP và BÁCH",
+            "BÁCH và THIÊN",
+            "VẠN và THIÊN",
+            "VIÊN và BÁCH"
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "BÁCH và THIÊN",
+          "explanation": "百 là BÁCH (100), 千 là THIÊN (1.000)."
+        },
+        {
+          "id": "J113-FE1-08",
+          "order": 8,
+          "source": "FE JPD113 Exam Bank",
+          "questionNumber": "Câu 8",
+          "category": "grammar",
+          "question": "A:「すみません、トイレは（　）ですか。」ー B:「あそこです。」",
+          "options": [
+            "だれ",
+            "どこ",
+            "なん",
+            "いくら"
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "どこ",
+          "explanation": "どこ là từ nghi vấn hỏi về địa điểm, nơi chốn ('ở đâu?')."
+        },
+        {
+          "id": "J113-FE1-09",
+          "order": 9,
+          "source": "FE JPD113 Exam Bank",
+          "questionNumber": "Câu 9",
+          "category": "vocabulary",
+          "question": "Từ nào sau đây có nghĩa là 'Tầng 1' trong tiếng Nhật?",
+          "options": [
+            "いちかい",
+            "いっかい",
+            "ひとち",
+            "いっぽん"
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "いっかい",
+          "explanation": "Tầng 1 phát âm có âm ngắt là いっかい (一階)."
+        },
+        {
+          "id": "J113-FE1-10",
+          "order": 10,
+          "source": "FE JPD113 Exam Bank",
+          "questionNumber": "Câu 10",
+          "category": "grammar",
+          "question": "A:「この カメラは（　）ですか。」ー B:「20,000円です。」",
+          "options": [
+            "どこ",
+            "いくら",
+            "だれ",
+            "なんがい"
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "いくら",
+          "explanation": "いくら dùng để hỏi về giá tiền ('bao nhiêu tiền?')."
+        },
+        {
+          "id": "J113-FE1-11",
+          "order": 11,
+          "source": "FE JPD113 Exam Bank",
+          "questionNumber": "Câu 11",
+          "category": "particles",
+          "question": "これは 日本（　）くるまです。",
+          "options": [
+            "の",
+            "に",
+            "で",
+            "へ"
+          ],
+          "correctAnswer": "A",
+          "correctAnswerText": "の",
+          "explanation": "N1 (quốc gia) の N2 biểu thị xuất xứ: Ô tô của Nhật Bản."
+        },
+        {
+          "id": "J113-FE1-12",
+          "order": 12,
+          "source": "FE JPD113 Exam Bank",
+          "questionNumber": "Câu 12",
+          "category": "grammar",
+          "question": "Khi muốn gọi nhân viên và yêu cầu 'Cho tôi xin menu', ta nói:",
+          "options": [
+            "メニューを あります。",
+            "メニューを ください。",
+            "メニューへ いきます。",
+            "メニューで です。"
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "メニューを ください。",
+          "explanation": "Cấu trúc「N を ください」dùng để yêu cầu lấy cho mình vật N."
+        },
+        {
+          "id": "J113-FE1-13",
+          "order": 13,
+          "source": "FE JPD113 Exam Bank",
+          "questionNumber": "Câu 13",
+          "category": "kanji",
+          "question": "Chữ Hán「何」trong câu「何時ですか」được phát âm là:",
+          "options": [
+            "なに",
+            "なん",
+            "か",
+            "ど"
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "なん",
+          "explanation": "Trước các từ bắt đầu bằng hàng t, d, n (như じ, さい, かい), 何 được phát âm là なん."
+        },
+        {
+          "id": "J113-FE1-14",
+          "order": 14,
+          "source": "FE JPD113 Exam Bank",
+          "questionNumber": "Câu 14",
+          "category": "grammar",
+          "question": "いま ごぜん 8時（　）です。",
+          "options": [
+            "はん",
+            "ふん",
+            "さい",
+            "えん"
+          ],
+          "correctAnswer": "A",
+          "correctAnswerText": "はん",
+          "explanation": "8時半 (はちじはん) mang nghĩa 8 giờ rưỡi (8:30)."
+        },
+        {
+          "id": "J113-FE1-15",
+          "order": 15,
+          "source": "FE JPD113 Exam Bank",
+          "questionNumber": "Câu 15",
+          "category": "particles",
+          "question": "わたしは まいあさ 6時（　）おきます。",
+          "options": [
+            "を",
+            "に",
+            "で",
+            "へ"
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "に",
+          "explanation": "Trợ từ に đi kèm mốc thời gian có con số cụ thể chỉ thời điểm thực hiện hành động."
+        },
+        {
+          "id": "J113-FE1-16",
+          "order": 16,
+          "source": "FE JPD113 Exam Bank",
+          "questionNumber": "Câu 16",
+          "category": "particles",
+          "question": "ぎんこうは 8時半（　）5時（　）です。",
+          "options": [
+            "に／に",
+            "から／まで",
+            "で／へ",
+            "と／と"
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "から／まで",
+          "explanation": "Cấu trúc N1 から N2 まで: Từ mốc N1 đến mốc N2."
+        },
+        {
+          "id": "J113-FE1-17",
+          "order": 17,
+          "source": "FE JPD113 Exam Bank",
+          "questionNumber": "Câu 17",
+          "category": "particles",
+          "question": "あした とうきょう（　）いきます。",
+          "options": [
+            "へ",
+            "で",
+            "を",
+            "が"
+          ],
+          "correctAnswer": "A",
+          "correctAnswerText": "へ",
+          "explanation": "Trợ từ へ (phát âm là 'e') chỉ hướng di chuyển đến địa điểm N."
+        },
+        {
+          "id": "J113-FE1-18",
+          "order": 18,
+          "source": "FE JPD113 Exam Bank",
+          "questionNumber": "Câu 18",
+          "category": "particles",
+          "question": "わたしは バス（　）だいがくへ いきます。",
+          "options": [
+            "で",
+            "に",
+            "へ",
+            "を"
+          ],
+          "correctAnswer": "A",
+          "correctAnswerText": "で",
+          "explanation": "Trợ từ で đi cùng phương tiện giao thông chỉ phương tiện di chuyển."
+        },
+        {
+          "id": "J113-FE1-19",
+          "order": 19,
+          "source": "FE JPD113 Exam Bank",
+          "questionNumber": "Câu 19",
+          "category": "particles",
+          "question": "まいあさ パン（　）たべます。",
+          "options": [
+            "を",
+            "で",
+            "に",
+            "は"
+          ],
+          "correctAnswer": "A",
+          "correctAnswerText": "を",
+          "explanation": "Trợ từ を đánh dấu tân ngữ trực tiếp chịu tác động của hành động ăn (たべます)."
+        },
+        {
+          "id": "J113-FE1-20",
+          "order": 20,
+          "source": "FE JPD113 Exam Bank",
+          "questionNumber": "Câu 20",
+          "category": "particles",
+          "question": "としょかん（　）ほんを よみます。",
+          "options": [
+            "に",
+            "で",
+            "へ",
+            "を"
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "で",
+          "explanation": "Trợ từ で chỉ địa điểm xảy ra hành động (đọc sách ở thư viện)."
+        },
+        {
+          "id": "J113-FE1-21",
+          "order": 21,
+          "source": "FE JPD113 Exam Bank",
+          "questionNumber": "Câu 21",
+          "category": "kanji",
+          "question": "Thứ Tư trong tuần được viết bằng chữ Hán nào?",
+          "options": [
+            "月曜日",
+            "火曜日",
+            "水曜日",
+            "木曜日"
+          ],
+          "correctAnswer": "C",
+          "correctAnswerText": "水曜日",
+          "explanation": "Thứ Tư là 水曜日 (THỦY DIỆU NHẬT - すいようび)."
+        },
+        {
+          "id": "J113-FE1-22",
+          "order": 22,
+          "source": "FE JPD113 Exam Bank",
+          "questionNumber": "Câu 22",
+          "category": "grammar",
+          "question": "Thể quá khứ của động từ「たべます」là gì?",
+          "options": [
+            "たべません",
+            "たべました",
+            "たべない",
+            "たべて"
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "たべました",
+          "explanation": "Thể quá khứ lịch sự của đuôi ます là ました (đã ăn)."
+        },
+        {
+          "id": "J113-FE1-23",
+          "order": 23,
+          "source": "FE JPD113 Exam Bank",
+          "questionNumber": "Câu 23",
+          "category": "particles",
+          "question": "きのうの日曜日、どこ（　）行きませんでした。",
+          "options": [
+            "へも",
+            "にも",
+            "でも",
+            "をも"
+          ],
+          "correctAnswer": "A",
+          "correctAnswerText": "へも",
+          "explanation": "Cấu trúc phủ định tuyệt đối với từ nghi vấn chỉ phương hướng: どこへも + Động từ phủ định (chẳng đi đâu cả)."
+        },
+        {
+          "id": "J113-FE1-24",
+          "order": 24,
+          "source": "FE JPD113 Exam Bank",
+          "questionNumber": "Câu 24",
+          "category": "vocabulary",
+          "question": "Từ nào sau đây mang nghĩa là 'ngày mai'?",
+          "options": [
+            "きのう",
+            "きょう",
+            "あした",
+            "あさって"
+          ],
+          "correctAnswer": "C",
+          "correctAnswerText": "あした",
+          "explanation": "あした (hoặc あす) nghĩa là ngày mai."
+        },
+        {
+          "id": "J113-FE1-25",
+          "order": 25,
+          "source": "FE JPD113 Exam Bank",
+          "questionNumber": "Câu 25",
+          "category": "vocabulary",
+          "question": "Khi đi bộ đến trường mà không dùng phương tiện, ta dùng cụm từ nào?",
+          "options": [
+            "あるいて いきます",
+            "じてんしゃで いきます",
+            "くるまで いきます",
+            "ちかてつで いきます"
+          ],
+          "correctAnswer": "A",
+          "correctAnswerText": "あるいて いきます",
+          "explanation": "Đi bộ là「あるいて (歩いて)」, không đi với trợ từ で."
+        }
+      ]
+    },
+    {
+      "id": "jpd113-fe-exam-02",
+      "slug": "jpd113-fe-exam-02",
+      "title": "Đề Thi Thử Final Exam JPD113 - Đề Số 02 (Thực Chiến Khảo Thí)",
+      "description": "Đề thi thử kiểm tra tổng lực kỹ năng phản xạ trắc nghiệm JPD113 định dạng 60 phút, gồm các câu hỏi bẫy trợ từ, chữ Hán và chia động từ thể lịch sự.",
+      "durationMinutes": 60,
+      "passingScore": 60,
+      "totalQuestions": 25,
+      "questions": [
+        {
+          "id": "J113-FE2-01",
+          "order": 1,
+          "source": "FE JPD113 Exam Bank",
+          "questionNumber": "Câu 1",
+          "category": "kanji",
+          "question": "Từ「先生」có cách đọc Hiragana là:",
+          "options": [
+            "がくせい",
+            "せんせい",
+            "かいしゃいん",
+            "いしゃ"
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "せんせい",
+          "explanation": "先生 (TIÊN SINH) đọc là せんせい, nghĩa là thầy/cô giáo."
+        },
+        {
+          "id": "J113-FE2-02",
+          "order": 2,
+          "source": "FE JPD113 Exam Bank",
+          "questionNumber": "Câu 2",
+          "category": "grammar",
+          "question": "A:「あの人は（　）ですか。」ー B:「サントスさんです。」",
+          "options": [
+            "だれ",
+            "どこ",
+            "なん",
+            "どちら"
+          ],
+          "correctAnswer": "A",
+          "correctAnswerText": "だれ",
+          "explanation": "だれ dùng để hỏi về người ('ai vậy?')."
+        },
+        {
+          "id": "J113-FE2-03",
+          "order": 3,
+          "source": "FE JPD113 Exam Bank",
+          "questionNumber": "Câu 3",
+          "category": "particles",
+          "question": "つくえの上に 本（　）ノートがあります。",
+          "options": [
+            "と",
+            "で",
+            "へ",
+            "を"
+          ],
+          "correctAnswer": "A",
+          "correctAnswerText": "と",
+          "explanation": "Trợ từ と dùng để nối hai danh từ mang nghĩa là 'và'."
+        },
+        {
+          "id": "J113-FE2-04",
+          "order": 4,
+          "source": "FE JPD113 Exam Bank",
+          "questionNumber": "Câu 4",
+          "category": "grammar",
+          "question": "A:「これは（　）のかばんですか。」ー B:「わたしのです。」",
+          "options": [
+            "だれ",
+            "どこ",
+            "なん",
+            "いくら"
+          ],
+          "correctAnswer": "A",
+          "correctAnswerText": "だれ",
+          "explanation": "だれの N mang nghĩa là 'N của ai'."
+        },
+        {
+          "id": "J113-FE2-05",
+          "order": 5,
+          "source": "FE JPD113 Exam Bank",
+          "questionNumber": "Câu 5",
+          "category": "vocabulary",
+          "question": "Từ nào sau đây mang nghĩa là 'Chủ nhật'?",
+          "options": [
+            "月曜日",
+            "金曜日",
+            "土曜日",
+            "日曜日"
+          ],
+          "correctAnswer": "D",
+          "correctAnswerText": "日曜日",
+          "explanation": "日曜日 (NHẬT DIỆU NHẬT - にちようび) là Chủ nhật."
+        }
+      ]
+    }
+  ]
+}

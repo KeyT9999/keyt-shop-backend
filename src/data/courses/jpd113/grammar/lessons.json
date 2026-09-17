@@ -1,0 +1,920 @@
+[
+  {
+    "lessonCode": "LESSON-1",
+    "slug": "grammar-jpd113-n5-1",
+    "title": "Trợ từ cơ bản và Câu danh từ",
+    "description": "Ngữ pháp LESSON-1: Trợ từ cơ bản và Câu danh từ (8 mẫu câu trọng tâm).",
+    "order": 1,
+    "itemCount": 8,
+    "items": [
+      {
+        "order": 1,
+        "title": "Làm bài tập",
+        "pattern": "Làm bài tập",
+        "meaning": "Cấu trúc",
+        "explanation": "N1 là N2 Câu khẳng định với です",
+        "structures": [],
+        "examples": [
+          {
+            "japanese": "Aさんは学生です。",
+            "reading": "Aさんはがくせいです。",
+            "vietnamese": "Bạn A là sinh viên."
+          },
+          {
+            "japanese": "私は日本人です。",
+            "reading": "わたしはにほんじんです。",
+            "vietnamese": "Tôi là người Nhật."
+          },
+          {
+            "japanese": "田中さんは先生です。",
+            "reading": "たなかさんはせんせいです。",
+            "vietnamese": "Anh Tanaka là giáo viên."
+          },
+          {
+            "japanese": "私は医者です。",
+            "reading": "わたしはいしゃです。",
+            "vietnamese": "Tôi là bác sĩ."
+          },
+          {
+            "japanese": "マリアさんはブラジル人です。",
+            "reading": "マリアさんはブラジルじんです。",
+            "vietnamese": "Bạn Maria là người Brazil."
+          },
+          {
+            "japanese": "Mẫu tiếp",
+            "reading": "N1 は N2 の N3 です。",
+            "vietnamese": "N1 là N3 của N2"
+          }
+        ],
+        "notes": [
+          "Trợ từ は phát âm là 'wa'. です thể hiện sự lịch sự."
+        ]
+      },
+      {
+        "order": 2,
+        "title": "Làm bài tập",
+        "pattern": "Làm bài tập",
+        "meaning": "Cấu trúc",
+        "explanation": "N1 là N3 của N2 Câu khẳng định mở rộng với trợ từ の (thuộc về)",
+        "structures": [],
+        "examples": [
+          {
+            "japanese": "やまださんはFPTの社員です。",
+            "reading": "やまださんはFPTのしゃいんです。",
+            "vietnamese": "Anh Yamada là nhân viên của FPT."
+          },
+          {
+            "japanese": "アンさんは東京大学の学生です。",
+            "reading": "アンさんはとうきょうだいがくのがくせいです。",
+            "vietnamese": "Bạn An là sinh viên của trường đại học Tokyo."
+          },
+          {
+            "japanese": "佐藤さんはABCのエンジニアです。",
+            "reading": "さとうさんはABCのエンジニアです。",
+            "vietnamese": "Anh Sato là kỹ sư của công ty ABC."
+          },
+          {
+            "japanese": "ミラーさんはIMCの社員です。",
+            "reading": "ミラーさんはIMCのしゃいんです。",
+            "vietnamese": "Anh Miller là nhân viên của IMC."
+          },
+          {
+            "japanese": "私は日本語センターの先生です。",
+            "reading": "わたしはにほんごセンターのせんせいです。",
+            "vietnamese": "Tôi là giáo viên của trung tâm tiếng Nhật."
+          },
+          {
+            "japanese": "Mẫu tiếp",
+            "reading": "N1 の N2 は N3 です。",
+            "vietnamese": "và"
+          }
+        ],
+        "notes": [
+          "Trợ từ の nối hai danh từ."
+        ]
+      },
+      {
+        "order": 3,
+        "title": "Làm bài tập",
+        "pattern": "Làm bài tập",
+        "meaning": "Cấu trúc",
+        "explanation": "N2 của N1 là N3 Câu khẳng định mở rộng với trợ từ の (sở hữu/chi tiết)",
+        "structures": [],
+        "examples": [
+          {
+            "japanese": "私の趣味は映画です。",
+            "reading": "わたしのしゅみはえいがです。",
+            "vietnamese": "Sở thích của tôi là phim ảnh."
+          },
+          {
+            "japanese": "アンさんの誕生日は６月です。",
+            "reading": "アンさんのたんじょうびはろくがつです。",
+            "vietnamese": "Sinh nhật của bạn An là tháng 6."
+          },
+          {
+            "japanese": "私の電話番号は123です。",
+            "reading": "わたしのでんわばんごうは123です。",
+            "vietnamese": "Số điện thoại của tôi là 123."
+          },
+          {
+            "japanese": "田中さんの専門はコンピューターです。",
+            "reading": "たなかさんのせんもんはコンピューターです。",
+            "vietnamese": "Chuyên môn của anh Tanaka là máy tính."
+          },
+          {
+            "japanese": "私の父の職業は公務員です。",
+            "reading": "わたしのちちのしょくぎょうはこうむいんです。",
+            "vietnamese": "Nghề nghiệp của bố tôi là công chức."
+          },
+          {
+            "japanese": "Mẫu tiếp",
+            "reading": "N1 も N2 です。",
+            "vietnamese": "N1 も N2 です。"
+          }
+        ],
+        "notes": [
+          "Nhấn mạnh vào thông tin N3."
+        ]
+      },
+      {
+        "order": 4,
+        "title": "Làm bài tập",
+        "pattern": "Làm bài tập",
+        "meaning": "Cấu trúc",
+        "explanation": "N1 cũng là N2 Trợ từ も (Cũng là)",
+        "structures": [],
+        "examples": [
+          {
+            "japanese": "私は二十歳です。Bさんも二十歳です。",
+            "reading": "わたしははたちです。Bさんもはたちです。",
+            "vietnamese": "Tôi 20 tuổi. Bạn B cũng 20 tuổi."
+          },
+          {
+            "japanese": "私も学生です。",
+            "reading": "わたしもがくせいです。",
+            "vietnamese": "Tôi cũng là sinh viên."
+          },
+          {
+            "japanese": "田中さんは日本人です。佐藤さんも日本人です。",
+            "reading": "たなかさんはにほんじんです.さとうさんもにほんじんです.",
+            "vietnamese": "Anh Tanaka là người Nhật. Anh Sato cũng là người Nhật."
+          },
+          {
+            "japanese": "この本は五百円です。その本も五百円です。",
+            "reading": "このほんはごひゃくえんです.そのほんもごひゃくえんです.",
+            "vietnamese": "Quyển sách này 500 yên. Quyển sách đó cũng 500 yên."
+          },
+          {
+            "japanese": "マリアさんは主婦です。アンさんも主婦です。",
+            "reading": "マリアさんはしゅふです.アンさんもしゅふです.",
+            "vietnamese": "Chị Maria là nội trợ. Bạn An cũng là nội trợ."
+          },
+          {
+            "japanese": "Mẫu tiếp",
+            "reading": "N1 は N2 じゃありません。",
+            "vietnamese": "N1 は N2 じゃありません。"
+          }
+        ],
+        "notes": [
+          "Trợ từ も thay thế cho は."
+        ]
+      },
+      {
+        "order": 5,
+        "title": "Làm bài tập",
+        "pattern": "Làm bài tập",
+        "meaning": "Cấu trúc",
+        "explanation": "N1 không phải là N2 Câu phủ định của danh từ",
+        "structures": [],
+        "examples": [
+          {
+            "japanese": "さとさんは日本人じゃありません。",
+            "reading": "さとさんはにほんじんじゃありません。",
+            "vietnamese": "Bạn Sato không phải là người Nhật."
+          },
+          {
+            "japanese": "私は学生じゃありません。",
+            "reading": "わたしはがくせいじゃありません。",
+            "vietnamese": "Tôi không phải là sinh viên."
+          },
+          {
+            "japanese": "ミラーさんはアメリカ人じゃありません。",
+            "reading": "ミラーさんはアメリカじんじゃありません。",
+            "vietnamese": "Anh Miller không phải là người Mỹ."
+          },
+          {
+            "japanese": "ここは食堂じゃありません。",
+            "reading": "ここはしょくどうじゃありません。",
+            "vietnamese": "Ở đây không phải là nhà ăn."
+          },
+          {
+            "japanese": "今日は日曜日じゃありません。",
+            "reading": "きょうはにちようびじゃありません。",
+            "vietnamese": "Hôm nay không phải là chủ nhật."
+          },
+          {
+            "japanese": "Mẫu tiếp",
+            "reading": "N1 と N2",
+            "vietnamese": "N1 と N2"
+          }
+        ],
+        "notes": [
+          "じゃありません dùng trong văn nói, ではありません dùng trong văn viết hoặc trang trọng."
+        ]
+      },
+      {
+        "order": 6,
+        "title": "Làm bài tập",
+        "pattern": "Làm bài tập",
+        "meaning": "Cấu trúc",
+        "explanation": "N1 và N2 Trợ từ と (Và)",
+        "structures": [],
+        "examples": [
+          {
+            "japanese": "私の趣味は旅行と料理です。",
+            "reading": "わたしのしゅみはりょこうとりょうりです。",
+            "vietnamese": "Sở thích của tôi là du lịch và nấu ăn."
+          },
+          {
+            "japanese": "アンさんとワンさんは友達です。",
+            "reading": "アンさんとワンさんはともだちです。",
+            "vietnamese": "Bạn An và bạn Wan là bạn bè."
+          },
+          {
+            "japanese": "机の上に本と雑誌があります。",
+            "reading": "つくえのうえにほんとざっしがあります。",
+            "vietnamese": "Trên bàn có sách và tạp chí."
+          },
+          {
+            "japanese": "朝ごはんはパンと卵です。",
+            "reading": "あさごはんはパンとたまごです。",
+            "vietnamese": "Bữa sáng là bánh mì và trứng."
+          },
+          {
+            "japanese": "お土産は時計とカメラです。",
+            "reading": "おみやげはとけいとかめらです。",
+            "vietnamese": "Quà lưu niệm là đồng hồ và máy ảnh."
+          },
+          {
+            "japanese": "Mẫu tiếp",
+            "reading": "N は [Từ hỏi] ですか。",
+            "vietnamese": "N は [Từ hỏi] ですか。"
+          }
+        ],
+        "notes": [
+          "Chỉ dùng để nối danh từ."
+        ]
+      },
+      {
+        "order": 7,
+        "title": "Làm bài tập",
+        "pattern": "Làm bài tập",
+        "meaning": "Cấu trúc",
+        "explanation": "N là [gì/đâu/ai]? Câu hỏi có từ để hỏi",
+        "structures": [],
+        "examples": [
+          {
+            "japanese": "Bさんの国はどちらですか。",
+            "reading": "Bさんのくにはどちらですか。",
+            "vietnamese": "Đất nước của bạn B là ở đâu?"
+          },
+          {
+            "japanese": "お名前は何ですか。",
+            "reading": "おなまえはなんですか。",
+            "vietnamese": "Tên bạn là gì?"
+          },
+          {
+            "japanese": "あの方はどなたですか。",
+            "reading": "あのかたはどなたですか。",
+            "vietnamese": "Vị kia là ai vậy?"
+          },
+          {
+            "japanese": "大学の電話番号は何番ですか。",
+            "reading": "だいがくのでんわばんごうはなんばんですか。",
+            "vietnamese": "Số điện thoại của trường đại học là số mấy?"
+          },
+          {
+            "japanese": "お手洗いはどこですか。",
+            "reading": "おてあらいはどこですか。",
+            "vietnamese": "Nhà vệ sinh ở đâu vậy?"
+          },
+          {
+            "japanese": "Mẫu tiếp",
+            "reading": "N1 は N2 ですか。",
+            "vietnamese": "N1 は N2 ですか。"
+          }
+        ],
+        "notes": [
+          "Cuối câu thêm trợ từ か và lên giọng."
+        ]
+      },
+      {
+        "order": 8,
+        "title": "Làm bài tập",
+        "pattern": "Làm bài tập",
+        "meaning": "Cấu trúc",
+        "explanation": "N1 có phải là N2 không? Câu hỏi Yes/No",
+        "structures": [],
+        "examples": [
+          {
+            "japanese": "Aさんの誕生日は五月ですか。",
+            "reading": "Aさんのたんじょうびはごがつですか。",
+            "vietnamese": "Sinh nhật của bạn A là tháng 5 à?"
+          },
+          {
+            "japanese": "あなたは日本人ですか。",
+            "reading": "あなたはにほんじんですか。",
+            "vietnamese": "Bạn là người Nhật có phải không?"
+          },
+          {
+            "japanese": "佐藤さんは学生ですか。",
+            "reading": "さとうさんはがくせいですか。",
+            "vietnamese": "Anh Sato là sinh viên phải không?"
+          },
+          {
+            "japanese": "これはあなたの傘ですか。",
+            "reading": "これはあなたのかさですか。",
+            "vietnamese": "Đây là ô của bạn phải không?"
+          },
+          {
+            "japanese": "お仕事は会社員ですか。",
+            "reading": "おしごとはかいしゃいんですか。",
+            "vietnamese": "Công việc của bạn là nhân viên công ty phải không?"
+          }
+        ],
+        "notes": [
+          "Trả lời bằng はい hoặc いいえ."
+        ]
+      }
+    ]
+  },
+  {
+    "lessonCode": "LESSON-2",
+    "slug": "grammar-jpd113-n5-2",
+    "title": "Vị trí, Giá cả và Xuất xứ",
+    "description": "Ngữ pháp LESSON-2: Vị trí, Giá cả và Xuất xứ (6 mẫu câu trọng tâm).",
+    "order": 2,
+    "itemCount": 6,
+    "items": [
+      {
+        "order": 1,
+        "title": "Làm bài tập",
+        "pattern": "Làm bài tập",
+        "meaning": "Cấu trúc",
+        "explanation": "~ ở đâu? Hỏi vị trí",
+        "structures": [],
+        "examples": [
+          {
+            "japanese": "トイレはどこですか。",
+            "reading": "トイレはどこですか。",
+            "vietnamese": "Nhà vệ sinh ở đâu?"
+          },
+          {
+            "japanese": "エレベーターはどちらですか。",
+            "reading": "エレベーターはどちらですか。",
+            "vietnamese": "Thang máy ở đâu (hướng nào)?"
+          },
+          {
+            "japanese": "事務所はどこですか。",
+            "reading": "じむしょはどこですか。",
+            "vietnamese": "Văn phòng ở đâu vậy?"
+          },
+          {
+            "japanese": "あなたの国はどちらですか。",
+            "reading": "あなたのくにはどちらですか。",
+            "vietnamese": "Đất nước của bạn là ở đâu (phía nào)?"
+          },
+          {
+            "japanese": "受付はどこですか。",
+            "reading": "うけつけはどこですか。",
+            "vietnamese": "Quầy tiếp tân ở đâu?"
+          },
+          {
+            "japanese": "Mẫu tiếp",
+            "reading": "～は なんかいですか。",
+            "vietnamese": "～は なんかいですか。"
+          }
+        ],
+        "notes": [
+          "どちら còn dùng để hỏi phương hướng."
+        ]
+      },
+      {
+        "order": 2,
+        "title": "Làm bài tập",
+        "pattern": "Làm bài tập",
+        "meaning": "Cấu trúc",
+        "explanation": "~ ở tầng mấy? Hỏi số tầng",
+        "structures": [],
+        "examples": [
+          {
+            "japanese": "レストランは何階ですか。",
+            "reading": "レストランはなんかいですか。",
+            "vietnamese": "Nhà hàng ở tầng mấy?"
+          },
+          {
+            "japanese": "会議室は何階ですか。",
+            "reading": "かいぎしつはなんかいですか。",
+            "vietnamese": "Phòng họp ở tầng mấy?"
+          },
+          {
+            "japanese": "売り場は何階ですか。",
+            "reading": "うりばはなんかいですか。",
+            "vietnamese": "Quầy bán hàng ở tầng mấy?"
+          },
+          {
+            "japanese": "パソコン売り場は何階ですか。",
+            "reading": "パソコンうりばはなんかいですか。",
+            "vietnamese": "Quầy bán máy tính ở tầng mấy?"
+          },
+          {
+            "japanese": "私の部屋は三階です。",
+            "reading": "わたしのへやはさんがいです。",
+            "vietnamese": "Phòng của tôi ở tầng 3."
+          },
+          {
+            "japanese": "Mẫu tiếp",
+            "reading": "N を ください。",
+            "vietnamese": "N を ください。"
+          }
+        ],
+        "notes": [
+          "Trả lời bằng số tầng + かい/がい."
+        ]
+      },
+      {
+        "order": 3,
+        "title": "Làm bài tập",
+        "pattern": "Làm bài tập",
+        "meaning": "Cấu trúc",
+        "explanation": "Cho tôi N / Lấy cho tôi N Yêu cầu/Gọi món",
+        "structures": [],
+        "examples": [
+          {
+            "japanese": "そのTシャツをください。",
+            "reading": "そのTシャツをください。",
+            "vietnamese": "Cho tôi cái áo thun đó."
+          },
+          {
+            "japanese": "りんごを三つください。",
+            "reading": "りんごをみっつください。",
+            "vietnamese": "Cho tôi 3 quả táo."
+          },
+          {
+            "japanese": "このペンをください。",
+            "reading": "このぺんをください。",
+            "vietnamese": "Lấy cho tôi cái bút này."
+          },
+          {
+            "japanese": "コーヒーを二つください。",
+            "reading": "コーヒーをふたつください。",
+            "vietnamese": "Cho tôi 2 ly cà phê."
+          },
+          {
+            "japanese": "水をください。",
+            "reading": "みずをください。",
+            "vietnamese": "Cho tôi xin nước."
+          },
+          {
+            "japanese": "Mẫu tiếp",
+            "reading": "～は いくらですか。",
+            "vietnamese": "～は いくらですか。"
+          }
+        ],
+        "notes": [
+          "Có thể thêm số lượng vào trước ください."
+        ]
+      },
+      {
+        "order": 4,
+        "title": "Làm bài tập",
+        "pattern": "Làm bài tập",
+        "meaning": "Cấu trúc",
+        "explanation": "~ bao nhiêu tiền? Hỏi giá cả",
+        "structures": [],
+        "examples": [
+          {
+            "japanese": "これはいくらですか。",
+            "reading": "これはいくらですか。",
+            "vietnamese": "Cái này bao nhiêu tiền?"
+          },
+          {
+            "japanese": "その靴はいくらですか。",
+            "reading": "そのくつはいくらですか。",
+            "vietnamese": "Đôi giày đó bao nhiêu tiền?"
+          },
+          {
+            "japanese": "このカメラはいくらですか。",
+            "reading": "このかめらはいくらですか。",
+            "vietnamese": "Máy ảnh này bao nhiêu tiền?"
+          },
+          {
+            "japanese": "そのリンゴは一ついくらですか。",
+            "reading": "そのリンゴはひとついくらですか。",
+            "vietnamese": "Quả táo đó bao nhiêu tiền một quả?"
+          },
+          {
+            "japanese": "お勘定はいくらですか。",
+            "reading": "おかんじょうはいくらですか。",
+            "vietnamese": "Thanh toán hết bao nhiêu tiền vậy?"
+          },
+          {
+            "japanese": "Mẫu tiếp",
+            "reading": "～は どこの N ですか。",
+            "vietnamese": "～は どこの N ですか。"
+          }
+        ],
+        "notes": [
+          "いくら là từ hỏi về giá cả."
+        ]
+      },
+      {
+        "order": 5,
+        "title": "Làm bài tập",
+        "pattern": "Làm bài tập",
+        "meaning": "Cấu trúc",
+        "explanation": "N của nước nào/hãng nào? Hỏi về xuất xứ/nơi sản xuất",
+        "structures": [],
+        "examples": [
+          {
+            "japanese": "これはどこのビールですか。",
+            "reading": "これはどこのビールですか。",
+            "vietnamese": "Đây là bia của nước nào?"
+          },
+          {
+            "japanese": "これはどこのカメラですか。",
+            "reading": "これはどこのカメラですか。",
+            "vietnamese": "Đây là máy ảnh của hãng nào (nước nào)?"
+          },
+          {
+            "japanese": "それはどこの車ですか。",
+            "reading": "それはどこのくるまですか。",
+            "vietnamese": "Đó là xe ô tô của hãng nào?"
+          },
+          {
+            "japanese": "これはどこのワインですか。",
+            "reading": "これはどこのワインですか。",
+            "vietnamese": "Đây là rượu vang của nước nào?"
+          },
+          {
+            "japanese": "このネクタイはどこのですか。",
+            "reading": "このねくたいはどこのですか。",
+            "vietnamese": "Cái cà vạt này là của hãng nào?"
+          },
+          {
+            "japanese": "Mẫu tiếp",
+            "reading": "～は だれの N ですか。",
+            "vietnamese": "～は だれの N ですか。"
+          }
+        ],
+        "notes": [
+          "どこの trả lời bằng tên quốc gia hoặc tên công ty."
+        ]
+      },
+      {
+        "order": 6,
+        "title": "Làm bài tập",
+        "pattern": "Làm bài tập",
+        "meaning": "Cấu trúc",
+        "explanation": "N của ai? Hỏi về sở hữu",
+        "structures": [],
+        "examples": [
+          {
+            "japanese": "これはだれの財布ですか。",
+            "reading": "これはだれのさいふですか。",
+            "vietnamese": "Cái ví này của ai?"
+          },
+          {
+            "japanese": "これは誰の傘ですか。",
+            "reading": "これはだれのかさですか。",
+            "vietnamese": "Cái ô này của ai?"
+          },
+          {
+            "japanese": "そのノートは誰のですか。",
+            "reading": "そののーとはだれのですか。",
+            "vietnamese": "Quyển vở đó là của ai?"
+          },
+          {
+            "japanese": "この鍵は誰のですか。",
+            "reading": "このかぎはだれのですか。",
+            "vietnamese": "Chìa khóa này là của ai?"
+          },
+          {
+            "japanese": "あのかばんは誰のですか。",
+            "reading": "あのかばんはだれのですか。",
+            "vietnamese": "Cái cặp kia là của ai?"
+          }
+        ],
+        "notes": [
+          "だれ là từ hỏi về người."
+        ]
+      }
+    ]
+  },
+  {
+    "lessonCode": "LESSON-3",
+    "slug": "grammar-jpd113-n5-3",
+    "title": "Hành động, Thời gian và Địa điểm",
+    "description": "Ngữ pháp LESSON-3: Hành động, Thời gian và Địa điểm (7 mẫu câu trọng tâm).",
+    "order": 3,
+    "itemCount": 7,
+    "items": [
+      {
+        "order": 1,
+        "title": "Làm bài tập",
+        "pattern": "Làm bài tập",
+        "meaning": "Cấu trúc",
+        "explanation": "Làm V / Không làm V Thể khẳng định và phủ định của động từ",
+        "structures": [],
+        "examples": [
+          {
+            "japanese": "毎日、朝ごはんを食べます。",
+            "reading": "まいにち、あさごはんをたべます。",
+            "vietnamese": "Mỗi ngày tôi đều ăn sáng."
+          },
+          {
+            "japanese": "日曜日は働きません。",
+            "reading": "にちようびははたらきません。",
+            "vietnamese": "Chủ nhật tôi không làm việc."
+          },
+          {
+            "japanese": "明日は学校へ行きます。",
+            "reading": "あしたはがっこうへいきます。",
+            "vietnamese": "Ngày mai tôi sẽ đến trường."
+          },
+          {
+            "japanese": "お酒を飲みません。",
+            "reading": "おさけをのみません。",
+            "vietnamese": "Tôi không uống rượu."
+          },
+          {
+            "japanese": "毎晩、日本語を勉強します。",
+            "reading": "まいばん、にほんごをべんきょうします。",
+            "vietnamese": "Mỗi tối tôi đều học tiếng Nhật."
+          },
+          {
+            "japanese": "Mẫu tiếp",
+            "reading": "N (Địa điểm) へ いきます/きます/かえります",
+            "vietnamese": "N (Địa điểm) へ いきます/きます/かえります"
+          }
+        ],
+        "notes": [
+          "Dùng để nói về bản thân hoặc hỏi người khác lịch sự."
+        ]
+      },
+      {
+        "order": 2,
+        "title": "Làm bài tập",
+        "pattern": "Làm bài tập",
+        "meaning": "Cấu trúc",
+        "explanation": "Đi / Đến / Về địa điểm N Di chuyển tới một địa điểm",
+        "structures": [],
+        "examples": [
+          {
+            "japanese": "私は日曜日、図書館へ行きます。",
+            "reading": "わたしはにちようび、としょかんへいきます。",
+            "vietnamese": "Chủ nhật tôi đi đến thư viện."
+          },
+          {
+            "japanese": "明日、東京へ行きます。",
+            "reading": "あした、とうきょうへいきます。",
+            "vietnamese": "Ngày mai tôi sẽ đi Tokyo."
+          },
+          {
+            "japanese": "五時に家へ帰ります。",
+            "reading": "ごじにうちへかえります。",
+            "vietnamese": "Tôi về nhà lúc 5 giờ."
+          },
+          {
+            "japanese": "来週、日本へ来ます。",
+            "reading": "らいしゅう、にほんへきます。",
+            "vietnamese": "Tuần sau tôi sẽ đến Nhật Bản."
+          },
+          {
+            "japanese": "スーパーへ行きます。",
+            "reading": "スーパーへいきます。",
+            "vietnamese": "Tôi đi siêu thị."
+          },
+          {
+            "japanese": "Mẫu tiếp",
+            "reading": "N を Vます",
+            "vietnamese": "N を Vます"
+          }
+        ],
+        "notes": [
+          "Trợ từ へ phát âm là 'e'."
+        ]
+      },
+      {
+        "order": 3,
+        "title": "Làm bài tập",
+        "pattern": "Làm bài tập",
+        "meaning": "Cấu trúc",
+        "explanation": "Làm V cái N Tác động lên tân ngữ",
+        "structures": [],
+        "examples": [
+          {
+            "japanese": "私は毎日、コーヒーを飲みます。",
+            "reading": "わたしはまいにち、コーヒーをのみます。",
+            "vietnamese": "Mỗi ngày tôi đều uống cà phê."
+          },
+          {
+            "japanese": "毎晩、テレビを見ます。",
+            "reading": "まいばん、テレビをみます。",
+            "vietnamese": "Mỗi tối tôi đều xem tivi."
+          },
+          {
+            "japanese": "リンゴを食べます。",
+            "reading": "りんごをたべます。",
+            "vietnamese": "Tôi ăn táo."
+          },
+          {
+            "japanese": "音楽を聞きます。",
+            "reading": "おんがくをききます。",
+            "vietnamese": "Tôi nghe nhạc."
+          },
+          {
+            "japanese": "手紙を書きます。",
+            "reading": "てがみをかきます。",
+            "vietnamese": "Tôi viết thư."
+          },
+          {
+            "japanese": "Mẫu tiếp",
+            "reading": "N (Thời gian) に Vます",
+            "vietnamese": "N (Thời gian) に Vます"
+          }
+        ],
+        "notes": [
+          "Trợ từ を phát âm là 'o'."
+        ]
+      },
+      {
+        "order": 4,
+        "title": "Làm bài tập",
+        "pattern": "Làm bài tập",
+        "meaning": "Cấu trúc",
+        "explanation": "Làm V vào lúc N Hành động vào thời điểm cụ thể",
+        "structures": [],
+        "examples": [
+          {
+            "japanese": "私は八時に起きます。",
+            "reading": "わたしははちじにおきます。",
+            "vietnamese": "Tôi thức dậy lúc 8 giờ."
+          },
+          {
+            "japanese": "夜十一時に寝ます。",
+            "reading": "よるじゅういちじにねます。",
+            "vietnamese": "Tôi đi ngủ lúc 11 giờ đêm."
+          },
+          {
+            "japanese": "土曜日に働きます。",
+            "reading": "どようびにはたらきます。",
+            "vietnamese": "Tôi làm việc vào thứ bảy."
+          },
+          {
+            "japanese": "七月一日に日本へ行きます。",
+            "reading": "しちがつついたちににほんへいきます。",
+            "vietnamese": "Tôi đi Nhật vào ngày 1 tháng 7."
+          },
+          {
+            "japanese": "十時に休みます。",
+            "reading": "じゅうじにやすみます。",
+            "vietnamese": "Tôi nghỉ ngơi lúc 10 giờ."
+          },
+          {
+            "japanese": "Mẫu tiếp",
+            "reading": "N (Địa điểm) で Vます",
+            "vietnamese": "N (Địa điểm) で Vます"
+          }
+        ],
+        "notes": [
+          "Chỉ dùng に với thời gian có con số cụ thể."
+        ]
+      },
+      {
+        "order": 5,
+        "title": "Làm bài tập",
+        "pattern": "Làm bài tập",
+        "meaning": "Cấu trúc",
+        "explanation": "Làm V ở địa điểm N Hành động tại một địa điểm",
+        "structures": [],
+        "examples": [
+          {
+            "japanese": "私は北海道でスキーをします。",
+            "reading": "わたしはほっかいどうでスキーをします。",
+            "vietnamese": "Tôi trượt tuyết ở Hokkaido."
+          },
+          {
+            "japanese": "学校で日本語を勉強します。",
+            "reading": "がっこうでにほんごをべんきょうします。",
+            "vietnamese": "Tôi học tiếng Nhật ở trường."
+          },
+          {
+            "japanese": "食堂で昼ごはんを食べます。",
+            "reading": "しょくどうでひるごはんをたべます。",
+            "vietnamese": "Tôi ăn trưa ở nhà ăn."
+          },
+          {
+            "japanese": "部屋で本を読みます。",
+            "reading": "へやでほんをよみます。",
+            "vietnamese": "Tôi đọc sách ở trong phòng."
+          },
+          {
+            "japanese": "駅で新聞を買います。",
+            "reading": "えきでしんぶんをかいます。",
+            "vietnamese": "Tôi mua báo ở nhà ga."
+          },
+          {
+            "japanese": "Mẫu tiếp",
+            "reading": "N1 から N2 まで",
+            "vietnamese": "N1 から N2 まで"
+          }
+        ],
+        "notes": [
+          "Phân biệt với trợ từ へ (hướng đến)."
+        ]
+      },
+      {
+        "order": 6,
+        "title": "Làm bài tập",
+        "pattern": "Làm bài tập",
+        "meaning": "Cấu trúc",
+        "explanation": "Từ N1 đến N2 Khoảng thời gian/địa điểm",
+        "structures": [],
+        "examples": [
+          {
+            "japanese": "郵便局は九時から五時までです。",
+            "reading": "ゆうびんきょくはくじからごじまでです。",
+            "vietnamese": "Bưu điện mở cửa từ 9 giờ đến 5 giờ."
+          },
+          {
+            "japanese": "東京から大阪まで三時間かかります。",
+            "reading": "とうきょうからおおさかまでさんじかんかかります。",
+            "vietnamese": "Từ Tokyo đến Osaka mất 3 tiếng đồng hồ."
+          },
+          {
+            "japanese": "月曜日から金曜日まで働きます。",
+            "reading": "げつようびからきんようびまではたらきます。",
+            "vietnamese": "Tôi làm việc từ thứ hai đến thứ sáu."
+          },
+          {
+            "japanese": "昼休みは十二時から一時までです。",
+            "reading": "ひるやすみはじゅうにじからいちじまでです。",
+            "vietnamese": "Nghỉ trưa từ 12 giờ đến 1 giờ."
+          },
+          {
+            "japanese": "家から駅まで歩きます。",
+            "reading": "うちからえきまであるきます。",
+            "vietnamese": "Tôi đi bộ từ nhà đến ga."
+          },
+          {
+            "japanese": "Mẫu tiếp",
+            "reading": "N1 や N2 など",
+            "vietnamese": "N1 や N2 など"
+          }
+        ],
+        "notes": [
+          "Có thể dùng lẻ から hoặc まで."
+        ]
+      },
+      {
+        "order": 7,
+        "title": "Làm bài tập",
+        "pattern": "Làm bài tập",
+        "meaning": "Cấu trúc",
+        "explanation": "N1 và N2, v.v... Liệt kê không đầy đủ",
+        "structures": [],
+        "examples": [
+          {
+            "japanese": "私は朝、パンやサラダなどを食べます。",
+            "reading": "わたしはあさ、パンやサラダなどをたべます。",
+            "vietnamese": "Buổi sáng tôi ăn bánh mì, salad, v.v..."
+          },
+          {
+            "japanese": "鞄の中に本やノートなどがあります。",
+            "reading": "かばんのなかにほんやノートなどがあります。",
+            "vietnamese": "Trong túi xách có sách, vở, v.v..."
+          },
+          {
+            "japanese": "店に飲み物や食べ物などがあります。",
+            "reading": "みせにのみものやたべものなどがあります。",
+            "vietnamese": "Ở cửa hàng có đồ uống, đồ ăn, v.v..."
+          },
+          {
+            "japanese": "休みに旅行やスポーツなどをします。",
+            "reading": "やすみにりょこうやすぽーつなどをします。",
+            "vietnamese": "Vào kỳ nghỉ tôi đi du lịch, chơi thể thao, v.v..."
+          },
+          {
+            "japanese": "箱の中に写真や手紙などがあります。",
+            "reading": "はこのなかにしゃしんやてがみなどがあります。",
+            "vietnamese": "Trong hộp có ảnh, thư, v.v..."
+          }
+        ],
+        "notes": [
+          "Khác với と (liệt kê toàn bộ)."
+        ]
+      }
+    ]
+  }
+]

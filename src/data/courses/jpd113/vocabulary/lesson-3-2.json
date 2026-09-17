@@ -1,0 +1,299 @@
+[
+  {
+    "order": 1,
+    "term": "スケジュール",
+    "reading": "スケジュール",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Lịch trình",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "アルバイト",
+    "reading": "アルバイト",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Làm thêm",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "パーティー",
+    "reading": "パーティー",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Bữa tiệc",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "バーベキュー",
+    "reading": "バーベキュー",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Tiệc BBQ",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "はなび",
+    "reading": "はなび",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Pháo hoa",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "はなみ",
+    "reading": "はなみ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Ngắm hoa",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "ホームステイ",
+    "reading": "ホームステイ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Ở homestay",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "まつり",
+    "reading": "まつり",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Lễ hội",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "うみ",
+    "reading": "うみ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Biển",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "こうえん",
+    "reading": "こうえん",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Công viên",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "さくら",
+    "reading": "さくら",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Hoa anh đào",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "おさけ",
+    "reading": "おさけ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Rượu",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "おすし",
+    "reading": "おすし",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Sushi",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "バス",
+    "reading": "バス",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Xe buýt",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "べんとう",
+    "reading": "べんとう",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Cơm hộp",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "りゅうがくせい",
+    "reading": "りゅうがくせい",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Du học sinh",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "いちねん",
+    "reading": "いちねん",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Lượng từ",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "1 năm",
+    "reading": "18.",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "はる",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "はる",
+    "reading": "Danh từ chỉ thời gian",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Mùa xuân",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "なつ",
+    "reading": "なつ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ chỉ thời gian",
+    "meaning": "Mùa hè",
+    "examples": []
+  },
+  {
+    "order": 21,
+    "term": "あき",
+    "reading": "あき",
+    "romaji": "",
+    "partOfSpeech": "Danh từ chỉ thời gian",
+    "meaning": "Mùa thu",
+    "examples": []
+  },
+  {
+    "order": 22,
+    "term": "ふゆ",
+    "reading": "ふゆ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ chỉ thời gian",
+    "meaning": "Mùa đông",
+    "examples": []
+  },
+  {
+    "order": 23,
+    "term": "ゴールデンウイーク",
+    "reading": "ゴールデンウイーク",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Tuần lễ vàng",
+    "examples": []
+  },
+  {
+    "order": 24,
+    "term": "なに",
+    "reading": "なに",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Từ nghi vấn",
+    "examples": []
+  },
+  {
+    "order": 25,
+    "term": "Cái gì",
+    "reading": "24.",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "いきます",
+    "examples": []
+  },
+  {
+    "order": 26,
+    "term": "いきます",
+    "reading": "Động từ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Đi",
+    "examples": []
+  },
+  {
+    "order": 27,
+    "term": "かえります",
+    "reading": "かえります",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "Trở về",
+    "examples": []
+  },
+  {
+    "order": 28,
+    "term": "のみます",
+    "reading": "のみます",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "Uống",
+    "examples": []
+  },
+  {
+    "order": 29,
+    "term": "たべます",
+    "reading": "たべます",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "Ăn",
+    "examples": []
+  },
+  {
+    "order": 30,
+    "term": "みます",
+    "reading": "みます",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "Xem",
+    "examples": []
+  },
+  {
+    "order": 31,
+    "term": "します",
+    "reading": "します",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "Làm",
+    "examples": []
+  },
+  {
+    "order": 32,
+    "term": "スキーをします",
+    "reading": "スキーをします",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "Trượt tuyết",
+    "examples": []
+  },
+  {
+    "order": 33,
+    "term": "いいですね",
+    "reading": "いいですね",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "Hay nhỉ",
+    "examples": []
+  }
+]

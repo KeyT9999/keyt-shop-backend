@@ -1,0 +1,452 @@
+[
+  {
+    "order": 1,
+    "term": "さかな",
+    "reading": "さかな",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Cá",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "にく",
+    "reading": "にく",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Thịt",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "ぎゅうにく",
+    "reading": "ぎゅうにく",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Thịt bò",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "とりにく",
+    "reading": "とりにく",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Thịt gà",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "ぶたにく",
+    "reading": "ぶたにく",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Thịt heo",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "やさい",
+    "reading": "やさい",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Rau",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "イチゴ",
+    "reading": "イチゴ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Dâu tây",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "リンゴ",
+    "reading": "リンゴ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Táo",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "りょうり",
+    "reading": "りょうり",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Món ăn / nấu ăn",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "カレー",
+    "reading": "カレー",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Cà ri",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "スープ",
+    "reading": "スープ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Súp",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "とんかつ",
+    "reading": "とんかつ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Thịt heo chiên xù",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "ハンバーグ",
+    "reading": "ハンバーグ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Hamburger steak",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "ごはん",
+    "reading": "ごはん",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Cơm",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "ライス",
+    "reading": "ライス",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Cơm",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "ジュース",
+    "reading": "ジュース",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Nước ép",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "コーヒー",
+    "reading": "コーヒー",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Cà phê",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "こうちゃ",
+    "reading": "こうちゃ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Trà đen",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "おちゃ",
+    "reading": "おちゃ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Trà",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "ビール",
+    "reading": "ビール",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Bia",
+    "examples": []
+  },
+  {
+    "order": 21,
+    "term": "ワイン",
+    "reading": "ワイン",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Rượu vang",
+    "examples": []
+  },
+  {
+    "order": 22,
+    "term": "インド",
+    "reading": "インド",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Ấn Độ",
+    "examples": []
+  },
+  {
+    "order": 23,
+    "term": "ドイツ",
+    "reading": "ドイツ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Đức",
+    "examples": []
+  },
+  {
+    "order": 24,
+    "term": "フランス",
+    "reading": "フランス",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Pháp",
+    "examples": []
+  },
+  {
+    "order": 25,
+    "term": "さいふ",
+    "reading": "さいふ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Ví",
+    "examples": []
+  },
+  {
+    "order": 26,
+    "term": "えいご",
+    "reading": "えいご",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Tiếng Anh",
+    "examples": []
+  },
+  {
+    "order": 27,
+    "term": "～ご",
+    "reading": "～ご",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Hậu tố",
+    "examples": []
+  },
+  {
+    "order": 28,
+    "term": "Ngôn ngữ ~",
+    "reading": "28.",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "～つ",
+    "examples": []
+  },
+  {
+    "order": 29,
+    "term": "～つ",
+    "reading": "Lượng từ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Cách đếm đồ vật",
+    "examples": []
+  },
+  {
+    "order": 30,
+    "term": "だれ",
+    "reading": "だれ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Từ nghi vấn",
+    "examples": []
+  },
+  {
+    "order": 31,
+    "term": "Ai",
+    "reading": "30.",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "ちゅうもんをおねがいします",
+    "examples": []
+  },
+  {
+    "order": 32,
+    "term": "ちゅうもんをおねがいします",
+    "reading": "Cụm từ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Cho tôi gọi món",
+    "examples": []
+  },
+  {
+    "order": 33,
+    "term": "Nをおねがいします",
+    "reading": "Nをおねがいします",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "Làm ơn cho tôi N",
+    "examples": []
+  },
+  {
+    "order": 34,
+    "term": "どうぞ",
+    "reading": "どうぞ",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "Xin mời",
+    "examples": []
+  },
+  {
+    "order": 35,
+    "term": "ひとつ",
+    "reading": "ひとつ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Số đếm",
+    "examples": []
+  },
+  {
+    "order": 36,
+    "term": "1 cái",
+    "reading": "34.",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "ふたつ",
+    "examples": []
+  },
+  {
+    "order": 37,
+    "term": "ふたつ",
+    "reading": "Số đếm",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "2 cái",
+    "examples": []
+  },
+  {
+    "order": 38,
+    "term": "みっつ",
+    "reading": "みっつ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Số đếm",
+    "examples": []
+  },
+  {
+    "order": 39,
+    "term": "3 cái",
+    "reading": "36.",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "よっつ",
+    "examples": []
+  },
+  {
+    "order": 40,
+    "term": "よっつ",
+    "reading": "Số đếm",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "4 cái",
+    "examples": []
+  },
+  {
+    "order": 41,
+    "term": "いつつ",
+    "reading": "いつつ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Số đếm",
+    "examples": []
+  },
+  {
+    "order": 42,
+    "term": "5 cái",
+    "reading": "38.",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "むっつ",
+    "examples": []
+  },
+  {
+    "order": 43,
+    "term": "むっつ",
+    "reading": "Số đếm",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "6 cái",
+    "examples": []
+  },
+  {
+    "order": 44,
+    "term": "ななつ",
+    "reading": "ななつ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Số đếm",
+    "examples": []
+  },
+  {
+    "order": 45,
+    "term": "7 cái",
+    "reading": "40.",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "やっつ",
+    "examples": []
+  },
+  {
+    "order": 46,
+    "term": "やっつ",
+    "reading": "Số đếm",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "8 cái",
+    "examples": []
+  },
+  {
+    "order": 47,
+    "term": "ここのつ",
+    "reading": "ここのつ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Số đếm",
+    "examples": []
+  },
+  {
+    "order": 48,
+    "term": "9 cái",
+    "reading": "42.",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "とお",
+    "examples": []
+  },
+  {
+    "order": 49,
+    "term": "とお",
+    "reading": "Số đếm",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "10 cái",
+    "examples": []
+  },
+  {
+    "order": 50,
+    "term": "いくつ",
+    "reading": "いくつ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Từ nghi vấn",
+    "examples": []
+  }
+]

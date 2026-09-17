@@ -1,0 +1,1267 @@
+{
+  "courseCode": "JPD123",
+  "totalQuestions": 73,
+  "exams": [
+    {
+      "id": "fe-mock-exam-1",
+      "slug": "de-thi-thu-fe-jpd123-so-1",
+      "title": "Đề Thi Thử Final Exam JPD123 - Đề Số 1 (SU26 RE)",
+      "description": "36 câu trắc nghiệm tổng hợp chuẩn format Final Exam trường FPT, có đồng hồ 60 phút và giải thích chi tiết.",
+      "durationMinutes": 60,
+      "passingScore": 65,
+      "questions": [
+        {
+          "id": "FE-001",
+          "order": 1,
+          "source": "Video 1: Đề thi JPD123_SU26_RE",
+          "questionNumber": "Question 1",
+          "category": "particles",
+          "question": "A: どうして かいませんでしたか。 / B: （  ）。",
+          "options": [
+            "A. たかいからです",
+            "B. たかかったからです",
+            "C. たかくないですから",
+            "D. たかいでしたから"
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "たかかったからです",
+          "explanation": "Đáp án đúng là B (たかかったからです) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-002",
+          "order": 2,
+          "source": "Video 1: Đề thi JPD123_SU26_RE",
+          "questionNumber": "Question 2",
+          "category": "kanji",
+          "question": "あした ABCかいしゃで 【けんがく】します。",
+          "options": [
+            "A. 見学",
+            "B. 見家",
+            "C. 見校",
+            "D. 見問"
+          ],
+          "correctAnswer": "A",
+          "correctAnswerText": "見学",
+          "explanation": "Đáp án đúng là A (見学) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-003",
+          "order": 3,
+          "source": "Video 1: Đề thi JPD123_SU26_RE",
+          "questionNumber": "Question 3",
+          "category": "vocabulary",
+          "question": "（  ）と りょうりを つくります。",
+          "options": [
+            "A. 見家",
+            "B. スーパー",
+            "C. ルームメイト",
+            "D. アパート"
+          ],
+          "correctAnswer": "C",
+          "correctAnswerText": "ルームメイト",
+          "explanation": "Đáp án đúng là C (ルームメイト) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-004",
+          "order": 4,
+          "source": "Video 1: Đề thi JPD123_SU26_RE",
+          "questionNumber": "Question 4",
+          "category": "grammar",
+          "question": "あした やまに（  ）。",
+          "options": [
+            "A. アルバイト",
+            "B. スーパー",
+            "C. あがります",
+            "D. のぼります"
+          ],
+          "correctAnswer": "D",
+          "correctAnswerText": "のぼります",
+          "explanation": "Đáp án đúng là D (のぼります) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-005",
+          "order": 5,
+          "source": "Video 1: Đề thi JPD123_SU26_RE",
+          "questionNumber": "Question 5",
+          "category": "kanji",
+          "question": "あの【おとこ】の 人は だれですか。",
+          "options": [
+            "A. いきます",
+            "B. はいります",
+            "C. 男",
+            "D. あがります"
+          ],
+          "correctAnswer": "C",
+          "correctAnswerText": "男",
+          "explanation": "Đáp án đúng là C (男) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-006",
+          "order": 6,
+          "source": "Video 1: Đề thi JPD123_SU26_RE",
+          "questionNumber": "Question 6",
+          "category": "kanji",
+          "question": "へやに 【小さい】ねこが います。",
+          "options": [
+            "A. 男",
+            "B. 女",
+            "C. ちいさい",
+            "D. 名"
+          ],
+          "correctAnswer": "C",
+          "correctAnswerText": "ちいさい",
+          "explanation": "Đáp án đúng là C (ちいさい) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-007",
+          "order": 7,
+          "source": "Video 1: Đề thi JPD123_SU26_RE",
+          "questionNumber": "Question 7",
+          "category": "particles",
+          "question": "しゅうまつ どこ（  ）行きたいですね。",
+          "options": [
+            "A. 前",
+            "B. ちいさい",
+            "C. か",
+            "D. おおきい"
+          ],
+          "correctAnswer": "C",
+          "correctAnswerText": "か",
+          "explanation": "Đáp án đúng là C (か) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-008",
+          "order": 8,
+          "source": "Video 1: Đề thi JPD123_SU26_RE",
+          "questionNumber": "Question 8",
+          "category": "kanji",
+          "question": "【らいしゅう】、どうぶつえんで ともだちに あいます。",
+          "options": [
+            "A. ふるい",
+            "B. あたらしい",
+            "C. か",
+            "D. 来週"
+          ],
+          "correctAnswer": "D",
+          "correctAnswerText": "来週",
+          "explanation": "Đáp án đúng là D (来週) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-009",
+          "order": 9,
+          "source": "Video 1: Đề thi JPD123_SU26_RE",
+          "questionNumber": "Question 9",
+          "category": "particles",
+          "question": "バスは でんしゃ（  ）やすいです。",
+          "options": [
+            "A. も",
+            "B. で",
+            "C. に",
+            "D. より"
+          ],
+          "correctAnswer": "D",
+          "correctAnswerText": "より",
+          "explanation": "Đáp án đúng là D (より) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-010",
+          "order": 10,
+          "source": "Video 1: Đề thi JPD123_SU26_RE",
+          "questionNumber": "Question 11",
+          "category": "particles",
+          "question": "A: しゅうまつ 何もしませんでした。 / B: （  ）。 / A: いいですね。",
+          "options": [
+            "A. 来週",
+            "B. すこしやすみませんか",
+            "C. 今週",
+            "D. 先週"
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "すこしやすみませんか",
+          "explanation": "Đáp án đúng là B (すこしやすみませんか) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-011",
+          "order": 11,
+          "source": "Video 1: Đề thi JPD123_SU26_RE",
+          "questionNumber": "Question 12",
+          "category": "grammar",
+          "question": "えいごと 日本語と （  ）すきです。",
+          "options": [
+            "A. どちらも",
+            "B. 毎週",
+            "C. より",
+            "D. から"
+          ],
+          "correctAnswer": "A",
+          "correctAnswerText": "どちらも",
+          "explanation": "Đáp án đúng là A (どちらも) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-012",
+          "order": 12,
+          "source": "Video 1: Đề thi JPD123_SU26_RE",
+          "questionNumber": "Question 13",
+          "category": "particles",
+          "question": "ハノイ（  ）サッカーの しあいが あります。",
+          "options": [
+            "A. まで",
+            "B. ほど",
+            "C. で",
+            "D. すこしやすみませんか"
+          ],
+          "correctAnswer": "C",
+          "correctAnswerText": "で",
+          "explanation": "Đáp án đúng là C (で) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-013",
+          "order": 13,
+          "source": "Video 1: Đề thi JPD123_SU26_RE",
+          "questionNumber": "Question 14",
+          "category": "vocabulary",
+          "question": "しゅうまつ（  ）の コンサートが あります。",
+          "options": [
+            "A. ジャズ",
+            "B. やすみましたか",
+            "C. やすみたいです",
+            "D. やすみません"
+          ],
+          "correctAnswer": "A",
+          "correctAnswerText": "ジャズ",
+          "explanation": "Đáp án đúng là A (ジャズ) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-014",
+          "order": 14,
+          "source": "Video 1: Đề thi JPD123_SU26_RE",
+          "questionNumber": "Question 15",
+          "category": "kanji",
+          "question": "【今日】、ともだちと サッカーを します。",
+          "options": [
+            "A. どちらも",
+            "B. どちらが",
+            "C. どれも",
+            "D. きょう"
+          ],
+          "correctAnswer": "D",
+          "correctAnswerText": "きょう",
+          "explanation": "Đáp án đúng là D (きょう) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-015",
+          "order": 15,
+          "source": "Video 1: Đề thi JPD123_SU26_RE",
+          "questionNumber": "Question 16",
+          "category": "particles",
+          "question": "サッカーの チケットが（  ）あります。",
+          "options": [
+            "A. どこも",
+            "B. で",
+            "C. に",
+            "D. にまい"
+          ],
+          "correctAnswer": "D",
+          "correctAnswerText": "にまい",
+          "explanation": "Đáp án đúng là D (にまい) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-016",
+          "order": 16,
+          "source": "Video 1: Đề thi JPD123_SU26_RE",
+          "questionNumber": "Question 17",
+          "category": "grammar",
+          "question": "りんごを（  ）ください。",
+          "options": [
+            "A. を",
+            "B. へ",
+            "C. ジャズ",
+            "D. きって"
+          ],
+          "correctAnswer": "D",
+          "correctAnswerText": "きって",
+          "explanation": "Đáp án đúng là D (きって) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-017",
+          "order": 17,
+          "source": "Video 1: Đề thi JPD123_SU26_RE",
+          "questionNumber": "Question 18",
+          "category": "particles",
+          "question": "やまへ しゃしんを（  ）に行きます。",
+          "options": [
+            "A. とり",
+            "B. ピアノ",
+            "C. ギター",
+            "D. ドラム"
+          ],
+          "correctAnswer": "A",
+          "correctAnswerText": "とり",
+          "explanation": "Đáp án đúng là A (とり) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-018",
+          "order": 18,
+          "source": "Video 1: Đề thi JPD123_SU26_RE",
+          "questionNumber": "Question 19",
+          "category": "particles",
+          "question": "名前を（  ）ください。",
+          "options": [
+            "A. きょう",
+            "B. かいて",
+            "C. あした",
+            "D. きのう"
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "かいて",
+          "explanation": "Đáp án đúng là B (かいて) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-019",
+          "order": 19,
+          "source": "Video 1: Đề thi JPD123_SU26_RE",
+          "questionNumber": "Question 20",
+          "category": "kanji",
+          "question": "きのう【来日】しました。",
+          "options": [
+            "A. おととい",
+            "B. にまい",
+            "C. らいにち",
+            "D. にほん"
+          ],
+          "correctAnswer": "C",
+          "correctAnswerText": "らいにち",
+          "explanation": "Đáp án đúng là C (らいにち) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-020",
+          "order": 20,
+          "source": "Video 1: Đề thi JPD123_SU26_RE",
+          "questionNumber": "Question 21",
+          "category": "grammar",
+          "question": "A: ハノイから 日本まで（  ）ですか。 / B: 五時間くらいです。",
+          "options": [
+            "A. どのくらい",
+            "B. にさつ",
+            "C. にこ",
+            "D. きって"
+          ],
+          "correctAnswer": "A",
+          "correctAnswerText": "どのくらい",
+          "explanation": "Đáp án đúng là A (どのくらい) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-021",
+          "order": 21,
+          "source": "Video 1: Đề thi JPD123_SU26_RE",
+          "questionNumber": "Question 22",
+          "category": "grammar",
+          "question": "（  ）で とんかつが いちばんすきです。",
+          "options": [
+            "A. きりて",
+            "B. きってで",
+            "C. きらなくて",
+            "D. たべもの"
+          ],
+          "correctAnswer": "D",
+          "correctAnswerText": "たべもの",
+          "explanation": "Đáp án đúng là D (たべもの) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-022",
+          "order": 22,
+          "source": "Video 1: Đề thi JPD123_SU26_RE",
+          "questionNumber": "Question 23",
+          "category": "particles",
+          "question": "おんせんは（  ）です。",
+          "options": [
+            "A. とり",
+            "B. とって",
+            "C. とる",
+            "D. きもちがいい"
+          ],
+          "correctAnswer": "D",
+          "correctAnswerText": "きもちがいい",
+          "explanation": "Đáp án đúng là D (きもちがいい) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-023",
+          "order": 23,
+          "source": "Video 1: Đề thi JPD123_SU26_RE",
+          "questionNumber": "Question 24",
+          "category": "grammar",
+          "question": "えいごと 日本語と（  ）が むずかしいですか。",
+          "options": [
+            "A. とりに",
+            "B. かいて",
+            "C. どちら",
+            "D. かきて"
+          ],
+          "correctAnswer": "C",
+          "correctAnswerText": "どちら",
+          "explanation": "Đáp án đúng là C (どちら) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-024",
+          "order": 24,
+          "source": "Video 1: Đề thi JPD123_SU26_RE",
+          "questionNumber": "Question 25",
+          "category": "grammar",
+          "question": "Hong Kongは（  ）ところです。",
+          "options": [
+            "A. きれいな",
+            "B. かかないで",
+            "C. かく",
+            "D. らいにち"
+          ],
+          "correctAnswer": "A",
+          "correctAnswerText": "きれいな",
+          "explanation": "Đáp án đúng là A (きれいな) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-025",
+          "order": 25,
+          "source": "Video 1: Đề thi JPD123_SU26_RE",
+          "questionNumber": "Question 26",
+          "category": "particles",
+          "question": "きのうは てんきが（  ）。",
+          "options": [
+            "A. きょうにち",
+            "B. きにち",
+            "C. よかったです",
+            "D. くひ"
+          ],
+          "correctAnswer": "C",
+          "correctAnswerText": "よかったです",
+          "explanation": "Đáp án đúng là C (よかったです) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-026",
+          "order": 26,
+          "source": "Video 1: Đề thi JPD123_SU26_RE",
+          "questionNumber": "Question 27",
+          "category": "particles",
+          "question": "ねこは へや（  ）なか（  ）います。",
+          "options": [
+            "A. きれいでした",
+            "B. たかいからです",
+            "C. たかくないですから",
+            "D. たかいでしたから"
+          ],
+          "correctAnswer": "A",
+          "correctAnswerText": "きれいでした",
+          "explanation": "Đáp án đúng là A (きれいでした) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-027",
+          "order": 27,
+          "source": "Video 2: Đề thi JPD123_SU26_FE_276190",
+          "questionNumber": "Question 1",
+          "category": "kanji",
+          "question": "日本に【半年】います。",
+          "options": [
+            "A. はんとし",
+            "B. 見学",
+            "C. 見校",
+            "D. 見問"
+          ],
+          "correctAnswer": "A",
+          "correctAnswerText": "はんとし",
+          "explanation": "Đáp án đúng là A (はんとし) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-028",
+          "order": 28,
+          "source": "Video 2: Đề thi JPD123_SU26_FE_276190",
+          "questionNumber": "Question 2",
+          "category": "kanji",
+          "question": "【毎月】バーベキューを します。",
+          "options": [
+            "A. 見家",
+            "B. ルームメイト",
+            "C. まいづき",
+            "D. アパート"
+          ],
+          "correctAnswer": "C",
+          "correctAnswerText": "まいづき",
+          "explanation": "Đáp án đúng là C (まいづき) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-029",
+          "order": 29,
+          "source": "Video 2: Đề thi JPD123_SU26_FE_276190",
+          "questionNumber": "Question 3",
+          "category": "kanji",
+          "question": "大学の【休日】は いつですか。",
+          "options": [
+            "A. きゅうじつ",
+            "B. アルバイト",
+            "C. スーパー",
+            "D. のぼります"
+          ],
+          "correctAnswer": "A",
+          "correctAnswerText": "きゅうじつ",
+          "explanation": "Đáp án đúng là A (きゅうじつ) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-030",
+          "order": 30,
+          "source": "Video 2: Đề thi JPD123_SU26_FE_276190",
+          "questionNumber": "Question 4",
+          "category": "kanji",
+          "question": "ばんごうは【ごぜん】983です。",
+          "options": [
+            "A. 午前",
+            "B. いきます",
+            "C. はいります",
+            "D. あがります"
+          ],
+          "correctAnswer": "A",
+          "correctAnswerText": "午前",
+          "explanation": "Đáp án đúng là A (午前) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-031",
+          "order": 31,
+          "source": "Video 2: Đề thi JPD123_SU26_FE_276190",
+          "questionNumber": "Question 5",
+          "category": "kanji",
+          "question": "【くに】は どちらですか。",
+          "options": [
+            "A. 男",
+            "B. 女",
+            "C. 国",
+            "D. 名"
+          ],
+          "correctAnswer": "C",
+          "correctAnswerText": "国",
+          "explanation": "Đáp án đúng là C (国) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-032",
+          "order": 32,
+          "source": "Video 2: Đề thi JPD123_SU26_FE_276190",
+          "questionNumber": "Question 6",
+          "category": "kanji",
+          "question": "どんな【りょうり】が すきですか。",
+          "options": [
+            "A. 料理",
+            "B. 前",
+            "C. ちいさい",
+            "D. おおきい"
+          ],
+          "correctAnswer": "A",
+          "correctAnswerText": "料理",
+          "explanation": "Đáp án đúng là A (料理) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-033",
+          "order": 33,
+          "source": "Video 2: Đề thi JPD123_SU26_FE_276190",
+          "questionNumber": "Question 7",
+          "category": "grammar",
+          "question": "今 ギターを（  ）います。",
+          "options": [
+            "A. ふるい",
+            "B. ひいて",
+            "C. あたらしい",
+            "D. か"
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "ひいて",
+          "explanation": "Đáp án đúng là B (ひいて) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-034",
+          "order": 34,
+          "source": "Video 2: Đề thi JPD123_SU26_FE_276190",
+          "questionNumber": "Question 8",
+          "category": "grammar",
+          "question": "先週 ともだちの いえへ（  ）。",
+          "options": [
+            "A. も",
+            "B. いきました",
+            "C. で",
+            "D. に"
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "いきました",
+          "explanation": "Đáp án đúng là B (いきました) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-035",
+          "order": 35,
+          "source": "Video 2: Đề thi JPD123_SU26_FE_276190",
+          "questionNumber": "Question 9",
+          "category": "grammar",
+          "question": "日本の 食べ物で（  ）すしが すきです。",
+          "options": [
+            "A. いちばん",
+            "B. 来週",
+            "C. 今週",
+            "D. 先週"
+          ],
+          "correctAnswer": "A",
+          "correctAnswerText": "いちばん",
+          "explanation": "Đáp án đúng là A (いちばん) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-036",
+          "order": 36,
+          "source": "Video 2: Đề thi JPD123_SU26_FE_276190",
+          "questionNumber": "Question 10",
+          "category": "grammar",
+          "question": "このケーキは あまい（  ）、おいしいです。",
+          "options": [
+            "A. 毎週",
+            "B. より",
+            "C. から",
+            "D. そして"
+          ],
+          "correctAnswer": "D",
+          "correctAnswerText": "そして",
+          "explanation": "Đáp án đúng là D (そして) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        }
+      ]
+    },
+    {
+      "id": "fe-mock-exam-2",
+      "slug": "de-thi-thu-fe-jpd123-so-2",
+      "title": "Đề Thi Thử Final Exam JPD123 - Đề Số 2 (SU26 FE & SP26)",
+      "description": "37 câu trắc nghiệm bao quát từ vựng, ngữ pháp, kanji và đọc hiểu ngắn các kỳ thi gần nhất.",
+      "durationMinutes": 60,
+      "passingScore": 65,
+      "questions": [
+        {
+          "id": "FE-037",
+          "order": 37,
+          "source": "Video 2: Đề thi JPD123_SU26_FE_276190",
+          "questionNumber": "Question 11",
+          "category": "grammar",
+          "question": "今 うちの なかに 女の人が（  ）。",
+          "options": [
+            "A. まで",
+            "B. ほど",
+            "C. すこしやすみませんか",
+            "D. います"
+          ],
+          "correctAnswer": "D",
+          "correctAnswerText": "います",
+          "explanation": "Đáp án đúng là D (います) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-038",
+          "order": 38,
+          "source": "Video 2: Đề thi JPD123_SU26_FE_276190",
+          "questionNumber": "Question 12",
+          "category": "grammar",
+          "question": "A: ビールは まだ ありますか。 / B: いいえ、（  ）ありません。",
+          "options": [
+            "A. もう",
+            "B. やすみましたか",
+            "C. やすみたいです",
+            "D. やすみません"
+          ],
+          "correctAnswer": "A",
+          "correctAnswerText": "もう",
+          "explanation": "Đáp án đúng là A (もう) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-039",
+          "order": 39,
+          "source": "Video 2: Đề thi JPD123_SU26_FE_276190",
+          "questionNumber": "Question 14",
+          "category": "particles",
+          "question": "カレーの（  ）をおしえます。",
+          "options": [
+            "A. どちらも",
+            "B. つくりかた",
+            "C. どちらが",
+            "D. どれも"
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "つくりかた",
+          "explanation": "Đáp án đúng là B (つくりかた) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-040",
+          "order": 40,
+          "source": "Video 2: Đề thi JPD123_SU26_FE_276190",
+          "questionNumber": "Question 15",
+          "category": "particles",
+          "question": "けさ、10時に おきましたから、（  ）。",
+          "options": [
+            "A. どこも",
+            "B. で",
+            "C. 何も たべませんでした",
+            "D. に"
+          ],
+          "correctAnswer": "C",
+          "correctAnswerText": "何も たべませんでした",
+          "explanation": "Đáp án đúng là C (何も たべませんでした) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-041",
+          "order": 41,
+          "source": "Video 2: Đề thi JPD123_SU26_FE_276190",
+          "questionNumber": "Question 17",
+          "category": "grammar",
+          "question": "A: 日本で（  ）が いちばん さむいですか。 / B: 北海道が いちばん さむいです。",
+          "options": [
+            "A. を",
+            "B. へ",
+            "C. どこ",
+            "D. ジャズ"
+          ],
+          "correctAnswer": "C",
+          "correctAnswerText": "どこ",
+          "explanation": "Đáp án đúng là C (どこ) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-042",
+          "order": 42,
+          "source": "Video 2: Đề thi JPD123_SU26_FE_276190",
+          "questionNumber": "Question 18",
+          "category": "particles",
+          "question": "A: 先週の週末、（  ）行きましたか。 / B: いいえ、どこも 行きませんでした。",
+          "options": [
+            "A. どこか",
+            "B. ピアノ",
+            "C. ギター",
+            "D. ドラム"
+          ],
+          "correctAnswer": "A",
+          "correctAnswerText": "どこか",
+          "explanation": "Đáp án đúng là A (どこか) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-043",
+          "order": 43,
+          "source": "Video 2: Đề thi JPD123_SU26_FE_276190",
+          "questionNumber": "Question 20",
+          "category": "particles",
+          "question": "私は（  ）、ともだちに でんわを かけます。",
+          "options": [
+            "A. きょう",
+            "B. あした",
+            "C. きのう",
+            "D. かけます"
+          ],
+          "correctAnswer": "D",
+          "correctAnswerText": "かけます",
+          "explanation": "Đáp án đúng là D (かけます) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-044",
+          "order": 44,
+          "source": "Video 2: Đề thi JPD123_SU26_FE_276190",
+          "questionNumber": "Question 21",
+          "category": "grammar",
+          "question": "スープに（  ）を いれます。",
+          "options": [
+            "A. おととい",
+            "B. しお",
+            "C. にまい",
+            "D. にほん"
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "しお",
+          "explanation": "Đáp án đúng là B (しお) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-045",
+          "order": 45,
+          "source": "Video 2: Đề thi JPD123_SU26_FE_276190",
+          "questionNumber": "Question 22",
+          "category": "grammar",
+          "question": "（  ）が ありませんから、うみへ 行きません。",
+          "options": [
+            "A. にさつ",
+            "B. にこ",
+            "C. みずぎ",
+            "D. きって"
+          ],
+          "correctAnswer": "C",
+          "correctAnswerText": "みずぎ",
+          "explanation": "Đáp án đúng là C (みずぎ) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-046",
+          "order": 46,
+          "source": "Video 2: Đề thi JPD123_SU26_FE_276190",
+          "questionNumber": "Question 23",
+          "category": "grammar",
+          "question": "あしたは（  ）ですから、ひるまで、ねたいです。",
+          "options": [
+            "A. きりて",
+            "B. ひま",
+            "C. きってで",
+            "D. きらなくて"
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "ひま",
+          "explanation": "Đáp án đúng là B (ひま) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-047",
+          "order": 47,
+          "source": "Video 2: Đề thi JPD123_SU26_FE_276190",
+          "questionNumber": "Question 24",
+          "category": "grammar",
+          "question": "明日（  ）を あらいます。",
+          "options": [
+            "A. とり",
+            "B. コップ",
+            "C. とって",
+            "D. とる"
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "コップ",
+          "explanation": "Đáp án đúng là B (コップ) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-048",
+          "order": 48,
+          "source": "Video 2: Đề thi JPD123_SU26_FE_276190",
+          "questionNumber": "Question 25",
+          "category": "grammar",
+          "question": "なに（  ）ほしくないです。",
+          "options": [
+            "A. とりに",
+            "B. も",
+            "C. かいて",
+            "D. かきて"
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "も",
+          "explanation": "Đáp án đúng là B (も) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-049",
+          "order": 49,
+          "source": "Video 2: Đề thi JPD123_SU26_FE_276190",
+          "questionNumber": "Question 27",
+          "category": "particles",
+          "question": "A: 土曜日 どこ（  ）行きますか。 / B: はい、こうえんへ 行きます。",
+          "options": [
+            "A. かかないで",
+            "B. か",
+            "C. かく",
+            "D. らいにち"
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "か",
+          "explanation": "Đáp án đúng là B (か) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-050",
+          "order": 50,
+          "source": "Video 3: Đề thi JPD123_SP26_RE",
+          "questionNumber": "Question 1",
+          "category": "kanji",
+          "question": "モスクワは ロシアの【東】です。",
+          "options": [
+            "A. ひがし",
+            "B. きょうにち",
+            "C. きにち",
+            "D. くひ"
+          ],
+          "correctAnswer": "A",
+          "correctAnswerText": "ひがし",
+          "explanation": "Đáp án đúng là A (ひがし) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-051",
+          "order": 51,
+          "source": "Video 3: Đề thi JPD123_SP26_RE",
+          "questionNumber": "Question 2",
+          "category": "kanji",
+          "question": "来週【お寺】へ いきます。",
+          "options": [
+            "A. おてら",
+            "B. たかいからです",
+            "C. たかくないですから",
+            "D. たかいでしたから"
+          ],
+          "correctAnswer": "A",
+          "correctAnswerText": "おてら",
+          "explanation": "Đáp án đúng là A (おてら) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-052",
+          "order": 52,
+          "source": "Video 3: Đề thi JPD123_SP26_RE",
+          "questionNumber": "Question 3",
+          "category": "kanji",
+          "question": "平日、としょかんへ【行きます】。",
+          "options": [
+            "A. いきます",
+            "B. 見学",
+            "C. 見校",
+            "D. 見問"
+          ],
+          "correctAnswer": "A",
+          "correctAnswerText": "いきます",
+          "explanation": "Đáp án đúng là A (いきます) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-053",
+          "order": 53,
+          "source": "Video 3: Đề thi JPD123_SP26_RE",
+          "questionNumber": "Question 4",
+          "category": "kanji",
+          "question": "【先週】、はいきんぐへ いきました。",
+          "options": [
+            "A. せんしゅう",
+            "B. 見家",
+            "C. ルームメイト",
+            "D. アパート"
+          ],
+          "correctAnswer": "A",
+          "correctAnswerText": "せんしゅう",
+          "explanation": "Đáp án đúng là A (せんしゅう) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-054",
+          "order": 54,
+          "source": "Video 3: Đề thi JPD123_SP26_RE",
+          "questionNumber": "Question 5",
+          "category": "kanji",
+          "question": "【こんげつ】、しんじゅくへ 行きます。",
+          "options": [
+            "A. 今月",
+            "B. アルバイト",
+            "C. スーパー",
+            "D. のぼります"
+          ],
+          "correctAnswer": "A",
+          "correctAnswerText": "今月",
+          "explanation": "Đáp án đúng là A (今月) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-055",
+          "order": 55,
+          "source": "Video 3: Đề thi JPD123_SP26_RE",
+          "questionNumber": "Question 6",
+          "category": "kanji",
+          "question": "にちじょう 【さどうまつり】が あります。",
+          "options": [
+            "A. いきます",
+            "B. はいります",
+            "C. 茶道祭",
+            "D. あがります"
+          ],
+          "correctAnswer": "C",
+          "correctAnswerText": "茶道祭",
+          "explanation": "Đáp án đúng là C (茶道祭) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-056",
+          "order": 56,
+          "source": "Video 3: Đề thi JPD123_SP26_RE",
+          "questionNumber": "Question 8",
+          "category": "particles",
+          "question": "さむいですから、まだ（  ）。",
+          "options": [
+            "A. 男",
+            "B. あけないでください",
+            "C. 女",
+            "D. 名"
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "あけないでください",
+          "explanation": "Đáp án đúng là B (あけないでください) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-057",
+          "order": 57,
+          "source": "Video 3: Đề thi JPD123_SP26_RE",
+          "questionNumber": "Question 9",
+          "category": "grammar",
+          "question": "たとえばとうきょうから アジアまで 舟とひこうきと（  ）が はやいですか。",
+          "options": [
+            "A. 前",
+            "B. ちいさい",
+            "C. どちら",
+            "D. おおきい"
+          ],
+          "correctAnswer": "C",
+          "correctAnswerText": "どちら",
+          "explanation": "Đáp án đúng là C (どちら) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-058",
+          "order": 58,
+          "source": "Video 3: Đề thi JPD123_SP26_RE",
+          "questionNumber": "Question 10",
+          "category": "grammar",
+          "question": "（  ）へ かばんを 買いに 行きます。",
+          "options": [
+            "A. ふるい",
+            "B. あたらしい",
+            "C. デパート",
+            "D. か"
+          ],
+          "correctAnswer": "C",
+          "correctAnswerText": "デパート",
+          "explanation": "Đáp án đúng là C (デパート) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-059",
+          "order": 59,
+          "source": "Video 3: Đề thi JPD123_SP26_RE",
+          "questionNumber": "Question 11",
+          "category": "particles",
+          "question": "私の くには ちいさいです（  ）人が おおいです。",
+          "options": [
+            "A. も",
+            "B. が",
+            "C. で",
+            "D. に"
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "が",
+          "explanation": "Đáp án đúng là B (が) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-060",
+          "order": 60,
+          "source": "Video 3: Đề thi JPD123_SP26_RE",
+          "questionNumber": "Question 12",
+          "category": "particles",
+          "question": "しゅうまつ、いっしょに サッカーを（  ）か。",
+          "options": [
+            "A. 来週",
+            "B. しませんか",
+            "C. 今週",
+            "D. 先週"
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "しませんか",
+          "explanation": "Đáp án đúng là B (しませんか) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-061",
+          "order": 61,
+          "source": "Video 3: Đề thi JPD123_SP26_RE",
+          "questionNumber": "Question 13",
+          "category": "grammar",
+          "question": "Ghép câu hoàn chỉnh: こうえん / まち / 私の / おおきい / あります/ には",
+          "options": [
+            "A. 毎週",
+            "B. 私の まちに おおきい こうえんが あります。",
+            "C. より",
+            "D. から"
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "私の まちに おおきい こうえんが あります。",
+          "explanation": "Đáp án đúng là B (私の まちに おおきい こうえんが あります。) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-062",
+          "order": 62,
+          "source": "Video 3: Đề thi JPD123_SP26_RE",
+          "questionNumber": "Question 15",
+          "category": "particles",
+          "question": "きのうの よる、私は（  ）ゲームを しました。",
+          "options": [
+            "A. ひとりで",
+            "B. まで",
+            "C. ほど",
+            "D. すこしやすみませんか"
+          ],
+          "correctAnswer": "A",
+          "correctAnswerText": "ひとりで",
+          "explanation": "Đáp án đúng là A (ひとりで) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-063",
+          "order": 63,
+          "source": "Video 3: Đề thi JPD123_SP26_RE",
+          "questionNumber": "Question 16",
+          "category": "particles",
+          "question": "今年の ふゆ、（  ）へ スキーを しに 行きます。",
+          "options": [
+            "A. ほっかいどう",
+            "B. やすみましたか",
+            "C. やすみたいです",
+            "D. やすみません"
+          ],
+          "correctAnswer": "A",
+          "correctAnswerText": "ほっかいどう",
+          "explanation": "Đáp án đúng là A (ほっかいどう) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-064",
+          "order": 64,
+          "source": "Video 3: Đề thi JPD123_SP26_RE",
+          "questionNumber": "Question 19",
+          "category": "particles",
+          "question": "A: きのうの パーティーは たのしかったですか。 / B: いいえ、（  ）です。",
+          "options": [
+            "A. たのしくなかった",
+            "B. どちらも",
+            "C. どちらが",
+            "D. どれも"
+          ],
+          "correctAnswer": "A",
+          "correctAnswerText": "たのしくなかった",
+          "explanation": "Đáp án đúng là A (たのしくなかった) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-065",
+          "order": 65,
+          "source": "Video 3: Đề thi JPD123_SP26_RE",
+          "questionNumber": "Question 20",
+          "category": "grammar",
+          "question": "Ghép câu hoàn chỉnh: さいたま / とても / 1月 / 私 / まち / です",
+          "options": [
+            "A. どこも",
+            "B. 私の まちは 1月 とても さむいです。",
+            "C. で",
+            "D. に"
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "私の まちは 1月 とても さむいです。",
+          "explanation": "Đáp án đúng là B (私の まちは 1月 とても さむいです。) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-066",
+          "order": 66,
+          "source": "Video 3: Đề thi JPD123_SP26_RE",
+          "questionNumber": "Question 21",
+          "category": "grammar",
+          "question": "Nghĩa tiếng Việt của từ: \"てんきが わるい\"",
+          "options": [
+            "A. を",
+            "B. へ",
+            "C. ジャズ",
+            "D. Thời tiết xấu"
+          ],
+          "correctAnswer": "D",
+          "correctAnswerText": "Thời tiết xấu",
+          "explanation": "Đáp án đúng là D (Thời tiết xấu) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-067",
+          "order": 67,
+          "source": "Video 3: Đề thi JPD123_SP26_RE",
+          "questionNumber": "Question 22",
+          "category": "particles",
+          "question": "この ほんやは えきから（  ）です。",
+          "options": [
+            "A. ピアノ",
+            "B. とおい",
+            "C. ギター",
+            "D. ドラム"
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "とおい",
+          "explanation": "Đáp án đúng là B (とおい) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-068",
+          "order": 68,
+          "source": "Video 3: Đề thi JPD123_SP26_RE",
+          "questionNumber": "Question 24",
+          "category": "grammar",
+          "question": "Chọn từ khác loại: すっぱい, ふるい, からい, あまい",
+          "options": [
+            "A. きょう",
+            "B. ふるい",
+            "C. あした",
+            "D. きのう"
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "ふるい",
+          "explanation": "Đáp án đúng là B (ふるい) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-069",
+          "order": 69,
+          "source": "Video 3: Đề thi JPD123_SP26_RE",
+          "questionNumber": "Question 25",
+          "category": "grammar",
+          "question": "Nghĩa tiếng Việt của từ: \"きょうかい\"",
+          "options": [
+            "A. おととい",
+            "B. Nhà thờ",
+            "C. にまい",
+            "D. にほん"
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "Nhà thờ",
+          "explanation": "Đáp án đúng là B (Nhà thờ) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-070",
+          "order": 70,
+          "source": "Video 3: Đề thi JPD123_SP26_RE",
+          "questionNumber": "Question 27",
+          "category": "grammar",
+          "question": "Từ KHÔNG CÙNG NHÓM: バス, ビル, くるま, ひこうき",
+          "options": [
+            "A. にさつ",
+            "B. ビル",
+            "C. にこ",
+            "D. きって"
+          ],
+          "correctAnswer": "B",
+          "correctAnswerText": "ビル",
+          "explanation": "Đáp án đúng là B (ビル) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-071",
+          "order": 71,
+          "source": "Video 3: Đề thi JPD123_SP26_RE",
+          "questionNumber": "Question 28 (Passage)",
+          "category": "grammar",
+          "question": "Điền vào (1): 日曜日、ともだちと ちかくの やまに（ 1 ）。",
+          "options": [
+            "A. きりて",
+            "B. きってで",
+            "C. のぼりました",
+            "D. きらなくて"
+          ],
+          "correctAnswer": "C",
+          "correctAnswerText": "のぼりました",
+          "explanation": "Đáp án đúng là C (のぼりました) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-072",
+          "order": 72,
+          "source": "Video 3: Đề thi JPD123_SP26_RE",
+          "questionNumber": "Question 29 (Passage)",
+          "category": "grammar",
+          "question": "Điền vào (2): やまの上で、おべんとうを（ 2 ）。",
+          "options": [
+            "A. たべました",
+            "B. とり",
+            "C. とって",
+            "D. とる"
+          ],
+          "correctAnswer": "A",
+          "correctAnswerText": "たべました",
+          "explanation": "Đáp án đúng là A (たべました) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        },
+        {
+          "id": "FE-073",
+          "order": 73,
+          "source": "Video 3: Đề thi JPD123_SP26_RE",
+          "questionNumber": "Question 30 (Passage)",
+          "category": "grammar",
+          "question": "やまからの けしきは どうでしたか。",
+          "options": [
+            "A. きれいでした",
+            "B. とりに",
+            "C. かいて",
+            "D. かきて"
+          ],
+          "correctAnswer": "A",
+          "correctAnswerText": "きれいでした",
+          "explanation": "Đáp án đúng là A (きれいでした) theo ngữ pháp và từ vựng trọng tâm giáo trình JPD123."
+        }
+      ]
+    }
+  ]
+}

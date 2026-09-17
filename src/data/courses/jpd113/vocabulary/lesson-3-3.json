@@ -1,0 +1,281 @@
+[
+  {
+    "order": 1,
+    "term": "あさ",
+    "reading": "あさ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ chỉ thời gian",
+    "meaning": "Buổi sáng",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "よる",
+    "reading": "よる",
+    "romaji": "",
+    "partOfSpeech": "Danh từ chỉ thời gian",
+    "meaning": "Buổi tối",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "まいにち",
+    "reading": "まいにち",
+    "romaji": "",
+    "partOfSpeech": "Danh từ chỉ thời gian",
+    "meaning": "Mỗi ngày",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "まいあさ",
+    "reading": "まいあさ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ chỉ thời gian",
+    "meaning": "Mỗi sáng",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "まいばん",
+    "reading": "まいばん",
+    "romaji": "",
+    "partOfSpeech": "Danh từ chỉ thời gian",
+    "meaning": "Mỗi tối",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "あさごはん",
+    "reading": "あさごはん",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Bữa sáng",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "ひるごはん",
+    "reading": "ひるごはん",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Bữa trưa",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "うち",
+    "reading": "うち",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Nhà",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "かいしゃ",
+    "reading": "かいしゃ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Công ty",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "가っこう",
+    "reading": "がっこう",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Trường học",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "コンビニ",
+    "reading": "コンビニ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Cửa hàng tiện lợi",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "ぎゅうにゅう",
+    "reading": "ぎゅうにゅう",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Sữa bò",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "くだもの",
+    "reading": "くだもの",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Trái cây",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "サラダ",
+    "reading": "サラダ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Salad",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "チーズ",
+    "reading": "チーズ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Phô mai",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "インターネット",
+    "reading": "インターネット",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Internet",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "しんぶん",
+    "reading": "しんぶん",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Báo",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "テレビ",
+    "reading": "テレビ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "TV",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "CD",
+    "reading": "CD",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Đĩa CD",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "DVD",
+    "reading": "DVD",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Đĩa DVD",
+    "examples": []
+  },
+  {
+    "order": 21,
+    "term": "なにも",
+    "reading": "なにも",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Từ nghi vấn",
+    "examples": []
+  },
+  {
+    "order": 22,
+    "term": "Không gì cả",
+    "reading": "22.",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "どこへも",
+    "examples": []
+  },
+  {
+    "order": 23,
+    "term": "どこへも",
+    "reading": "Từ nghi vấn",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Đâu cũng không",
+    "examples": []
+  },
+  {
+    "order": 24,
+    "term": "かいます",
+    "reading": "かいます",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "Mua",
+    "examples": []
+  },
+  {
+    "order": 25,
+    "term": "ききます",
+    "reading": "ききます",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "Nghe",
+    "examples": []
+  },
+  {
+    "order": 26,
+    "term": "はたらきます",
+    "reading": "はたらきます",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "Làm việc",
+    "examples": []
+  },
+  {
+    "order": 27,
+    "term": "よみます",
+    "reading": "よみます",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "Đọc",
+    "examples": []
+  },
+  {
+    "order": 28,
+    "term": "おきます",
+    "reading": "おきます",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "Thức dậy",
+    "examples": []
+  },
+  {
+    "order": 29,
+    "term": "ねます",
+    "reading": "ねます",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "Ngủ",
+    "examples": []
+  },
+  {
+    "order": 30,
+    "term": "べんきょうします",
+    "reading": "べんきょうします",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "Học",
+    "examples": []
+  },
+  {
+    "order": 31,
+    "term": "きます",
+    "reading": "きます",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "Đến",
+    "examples": []
+  }
+]

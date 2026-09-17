@@ -1,0 +1,841 @@
+{
+  "courseCode": "jpd113",
+  "title": "Hệ Thống Luyện Thi Nói Tiếng Nhật Sơ Cấp JPD113",
+  "examFormat": {
+    "durationMinutes": 6,
+    "totalScore": 100,
+    "passingScore": 50,
+    "parts": [
+      {
+        "name": "Part 1: Đọc Đoạn Văn (Mã đề A)",
+        "score": 45,
+        "prepTimeSeconds": 20,
+        "criteria": "Phát âm chính xác chữ Hán (15đ), Katakana (10đ), âm ngắt/trường âm Hiragana (20đ)"
+      },
+      {
+        "name": "Part 2: Vấn Đáp Q&A (Mã đề B)",
+        "score": 45,
+        "questionsCount": 3,
+        "criteria": "1 câu có tranh (15đ) + 2 câu vấn đáp trực tiếp (30đ). Tối đa 3 lần nghe/câu, đếm ngược 10s"
+      },
+      {
+        "name": "Part 3: Tác Phong & Phản Xạ",
+        "score": 10,
+        "criteria": "Chào hỏi khi vào/ra phòng, thái độ tự tin, sử dụng câu cứu cánh khi cần"
+      }
+    ]
+  },
+  "survivalKit": {
+    "manners": [
+      {
+        "situation": "Khi bước vào phòng thi",
+        "japanese": "失礼します。",
+        "romaji": "Shitsurei shimasu.",
+        "vietnamese": "Em xin phép vào phòng thi ạ.",
+        "tip": "Gõ cửa 2-3 tiếng nhẹ, bước vào cúi chào 15-30 độ tự tin, mắt nhìn thẳng giám thị."
+      },
+      {
+        "situation": "Khi giám thị mời ngồi",
+        "japanese": "ありがとうございます。失礼します。",
+        "romaji": "Arigatou gozaimasu. Shitsurei shimasu.",
+        "vietnamese": "Em xin cảm ơn thầy/cô ạ.",
+        "tip": "Chỉ ngồi xuống ghế sau khi giám thị nói 'どうぞ (Douzo)' hoặc '座ってください'."
+      },
+      {
+        "situation": "Khi nghe không rõ hoặc giám thị nói nhanh",
+        "japanese": "すみません、もう一度お願いします。",
+        "romaji": "Sumimasen, mou ichido onegaishimasu.",
+        "vietnamese": "Xin lỗi thầy cô, xin nhắc lại một lần nữa ạ.",
+        "tip": "Được phép yêu cầu lặp lại tối đa 3 lần/câu mà không bị trừ điểm. Tuyệt đối không im lặng quá 10s!"
+      },
+      {
+        "situation": "Khi cần xin vài giây suy nghĩ",
+        "japanese": "少々お待ちください。/ ええと...",
+        "romaji": "Shoushou omachi kudasai. / Eeto...",
+        "vietnamese": "Xin thầy cô đợi em một chút ạ.",
+        "tip": "Giữ nhịp tương tác để không bị tính là 'im lặng bỏ cuộc'."
+      },
+      {
+        "situation": "Khi trả lời xong câu hỏi",
+        "japanese": "以上です。",
+        "romaji": "Ijou desu.",
+        "vietnamese": "Em xin hết ạ.",
+        "tip": "Nói rõ ràng để giám thị biết bạn đã hoàn thành câu trả lời và chuyển sang câu tiếp theo."
+      },
+      {
+        "situation": "Khi kết thúc buổi thi bước ra",
+        "japanese": "どうもありがとうございました。失礼いたします。",
+        "romaji": "Doumo arigatou gozaimashita. Shitsurei itashimasu.",
+        "vietnamese": "Em xin chân thành cảm ơn thầy cô. Em xin phép ra về ạ.",
+        "tip": "Đứng dậy cúi chào cảm ơn, xếp ghế gọn gàng và đóng cửa nhẹ nhàng khi rời phòng."
+      }
+    ],
+    "rubricSummary": [
+      {
+        "section": "Phần 1: Đọc Đoạn Văn (Mã Đề A)",
+        "maxScore": 45,
+        "criteria": "Phát âm chữ Hán chuẩn xác (15đ), từ mượn Katakana (10đ), âm ngắt/trường âm Hiragana (20đ). Chuẩn bị 20s."
+      },
+      {
+        "section": "Phần 2: Hỏi & Đáp Q&A (Mã Đề B)",
+        "maxScore": 45,
+        "criteria": "3 câu x 15đ (1 câu có tranh + 2 câu không tranh). Sai ngữ pháp -10đ, sai từ vựng -5 đến -7đ, sai trợ từ -2 đến -3đ."
+      },
+      {
+        "section": "Phần 3: Tác Phong & Lễ Nghi",
+        "maxScore": 10,
+        "criteria": "Chào hỏi đầu/cuối buổi thi, thái độ lễ phép, không ậm ừ ngập ngừng quá 10 giây mỗi câu."
+      }
+    ],
+    "particlesCheatSheet": [
+      {
+        "particle": "は",
+        "meanings": [
+          {
+            "role": "Chủ ngữ / Chủ đề câu chuyện",
+            "example": "わたしは がくせいです。(Tôi là sinh viên.)"
+          },
+          {
+            "role": "Nhấn mạnh đối tượng được nói đến",
+            "example": "トイレは どこですか。(Nhà vệ sinh ở đâu vậy?)"
+          }
+        ]
+      },
+      {
+        "particle": "の",
+        "meanings": [
+          {
+            "role": "Sở hữu (của)",
+            "example": "これは わたしのかばんです。(Đây là cặp của tôi.)"
+          },
+          {
+            "role": "Thuộc về tổ chức / quốc gia",
+            "example": "FPTだいがくの がくせいです。(Sinh viên của ĐH FPT.)"
+          },
+          {
+            "role": "Xuất xứ / Hãng sản xuất",
+            "example": "にほんの とけいです。(Đồng hồ của Nhật Bản.)"
+          }
+        ]
+      },
+      {
+        "particle": "も",
+        "meanings": [
+          {
+            "role": "Đồng nhất (Cũng là / cũng vậy)",
+            "example": "ミラーさんも がくせいです。(Anh Miller cũng là học sinh.)"
+          },
+          {
+            "role": "Phủ định hoàn toàn (với từ nghi vấn)",
+            "example": "どこへも いきませんでした。(Hôm qua tôi chẳng đi đâu cả.)"
+          }
+        ]
+      },
+      {
+        "particle": "と",
+        "meanings": [
+          {
+            "role": "Liệt kê đầy đủ (Và)",
+            "example": "ほんと ノートを かいました。(Tôi đã mua sách và vở.)"
+          },
+          {
+            "role": "Cùng với ai đó",
+            "example": "ともだちと だいがくへ いきます。(Đi đến trường cùng với bạn.)"
+          }
+        ]
+      },
+      {
+        "particle": "へ",
+        "meanings": [
+          {
+            "role": "Chỉ phương hướng / Đích đến của chuyển động",
+            "example": "だいがくへ いきます。(Đi đến trường đại học.)"
+          }
+        ]
+      },
+      {
+        "particle": "に",
+        "meanings": [
+          {
+            "role": "Chỉ thời gian có con số cụ thể",
+            "example": "ろくじに おきます。(Thức dậy vào lúc 6 giờ.)"
+          },
+          {
+            "role": "Nơi chốn của sự tồn tại",
+            "example": "きょうしつに せんせいが います。(Ở trong lớp học có thầy giáo.)"
+          }
+        ]
+      },
+      {
+        "particle": "で",
+        "meanings": [
+          {
+            "role": "Phương tiện / Cách thức di chuyển",
+            "example": "バスで いきます。(Đi bằng xe buýt.)"
+          },
+          {
+            "role": "Địa điểm diễn ra hành động",
+            "example": "しょくどうで ごはんを たべます。(Ăn cơm ở nhà ăn.)"
+          }
+        ]
+      },
+      {
+        "particle": "を",
+        "meanings": [
+          {
+            "role": "Tác động lên đối tượng (Tân ngữ)",
+            "example": "にほんごを べんきょうします。(Học tiếng Nhật.)"
+          },
+          {
+            "role": "Yêu cầu món đồ khi gọi món",
+            "example": "みずを ください。(Cho tôi xin nước.)"
+          }
+        ]
+      }
+    ]
+  },
+  "readingPassages": [
+    {
+      "id": "A-0",
+      "code": "A-01",
+      "title": "Giới thiệu bản thân & Trường học",
+      "topic": "Self introduction & School",
+      "wordCount": 135,
+      "contentJapanese": "はじめまして。わたしはグエン・ヴァン・ナムです。ベトナムじんです。ことしにじゅうさいです。わたしはFPTだいがくのがくせいです。せんもんはITです。にほんごのクラスはふじさんクラスです。せんせいはたなかせんせいです。たなかせんせいはにほんじんです。とてもしんせつなせんせいです。どうぞよろしくおねがいします。",
+      "contentFurigana": "はじめまして。私[わたし]はグエン・ヴァン・ナムです。ベトナム人[じん]です。今年[ことし]二十才[にじゅっさい]です。私[わたし]はFPT大学[だいがく]の学生[がくせい]です。専門[せんもん]はITです。日本語[にほんご]のクラスは富士山[ふじさん]クラスです。先生[せんせい]は田中[たなか]先生[せんせい]です。田中[たなか]先生[せんせい]は日本人[にほんじん]です。とても親切[しんせつ]な先生[せんせい]です。どうぞよろしくお願[ねが]いします。",
+      "contentVietnamese": "Xin chào mọi người. Tôi là Nguyễn Văn Nam. Tôi là người Việt Nam. Năm nay tôi 20 tuổi. Tôi là sinh viên trường Đại học FPT. Chuyên ngành của tôi là CNTT. Lớp tiếng Nhật của tôi là lớp Fujisan. Giáo viên của tôi là thầy Tanaka. Thầy Tanaka là người Nhật. Thầy là một giáo viên rất tốt bụng. Rất mong được sự giúp đỡ của thầy cô và các bạn.",
+      "targetKanji": [
+        {
+          "character": "私",
+          "reading": "わたし",
+          "hanViet": "TƯ"
+        },
+        {
+          "character": "人",
+          "reading": "じん",
+          "hanViet": "NHÂN"
+        },
+        {
+          "character": "学",
+          "reading": "がく",
+          "hanViet": "HỌC"
+        },
+        {
+          "character": "生",
+          "reading": "せい",
+          "hanViet": "SINH"
+        },
+        {
+          "character": "語",
+          "reading": "ご",
+          "hanViet": "NGỮ"
+        },
+        {
+          "character": "校",
+          "reading": "こう",
+          "hanViet": "HIỆU"
+        },
+        {
+          "character": "才",
+          "reading": "さい",
+          "hanViet": "TÀI"
+        },
+        {
+          "character": "大",
+          "reading": "だい",
+          "hanViet": "ĐẠI"
+        }
+      ],
+      "targetKatakana": [
+        "グエン",
+        "ベトナム",
+        "クラス",
+        "IT"
+      ],
+      "prepTimeSeconds": 20,
+      "readingTimeSeconds": 45
+    },
+    {
+      "id": "A-1",
+      "code": "A-02",
+      "title": "Gia đình và Tuổi tác",
+      "topic": "Family and Age",
+      "wordCount": 140,
+      "contentJapanese": "わたしの家族はよにんです。父と母とあねとわたしです。父はごじゅっさいです。かいしゃいんです。母はよんじゅうはっさいです。びょういんのいしゃです。あねはにじゅうにさいです。ハノイだいがくの学生です。わたしはFPTだいがくのいちねんせいです。家族はみんなハノイにすんでいます。どうぞよろしくおねがいします。",
+      "contentFurigana": "私[わたし]の家族[かぞく]は四人[よにん]です。父[ちち]と母[はは]と姉[あね]と私[わたし]です。父[ちち]は五十才[ごじゅっさい]です。会社員[かいしゃいん]です。母[はは]は四十八才[よんじゅうはっさい]です。病院[びょういん]の医者[いしゃ]です。姉[あね]は二十二才[にじゅうにさい]です。ハノイ大学[だいがく]の学生[がくせい]です。私[わたし]はFPT大学[だいがく]の一年生[いちねんせい]です。家族[かぞく]はみんなハノイに住[す]んでいます。どうぞよろしくお願[ねが]いします。",
+      "contentVietnamese": "Gia đình tôi có 4 người. Gồm có bố, mẹ, chị gái và tôi. Bố tôi 50 tuổi, là nhân viên công ty. Mẹ tôi 48 tuổi, là bác sĩ ở bệnh viện. Chị gái tôi 22 tuổi, là sinh viên trường Đại học Hà Nội. Tôi là sinh viên năm nhất trường Đại học FPT. Cả gia đình tôi đều đang sống tại Hà Nội. Rất mong nhận được sự giúp đỡ.",
+      "targetKanji": [
+        {
+          "character": "四",
+          "reading": "よん",
+          "hanViet": "TỨ"
+        },
+        {
+          "character": "人",
+          "reading": "にん",
+          "hanViet": "NHÂN"
+        },
+        {
+          "character": "五",
+          "reading": "ご",
+          "hanViet": "NGŨ"
+        },
+        {
+          "character": "十",
+          "reading": "じゅう",
+          "hanViet": "THẬP"
+        },
+        {
+          "character": "八",
+          "reading": "はち",
+          "hanViet": "BÁT"
+        },
+        {
+          "character": "二",
+          "reading": "に",
+          "hanViet": "NHỊ"
+        },
+        {
+          "character": "一",
+          "reading": "いち",
+          "hanViet": "NHẤT"
+        },
+        {
+          "character": "年",
+          "reading": "ねん",
+          "hanViet": "NIÊN"
+        }
+      ],
+      "targetKatakana": [
+        "ハノイ",
+        "クラス"
+      ],
+      "prepTimeSeconds": 20,
+      "readingTimeSeconds": 45
+    },
+    {
+      "id": "A-2",
+      "code": "A-03",
+      "title": "Mua sắm ở Cửa hàng bách hóa",
+      "topic": "Shopping at Department Store",
+      "wordCount": 142,
+      "contentJapanese": "すみません、ここはなんかいですか。ここはちかいっかいです。スーパーがあります。リンゴはいくらですか。ひとつひゃくごじゅうえんです。みっつください。はい、よんひゃくごじゅうえんです。せんえんさつをだします。おつりはごひゃくごじゅうえんです。どうもありがとうございました。またどうぞ。",
+      "contentFurigana": "すみません、ここはなん階[かい]ですか。ここは地下[ちか]一階[いっかい]です。スーパーがあります。リンゴはいくらですか。一[ひと]つ百五十円[ひゃくごじゅうえん]です。三[みっ]つください。はい、四百五十円[よんひゃくごじゅうえん]です。千円札[せんえんさつ]を出[だ]します。おつりは五百五十円[ごひゃくごじゅうえん]です。どうもありがとうございました。またどうぞ。",
+      "contentVietnamese": "Xin lỗi, đây là tầng mấy vậy ạ? Đây là tầng hầm B1, có siêu thị. Quả táo này giá bao nhiêu tiền? 150 yên một quả ạ. Lấy cho tôi 3 quả nhé. Vâng, tổng cộng là 450 yên ạ. Tôi đưa tờ 1.000 yên. Tiền thối lại của quý khách là 550 yên. Xin chân thành cảm ơn. Xin mời quý khách quay lại lần sau.",
+      "targetKanji": [
+        {
+          "character": "一",
+          "reading": "いち",
+          "hanViet": "NHẤT"
+        },
+        {
+          "character": "百",
+          "reading": "ひゃく",
+          "hanViet": "BÁCH"
+        },
+        {
+          "character": "千",
+          "reading": "せん",
+          "hanViet": "THIÊN"
+        },
+        {
+          "character": "円",
+          "reading": "えん",
+          "hanViet": "VIÊN"
+        },
+        {
+          "character": "三",
+          "reading": "さん",
+          "hanViet": "TAM"
+        },
+        {
+          "character": "四",
+          "reading": "よん",
+          "hanViet": "TỨ"
+        },
+        {
+          "character": "五",
+          "reading": "ご",
+          "hanViet": "NGŨ"
+        }
+      ],
+      "targetKatakana": [
+        "スーパー",
+        "リンゴ"
+      ],
+      "prepTimeSeconds": 20,
+      "readingTimeSeconds": 45
+    },
+    {
+      "id": "A-3",
+      "code": "A-04",
+      "title": "Thời gian biểu một ngày của tôi",
+      "topic": "My Daily Schedule",
+      "wordCount": 145,
+      "contentJapanese": "わたしはまいあさろくじにおきます。あさごはんをたべて、しちじはんにだいがくへいきます。ばすでいきます。ごぜんくじからじゅうにじまでべんきょうします。ひるごはんをたべて、ごごにじからごじまでとしょかんでほんをよみます。ばんろくじにかえります。まいばんじゅういちじにねます。",
+      "contentFurigana": "私[わたし]は毎朝[まいあさ]六時[ろくじ]に起[お]きます。朝[あさ]ご飯[はん]を食[た]べて、七時半[しちじはん]に大学[だいがく]へ行[い]きます。バスで行[い]きます。午前[ごぜん]九時[くじ]から十二時[じゅうにじ]まで勉強[べんきょう]します。昼[ひる]ご飯[はん]を食[た]べて、午後[ごご]二時[にじ]から五時[ごじ]まで図書館[としょかん]で本[ほん]を読[よ]みます。晩[ばん]六時[ろくじ]に帰[かえ]ります。毎晩[まいばん]十一時[じゅういちじ]に寝[ね]ます。",
+      "contentVietnamese": "Tôi thức dậy vào lúc 6 giờ mỗi sáng. Ăn sáng xong, tôi đến trường đại học lúc 7 giờ rưỡi. Tôi đi bằng xe buýt. Tôi học từ 9 giờ sáng đến 12 giờ trưa. Sau khi ăn trưa, từ 2 giờ đến 5 giờ chiều tôi đọc sách ở thư viện. Buổi tối tôi về nhà lúc 6 giờ. Mỗi tối tôi đi ngủ lúc 11 giờ.",
+      "targetKanji": [
+        {
+          "character": "六",
+          "reading": "ろく",
+          "hanViet": "LỤC"
+        },
+        {
+          "character": "時",
+          "reading": "じ",
+          "hanViet": "THỜI"
+        },
+        {
+          "character": "七",
+          "reading": "しち",
+          "hanViet": "THẤT"
+        },
+        {
+          "character": "九",
+          "reading": "く",
+          "hanViet": "CỬU"
+        },
+        {
+          "character": "二",
+          "reading": "に",
+          "hanViet": "NHỊ"
+        },
+        {
+          "character": "本",
+          "reading": "ほん",
+          "hanViet": "BẢN"
+        },
+        {
+          "character": "分",
+          "reading": "ふん",
+          "hanViet": "PHÂN"
+        }
+      ],
+      "targetKatakana": [
+        "バス"
+      ],
+      "prepTimeSeconds": 20,
+      "readingTimeSeconds": 45
+    }
+  ],
+  "qaQuestions": [
+    {
+      "id": "Q1-01",
+      "lesson": 1,
+      "hasImage": false,
+      "questionJapanese": "おなまえはなんですか。",
+      "questionFurigana": "お名前[なまえ]は何[なん]ですか。",
+      "questionVietnamese": "Tên bạn là gì?",
+      "grammarPattern": "N は なん/だれ ですか",
+      "keywords": [
+        "です",
+        "名前",
+        "もうします",
+        "申します"
+      ],
+      "answers": {
+        "level1_short": {
+          "japanese": "ナムです。",
+          "reading": "ナムです。",
+          "vietnamese": "Tôi là Nam."
+        },
+        "level2_polite": {
+          "japanese": "わたしはグエン・ヴァン・ナムです。",
+          "reading": "わたしはグエン・ヴァン・ナムです。",
+          "vietnamese": "Tên tôi là Nguyễn Văn Nam ạ."
+        },
+        "level3_expanded": {
+          "japanese": "わたしはグエン・ヴァン・ナムと申します。FPTだいがくの学生です。",
+          "reading": "わたしはグエン・ヴァン・ナムともうします。FPTだいがくのがくせいです。",
+          "vietnamese": "Em tên là Nguyễn Văn Nam, sinh viên trường Đại học FPT ạ."
+        }
+      }
+    },
+    {
+      "id": "Q1-02",
+      "lesson": 1,
+      "hasImage": false,
+      "questionJapanese": "おいくつですか。何さいですか。",
+      "questionFurigana": "おいくつですか。何才[なんさい]ですか。",
+      "questionVietnamese": "Bạn bao nhiêu tuổi?",
+      "grammarPattern": "～は なんさいですか",
+      "keywords": [
+        "さい",
+        "才",
+        "歳"
+      ],
+      "answers": {
+        "level1_short": {
+          "japanese": "20さいです。",
+          "reading": "にじゅっさいです。",
+          "vietnamese": "20 tuổi ạ."
+        },
+        "level2_polite": {
+          "japanese": "わたしははたちです。/ 20さいです。",
+          "reading": "わたしははたちです。/ にじゅっさいです。",
+          "vietnamese": "Tôi 20 tuổi ạ."
+        },
+        "level3_expanded": {
+          "japanese": "ことし20さいになりました。だいがくのいちねんせいです。",
+          "reading": "ことしにじゅっさいになりました。だいがくのいちねんせいです。",
+          "vietnamese": "Năm nay em tròn 20 tuổi, hiện là sinh viên năm nhất ạ."
+        }
+      }
+    },
+    {
+      "id": "Q1-03",
+      "lesson": 1,
+      "hasImage": false,
+      "questionJapanese": "おくにはどちらですか。ベトナム人ですか。",
+      "questionFurigana": "お国[くに]はどちらですか。ベトナム人[じん]ですか。",
+      "questionVietnamese": "Đất nước của bạn ở đâu? Bạn là người Việt Nam phải không?",
+      "grammarPattern": "N1 は N2 ですか",
+      "keywords": [
+        "ベトナム",
+        "人",
+        "はい"
+      ],
+      "answers": {
+        "level1_short": {
+          "japanese": "はい、ベトナム人です。",
+          "reading": "はい、ベトナムじんです。",
+          "vietnamese": "Vâng, tôi là người Việt Nam."
+        },
+        "level2_polite": {
+          "japanese": "はい、わたしはベトナム人です。ハノイから来ました。",
+          "reading": "はい、わたしはベトナムじんです。ハノイからきました。",
+          "vietnamese": "Vâng, em là người Việt Nam, em đến từ Hà Nội ạ."
+        },
+        "level3_expanded": {
+          "japanese": "はい、ベトナム人です。ふるさとはダナンですが、いまはハノイにすんでいます。",
+          "reading": "はい、ベトナムじんです。ふるさとはダナンですが、いまはハノイにすんでいます。",
+          "vietnamese": "Dạ vâng, em là người Việt Nam. Quê em ở Đà Nẵng nhưng hiện tại em đang sống và học tập tại Hà Nội ạ."
+        }
+      }
+    },
+    {
+      "id": "Q1-04",
+      "lesson": 1,
+      "hasImage": true,
+      "imageType": "classroom",
+      "imageDescription": "Hình ảnh phòng học tiếng Nhật có bàn ghế, thầy giáo Tanaka đứng cạnh bảng và các bạn sinh viên.",
+      "questionJapanese": "あの人はだれですか。先生ですか、学生ですか。",
+      "questionFurigana": "あの人[ひと]は誰[だれ]ですか。先生[せんせい]ですか、学生[がくせい]ですか。",
+      "questionVietnamese": "Người kia là ai vậy? Là giáo viên hay là học sinh?",
+      "grammarPattern": "～は だれですか / ～ですか、～ですか",
+      "keywords": [
+        "先生",
+        "田中",
+        "せんせい"
+      ],
+      "answers": {
+        "level1_short": {
+          "japanese": "田中先生です。",
+          "reading": "たなかせんせいです。",
+          "vietnamese": "Là thầy Tanaka."
+        },
+        "level2_polite": {
+          "japanese": "あの人は日本語の田中先生です。",
+          "reading": "あのひとはにほんごのたなかせんせいです。",
+          "vietnamese": "Người kia là thầy Tanaka dạy tiếng Nhật ạ."
+        },
+        "level3_expanded": {
+          "japanese": "あの人はたなか先生です。FPTだいがくのにほんごの先生です。",
+          "reading": "あのひとはたなかせんせいです。FPTだいがくのにほんごのせんせいです。",
+          "vietnamese": "Người đó là thầy Tanaka, giáo viên dạy tiếng Nhật của trường Đại học FPT ạ."
+        }
+      }
+    },
+    {
+      "id": "Q2-01",
+      "lesson": 2,
+      "hasImage": false,
+      "questionJapanese": "トイレはどこですか。受付はどちらですか。",
+      "questionFurigana": "トイレはどこですか。受付[うけつけ]はどちらですか。",
+      "questionVietnamese": "Nhà vệ sinh ở đâu vậy? Quầy lễ tân ở hướng nào?",
+      "grammarPattern": "～は どこですか / どちらですか",
+      "keywords": [
+        "あそこ",
+        "そこ",
+        "階",
+        "かい"
+      ],
+      "answers": {
+        "level1_short": {
+          "japanese": "あそこです。1階です。",
+          "reading": "あそこです。いっかいです。",
+          "vietnamese": "Ở đằng kia ạ. Ở tầng 1."
+        },
+        "level2_polite": {
+          "japanese": "トイレはあちらです。受付は1階にあります。",
+          "reading": "トイレはあちらです。うけつけはいっかいにあります。",
+          "vietnamese": "Nhà vệ sinh ở hướng đằng kia, còn quầy tiếp tân ở tầng 1 ạ."
+        },
+        "level3_expanded": {
+          "japanese": "トイレはエレベーターのとなりです。受付はあちらのいっかいです。",
+          "reading": "トイレはエレベーターのとなりです。うけつけはあちらのいっかいです。",
+          "vietnamese": "Dạ, nhà vệ sinh ở cạnh thang máy, còn quầy lễ tân thì ở phía đằng kia của tầng 1 ạ."
+        }
+      }
+    },
+    {
+      "id": "Q2-02",
+      "lesson": 2,
+      "hasImage": true,
+      "imageType": "store",
+      "imageDescription": "Hình ảnh gian hàng bán đồng hồ và máy tính xách tay với bảng giá niêm yết 5.000 yên và 80.000 yên.",
+      "questionJapanese": "この時計はいくらですか。どこの時計ですか。",
+      "questionFurigana": "この時計[とけい]はいくらですか。どこの時計[とけい]ですか。",
+      "questionVietnamese": "Chiếc đồng hồ này bao nhiêu tiền? Là đồng hồ của nước nào sản xuất?",
+      "grammarPattern": "～は いくらですか / どこの N ですか",
+      "keywords": [
+        "円",
+        "えん",
+        "日本",
+        "にほん"
+      ],
+      "answers": {
+        "level1_short": {
+          "japanese": "5,000円です。日本の時計です。",
+          "reading": "ごせんえんです。にほんのとけいです。",
+          "vietnamese": "5.000 yên ạ. Là đồng hồ của Nhật."
+        },
+        "level2_polite": {
+          "japanese": "この時計は5,000円です。日本の時計です。",
+          "reading": "このとけいはごせんえんです。にほんのとけいです。",
+          "vietnamese": "Chiếc đồng hồ này giá 5.000 yên, là đồng hồ của Nhật Bản ạ."
+        },
+        "level3_expanded": {
+          "japanese": "これは5,000円です。にほんのセイコーの時計です。とてもいいですよ。",
+          "reading": "これはごせんえんです。にほんのセイコーのとけいです。とてもいいですよ。",
+          "vietnamese": "Dạ chiếc này 5.000 yên ạ. Là đồng hồ hiệu Seiko của Nhật Bản, dùng rất tốt ạ."
+        }
+      }
+    },
+    {
+      "id": "Q2-03",
+      "lesson": 2,
+      "hasImage": false,
+      "questionJapanese": "そのかばんはだれのかばんですか。",
+      "questionFurigana": "そのかばんは誰[だれ]のかばんですか。",
+      "questionVietnamese": "Chiếc cặp đó là của ai vậy?",
+      "grammarPattern": "～は だれの N ですか",
+      "keywords": [
+        "わたし",
+        "私",
+        "の"
+      ],
+      "answers": {
+        "level1_short": {
+          "japanese": "わたしのです。",
+          "reading": "わたしのです。",
+          "vietnamese": "Của tôi ạ."
+        },
+        "level2_polite": {
+          "japanese": "これはわたしのかばんです。",
+          "reading": "これはわたしのかばんです。",
+          "vietnamese": "Đây là chiếc cặp của em ạ."
+        },
+        "level3_expanded": {
+          "japanese": "これはわたしのかばんです。きのうスーパーでかいました。",
+          "reading": "これはわたしのかばんです。きのうスーパーでかいました。",
+          "vietnamese": "Dạ đây là cặp của em, em mới mua ở siêu thị hôm qua ạ."
+        }
+      }
+    },
+    {
+      "id": "Q3-01",
+      "lesson": 3,
+      "hasImage": false,
+      "questionJapanese": "いま何時何分ですか。",
+      "questionFurigana": "今[いま]何時[なんじ]何分[なんぷん]ですか。",
+      "questionVietnamese": "Bây giờ là mấy giờ mấy phút?",
+      "grammarPattern": "いま なんじ なんぷん ですか",
+      "keywords": [
+        "時",
+        "じ",
+        "分",
+        "ふん",
+        "ぷん"
+      ],
+      "answers": {
+        "level1_short": {
+          "japanese": "10時30分です。",
+          "reading": "じゅうじはん / さんじゅっぷんです。",
+          "vietnamese": "10 giờ rưỡi ạ."
+        },
+        "level2_polite": {
+          "japanese": "いま午前10時30分です。",
+          "reading": "いまごぜんじゅうじさんじゅっぷんです。",
+          "vietnamese": "Bây giờ là 10 giờ 30 phút sáng ạ."
+        },
+        "level3_expanded": {
+          "japanese": "いま午前10時半です。テストのじかんです。",
+          "reading": "いまごぜんじゅうじはんです。テストのじかんです。",
+          "vietnamese": "Bây giờ là 10 rưỡi sáng ạ, vừa đúng giờ thi của chúng em."
+        }
+      }
+    },
+    {
+      "id": "Q3-02",
+      "lesson": 3,
+      "hasImage": false,
+      "questionJapanese": "まいあさ何時におきますか。まいばん何時にねますか。",
+      "questionFurigana": "毎朝[まいあさ]何時[なんじ]に起[お]きますか。毎晩[まいばん]何時[なんじ]に寝[ね]ますか。",
+      "questionVietnamese": "Mỗi sáng bạn dậy lúc mấy giờ? Mỗi tối bạn ngủ lúc mấy giờ?",
+      "grammarPattern": "N (thời gian) に Vます",
+      "keywords": [
+        "おきます",
+        "ねます",
+        "時",
+        "に"
+      ],
+      "answers": {
+        "level1_short": {
+          "japanese": "6時におきて、11時にねます。",
+          "reading": "ろくじにおきて、じゅういちじにねます。",
+          "vietnamese": "Dậy lúc 6h, ngủ lúc 11h."
+        },
+        "level2_polite": {
+          "japanese": "わたしはまいあさ6時におきます。まいばん11時にねます。",
+          "reading": "わたしはまいあさろくじにおきます。まいばんじゅういちじにねます。",
+          "vietnamese": "Mỗi sáng em thức dậy lúc 6 giờ, và mỗi tối em đi ngủ lúc 11 giờ ạ."
+        },
+        "level3_expanded": {
+          "japanese": "まいあさ6時におきます。あさごはんをたべてからだいがくへいきます。よるは11時にねます。",
+          "reading": "まいあさろくじにおきます。あさごはんをたべてからだいがくへいきます。よるはじゅういちじにねます。",
+          "vietnamese": "Mỗi sáng em dậy lúc 6 giờ, ăn sáng rồi đến trường. Còn buổi tối em học bài rồi ngủ lúc 11 giờ ạ."
+        }
+      }
+    },
+    {
+      "id": "Q3-03",
+      "lesson": 3,
+      "hasImage": false,
+      "questionJapanese": "大学は何時から何時までですか。",
+      "questionFurigana": "大学[だいがく]は何時[なんじ]から何時[なんじ]までですか。",
+      "questionVietnamese": "Trường đại học học từ mấy giờ đến mấy giờ?",
+      "grammarPattern": "N1 から N2 まで",
+      "keywords": [
+        "から",
+        "まで",
+        "時"
+      ],
+      "answers": {
+        "level1_short": {
+          "japanese": "8時から12時までです。",
+          "reading": "はちじからじゅうにじまでです。",
+          "vietnamese": "Từ 8h đến 12h."
+        },
+        "level2_polite": {
+          "japanese": "大学はあさ8時からひる12時までです。",
+          "reading": "だいがくはあさはちじからひるじゅうにじまでです。",
+          "vietnamese": "Giờ học đại học là từ 8 giờ sáng đến 12 giờ trưa ạ."
+        },
+        "level3_expanded": {
+          "japanese": "だいがくのじゅぎょうは8時から12時までです。ごごはとしょかんでべんきょうします。",
+          "reading": "だいがくのじゅぎょうははちじからじゅうにじまでです。ごごはとしょかんでべんきょうします。",
+          "vietnamese": "Tiết học ở trường từ 8h sáng đến 12h trưa ạ. Buổi chiều em thường ở lại thư viện tự học."
+        }
+      }
+    },
+    {
+      "id": "Q3-04",
+      "lesson": 3,
+      "hasImage": false,
+      "questionJapanese": "まいにち何で大学へいきますか。だれと行きますか。",
+      "questionFurigana": "毎日[まいにち]何[なん]で大学[だいがく]へ行[い]きますか。誰[だれ]と行[い]きますか。",
+      "questionVietnamese": "Mỗi ngày bạn đi đến trường bằng phương tiện gì? Đi cùng với ai?",
+      "grammarPattern": "N (phương tiện) で / N (người) と いきます",
+      "keywords": [
+        "で",
+        "と",
+        "バス",
+        "バイク",
+        "友だち"
+      ],
+      "answers": {
+        "level1_short": {
+          "japanese": "バスで行きます。友だちと行きます。",
+          "reading": "バスでいきます。ともだちといきます。",
+          "vietnamese": "Đi xe buýt. Đi cùng bạn."
+        },
+        "level2_polite": {
+          "japanese": "まいにちバスで大学へいきます。友だちと行きます。",
+          "reading": "まいにちバスでだいがくへいきます。ともだちといきます。",
+          "vietnamese": "Hằng ngày em đi đến trường bằng xe buýt cùng với bạn bè ạ."
+        },
+        "level3_expanded": {
+          "japanese": "うちは大学から遠いですから、まいにちバスで行きます。クラスの友だちといっしょに行きます。",
+          "reading": "うちはだいがくからとおいですから、まいにちバスでいきます。クラスのともだちといっしょにいきます。",
+          "vietnamese": "Vì nhà em khá xa trường nên hằng ngày em đi bằng xe buýt, cùng đi với bạn cùng lớp ạ."
+        }
+      }
+    },
+    {
+      "id": "Q3-05",
+      "lesson": 3,
+      "hasImage": false,
+      "questionJapanese": "きょうのばん、何をしますか。",
+      "questionFurigana": "今日[きょう]の晩[ばん]、何[なに]をしますか。",
+      "questionVietnamese": "Tối nay bạn làm gì?",
+      "grammarPattern": "N を Vます",
+      "keywords": [
+        "を",
+        "べんきょう",
+        "テレビ",
+        "ごはん"
+      ],
+      "answers": {
+        "level1_short": {
+          "japanese": "にほんごをべんきょうします。",
+          "reading": "にほんごをべんきょうします。",
+          "vietnamese": "Học tiếng Nhật."
+        },
+        "level2_polite": {
+          "japanese": "きょうのばん、日本語を勉強します。それからテレビを見ます。",
+          "reading": "きょうのばん、にほんごをべんきょうします。それからテレビをみます。",
+          "vietnamese": "Tối nay em học tiếng Nhật, sau đó xem tivi ạ."
+        },
+        "level3_expanded": {
+          "japanese": "きょうのばんは家族とごはんをたべて、にほんごのしゅくだいをします。",
+          "reading": "きょうのばんはかぞくとごはんをたべて、にほんごのしゅくだいをします。",
+          "vietnamese": "Tối nay em ăn cơm cùng gia đình, sau đó làm bài tập tiếng Nhật ạ."
+        }
+      }
+    },
+    {
+      "id": "Q3-06",
+      "lesson": 3,
+      "hasImage": false,
+      "questionJapanese": "きのうの日曜日、どこへ行きましたか。",
+      "questionFurigana": "昨日[きのう]の日曜日[にちようび]、どこへ行[い]きましたか。",
+      "questionVietnamese": "Chủ nhật hôm qua bạn đã đi đâu?",
+      "grammarPattern": "N へ いきました / どこへも いきませんでした",
+      "keywords": [
+        "行きました",
+        "へ",
+        "スーパー",
+        "公園"
+      ],
+      "answers": {
+        "level1_short": {
+          "japanese": "スーパーへ行きました。",
+          "reading": "スーパーへいきました。",
+          "vietnamese": "Đã đi siêu thị."
+        },
+        "level2_polite": {
+          "japanese": "友だちとスーパーへ行きました。買い物をしました。",
+          "reading": "ともだちとスーパーへいきました。かいものをしました。",
+          "vietnamese": "Em đã cùng bạn đi siêu thị và mua sắm đồ đạc ạ."
+        },
+        "level3_expanded": {
+          "japanese": "きのうはどこへも行きませんでした。うちでゆっくり休みました。",
+          "reading": "きのうはどこへもいきませんでした。うちでゆっくりやすみました。",
+          "vietnamese": "Hôm qua em không đi đâu cả, em ở nhà nghỉ ngơi thảnh thơi ạ."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+[
+  {
+    "order": 1,
+    "term": "スポーツ",
+    "reading": "スポーツ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Thể thao",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "サッカー",
+    "reading": "サッカー",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Bóng đá",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "テニス",
+    "reading": "テニス",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Quần vợt",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "すいえい",
+    "reading": "すいえい",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Bơi lội",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "えいが",
+    "reading": "えいが",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Phim",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "おんがく",
+    "reading": "おんがく",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Âm nhạc",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "どくしょ",
+    "reading": "どくしょ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Đọc sách",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "りょこう",
+    "reading": "りょこう",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Du lịch",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "りょうり",
+    "reading": "りょうり",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Nấu ăn / món ăn",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "なん",
+    "reading": "なん",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Từ nghi vấn",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "Cái gì",
+    "reading": "11.",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "つり",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "つり",
+    "reading": "Danh từ",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Câu cá",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "おなじ",
+    "reading": "おなじ",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "Giống nhau",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "おなじですね",
+    "reading": "おなじですね",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "Giống nhau nhỉ",
+    "examples": []
+  }
+]
