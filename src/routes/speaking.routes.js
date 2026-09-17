@@ -179,5 +179,106 @@ router.post('/:courseCode/speaking/evaluate', optionalAuth, upload.single('audio
   }
 });
 
+/**
+ * POST /api/courses/:courseCode/speaking/evaluate-qa
+ * Evaluate Q&A audio answer via Python Speech AI Microservice (:8001)
+ */
+router.post('/:courseCode/speaking/evaluate-qa', optionalAuth, upload.single('audio'), async (req, res) => {
+  try {
+    const { questionJapanese, keywords, grammarPattern, referenceAnswers } = req.body;
+
+    if (!req.file) {
+      return res.status(400).json({ success: false, message: 'Vui lòng cung cấp file ghi âm câu trả lời.' });
+    }
+    if (!questionJapanese) {
+      return res.status(400).json({ success: false, message: 'Vui lòng cung cấp câu hỏi tiếng Nhật.' });
+    }
+
+    const aiServiceUrl = process.env.SPEECH_AI_URL || 'http://127.0.0.1:8001';
+
+    const formData = new FormData();
+    const audioBlob = new Blob([req.file.buffer], { type: req.file.mimetype || 'audio/webm' });
+    formData.append('audio', audioBlob, req.file.originalname || 'qa_answer.webm');
+    formData.append('questionJapanese', questionJapanese);
+    if (keywords) formData.append('keywords', typeof keywords === 'string' ? keywords : JSON.stringify(keywords));
+    if (grammarPattern) formData.append('grammarPattern', grammarPattern);
+    if (referenceAnswers) formData.append('referenceAnswers', typeof referenceAnswers === 'string' ? referenceAnswers : JSON.stringify(referenceAnswers));
+
+    const aiRes = await fetch(`${aiServiceUrl}/api/pronunciation/evaluate-qa`, {
+      method: 'POST',
+      body: formData,
+      signal: AbortSignal.timeout(30000)
+    });
+
+    if (!aiRes.ok) {
+      const errData = await aiRes.json().catch(() => ({}));
+      return res.status(aiRes.status).json({
+        success: false,
+        message: errData.detail || 'Lỗi từ AI Speech Microservice khi chấm Q&A.'
+      });
+    }
+
+    const result = await aiRes.json();
+    return res.json(result);
+  } catch (err) {
+    console.error('❌ Error evaluating QA in Node backend:', err);
+    if (err.cause?.code === 'ECONNREFUSED' || err.name === 'TimeoutError') {
+      return res.status(503).json({
+        success: false,
+        message: 'Dịch vụ AI Speech Microservice (cổng 8001) chưa khởi động hoặc phản hồi quá lâu.'
+      });
+    }
+    return res.status(500).json({ success: false, message: 'Lỗi xử lý chấm Q&A.' });
+  }
+});
+
+/**
+ * POST /api/courses/:courseCode/speaking/evaluate-greeting
+ * Evaluate greeting manners audio via Python Speech AI Microservice (:8001)
+ */
+router.post('/:courseCode/speaking/evaluate-greeting', optionalAuth, upload.single('audio'), async (req, res) => {
+  try {
+    const { targetPhrase } = req.body;
+
+    if (!req.file) {
+      return res.status(400).json({ success: false, message: 'Vui lòng cung cấp file ghi âm lời chào.' });
+    }
+
+    const aiServiceUrl = process.env.SPEECH_AI_URL || 'http://127.0.0.1:8001';
+
+    const formData = new FormData();
+    const audioBlob = new Blob([req.file.buffer], { type: req.file.mimetype || 'audio/webm' });
+    formData.append('audio', audioBlob, req.file.originalname || 'greeting.webm');
+    formData.append('targetPhrase', targetPhrase || '失礼します');
+
+    const aiRes = await fetch(`${aiServiceUrl}/api/pronunciation/evaluate-greeting`, {
+      method: 'POST',
+      body: formData,
+      signal: AbortSignal.timeout(30000)
+    });
+
+    if (!aiRes.ok) {
+      const errData = await aiRes.json().catch(() => ({}));
+      return res.status(aiRes.status).json({
+        success: false,
+        message: errData.detail || 'Lỗi từ AI Speech Microservice khi chấm tác phong chào hỏi.'
+      });
+    }
+
+    const result = await aiRes.json();
+    return res.json(result);
+  } catch (err) {
+    console.error('❌ Error evaluating greeting in Node backend:', err);
+    if (err.cause?.code === 'ECONNREFUSED' || err.name === 'TimeoutError') {
+      return res.status(503).json({
+        success: false,
+        message: 'Dịch vụ AI Speech Microservice (cổng 8001) chưa khởi động hoặc phản hồi quá lâu.'
+      });
+    }
+    return res.status(500).json({ success: false, message: 'Lỗi xử lý chấm tác phong chào hỏi.' });
+  }
+});
+
 module.exports = router;
+
 

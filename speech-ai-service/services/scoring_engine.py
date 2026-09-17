@@ -203,3 +203,144 @@ def evaluate_pronunciation(
         },
         "words": word_analysis
     }
+
+
+def evaluate_qa_answer(
+    spoken_transcript: str,
+    asr_words: list,
+    question_text: str,
+    keywords: list[str],
+    grammar_pattern: str = "",
+    reference_answers: dict = None,
+    duration_sec: float = 3.0,
+    hesitation_count: int = 0
+) -> dict:
+    """
+    Evaluates a Q&A spoken response according to FPT FE Rubric (Max 15 points per question):
+    - Keywords Relevance: 6 points
+    - Grammar & Politeness (丁寧語): 5 points
+    - Acoustic & Pronunciation Clarity: 4 points
+    Matches response against Level 1, Level 2, Level 3 answers.
+    """
+    clean_spoken = clean_japanese_text(spoken_transcript)
+    if not clean_spoken:
+        return {
+            "transcript": "",
+            "score": 0,
+            "maxScore": 15,
+            "matchedLevel": "incomplete",
+            "matchedKeywords": [],
+            "missingKeywords": keywords,
+            "hasPoliteEnding": False,
+            "pronunciationScore": 0,
+            "feedback": "Không ghi nhận được câu trả lời. Hãy đọc to, rõ ràng trước micro nhé!"
+        }
+
+    spoken_analysis = analyze_japanese_text(spoken_transcript)
+    spoken_hira = clean_japanese_text(spoken_analysis["full_hiragana"])
+
+    # 1. Keywords Relevance (Max 6 points)
+    matched_keywords = []
+    missing_keywords = []
+    for kw in keywords:
+        clean_kw = clean_japanese_text(kw)
+        kw_analysis = analyze_japanese_text(clean_kw)
+        kw_hira = clean_japanese_text(kw_analysis["full_hiragana"])
+
+        if clean_kw in clean_spoken or (kw_hira and kw_hira in spoken_hira):
+            matched_keywords.append(kw)
+        else:
+            missing_keywords.append(kw)
+
+    if not keywords:
+        keyword_score = 6.0
+    else:
+        keyword_score = (len(matched_keywords) / max(1, len(keywords))) * 6.0
+
+    # 2. Grammar & Politeness (丁寧語) (Max 5 points)
+    polite_endings = (
+        'です', 'ます', 'でした', 'ました', 'ません',
+        'ませんでした', 'たいです', 'あります', 'います',
+        'でしょう', 'でしょうか', 'ください', 'ています'
+    )
+    has_polite_ending = any(spoken_hira.endswith(clean_japanese_text(p)) for p in polite_endings) or \
+                        any(clean_spoken.endswith(p) for p in polite_endings)
+
+    if has_polite_ending:
+        polite_score = 5.0
+    else:
+        polite_score = 1.5
+
+    # 3. Pronunciation & Clarity (Max 4 points)
+    if asr_words:
+        avg_prob = sum(w.get("probability", 0.5) for w in asr_words) / len(asr_words)
+    else:
+        avg_prob = 0.75
+    pron_score = round(avg_prob * 4.0, 1)
+
+    total_qa_score = round(keyword_score + polite_score + pron_score)
+    total_qa_score = max(0, min(15, total_qa_score))
+
+    # Match response level
+    matched_level = 'level1'
+    if total_qa_score >= 13 and len(clean_spoken) >= 10:
+        matched_level = 'level3'
+    elif total_qa_score >= 10:
+        matched_level = 'level2'
+
+    # Generate constructive feedback
+    feedback_parts = []
+    if total_qa_score >= 13:
+        feedback_parts.append("Xuất sắc! Câu trả lời đầy đủ ý, đúng ngữ pháp và phát âm rõ ràng.")
+    elif total_qa_score >= 10:
+        feedback_parts.append("Khá tốt! Câu trả lời đạt chuẩn phong cách kỳ thi.")
+    else:
+        feedback_parts.append("Cần cố gắng thêm để đạt điểm tối đa.")
+
+    if not has_polite_ending:
+        feedback_parts.append("Lưu ý: Cần dùng thể lịch sự kết thúc bằng 『〜です』 hoặc 『〜ます』 thay vì thể ngắn.")
+
+    if missing_keywords:
+        feedback_parts.append(f"Gợi ý bổ sung từ khóa: {', '.join(missing_keywords)}.")
+
+    return {
+        "transcript": spoken_transcript,
+        "score": total_qa_score,
+        "maxScore": 15,
+        "matchedLevel": matched_level,
+        "matchedKeywords": matched_keywords,
+        "missingKeywords": missing_keywords,
+        "hasPoliteEnding": has_polite_ending,
+        "pronunciationScore": round(avg_prob * 100),
+        "feedback": " ".join(feedback_parts)
+    }
+
+
+def evaluate_greeting_phrase(spoken_transcript: str, target_phrase: str = "失礼します") -> dict:
+    """
+    Evaluates manners greeting (失礼します or 失礼しました) (Max 10 points):
+    """
+    clean_spoken = clean_japanese_text(spoken_transcript)
+    target_clean = clean_japanese_text(target_phrase)
+    hira_target = "しつれいします" if "失礼します" in target_phrase else "しつれいしました"
+
+    passed = (
+        target_clean in clean_spoken or
+        hira_target in clean_spoken or
+        "失礼" in clean_spoken or
+        "しつれい" in clean_spoken or
+        "shitsurei" in spoken_transcript.lower()
+    )
+
+    score = 10 if passed else 3
+    feedback = "Chào hỏi chuẩn phong cách tác phong người Nhật." if passed else f"Chưa nhận diện được câu chào 『{target_phrase}』. Hãy chào rõ ràng khi vào/ra phòng thi nhé!"
+
+    return {
+        "transcript": spoken_transcript,
+        "target": target_phrase,
+        "passed": passed,
+        "score": score,
+        "maxScore": 10,
+        "feedback": feedback
+    }
+

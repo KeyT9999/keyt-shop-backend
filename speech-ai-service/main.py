@@ -17,7 +17,12 @@ from typing import Optional
 
 from services.audio_service import convert_audio_to_wav, analyze_audio_pauses
 from services.asr_service import transcribe_japanese_audio, get_whisper_model
-from services.scoring_engine import evaluate_pronunciation
+from services.scoring_engine import (
+    evaluate_pronunciation,
+    evaluate_qa_answer,
+    evaluate_greeting_phrase
+)
+
 
 app = FastAPI(
     title="KeyT Japanese Speech AI Service",
@@ -141,6 +146,102 @@ async def evaluate_audio(
                 pass
 
 
+@app.post("/api/pronunciation/evaluate-qa")
+async def evaluate_qa(
+    audio: UploadFile = File(...),
+    questionJapanese: str = Form(...),
+    keywords: Optional[str] = Form(""),
+    grammarPattern: Optional[str] = Form(""),
+    referenceAnswers: Optional[str] = Form(None)
+):
+    """
+    Evaluates Q&A spoken response according to FE Rubric (Max 15 pts):
+    1. Transcode audio via FFmpeg
+    2. Transcribe via faster-whisper
+    3. Evaluate keywords, polite forms, acoustic confidence
+    """
+    audio_bytes = await audio.read()
+    if not audio_bytes or len(audio_bytes) < 100:
+        raise HTTPException(status_code=400, detail="Audio file is empty or corrupted.")
+
+    wav_file_path = None
+    try:
+        wav_file_path = convert_audio_to_wav(audio_bytes)
+        pause_analysis = analyze_audio_pauses(wav_file_path)
+        asr_result = transcribe_japanese_audio(wav_file_path)
+
+        # Parse keywords
+        kw_list = []
+        if keywords:
+            try:
+                import json
+                kw_list = json.loads(keywords) if keywords.startswith("[") else [k.strip() for k in keywords.split(",") if k.strip()]
+            except Exception:
+                kw_list = [k.strip() for k in keywords.split(",") if k.strip()]
+
+        ref_dict = None
+        if referenceAnswers:
+            try:
+                import json
+                ref_dict = json.loads(referenceAnswers)
+            except Exception:
+                ref_dict = None
+
+        evaluation = evaluate_qa_answer(
+            spoken_transcript=asr_result.get("transcript", ""),
+            asr_words=asr_result.get("words", []),
+            question_text=questionJapanese,
+            keywords=kw_list,
+            grammar_pattern=grammarPattern or "",
+            reference_answers=ref_dict,
+            duration_sec=pause_analysis.get("speech_duration_sec", 3.0),
+            hesitation_count=pause_analysis.get("hesitation_count", 0)
+        )
+        return {"success": True, "data": evaluation}
+    except Exception as e:
+        print(f"[KeyT Speech AI] Error evaluating QA: {e}")
+        raise HTTPException(status_code=500, detail=f"QA evaluation failed: {str(e)}")
+    finally:
+        if wav_file_path and os.path.exists(wav_file_path):
+            try:
+                os.remove(wav_file_path)
+            except Exception:
+                pass
+
+
+@app.post("/api/pronunciation/evaluate-greeting")
+async def evaluate_greeting(
+    audio: UploadFile = File(...),
+    targetPhrase: Optional[str] = Form("失礼します")
+):
+    """
+    Evaluates student greeting manners (Max 10 pts)
+    """
+    audio_bytes = await audio.read()
+    if not audio_bytes or len(audio_bytes) < 100:
+        raise HTTPException(status_code=400, detail="Audio file is empty or corrupted.")
+
+    wav_file_path = None
+    try:
+        wav_file_path = convert_audio_to_wav(audio_bytes)
+        asr_result = transcribe_japanese_audio(wav_file_path)
+        evaluation = evaluate_greeting_phrase(
+            spoken_transcript=asr_result.get("transcript", ""),
+            target_phrase=targetPhrase or "失礼します"
+        )
+        return {"success": True, "data": evaluation}
+    except Exception as e:
+        print(f"[KeyT Speech AI] Error evaluating greeting: {e}")
+        raise HTTPException(status_code=500, detail=f"Greeting evaluation failed: {str(e)}")
+    finally:
+        if wav_file_path and os.path.exists(wav_file_path):
+            try:
+                os.remove(wav_file_path)
+            except Exception:
+                pass
+
+
 if __name__ == "__main__":
+
     import uvicorn
     uvicorn.run("main:app", host="127.0.0.1", port=8001, reload=True)
