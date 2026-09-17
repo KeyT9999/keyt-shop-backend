@@ -4,7 +4,9 @@ Tài liệu này hướng dẫn chi tiết cách deploy dịch vụ Python Speec
 
 ---
 
-## 1. Kiến Trúc Hoạt Động Khi Deploy
+## 1. Kiến Trúc Hoạt Động (Gộp Chung 1 Web Service Duy Nhất Trên Render)
+
+Toàn bộ hệ thống Backend Node.js và Python Speech AI đã được đóng gói chung vào **1 Docker Container duy nhất** để tận dụng tối đa gói Render Starter ($7/tháng) mà bạn đang trả tiền:
 
 ```
 [Trình duyệt học viên]
@@ -13,125 +15,58 @@ Tài liệu này hướng dẫn chi tiết cách deploy dịch vụ Python Speec
 [Frontend Vercel] (taphoakeyt.com)
          │
          ▼ (HTTPS: /api/courses/.../speaking/evaluate)
-[Backend Node.js - Render] (keyt-shop-backend.onrender.com)
-         │
-         ▼ (HTTPS: process.env.SPEECH_AI_URL)
-[Python Speech AI Microservice] (keyt-speech-ai...)
-   ├── FastAPI Server
-   ├── FFmpeg (transcode WebM/MP3 -> 16kHz WAV mono)
-   ├── faster-whisper (tiny/base model - CPU int8)
-   └── Fugashi + UniDic (phân tích ngữ âm/morphology tiếng Nhật)
+┌─────────────────────────────────────────────────────────────┐
+│  Render Web Service (Gói Starter - 512MB RAM - $7/tháng)     │
+│                                                             │
+│  [Node.js Express Backend] (Listening on $PORT 10000)        │
+│          │                                                  │
+│          ▼ (Loopback nội bộ: http://127.0.0.1:8001)         │
+│  [Python Speech AI Service] (Listening on 127.0.0.1:8001)    │
+│     ├── FastAPI Server                                      │
+│     ├── FFmpeg (transcode WebM/MP3 -> 16kHz WAV mono)       │
+│     ├── faster-whisper (tiny model - CPU int8 ~100MB RAM)   │
+│     └── Fugashi + UniDic (phân tích ngữ âm tiếng Nhật)      │
+└─────────────────────────────────────────────────────────────┘
 ```
 
-> **Lợi ích kiến trúc này:**
-> 1. **Frontend hoàn toàn không cần đổi gì:** Frontend chỉ giao tiếp với Backend Node.js qua `VITE_API_BASE_URL`.
-> 2. **Không gặp lỗi CORS:** Trình duyệt không gọi trực tiếp microservice Python.
-> 3. **Bảo mật & Tách biệt:** Python service chỉ phục vụ Backend hoặc mạng nội bộ. Backend quản lý giới hạn dung lượng file (25MB) và xác thực người dùng.
+> **Lợi ích kiến trúc gộp chung:**
+> 1. **Chi phí $0 phát sinh thêm:** Không cần tạo và trả tiền cho 2 Web Service riêng biệt.
+> 2. **Tiết kiệm RAM:** Node.js (~60MB) + Python Whisper (~120MB) = ~180MB RAM (hoàn toàn nằm trong giới hạn 512MB của gói Starter).
+> 3. **Độ trễ = 0ms:** Node.js gọi sang Python qua cổng nội bộ `127.0.0.1:8001`, không qua internet công cộng, tốc độ phản hồi cực nhanh.
+> 4. **Tự động triển khai:** Chỉ cần push code lên GitHub, Render tự build Docker và chạy script `start.sh` để khởi động cả 2 dịch vụ.
 
 ---
 
-## 2. Các Lựa Chọn Deploy Python Microservice
+## 2. Cách Cấu Hình Trên Render Dashboard (Nếu Service Đã Có Sẵn)
 
-### Lựa Chọn 1: Deploy Bằng Docker Trên Render (Khuyên dùng - Cùng hệ thống với Backend)
+Nếu bạn đã có Web Service `keyt-shop-backend` trên Render:
 
-Do dịch vụ AI cần thư viện hệ thống **FFmpeg** để convert âm thanh, cách chuẩn nhất trên Render là sử dụng **Docker runtime**:
-
-1. Vào **Render Dashboard** (https://dashboard.render.com).
-2. Nhấn nút **New +** $\to$ chọn **Web Service**.
-3. Chọn Repository GitHub: `KeyT9999/keyt-shop-backend`.
-4. Điền các thông số cấu hình:
-   - **Name**: `keyt-speech-ai`
-   - **Region**: Singapore (hoặc cùng region với backend Node.js)
-   - **Environment**: `Docker`
-   - **Docker Context**: `speech-ai-service`
-   - **Dockerfile Path**: `speech-ai-service/Dockerfile`
-   - **Plan Type**: `Free` (hoặc `Starter` $7/tháng để không bị ngủ đông sau 15 phút)
-5. Thêm Environment Variables (nếu cần):
-   - `PORT`: `8001`
-   - `WHISPER_MODEL_SIZE`: `tiny` (mặc định tốn < 150MB RAM, cực nhanh trên CPU)
-6. Nhấn **Create Web Service**.
-7. Chờ Render build Docker image và khởi động. Sau khi hoàn tất, bạn sẽ nhận được URL:
-   `https://keyt-speech-ai.onrender.com`
-
-#### Kết Nối Backend Node.js Với Python Service Trên Render:
-1. Vào service `keyt-shop-backend` trên Render Dashboard.
-2. Mục **Environment** $\to$ Thêm biến môi trường:
-   ```env
-   SPEECH_AI_URL=https://keyt-speech-ai.onrender.com
-   ```
-3. Nhấn **Save Changes** (Render sẽ tự redeploy backend).
-4. **Xong!** Toàn bộ tính năng Luyện đọc, Phản xạ Q&A và Thi thử 1-1 sẽ tự động kết nối sang Python service.
+1. Vào **Render Dashboard** $\to$ Chọn service `keyt-shop-backend`.
+2. Vào mục **Settings**:
+   - **Environment**: Đổi sang `Docker` (Render sẽ tự động nhận diện file `Dockerfile` ở thư mục gốc).
+   - **Dockerfile Path**: `Dockerfile`
+   - **Docker Context**: `.`
+3. Vào mục **Environment Variables**:
+   - `SPEECH_AI_URL`: `http://127.0.0.1:8001` (mặc định đã được cấu hình trong `Dockerfile`).
+   - `WHISPER_MODEL_SIZE`: `tiny` (mặc định).
+4. Nhấn **Save Changes** và **Manual Deploy** $\to$ **Clear build cache & deploy**.
+5. Render sẽ:
+   - Cài đặt Python 3.11, Node.js 20, FFmpeg.
+   - Tải và nạp sẵn model `tiny` vào Docker layer (chỉ tải 1 lần lúc build, không tải lại khi chạy).
+   - Khởi động cả Python FastAPI (port 8001) và Node.js Express (port 10000).
 
 ---
 
-### Lựa Chọn 2: Deploy Lên Hugging Face Spaces (Miễn Phí 100% - 16GB RAM, 2 vCPU)
+## 3. Các Lựa Chọn Khác (Dành cho mở rộng trong tương lai)
 
-Nếu muốn tiết kiệm chi phí và có tài nguyên CPU/RAM mạnh (16GB RAM miễn phí):
+### Lựa Chọn Dự Phòng: Deploy Python Riêng Lên Hugging Face Spaces (Miễn Phí 100% - 16GB RAM)
+
+Nếu sau này lưu lượng người học đông và bạn muốn tách riêng microservice Python sang một máy chủ miễn phí cấu hình khủng:
 
 1. Tạo tài khoản tại https://huggingface.co
 2. Vào **Spaces** $\to$ Chọn **Create new Space**.
-3. Đặt tên: `keyt-speech-ai`.
-4. Space SDK: Chọn **Docker** (Blank).
-5. Clone repo của Space về máy:
-   ```bash
-   git clone https://huggingface.co/spaces/<username>/keyt-speech-ai
-   ```
-6. Copy toàn bộ file trong thư mục `keyt-shop-backend/speech-ai-service/` vào thư mục vừa clone.
-7. Đổi `EXPOSE 8001` và `PORT=8001` trong `Dockerfile` thành `PORT=7860` (Hugging Face mặc định mở cổng 7860).
-8. Commit và push lên Hugging Face:
-   ```bash
-   git add .
-   git commit -m "Deploy KeyT Speech AI"
-   git push
-   ```
-9. Space sẽ tự động build Docker và hiển thị trạng thái `Running`.
-10. Lấy link public: `https://<username>-keyt-speech-ai.hf.space`.
-11. Gán link này vào Render Backend:
-    ```env
-    SPEECH_AI_URL=https://<username>-keyt-speech-ai.hf.space
-    ```
-
----
-
-### Lựa Chọn 3: Deploy Lên VPS Riêng (Docker / Ubuntu)
-
-Nếu bạn sở hữu VPS (Ubuntu / Debian):
-
-```bash
-# 1. Cài Docker nếu chưa có
-sudo apt update && sudo apt install -y docker.io
-
-# 2. Vào thư mục speech-ai-service
-cd speech-ai-service
-
-# 3. Build Docker Image
-docker build -t keyt-speech-ai:latest .
-
-# 4. Chạy Container (chạy nền, tự khởi động lại khi reboot)
-docker run -d \
-  --name keyt-speech-ai \
-  --restart always \
-  -p 8001:8001 \
-  -e WHISPER_MODEL_SIZE=tiny \
-  keyt-speech-ai:latest
-
-# 5. Kiểm tra trạng thái
-docker ps
-curl http://localhost:8001/health
-# Trả về: {"status":"healthy","service":"keyt-speech-ai","version":"1.0.0"}
-```
-
-Sau đó trỏ domain hoặc IP VPS của bạn vào `SPEECH_AI_URL` trên Render.
-
----
-
-## 3. Tối Ưu Hiệu Năng & RAM Khi Chạy Production
-
-1. **Kích thước Model Whisper (`WHISPER_MODEL_SIZE`)**:
-   - `tiny`: RAM ~100MB - Tốc độ inference 0.3s - 0.8s (Khuyên dùng cho Free tier và môi trường production tiêu chuẩn).
-   - `base`: RAM ~250MB - Tốc độ inference 0.8s - 1.5s (Độ chính xác cao hơn một chút).
-   - Thiết lập qua biến môi trường `WHISPER_MODEL_SIZE=tiny`.
-2. **Quantization `int8` trên CPU**:
-   - Đã được cấu hình mặc định trong mã nguồn `asr_service.py` giúp giảm 65% dung lượng bộ nhớ và tăng tốc độ xử lý gấp 3 lần so với float32.
-3. **Pre-caching trong Dockerfile**:
-   - Model đã được tải sẵn trong quá trình `docker build`, giúp container khi boot trên cloud không tốn thời gian tải model và khởi động chỉ trong 1-2 giây.
+3. Đặt tên: `keyt-speech-ai`, Space SDK: chọn **Docker** (Blank).
+4. Copy toàn bộ file trong thư mục `keyt-shop-backend/speech-ai-service/` lên repo Space.
+5. Gán biến `PORT=7860` (Hugging Face dùng cổng 7860).
+6. Lấy link public: `https://<username>-keyt-speech-ai.hf.space`.
+7. Gán biến môi trường `SPEECH_AI_URL` trên Render về link Hugging Face này.

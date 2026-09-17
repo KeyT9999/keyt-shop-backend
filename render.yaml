@@ -1,10 +1,10 @@
 services:
   - type: web
     name: keyt-shop-backend
-    env: node
+    env: docker
     plan: starter
-    buildCommand: npm install
-    startCommand: npm start
+    dockerfilePath: Dockerfile
+    dockerContext: .
     envVars:
       - key: NODE_ENV
         value: production
@@ -49,17 +49,6 @@ services:
       - key: GOOGLE_CLIENT_ID
         sync: false
       - key: SPEECH_AI_URL
-        sync: false
-
-  - type: web
-    name: keyt-speech-ai
-    env: docker
-    plan: starter
-    dockerfilePath: speech-ai-service/Dockerfile
-    dockerContext: speech-ai-service
-    envVars:
-      - key: PORT
-        value: 8001
+        value: http://127.0.0.1:8001
       - key: WHISPER_MODEL_SIZE
         value: tiny
-
