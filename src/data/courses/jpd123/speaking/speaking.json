@@ -806,6 +806,422 @@
           "vietnamese": "Gần nhà có công viên đẹp và nhà hàng. Buổi chiều tối tôi hay đi dạo ở công viên."
         }
       }
+    },
+    {
+      "id": "B-406",
+      "lesson": 4,
+      "hasImage": true,
+      "imageType": "fpt_flight_distance",
+      "imageDescription": "Tranh Demo FPT: Chuyến bay từ Hà Nội đến TP. Hồ Chí Minh bằng máy bay mất 2 giờ 30 phút (ハノイ ✈️ 2時間半 📍 ホーチミン).",
+      "questionJapanese": "ハノイから ホーチミンまで ひこうきで どのくらいですか。",
+      "questionFurigana": "ハノイから ホーチミンまで ひこうきで どのくらいですか。",
+      "questionVietnamese": "Từ Hà Nội đến TP. Hồ Chí Minh bằng máy bay mất bao lâu?",
+      "grammarPattern": "N1 から N2 まで [Phương tiện] で どのくらいですか",
+      "keywords": [
+        "２時間半",
+        "にじかんはん",
+        "ひこうき",
+        "くらい",
+        "かかります"
+      ],
+      "answers": {
+        "level1_short": {
+          "japanese": "２時間半くらいです。",
+          "reading": "にじかんはん くらいです。",
+          "vietnamese": "Khoảng 2 tiếng rưỡi."
+        },
+        "level2_polite": {
+          "japanese": "ひこうきで ２時間半くらい かかります。",
+          "reading": "ひこうきで にじかんはんくらい かかります。",
+          "vietnamese": "Đi bằng máy bay mất khoảng 2 tiếng rưỡi."
+        },
+        "level3_expanded": {
+          "japanese": "ハノイから ホーチミンまで ひこうきで ２時間半くらいです。とても 速いです。",
+          "reading": "ハノイから ホーチミンまで ひこうきで にじかんはんくらいです。とても はやいです。",
+          "vietnamese": "Từ Hà Nội đến TP.HCM bằng máy bay mất khoảng 2 tiếng rưỡi. Rất là nhanh."
+        }
+      }
+    },
+    {
+      "id": "B-407",
+      "lesson": 4,
+      "hasImage": false,
+      "questionJapanese": "あなたの まちは にぎやかですか。",
+      "questionFurigana": "あなたの まちは にぎやかですか。",
+      "questionVietnamese": "Thành phố/quê của bạn có náo nhiệt không?",
+      "grammarPattern": "N は Tính từ な ですか (Yes/No)",
+      "keywords": [
+        "にぎやか",
+        "じゃありません",
+        "しずか"
+      ],
+      "answers": {
+        "level1_short": {
+          "japanese": "はい、にぎやかです。",
+          "reading": "はい、にぎやかです。",
+          "vietnamese": "Vâng, náo nhiệt ạ."
+        },
+        "level2_polite": {
+          "japanese": "いいえ、にぎやかじゃありません。しずかな まちです。",
+          "reading": "いいえ、にぎやかじゃありません。しずかな まちです。",
+          "vietnamese": "Không, không náo nhiệt. Đó là một thị trấn yên tĩnh."
+        },
+        "level3_expanded": {
+          "japanese": "私の まちは にぎやかです。そして、とても きれいな ところです。",
+          "reading": "わたしの まちは にぎやかです。そして、とても きれいな ところです。",
+          "vietnamese": "Thành phố của em rất náo nhiệt. Và còn là một nơi rất đẹp nữa ạ."
+        }
+      }
+    },
+    {
+      "id": "B-408",
+      "lesson": 4,
+      "hasImage": false,
+      "questionJapanese": "あなたの まちは 大きいですか。",
+      "questionFurigana": "あなたの まちは おおきいですか。",
+      "questionVietnamese": "Thành phố/quê của bạn có lớn không?",
+      "grammarPattern": "N は Tính từ い ですか (Yes/No)",
+      "keywords": [
+        "おおきい",
+        "大きくない",
+        "いいところ"
+      ],
+      "answers": {
+        "level1_short": {
+          "japanese": "はい、大きいです。",
+          "reading": "はい、おおきいです。",
+          "vietnamese": "Vâng, lớn ạ."
+        },
+        "level2_polite": {
+          "japanese": "いいえ、大きくないです。小さい まちです。",
+          "reading": "いいえ、おおきくないです。ちいさい まちです。",
+          "vietnamese": "Không, không lớn. Đó là một thị trấn nhỏ."
+        },
+        "level3_expanded": {
+          "japanese": "私の まちは 大きくないですが、とても いいところです。",
+          "reading": "わたしの まちは おおきくないですが、とても いいところです。",
+          "vietnamese": "Thành phố của em tuy không lớn nhưng là một nơi rất tuyệt vời."
+        }
+      }
+    },
+    {
+      "id": "B-506",
+      "lesson": 5,
+      "hasImage": false,
+      "questionJapanese": "きのう、だれと 日本語を 勉強しましたか。",
+      "questionFurigana": "きのう、だれと にほんごを べんきょうしましたか。",
+      "questionVietnamese": "Hôm qua bạn đã học tiếng Nhật cùng với ai?",
+      "grammarPattern": "[Người] と Vました (Làm cùng ai / ひとりで)",
+      "keywords": [
+        "と",
+        "ともだち",
+        "ひとりで",
+        "勉強しました"
+      ],
+      "answers": {
+        "level1_short": {
+          "japanese": "友達と 勉強しました。",
+          "reading": "ともだちと べんきょうしました。",
+          "vietnamese": "Đã học cùng bạn bè."
+        },
+        "level2_polite": {
+          "japanese": "Lanさんと 一緒に 日本語を 勉強しました。",
+          "reading": "Lanさんと いっしょに にほんごを べんきょうしました。",
+          "vietnamese": "Em đã cùng bạn Lan học tiếng Nhật ạ."
+        },
+        "level3_expanded": {
+          "japanese": "きのうは ひとりで 図書館で ２時間 勉強しました。",
+          "reading": "きのうは ひとりで としょかんで にじかん べんきょうしました。",
+          "vietnamese": "Hôm qua em học một mình ở thư viện trong 2 tiếng ạ."
+        }
+      }
+    },
+    {
+      "id": "B-507",
+      "lesson": 5,
+      "hasImage": false,
+      "questionJapanese": "どうして 学校へ 行きませんでしたか。",
+      "questionFurigana": "どうして がっこうへ いきませんでしたか。",
+      "questionVietnamese": "Tại sao bạn đã không đi học?",
+      "grammarPattern": "どうして ～ませんでしたか → [Lý do] からです",
+      "keywords": [
+        "から",
+        "かぜ",
+        "ねつ",
+        "びょうき"
+      ],
+      "answers": {
+        "level1_short": {
+          "japanese": "かぜを ひきましたから。",
+          "reading": "かぜを ひきましたから。",
+          "vietnamese": "Vì em bị cảm ạ."
+        },
+        "level2_polite": {
+          "japanese": "熱が ありましたから、行きませんでした。",
+          "reading": "ねつが ありましたから、いきませんでした。",
+          "vietnamese": "Vì em bị sốt nên đã không đi ạ."
+        },
+        "level3_expanded": {
+          "japanese": "きのう 頭が 痛かったですから、家で 休みました。",
+          "reading": "きのう あたまが いたかったですから、いえで やすみました。",
+          "vietnamese": "Hôm qua vì em bị đau đầu nên đã nghỉ ngơi ở nhà ạ."
+        }
+      }
+    },
+    {
+      "id": "B-508",
+      "lesson": 5,
+      "hasImage": false,
+      "questionJapanese": "もう 薬を 飲みましたか。",
+      "questionFurigana": "もう くすりを のみましたか。",
+      "questionVietnamese": "Bạn đã uống thuốc chưa?",
+      "grammarPattern": "もう Vましたか → はい、もう～ました / いいえ、まだです",
+      "keywords": [
+        "まだです",
+        "もう",
+        "のみました"
+      ],
+      "answers": {
+        "level1_short": {
+          "japanese": "いいえ、まだです。",
+          "reading": "いいえ、まだです。",
+          "vietnamese": "Chưa, vẫn chưa ạ."
+        },
+        "level2_polite": {
+          "japanese": "はい、もう 飲みました。",
+          "reading": "はい、もう のみました。",
+          "vietnamese": "Vâng, em đã uống rồi ạ."
+        },
+        "level3_expanded": {
+          "japanese": "いいえ、まだです。昼ごはんの 後で 飲みます。",
+          "reading": "いいえ、まだです。ひるごはんの あとで のみます。",
+          "vietnamese": "Dạ chưa, sau bữa trưa em sẽ uống ạ."
+        }
+      }
+    },
+    {
+      "id": "B-605",
+      "lesson": 6,
+      "hasImage": false,
+      "questionJapanese": "FPT大学で 何が ありますか。",
+      "questionFurigana": "FPTだいがくで なにが ありますか。",
+      "questionVietnamese": "Ở Trường Đại học FPT diễn ra sự kiện gì?",
+      "grammarPattern": "N (địa điểm) で N (sự kiện) が あります",
+      "keywords": [
+        "コンサート",
+        "しあい",
+        "イベント",
+        "あります"
+      ],
+      "answers": {
+        "level1_short": {
+          "japanese": "コンサートが あります。",
+          "reading": "コンサートが あります。",
+          "vietnamese": "Có buổi hòa nhạc ạ."
+        },
+        "level2_polite": {
+          "japanese": "あした、サッカーの 試合が あります。",
+          "reading": "あした、サッカーの しあいが あります。",
+          "vietnamese": "Ngày mai có trận thi đấu bóng đá ạ."
+        },
+        "level3_expanded": {
+          "japanese": "今週末、FPT大学で おもしろい 音楽の イベントが あります。",
+          "reading": "こんしゅうまつ、FPTだいがくで おもしろい おんがくの イベントが あります。",
+          "vietnamese": "Cuối tuần này ở Đại học FPT có một sự kiện âm nhạc rất thú vị."
+        }
+      }
+    },
+    {
+      "id": "B-606",
+      "lesson": 6,
+      "hasImage": false,
+      "questionJapanese": "クラスで だれが いちばん 背が 高いですか。",
+      "questionFurigana": "クラスで だれが いちばん せが たかいですか。",
+      "questionVietnamese": "Trong lớp học, ai là người cao nhất?",
+      "grammarPattern": "N で だれが いちばん A ですか",
+      "keywords": [
+        "いちばん",
+        "たかい",
+        "さん",
+        "背が高い"
+      ],
+      "answers": {
+        "level1_short": {
+          "japanese": "ホアンさんが いちばん 高いです。",
+          "reading": "ホアンさんが いちばん たかいです。",
+          "vietnamese": "Bạn Hoàng cao nhất ạ."
+        },
+        "level2_polite": {
+          "japanese": "クラスで ホアンさんが いちばん 背が 高いです。",
+          "reading": "クラスで ホアンさんが いちばん せが たかいです。",
+          "vietnamese": "Trong lớp bạn Hoàng là người cao nhất."
+        },
+        "level3_expanded": {
+          "japanese": "ホアンさんが いちばん 背が 高いです。１メートル８０センチ あります。",
+          "reading": "ホアンさんが いちばん せが たかいです。いちメートルはちじっセンチ あります。",
+          "vietnamese": "Bạn Hoàng cao nhất, cao tầm 1m80 ạ."
+        }
+      }
+    },
+    {
+      "id": "B-607",
+      "lesson": 6,
+      "hasImage": false,
+      "questionJapanese": "ベトナムで どこが いちばん 大きいですか。",
+      "questionFurigana": "ベトナムで どこが いちばん おおきいですか。",
+      "questionVietnamese": "Ở Việt Nam nơi nào là lớn nhất?",
+      "grammarPattern": "N で どこが いちばん A ですか",
+      "keywords": [
+        "いちばん",
+        "おおきい",
+        "ホーチミン"
+      ],
+      "answers": {
+        "level1_short": {
+          "japanese": "ホーチミン市が いちばん 大きいです。",
+          "reading": "ホーチミンしが いちばん おおきいです。",
+          "vietnamese": "Thành phố Hồ Chí Minh là lớn nhất."
+        },
+        "level2_polite": {
+          "japanese": "ベトナムで ホーチミン市が いちばん 大きくて、にぎやかです。",
+          "reading": "ベトナムで ホーチミンしが いちばん おおきくて、にぎやかです。",
+          "vietnamese": "Ở Việt Nam, TP.HCM lớn nhất và náo nhiệt nhất."
+        },
+        "level3_expanded": {
+          "japanese": "ホーチミン市が いちばん 大きいです。たくさんの 人や 会社が あります。",
+          "reading": "ホーチミンしが いちばん おおきいです。たくさんの ひとや かいしゃが あります。",
+          "vietnamese": "TP.HCM là lớn nhất, có rất nhiều người và các công ty."
+        }
+      }
+    },
+    {
+      "id": "B-705",
+      "lesson": 7,
+      "hasImage": true,
+      "imageType": "cat_under_table",
+      "imageDescription": "Tranh phòng khách: Con mèo trắng đang ngủ dưới gầm bàn trà, bên cạnh có chiếc ghế sofa.",
+      "questionJapanese": "ねこは どこに いますか。",
+      "questionFurigana": "ねこは どこに いますか。",
+      "questionVietnamese": "Con mèo đang ở đâu?",
+      "grammarPattern": "N1 (người/động vật) は N2 の [Vị trí] に います",
+      "keywords": [
+        "した",
+        "テーブル",
+        "います"
+      ],
+      "answers": {
+        "level1_short": {
+          "japanese": "テーブルの 下に います。",
+          "reading": "テーブルの したに います。",
+          "vietnamese": "Ở dưới bàn ạ."
+        },
+        "level2_polite": {
+          "japanese": "ねこは テーブルの 下で 寝ています。",
+          "reading": "ねこは テーブルの したで ねています。",
+          "vietnamese": "Con mèo đang ngủ dưới bàn."
+        },
+        "level3_expanded": {
+          "japanese": "かわいい 白い ねこが テーブルの 下に います。",
+          "reading": "かわいい しろい ねこが テーブルの したに います。",
+          "vietnamese": "Một chú mèo trắng xinh xắn đang ở dưới bàn ạ."
+        }
+      }
+    },
+    {
+      "id": "B-706",
+      "lesson": 7,
+      "hasImage": true,
+      "imageType": "kitchen_cutting",
+      "imageDescription": "Tranh nhà bếp: Người nấu bếp đang dùng dao thái cà rốt và rau củ trên thớt.",
+      "questionJapanese": "何で 野菜を 切りますか。",
+      "questionFurigana": "なんで やさいを きりますか。",
+      "questionVietnamese": "Bạn cắt rau củ bằng cái gì?",
+      "grammarPattern": "Dụng cụ + で + Vます",
+      "keywords": [
+        "ナイフ",
+        "きります",
+        "野菜"
+      ],
+      "answers": {
+        "level1_short": {
+          "japanese": "ナイフで 切ります。",
+          "reading": "ナイフで きります。",
+          "vietnamese": "Cắt bằng dao ạ."
+        },
+        "level2_polite": {
+          "japanese": "ナイフで 野菜を 切ります。",
+          "reading": "ナイフで やさいを きります。",
+          "vietnamese": "Dùng dao để cắt rau củ."
+        },
+        "level3_expanded": {
+          "japanese": "よく 切れる ナイフで 野菜を きれいに 切ります。",
+          "reading": "よく きれる ナイフで やさいを きれいに きります。",
+          "vietnamese": "Dùng con dao thật bén để cắt tỉa rau củ thật đẹp ạ."
+        }
+      }
+    },
+    {
+      "id": "B-707",
+      "lesson": 7,
+      "hasImage": false,
+      "questionJapanese": "アメリカ人は 何で ご飯を 食べますか。",
+      "questionFurigana": "アメリカじんは なんで ごはんを たべますか。",
+      "questionVietnamese": "Người Mỹ ăn cơm/thức ăn bằng dụng cụ gì?",
+      "grammarPattern": "Dụng cụ + で + ご飯を 食べます",
+      "keywords": [
+        "フォーク",
+        "ナイフ",
+        "食べます"
+      ],
+      "answers": {
+        "level1_short": {
+          "japanese": "フォークと ナイフで 食べます。",
+          "reading": "フォークと ナイフで たべます。",
+          "vietnamese": "Ăn bằng nĩa và dao ạ."
+        },
+        "level2_polite": {
+          "japanese": "アメリカ人は フォークや スプーンで ご飯を 食べます。",
+          "reading": "アメリカじんは フォークや スプーンで ごはんを たべます。",
+          "vietnamese": "Người Mỹ dùng nĩa hoặc thìa để ăn cơm."
+        },
+        "level3_expanded": {
+          "japanese": "アメリカ人は フォークと ナイフで 食べます。ベトナム人は お箸で 食べます。",
+          "reading": "アメリカじんは フォークと ナイフで たべます。ベトナムじんは おはしで たべます。",
+          "vietnamese": "Người Mỹ ăn bằng nĩa và dao, còn người Việt Nam ăn bằng đũa."
+        }
+      }
+    },
+    {
+      "id": "B-708",
+      "lesson": 7,
+      "hasImage": false,
+      "questionJapanese": "だれが 話していますか。",
+      "questionFurigana": "だれが はなしていますか。",
+      "questionVietnamese": "Ai đang nói chuyện vậy?",
+      "grammarPattern": "だれが Vていますか → [Người] が Vています",
+      "keywords": [
+        "が",
+        "はなして",
+        "せんせい",
+        "さん"
+      ],
+      "answers": {
+        "level1_short": {
+          "japanese": "Hoaさんが 話しています。",
+          "reading": "Hoaさんが はなしています。",
+          "vietnamese": "Bạn Hoa đang nói ạ."
+        },
+        "level2_polite": {
+          "japanese": "先生と 学生が 話しています。",
+          "reading": "せんせいと がくせいが はなしています。",
+          "vietnamese": "Thầy giáo và sinh viên đang nói chuyện."
+        },
+        "level3_expanded": {
+          "japanese": "田中先生が 日本語で 楽しそうに 話しています。",
+          "reading": "たなかせんせいが にほんごで たのしそうに はなしています。",
+          "vietnamese": "Thầy Tanaka đang vui vẻ nói chuyện bằng tiếng Nhật ạ."
+        }
+      }
     }
   ],
   "survivalKit": {
@@ -825,59 +1241,451 @@
         "tip": "Nói to, rõ ràng, mắt nhìn thẳng vào giảng viên tạo thiện cảm tác phong."
       },
       {
-        "situation": "Khi không nghe kịp câu hỏi của giám thị",
-        "japanese": "すみません、もう一度 お願いします。",
+        "situation": "Khi không nghe kịp câu hỏi của giám thị (CÂU CỨU MẠNG)",
+        "japanese": "すみません、もう一度お願いします。",
         "romaji": "Sumimasen, mou ichido onegaishimasu.",
-        "vietnamese": "Xin lỗi thầy cô hỏi lại một lần nữa được không ạ?",
-        "tip": "Được hỏi tối đa 3 lần cho mỗi câu hỏi mà KHÔNG bị trừ điểm phản xạ! Hãy tận dụng thay vì im lặng."
+        "vietnamese": "Xin lỗi thầy cô nhắc lại một lần nữa giúp em được không ạ?",
+        "tip": "Được xin hỏi lại tối đa 3 lần/câu mà KHÔNG bị trừ điểm! Tuyệt đối không đoán bừa khi chưa rõ từ để hỏi."
       },
       {
-        "situation": "Khi cần vài giây suy nghĩ",
+        "situation": "Khi cần vài giây định thần suy nghĩ",
         "japanese": "ええと… すこし 待ってください。",
         "romaji": "Eeto... sukoshi matte kudasai.",
         "vietnamese": "Dạ... xin đợi em một chút ạ.",
-        "tip": "Tránh im lặng quá 10s. Dùng câu đệm giúp câu trả lời tự nhiên như người Nhật."
+        "tip": "Tránh im lặng tuyệt đối quá 10s. Dùng từ đệm ええと giúp giữ nhịp và chứng minh bạn đang phản xạ."
       },
       {
         "situation": "Khi kết thúc bài thi",
         "japanese": "どうも ありがとうございました。失礼します。",
         "romaji": "Doumo arigatou gozaimashita. Shitsurei shimasu.",
         "vietnamese": "Em xin cảm ơn thầy cô nhiều ạ. Em xin phép.",
-        "tip": "Đứng dậy, cúi chào lịch sự trước khi bước ra khỏi phòng để ăn trọn 10 điểm tác phong!"
+        "tip": "Đứng dậy, đẩy ghế ngay ngắn, cúi chào lịch sự trước khi bước ra khỏi phòng để ăn trọn 10 điểm tác phong!"
       }
     ],
     "rubricSummary": [
       {
         "section": "1. Đọc đoạn văn (READING)",
         "maxScore": 45,
-        "criteria": "Độ dài 140 - 150 chữ. Gồm: 5-7 chữ Hán (15đ), 2-4 từ Katakana (10đ), 115-125 chữ Hiragana (20đ). Mỗi chữ đọc sai trừ 0.2đ."
+        "criteria": "Độ dài 140 - 150 chữ. Gồm: 5-7 chữ Hán (15đ), 2-4 từ Katakana (10đ), 115-125 chữ Hiragana (20đ). Mỗi chữ Hiragana đọc sai trừ 0.2đ; chữ Hán sai trừ 2-3đ/từ. Chuẩn bị 20 giây."
       },
       {
         "section": "2. Vấn đáp (Q&A)",
         "maxScore": 45,
-        "criteria": "3 câu hỏi x 15đ/câu (1 câu có tranh + 2 câu không tranh). Sai ngữ pháp hoàn toàn trừ 10đ/câu; sai từ vựng trừ 5-7đ; trả lời lệch tranh trừ 5đ; lỗi đuôi câu/trợ từ trừ 2-3đ."
+        "criteria": "3 câu hỏi x 15đ/câu (1 câu có tranh + 2 câu không tranh). Sai ngữ pháp hoàn toàn trừ 10đ/câu; sai từ vựng trừ 5-7đ; trả lời lệch tranh trừ 5đ; lỗi đuôi câu/trợ từ trừ 2-3đ/lỗi. Suy nghĩ không quá 10 giây/câu."
       },
       {
         "section": "3. Tác phong & Phản xạ",
         "maxScore": 10,
-        "criteria": "Chào hỏi, thái độ, tư thế ngồi (2đ). Phát âm, độ lưu loát, phản xạ không ngập ngừng quá 10s (8đ)."
+        "criteria": "Chào hỏi lúc vào và ra (2đ). Độ lưu loát, phát âm, phản xạ tự nhiên không ngập ngừng quá 10s (8đ)."
       }
     ],
+    "questionWordsSystem": [
+      {
+        "word": "どう",
+        "furigana": "どう",
+        "meaning": "Thế nào",
+        "responseGuide": "Trả lời bằng Tính từ (きれいです, あついです...)",
+        "exampleQ": "ベトナムは どうですか。",
+        "exampleA": "きれいです。／あついです。"
+      },
+      {
+        "word": "どんな + N",
+        "furigana": "どんな + N",
+        "meaning": "N như thế nào",
+        "responseGuide": "Tính từ + Danh từ + です (bắt buộc phải có danh từ phía sau)",
+        "exampleQ": "FPT大学は どんな大学ですか。",
+        "exampleA": "きれいな大学です。／大きいところです。"
+      },
+      {
+        "word": "どこ",
+        "furigana": "どこ",
+        "meaning": "Ở đâu",
+        "responseGuide": "Địa điểm + にあります (vật) ／ にいます (người, động vật)",
+        "exampleQ": "本は どこに ありますか。",
+        "exampleA": "机の上に あります。"
+      },
+      {
+        "word": "どこか",
+        "furigana": "どこか",
+        "meaning": "Có đi đâu không",
+        "responseGuide": "はい、[N]へ 行きました。 ／ いいえ、どこへも 行きませんでした。",
+        "exampleQ": "きのう、どこかへ 行きましたか。",
+        "exampleA": "いいえ、どこへも行きませんでした。"
+      },
+      {
+        "word": "なに／なん",
+        "furigana": "なに／なん",
+        "meaning": "Cái gì / Làm gì",
+        "responseGuide": "Danh từ hoặc Hành động cụ thể",
+        "exampleQ": "きのう、何を しましたか。",
+        "exampleA": "日本語を 勉強しました。"
+      },
+      {
+        "word": "どのくらい",
+        "furigana": "どのくらい",
+        "meaning": "Bao lâu / Khoảng cách",
+        "responseGuide": "～分／～時間 くらいです (hoặc かかります)",
+        "exampleQ": "家から 大学まで どのくらいですか。",
+        "exampleA": "バイクで ３０分くらいです。"
+      },
+      {
+        "word": "だれ",
+        "furigana": "だれ",
+        "meaning": "Ai",
+        "responseGuide": "Người (Tên người + さん)",
+        "exampleQ": "あの人は だれですか。",
+        "exampleA": "ホアンさんです。"
+      },
+      {
+        "word": "だれと",
+        "furigana": "だれと",
+        "meaning": "Cùng với ai",
+        "responseGuide": "Tên người + と … (nếu một mình: ひとりで)",
+        "exampleQ": "だれと 勉強しましたか。",
+        "exampleA": "Lanさんと 勉強しました。／ひとりで 勉強しました。"
+      },
+      {
+        "word": "だれが",
+        "furigana": "だれが",
+        "meaning": "Ai là người thực hiện (Chủ ngữ)",
+        "responseGuide": "Tên người + が [Vています/Aです] (Hỏi が đáp が)",
+        "exampleQ": "だれが 話していますか。",
+        "exampleA": "Hoaさんが 話しています。"
+      },
+      {
+        "word": "どうして",
+        "furigana": "どうして",
+        "meaning": "Tại sao",
+        "responseGuide": "Bắt buộc có [Lý do] + からです ／ から",
+        "exampleQ": "どうして 学校へ 行きませんでしたか。",
+        "exampleA": "かぜを ひきましたから。"
+      },
+      {
+        "word": "どちら",
+        "furigana": "どちら",
+        "meaning": "Cái nào trong hai cái",
+        "responseGuide": "[N] のほうが [Tính từ] です (hoặc どちらも～)",
+        "exampleQ": "春と夏と どちらが好きですか。",
+        "exampleA": "春のほうが 好きです。"
+      },
+      {
+        "word": "何月",
+        "furigana": "なんがつ",
+        "meaning": "Tháng mấy",
+        "responseGuide": "[Số] 月です (hoặc [Số] 月がいちばん～)",
+        "exampleQ": "ベトナムで 何月がいちばん あついですか。",
+        "exampleA": "６月が いちばん あついです。"
+      },
+      {
+        "word": "何で",
+        "furigana": "なんで",
+        "meaning": "Bằng cái gì / Phương tiện gì",
+        "responseGuide": "[Phương tiện/Dụng cụ] で Vます",
+        "exampleQ": "ベトナム人は 何で ご飯を食べますか。",
+        "exampleA": "お箸で 食べます。"
+      },
+      {
+        "word": "何を",
+        "furigana": "なにを",
+        "meaning": "Làm gì / Cái gì",
+        "responseGuide": "N を Vます (Tân ngữ chịu tác động)",
+        "exampleQ": "あした、何を 買いに行きますか。",
+        "exampleA": "本を 買いに行きます。"
+      },
+      {
+        "word": "どこで",
+        "furigana": "どこで",
+        "meaning": "Làm ở đâu / Xảy ra ở đâu",
+        "responseGuide": "Địa điểm + で + Vます ／ が あります",
+        "exampleQ": "FPT大学で 何が ありますか。",
+        "exampleA": "コンサートが あります。"
+      }
+    ],
+    "reflexList20": [
+      {
+        "id": 1,
+        "question": "どのくらいですか。",
+        "reflex": "～分／時間くらいです。",
+        "lesson": "Lesson 4",
+        "explanation": "Hỏi mất bao lâu → trả lời khoảng thời gian + くらいです."
+      },
+      {
+        "id": 2,
+        "question": "どんなところですか。",
+        "reflex": "きれいなところです。",
+        "lesson": "Lesson 4",
+        "explanation": "Hỏi là nơi thế nào → Tính từ + ところです (phải có danh từ)."
+      },
+      {
+        "id": 3,
+        "question": "どうですか。",
+        "reflex": "きれいです。／あついです。",
+        "lesson": "Lesson 4",
+        "explanation": "Hỏi cảm nhận thế nào → Trả lời trực tiếp bằng Tính từ + です."
+      },
+      {
+        "id": 4,
+        "question": "～ですか。(Tính từ Yes/No)",
+        "reflex": "はい、～です。／いいえ、～じゃありません・くないです。",
+        "lesson": "Lesson 4",
+        "explanation": "Câu hỏi Yes/No với tính từ な hoặc い."
+      },
+      {
+        "id": 5,
+        "question": "何をしましたか。",
+        "reflex": "～をしました。／～を Vました。",
+        "lesson": "Lesson 5",
+        "explanation": "Quá khứ làm gì → Bắt buộc chia động từ đuôi ました."
+      },
+      {
+        "id": 6,
+        "question": "どこかへ行きましたか。",
+        "reflex": "はい、～へ行きました。／いいえ、どこへも行きませんでした。",
+        "lesson": "Lesson 5",
+        "explanation": "Cặp phản xạ: どこか (đâu đó) → Phủ định là どこへも + 行きませんでした."
+      },
+      {
+        "id": 7,
+        "question": "だれと～ましたか。",
+        "reflex": "～さんと～ました。／ひとりで～ました。",
+        "lesson": "Lesson 5",
+        "explanation": "Hỏi đi/làm với ai → Tên + と (với), nếu một mình nói ひとりで."
+      },
+      {
+        "id": 8,
+        "question": "どうして～ませんでしたか。",
+        "reflex": "～からです。",
+        "lesson": "Lesson 5",
+        "explanation": "Hỏi lý do tại sao không làm → Bắt buộc kết thúc bằng ～からです."
+      },
+      {
+        "id": 9,
+        "question": "何がいちばんほしいですか。",
+        "reflex": "～がいちばんほしいです。／何もほしくないです。",
+        "lesson": "Lesson 5",
+        "explanation": "Muốn vật gì nhất → Danh từ + が ほしいです."
+      },
+      {
+        "id": 10,
+        "question": "何がいちばんすきですか。",
+        "reflex": "～がいちばんすきです。",
+        "lesson": "Lesson 5",
+        "explanation": "Thích cái gì nhất → Danh từ + が すきです."
+      },
+      {
+        "id": 11,
+        "question": "何をしたいですか。",
+        "reflex": "～たいです。 (Vます bỏ ます + たいです)",
+        "lesson": "Lesson 5",
+        "explanation": "Muốn làm hành động gì → Động từ thể たい."
+      },
+      {
+        "id": 12,
+        "question": "～ませんか。(Rủ rê)",
+        "reflex": "いいですね。いっしょに行きましょう。",
+        "lesson": "Lesson 6",
+        "explanation": "Đồng ý lời rủ rê: いいですね。いっしょに行きましょう. Từ chối: こんばんはちょっと…."
+      },
+      {
+        "id": 13,
+        "question": "～で何がいちばん A ですか。(So sánh nhất)",
+        "reflex": "～がいちばん A です。",
+        "lesson": "Lesson 6",
+        "explanation": "Trong phạm vi N cái gì là nhất → [Đối tượng] が いちばん A です."
+      },
+      {
+        "id": 14,
+        "question": "AとBと どちらが A ですか。(So sánh 2 thứ)",
+        "reflex": "Aのほうが A です。／どちらも A です。",
+        "lesson": "Lesson 6",
+        "explanation": "So sánh 2 bên → [Bên chọn] のほうが [Tính từ] です."
+      },
+      {
+        "id": 15,
+        "question": "もう～Vましたか。",
+        "reflex": "はい、もう～ました。／いいえ、まだです。",
+        "lesson": "Lesson 6",
+        "explanation": "Đã làm gì chưa → Phản xạ ngay: いいえ、まだです (Chưa, vẫn chưa)."
+      },
+      {
+        "id": 16,
+        "question": "～はどこにありますか。(Đồ vật)",
+        "reflex": "～の上に／下に あります。",
+        "lesson": "Lesson 7",
+        "explanation": "Hỏi vị trí đồ vật vô tri → Dùng あります."
+      },
+      {
+        "id": 17,
+        "question": "～はどこにいますか。(Người/Động vật)",
+        "reflex": "～の前に／下に います。",
+        "lesson": "Lesson 7",
+        "explanation": "Hỏi vị trí sinh vật sống (người, chó mèo) → Dùng います."
+      },
+      {
+        "id": 18,
+        "question": "近くに何がありますか。",
+        "reflex": "～や～があります。",
+        "lesson": "Lesson 7",
+        "explanation": "Gần đó có gì → Liệt kê: スーパーや 公園が あります."
+      },
+      {
+        "id": 19,
+        "question": "何で～ますか。(Dụng cụ)",
+        "reflex": "～で～ます。 (お箸で／ナイフで／ペンで)",
+        "lesson": "Lesson 7",
+        "explanation": "Làm bằng dụng cụ gì → Dụng cụ + で + Vます."
+      },
+      {
+        "id": 20,
+        "question": "何をしていますか。(Đang làm gì)",
+        "reflex": "～ています。 (Vて + います)",
+        "lesson": "Lesson 7",
+        "explanation": "Hành động đang diễn ra → Động từ thể ています."
+      },
+      {
+        "id": 21,
+        "question": "だれが～ていますか。(Ai đang làm)",
+        "reflex": "～さんが～ています。 (Hỏi が đáp が)",
+        "lesson": "Lesson 7",
+        "explanation": "Chủ ngữ chưa biết dùng だれが → Câu trả lời cũng dùng が (Hoaさんが...)."
+      }
+    ],
+    "grammarTables": {
+      "verbs": [
+        {
+          "form": "Hiện tại / Tương lai",
+          "pattern": "Vます",
+          "example": "勉強します (Học)"
+        },
+        {
+          "form": "Quá khứ",
+          "pattern": "Vました",
+          "example": "勉強しました (Đã học)"
+        },
+        {
+          "form": "Quá khứ phủ định",
+          "pattern": "Vませんでした",
+          "example": "勉強しませんでした (Đã không học)"
+        },
+        {
+          "form": "Muốn làm",
+          "pattern": "Vます bỏ ます + たいです",
+          "example": "行きたいです (Muốn đi)"
+        },
+        {
+          "form": "Đang diễn ra",
+          "pattern": "Vて + います",
+          "example": "聞いています (Đang nghe)"
+        }
+      ],
+      "iAdjectives": [
+        {
+          "form": "Hiện tại khẳng định",
+          "pattern": "Aいです",
+          "example": "あついです (Nóng)"
+        },
+        {
+          "form": "Hiện tại phủ định",
+          "pattern": "Aくないです",
+          "example": "あつくないです (Không nóng)"
+        },
+        {
+          "form": "Quá khứ khẳng định",
+          "pattern": "Aかったです",
+          "example": "あつかったです (Đã nóng)"
+        },
+        {
+          "form": "Quá khứ phủ định",
+          "pattern": "Aくなかったです",
+          "example": "あつくなかったです (Đã không nóng)"
+        }
+      ],
+      "naAdjectives": [
+        {
+          "form": "Hiện tại khẳng định",
+          "pattern": "Aです",
+          "example": "にぎやかです (Náo nhiệt)"
+        },
+        {
+          "form": "Hiện tại phủ định",
+          "pattern": "Aじゃありません",
+          "example": "にぎやかじゃありません (Không náo nhiệt)"
+        },
+        {
+          "form": "Quá khứ khẳng định",
+          "pattern": "Aでした",
+          "example": "にぎやかでした (Đã náo nhiệt)"
+        },
+        {
+          "form": "Quá khứ phủ định",
+          "pattern": "Aじゃありませんでした",
+          "example": "にぎやかじゃありませんでした (Đã không náo nhiệt)"
+        },
+        {
+          "form": "Đứng trước Danh từ",
+          "pattern": "Aな + Danh từ",
+          "example": "きれいなところ (Nơi đẹp)"
+        }
+      ],
+      "subGrammar": [
+        {
+          "pattern": "Vてください",
+          "meaning": "Hãy làm gì đó...",
+          "example": "名前を 書いてください。(Hãy viết tên bạn)"
+        },
+        {
+          "pattern": "Vましょうか",
+          "meaning": "Để tôi / chúng ta làm nhé?",
+          "example": "手伝いましょうか。(Để tôi giúp bạn nhé?)"
+        },
+        {
+          "pattern": "Vます + かた",
+          "meaning": "Cách làm một việc gì đó",
+          "example": "料理の つくりかた (Cách nấu ăn)"
+        },
+        {
+          "pattern": "まだ ／ もう",
+          "meaning": "Vẫn / Đã",
+          "example": "まだ あります (Vẫn còn) / もう ありません (Đã hết)"
+        },
+        {
+          "pattern": "どの + N / どれ",
+          "meaning": "Cái nào (trong nhiều cái)",
+          "example": "どのお皿ですか。(Chiếc đĩa nào?) / 塩は どれですか。(Muối là lọ nào?)"
+        }
+      ],
+      "eventVsExistence": {
+        "locationDe": {
+          "pattern": "Địa điểm + で + あります",
+          "meaning": "Sự kiện diễn ra ở đâu",
+          "example": "FPT大学で サッカーの試合が あります。(Ở FPT có trận đấu bóng đá)"
+        },
+        "locationNi": {
+          "pattern": "Địa điểm + に + あります/います",
+          "meaning": "Vật/Người tồn tại ở đâu",
+          "example": "FPT大学の近くに スーパーが あります。(Gần FPT có siêu thị)"
+        }
+      }
+    },
     "particlesCheatSheet": [
       {
         "particle": "で (de)",
         "meanings": [
           {
-            "role": "Phương tiện / Công cụ",
-            "example": "バスで 行きます。(Đi bằng xe buýt) / はしで 食べます。(Ăn bằng đũa)"
+            "role": "Phương tiện di chuyển",
+            "example": "バスで 行きます。(Đi bằng xe buýt)"
           },
           {
-            "role": "Địa điểm diễn ra hành động",
-            "example": "学校で 勉強します。(Học ở trường) / ハノイで 会いました。(Gặp ở Hà Nội)"
+            "role": "Dụng cụ / Công cụ thực hiện",
+            "example": "はしで 食べます。(Ăn bằng đũa) / ナイフで 切ります。(Cắt bằng dao)"
+          },
+          {
+            "role": "Địa điểm diễn ra hành động/sự kiện",
+            "example": "図書館で 勉強します。(Học ở thư viện) / 学校で 試合が あります。(Ở trường có trận đấu)"
           },
           {
             "role": "Phạm vi so sánh nhất",
-            "example": "スポーツで サッカーが いちばん 好きです。(Trong các môn thể thao, thích bóng đá nhất)"
+            "example": "スポーツの中で サッカーが いちばん 好きです。(Trong thể thao, thích bóng đá nhất)"
           }
         ]
       },
@@ -885,20 +1693,20 @@
         "particle": "に (ni)",
         "meanings": [
           {
-            "role": "Thời điểm cụ thể (có số)",
-            "example": "７時に おきます。(Thức dậy lúc 7 giờ)"
+            "role": "Thời điểm cụ thể (có con số)",
+            "example": "７時に 起きます。(Thức dậy lúc 7 giờ)"
           },
           {
             "role": "Địa điểm tồn tại (あります/います)",
-            "example": "部屋に ねこが います。(Trong phòng có con mèo) / つくえの上に 本が あります。(Trên bàn có sách)"
+            "example": "机の上に 本が あります。(Trên bàn có sách) / 部屋に 猫が います。(Trong phòng có mèo)"
           },
           {
             "role": "Mục đích di chuyển (Vに 行きます)",
             "example": "映画を 見に 行きます。(Đi để xem phim)"
           },
           {
-            "role": "Hướng vào đối tượng tiếp nhận",
-            "example": "友達に 会います。(Gặp bạn bè) / 山に のぼります。(Leo núi)"
+            "role": "Đối tượng tiếp nhận hành động",
+            "example": "友達に 会います。(Gặp bạn bè)"
           }
         ]
       },
@@ -907,19 +1715,19 @@
         "meanings": [
           {
             "role": "Chủ ngữ đối tượng tồn tại",
-            "example": "山が あります。(Có núi) / 犬が います。(Có con chó)"
+            "example": "山が あります。(Có núi) / 犬が います。(Có chó)"
           },
           {
-            "role": "Tính từ chỉ thích / ghét / muốn",
-            "example": "肉が 好きです。(Thích thịt) / 車が ほしいです。(Muốn có ô tô)"
+            "role": "Tính từ thích/muốn/giỏi",
+            "example": "車が ほしいです。(Muốn có ô tô) / 肉が 好きです。(Thích thịt)"
           },
           {
-            "role": "Nối hai vế đối lập (Nhưng...)",
-            "example": "大きくないですが、きれいです。(Không lớn nhưng mà đẹp)"
+            "role": "Chủ ngữ nghi vấn (hỏi が đáp が)",
+            "example": "だれが 話していますか。(Ai đang nói?) → Hoaさんが 話しています。(Bạn Hoa đang nói)"
           },
           {
-            "role": "Chủ ngữ trong câu so sánh / nghi vấn",
-            "example": "どちらが 好きですか。(Cái nào thích hơn?) / だれが いますか。(Ai đang ở đó?)"
+            "role": "Liên từ nối tương phản (Nhưng...)",
+            "example": "大きくないですが、いいところです。(Tuy không lớn nhưng là nơi tốt)"
           }
         ]
       },
@@ -927,19 +1735,114 @@
         "particle": "と (to)",
         "meanings": [
           {
-            "role": "Và (Liệt kê danh từ)",
-            "example": "パンと たまごを 買いました。(Đã mua bánh mì và trứng)"
+            "role": "Liệt kê danh từ (Và)",
+            "example": "パンと 卵を 買いました。(Đã mua bánh mì và trứng)"
           },
           {
-            "role": "Cùng với (ai đó)",
+            "role": "Cùng với ai đó",
             "example": "友達と 旅行に 行きます。(Đi du lịch cùng bạn bè)"
           },
           {
             "role": "So sánh 2 đối tượng (N1 と N2 と)",
-            "example": "春と 夏と どちらが 好きですか。(Mùa xuân và mùa hè, cái nào thích hơn?)"
+            "example": "春と 夏と どちらが 好きですか。(Mùa xuân và mùa hè, thích mùa nào hơn?)"
+          }
+        ]
+      },
+      {
+        "particle": "へ (e)",
+        "meanings": [
+          {
+            "role": "Hướng di chuyển (Đến đâu)",
+            "example": "学校へ 行きます。(Đi đến trường) / ベトナムへ 来ました。(Đã đến Việt Nam)"
+          }
+        ]
+      },
+      {
+        "particle": "を (o)",
+        "meanings": [
+          {
+            "role": "Tân ngữ trực tiếp của hành động",
+            "example": "ご飯を 食べます。(Ăn cơm) / 日本語を 勉強します。(Học tiếng Nhật)"
+          }
+        ]
+      },
+      {
+        "particle": "から (kara)",
+        "meanings": [
+          {
+            "role": "Điểm xuất phát (Từ đâu / Từ mấy giờ)",
+            "example": "家から 大学まで。(Từ nhà đến trường) / ８時から 始まります。(Bắt đầu từ 8 giờ)"
+          },
+          {
+            "role": "Nguyên nhân, lý do (Vì...)",
+            "example": "かぜを ひきましたから。(Vì tôi bị cảm)"
+          }
+        ]
+      },
+      {
+        "particle": "まで (made)",
+        "meanings": [
+          {
+            "role": "Điểm kết thúc (Đến đâu / Đến mấy giờ)",
+            "example": "大学まで ３０分です。(Đến trường mất 30 phút) / ５時まで 勉強しました。(Học đến 5 giờ)"
+          }
+        ]
+      },
+      {
+        "particle": "より (yori)",
+        "meanings": [
+          {
+            "role": "Hơn (So sánh hơn)",
+            "example": "飛行機は 新幹線より 速いです。(Máy bay nhanh hơn tàu Shinkansen)"
+          }
+        ]
+      },
+      {
+        "particle": "の (no)",
+        "meanings": [
+          {
+            "role": "Sở hữu / Liên kết thuộc tính",
+            "example": "私の 本。(Sách của tôi) / 日本語の 先生。(Giáo viên tiếng Nhật)"
+          },
+          {
+            "role": "Xác định vị trí tương đối",
+            "example": "机の 上。(Trên bàn) / テーブルの 下。(Dưới gầm bàn)"
           }
         ]
       }
-    ]
+    ],
+    "threeStepMethod": [
+      {
+        "step": 1,
+        "title": "Nghe từ khóa hỏi (Từ để hỏi)",
+        "desc": "Chỉ tập trung bắt từ để hỏi: どこ (nơi chốn), なに (cái gì), だれ (người), どうして (lý do), どのくらい (thời gian), どちら (chọn 1 trong 2), 何で (công cụ/phương tiện)."
+      },
+      {
+        "step": 2,
+        "title": "Nghe chủ đề & thì câu hỏi",
+        "desc": "Ví dụ: きのう + だれと + 勉強しましたか → Nhận diện ngay: Hôm qua làm với ai (quá khứ). Không cần dịch từng chữ trong đầu!"
+      },
+      {
+        "step": 3,
+        "title": "Lấy đúng khuôn đáp đơn giản",
+        "desc": "Nói 1 câu duy nhất đúng cấu trúc: Lanさんと 勉強しました。(hoặc ひとりで 勉強しました). Tuyệt đối nói ngắn mà đúng ngữ pháp/trợ từ, không cố nói dài dễ bị trừ điểm oan."
+      }
+    ],
+    "imageStrategy": {
+      "title": "Chiến thuật câu 1 có tranh (15 điểm) - Tránh bẫy sai dữ liệu",
+      "rule": "Câu 1 trong phần Q&A bắt buộc dựa vào dữ liệu trong hình. Nếu nói đúng ngữ pháp nhưng sai dữ liệu tranh sẽ bị trừ 5 điểm!",
+      "demoFpt": "Tranh Demo FPT: Hà Nội ✈️ 2時間半 📍 TP. Hồ Chí Minh",
+      "demoQuestion": "ハノイから ホーチミンまで ひこうきで どのくらいですか。",
+      "demoAnswer": "ハノイから ホーチミンまで、ひこうきで ２時間半くらいです。",
+      "tip": "Phải nói đúng 'ひこうきで' (phương tiện) và '２時間半' (số giờ trong tranh). Không tự bịa số giờ khác!"
+    },
+    "readingTips": {
+      "title": "Kỹ thuật lấy trọn 45 điểm Reading",
+      "structure": "Đoạn văn 140 - 150 chữ: gồm 5-7 Kanji (15đ), 2-4 Katakana (10đ), 115-125 Hiragana (20đ). Mỗi chữ Hiragana sai trừ 0.2đ.",
+      "goldenRule": "Đọc theo cụm nghĩa (スラッシュ・リーディング), không đọc rời từng chữ.",
+      "exampleBefore": "わ・た・し・は / こ・と・し・の… (Sai - vấp, trừ điểm lưu loát)",
+      "exampleAfter": "わたしは / 今年の8月に / ベトナムへ行きました。(Đúng - tự nhiên, đạt 45đ)",
+      "stallAdvice": "Khi gặp chữ Kanji không nhớ cách đọc: KHÔNG ĐỨNG IM QUÁ 3 GIÂY. Hãy đọc lướt qua hoặc đọc âm gần đúng rồi tiếp tục đoạn văn. Đứng im sẽ bị trừ điểm ngập ngừng toàn bài."
+    }
   }
 }
