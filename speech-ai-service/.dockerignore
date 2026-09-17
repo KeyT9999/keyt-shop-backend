@@ -1,0 +1,13 @@
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache
+venv
+.env
+.git
+.gitignore
+*.wav
+*.webm
+*.mp3
+run_service.bat

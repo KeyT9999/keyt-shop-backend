@@ -242,6 +242,7 @@ async def evaluate_greeting(
 
 
 if __name__ == "__main__":
-
     import uvicorn
-    uvicorn.run("main:app", host="127.0.0.1", port=8001, reload=True)
+    run_port = int(os.getenv("PORT", 8001))
+    run_host = os.getenv("HOST", "0.0.0.0")
+    uvicorn.run("main:app", host=run_host, port=run_port, reload=True)

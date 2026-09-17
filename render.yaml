@@ -48,4 +48,18 @@ services:
         value: "10"
       - key: GOOGLE_CLIENT_ID
         sync: false
+      - key: SPEECH_AI_URL
+        sync: false
+
+  - type: web
+    name: keyt-speech-ai
+    env: docker
+    plan: starter
+    dockerfilePath: speech-ai-service/Dockerfile
+    dockerContext: speech-ai-service
+    envVars:
+      - key: PORT
+        value: 8001
+      - key: WHISPER_MODEL_SIZE
+        value: tiny
 
