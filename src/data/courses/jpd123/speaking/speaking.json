@@ -3,228 +3,3876 @@
   "courseName": "Tiếng Nhật JPD123",
   "readingPassages": [
     {
-      "id": "A-0",
-      "code": "Đề A-0",
-      "title": "Chuyến Đi Hà Nội và Gặp Bạn Bè",
-      "topic": "Du lịch & Khám phá",
-      "wordCount": 145,
-      "contentJapanese": "わたしは 今年の ８月に ベトナムへ 行きました。ハノイで ともだちに 会いました。それから、いっしょに ゆうめいな きょうかいへ 行きました。とても きれいでした。おいしい 食べ物も たくさん 食べました。時間が ありませんでしたから、ホーチミン市へ 行きませんでした。また ホーチミン市へ 行きたいです。",
-      "contentFurigana": "わたしは ことしの はちがつに ベトナムへ いきました。ハノイで ともだちに あいました。それから、いっしょに ゆうめいな きょうかいへ いきました。とても きれいでした。おいしい たべものも たくさん たべました。じかんが ありませんでしたから、ホーチミンしへ いきませんでした。また ホーチミンしへ いきたいです。",
-      "contentVietnamese": "Tháng 8 năm nay tôi đã đến Việt Nam. Ở Hà Nội tôi đã gặp bạn bè. Sau đó, chúng tôi cùng nhau đi đến một nhà thờ nổi tiếng. Nhà thờ rất đẹp. Chúng tôi cũng đã ăn rất nhiều đồ ăn ngon. Vì không có thời gian nên tôi đã không đi Thành phố Hồ Chí Minh. Tôi muốn lại được đi Thành phố Hồ Chí Minh lần nữa.",
-      "targetKanji": [
-        {
-          "character": "今年",
-          "reading": "ことし",
-          "hanViet": "KIM NIÊN"
-        },
-        {
-          "character": "８月",
-          "reading": "はちがつ",
-          "hanViet": "BÁT NGUYỆT"
-        },
-        {
-          "character": "行きました",
-          "reading": "いきました",
-          "hanViet": "HÀNH"
-        },
-        {
-          "character": "会いました",
-          "reading": "あいました",
-          "hanViet": "HỘI"
-        },
-        {
-          "character": "食べ物",
-          "reading": "たべもの",
-          "hanViet": "THỰC VẬT"
-        },
-        {
-          "character": "食べました",
-          "reading": "たべました",
-          "hanViet": "THỰC"
-        },
-        {
-          "character": "時間",
-          "reading": "じかん",
-          "hanViet": "THỜI GIAN"
-        },
-        {
-          "character": "市",
-          "reading": "し",
-          "hanViet": "THỊ"
-        }
-      ],
-      "targetKatakana": [
-        "ベトナム",
-        "ハノイ",
-        "ホーチミン"
-      ],
-      "prepTimeSeconds": 20,
-      "readingTimeSeconds": 50
-    },
-    {
-      "id": "A-1",
-      "code": "Đề A-1",
-      "title": "Cuộc Sống Học Tập Tại Tokyo",
-      "topic": "Cuộc sống thường nhật",
+      "id": "lesson-1",
+      "code": "Lesson 1",
+      "lessonNum": 1,
+      "title": "ワットさんと さくら大学",
+      "topic": "Đại học",
+      "description": "Giới thiệu trường, công việc và bữa trưa ở căn tin. 8 câu đọc",
       "wordCount": 148,
-      "contentJapanese": "私は 日本の 東京に 住んでいます。東京は 大きい 都市で、たくさんの 人が います。毎日、学校へ 行くために、午前８時に 家を出ます。学校で 日本語を 勉強します。友達と 一緒に 昼ごはんを 食べます。週末には、友達と 買い物を したり、お寺に 行ったり します。お寺は 静かな 場所で、たくさん 話します。",
-      "contentFurigana": "わたしは にほんの とうきょうに すんでいます。とうきょうは おおきい としで、たくさんの ひとが います。まいにち、がっこうへ いくために、ごぜん はちじに いえを でます。がっこうで にほんごを べんきょうします。ともだちと いっしょに ひるごはんを たべます。しゅうまつには、ともだちと かいものを したり、おてらに いったり します。おてらは しずかな ばしょで、たくさん はなします。",
-      "contentVietnamese": "Tôi đang sống ở Tokyo, Nhật Bản. Tokyo là một thành phố lớn và có rất nhiều người. Mỗi ngày, để đến trường, tôi rời nhà lúc 8 giờ sáng. Ở trường tôi học tiếng Nhật. Tôi cùng bạn bè ăn cơm trưa. Vào cuối tuần, tôi đi mua sắm cùng bạn hoặc đi đến chùa. Chùa là một nơi yên tĩnh và chúng tôi nói chuyện rất nhiều.",
+      "sentenceCount": 8,
+      "contentJapanese": "ワットさんは さくら大学の 英語の 先生です。 毎日 あかい 車で 大学へ 行きます。 さくら大学は 大きい 大学ではありませんが、いい 大学です。 ワットさんは いつも 食堂で 昼ごはんを 食べます。 食堂は 12時から 1時まで とても にぎやかです。 食堂の 食べ物は おいしいです。 そして、安いです。 大学の 仕事は 忙しいですが、楽しいです。",
+      "contentFurigana": "ワットさんは さくらだいがくの えいごの せんせいです。 まいにち あかい くるまで だいがくへ いきます。 さくらだいがくは おおきい だいがくではありませんが、いい だいがくです。 ワットさんは いつも しょくどうで ひるごはんを たべます。 しょくどうは じゅうにじから いちじまで とても にぎやかです。 しょくどうの たべものは おいしいです。 そして、やすいです。 だいがくの しごとは いそがしいですが、たのしいです。",
+      "contentVietnamese": "Ông Watt là giáo viên tiếng Anh ở đại học Sakura. Mỗi ngày ông ấy đi ô tô màu đỏ đến trường đại học. Đại học Sakura không phải là một trường lớn, nhưng là một trường tốt. Ông Watt luôn ăn cơm trưa ở nhà ăn. Nhà ăn rất nhộn nhịp từ 12 giờ đến 1 giờ. Đồ ăn ở nhà ăn rất ngon. Hơn nữa còn rẻ. Công việc ở trường đại học tuy bận nhưng rất vui.",
       "targetKanji": [
         {
-          "character": "日本",
-          "reading": "にほん",
-          "hanViet": "NHẬT BẢN"
+          "character": "大学",
+          "reading": "",
+          "hanViet": ""
         },
         {
-          "character": "東京",
-          "reading": "とうきょう",
-          "hanViet": "ĐÔNG KINH"
+          "character": "英語",
+          "reading": "",
+          "hanViet": ""
         },
         {
-          "character": "午前",
-          "reading": "ごぜん",
-          "hanViet": "NGỌ TIỀN"
+          "character": "先生",
+          "reading": "",
+          "hanViet": ""
         },
         {
-          "character": "友達",
-          "reading": "ともだち",
-          "hanViet": "HỮU ĐẠT"
+          "character": "毎日",
+          "reading": "",
+          "hanViet": ""
         },
         {
-          "character": "お寺",
-          "reading": "おてら",
-          "hanViet": "TỰ"
+          "character": "車",
+          "reading": "",
+          "hanViet": ""
         },
         {
-          "character": "週末",
-          "reading": "しゅうまつ",
-          "hanViet": "CHU MẠT"
+          "character": "行",
+          "reading": "",
+          "hanViet": ""
         },
         {
-          "character": "静か",
-          "reading": "しずか",
-          "hanViet": "TĨNH"
-        }
-      ],
-      "targetKatakana": [],
-      "prepTimeSeconds": 20,
-      "readingTimeSeconds": 50
-    },
-    {
-      "id": "A-2",
-      "code": "Đề A-2",
-      "title": "Buổi Hòa Nhạc Jazz Cùng Bạn Bè",
-      "topic": "Sở thích & Âm nhạc",
-      "wordCount": 150,
-      "contentJapanese": "昨日、友達と コンサートに 行きました。ジャズの 音楽を 聞きました。とても 楽しかったです。コンサートの 後、みんなで ピザを 食べに 行きました。私は コップで ジュースを 飲んで、友達は ビールを 飲んでいました。食事のときに、フォークや ナイフを 使いました。そのあと、カラオケに 行って、歌を 歌いました。",
-      "contentFurigana": "きのう、ともだちと コンサートに いきました。ジャズの おんがくを ききました。とても たのしかったです。コンサートの あと、みんなで ピザを たべに いきました。わたしは コップで ジュースを のんで、ともだちは ビールを のんでいました。しょくじのときに、フォークや ナイフを つかいました。そのあと、カラオケに いって、うたを うたいました。",
-      "contentVietnamese": "Hôm qua, tôi đã đi đến buổi hòa nhạc cùng bạn bè. Tôi đã nghe nhạc Jazz. Thật là rất vui. Sau buổi hòa nhạc, mọi người cùng nhau đi ăn pizza. Tôi uống nước trái cây bằng cốc, còn bạn tôi thì uống bia. Khi dùng bữa, chúng tôi đã sử dụng dao và nĩa. Sau đó, chúng tôi đến quán karaoke và hát rất nhiều bài hát.",
-      "targetKanji": [
-        {
-          "character": "昨日",
-          "reading": "きのう",
-          "hanViet": "TÁC NHẬT"
+          "character": "大",
+          "reading": "",
+          "hanViet": ""
         },
         {
-          "character": "音楽",
-          "reading": "おんがく",
-          "hanViet": "ÂM LẠC"
-        },
-        {
-          "character": "後",
-          "reading": "あと",
-          "hanViet": "HẬU"
-        },
-        {
-          "character": "飲んで",
-          "reading": "のんで",
-          "hanViet": "ẨM"
-        },
-        {
-          "character": "食事",
-          "reading": "しょくじ",
-          "hanViet": "THỰC SỰ"
-        },
-        {
-          "character": "使いました",
-          "reading": "つかいました",
-          "hanViet": "SỬ"
-        },
-        {
-          "character": "歌",
-          "reading": "うた",
-          "hanViet": "CA"
+          "character": "食堂",
+          "reading": "",
+          "hanViet": ""
         }
       ],
       "targetKatakana": [
-        "コンサート",
-        "ジャズ",
-        "ピザ",
-        "コップ",
-        "ジュース",
-        "ビール",
-        "フォーク",
-        "ナイフ",
-        "カラオケ"
+        "ワット"
       ],
       "prepTimeSeconds": 20,
-      "readingTimeSeconds": 50
+      "readingTimeSeconds": 50,
+      "sentences": [
+        {
+          "index": 1,
+          "raw": "ワットさんは さくら大学さくらだいがく の えい語ご の 先生せんせい です。",
+          "japanese": "ワットさんは さくら大学の 英語の 先生です。",
+          "furigana": "ワットさんは さくらだいがくの えいごの せんせいです。",
+          "romaji": "Watto-san wa Sakura daigaku no eigo no sensei desu.",
+          "vietnamese": "Ông Watt là giáo viên tiếng Anh ở đại học Sakura."
+        },
+        {
+          "index": 2,
+          "raw": "毎日まいにち あかい くるまで 大学だいがく へ 行いきます。",
+          "japanese": "毎日 あかい 車で 大学へ 行きます。",
+          "furigana": "まいにち あかい くるまで だいがくへ いきます。",
+          "romaji": "Mainichi akai kuruma de daigaku e ikimasu.",
+          "vietnamese": "Mỗi ngày ông ấy đi ô tô màu đỏ đến trường đại học."
+        },
+        {
+          "index": 3,
+          "raw": "さくら大学だいがく は 大おおきい 大学だいがく ではありませんが、いい 大学だいがく です。",
+          "japanese": "さくら大学は 大きい 大学ではありませんが、いい 大学です。",
+          "furigana": "さくらだいがくは おおきい だいがくではありませんが、いい だいがくです。",
+          "romaji": "Sakura daigaku wa ookii daigaku dewa arimasen ga, ii daigaku desu.",
+          "vietnamese": "Đại học Sakura không phải là một trường lớn, nhưng là một trường tốt."
+        },
+        {
+          "index": 4,
+          "raw": "ワットさんは いつも しょくどうで ひるごはんを 食たべます。",
+          "japanese": "ワットさんは いつも 食堂で 昼ごはんを 食べます。",
+          "furigana": "ワットさんは いつも しょくどうで ひるごはんを たべます。",
+          "romaji": "Watto-san wa itsumo shokudou de hirugohan o tabemasu.",
+          "vietnamese": "Ông Watt luôn ăn cơm trưa ở nhà ăn."
+        },
+        {
+          "index": 5,
+          "raw": "しょくどうは 12時じゅうにじ から 1時いちじ まで とても にぎやかです。",
+          "japanese": "食堂は 12時から 1時まで とても にぎやかです。",
+          "furigana": "しょくどうは じゅうにじから いちじまで とても にぎやかです。",
+          "romaji": "Shokudou wa juuni-ji kara ichi-ji made totemo nigiyaka desu.",
+          "vietnamese": "Nhà ăn rất nhộn nhịp từ 12 giờ đến 1 giờ."
+        },
+        {
+          "index": 6,
+          "raw": "しょくどうの 食たべ物もの は おいしいです。",
+          "japanese": "食堂の 食べ物は おいしいです。",
+          "furigana": "しょくどうの たべものは おいしいです。",
+          "romaji": "Shokudou no tabemono wa oishii desu.",
+          "vietnamese": "Đồ ăn ở nhà ăn rất ngon."
+        },
+        {
+          "index": 7,
+          "raw": "そして、安やすいです。",
+          "japanese": "そして、安いです。",
+          "furigana": "そして、やすいです。",
+          "romaji": "Soshite, yasui desu.",
+          "vietnamese": "Hơn nữa còn rẻ."
+        },
+        {
+          "index": 8,
+          "raw": "大学だいがく の しごとは いそがしいですが、たのしいです。",
+          "japanese": "大学の 仕事は 忙しいですが、楽しいです。",
+          "furigana": "だいがくの しごとは いそがしいですが、たのしいです。",
+          "romaji": "Daigaku no shigoto wa isogashii desu ga, tanoshii desu.",
+          "vietnamese": "Công việc ở trường đại học tuy bận nhưng rất vui."
+        }
+      ]
     },
     {
-      "id": "A-3",
-      "code": "Đề A-3",
-      "title": "Kỳ Nghỉ Cuối Tuần và Nấu Ăn Tại Nhà",
-      "topic": "Ẩm thực & Sức khỏe",
-      "wordCount": 146,
-      "contentJapanese": "私は 料理が 好きですから、家で 野菜を使って 料理を 作ります。お肉も 使いますが、健康に 気をつけています。毎週、スーパーで 買い物をして 新鮮な 食材を 買います。おいしい 食べ物を 作るのは とても 楽しいです。週末には、家族と レストランで ラーメンを 食べたり、コメディーショーを 見たりしたいです。",
-      "contentFurigana": "わたしは りょうりが すきですから、いえで やさいを つかって りょうりを つくります。おにくも つかいますが、けんこうに きを つけています。まいしゅう、スーパーで かいものをして しんせんな しょくざいを かいます。おいしい たべものを つくるのは とても たのしいです。しゅうまつには、かぞくと レストランで ラーメンを たべたり、コメディーショーを みたりしたいです。",
-      "contentVietnamese": "Vì tôi thích nấu ăn nên tôi dùng rau củ để làm các món ăn tại nhà. Tôi cũng dùng thịt, nhưng tôi chú ý đến sức khỏe. Hàng tuần, tôi đi siêu thị mua sắm để mua nguyên liệu tươi ngon. Nấu những món ăn ngon thật là rất vui. Vào cuối tuần, tôi muốn cùng gia đình đi ăn mì ramen tại nhà hàng hoặc xem các chương trình hài kịch.",
+      "id": "lesson-2",
+      "code": "Lesson 2",
+      "lessonNum": 2,
+      "title": "土曜日と日曜日",
+      "topic": "Cuối tuần",
+      "description": "Lịch cuối tuần với thư viện, sách du lịch và quà sinh nhật. 9 câu đọc",
+      "wordCount": 112,
+      "sentenceCount": 9,
+      "contentJapanese": "今朝 図書館へ 行きました。 図書館で 太郎ちゃんに 会いました。 太郎ちゃんと 一緒に ビデオを 見ました。 私は 旅行の 本を 借りました。 明日は 日曜日です。 朝 旅行の 本を 読みます。 午後 デパートへ 行きます。 花を 買います。 母の 誕生日の プレゼントです。",
+      "contentFurigana": "けさ としょかんへ いきました。 としょかんで たろうちゃんに あいました。 たろうちゃんと いっしょに ビデオを みました。 わたしは りょこうの ほんを かりました。 あしたは にちようびです。 あさ りょこうの ほんを よみます。 ごご デパートへ いきます。 はなを かいます。 ははの たんじょうびの プレゼントです。",
+      "contentVietnamese": "Sáng nay tôi đã đi thư viện. Ở thư viện tôi đã gặp Tarou. Tôi đã xem video cùng với Tarou. Tôi đã mượn một quyển sách du lịch. Ngày mai là Chủ nhật. Buổi sáng tôi sẽ đọc sách du lịch. Buổi chiều tôi sẽ đi cửa hàng bách hóa. Tôi sẽ mua hoa. Đó là quà sinh nhật của mẹ tôi.",
       "targetKanji": [
         {
-          "character": "料理",
-          "reading": "りょうり",
-          "hanViet": "LIỆU LÝ"
+          "character": "今朝",
+          "reading": "",
+          "hanViet": ""
         },
         {
-          "character": "好き",
-          "reading": "すき",
-          "hanViet": "HẢO"
+          "character": "図書館",
+          "reading": "",
+          "hanViet": ""
         },
         {
-          "character": "野菜",
-          "reading": "やさい",
-          "hanViet": "DÃ THÁI"
+          "character": "行",
+          "reading": "",
+          "hanViet": ""
         },
         {
-          "character": "肉",
-          "reading": "にく",
-          "hanViet": "NHỤC"
+          "character": "太郎",
+          "reading": "",
+          "hanViet": ""
         },
         {
-          "character": "毎週",
-          "reading": "まいしゅう",
-          "hanViet": "MỖI CHU"
+          "character": "会",
+          "reading": "",
+          "hanViet": ""
         },
         {
-          "character": "家族",
-          "reading": "かぞく",
-          "hanViet": "GIA TỘC"
+          "character": "一緒",
+          "reading": "",
+          "hanViet": ""
         },
         {
-          "character": "見たり",
-          "reading": "みたり",
-          "hanViet": "KIẾN"
+          "character": "見",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "私",
+          "reading": "",
+          "hanViet": ""
+        }
+      ],
+      "targetKatakana": [
+        "ビデオ",
+        "デパート",
+        "プレゼント"
+      ],
+      "prepTimeSeconds": 20,
+      "readingTimeSeconds": 50,
+      "sentences": [
+        {
+          "index": 1,
+          "raw": "けさ としょかんへ 行いきました。",
+          "japanese": "今朝 図書館へ 行きました。",
+          "furigana": "けさ としょかんへ いきました。",
+          "romaji": "Kesa toshokan e ikimashita.",
+          "vietnamese": "Sáng nay tôi đã đi thư viện."
+        },
+        {
+          "index": 2,
+          "raw": "としょかんで たろうちゃんに 会あいました。",
+          "japanese": "図書館で 太郎ちゃんに 会いました。",
+          "furigana": "としょかんで たろうちゃんに あいました。",
+          "romaji": "Toshokan de Tarou-chan ni aimashita.",
+          "vietnamese": "Ở thư viện tôi đã gặp Tarou."
+        },
+        {
+          "index": 3,
+          "raw": "たろうちゃんと いっしょに ビデオを 見みました。",
+          "japanese": "太郎ちゃんと 一緒に ビデオを 見ました。",
+          "furigana": "たろうちゃんと いっしょに ビデオを みました。",
+          "romaji": "Tarou-chan to issho ni bideo o mimashita.",
+          "vietnamese": "Tôi đã xem video cùng với Tarou."
+        },
+        {
+          "index": 4,
+          "raw": "私わたし は りょ行こう の 本ほん を かりました。",
+          "japanese": "私は 旅行の 本を 借りました。",
+          "furigana": "わたしは りょこうの ほんを かりました。",
+          "romaji": "Watashi wa ryokou no hon o karimashita.",
+          "vietnamese": "Tôi đã mượn một quyển sách du lịch."
+        },
+        {
+          "index": 5,
+          "raw": "あしたは 日曜日にちようび です。",
+          "japanese": "明日は 日曜日です。",
+          "furigana": "あしたは にちようびです。",
+          "romaji": "Ashita wa nichiyoubi desu.",
+          "vietnamese": "Ngày mai là Chủ nhật."
+        },
+        {
+          "index": 6,
+          "raw": "あさ りょ行こう の 本ほん を 読よみます。",
+          "japanese": "朝 旅行の 本を 読みます。",
+          "furigana": "あさ りょこうの ほんを よみます。",
+          "romaji": "Asa ryokou no hon o yomimasu.",
+          "vietnamese": "Buổi sáng tôi sẽ đọc sách du lịch."
+        },
+        {
+          "index": 7,
+          "raw": "午後ごご デパートへ 行いきます。",
+          "japanese": "午後 デパートへ 行きます。",
+          "furigana": "ごご デパートへ いきます。",
+          "romaji": "Gogo depaato e ikimasu.",
+          "vietnamese": "Buổi chiều tôi sẽ đi cửa hàng bách hóa."
+        },
+        {
+          "index": 8,
+          "raw": "はなを 買かいます。",
+          "japanese": "花を 買います。",
+          "furigana": "はなを かいます。",
+          "romaji": "Hana o kaimasu.",
+          "vietnamese": "Tôi sẽ mua hoa."
+        },
+        {
+          "index": 9,
+          "raw": "ははの たん生日じょうび の プレゼントです。",
+          "japanese": "母の 誕生日の プレゼントです。",
+          "furigana": "ははの たんじょうびの プレゼントです。",
+          "romaji": "Haha no tanjoubi no purezento desu.",
+          "vietnamese": "Đó là quà sinh nhật của mẹ tôi."
+        }
+      ]
+    },
+    {
+      "id": "lesson-3",
+      "code": "Lesson 3",
+      "lessonNum": 3,
+      "title": "ミラーさんの 一日",
+      "topic": "Sinh hoạt hằng ngày",
+      "description": "Thói quen đi làm trong tuần và nghỉ ngơi cuối tuần. 14 câu đọc",
+      "wordCount": 175,
+      "sentenceCount": 14,
+      "contentJapanese": "ミラーさんは 毎朝 七時に 起きます。 朝ごはんは いつも パンと コーヒーです。 電車で 会社へ 行きます。 会社は 九時から 五時までです。 七時に 家へ 帰ります。 七時半に 晩ごはんを 食べます。 それから テレビを 見ます。 英語の 新聞を 読みます。 夜 十二時に 寝ます。 土曜日と 日曜日、会社は 休みです。 土曜日の 朝、図書館へ 行きます。 午後、テニスを します。 日曜日は どこも 行きません。 休みます。",
+      "contentFurigana": "ミラーさんは まいあさ しちじに おきます。 あさごはんは いつも パンと コーヒーです。 でんしゃで かいしゃへ いきます。 かいしゃは くじから ごじまでです。 しちじに うちへ かえります。 しちじはんに ばんごはんを たべます。 それから テレビを みます。 えいごの しんぶんを よみます。 よる じゅうにじに ねます。 どようびと にちようび、かいしゃは やすみです。 どようびの あさ、としょかんへ いきます。 ごご、テニスを します。 にちようびは どこも いきません。 やすみます。",
+      "contentVietnamese": "Mỗi sáng anh Miller thức dậy lúc 7 giờ. Bữa sáng của anh ấy luôn là bánh mì và cà phê. Anh ấy đi tàu điện đến công ty. Công ty làm việc từ 9 giờ đến 5 giờ. Lúc 7 giờ anh ấy về nhà. Lúc 7 giờ rưỡi anh ấy ăn tối. Sau đó anh ấy xem tivi. Anh ấy đọc báo tiếng Anh. Ban đêm anh ấy đi ngủ lúc 12 giờ. Vào thứ bảy và chủ nhật công ty nghỉ. Sáng thứ bảy anh ấy đi thư viện. Buổi chiều anh ấy chơi tennis. Chủ nhật anh ấy không đi đâu cả. Anh ấy nghỉ ngơi.",
+      "targetKanji": [
+        {
+          "character": "毎朝",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "七時",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "起",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "朝",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "電車",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "会社",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "行",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "九時",
+          "reading": "",
+          "hanViet": ""
+        }
+      ],
+      "targetKatakana": [
+        "ミラー",
+        "パン",
+        "コーヒー",
+        "テレビ",
+        "テニス"
+      ],
+      "prepTimeSeconds": 20,
+      "readingTimeSeconds": 50,
+      "sentences": [
+        {
+          "index": 1,
+          "raw": "ミラーさんは まいあさ 七時しちじ に おきます。",
+          "japanese": "ミラーさんは 毎朝 七時に 起きます。",
+          "furigana": "ミラーさんは まいあさ しちじに おきます。",
+          "romaji": "Miraa-san wa maiasa shichi-ji ni okimasu.",
+          "vietnamese": "Mỗi sáng anh Miller thức dậy lúc 7 giờ."
+        },
+        {
+          "index": 2,
+          "raw": "あさごはんは いつも パンと コーヒーです。",
+          "japanese": "朝ごはんは いつも パンと コーヒーです。",
+          "furigana": "あさごはんは いつも パンと コーヒーです。",
+          "romaji": "Asagohan wa itsumo pan to koohii desu.",
+          "vietnamese": "Bữa sáng của anh ấy luôn là bánh mì và cà phê."
+        },
+        {
+          "index": 3,
+          "raw": "でんしゃで 会社かいしゃ へ 行いきます。",
+          "japanese": "電車で 会社へ 行きます。",
+          "furigana": "でんしゃで かいしゃへ いきます。",
+          "romaji": "Densha de kaisha e ikimasu.",
+          "vietnamese": "Anh ấy đi tàu điện đến công ty."
+        },
+        {
+          "index": 4,
+          "raw": "会社かいしゃ は 九時くじ から 五時ごじ まで です。",
+          "japanese": "会社は 九時から 五時までです。",
+          "furigana": "かいしゃは くじから ごじまでです。",
+          "romaji": "Kaisha wa ku-ji kara go-ji made desu.",
+          "vietnamese": "Công ty làm việc từ 9 giờ đến 5 giờ."
+        },
+        {
+          "index": 5,
+          "raw": "七時しちじ に うちへ 帰かえります。",
+          "japanese": "七時に 家へ 帰ります。",
+          "furigana": "しちじに うちへ かえります。",
+          "romaji": "Shichi-ji ni uchi e kaerimasu.",
+          "vietnamese": "Lúc 7 giờ anh ấy về nhà."
+        },
+        {
+          "index": 6,
+          "raw": "七時半しちじはん に ばんごはんを 食たべます。",
+          "japanese": "七時半に 晩ごはんを 食べます。",
+          "furigana": "しちじはんに ばんごはんを たべます。",
+          "romaji": "Shichi-jihan ni bangohan o tabemasu.",
+          "vietnamese": "Lúc 7 giờ rưỡi anh ấy ăn tối."
+        },
+        {
+          "index": 7,
+          "raw": "それから テレビを 見みます。",
+          "japanese": "それから テレビを 見ます。",
+          "furigana": "それから テレビを みます。",
+          "romaji": "Sorekara terebi o mimasu.",
+          "vietnamese": "Sau đó anh ấy xem tivi."
+        },
+        {
+          "index": 8,
+          "raw": "えい語ご の 新聞しんぶん を 読よみます。",
+          "japanese": "英語の 新聞を 読みます。",
+          "furigana": "えいごの しんぶんを よみます。",
+          "romaji": "Eigo no shinbun o yomimasu.",
+          "vietnamese": "Anh ấy đọc báo tiếng Anh."
+        },
+        {
+          "index": 9,
+          "raw": "よる 十二時じゅうにじ に 寝ねます。",
+          "japanese": "夜 十二時に 寝ます。",
+          "furigana": "よる じゅうにじに ねます。",
+          "romaji": "Yoru juuni-ji ni nemasu.",
+          "vietnamese": "Ban đêm anh ấy đi ngủ lúc 12 giờ."
+        },
+        {
+          "index": 10,
+          "raw": "土曜日どようび と 日曜日にちようび、会社かいしゃ は 休やすみです。",
+          "japanese": "土曜日と 日曜日、会社は 休みです。",
+          "furigana": "どようびと にちようび、かいしゃは やすみです。",
+          "romaji": "Doyoubi to nichiyoubi, kaisha wa yasumi desu.",
+          "vietnamese": "Vào thứ bảy và chủ nhật công ty nghỉ."
+        },
+        {
+          "index": 11,
+          "raw": "土曜日どようび の あさ、としょかんへ 行いきます。",
+          "japanese": "土曜日の 朝、図書館へ 行きます。",
+          "furigana": "どようびの あさ、としょかんへ いきます。",
+          "romaji": "Doyoubi no asa, toshokan e ikimasu.",
+          "vietnamese": "Sáng thứ bảy anh ấy đi thư viện."
+        },
+        {
+          "index": 12,
+          "raw": "午後ごご、テニスを します。",
+          "japanese": "午後、テニスを します。",
+          "furigana": "ごご、テニスを します。",
+          "romaji": "Gogo, tenisu o shimasu.",
+          "vietnamese": "Buổi chiều anh ấy chơi tennis."
+        },
+        {
+          "index": 13,
+          "raw": "日曜日にちようび は どこも 行いきません。",
+          "japanese": "日曜日は どこも 行きません。",
+          "furigana": "にちようびは どこも いきません。",
+          "romaji": "Nichiyoubi wa doko mo ikimasen.",
+          "vietnamese": "Chủ nhật anh ấy không đi đâu cả."
+        },
+        {
+          "index": 14,
+          "raw": "休やすみます。",
+          "japanese": "休みます。",
+          "furigana": "やすみます。",
+          "romaji": "Yasumimasu.",
+          "vietnamese": "Anh ấy nghỉ ngơi."
+        }
+      ]
+    },
+    {
+      "id": "lesson-4",
+      "code": "Lesson 4",
+      "lessonNum": 4,
+      "title": "あたらしい うち",
+      "topic": "Nhà ở",
+      "description": "Khu phố yên tĩnh với công viên, thư viện và quán cà phê. 11 câu đọc",
+      "wordCount": 180,
+      "sentenceCount": 11,
+      "contentJapanese": "私の あたらしい 家は 静かな ところに あります。 家の となりに きれいな 公園が あります。 公園の 前に 図書館と 喫茶店が あります。 私は 図書館で 本を 借ります。 そして、公園で 読みます。 ときどき 喫茶店で 読みます。 喫茶店の コーヒーは おいしいです。 家の 近くに 郵便局と 銀行が あります。 郵便局と 銀行の あいだに スーパーが あります。 スーパーの 中に 花屋や おいしい パン屋が あります。 とても 便利です。",
+      "contentFurigana": "わたしの あたらしい いえは しずかな ところに あります。 いえの となりに きれいな こうえんが あります。 こうえんの まえに としょかんと きっさてんが あります。 わたしは としょかんで ほんを かります。 そして、こうえんで よみます。 ときどき きっさてんで よみます。 きっさてんの コーヒーは おいしいです。 いえの ちかくに ゆうびんきょくと ぎんこうが あります。 ゆうびんきょくと ぎんこうの あいだに スーパーが あります。 スーパーの なかに はなやや おいしい パンやが あります。 とても べんりです。",
+      "contentVietnamese": "Ngôi nhà mới của tôi nằm ở một nơi yên tĩnh. Bên cạnh nhà có một công viên đẹp. Phía trước công viên có thư viện và quán cà phê. Tôi mượn sách ở thư viện. Sau đó tôi đọc sách ở công viên. Thỉnh thoảng tôi cũng đọc ở quán cà phê. Cà phê ở quán rất ngon. Gần nhà có bưu điện và ngân hàng. Giữa bưu điện và ngân hàng có một siêu thị. Trong siêu thị có tiệm hoa và tiệm bánh mì ngon. Rất tiện lợi.",
+      "targetKanji": [
+        {
+          "character": "私",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "家",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "静",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "公園",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "前",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "図書館",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "喫茶店",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "本",
+          "reading": "",
+          "hanViet": ""
+        }
+      ],
+      "targetKatakana": [
+        "コーヒー",
+        "スーパー",
+        "パン"
+      ],
+      "prepTimeSeconds": 20,
+      "readingTimeSeconds": 50,
+      "sentences": [
+        {
+          "index": 1,
+          "raw": "私わたし の あたらしい うちは しずかな ところに あります。",
+          "japanese": "私の あたらしい 家は 静かな ところに あります。",
+          "furigana": "わたしの あたらしい いえは しずかな ところに あります。",
+          "romaji": "Watashi no atarashii ie wa shizuka na tokoro ni arimasu.",
+          "vietnamese": "Ngôi nhà mới của tôi nằm ở một nơi yên tĩnh."
+        },
+        {
+          "index": 2,
+          "raw": "うちの となりに きれいな こうえんが あります。",
+          "japanese": "家の となりに きれいな 公園が あります。",
+          "furigana": "いえの となりに きれいな こうえんが あります。",
+          "romaji": "Ie no tonari ni kirei na kouen ga arimasu.",
+          "vietnamese": "Bên cạnh nhà có một công viên đẹp."
+        },
+        {
+          "index": 3,
+          "raw": "こうえんの 前まえ に としょかんと きっさてんが あります。",
+          "japanese": "公園の 前に 図書館と 喫茶店が あります。",
+          "furigana": "こうえんの まえに としょかんと きっさてんが あります。",
+          "romaji": "Kouen no mae ni toshokan to kissaten ga arimasu.",
+          "vietnamese": "Phía trước công viên có thư viện và quán cà phê."
+        },
+        {
+          "index": 4,
+          "raw": "私わたし は としょかんで 本ほん を かります。",
+          "japanese": "私は 図書館で 本を 借ります。",
+          "furigana": "わたしは としょかんで ほんを かります。",
+          "romaji": "Watashi wa toshokan de hon o karimasu.",
+          "vietnamese": "Tôi mượn sách ở thư viện."
+        },
+        {
+          "index": 5,
+          "raw": "そして、こうえんで 読よみます。",
+          "japanese": "そして、公園で 読みます。",
+          "furigana": "そして、こうえんで よみます。",
+          "romaji": "Soshite, kouen de yomimasu.",
+          "vietnamese": "Sau đó tôi đọc sách ở công viên."
+        },
+        {
+          "index": 6,
+          "raw": "ときどき きっさてんで 読よみます。",
+          "japanese": "ときどき 喫茶店で 読みます。",
+          "furigana": "ときどき きっさてんで よみます。",
+          "romaji": "Tokidoki kissaten de yomimasu.",
+          "vietnamese": "Thỉnh thoảng tôi cũng đọc ở quán cà phê."
+        },
+        {
+          "index": 7,
+          "raw": "きっさてんの コーヒーは おいしいです。",
+          "japanese": "喫茶店の コーヒーは おいしいです。",
+          "furigana": "きっさてんの コーヒーは おいしいです。",
+          "romaji": "Kissaten no koohii wa oishii desu.",
+          "vietnamese": "Cà phê ở quán rất ngon."
+        },
+        {
+          "index": 8,
+          "raw": "うちの ちかくに ゆうびんきょくと ぎんこうが あります。",
+          "japanese": "家の 近くに 郵便局と 銀行が あります。",
+          "furigana": "いえの ちかくに ゆうびんきょくと ぎんこうが あります。",
+          "romaji": "Ie no chikaku ni yuubinkyoku to ginkou ga arimasu.",
+          "vietnamese": "Gần nhà có bưu điện và ngân hàng."
+        },
+        {
+          "index": 9,
+          "raw": "ゆうびんきょくと ぎんこうの あいだに スーパーが あります。",
+          "japanese": "郵便局と 銀行の あいだに スーパーが あります。",
+          "furigana": "ゆうびんきょくと ぎんこうの あいだに スーパーが あります。",
+          "romaji": "Yuubinkyoku to ginkou no aida ni suupaa ga arimasu.",
+          "vietnamese": "Giữa bưu điện và ngân hàng có một siêu thị."
+        },
+        {
+          "index": 10,
+          "raw": "スーパーの なかに はなやや おいしい パンやが あります。",
+          "japanese": "スーパーの 中に 花屋や おいしい パン屋が あります。",
+          "furigana": "スーパーの なかに はなやや おいしい パンやが あります。",
+          "romaji": "Suupaa no naka ni hanaya ya oishii panya ga arimasu.",
+          "vietnamese": "Trong siêu thị có tiệm hoa và tiệm bánh mì ngon."
+        },
+        {
+          "index": 11,
+          "raw": "とても べんりです。",
+          "japanese": "とても 便利です。",
+          "furigana": "とても べんりです。",
+          "romaji": "Totemo benri desu.",
+          "vietnamese": "Rất tiện lợi."
+        }
+      ]
+    },
+    {
+      "id": "lesson-5",
+      "code": "Lesson 5",
+      "lessonNum": 5,
+      "title": "スーパーを くらべる",
+      "topic": "Mua sắm",
+      "description": "So sánh ba siêu thị gần nhà về giá cả và hàng hóa. 17 câu đọc",
+      "wordCount": 275,
+      "sentenceCount": 17,
+      "contentJapanese": "私の 家の 近くに スーパーが 3つ あります。 「まいにちや」と「ABCストア」と「ジャパン」です。 「まいにちや」は 一番 小さい 店ですが、近いです。 家から 歩いて 五分です。 新しい 魚が 多いです。 野菜や 果物も 多いです。 「ABCストア」は 家から 歩いて 十五分 かかります。 肉が 多いです。 一番 安い 店です。 外国の 物も ありますが、「ジャパン」より 少ないです。 おいしい パンが あります。 「ジャパン」は 一番 遠いです。 魚は あまり 多くないですが、肉が たくさん あります。 外国の 物が 多いです。 とても 大きい 店です。 「ABCストア」より 大きいです。 三つの 店の 中で 私は 「ABCストア」が 一番 好きです。",
+      "contentFurigana": "わたしの うちの ちかくに スーパーが みっつ あります。 「まいにちや」と「ABCストア」と「ジャパン」です。 「まいにちや」は いちばん ちいさい みせですが、ちかいです。 うちから あるいて ごふんです。 あたらしい さかなが おおいです。 やさいや くだものも おおいです。 「ABCストア」は うちから あるいて じゅうごふん かかります。 にくが おおいです。 いちばん やすい みせです。 がいこくの ものも ありますが、「ジャパン」より すくないです。 おいしい パンが あります。 「ジャパン」は いちばん とおいです。 さかなは あまり おおくないですが、にくが たくさん あります。 がいこくの ものが おおいです。 とても おおきい みせです。 「ABCストア」より おおきいです。 みっつの みせの なかで わたしは 「ABCストア」が いちばん すきです。",
+      "contentVietnamese": "Gần nhà tôi có ba siêu thị. Đó là Mainichiya, ABC Store và Japan. Mainichiya là cửa hàng nhỏ nhất nhưng gần nhà. Đi bộ từ nhà đến đó mất 5 phút. Ở đó có nhiều cá tươi. Cũng có nhiều rau và trái cây. Đi bộ từ nhà đến ABC Store mất 15 phút. Ở đó có nhiều thịt. Đó là cửa hàng rẻ nhất. Cũng có hàng nước ngoài nhưng ít hơn cửa hàng Japan. Có bánh mì ngon. Japan là cửa hàng xa nhất. Cá không nhiều lắm nhưng có rất nhiều thịt. Có nhiều hàng hóa nước ngoài. Đó là một cửa hàng rất lớn. Nó còn lớn hơn cả ABC Store. Trong ba cửa hàng, tôi thích ABC Store nhất.",
+      "targetKanji": [
+        {
+          "character": "私",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "家",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "近",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "一番",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "小",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "店",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "歩",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "五分",
+          "reading": "",
+          "hanViet": ""
         }
       ],
       "targetKatakana": [
         "スーパー",
-        "レストラン",
-        "ラーメン",
-        "コメディーショー"
+        "ストア",
+        "ジャパン",
+        "パン"
       ],
       "prepTimeSeconds": 20,
-      "readingTimeSeconds": 50
+      "readingTimeSeconds": 50,
+      "sentences": [
+        {
+          "index": 1,
+          "raw": "私わたし の うちの ちかくに スーパーが 3つみっつ あります。",
+          "japanese": "私の 家の 近くに スーパーが 3つ あります。",
+          "furigana": "わたしの うちの ちかくに スーパーが みっつ あります。",
+          "romaji": "Watashi no uchi no chikaku ni suupaa ga mittsu arimasu.",
+          "vietnamese": "Gần nhà tôi có ba siêu thị."
+        },
+        {
+          "index": 2,
+          "raw": "「まいにちや」と「ABCストア」と「ジャパン」です。",
+          "japanese": "「まいにちや」と「ABCストア」と「ジャパン」です。",
+          "furigana": "「まいにちや」と「ABCストア」と「ジャパン」です。",
+          "romaji": "'Mainichiya' to 'ABC Sutoa' to 'Japan' desu.",
+          "vietnamese": "Đó là Mainichiya, ABC Store và Japan."
+        },
+        {
+          "index": 3,
+          "raw": "「まいにちや」は いちばん 小ちいさい みせですが、ちかいです。",
+          "japanese": "「まいにちや」は 一番 小さい 店ですが、近いです。",
+          "furigana": "「まいにちや」は いちばん ちいさい みせですが、ちかいです。",
+          "romaji": "'Mainichiya' wa ichiban chiisai mise desu ga, chikai desu.",
+          "vietnamese": "Mainichiya là cửa hàng nhỏ nhất nhưng gần nhà."
+        },
+        {
+          "index": 4,
+          "raw": "うちから あるいて 五分ごふん です。",
+          "japanese": "家から 歩いて 五分です。",
+          "furigana": "うちから あるいて ごふんです。",
+          "romaji": "Uchi kara aruite gofun desu.",
+          "vietnamese": "Đi bộ từ nhà đến đó mất 5 phút."
+        },
+        {
+          "index": 5,
+          "raw": "あたらしい さかなが おおいです。",
+          "japanese": "新しい 魚が 多いです。",
+          "furigana": "あたらしい さかなが おおいです。",
+          "romaji": "Atarashii sakana ga ooi desu.",
+          "vietnamese": "Ở đó có nhiều cá tươi."
+        },
+        {
+          "index": 6,
+          "raw": "野菜やさい や 果物くだもの も おおいです。",
+          "japanese": "野菜や 果物も 多いです。",
+          "furigana": "やさいや くだものも おおいです。",
+          "romaji": "Yasai ya kudamono mo ooi desu.",
+          "vietnamese": "Cũng có nhiều rau và trái cây."
+        },
+        {
+          "index": 7,
+          "raw": "「ABCストア」は うちから あるいて 十五分じゅうごふん かかります。",
+          "japanese": "「ABCストア」は 家から 歩いて 十五分 かかります。",
+          "furigana": "「ABCストア」は うちから あるいて じゅうごふん かかります。",
+          "romaji": "'ABC Sutoa' wa uchi kara aruite juugofun kakarimasu.",
+          "vietnamese": "Đi bộ từ nhà đến ABC Store mất 15 phút."
+        },
+        {
+          "index": 8,
+          "raw": "肉にく が おおいです。",
+          "japanese": "肉が 多いです。",
+          "furigana": "にくが おおいです。",
+          "romaji": "Niku ga ooi desu.",
+          "vietnamese": "Ở đó có nhiều thịt."
+        },
+        {
+          "index": 9,
+          "raw": "いちばん やすい みせです。",
+          "japanese": "一番 安い 店です。",
+          "furigana": "いちばん やすい みせです。",
+          "romaji": "Ichiban yasui mise desu.",
+          "vietnamese": "Đó là cửa hàng rẻ nhất."
+        },
+        {
+          "index": 10,
+          "raw": "外国がいこく の 物もの も ありますが、「ジャパン」より すくないです。",
+          "japanese": "外国の 物も ありますが、「ジャパン」より 少ないです。",
+          "furigana": "がいこくの ものも ありますが、「ジャパン」より すくないです。",
+          "romaji": "Gaikoku no mono mo arimasu ga, 'Japan' yori sukunai desu.",
+          "vietnamese": "Cũng có hàng nước ngoài nhưng ít hơn cửa hàng Japan."
+        },
+        {
+          "index": 11,
+          "raw": "おいしい パンが あります。",
+          "japanese": "おいしい パンが あります。",
+          "furigana": "おいしい パンが あります。",
+          "romaji": "Oishii pan ga arimasu.",
+          "vietnamese": "Có bánh mì ngon."
+        },
+        {
+          "index": 12,
+          "raw": "「ジャパン」は いちばん とおいです。",
+          "japanese": "「ジャパン」は 一番 遠いです。",
+          "furigana": "「ジャパン」は いちばん とおいです。",
+          "romaji": "'Japan' wa ichiban tooi desu.",
+          "vietnamese": "Japan là cửa hàng xa nhất."
+        },
+        {
+          "index": 13,
+          "raw": "さかなは あまり おおくないですが、肉にく が たくさん あります。",
+          "japanese": "魚は あまり 多くないですが、肉が たくさん あります。",
+          "furigana": "さかなは あまり おおくないですが、にくが たくさん あります。",
+          "romaji": "Sakana wa amari ookunai desu ga, niku ga takusan arimasu.",
+          "vietnamese": "Cá không nhiều lắm nhưng có rất nhiều thịt."
+        },
+        {
+          "index": 14,
+          "raw": "外国がいこく の 物もの が おおいです。",
+          "japanese": "外国の 物が 多いです。",
+          "furigana": "がいこくの ものが おおいです。",
+          "romaji": "Gaikoku no mono ga ooi desu.",
+          "vietnamese": "Có nhiều hàng hóa nước ngoài."
+        },
+        {
+          "index": 15,
+          "raw": "とても 大おおきい みせです。",
+          "japanese": "とても 大きい 店です。",
+          "furigana": "とても おおきい みせです。",
+          "romaji": "Totemo ookii mise desu.",
+          "vietnamese": "Đó là một cửa hàng rất lớn."
+        },
+        {
+          "index": 16,
+          "raw": "「ABCストア」より 大おおきいです。",
+          "japanese": "「ABCストア」より 大きいです。",
+          "furigana": "「ABCストア」より おおきいです。",
+          "romaji": "'ABC Sutoa' yori ookii desu.",
+          "vietnamese": "Nó còn lớn hơn cả ABC Store."
+        },
+        {
+          "index": 17,
+          "raw": "三つみっつ の みせの なかで 私わたし は 「ABCストア」が いちばん すきです。",
+          "japanese": "三つの 店の 中で 私は 「ABCストア」が 一番 好きです。",
+          "furigana": "みっつの みせの なかで わたしは 「ABCストア」が いちばん すきです。",
+          "romaji": "Mittsu no mise no naka de watashi wa 'ABC Sutoa' ga ichiban suki desu.",
+          "vietnamese": "Trong ba cửa hàng, tôi thích ABC Store nhất."
+        }
+      ]
+    },
+    {
+      "id": "lesson-6",
+      "code": "Lesson 6",
+      "lessonNum": 6,
+      "title": "いぬと ねこ",
+      "topic": "Thú cưng",
+      "description": "Số người nuôi mèo ở Nhật đã tăng lên. 3 câu đọc",
+      "wordCount": 82,
+      "sentenceCount": 3,
+      "contentJapanese": "日本には 犬や 猫を 飼う 人が たくさん います。 最近 猫を 飼う 人が 増えて いました。 2017年には 猫が 九百五十三万匹、犬が 八百九十二万匹に なって、初めて 猫の 方が 多く なりました。",
+      "contentFurigana": "にほんには いぬや ねこを かう ひとが たくさん います。 さいきん ねこを かう ひとが ふえて いました。 2017ねんには ねこが きゅうひゃくごじゅうさんまんびき、いぬが はっぴゃくきゅうじゅうにまんびきに なって、はじめて ねこの ほうが おおく なりました。",
+      "contentVietnamese": "Ở Nhật có rất nhiều người nuôi chó và mèo. Gần đây số người nuôi mèo đã tăng lên. Đến năm 2017, số mèo là 9,53 triệu con và số chó là 8,92 triệu con, lần đầu tiên mèo nhiều hơn chó.",
+      "targetKanji": [
+        {
+          "character": "日本",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "犬",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "猫",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "飼",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "人",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "最近",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "増",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "年",
+          "reading": "",
+          "hanViet": ""
+        }
+      ],
+      "targetKatakana": [],
+      "prepTimeSeconds": 20,
+      "readingTimeSeconds": 50,
+      "sentences": [
+        {
+          "index": 1,
+          "raw": "日本にほん には いぬや ねこを 飼かう 人ひと が たくさん います。",
+          "japanese": "日本には 犬や 猫を 飼う 人が たくさん います。",
+          "furigana": "にほんには いぬや ねこを かう ひとが たくさん います。",
+          "romaji": "Nihon ni wa inu ya neko o kau hito ga takusan imasu.",
+          "vietnamese": "Ở Nhật có rất nhiều người nuôi chó và mèo."
+        },
+        {
+          "index": 2,
+          "raw": "さいきん ねこを 飼かう 人ひと が ふえて いました。",
+          "japanese": "最近 猫を 飼う 人が 増えて いました。",
+          "furigana": "さいきん ねこを かう ひとが ふえて いました。",
+          "romaji": "Saikin neko o kau hito ga fuete imashita.",
+          "vietnamese": "Gần đây số người nuôi mèo đã tăng lên."
+        },
+        {
+          "index": 3,
+          "raw": "2017年にせんじゅうしちねん には ねこが 九百五十三万きゅうひゃくごじゅうさんまん びき、いぬが 八百九十二万はっぴゃくきゅうじゅうにまん びきに なって、はじめて ねこの ほうが おおく なりました。",
+          "japanese": "2017年には 猫が 九百五十三万匹、犬が 八百九十二万匹に なって、初めて 猫の 方が 多く なりました。",
+          "furigana": "2017ねんには ねこが きゅうひゃくごじゅうさんまんびき、いぬが はっぴゃくきゅうじゅうにまんびきに なって、はじめて ねこの ほうが おおく なりました。",
+          "romaji": "Ni-sen-juu-shichi-nen ni wa neko ga kyuuhyaku gojuusan-man biki, inu ga happyaku kyuujuuni-man biki ni natte, hajimete neko no hou ga ooku narimashita.",
+          "vietnamese": "Đến năm 2017, số mèo là 9,53 triệu con và số chó là 8,92 triệu con, lần đầu tiên mèo nhiều hơn chó."
+        }
+      ]
+    },
+    {
+      "id": "lesson-7",
+      "code": "Lesson 7",
+      "lessonNum": 7,
+      "title": "ははの プレゼント",
+      "topic": "Quà sinh nhật",
+      "description": "Tính toán tiền mua ví, hoa và bánh cho mẹ. 3 câu đọc",
+      "wordCount": 83,
+      "sentenceCount": 3,
+      "contentJapanese": "三人で 一人 5000円 出して、母に 1万円の 財布と 花を 買います。 ケーキは 一人に 一つ 買って、母と 食べたいです。 1200円 以下で、なるべく カロリーが 低い 食べ物が 食べたいです。",
+      "contentFurigana": "さんにんで ひとり ごせんえん だして、ははに いちまんえんの さいふと はなを かいます。 ケーキは ひとり に ひとつ かって、ははと たべたいです。 せんにひゃくえん いかで、なるべく カロリーが ひくい たべものが たべたいです。",
+      "contentVietnamese": "Ba người sẽ góp mỗi người 5.000 yên để mua cho mẹ một chiếc ví 10.000 yên và hoa. Mỗi người muốn mua một chiếc bánh để cùng ăn với mẹ. Tôi muốn ăn món gì đó giá không quá 1.200 yên và có lượng calo càng thấp càng tốt.",
+      "targetKanji": [
+        {
+          "character": "三人",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "一人",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "円",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "出",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "母",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "万円",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "財布",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "花",
+          "reading": "",
+          "hanViet": ""
+        }
+      ],
+      "targetKatakana": [
+        "ケーキ",
+        "カロリー"
+      ],
+      "prepTimeSeconds": 20,
+      "readingTimeSeconds": 50,
+      "sentences": [
+        {
+          "index": 1,
+          "raw": "三人さんにん で 一人ひとり 5000円ごせんえん だして、ははに 1万円いちまんえん の さいふと はなを 買かいます。",
+          "japanese": "三人で 一人 5000円 出して、母に 1万円の 財布と 花を 買います。",
+          "furigana": "さんにんで ひとり ごせんえん だして、ははに いちまんえんの さいふと はなを かいます。",
+          "romaji": "Sannin de hitori gosen-en dashite, haha ni ichiman-en no saifu to hana o kaimasu.",
+          "vietnamese": "Ba người sẽ góp mỗi người 5.000 yên để mua cho mẹ một chiếc ví 10.000 yên và hoa."
+        },
+        {
+          "index": 2,
+          "raw": "ケーキは 一人ひとり に 一つひとつ 買かって、ははと 食たべたいです。",
+          "japanese": "ケーキは 一人に 一つ 買って、母と 食べたいです。",
+          "furigana": "ケーキは ひとり に ひとつ かって、ははと たべたいです。",
+          "romaji": "Keeki wa hitori ni hitotsu katte, haha to tabetai desu.",
+          "vietnamese": "Mỗi người muốn mua một chiếc bánh để cùng ăn với mẹ."
+        },
+        {
+          "index": 3,
+          "raw": "1200円せんにひゃくえん いかで、なるべく カロリーが ひくい 食たべ物もの が 食たべたいです。",
+          "japanese": "1200円 以下で、なるべく カロリーが 低い 食べ物が 食べたいです。",
+          "furigana": "せんにひゃくえん いかで、なるべく カロリーが ひくい たべものが たべたいです。",
+          "romaji": "Sen-nihyaku-en ika de, narubeku karorii ga hikui tabemono ga tabetai desu.",
+          "vietnamese": "Tôi muốn ăn món gì đó giá không quá 1.200 yên và có lượng calo càng thấp càng tốt."
+        }
+      ]
+    },
+    {
+      "id": "lesson-8",
+      "code": "Lesson 8",
+      "lessonNum": 8,
+      "title": "メイ・スミスです",
+      "topic": "Tự giới thiệu",
+      "description": "Giới thiệu bản thân, công việc và sở thích. 5 câu đọc",
+      "wordCount": 59,
+      "sentenceCount": 5,
+      "contentJapanese": "私は メイ・スミスです。 私は カナダ人です。 いま、日本に 住んでいます。 仕事は 英語の 先生です。 趣味は 旅行と 本を 読むことです。",
+      "contentFurigana": "わたしは メイ・スミスです。 わたしは カナダじんです。 いま、にほんに すんでいます。 しごとは えいごの せんせいです。 しゅみは りょこうと ほんを よむことです。",
+      "contentVietnamese": "Tôi là Mei Smith. Tôi là người Canada. Hiện tại tôi đang sống ở Nhật Bản. Công việc của tôi là giáo viên tiếng Anh. Sở thích của tôi là đi du lịch và đọc sách.",
+      "targetKanji": [
+        {
+          "character": "私",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "人",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "日本",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "住",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "仕事",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "英語",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "先生",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "趣味",
+          "reading": "",
+          "hanViet": ""
+        }
+      ],
+      "targetKatakana": [
+        "メイ",
+        "スミス",
+        "カナダ"
+      ],
+      "prepTimeSeconds": 20,
+      "readingTimeSeconds": 50,
+      "sentences": [
+        {
+          "index": 1,
+          "raw": "私わたし は メイ・スミス です。",
+          "japanese": "私は メイ・スミスです。",
+          "furigana": "わたしは メイ・スミスです。",
+          "romaji": "Watashi wa Mei Sumisu desu.",
+          "vietnamese": "Tôi là Mei Smith."
+        },
+        {
+          "index": 2,
+          "raw": "私わたし は カナダ人じん です。",
+          "japanese": "私は カナダ人です。",
+          "furigana": "わたしは カナダじんです。",
+          "romaji": "Watashi wa Kanada-jin desu.",
+          "vietnamese": "Tôi là người Canada."
+        },
+        {
+          "index": 3,
+          "raw": "いま、日本にほん に すんでいます。",
+          "japanese": "いま、日本に 住んでいます。",
+          "furigana": "いま、にほんに すんでいます。",
+          "romaji": "Ima, Nihon ni sunde imasu.",
+          "vietnamese": "Hiện tại tôi đang sống ở Nhật Bản."
+        },
+        {
+          "index": 4,
+          "raw": "しごとは えい語ご の 先生せんせい です。",
+          "japanese": "仕事は 英語の 先生です。",
+          "furigana": "しごとは えいごの せんせいです。",
+          "romaji": "Shigoto wa eigo no sensei desu.",
+          "vietnamese": "Công việc của tôi là giáo viên tiếng Anh."
+        },
+        {
+          "index": 5,
+          "raw": "しゅみは りょ行こう と 本ほん を 読よむ ことです。",
+          "japanese": "趣味は 旅行と 本を 読むことです。",
+          "furigana": "しゅみは りょこうと ほんを よむことです。",
+          "romaji": "Shumi wa ryokou to hon o yomu koto desu.",
+          "vietnamese": "Sở thích của tôi là đi du lịch và đọc sách."
+        }
+      ]
+    },
+    {
+      "id": "lesson-9",
+      "code": "Lesson 9",
+      "lessonNum": 9,
+      "title": "おじいさんに 会う",
+      "topic": "Gia đình",
+      "description": "Tình cảm với ông và quãng đường từ Tokyo đến Kyoto. 8 câu đọc",
+      "wordCount": 128,
+      "sentenceCount": 8,
+      "contentJapanese": "私の おじいさんは、今年 81歳です。 京都に 住んでいます。 おじいさんは いつも 優しいです。 そして、いつも 面白い 話を します。 私は おじいさんが 大好きです。 私は いま、東京に 住んでいます。 京都から 東京まで、新幹線で 2時間です。 毎年、夏休みと お正月に おじいさんに 会います。",
+      "contentFurigana": "わたしの おじいさんは、ことし はちじゅういっさいです。 きょうとに すんでいます。 おじいさんは いつも やさしいです。 そして、いつも おもしろい はなしを します。 わたしは おじいさんが だいすきです。 わたしは いま、とうきょうに すんでいます。 きょうとから とうきょうまで、しんかんせんで にじかんです。 まいとし、なつやすみと おしょうがつに おじいさんに あいます。",
+      "contentVietnamese": "Năm nay ông tôi 81 tuổi. Ông đang sống ở Kyoto. Ông lúc nào cũng hiền từ. Và ông luôn kể những câu chuyện thú vị. Tôi rất yêu quý ông. Hiện tại tôi sống ở Tokyo. Từ Kyoto đến Tokyo mất 2 giờ đi shinkansen. Mỗi năm vào kỳ nghỉ hè và dịp năm mới, tôi đều gặp ông.",
+      "targetKanji": [
+        {
+          "character": "私",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "今年",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "歳",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "京都",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "住",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "優",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "面白",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "話",
+          "reading": "",
+          "hanViet": ""
+        }
+      ],
+      "targetKatakana": [],
+      "prepTimeSeconds": 20,
+      "readingTimeSeconds": 50,
+      "sentences": [
+        {
+          "index": 1,
+          "raw": "私わたし の おじいさんは、今年ことし 81才はちじゅういっさい です。",
+          "japanese": "私の おじいさんは、今年 81歳です。",
+          "furigana": "わたしの おじいさんは、ことし はちじゅういっさいです。",
+          "romaji": "Watashi no ojiisan wa, kotoshi hachijuu-issai desu.",
+          "vietnamese": "Năm nay ông tôi 81 tuổi."
+        },
+        {
+          "index": 2,
+          "raw": "京都きょうと に すんでいます。",
+          "japanese": "京都に 住んでいます。",
+          "furigana": "きょうとに すんでいます。",
+          "romaji": "Kyouto ni sunde imasu.",
+          "vietnamese": "Ông đang sống ở Kyoto."
+        },
+        {
+          "index": 3,
+          "raw": "おじいさんは いつも やさしいです。",
+          "japanese": "おじいさんは いつも 優しいです。",
+          "furigana": "おじいさんは いつも やさしいです。",
+          "romaji": "Ojiisan wa itsumo yasashii desu.",
+          "vietnamese": "Ông lúc nào cũng hiền từ."
+        },
+        {
+          "index": 4,
+          "raw": "そして、いつも おもしろい 話はなし を します。",
+          "japanese": "そして、いつも 面白い 話を します。",
+          "furigana": "そして、いつも おもしろい はなしを します。",
+          "romaji": "Soshite, itsumo omoshiroi hanashi o shimasu.",
+          "vietnamese": "Và ông luôn kể những câu chuyện thú vị."
+        },
+        {
+          "index": 5,
+          "raw": "私わたし は おじいさんが だいすきです。",
+          "japanese": "私は おじいさんが 大好きです。",
+          "furigana": "わたしは おじいさんが だいすきです。",
+          "romaji": "Watashi wa ojiisan ga daisuki desu.",
+          "vietnamese": "Tôi rất yêu quý ông."
+        },
+        {
+          "index": 6,
+          "raw": "私わたし は いま、東京とうきょう に すんでいます。",
+          "japanese": "私は いま、東京に 住んでいます。",
+          "furigana": "わたしは いま、とうきょうに すんでいます。",
+          "romaji": "Watashi wa ima, Toukyou ni sunde imasu.",
+          "vietnamese": "Hiện tại tôi sống ở Tokyo."
+        },
+        {
+          "index": 7,
+          "raw": "京都きょうと から 東京とうきょう まで、しんかんせんで 2時間にじかん です。",
+          "japanese": "京都から 東京まで、新幹線で 2時間です。",
+          "furigana": "きょうとから とうきょうまで、しんかんせんで にじかんです。",
+          "romaji": "Kyouto kara Toukyou made, shinkansen de ni-jikan desu.",
+          "vietnamese": "Từ Kyoto đến Tokyo mất 2 giờ đi shinkansen."
+        },
+        {
+          "index": 8,
+          "raw": "毎年まいとし、なつ休やすみ と お正月おしょうがつ に おじいさんに 会あいます。",
+          "japanese": "毎年、夏休みと お正月に おじいさんに 会います。",
+          "furigana": "まいとし、なつやすみと おしょうがつに おじいさんに あいます。",
+          "romaji": "Maitoshi, natsuyasumi to oshougatsu ni ojiisan ni aimasu.",
+          "vietnamese": "Mỗi năm vào kỳ nghỉ hè và dịp năm mới, tôi đều gặp ông."
+        }
+      ]
+    },
+    {
+      "id": "lesson-10",
+      "code": "Lesson 10",
+      "lessonNum": 10,
+      "title": "コーヒーと タバコ",
+      "topic": "Mua sắm hằng ngày",
+      "description": "Một thói quen hằng ngày ở cửa hàng tiện lợi. 9 câu đọc",
+      "wordCount": 116,
+      "sentenceCount": 9,
+      "contentJapanese": "私は 毎日 コーヒーを 飲みます。 コーヒーは 毎朝 コンビニで 買います。 一つ 100円です。 とても 安いです。 でも、おいしいです。 私の 友達は、タバコを 吸います。 彼も コンビニで タバコを 買います。 しかし、私は タバコを 吸いません。 頭が 痛く なりますから。",
+      "contentFurigana": "わたしは まいにち コーヒーを のみます。 コーヒーは まいあさ コンビニで かいます。 ひとつ ひゃくえんです。 とても やすいです。 でも、おいしいです。 わたしの ともだちは、タバコを すいます。 かれも コンビニで タバコを かいます。 しかし、わたしは タバコを すいません。 あたまが いたく なりますから。",
+      "contentVietnamese": "Tôi uống cà phê mỗi ngày. Mỗi sáng tôi mua cà phê ở cửa hàng tiện lợi. Một cốc có giá 100 yên. Rất rẻ. Nhưng vẫn rất ngon. Bạn của tôi thì hút thuốc lá. Anh ấy cũng mua thuốc lá ở combini. Tuy nhiên tôi không hút thuốc. Vì nếu hút thì tôi sẽ bị đau đầu.",
+      "targetKanji": [
+        {
+          "character": "私",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "毎日",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "飲",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "毎朝",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "買",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "一",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "円",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "安",
+          "reading": "",
+          "hanViet": ""
+        }
+      ],
+      "targetKatakana": [
+        "コーヒー",
+        "コンビニ",
+        "タバコ"
+      ],
+      "prepTimeSeconds": 20,
+      "readingTimeSeconds": 50,
+      "sentences": [
+        {
+          "index": 1,
+          "raw": "私わたし は 毎日まいにち コーヒーを 飲のみます。",
+          "japanese": "私は 毎日 コーヒーを 飲みます。",
+          "furigana": "わたしは まいにち コーヒーを のみます。",
+          "romaji": "Watashi wa mainichi koohii o nomimasu.",
+          "vietnamese": "Tôi uống cà phê mỗi ngày."
+        },
+        {
+          "index": 2,
+          "raw": "コーヒーは 毎朝まいあさ コンビニで 買かいます。",
+          "japanese": "コーヒーは 毎朝 コンビニで 買います。",
+          "furigana": "コーヒーは まいあさ コンビニで かいます。",
+          "romaji": "Koohii wa maiasa konbini de kaimasu.",
+          "vietnamese": "Mỗi sáng tôi mua cà phê ở cửa hàng tiện lợi."
+        },
+        {
+          "index": 3,
+          "raw": "一つひとつ 100円ひゃくえん です。",
+          "japanese": "一つ 100円です。",
+          "furigana": "ひとつ ひゃくえんです。",
+          "romaji": "Hitotsu hyaku-en desu.",
+          "vietnamese": "Một cốc có giá 100 yên."
+        },
+        {
+          "index": 4,
+          "raw": "とても 安やすいです。",
+          "japanese": "とても 安いです。",
+          "furigana": "とても やすいです。",
+          "romaji": "Totemo yasui desu.",
+          "vietnamese": "Rất rẻ."
+        },
+        {
+          "index": 5,
+          "raw": "でも、おいしいです。",
+          "japanese": "でも、おいしいです。",
+          "furigana": "でも、おいしいです。",
+          "romaji": "Demo, oishii desu.",
+          "vietnamese": "Nhưng vẫn rất ngon."
+        },
+        {
+          "index": 6,
+          "raw": "私わたし の ともだちは、タバコを すいます。",
+          "japanese": "私の 友達は、タバコを 吸います。",
+          "furigana": "わたしの ともだちは、タバコを すいます。",
+          "romaji": "Watashi no tomodachi wa, tabako o suimasu.",
+          "vietnamese": "Bạn của tôi thì hút thuốc lá."
+        },
+        {
+          "index": 7,
+          "raw": "かれも コンビニで タバコを 買かいます。",
+          "japanese": "彼も コンビニで タバコを 買います。",
+          "furigana": "かれも コンビニで タバコを かいます。",
+          "romaji": "Kare mo konbini de tabako o kaimasu.",
+          "vietnamese": "Anh ấy cũng mua thuốc lá ở combini."
+        },
+        {
+          "index": 8,
+          "raw": "しかし、私わたし は タバコを すいません。",
+          "japanese": "しかし、私は タバコを 吸いません。",
+          "furigana": "しかし、わたしは タバコを すいません。",
+          "romaji": "Shikashi, watashi wa tabako o suimasen.",
+          "vietnamese": "Tuy nhiên tôi không hút thuốc."
+        },
+        {
+          "index": 9,
+          "raw": "あたまが いたく なりますから。",
+          "japanese": "頭が 痛く なりますから。",
+          "furigana": "あたまが いたく なりますから。",
+          "romaji": "Atama ga itaku narimasu kara.",
+          "vietnamese": "Vì nếu hút thì tôi sẽ bị đau đầu."
+        }
+      ]
+    },
+    {
+      "id": "lesson-11",
+      "code": "Lesson 11",
+      "lessonNum": 11,
+      "title": "ぎゅうどんが ありませんでした",
+      "topic": "Bữa tối",
+      "description": "Một bữa tối hụt món yêu thích ở combini. 6 câu đọc",
+      "wordCount": 99,
+      "sentenceCount": 6,
+      "contentJapanese": "今日、大学の あとで、コンビニに 晩ごはんを 買いに 行きました。 私は いつも 牛丼を 買います。 牛丼は 牛肉の 料理です。 でも、今日は 牛丼が ありませんでした。 とても 残念でした。 だから、おにぎりと ミルクを 買いました。",
+      "contentFurigana": "きょう、だいがくの あとで、コンビニに ばんごはんを かいに いきました。 わたしは いつも ぎゅうどんを かいます。 ぎゅうどんは ぎゅうにくの りょうりです。 でも、きょうは ぎゅうどんが ありませんでした。 とても ざんねんでした。 だから、おにぎりと ミルクを かいました。",
+      "contentVietnamese": "Hôm nay sau giờ học đại học, tôi đã đi combini mua bữa tối. Tôi lúc nào cũng mua gyudon. Gyudon là món ăn làm từ thịt bò. Nhưng hôm nay lại không có gyudon. Tôi rất tiếc. Vì vậy tôi đã mua cơm nắm và sữa.",
+      "targetKanji": [
+        {
+          "character": "今日",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "大学",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "晩",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "買",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "行",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "私",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "牛丼",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "牛肉",
+          "reading": "",
+          "hanViet": ""
+        }
+      ],
+      "targetKatakana": [
+        "コンビニ",
+        "ミルク"
+      ],
+      "prepTimeSeconds": 20,
+      "readingTimeSeconds": 50,
+      "sentences": [
+        {
+          "index": 1,
+          "raw": "今日きょう、大学だいがく の あとで、コンビニに ばんごはんを 買かいに 行いきました。",
+          "japanese": "今日、大学の あとで、コンビニに 晩ごはんを 買いに 行きました。",
+          "furigana": "きょう、だいがくの あとで、コンビニに ばんごはんを かいに いきました。",
+          "romaji": "Kyou, daigaku no ato de, konbini ni bangohan o kai ni ikimashita.",
+          "vietnamese": "Hôm nay sau giờ học đại học, tôi đã đi combini mua bữa tối."
+        },
+        {
+          "index": 2,
+          "raw": "私わたし は いつも ぎゅうどんを 買かいます。",
+          "japanese": "私は いつも 牛丼を 買います。",
+          "furigana": "わたしは いつも ぎゅうどんを かいます。",
+          "romaji": "Watashi wa itsumo gyuudon o kaimasu.",
+          "vietnamese": "Tôi lúc nào cũng mua gyudon."
+        },
+        {
+          "index": 3,
+          "raw": "ぎゅうどんは 牛肉ぎゅうにく の 料理りょうり です。",
+          "japanese": "牛丼は 牛肉の 料理です。",
+          "furigana": "ぎゅうどんは ぎゅうにくの りょうりです。",
+          "romaji": "Gyuudon wa gyuuniku no ryouri desu.",
+          "vietnamese": "Gyudon là món ăn làm từ thịt bò."
+        },
+        {
+          "index": 4,
+          "raw": "でも、今日きょう は ぎゅうどんが ありませんでした。",
+          "japanese": "でも、今日は 牛丼が ありませんでした。",
+          "furigana": "でも、きょうは ぎゅうどんが ありませんでした。",
+          "romaji": "Demo, kyou wa gyuudon ga arimasen deshita.",
+          "vietnamese": "Nhưng hôm nay lại không có gyudon."
+        },
+        {
+          "index": 5,
+          "raw": "とても ざんねんでした。",
+          "japanese": "とても 残念でした。",
+          "furigana": "とても ざんねんでした。",
+          "romaji": "Totemo zannen deshita.",
+          "vietnamese": "Tôi rất tiếc."
+        },
+        {
+          "index": 6,
+          "raw": "だから、おにぎりと ミルクを 買かいました。",
+          "japanese": "だから、おにぎりと ミルクを 買いました。",
+          "furigana": "だから、おにぎりと ミルクを かいました。",
+          "romaji": "Dakara, onigiri to miruku o kaimashita.",
+          "vietnamese": "Vì vậy tôi đã mua cơm nắm và sữa."
+        }
+      ]
+    },
+    {
+      "id": "lesson-12",
+      "code": "Lesson 12",
+      "lessonNum": 12,
+      "title": "テニスを 見るのが すきです",
+      "topic": "Thể thao",
+      "description": "Không giỏi chơi tennis nhưng rất thích đi xem thi đấu. 9 câu đọc",
+      "wordCount": 139,
+      "sentenceCount": 9,
+      "contentJapanese": "今日は 五月十三日です。 テニスを 見に 行きました。 私は テニスを するのが 好きじゃありません。 運動が 上手じゃありませんから。 でも、見るのが 大好きです。 毎水曜日 友達と スタジアムに 行って、テニスを 見ます。 今日は、私の 好きな 選手が 勝ちました。 嬉しかったです。 来週も もう 一回 見に 行く つもりです。",
+      "contentFurigana": "きょうは ごがつじゅうさんにちです。 テニスを みに いきました。 わたしは テニスを するのが すきじゃありません。 うんどうが じょうずじゃありませんから。 でも、みるのが だいすきです。 まいにちようび ともだちと スタジアムに いって、テニスを みます。 きょうは、わたしの すきな せんしゅが かちました。 うれしかったです。 らいしゅうも もう いっかい みに いく つもりです。",
+      "contentVietnamese": "Hôm nay là ngày 13 tháng 5. Tôi đã đi xem tennis. Tôi không thích chơi tennis. Vì tôi không giỏi thể thao. Nhưng tôi lại rất thích xem. Mỗi chủ nhật tôi đi sân vận động cùng bạn để xem tennis. Hôm nay vận động viên tôi yêu thích đã thắng. Tôi đã rất vui. Tuần sau tôi cũng định đi xem thêm một lần nữa.",
+      "targetKanji": [
+        {
+          "character": "今日",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "五月十三日",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "見",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "行",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "私",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "好",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "運動",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "上手",
+          "reading": "",
+          "hanViet": ""
+        }
+      ],
+      "targetKatakana": [
+        "テニス",
+        "スタジアム"
+      ],
+      "prepTimeSeconds": 20,
+      "readingTimeSeconds": 50,
+      "sentences": [
+        {
+          "index": 1,
+          "raw": "今日きょう は 五月十三日ごがつじゅうさんにち です。",
+          "japanese": "今日は 五月十三日です。",
+          "furigana": "きょうは ごがつじゅうさんにちです。",
+          "romaji": "Kyou wa gogatsu juusan-nichi desu.",
+          "vietnamese": "Hôm nay là ngày 13 tháng 5."
+        },
+        {
+          "index": 2,
+          "raw": "テニスを 見みに 行いきました。",
+          "japanese": "テニスを 見に 行きました。",
+          "furigana": "テニスを みに いきました。",
+          "romaji": "Tenisu o mi ni ikimashita.",
+          "vietnamese": "Tôi đã đi xem tennis."
+        },
+        {
+          "index": 3,
+          "raw": "私わたし は テニスを するのが すきじゃありません。",
+          "japanese": "私は テニスを するのが 好きじゃありません。",
+          "furigana": "わたしは テニスを するのが すきじゃありません。",
+          "romaji": "Watashi wa tenisu o suru no ga suki ja arimasen.",
+          "vietnamese": "Tôi không thích chơi tennis."
+        },
+        {
+          "index": 4,
+          "raw": "うんどうが じょうずじゃありませんから。",
+          "japanese": "運動が 上手じゃありませんから。",
+          "furigana": "うんどうが じょうずじゃありませんから。",
+          "romaji": "Undou ga jouzu ja arimasen kara.",
+          "vietnamese": "Vì tôi không giỏi thể thao."
+        },
+        {
+          "index": 5,
+          "raw": "でも、見みるのが だいすきです。",
+          "japanese": "でも、見るのが 大好きです。",
+          "furigana": "でも、みるのが だいすきです。",
+          "romaji": "Demo, miru no ga daisuki desu.",
+          "vietnamese": "Nhưng tôi lại rất thích xem."
+        },
+        {
+          "index": 6,
+          "raw": "まい日曜日にちようび ともだちと スタジアムに いって、テニスを 見みます。",
+          "japanese": "毎水曜日 友達と スタジアムに 行って、テニスを 見ます。",
+          "furigana": "まいにちようび ともだちと スタジアムに いって、テニスを みます。",
+          "romaji": "Mai-nichiyoubi tomodachi to sutajiamu ni itte, tenisu o mimasu.",
+          "vietnamese": "Mỗi chủ nhật tôi đi sân vận động cùng bạn để xem tennis."
+        },
+        {
+          "index": 7,
+          "raw": "今日きょう は、私わたし の すきな せんしゅが かちました。",
+          "japanese": "今日は、私の 好きな 選手が 勝ちました。",
+          "furigana": "きょうは、わたしの すきな せんしゅが かちました。",
+          "romaji": "Kyou wa, watashi no suki na senshu ga kachimashita.",
+          "vietnamese": "Hôm nay vận động viên tôi yêu thích đã thắng."
+        },
+        {
+          "index": 8,
+          "raw": "うれしかったです。",
+          "japanese": "嬉しかったです。",
+          "furigana": "うれしかったです。",
+          "romaji": "Ureshikatta desu.",
+          "vietnamese": "Tôi đã rất vui."
+        },
+        {
+          "index": 9,
+          "raw": "来週らいしゅう も もう いっかい 見みに 行いく つもりです。",
+          "japanese": "来週も もう 一回 見に 行く つもりです。",
+          "furigana": "らいしゅうも もう いっかい みに いく つもりです。",
+          "romaji": "Raishuu mo mou ikkai mi ni iku tsumori desu.",
+          "vietnamese": "Tuần sau tôi cũng định đi xem thêm một lần nữa."
+        }
+      ]
+    },
+    {
+      "id": "lesson-13",
+      "code": "Lesson 13",
+      "lessonNum": 13,
+      "title": "ワットさんの しごと",
+      "topic": "Ôn tập",
+      "description": "Phiên bản ôn lại bài về thầy Watt với nhiều chữ kanji hơn. 8 câu đọc",
+      "wordCount": 146,
+      "sentenceCount": 8,
+      "contentJapanese": "ワットさんは さくら大学の 英語の 先生です。 毎日 赤い 車で 大学へ 行きます。 さくら大学は 大きい 大学では ありませんが、いい 大学です。 ワットさんは いつも 食堂で 昼ごはんを 食べます。 食堂は 12時から 1時まで とても 賑やかです。 食堂の 食べ物は おいしいです。 そして、安いです。 大学の 仕事は 忙しいですが、楽しいです。",
+      "contentFurigana": "ワットさんは さくらだいがくの えいごの せんせいです。 まいにち あかい くるまで だいがくへ いきます。 さくらだいがくは おおきい だいがくでは ありませんが、いい だいがくです。 ワットさんは いつも しょくどうで ひるごはんを たべます。 しょくどうは じゅうにじから いちじまで とても にぎやかです。 しょくどうの たべものは おいしいです。 そして、やすいです。 だいがくの しごとは いそがしいですが、たのしいです。",
+      "contentVietnamese": "Ông Watt là giáo viên tiếng Anh ở đại học Sakura. Mỗi ngày ông ấy đi ô tô màu đỏ đến trường đại học. Đại học Sakura không phải là một trường lớn, nhưng là một trường tốt. Ông Watt lúc nào cũng ăn trưa ở nhà ăn. Nhà ăn rất nhộn nhịp từ 12 giờ đến 1 giờ. Đồ ăn ở nhà ăn rất ngon. Và còn rẻ nữa. Công việc ở trường đại học bận rộn nhưng vui.",
+      "targetKanji": [
+        {
+          "character": "大学",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "英語",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "先生",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "毎日",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "赤",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "車",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "行",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "大",
+          "reading": "",
+          "hanViet": ""
+        }
+      ],
+      "targetKatakana": [
+        "ワット"
+      ],
+      "prepTimeSeconds": 20,
+      "readingTimeSeconds": 50,
+      "sentences": [
+        {
+          "index": 1,
+          "raw": "ワットさんは さくら大学さくらだいがく の 英語えいご の 先生せんせい です。",
+          "japanese": "ワットさんは さくら大学の 英語の 先生です。",
+          "furigana": "ワットさんは さくらだいがくの えいごの せんせいです。",
+          "romaji": "Watto-san wa Sakura daigaku no eigo no sensei desu.",
+          "vietnamese": "Ông Watt là giáo viên tiếng Anh ở đại học Sakura."
+        },
+        {
+          "index": 2,
+          "raw": "毎日まいにち あかい くるまで 大学だいがく へ 行いきます。",
+          "japanese": "毎日 赤い 車で 大学へ 行きます。",
+          "furigana": "まいにち あかい くるまで だいがくへ いきます。",
+          "romaji": "Mainichi akai kuruma de daigaku e ikimasu.",
+          "vietnamese": "Mỗi ngày ông ấy đi ô tô màu đỏ đến trường đại học."
+        },
+        {
+          "index": 3,
+          "raw": "さくら大学だいがく は 大おおきい 大学だいがく では ありませんが、いい 大学だいがく です。",
+          "japanese": "さくら大学は 大きい 大学では ありませんが、いい 大学です。",
+          "furigana": "さくらだいがくは おおきい だいがくでは ありませんが、いい だいがくです。",
+          "romaji": "Sakura daigaku wa ookii daigaku dewa arimasen ga, ii daigaku desu.",
+          "vietnamese": "Đại học Sakura không phải là một trường lớn, nhưng là một trường tốt."
+        },
+        {
+          "index": 4,
+          "raw": "ワットさんは いつも しょくどうで ひるごはんを 食たべます。",
+          "japanese": "ワットさんは いつも 食堂で 昼ごはんを 食べます。",
+          "furigana": "ワットさんは いつも しょくどうで ひるごはんを たべます。",
+          "romaji": "Watto-san wa itsumo shokudou de hirugohan o tabemasu.",
+          "vietnamese": "Ông Watt lúc nào cũng ăn trưa ở nhà ăn."
+        },
+        {
+          "index": 5,
+          "raw": "しょくどうは 12時じゅうにじ から 1時いちじ まで とても にぎやかです。",
+          "japanese": "食堂は 12時から 1時まで とても 賑やかです。",
+          "furigana": "しょくどうは じゅうにじから いちじまで とても にぎやかです。",
+          "romaji": "Shokudou wa juuni-ji kara ichi-ji made totemo nigiyaka desu.",
+          "vietnamese": "Nhà ăn rất nhộn nhịp từ 12 giờ đến 1 giờ."
+        },
+        {
+          "index": 6,
+          "raw": "しょくどうの 食たべ物もの は おいしいです。",
+          "japanese": "食堂の 食べ物は おいしいです。",
+          "furigana": "しょくどうの たべものは おいしいです。",
+          "romaji": "Shokudou no tabemono wa oishii desu.",
+          "vietnamese": "Đồ ăn ở nhà ăn rất ngon."
+        },
+        {
+          "index": 7,
+          "raw": "そして、安やすいです。",
+          "japanese": "そして、安いです。",
+          "furigana": "そして、やすいです。",
+          "romaji": "Soshite, yasui desu.",
+          "vietnamese": "Và còn rẻ nữa."
+        },
+        {
+          "index": 8,
+          "raw": "大学だいがく の しごとは いそがしいですが、たのしいです。",
+          "japanese": "大学の 仕事は 忙しいですが、楽しいです。",
+          "furigana": "だいがくの しごとは いそがしいですが、たのしいです。",
+          "romaji": "Daigaku no shigoto wa isogashii desu ga, tanoshii desu.",
+          "vietnamese": "Công việc ở trường đại học bận rộn nhưng vui."
+        }
+      ]
+    },
+    {
+      "id": "lesson-14",
+      "code": "Lesson 14",
+      "lessonNum": 14,
+      "title": "おおさかと ちかくの まち",
+      "topic": "Thành phố",
+      "description": "Osaka, Kobe, Kyoto và Nara có nét hấp dẫn khác nhau. 8 câu đọc",
+      "wordCount": 145,
+      "sentenceCount": 8,
+      "contentJapanese": "大阪は 大きくて、にぎやかな 町です。 面白い 人が 多くて、食べ物が おいしいです。 神戸と 京都と 奈良は 大阪から 近いです。 四つの 町の 中で 奈良が 一番 古いです。 奈良と 京都は 古い お寺や 神社が 多いですから、外国人が 遊びに 来ます。 神戸は すてきな 町です。 前に 海が あって、後ろに 山が あります。 若い 人は 神戸が 好きです。",
+      "contentFurigana": "おおさかは おおきくて、にぎやかな まちです。 おもしろい ひとが おおくて、たべものが おいしいです。 こうべと きょうとと ならは おおさかから ちかいです。 よっつの まちの なかで ならが いちばん ふるいです。 ならと きょうとは ふるい おてらや じんじゃが おおいですから、がいこくじんが あそびに きます。 こうべは すてきな まちです。 まえに うみが あって、うしろに やまが あります。 わかい ひとは こうべが すきです。",
+      "contentVietnamese": "Osaka là một thành phố lớn và nhộn nhịp. Có nhiều người thú vị và đồ ăn rất ngon. Kobe, Kyoto và Nara đều gần Osaka. Trong bốn thành phố thì Nara là thành phố cổ nhất. Vì Nara và Kyoto có nhiều chùa và đền cổ nên có nhiều người nước ngoài đến tham quan. Kobe là một thành phố rất đẹp. Phía trước có biển, phía sau có núi. Người trẻ thích Kobe.",
+      "targetKanji": [
+        {
+          "character": "大阪",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "大",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "町",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "面白",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "人",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "多",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "食",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "物",
+          "reading": "",
+          "hanViet": ""
+        }
+      ],
+      "targetKatakana": [],
+      "prepTimeSeconds": 20,
+      "readingTimeSeconds": 50,
+      "sentences": [
+        {
+          "index": 1,
+          "raw": "おおさかは 大おおきくて、にぎやかな まちです。",
+          "japanese": "大阪は 大きくて、にぎやかな 町です。",
+          "furigana": "おおさかは おおきくて、にぎやかな まちです。",
+          "romaji": "Oosaka wa ookikute, nigiyaka na machi desu.",
+          "vietnamese": "Osaka là một thành phố lớn và nhộn nhịp."
+        },
+        {
+          "index": 2,
+          "raw": "おもしろい 人ひと が おおくて、食たべ物もの が おいしいです。",
+          "japanese": "面白い 人が 多くて、食べ物が おいしいです。",
+          "furigana": "おもしろい ひとが おおくて、たべものが おいしいです。",
+          "romaji": "Omoshiroi hito ga ookute, tabemono ga oishii desu.",
+          "vietnamese": "Có nhiều người thú vị và đồ ăn rất ngon."
+        },
+        {
+          "index": 3,
+          "raw": "こうべと 京都きょうと と ならは おおさかから ちかいです。",
+          "japanese": "神戸と 京都と 奈良は 大阪から 近いです。",
+          "furigana": "こうべと きょうとと ならは おおさかから ちかいです。",
+          "romaji": "Koube to Kyouto to Nara wa Oosaka kara chikai desu.",
+          "vietnamese": "Kobe, Kyoto và Nara đều gần Osaka."
+        },
+        {
+          "index": 4,
+          "raw": "四つよっつ の まちの 中なか で ならが いちばん ふるいです。",
+          "japanese": "四つの 町の 中で 奈良が 一番 古いです。",
+          "furigana": "よっつの まちの なかで ならが いちばん ふるいです。",
+          "romaji": "Yottsu no machi no naka de Nara ga ichiban furui desu.",
+          "vietnamese": "Trong bốn thành phố thì Nara là thành phố cổ nhất."
+        },
+        {
+          "index": 5,
+          "raw": "ならと 京都きょうと は 古ふるい お寺てら や じんじゃが 多おおいですから、外国人がいこくじん が あそびに 来きます。",
+          "japanese": "奈良と 京都は 古い お寺や 神社が 多いですから、外国人が 遊びに 来ます。",
+          "furigana": "ならと きょうとは ふるい おてらや じんじゃが おおいですから、がいこくじんが あそびに きます。",
+          "romaji": "Nara to Kyouto wa furui otera ya jinja ga ooi desu kara, gaikokujin ga asobi ni kimasu.",
+          "vietnamese": "Vì Nara và Kyoto có nhiều chùa và đền cổ nên có nhiều người nước ngoài đến tham quan."
+        },
+        {
+          "index": 6,
+          "raw": "こうべは すてきな まちです。",
+          "japanese": "神戸は すてきな 町です。",
+          "furigana": "こうべは すてきな まちです。",
+          "romaji": "Koube wa suteki na machi desu.",
+          "vietnamese": "Kobe là một thành phố rất đẹp."
+        },
+        {
+          "index": 7,
+          "raw": "前まえ に うみが あって、うしろに 山やま が あります。",
+          "japanese": "前に 海が あって、後ろに 山が あります。",
+          "furigana": "まえに うみが あって、うしろに やまが あります。",
+          "romaji": "Mae ni umi ga atte, ushiro ni yama ga arimasu.",
+          "vietnamese": "Phía trước có biển, phía sau có núi."
+        },
+        {
+          "index": 8,
+          "raw": "わかい 人ひと は こうべが すきです。",
+          "japanese": "若い 人は 神戸が 好きです。",
+          "furigana": "わかい ひとは こうべが すきです。",
+          "romaji": "Wakai hito wa Koube ga suki desu.",
+          "vietnamese": "Người trẻ thích Kobe."
+        }
+      ]
+    },
+    {
+      "id": "lesson-15",
+      "code": "Lesson 15",
+      "lessonNum": 15,
+      "title": "いちばん ほしい 物",
+      "topic": "Điều ước",
+      "description": "Nhiều người chia sẻ điều mình muốn có nhất. 15 câu đọc",
+      "wordCount": 296,
+      "sentenceCount": 15,
+      "contentJapanese": "いろいろな 人に 一番 欲しい 物を 聞きました。 ①「時間」です。 会社へ 行って、働いて、家へ 帰ったら、1日が 終わります。 1日が 短いです。 1日 36時間ぐらい 欲しいです。 ②「ぼくの 銀行」が 欲しいです。 銀行を 持っていたら、好きな とき、お金を 下ろして、好きな 物を 買う ことが できます。 ③「若くなる 薬」です。 私は 若い とき、あまり 勉強しませんでした。 もう 一度 若く なったら、勉強して、いい 仕事を したいです。 ④「ユーモア」が 欲しいです。 私が 話を すると、妻は すぐ「明日も 忙しいでしょう。 早く 寝て ください。」と 言います。 子どもは「お父さん、もう 3回ぐらい 聞いたよ。」と 言います。 私は 面白い 人に なりたいです。 (男の 人、43歳)",
+      "contentFurigana": "いろいろな ひとに いちばん ほしい ものを ききました。 ①「じかん」です。 かいしゃへ いって、はたらいて、うちへ かえったら、いちにちが おわります。 いちにちが みじかいです。 いちにち さんじゅうろくじかんぐらい ほしいです。 ②「ぼくの ぎんこう」が ほしいです。 ぎんこうを もっていたら、すきな とき、おかねを おろして、すきな ものを かう ことが できます。 ③「わかくなる くすり」です。 わたしは わかい とき、あまり べんきょうしませんでした。 もう いちど わかく なったら、べんきょうして、いい しごとを したいです。 ④「ユーモア」が ほしいです。 わたしが はなしを すると、つまは すぐ「あしたも いそがしいでしょう。 はやく ねて ください。」と いいます。 こどもは「おとうさん、もう さんかいぐらい きいたよ。」と いいます。 わたしは おもしろい ひとに なりたいです。 (おとこの ひと、よんじゅうさんさい)",
+      "contentVietnamese": "Tôi đã hỏi nhiều người về món đồ hay điều họ muốn có nhất. 1. “Thời gian.” Tôi đi làm ở công ty, làm việc rồi về nhà là một ngày kết thúc. Một ngày quá ngắn. Tôi muốn một ngày dài khoảng 36 tiếng. 2. “Tôi muốn có ngân hàng của riêng mình.” Nếu có ngân hàng riêng thì lúc nào cũng có thể rút tiền và mua thứ mình thích. 3. “Thuốc giúp trẻ lại.” Khi còn trẻ tôi đã không học nhiều. Nếu được trẻ lại một lần nữa, tôi muốn học hành và làm một công việc tốt. 4. “Tôi muốn có khiếu hài hước.” Khi tôi nói chuyện, vợ tôi liền bảo: “Ngày mai anh còn bận mà, ngủ sớm đi.” Bọn trẻ thì nói: “Bố ơi, chuyện đó con nghe khoảng 3 lần rồi.” Tôi muốn trở thành một người thú vị. (Nam, 43 tuổi)",
+      "targetKanji": [
+        {
+          "character": "人",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "一番",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "欲",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "物",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "聞",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "時間",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "会社",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "行",
+          "reading": "",
+          "hanViet": ""
+        }
+      ],
+      "targetKatakana": [
+        "ユーモア"
+      ],
+      "prepTimeSeconds": 20,
+      "readingTimeSeconds": 50,
+      "sentences": [
+        {
+          "index": 1,
+          "raw": "いろいろな 人ひと に いちばん ほしい 物もの を 聞ききました。",
+          "japanese": "いろいろな 人に 一番 欲しい 物を 聞きました。",
+          "furigana": "いろいろな ひとに いちばん ほしい ものを ききました。",
+          "romaji": "Iroiro na hito ni ichiban hoshii mono o kikimashita.",
+          "vietnamese": "Tôi đã hỏi nhiều người về món đồ hay điều họ muốn có nhất."
+        },
+        {
+          "index": 2,
+          "raw": "①「時間じかん」です。",
+          "japanese": "①「時間」です。",
+          "furigana": "①「じかん」です。",
+          "romaji": "1. 'Jikan' desu.",
+          "vietnamese": "1. “Thời gian.”"
+        },
+        {
+          "index": 3,
+          "raw": "会社かいしゃ へ 行いって、はたらいて、うちへ 帰かえったら、1日いちにち が おわります。",
+          "japanese": "会社へ 行って、働いて、家へ 帰ったら、1日が 終わります。",
+          "furigana": "かいしゃへ いって、はたらいて、うちへ かえったら、いちにちが おわります。",
+          "romaji": "Kaisha e itte, hataraite, uchi e kaettara, ichinichi ga owarimasu.",
+          "vietnamese": "Tôi đi làm ở công ty, làm việc rồi về nhà là một ngày kết thúc."
+        },
+        {
+          "index": 4,
+          "raw": "1日いちにち が みじかいです。",
+          "japanese": "1日が 短いです。",
+          "furigana": "いちにちが みじかいです。",
+          "romaji": "Ichinichi ga mijikai desu.",
+          "vietnamese": "Một ngày quá ngắn."
+        },
+        {
+          "index": 5,
+          "raw": "1日いちにち 36時間さんじゅうろくじかん ぐらい ほしいです。",
+          "japanese": "1日 36時間ぐらい 欲しいです。",
+          "furigana": "いちにち さんじゅうろくじかんぐらい ほしいです。",
+          "romaji": "Ichinichi sanjuuroku-jikan gurai hoshii desu.",
+          "vietnamese": "Tôi muốn một ngày dài khoảng 36 tiếng."
+        },
+        {
+          "index": 6,
+          "raw": "②「ぼくの ぎんこう」が ほしいです。",
+          "japanese": "②「ぼくの 銀行」が 欲しいです。",
+          "furigana": "②「ぼくの ぎんこう」が ほしいです。",
+          "romaji": "2. 'Boku no ginkou' ga hoshii desu.",
+          "vietnamese": "2. “Tôi muốn có ngân hàng của riêng mình.”"
+        },
+        {
+          "index": 7,
+          "raw": "ぎんこうを もっていたら、すきな とき、お金おかね を おろして、すきな 物もの を 買かう ことが できます。",
+          "japanese": "銀行を 持っていたら、好きな とき、お金を 下ろして、好きな 物を 買う ことが できます。",
+          "furigana": "ぎんこうを もっていたら、すきな とき、おかねを おろして、すきな ものを かう ことが できます。",
+          "romaji": "Ginkou o motte itara, suki na toki, okane o oroshite, suki na mono o kau koto ga dekimasu.",
+          "vietnamese": "Nếu có ngân hàng riêng thì lúc nào cũng có thể rút tiền và mua thứ mình thích."
+        },
+        {
+          "index": 8,
+          "raw": "③「わかくなる くすり」です。",
+          "japanese": "③「若くなる 薬」です。",
+          "furigana": "③「わかくなる くすり」です。",
+          "romaji": "3. 'Wakaku naru kusuri' desu.",
+          "vietnamese": "3. “Thuốc giúp trẻ lại.”"
+        },
+        {
+          "index": 9,
+          "raw": "私わたし は わかい とき、あまり べんきょうしませんでした。",
+          "japanese": "私は 若い とき、あまり 勉強しませんでした。",
+          "furigana": "わたしは わかい とき、あまり べんきょうしませんでした。",
+          "romaji": "Watashi wa wakai toki, amari benkyou shimasen deshita.",
+          "vietnamese": "Khi còn trẻ tôi đã không học nhiều."
+        },
+        {
+          "index": 10,
+          "raw": "もう いちど わかく なったら、べんきょうして、いい しごとを したいです。",
+          "japanese": "もう 一度 若く なったら、勉強して、いい 仕事を したいです。",
+          "furigana": "もう いちど わかく なったら、べんきょうして、いい しごとを したいです。",
+          "romaji": "Mou ichido wakaku nattara, benkyou shite, ii shigoto o shitai desu.",
+          "vietnamese": "Nếu được trẻ lại một lần nữa, tôi muốn học hành và làm một công việc tốt."
+        },
+        {
+          "index": 11,
+          "raw": "④「ユーモア」が ほしいです。",
+          "japanese": "④「ユーモア」が 欲しいです。",
+          "furigana": "④「ユーモア」が ほしいです。",
+          "romaji": "4. 'Yuumoa' ga hoshii desu.",
+          "vietnamese": "4. “Tôi muốn có khiếu hài hước.”"
+        },
+        {
+          "index": 12,
+          "raw": "私わたし が 話はなし を すると、つまは すぐ「あしたも いそがしいでしょう。 はやく 寝ねて ください。」と 言いいます。",
+          "japanese": "私が 話を すると、妻は すぐ「明日も 忙しいでしょう。 早く 寝て ください。」と 言います。",
+          "furigana": "わたしが はなしを すると、つまは すぐ「あしたも いそがしいでしょう。 はやく ねて ください。」と いいます。",
+          "romaji": "Watashi ga hanashi o suru to, tsuma wa sugu 'Ashita mo isogashii deshou. Hayaku nete kudasai.' to iimasu.",
+          "vietnamese": "Khi tôi nói chuyện, vợ tôi liền bảo: “Ngày mai anh còn bận mà, ngủ sớm đi.”"
+        },
+        {
+          "index": 13,
+          "raw": "子こどもは「お父とうさん、もう 3回さんかい ぐらい 聞きいたよ。」と 言いいます。",
+          "japanese": "子どもは「お父さん、もう 3回ぐらい 聞いたよ。」と 言います。",
+          "furigana": "こどもは「おとうさん、もう さんかいぐらい きいたよ。」と いいます。",
+          "romaji": "Kodomo wa 'Otousan, mou sankai gurai kiita yo.' to iimasu.",
+          "vietnamese": "Bọn trẻ thì nói: “Bố ơi, chuyện đó con nghe khoảng 3 lần rồi.”"
+        },
+        {
+          "index": 14,
+          "raw": "私わたし は おもしろい 人ひと に なりたいです。",
+          "japanese": "私は 面白い 人に なりたいです。",
+          "furigana": "わたしは おもしろい ひとに なりたいです。",
+          "romaji": "Watashi wa omoshiroi hito ni naritai desu.",
+          "vietnamese": "Tôi muốn trở thành một người thú vị."
+        },
+        {
+          "index": 15,
+          "raw": "(男おとこ の 人ひと、43才よんじゅうさんさい)",
+          "japanese": "(男の 人、43歳)",
+          "furigana": "(おとこの ひと、よんじゅうさんさい)",
+          "romaji": "(Otoko no hito, yonjuusan-sai)",
+          "vietnamese": "(Nam, 43 tuổi)"
+        }
+      ]
+    },
+    {
+      "id": "lesson-16",
+      "code": "Lesson 16",
+      "lessonNum": 16,
+      "title": "ぼくの おばあちゃん",
+      "topic": "Bà ngoại",
+      "description": "Một người bà khỏe mạnh và làm cho căn nhà thêm rộn ràng. 9 câu đọc",
+      "wordCount": 213,
+      "sentenceCount": 9,
+      "contentJapanese": "ぼくの おばあちゃんは 72歳で、元気です。 一人で 住んでいます。 天気が いい とき、おばあちゃんは 病院へ 友達に 会いに 行きます。 病院に 友達が たくさん いますから。 天気が 悪い とき、足の 調子が よくないですから、出かけません。 おばあちゃんが ぼくの 家へ 来た とき、ぼくは 学校で 習った 歌を 歌って あげます。 おばあちゃんは ぼくに 古い 日本の お話を してくれます。 そして、パンや お菓子を 作って くれます。 おばあちゃんが 家へ 来ると、家の 中が とても 賑やかに なります。",
+      "contentFurigana": "ぼくの おばあちゃんは ななじゅうにさいで、げんきです。 ひとり で すんでいます。 てんきが いい とき、おばあちゃんは びょういんへ ともだちに あいに いきます。 びょういんに ともだちが たくさん いますから。 てんきが わるい とき、あしの ちょうしが よくないですから、でかけません。 おばあちゃんが ぼくの うちへ きた とき、ぼくは がっこうで ならった うたを うたって あげます。 おばあちゃんは ぼくに ふるい にほんの おはなしを してくれます。 そして、パンや おかしを つくって くれます。 おばあちゃんが うちへ くると、うちの なかが とても にぎやかに なります。",
+      "contentVietnamese": "Bà của tôi 72 tuổi và vẫn rất khỏe. Bà sống một mình. Khi thời tiết đẹp, bà đi bệnh viện thăm bạn. Vì ở bệnh viện có rất nhiều bạn của bà. Khi thời tiết xấu, do chân không khỏe nên bà không ra ngoài. Khi bà đến nhà tôi, tôi hát cho bà nghe bài hát học ở trường. Bà kể cho tôi nghe những câu chuyện cổ của Nhật Bản. Và bà còn làm bánh mì và bánh ngọt cho tôi. Mỗi khi bà đến nhà, cả ngôi nhà trở nên rất rộn ràng.",
+      "targetKanji": [
+        {
+          "character": "歳",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "元気",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "一人",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "住",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "天気",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "病院",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "友達",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "会",
+          "reading": "",
+          "hanViet": ""
+        }
+      ],
+      "targetKatakana": [
+        "パン"
+      ],
+      "prepTimeSeconds": 20,
+      "readingTimeSeconds": 50,
+      "sentences": [
+        {
+          "index": 1,
+          "raw": "ぼくの おばあちゃんは 72才ななじゅうにさい で、げんきです。",
+          "japanese": "ぼくの おばあちゃんは 72歳で、元気です。",
+          "furigana": "ぼくの おばあちゃんは ななじゅうにさいで、げんきです。",
+          "romaji": "Boku no obaachan wa nanajuuni-sai de, genki desu.",
+          "vietnamese": "Bà của tôi 72 tuổi và vẫn rất khỏe."
+        },
+        {
+          "index": 2,
+          "raw": "一人ひとり で すんでいます。",
+          "japanese": "一人で 住んでいます。",
+          "furigana": "ひとり で すんでいます。",
+          "romaji": "Hitori de sunde imasu.",
+          "vietnamese": "Bà sống một mình."
+        },
+        {
+          "index": 3,
+          "raw": "てんきが いい とき、おばあちゃんは びょういんへ ともだちに 会あいに 行いきます。",
+          "japanese": "天気が いい とき、おばあちゃんは 病院へ 友達に 会いに 行きます。",
+          "furigana": "てんきが いい とき、おばあちゃんは びょういんへ ともだちに あいに いきます。",
+          "romaji": "Tenki ga ii toki, obaachan wa byouin e tomodachi ni ai ni ikimasu.",
+          "vietnamese": "Khi thời tiết đẹp, bà đi bệnh viện thăm bạn."
+        },
+        {
+          "index": 4,
+          "raw": "びょういんに ともだちが たくさん いますから。",
+          "japanese": "病院に 友達が たくさん いますから。",
+          "furigana": "びょういんに ともだちが たくさん いますから。",
+          "romaji": "Byouin ni tomodachi ga takusan imasu kara.",
+          "vietnamese": "Vì ở bệnh viện có rất nhiều bạn của bà."
+        },
+        {
+          "index": 5,
+          "raw": "てんきが わるい とき、あしの ちょうしが よくないですから、出でかけません。",
+          "japanese": "天気が 悪い とき、足の 調子が よくないですから、出かけません。",
+          "furigana": "てんきが わるい とき、あしの ちょうしが よくないですから、でかけません。",
+          "romaji": "Tenki ga warui toki, ashi no choushi ga yokunai desu kara, dekakemasen.",
+          "vietnamese": "Khi thời tiết xấu, do chân không khỏe nên bà không ra ngoài."
+        },
+        {
+          "index": 6,
+          "raw": "おばあちゃんが ぼくの うちへ 来きた とき、ぼくは 学校がっこう で ならった うたを うたって あげます。",
+          "japanese": "おばあちゃんが ぼくの 家へ 来た とき、ぼくは 学校で 習った 歌を 歌って あげます。",
+          "furigana": "おばあちゃんが ぼくの うちへ きた とき、ぼくは がっこうで ならった うたを うたって あげます。",
+          "romaji": "Obaachan ga boku no uchi e kita toki, boku wa gakkou de naratta uta o utatte agemasu.",
+          "vietnamese": "Khi bà đến nhà tôi, tôi hát cho bà nghe bài hát học ở trường."
+        },
+        {
+          "index": 7,
+          "raw": "おばあちゃんは ぼくに 古ふるい 日本にほん の お話はなし を してくれます。",
+          "japanese": "おばあちゃんは ぼくに 古い 日本の お話を してくれます。",
+          "furigana": "おばあちゃんは ぼくに ふるい にほんの おはなしを してくれます。",
+          "romaji": "Obaachan wa boku ni furui Nihon no ohanashi o shite kuremasu.",
+          "vietnamese": "Bà kể cho tôi nghe những câu chuyện cổ của Nhật Bản."
+        },
+        {
+          "index": 8,
+          "raw": "そして、パンや おかしを 作つくって くれます。",
+          "japanese": "そして、パンや お菓子を 作って くれます。",
+          "furigana": "そして、パンや おかしを つくって くれます。",
+          "romaji": "Soshite, pan ya okashi o tsukutte kuremasu.",
+          "vietnamese": "Và bà còn làm bánh mì và bánh ngọt cho tôi."
+        },
+        {
+          "index": 9,
+          "raw": "おばあちゃんが うちへ 来くると、うちの 中なか が とても にぎやかに なります。",
+          "japanese": "おばあちゃんが 家へ 来ると、家の 中が とても 賑やかに なります。",
+          "furigana": "おばあちゃんが うちへ くると、うちの なかが とても にぎやかに なります。",
+          "romaji": "Obaachan ga uchi e kuru to, uchi no naka ga totemo nigiyaka ni narimasu.",
+          "vietnamese": "Mỗi khi bà đến nhà, cả ngôi nhà trở nên rất rộn ràng."
+        }
+      ]
+    },
+    {
+      "id": "lesson-17",
+      "code": "Lesson 17",
+      "lessonNum": 17,
+      "title": "カンガルーの 名前",
+      "topic": "Động vật",
+      "description": "Câu chuyện thú vị về nguồn gốc tên gọi kangaroo. 11 câu đọc",
+      "wordCount": 245,
+      "sentenceCount": 11,
+      "contentJapanese": "この 動物の 名前を 知っていますか。 「カンガルー」です。 カンガルーの 名前について 面白い 話が あります。 1770年に イギリスの キャプテン・クックは 船で オーストラリアへ 行きました。 そして、初めて この 動物を 見ました。 クックは オーストラリアの 人に この 動物の 名前を 知りたいと 言いました。 オーストラリアの 人は オーストラリアの 言葉で「カンガルー」と 言いました。 ですから、クックは この 動物の 名前は 「カンガルー」だと 思いました。 それから この 動物の 名前は 「カンガルー」に なりました。 面白いですね。 本当だと 思いますか。",
+      "contentFurigana": "この どうぶつの なまえを しっていますか。 「カンガルー」です。 カンガルーの なまえについて おもしろい はなしが あります。 1770ねんに イギリスの キャプテン・クックは ふねで オーストラリアへ いきました。 そして、はじめて この どうぶつを みました。 クックは オーストラリアの ひとに この どうぶつの なまえを しりたいと いいました。 オーストラリアの ひとは オーストラリアの ことばで「カンガルー」と いいました。 ですから、クックは この どうぶつの なまえは 「カンガルー」だと おもいました。 それから この どうぶつの なまえは 「カンガルー」に なりました。 おもしろいですね。 ほんとうだと おもいますか。",
+      "contentVietnamese": "Bạn có biết tên của con vật này không? Đó là “kangaroo”. Có một câu chuyện thú vị về tên gọi của kangaroo. Năm 1770, thuyền trưởng Cook người Anh đã đi tàu đến Australia. Và lần đầu tiên ông ấy nhìn thấy con vật này. Cook đã nói với người Australia rằng ông muốn biết tên của con vật này. Người Australia đã nói “kangaroo” bằng ngôn ngữ của họ. Vì vậy Cook đã nghĩ rằng tên con vật này là “kangaroo”. Từ đó tên của con vật này trở thành “kangaroo”. Thú vị nhỉ. Bạn có nghĩ là chuyện đó là thật không?",
+      "targetKanji": [
+        {
+          "character": "動物",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "名前",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "知",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "面白",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "話",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "年",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "船",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "行",
+          "reading": "",
+          "hanViet": ""
+        }
+      ],
+      "targetKatakana": [
+        "カンガルー",
+        "イギリス",
+        "キャプテン",
+        "クック",
+        "オーストラリア"
+      ],
+      "prepTimeSeconds": 20,
+      "readingTimeSeconds": 50,
+      "sentences": [
+        {
+          "index": 1,
+          "raw": "この どうぶつの 名前なまえ を しっていますか。",
+          "japanese": "この 動物の 名前を 知っていますか。",
+          "furigana": "この どうぶつの なまえを しっていますか。",
+          "romaji": "Kono doubutsu no namae o shitte imasu ka.",
+          "vietnamese": "Bạn có biết tên của con vật này không?"
+        },
+        {
+          "index": 2,
+          "raw": "「カンガルー」です。",
+          "japanese": "「カンガルー」です。",
+          "furigana": "「カンガルー」です。",
+          "romaji": "'Kangaruu' desu.",
+          "vietnamese": "Đó là “kangaroo”."
+        },
+        {
+          "index": 3,
+          "raw": "カンガルーの 名前なまえ について おもしろい 話はなし が あります。",
+          "japanese": "カンガルーの 名前について 面白い 話が あります。",
+          "furigana": "カンガルーの なまえについて おもしろい はなしが あります。",
+          "romaji": "Kangaruu no namae ni tsuite omoshiroi hanashi ga arimasu.",
+          "vietnamese": "Có một câu chuyện thú vị về tên gọi của kangaroo."
+        },
+        {
+          "index": 4,
+          "raw": "1770年せんななひゃくななじゅうねん に イギリスの キャプテン・クックは ふねで オーストラリアへ 行いきました。",
+          "japanese": "1770年に イギリスの キャプテン・クックは 船で オーストラリアへ 行きました。",
+          "furigana": "1770ねんに イギリスの キャプテン・クックは ふねで オーストラリアへ いきました。",
+          "romaji": "Sen-nanahyaku-nanajuu-nen ni Igirisu no Kyaputen Kukku wa fune de Oosutoraria e ikimashita.",
+          "vietnamese": "Năm 1770, thuyền trưởng Cook người Anh đã đi tàu đến Australia."
+        },
+        {
+          "index": 5,
+          "raw": "そして、はじめて この どうぶつを 見みました。",
+          "japanese": "そして、初めて この 動物を 見ました。",
+          "furigana": "そして、はじめて この どうぶつを みました。",
+          "romaji": "Soshite, hajimete kono doubutsu o mimashita.",
+          "vietnamese": "Và lần đầu tiên ông ấy nhìn thấy con vật này."
+        },
+        {
+          "index": 6,
+          "raw": "クックは オーストラリアの 人ひと に この どうぶつの 名前なまえ を しりたいと 言いいました。",
+          "japanese": "クックは オーストラリアの 人に この 動物の 名前を 知りたいと 言いました。",
+          "furigana": "クックは オーストラリアの ひとに この どうぶつの なまえを しりたいと いいました。",
+          "romaji": "Kukku wa Oosutoraria no hito ni kono doubutsu no namae o shiritai to iimashita.",
+          "vietnamese": "Cook đã nói với người Australia rằng ông muốn biết tên của con vật này."
+        },
+        {
+          "index": 7,
+          "raw": "オーストラリアの 人ひと は オーストラリアの ことばで「カンガルー」と 言いいました。",
+          "japanese": "オーストラリアの 人は オーストラリアの 言葉で「カンガルー」と 言いました。",
+          "furigana": "オーストラリアの ひとは オーストラリアの ことばで「カンガルー」と いいました。",
+          "romaji": "Oosutoraria no hito wa Oosutoraria no kotoba de 'Kangaruu' to iimashita.",
+          "vietnamese": "Người Australia đã nói “kangaroo” bằng ngôn ngữ của họ."
+        },
+        {
+          "index": 8,
+          "raw": "ですから、クックは この どうぶつの 名前なまえ は 「カンガルー」だと おもいました。",
+          "japanese": "ですから、クックは この 動物の 名前は 「カンガルー」だと 思いました。",
+          "furigana": "ですから、クックは この どうぶつの なまえは 「カンガルー」だと おもいました。",
+          "romaji": "Desukara, Kukku wa kono doubutsu no namae wa 'Kangaruu' da to omoimashita.",
+          "vietnamese": "Vì vậy Cook đã nghĩ rằng tên con vật này là “kangaroo”."
+        },
+        {
+          "index": 9,
+          "raw": "それから この どうぶつの 名前なまえ は 「カンガルー」に なりました。",
+          "japanese": "それから この 動物の 名前は 「カンガルー」に なりました。",
+          "furigana": "それから この どうぶつの なまえは 「カンガルー」に なりました。",
+          "romaji": "Sorekara kono doubutsu no namae wa 'Kangaruu' ni narimashita.",
+          "vietnamese": "Từ đó tên của con vật này trở thành “kangaroo”."
+        },
+        {
+          "index": 10,
+          "raw": "おもしろいです ね。",
+          "japanese": "面白いですね。",
+          "furigana": "おもしろいですね。",
+          "romaji": "Omoshiroi desu ne.",
+          "vietnamese": "Thú vị nhỉ."
+        },
+        {
+          "index": 11,
+          "raw": "ほんとうだと おもいますか。",
+          "japanese": "本当だと 思いますか。",
+          "furigana": "ほんとうだと おもいますか。",
+          "romaji": "Hontou da to omoimasu ka.",
+          "vietnamese": "Bạn có nghĩ là chuyện đó là thật không?"
+        }
+      ]
+    },
+    {
+      "id": "lesson-18",
+      "code": "Lesson 18",
+      "lessonNum": 18,
+      "title": "1月1日の 日記",
+      "topic": "Nhật ký",
+      "description": "Một ngày đầu năm ở Kyoto cùng bạn bè. 11 câu đọc",
+      "wordCount": 184,
+      "sentenceCount": 11,
+      "contentJapanese": "1月1日 金曜日 くもり。 田中君、高橋君と 一緒に 京都の 神社へ 行った。 古くて、大きい 神社だった。 人が 多くて、にぎやかだった。 着物の 女の 人が たくさん いた。 とても きれいだった。 田中君と 高橋君は 神社の 前の 箱に お金を 入れた。 それから みんなで 写真を 撮ったり、お土産を 買ったり した。 天気は あまり よくなかったが、暖かかった。 家へ 帰ってから、アメリカの 家族に 電話を かけた。 みんな 元気だった。",
+      "contentFurigana": "いちがつついたち きんようび くもり。 たなかくん、たかはしくんと いっしょに きょうとの じんじゃへ いった。 ふるくて、おおきい じんじゃだった。 ひとが おおくて、にぎやかだった。 きものの おんなの ひとが たくさん いた。 とても きれいだった。 たなかくんと たかはしくんは じんじゃの まえの はこに おかねを いれた。 それから みんなで しゃしんを とったり、おみやげを かったり した。 てんきは あまり よくなかったが、あたたかかった。 うちへ かえってから、アメリカの かぞくに でんわを かけた。 みんな げんきだった。",
+      "contentVietnamese": "Ngày 1 tháng 1, thứ sáu, trời nhiều mây. Tôi đã cùng Tanaka và Takahashi đến một ngôi đền ở Kyoto. Đó là một ngôi đền cổ và rất lớn. Rất đông người nên không khí rất nhộn nhịp. Có rất nhiều phụ nữ mặc kimono. Trông họ rất đẹp. Tanaka và Takahashi đã bỏ tiền vào chiếc hòm trước đền. Sau đó mọi người cùng chụp ảnh và mua quà lưu niệm. Thời tiết không được đẹp lắm nhưng vẫn ấm. Sau khi về nhà, tôi đã gọi điện cho gia đình ở Mỹ. Mọi người đều khỏe.",
+      "targetKanji": [
+        {
+          "character": "月",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "日",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "金曜日",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "田中君",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "高橋君",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "一緒",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "京都",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "神社",
+          "reading": "",
+          "hanViet": ""
+        }
+      ],
+      "targetKatakana": [
+        "アメリカ"
+      ],
+      "prepTimeSeconds": 20,
+      "readingTimeSeconds": 50,
+      "sentences": [
+        {
+          "index": 1,
+          "raw": "1月1日いちがつついたち 金曜日きんようび くもり。",
+          "japanese": "1月1日 金曜日 くもり。",
+          "furigana": "いちがつついたち きんようび くもり。",
+          "romaji": "Ichigatsu tsuitachi kinyoubi kumori.",
+          "vietnamese": "Ngày 1 tháng 1, thứ sáu, trời nhiều mây."
+        },
+        {
+          "index": 2,
+          "raw": "たなかくん、たかはしくんと いっしょに 京都きょうと の じんじゃへ 行いった。",
+          "japanese": "田中君、高橋君と 一緒に 京都の 神社へ 行った。",
+          "furigana": "たなかくん、たかはしくんと いっしょに きょうとの じんじゃへ いった。",
+          "romaji": "Tanaka-kun, Takahashi-kun to issho ni Kyouto no jinja e itta.",
+          "vietnamese": "Tôi đã cùng Tanaka và Takahashi đến một ngôi đền ở Kyoto."
+        },
+        {
+          "index": 3,
+          "raw": "古ふるくて、大おおきい じんじゃだった。",
+          "japanese": "古くて、大きい 神社だった。",
+          "furigana": "ふるくて、おおきい じんじゃだった。",
+          "romaji": "Furukute, ookii jinja datta.",
+          "vietnamese": "Đó là một ngôi đền cổ và rất lớn."
+        },
+        {
+          "index": 4,
+          "raw": "人ひと が 多おおくて、にぎやかだった。",
+          "japanese": "人が 多くて、にぎやかだった。",
+          "furigana": "ひとが おおくて、にぎやかだった。",
+          "romaji": "Hito ga ookute, nigiyaka datta.",
+          "vietnamese": "Rất đông người nên không khí rất nhộn nhịp."
+        },
+        {
+          "index": 5,
+          "raw": "きものの 女おんな の 人ひと が たくさん いた。",
+          "japanese": "着物の 女の 人が たくさん いた。",
+          "furigana": "きものの おんなの ひとが たくさん いた。",
+          "romaji": "Kimono no onna no hito ga takusan ita.",
+          "vietnamese": "Có rất nhiều phụ nữ mặc kimono."
+        },
+        {
+          "index": 6,
+          "raw": "とても きれいだった。",
+          "japanese": "とても きれいだった。",
+          "furigana": "とても きれいだった。",
+          "romaji": "Totemo kirei datta.",
+          "vietnamese": "Trông họ rất đẹp."
+        },
+        {
+          "index": 7,
+          "raw": "たなかくんと たかはしくんは じんじゃの 前まえ の はこに お金おかね を 入いれた。",
+          "japanese": "田中君と 高橋君は 神社の 前の 箱に お金を 入れた。",
+          "furigana": "たなかくんと たかはしくんは じんじゃの まえの はこに おかねを いれた。",
+          "romaji": "Tanaka-kun to Takahashi-kun wa jinja no mae no hako ni okane o ireta.",
+          "vietnamese": "Tanaka và Takahashi đã bỏ tiền vào chiếc hòm trước đền."
+        },
+        {
+          "index": 8,
+          "raw": "それから みんなで しゃしんを とったり、おみやげを 買かったり した。",
+          "japanese": "それから みんなで 写真を 撮ったり、お土産を 買ったり した。",
+          "furigana": "それから みんなで しゃしんを とったり、おみやげを かったり した。",
+          "romaji": "Sorekara minna de shashin o tottari, omiyage o kattari shita.",
+          "vietnamese": "Sau đó mọi người cùng chụp ảnh và mua quà lưu niệm."
+        },
+        {
+          "index": 9,
+          "raw": "てんきは あまり よくなかったが、あたたかかった。",
+          "japanese": "天気は あまり よくなかったが、暖かかった。",
+          "furigana": "てんきは あまり よくなかったが、あたたかかった。",
+          "romaji": "Tenki wa amari yokunakatta ga, atatakakatta.",
+          "vietnamese": "Thời tiết không được đẹp lắm nhưng vẫn ấm."
+        },
+        {
+          "index": 10,
+          "raw": "うちへ 帰かえってから、アメリカの かぞくに 電話でんわ を かけた。",
+          "japanese": "家へ 帰ってから、アメリカの 家族に 電話を かけた。",
+          "furigana": "うちへ かえってから、アメリカの かぞくに でんわを かけた。",
+          "romaji": "Uchi e kaette kara, Amerika no kazoku ni denwa o kaketa.",
+          "vietnamese": "Sau khi về nhà, tôi đã gọi điện cho gia đình ở Mỹ."
+        },
+        {
+          "index": 11,
+          "raw": "みんな げんきだった。",
+          "japanese": "みんな 元気だった。",
+          "furigana": "みんな げんきだった。",
+          "romaji": "Minna genki datta.",
+          "vietnamese": "Mọi người đều khỏe."
+        }
+      ]
+    },
+    {
+      "id": "lesson-19",
+      "code": "Lesson 19",
+      "lessonNum": 19,
+      "title": "としょかんと カフェの 一日",
+      "topic": "Học tập",
+      "description": "Một ngày đọc sách, đi cà phê và chuẩn bị cho kỳ thi. 14 câu đọc",
+      "wordCount": 245,
+      "sentenceCount": 14,
+      "contentJapanese": "私は 大学の 学生です。 毎週、友達と 図書館へ 行きます。 図書館で 本を 読みます。 私は 読書が 好きですから、時間が ある とき、よく 行きます。 先週、新しい 本を 三冊 読みました。 その 本は とても 面白かったです。 図書館の あとで、友達と カフェへ 行きました。 コーヒーと ケーキを 食べました。 カフェの 音楽は とても 静かで、いい 時間でした。 そして、スーパーで 買い物も しました。 飲み物と パンを 買いました。 来週は テストが ありますから、今週は 毎日 勉強します。 でも、少し 休みも 大切だと 思います。 だから、アニメを 見て、リラックスします。",
+      "contentFurigana": "わたしは だいがくの がくせいです。 まいしゅう、ともだちと としょかんへ いきます。 としょかんで ほんを よみます。 わたしは どくしょが すきですから、じかんが ある とき、よく いきます。 せんしゅう、あたらしい ほんを さんさつ よみました。 その ほんは とても おもしろかったです。 としょかんの あとで、ともだちと カフェへ いきました。 コーヒーと ケーキを たべました。 カフェの おんがくは とても しずかで、いい じかんでした。 そして、スーパーで かいものも しました。 のみものと パンを かいました。 らいしゅうは テストが ありますから、こんしゅうは まいにち べんきょうします。 でも、すこし やすみも たいせつだと おもいます。 だから、アニメを みて、リラックスします。",
+      "contentVietnamese": "Tôi là sinh viên đại học. Mỗi tuần tôi đi thư viện cùng bạn. Tôi đọc sách ở thư viện. Vì tôi thích đọc sách nên khi có thời gian tôi thường đến đó. Tuần trước tôi đã đọc ba quyển sách mới. Những quyển sách đó rất thú vị. Sau thư viện, tôi đã đi quán cà phê với bạn. Chúng tôi đã dùng cà phê và bánh ngọt. Nhạc ở quán rất nhẹ nhàng nên đó là khoảng thời gian rất dễ chịu. Sau đó chúng tôi cũng đi mua sắm ở siêu thị. Tôi đã mua đồ uống và bánh mì. Vì tuần sau có bài kiểm tra nên tuần này tôi học mỗi ngày. Nhưng tôi nghĩ nghỉ ngơi một chút cũng rất quan trọng. Vì vậy tôi xem anime để thư giãn.",
+      "targetKanji": [
+        {
+          "character": "私",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "大学",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "学生",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "毎週",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "友達",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "図書館",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "行",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "本",
+          "reading": "",
+          "hanViet": ""
+        }
+      ],
+      "targetKatakana": [
+        "カフェ",
+        "コーヒー",
+        "ケーキ",
+        "スーパー",
+        "パン",
+        "テスト",
+        "アニメ",
+        "リラックス"
+      ],
+      "prepTimeSeconds": 20,
+      "readingTimeSeconds": 50,
+      "sentences": [
+        {
+          "index": 1,
+          "raw": "わたしは だいがくの 学生がくせい です。",
+          "japanese": "私は 大学の 学生です。",
+          "furigana": "わたしは だいがくの がくせいです。",
+          "romaji": "Watashi wa daigaku no gakusei desu.",
+          "vietnamese": "Tôi là sinh viên đại học."
+        },
+        {
+          "index": 2,
+          "raw": "毎週まいしゅう、ともだちと としょかんへ 行いきます。",
+          "japanese": "毎週、友達と 図書館へ 行きます。",
+          "furigana": "まいしゅう、ともだちと としょかんへ いきます。",
+          "romaji": "Maishuu, tomodachi to toshokan e ikimasu.",
+          "vietnamese": "Mỗi tuần tôi đi thư viện cùng bạn."
+        },
+        {
+          "index": 3,
+          "raw": "としょかんで 本ほん を 読よみます。",
+          "japanese": "図書館で 本を 読みます。",
+          "furigana": "としょかんで ほんを よみます。",
+          "romaji": "Toshokan de hon o yomimasu.",
+          "vietnamese": "Tôi đọc sách ở thư viện."
+        },
+        {
+          "index": 4,
+          "raw": "わたしは どくしょが すきですから、時間じかん が ある とき、よく 行いきます。",
+          "japanese": "私は 読書が 好きですから、時間が ある とき、よく 行きます。",
+          "furigana": "わたしは どくしょが すきですから、じかんが ある とき、よく いきます。",
+          "romaji": "Watashi wa dokusho ga suki desu kara, jikan ga aru toki, yoku ikimasu.",
+          "vietnamese": "Vì tôi thích đọc sách nên khi có thời gian tôi thường đến đó."
+        },
+        {
+          "index": 5,
+          "raw": "先週せんしゅう、あたらしい 本ほん を さんさつ 読よみました。",
+          "japanese": "先週、新しい 本を 三冊 読みました。",
+          "furigana": "せんしゅう、あたらしい ほんを さんさつ よみました。",
+          "romaji": "Senshuu, atarashii hon o sansatsu yomimashita.",
+          "vietnamese": "Tuần trước tôi đã đọc ba quyển sách mới."
+        },
+        {
+          "index": 6,
+          "raw": "その 本ほん は とても おもしろかったです。",
+          "japanese": "その 本は とても 面白かったです。",
+          "furigana": "その ほんは とても おもしろかったです。",
+          "romaji": "Sono hon wa totemo omoshirokatta desu.",
+          "vietnamese": "Những quyển sách đó rất thú vị."
+        },
+        {
+          "index": 7,
+          "raw": "としょかんの あとで、ともだちと カフェへ 行いきました。",
+          "japanese": "図書館の あとで、友達と カフェへ 行きました。",
+          "furigana": "としょかんの あとで、ともだちと カフェへ いきました。",
+          "romaji": "Toshokan no ato de, tomodachi to kafe e ikimashita.",
+          "vietnamese": "Sau thư viện, tôi đã đi quán cà phê với bạn."
+        },
+        {
+          "index": 8,
+          "raw": "コーヒーと ケーキを 食たべました。",
+          "japanese": "コーヒーと ケーキを 食べました。",
+          "furigana": "コーヒーと ケーキを たべました。",
+          "romaji": "Koohii to keeki o tabemashita.",
+          "vietnamese": "Chúng tôi đã dùng cà phê và bánh ngọt."
+        },
+        {
+          "index": 9,
+          "raw": "カフェの おんがくは とても しずかで、いい じかんでした。",
+          "japanese": "カフェの 音楽は とても 静かで、いい 時間でした。",
+          "furigana": "カフェの おんがくは とても しずかで、いい じかんでした。",
+          "romaji": "Kafe no ongaku wa totemo shizuka de, ii jikan deshita.",
+          "vietnamese": "Nhạc ở quán rất nhẹ nhàng nên đó là khoảng thời gian rất dễ chịu."
+        },
+        {
+          "index": 10,
+          "raw": "そして、スーパーで 買い物かいもの も しました。",
+          "japanese": "そして、スーパーで 買い物も しました。",
+          "furigana": "そして、スーパーで かいものも しました。",
+          "romaji": "Soshite, suupaa de kaimono mo shimashita.",
+          "vietnamese": "Sau đó chúng tôi cũng đi mua sắm ở siêu thị."
+        },
+        {
+          "index": 11,
+          "raw": "のみものと パンを 買かいました。",
+          "japanese": "飲み物と パンを 買いました。",
+          "furigana": "のみものと パンを かいました。",
+          "romaji": "Nomimono to pan o kaimashita.",
+          "vietnamese": "Tôi đã mua đồ uống và bánh mì."
+        },
+        {
+          "index": 12,
+          "raw": "らいしゅうは テストが ありますから、こんしゅうは 毎日まいにち べんきょうします。",
+          "japanese": "来週は テストが ありますから、今週は 毎日 勉強します。",
+          "furigana": "らいしゅうは テストが ありますから、こんしゅうは まいにち べんきょうします。",
+          "romaji": "Raishuu wa tesuto ga arimasu kara, konshuu wa mainichi benkyou shimasu.",
+          "vietnamese": "Vì tuần sau có bài kiểm tra nên tuần này tôi học mỗi ngày."
+        },
+        {
+          "index": 13,
+          "raw": "でも、すこし 休やすみも 大切たいせつ だと おもいます。",
+          "japanese": "でも、少し 休みも 大切だと 思います。",
+          "furigana": "でも、すこし やすみも たいせつだと おもいます。",
+          "romaji": "Demo, sukoshi yasumi mo taisetsu da to omoimasu.",
+          "vietnamese": "Nhưng tôi nghĩ nghỉ ngơi một chút cũng rất quan trọng."
+        },
+        {
+          "index": 14,
+          "raw": "だから、アニメを 見みて、リラックスします。",
+          "japanese": "だから、アニメを 見て、リラックスします。",
+          "furigana": "だから、アニメを みて、リラックスします。",
+          "romaji": "Dakara, anime o mite, rirakkusu shimasu.",
+          "vietnamese": "Vì vậy tôi xem anime để thư giãn."
+        }
+      ]
+    },
+    {
+      "id": "lesson-20",
+      "code": "Lesson 20",
+      "lessonNum": 20,
+      "title": "にほんごの じゅぎょう",
+      "topic": "Trường học",
+      "description": "Học tiếng Nhật, xem phim và đi ăn sau giờ học. 15 câu đọc",
+      "wordCount": 231,
+      "sentenceCount": 15,
+      "contentJapanese": "私は 日本語の 学生です。 今日は 学校へ 行きます。 学校で 先生と 話します。 日本語の 授業は とても 楽しいです。 昨日、友達と 映画を 見ました。 練習も しました。 その 映画は 少し 難しかったですが、面白かったです。 授業の 後で、友達と レストランへ 行きました。 ハンバーガーと ジュースを 飲みました。 レストランの 料理は 安くて おいしかったです。 そして、家に 帰りました。 家で 音楽を 聞きました。 明日は 休みの 日ですから、友達と 遊びます。 でも、少し 勉強も します。 日本語は まだ 難しいですが、毎日 頑張ります。",
+      "contentFurigana": "わたしは にほんごの がくせいです。 きょうは がっこうへ いきます。 がっこうで せんせいと はなします。 にほんごの じゅぎょうは とても たのしいです。 きのう、ともだちと えいがを みました。 れんしゅうも しました。 その えいがは すこし むずかしかったですが、おもしろかったです。 じゅぎょうの あとで、ともだちと レストランへ いきました。 ハンバーガーと ジュースを のみました。 レストランの りょうりは やすくて おいしかったです。 そして、いえに かえりました。 いえで おんがくを ききました。 あしたは やすみの ひですから、ともだちと あそびます。 でも、すこし べんきょうも します。 にほんごは まだ むずかしいですが、まいにち がんばります。",
+      "contentVietnamese": "Tôi là học viên tiếng Nhật. Hôm nay tôi đi đến trường. Ở trường tôi nói chuyện với giáo viên. Giờ học tiếng Nhật rất vui. Hôm qua tôi đã xem phim với bạn. Tôi cũng đã luyện tập. Bộ phim đó hơi khó nhưng rất thú vị. Sau giờ học, tôi đã đi nhà hàng với bạn. Tôi đã dùng hamburger và nước trái cây. Đồ ăn ở nhà hàng vừa rẻ vừa ngon. Sau đó tôi về nhà. Ở nhà tôi nghe nhạc. Vì ngày mai là ngày nghỉ nên tôi sẽ đi chơi với bạn. Nhưng tôi cũng sẽ học một chút. Tiếng Nhật vẫn còn khó nhưng tôi cố gắng mỗi ngày.",
+      "targetKanji": [
+        {
+          "character": "私",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "日本語",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "学生",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "今日",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "学校",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "行",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "先生",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "話",
+          "reading": "",
+          "hanViet": ""
+        }
+      ],
+      "targetKatakana": [
+        "レストラン",
+        "ハンバーガー",
+        "ジュース"
+      ],
+      "prepTimeSeconds": 20,
+      "readingTimeSeconds": 50,
+      "sentences": [
+        {
+          "index": 1,
+          "raw": "わたしは にほんごの がくせいです。",
+          "japanese": "私は 日本語の 学生です。",
+          "furigana": "わたしは にほんごの がくせいです。",
+          "romaji": "Watashi wa Nihongo no gakusei desu.",
+          "vietnamese": "Tôi là học viên tiếng Nhật."
+        },
+        {
+          "index": 2,
+          "raw": "きょうは 学校がっこう へ 行いきます。",
+          "japanese": "今日は 学校へ 行きます。",
+          "furigana": "きょうは がっこうへ いきます。",
+          "romaji": "Kyou wa gakkou e ikimasu.",
+          "vietnamese": "Hôm nay tôi đi đến trường."
+        },
+        {
+          "index": 3,
+          "raw": "学校がっこう で 先生せんせい と はなします。",
+          "japanese": "学校で 先生と 話します。",
+          "furigana": "がっこうで せんせいと はなします。",
+          "romaji": "Gakkou de sensei to hanashimasu.",
+          "vietnamese": "Ở trường tôi nói chuyện với giáo viên."
+        },
+        {
+          "index": 4,
+          "raw": "にほんごの じゅぎょうは とても たのしいです。",
+          "japanese": "日本語の 授業は とても 楽しいです。",
+          "furigana": "にほんごの じゅぎょうは とても たのしいです。",
+          "romaji": "Nihongo no jugyou wa totemo tanoshii desu.",
+          "vietnamese": "Giờ học tiếng Nhật rất vui."
+        },
+        {
+          "index": 5,
+          "raw": "きのう、ともだちと えいがを 見みました。",
+          "japanese": "昨日、友達と 映画を 見ました。",
+          "furigana": "きのう、ともだちと えいがを みました。",
+          "romaji": "Kinou, tomodachi to eiga o mimashita.",
+          "vietnamese": "Hôm qua tôi đã xem phim với bạn."
+        },
+        {
+          "index": 6,
+          "raw": "れんしゅうも しました。",
+          "japanese": "練習も しました。",
+          "furigana": "れんしゅうも しました。",
+          "romaji": "Renshuu mo shimashita.",
+          "vietnamese": "Tôi cũng đã luyện tập."
+        },
+        {
+          "index": 7,
+          "raw": "その えいがは すこし むずかしかったですが、おもしろかったです。",
+          "japanese": "その 映画は 少し 難しかったですが、面白かったです。",
+          "furigana": "その えいがは すこし むずかしかったですが、おもしろかったです。",
+          "romaji": "Sono eiga wa sukoshi muzukashikatta desu ga, omoshirokatta desu.",
+          "vietnamese": "Bộ phim đó hơi khó nhưng rất thú vị."
+        },
+        {
+          "index": 8,
+          "raw": "じゅぎょうの 後あと で、ともだちと レストランへ 行いきました。",
+          "japanese": "授業の 後で、友達と レストランへ 行きました。",
+          "furigana": "じゅぎょうの あとで、ともだちと レストランへ いきました。",
+          "romaji": "Jugyou no ato de, tomodachi to resutoran e ikimashita.",
+          "vietnamese": "Sau giờ học, tôi đã đi nhà hàng với bạn."
+        },
+        {
+          "index": 9,
+          "raw": "ハンバーガーと ジュースを 飲のみました。",
+          "japanese": "ハンバーガーと ジュースを 飲みました。",
+          "furigana": "ハンバーガーと ジュースを のみました。",
+          "romaji": "Hanbaagaa to juusu o nomimashita.",
+          "vietnamese": "Tôi đã dùng hamburger và nước trái cây."
+        },
+        {
+          "index": 10,
+          "raw": "レストランの りょうりは やすくて おいしかったです。",
+          "japanese": "レストランの 料理は 安くて おいしかったです。",
+          "furigana": "レストランの りょうりは やすくて おいしかったです。",
+          "romaji": "Resutoran no ryouri wa yasukute oishikatta desu.",
+          "vietnamese": "Đồ ăn ở nhà hàng vừa rẻ vừa ngon."
+        },
+        {
+          "index": 11,
+          "raw": "そして、いえに 帰かえりました。",
+          "japanese": "そして、家に 帰りました。",
+          "furigana": "そして、いえに かえりました。",
+          "romaji": "Soshite, ie ni kaerimashita.",
+          "vietnamese": "Sau đó tôi về nhà."
+        },
+        {
+          "index": 12,
+          "raw": "いえで おんがくを ききました。",
+          "japanese": "家で 音楽を 聞きました。",
+          "furigana": "いえで おんがくを ききました。",
+          "romaji": "Ie de ongaku o kikimashita.",
+          "vietnamese": "Ở nhà tôi nghe nhạc."
+        },
+        {
+          "index": 13,
+          "raw": "あしたは やすみの 日ひ ですから、ともだちと あそびます。",
+          "japanese": "明日は 休みの 日ですから、友達と 遊びます。",
+          "furigana": "あしたは やすみの ひですから、ともだちと あそびます。",
+          "romaji": "Ashita wa yasumi no hi desu kara, tomodachi to asobimasu.",
+          "vietnamese": "Vì ngày mai là ngày nghỉ nên tôi sẽ đi chơi với bạn."
+        },
+        {
+          "index": 14,
+          "raw": "でも、すこし べんきょうも します。",
+          "japanese": "でも、少し 勉強も します。",
+          "furigana": "でも、すこし べんきょうも します。",
+          "romaji": "Demo, sukoshi benkyou mo shimasu.",
+          "vietnamese": "Nhưng tôi cũng sẽ học một chút."
+        },
+        {
+          "index": 15,
+          "raw": "にほんごは まだ むずかしいですが、毎日まいにち がんばります。",
+          "japanese": "日本語は まだ 難しいですが、毎日 頑張ります。",
+          "furigana": "にほんごは まだ むずかしいですが、まいにち がんばります。",
+          "romaji": "Nihongo wa mada muzukashii desu ga, mainichi ganbarimasu.",
+          "vietnamese": "Tiếng Nhật vẫn còn khó nhưng tôi cố gắng mỗi ngày."
+        }
+      ]
+    },
+    {
+      "id": "lesson-21",
+      "code": "Lesson 21",
+      "lessonNum": 21,
+      "title": "しごとの あとの 時間",
+      "topic": "Công việc",
+      "description": "Một ngày làm việc với combini, sách và nghỉ ngơi buổi tối. 10 câu đọc",
+      "wordCount": 136,
+      "sentenceCount": 10,
+      "contentJapanese": "私は 会社で 働きます。 今日、友達と 会います。 仕事の あとで、本を 読みます。 まだ 下手ですが、毎日 練習しています。 夕方、コンビニへ 行きました。 パンと ミルクを 買いました。 コンビニは 便利で、よく 行きます。 夜、家に 帰りました。 テレビを 見て、少し 休みました。 疲れましたが、いい 一日でした。",
+      "contentFurigana": "わたしは かいしゃで はたらきます。 きょう、ともだちと あいます。 しごとの あとで、ほんを よみます。 まだ へたですが、まいにち れんしゅうしています。 ゆうがた、コンビニへ いきました。 パンと ミルクを かいました。 コンビニは べんりで、よく いきます。 よる、いえに かえりました。 テレビを みて、すこし やすみました。 つかれましたが、いい いちにちでした。",
+      "contentVietnamese": "Tôi làm việc ở công ty. Hôm nay tôi gặp bạn. Sau giờ làm tôi sẽ đọc sách. Tôi vẫn còn chưa giỏi nhưng ngày nào cũng luyện tập. Chiều tối tôi đã đi combini. Tôi đã mua bánh mì và sữa. Combini rất tiện nên tôi thường đến đó. Buổi tối tôi đã về nhà. Tôi xem tivi và nghỉ ngơi một chút. Dù mệt nhưng đó là một ngày tốt đẹp.",
+      "targetKanji": [
+        {
+          "character": "私",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "会社",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "働",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "今日",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "友達",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "会",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "仕事",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "本",
+          "reading": "",
+          "hanViet": ""
+        }
+      ],
+      "targetKatakana": [
+        "コンビニ",
+        "パン",
+        "ミルク",
+        "テレビ"
+      ],
+      "prepTimeSeconds": 20,
+      "readingTimeSeconds": 50,
+      "sentences": [
+        {
+          "index": 1,
+          "raw": "わたしは 会社かいしゃ で はたらきます。",
+          "japanese": "私は 会社で 働きます。",
+          "furigana": "わたしは かいしゃで はたらきます。",
+          "romaji": "Watashi wa kaisha de hatarakimasu.",
+          "vietnamese": "Tôi làm việc ở công ty."
+        },
+        {
+          "index": 2,
+          "raw": "きょう、ともだちと 会あいます。",
+          "japanese": "今日、友達と 会います。",
+          "furigana": "きょう、ともだちと あいます。",
+          "romaji": "Kyou, tomodachi to aimasu.",
+          "vietnamese": "Hôm nay tôi gặp bạn."
+        },
+        {
+          "index": 3,
+          "raw": "しごとの あとで、本ほん を 読よみます。",
+          "japanese": "仕事の あとで、本を 読みます。",
+          "furigana": "しごとの あとで、ほんを よみます。",
+          "romaji": "Shigoto no ato de, hon o yomimasu.",
+          "vietnamese": "Sau giờ làm tôi sẽ đọc sách."
+        },
+        {
+          "index": 4,
+          "raw": "まだ へたですが、毎日まいにち れんしゅうしています。",
+          "japanese": "まだ 下手ですが、毎日 練習しています。",
+          "furigana": "まだ へたですが、まいにち れんしゅうしています。",
+          "romaji": "Mada heta desu ga, mainichi renshuu shite imasu.",
+          "vietnamese": "Tôi vẫn còn chưa giỏi nhưng ngày nào cũng luyện tập."
+        },
+        {
+          "index": 5,
+          "raw": "ゆうがた、コンビニへ 行いきました。",
+          "japanese": "夕方、コンビニへ 行きました。",
+          "furigana": "ゆうがた、コンビニへ いきました。",
+          "romaji": "Yuugata, konbini e ikimashita.",
+          "vietnamese": "Chiều tối tôi đã đi combini."
+        },
+        {
+          "index": 6,
+          "raw": "パンと ミルクを 買かいました。",
+          "japanese": "パンと ミルクを 買いました。",
+          "furigana": "パンと ミルクを かいました。",
+          "romaji": "Pan to miruku o kaimashita.",
+          "vietnamese": "Tôi đã mua bánh mì và sữa."
+        },
+        {
+          "index": 7,
+          "raw": "コンビニは べんりで、よく 行いきます。",
+          "japanese": "コンビニは 便利で、よく 行きます。",
+          "furigana": "コンビニは べんりで、よく いきます。",
+          "romaji": "Konbini wa benri de, yoku ikimasu.",
+          "vietnamese": "Combini rất tiện nên tôi thường đến đó."
+        },
+        {
+          "index": 8,
+          "raw": "よる、いえに 帰かえりました。",
+          "japanese": "夜、家に 帰りました。",
+          "furigana": "よる、いえに かえりました。",
+          "romaji": "Yoru, ie ni kaerimashita.",
+          "vietnamese": "Buổi tối tôi đã về nhà."
+        },
+        {
+          "index": 9,
+          "raw": "テレビを 見みて、すこし 休やすみました。",
+          "japanese": "テレビを 見て、少し 休みました。",
+          "furigana": "テレビを みて、すこし やすみました。",
+          "romaji": "Terebi o mite, sukoshi yasumimashita.",
+          "vietnamese": "Tôi xem tivi và nghỉ ngơi một chút."
+        },
+        {
+          "index": 10,
+          "raw": "つかれましたが、いい いちにちでした。",
+          "japanese": "疲れましたが、いい 一日でした。",
+          "furigana": "つかれましたが、いい いちにちでした。",
+          "romaji": "Tsukaremashita ga, ii ichinichi deshita.",
+          "vietnamese": "Dù mệt nhưng đó là một ngày tốt đẹp."
+        }
+      ]
+    },
+    {
+      "id": "lesson-22",
+      "code": "Lesson 22",
+      "lessonNum": 22,
+      "title": "大学と カラオケ",
+      "topic": "Đại học",
+      "description": "Học ở đại học, đi mua áo và hát karaoke với bạn. 10 câu đọc",
+      "wordCount": 160,
+      "sentenceCount": 10,
+      "contentJapanese": "私は 大学で 勉強しています。 大学は とても 大きいです。 友達と 日本語で 話します。 毎日 ノートに 言葉を 書いて、練習を しています。 今日、友達が 家に 来ました。 一緒に 勉強して、分からない ところを 教えました。 とても 楽しかったです。 その あと、デパートへ 行きました。 シャツを 見て、一枚 買いました。 夜は カラオケで 歌って、いい 時間を 過ごしました。",
+      "contentFurigana": "わたしは だいがくで べんきょうしています。 だいがくは とても おおきいです。 ともだちと にほんごで はなします。 まいにち ノートに ことばを かいて、れんしゅうを しています。 きょう、ともだちが うちに きました。 いっしょに べんきょうして、わからない ところを おしえました。 とても たのしかったです。 その あと、デパートへ いきました。 シャツを みて、いちまい かいました。 よるは カラオケで うたって、いい じかんを すごしました。",
+      "contentVietnamese": "Tôi đang học ở đại học. Trường đại học rất lớn. Tôi nói chuyện với bạn bằng tiếng Nhật. Mỗi ngày tôi viết từ vựng vào vở để luyện tập. Hôm nay bạn tôi đã đến nhà. Chúng tôi cùng học và giải thích những chỗ chưa hiểu. Rất vui. Sau đó chúng tôi đã đi cửa hàng bách hóa. Tôi xem áo sơ mi và mua một chiếc. Buổi tối chúng tôi hát karaoke và trải qua khoảng thời gian rất vui.",
+      "targetKanji": [
+        {
+          "character": "私",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "大学",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "勉強",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "大",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "友達",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "日本語",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "話",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "毎日",
+          "reading": "",
+          "hanViet": ""
+        }
+      ],
+      "targetKatakana": [
+        "ノート",
+        "デパート",
+        "シャツ",
+        "カラオケ"
+      ],
+      "prepTimeSeconds": 20,
+      "readingTimeSeconds": 50,
+      "sentences": [
+        {
+          "index": 1,
+          "raw": "わたしは 大学だいがく で べんきょうしています。",
+          "japanese": "私は 大学で 勉強しています。",
+          "furigana": "わたしは だいがくで べんきょうしています。",
+          "romaji": "Watashi wa daigaku de benkyou shite imasu.",
+          "vietnamese": "Tôi đang học ở đại học."
+        },
+        {
+          "index": 2,
+          "raw": "大学だいがく は とても 大おおきいです。",
+          "japanese": "大学は とても 大きいです。",
+          "furigana": "だいがくは とても おおきいです。",
+          "romaji": "Daigaku wa totemo ookii desu.",
+          "vietnamese": "Trường đại học rất lớn."
+        },
+        {
+          "index": 3,
+          "raw": "ともだちと にほんごで 話はなします。",
+          "japanese": "友達と 日本語で 話します。",
+          "furigana": "ともだちと にほんごで はなします。",
+          "romaji": "Tomodachi to Nihongo de hanashimasu.",
+          "vietnamese": "Tôi nói chuyện với bạn bằng tiếng Nhật."
+        },
+        {
+          "index": 4,
+          "raw": "毎日まいにち ノートに ことばを 書かいて、れんしゅうを しています。",
+          "japanese": "毎日 ノートに 言葉を 書いて、練習を しています。",
+          "furigana": "まいにち ノートに ことばを かいて、れんしゅうを しています。",
+          "romaji": "Mainichi nooto ni kotoba o kaite, renshuu o shite imasu.",
+          "vietnamese": "Mỗi ngày tôi viết từ vựng vào vở để luyện tập."
+        },
+        {
+          "index": 5,
+          "raw": "今日きょう、ともだちが うちに 来きました。",
+          "japanese": "今日、友達が 家に 来ました。",
+          "furigana": "きょう、ともだちが うちに きました。",
+          "romaji": "Kyou, tomodachi ga uchi ni kimashita.",
+          "vietnamese": "Hôm nay bạn tôi đã đến nhà."
+        },
+        {
+          "index": 6,
+          "raw": "いっしょに べんきょうして、わからない ところを おしえました。",
+          "japanese": "一緒に 勉強して、分からない ところを 教えました。",
+          "furigana": "いっしょに べんきょうして、わからない ところを おしえました。",
+          "romaji": "Issho ni benkyou shite, wakaranai tokoro o oshiemashita.",
+          "vietnamese": "Chúng tôi cùng học và giải thích những chỗ chưa hiểu."
+        },
+        {
+          "index": 7,
+          "raw": "とても たのしかったです。",
+          "japanese": "とても 楽しかったです。",
+          "furigana": "とても たのしかったです。",
+          "romaji": "Totemo tanoshikatta desu.",
+          "vietnamese": "Rất vui."
+        },
+        {
+          "index": 8,
+          "raw": "その あと、デパートへ 行いきました。",
+          "japanese": "その あと、デパートへ 行きました。",
+          "furigana": "その あと、デパートへ いきました。",
+          "romaji": "Sono ato, depaato e ikimashita.",
+          "vietnamese": "Sau đó chúng tôi đã đi cửa hàng bách hóa."
+        },
+        {
+          "index": 9,
+          "raw": "シャツを 見みて、いちまい 買かいました。",
+          "japanese": "シャツを 見て、一枚 買いました。",
+          "furigana": "シャツを みて、いちまい かいました。",
+          "romaji": "Shatsu o mite, ichimai kaimashita.",
+          "vietnamese": "Tôi xem áo sơ mi và mua một chiếc."
+        },
+        {
+          "index": 10,
+          "raw": "よるは カラオケで うたって、いい じかんを すごしました。",
+          "japanese": "夜は カラオケで 歌って、いい 時間を 過ごしました。",
+          "furigana": "よるは カラオケで うたって、いい じかんを すごしました。",
+          "romaji": "Yoru wa karaoke de utatte, ii jikan o sugoshimashita.",
+          "vietnamese": "Buổi tối chúng tôi hát karaoke và trải qua khoảng thời gian rất vui."
+        }
+      ]
+    },
+    {
+      "id": "lesson-23",
+      "code": "Lesson 23",
+      "lessonNum": 23,
+      "title": "うちで 料理",
+      "topic": "Ẩm thực",
+      "description": "Nấu ăn ở nhà rồi ăn cùng bạn bè. 8 câu đọc",
+      "wordCount": 136,
+      "sentenceCount": 8,
+      "contentJapanese": "私は 家で ごはんを 作ります。 今日は 食べ物を たくさん 作りました。 野菜と 肉を 使って、簡単な 料理を しました。 友達と 一緒に 食べました。 とても おいしかったです。 あとで、飲み物を 飲みながら 色々な 話を しました。 スーパーで チョコを 買って、少し 食べました。 ゆっくり 休む 時間も 大切だと 思います。",
+      "contentFurigana": "わたしは いえで ごはんを つくります。 きょうは たべものを たくさん つくりました。 やさいと にくを つかって、かんたんな りょうりを しました。 ともだちと いっしょに たべました。 とても おいしかったです。 あとで、のみものを のみながら いろいろな はなしを しました。 スーパーで チョコを かって、すこし たべました。 ゆっくり やすむ じかんも たいせつだと おもいます。",
+      "contentVietnamese": "Tôi nấu cơm ở nhà. Hôm nay tôi đã làm rất nhiều món ăn. Tôi dùng rau và thịt để nấu những món đơn giản. Tôi đã ăn cùng bạn. Món ăn rất ngon. Sau đó chúng tôi vừa uống nước vừa trò chuyện đủ thứ. Tôi mua sô-cô-la ở siêu thị rồi ăn một ít. Tôi nghĩ thời gian nghỉ ngơi thong thả cũng rất quan trọng.",
+      "targetKanji": [
+        {
+          "character": "私",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "家",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "作",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "今日",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "食",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "物",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "野菜",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "肉",
+          "reading": "",
+          "hanViet": ""
+        }
+      ],
+      "targetKatakana": [
+        "スーパー",
+        "チョコ"
+      ],
+      "prepTimeSeconds": 20,
+      "readingTimeSeconds": 50,
+      "sentences": [
+        {
+          "index": 1,
+          "raw": "わたしは 家いえ で ごはんを つくります。",
+          "japanese": "私は 家で ごはんを 作ります。",
+          "furigana": "わたしは いえで ごはんを つくります。",
+          "romaji": "Watashi wa ie de gohan o tsukurimasu.",
+          "vietnamese": "Tôi nấu cơm ở nhà."
+        },
+        {
+          "index": 2,
+          "raw": "きょうは 食たべ物もの を たくさん つくりました。",
+          "japanese": "今日は 食べ物を たくさん 作りました。",
+          "furigana": "きょうは たべものを たくさん つくりました。",
+          "romaji": "Kyou wa tabemono o takusan tsukurimashita.",
+          "vietnamese": "Hôm nay tôi đã làm rất nhiều món ăn."
+        },
+        {
+          "index": 3,
+          "raw": "やさいと にくを つかって、かんたんな りょうりを しました。",
+          "japanese": "野菜と 肉を 使って、簡単な 料理を しました。",
+          "furigana": "やさいと にくを つかって、かんたんな りょうりを しました。",
+          "romaji": "Yasai to niku o tsukatte, kantan na ryouri o shimashita.",
+          "vietnamese": "Tôi dùng rau và thịt để nấu những món đơn giản."
+        },
+        {
+          "index": 4,
+          "raw": "ともだちと いっしょに 食たべました。",
+          "japanese": "友達と 一緒に 食べました。",
+          "furigana": "ともだちと いっしょに たべました。",
+          "romaji": "Tomodachi to issho ni tabemashita.",
+          "vietnamese": "Tôi đã ăn cùng bạn."
+        },
+        {
+          "index": 5,
+          "raw": "とても おいしかったです。",
+          "japanese": "とても おいしかったです。",
+          "furigana": "とても おいしかったです。",
+          "romaji": "Totemo oishikatta desu.",
+          "vietnamese": "Món ăn rất ngon."
+        },
+        {
+          "index": 6,
+          "raw": "あとで、飲み物のみもの を 飲のみながら いろいろな はなしを しました。",
+          "japanese": "あとで、飲み物を 飲みながら 色々な 話を しました。",
+          "furigana": "あとで、のみものを のみながら いろいろな はなしを しました。",
+          "romaji": "Ato de, nomimono o nominagara iroiro na hanashi o shimashita.",
+          "vietnamese": "Sau đó chúng tôi vừa uống nước vừa trò chuyện đủ thứ."
+        },
+        {
+          "index": 7,
+          "raw": "スーパーで チョコを 買かって、すこし 食たべました。",
+          "japanese": "スーパーで チョコを 買って、少し 食べました。",
+          "furigana": "スーパーで チョコを かって、すこし たべました。",
+          "romaji": "Suupaa de choko o katte, sukoshi tabemashita.",
+          "vietnamese": "Tôi mua sô-cô-la ở siêu thị rồi ăn một ít."
+        },
+        {
+          "index": 8,
+          "raw": "ゆっくり やすむ じかんも 大切たいせつ だと おもいます。",
+          "japanese": "ゆっくり 休む 時間も 大切だと 思います。",
+          "furigana": "ゆっくり やすむ じかんも たいせつだと おもいます。",
+          "romaji": "Yukkuri yasumu jikan mo taisetsu da to omoimasu.",
+          "vietnamese": "Tôi nghĩ thời gian nghỉ ngơi thong thả cũng rất quan trọng."
+        }
+      ]
+    },
+    {
+      "id": "lesson-24",
+      "code": "Lesson 24",
+      "lessonNum": 24,
+      "title": "にほんへ 行きたいです",
+      "topic": "Kế hoạch",
+      "description": "Bận rộn vì bài kiểm tra nhưng vẫn có thời gian đi ăn với bạn. 8 câu đọc",
+      "wordCount": 147,
+      "sentenceCount": 8,
+      "contentJapanese": "私は 来年 日本へ 行きたいです。 来月、テストが ありますから、いま とても 忙しいです。 来週も 勉強の 予定が あります。 今日、友達と 会いました。 一緒に ホテルの レストランへ 行きました。 パスタと サラダを 食べて、楽しい 時間を 過ごしました。 ホテルは とても きれいで、静かでした。 少し 高いですが、また 行きたいと 思います。",
+      "contentFurigana": "わたしは らいねん にほんへ いきたいです。 らいげつ、テストが ありますから、いま とても いそがしいです。 らいしゅうも べんきょうの よていが あります。 きょう、ともだちと あいました。 いっしょに ホテルの レストランへ いきました。 パスタと サラダを たべて、たのしい じかんを すごしました。 ホテルは とても きれいで、しずかでした。 すこし たかいですが、また いきたいと おもいます。",
+      "contentVietnamese": "Năm sau tôi muốn đi Nhật Bản. Vì tháng sau có bài kiểm tra nên bây giờ tôi rất bận. Tuần sau tôi cũng có kế hoạch học tập. Hôm nay tôi đã gặp bạn. Chúng tôi đã cùng đi đến nhà hàng trong khách sạn. Chúng tôi ăn pasta và salad rồi trải qua một khoảng thời gian vui vẻ. Khách sạn rất đẹp và yên tĩnh. Dù hơi đắt nhưng tôi vẫn muốn quay lại lần nữa.",
+      "targetKanji": [
+        {
+          "character": "私",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "来年",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "日本",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "行",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "来月",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "忙",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "来週",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "勉強",
+          "reading": "",
+          "hanViet": ""
+        }
+      ],
+      "targetKatakana": [
+        "テスト",
+        "ホテル",
+        "レストラン",
+        "パスタ",
+        "サラダ"
+      ],
+      "prepTimeSeconds": 20,
+      "readingTimeSeconds": 50,
+      "sentences": [
+        {
+          "index": 1,
+          "raw": "わたしは 来年らいねん にほんへ 行いきたいです。",
+          "japanese": "私は 来年 日本へ 行きたいです。",
+          "furigana": "わたしは らいねん にほんへ いきたいです。",
+          "romaji": "Watashi wa rainen Nihon e ikitai desu.",
+          "vietnamese": "Năm sau tôi muốn đi Nhật Bản."
+        },
+        {
+          "index": 2,
+          "raw": "来月らいげつ、テストが ありますから、いま とても いそがしいです。",
+          "japanese": "来月、テストが ありますから、いま とても 忙しいです。",
+          "furigana": "らいげつ、テストが ありますから、いま とても いそがしいです。",
+          "romaji": "Raigetsu, tesuto ga arimasu kara, ima totemo isogashii desu.",
+          "vietnamese": "Vì tháng sau có bài kiểm tra nên bây giờ tôi rất bận."
+        },
+        {
+          "index": 3,
+          "raw": "来週らいしゅう も べんきょうの よていが あります。",
+          "japanese": "来週も 勉強の 予定が あります。",
+          "furigana": "らいしゅうも べんきょうの よていが あります。",
+          "romaji": "Raishuu mo benkyou no yotei ga arimasu.",
+          "vietnamese": "Tuần sau tôi cũng có kế hoạch học tập."
+        },
+        {
+          "index": 4,
+          "raw": "きょう、ともだちと 会あいました。",
+          "japanese": "今日、友達と 会いました。",
+          "furigana": "きょう、ともだちと あいました。",
+          "romaji": "Kyou, tomodachi to aimashita.",
+          "vietnamese": "Hôm nay tôi đã gặp bạn."
+        },
+        {
+          "index": 5,
+          "raw": "いっしょに ホテルの レストランへ 行いきました。",
+          "japanese": "一緒に ホテルの レストランへ 行きました。",
+          "furigana": "いっしょに ホテルの レストランへ いきました。",
+          "romaji": "Issho ni hoteru no resutoran e ikimashita.",
+          "vietnamese": "Chúng tôi đã cùng đi đến nhà hàng trong khách sạn."
+        },
+        {
+          "index": 6,
+          "raw": "パスタと サラダを 食たべて、たのしい じかんを すごしました。",
+          "japanese": "パスタと サラダを 食べて、楽しい 時間を 過ごしました。",
+          "furigana": "パスタと サラダを たべて、たのしい じかんを すごしました。",
+          "romaji": "Pasuta to sarada o tabete, tanoshii jikan o sugoshimashita.",
+          "vietnamese": "Chúng tôi ăn pasta và salad rồi trải qua một khoảng thời gian vui vẻ."
+        },
+        {
+          "index": 7,
+          "raw": "ホテルは とても きれいで、しずかでした。",
+          "japanese": "ホテルは とても きれいで、静かでした。",
+          "furigana": "ホテルは とても きれいで、しずかでした。",
+          "romaji": "Hoteru wa totemo kirei de, shizuka deshita.",
+          "vietnamese": "Khách sạn rất đẹp và yên tĩnh."
+        },
+        {
+          "index": 8,
+          "raw": "すこし たかいですが、また 行いきたいと おもいます。",
+          "japanese": "少し 高いですが、また 行きたいと 思います。",
+          "furigana": "すこし たかいですが、また いきたいと おもいます。",
+          "romaji": "Sukoshi takai desu ga, mata ikitai to omoimasu.",
+          "vietnamese": "Dù hơi đắt nhưng tôi vẫn muốn quay lại lần nữa."
+        }
+      ]
+    },
+    {
+      "id": "lesson-25",
+      "code": "Lesson 25",
+      "lessonNum": 25,
+      "title": "東京へ 行った とき",
+      "topic": "Du lịch",
+      "description": "Một chuyến đi Tokyo với Akihabara, cửa hàng bách hóa và quán cà phê nổi tiếng. 8 câu đọc",
+      "wordCount": 135,
+      "sentenceCount": 8,
+      "contentJapanese": "去年の 3月、東京へ 行きました。 東京は 大きい 町でした。 高い ビルや ホテルが たくさん ありました。 そして、人が 多かったです。 緑は あまり なかったですが、町は とても きれいでした。 秋葉原の デパートで 買い物を しました。 それから、人気の カフェで ごはんを 食べました。 とても おいしかったです。",
+      "contentFurigana": "きょねんの さんがつ、とうきょうへ いきました。 とうきょうは おおきい まちでした。 たかい ビルや ホテルが たくさん ありました。 そして、ひとが おおかったです。 みどりは あまり なかったですが、まちは とても きれいでした。 あきはばらの デパートで かいものを しました。 それから、にんきの カフェで ごはんを たべました。 とても おいしかったです。",
+      "contentVietnamese": "Vào tháng 3 năm ngoái, tôi đã đi Tokyo. Tokyo là một thành phố lớn. Có rất nhiều tòa nhà cao tầng và khách sạn. Hơn nữa còn có rất đông người. Cây xanh không nhiều lắm nhưng thành phố rất sạch đẹp. Tôi đã mua sắm ở cửa hàng bách hóa tại Akihabara. Sau đó tôi ăn ở một quán cà phê nổi tiếng. Món ăn rất ngon.",
+      "targetKanji": [
+        {
+          "character": "去年",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "月",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "東京",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "行",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "大",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "町",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "高",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "人",
+          "reading": "",
+          "hanViet": ""
+        }
+      ],
+      "targetKatakana": [
+        "ビル",
+        "ホテル",
+        "デパート",
+        "カフェ"
+      ],
+      "prepTimeSeconds": 20,
+      "readingTimeSeconds": 50,
+      "sentences": [
+        {
+          "index": 1,
+          "raw": "きょねんの 3月さんがつ、東京とうきょう へ 行いきました。",
+          "japanese": "去年の 3月、東京へ 行きました。",
+          "furigana": "きょねんの さんがつ、とうきょうへ いきました。",
+          "romaji": "Kyonen no sangatsu, Toukyou e ikimashita.",
+          "vietnamese": "Vào tháng 3 năm ngoái, tôi đã đi Tokyo."
+        },
+        {
+          "index": 2,
+          "raw": "東京とうきょう は 大おおきい まちでした。",
+          "japanese": "東京は 大きい 町でした。",
+          "furigana": "とうきょうは おおきい まちでした。",
+          "romaji": "Toukyou wa ookii machi deshita.",
+          "vietnamese": "Tokyo là một thành phố lớn."
+        },
+        {
+          "index": 3,
+          "raw": "たかい ビルや ホテルが たくさん ありました。",
+          "japanese": "高い ビルや ホテルが たくさん ありました。",
+          "furigana": "たかい ビルや ホテルが たくさん ありました。",
+          "romaji": "Takai biru ya hoteru ga takusan arimashita.",
+          "vietnamese": "Có rất nhiều tòa nhà cao tầng và khách sạn."
+        },
+        {
+          "index": 4,
+          "raw": "そして、人ひと が おおかったです。",
+          "japanese": "そして、人が 多かったです。",
+          "furigana": "そして、ひとが おおかったです。",
+          "romaji": "Soshite, hito ga ookatta desu.",
+          "vietnamese": "Hơn nữa còn có rất đông người."
+        },
+        {
+          "index": 5,
+          "raw": "みどりは あまり なかったですが、まちは とても きれいでした。",
+          "japanese": "緑は あまり なかったですが、町は とても きれいでした。",
+          "furigana": "みどりは あまり なかったですが、まちは とても きれいでした。",
+          "romaji": "Midori wa amari nakatta desu ga, machi wa totemo kirei deshita.",
+          "vietnamese": "Cây xanh không nhiều lắm nhưng thành phố rất sạch đẹp."
+        },
+        {
+          "index": 6,
+          "raw": "あきはばらの デパートで 買い物かいもの しました。",
+          "japanese": "秋葉原の デパートで 買い物を しました。",
+          "furigana": "あきはばらの デパートで かいものを しました。",
+          "romaji": "Akihabara no depaato de kaimono o shimashita.",
+          "vietnamese": "Tôi đã mua sắm ở cửa hàng bách hóa tại Akihabara."
+        },
+        {
+          "index": 7,
+          "raw": "それから、にんきの カフェで ごはんを 食たべました。",
+          "japanese": "それから、人気の カフェで ごはんを 食べました。",
+          "furigana": "それから、にんきの カフェで ごはんを たべました。",
+          "romaji": "Sorekara, ninki no kafe de gohan o tabemashita.",
+          "vietnamese": "Sau đó tôi ăn ở một quán cà phê nổi tiếng."
+        },
+        {
+          "index": 8,
+          "raw": "とても おいしかったです。",
+          "japanese": "とても おいしかったです。",
+          "furigana": "とても おいしかったです。",
+          "romaji": "Totemo oishikatta desu.",
+          "vietnamese": "Món ăn rất ngon."
+        }
+      ]
+    },
+    {
+      "id": "lesson-26",
+      "code": "Lesson 26",
+      "lessonNum": 26,
+      "title": "ベトナムの りょこう",
+      "topic": "Du lịch",
+      "description": "Đi Đà Nẵng, thăm chùa nổi tiếng và muốn đến Huế lần sau. 7 câu đọc",
+      "wordCount": 121,
+      "sentenceCount": 7,
+      "contentJapanese": "私は 今年の 9月に ベトナムへ 行きました。 ダナンで 友達に 会いました。 それから、一緒に 有名な お寺へ 行きました。 とても きれいでした。 おいしい 食べ物も たくさん 食べました。 時間が あまり ありませんでしたから、フエへ 行きませんでした。 今度 フエへ 行きたいです。",
+      "contentFurigana": "わたしは ことしの くがつに ベトナムへ いきました。 ダナンで ともだちに あいました。 それから、いっしょに ゆうめいな おてらへ いきました。 とても きれいでした。 おいしい たべものも たくさん たべました。 じかんが あまり ありませんでしたから、フエへ いきませんでした。 こんど フエへ いきたいです。",
+      "contentVietnamese": "Năm nay vào tháng 9 tôi đã đi Việt Nam. Tôi đã gặp bạn ở Đà Nẵng. Sau đó chúng tôi cùng đi đến một ngôi chùa nổi tiếng. Nơi đó rất đẹp. Tôi cũng đã ăn rất nhiều món ngon. Vì không có nhiều thời gian nên tôi đã không đi Huế. Lần tới tôi muốn đến Huế.",
+      "targetKanji": [
+        {
+          "character": "私",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "今年",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "月",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "行",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "友達",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "会",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "一緒",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "有名",
+          "reading": "",
+          "hanViet": ""
+        }
+      ],
+      "targetKatakana": [
+        "ベトナム",
+        "ダナン",
+        "フエ"
+      ],
+      "prepTimeSeconds": 20,
+      "readingTimeSeconds": 50,
+      "sentences": [
+        {
+          "index": 1,
+          "raw": "わたしは 今年ことし の 9月くがつ に ベトナムへ 行いきました。",
+          "japanese": "私は 今年の 9月に ベトナムへ 行きました。",
+          "furigana": "わたしは ことしの くがつに ベトナムへ いきました。",
+          "romaji": "Watashi wa kotoshi no kugatsu ni Betonamu e ikimashita.",
+          "vietnamese": "Năm nay vào tháng 9 tôi đã đi Việt Nam."
+        },
+        {
+          "index": 2,
+          "raw": "ダナンで ともだちに 会あいました。",
+          "japanese": "ダナンで 友達に 会いました。",
+          "furigana": "ダナンで ともだちに あいました。",
+          "romaji": "Danang de tomodachi ni aimashita.",
+          "vietnamese": "Tôi đã gặp bạn ở Đà Nẵng."
+        },
+        {
+          "index": 3,
+          "raw": "それから、いっしょに ゆうめいな おてらへ 行いきました。",
+          "japanese": "それから、一緒に 有名な お寺へ 行きました。",
+          "furigana": "それから、いっしょに ゆうめいな おてらへ いきました。",
+          "romaji": "Sorekara, issho ni yuumei na otera e ikimashita.",
+          "vietnamese": "Sau đó chúng tôi cùng đi đến một ngôi chùa nổi tiếng."
+        },
+        {
+          "index": 4,
+          "raw": "とても きれいでした。",
+          "japanese": "とても きれいでした。",
+          "furigana": "とても きれいでした。",
+          "romaji": "Totemo kirei deshita.",
+          "vietnamese": "Nơi đó rất đẹp."
+        },
+        {
+          "index": 5,
+          "raw": "おいしい 食たべ物もの も たくさん 食たべました。",
+          "japanese": "おいしい 食べ物も たくさん 食べました。",
+          "furigana": "おいしい たべものも たくさん たべました。",
+          "romaji": "Oishii tabemono mo takusan tabemashita.",
+          "vietnamese": "Tôi cũng đã ăn rất nhiều món ngon."
+        },
+        {
+          "index": 6,
+          "raw": "時間じかん が あまり ありませんでしたから、フエへ 行いきませんでした。",
+          "japanese": "時間が あまり ありませんでしたから、フエへ 行きませんでした。",
+          "furigana": "じかんが あまり ありませんでしたから、フエへ いきませんでした。",
+          "romaji": "Jikan ga amari arimasen deshita kara, Fue e ikimasen deshita.",
+          "vietnamese": "Vì không có nhiều thời gian nên tôi đã không đi Huế."
+        },
+        {
+          "index": 7,
+          "raw": "こんど フエへ 行いきたいです。",
+          "japanese": "今度 フエへ 行きたいです。",
+          "furigana": "こんど フエへ いきたいです。",
+          "romaji": "Kondo Fue e ikitai desu.",
+          "vietnamese": "Lần tới tôi muốn đến Huế."
+        }
+      ]
+    },
+    {
+      "id": "lesson-27",
+      "code": "Lesson 27",
+      "lessonNum": 27,
+      "title": "学校の パーティー",
+      "topic": "Sự kiện",
+      "description": "Một bữa tiệc nhộn nhịp với nhiều món ăn quốc tế. 10 câu đọc",
+      "wordCount": 138,
+      "sentenceCount": 10,
+      "contentJapanese": "先週の 日曜日、学校で パーティーが ありました。 とても 賑やかでした。 人が 多かったです。 近くの 大学の 学生も 遊びに 来ました。 色々な 国の 料理が ありました。 日本の ラーメンや タイの トムヤム などです。 私は お好み焼きを 食べました。 ジュースも 飲みました。 とても おいしかったです。 楽しい 一日でした。",
+      "contentFurigana": "せんしゅうの にちようび、がっこうで パーティーが ありました。 とても にぎやかでした。 ひとが おおかったです。 ちかくの だいがくの がくせいも あそびに きました。 いろいろな くにの りょうりが ありました。 にほんの ラーメンや タイの トムヤム などです。 わたしは おこのみやきを たべました。 ジュースも のみました。 とても おいしかったです。 たのしい いちにちでした。",
+      "contentVietnamese": "Chủ nhật tuần trước, ở trường đã có một bữa tiệc. Không khí rất nhộn nhịp. Có rất đông người. Sinh viên của trường đại học gần đó cũng đến chơi. Có các món ăn của nhiều quốc gia khác nhau. Ví dụ như ramen của Nhật và tom yum của Thái. Tôi đã ăn okonomiyaki. Tôi cũng đã uống nước trái cây. Rất ngon. Đó là một ngày rất vui.",
+      "targetKanji": [
+        {
+          "character": "先週",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "日曜日",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "学校",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "賑",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "人",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "多",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "近",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "大学",
+          "reading": "",
+          "hanViet": ""
+        }
+      ],
+      "targetKatakana": [
+        "パーティー",
+        "ラーメン",
+        "タイ",
+        "トムヤム",
+        "ジュース"
+      ],
+      "prepTimeSeconds": 20,
+      "readingTimeSeconds": 50,
+      "sentences": [
+        {
+          "index": 1,
+          "raw": "先週せんしゅう の 日曜日にちようび、学校がっこう で パーティーが ありました。",
+          "japanese": "先週の 日曜日、学校で パーティーが ありました。",
+          "furigana": "せんしゅうの にちようび、がっこうで パーティーが ありました。",
+          "romaji": "Senshuu no nichiyoubi, gakkou de paatii ga arimashita.",
+          "vietnamese": "Chủ nhật tuần trước, ở trường đã có một bữa tiệc."
+        },
+        {
+          "index": 2,
+          "raw": "とても にぎやかでした。",
+          "japanese": "とても 賑やかでした。",
+          "furigana": "とても にぎやかでした。",
+          "romaji": "Totemo nigiyaka deshita.",
+          "vietnamese": "Không khí rất nhộn nhịp."
+        },
+        {
+          "index": 3,
+          "raw": "人ひと が おおかったです。",
+          "japanese": "人が 多かったです。",
+          "furigana": "ひとが おおかったです。",
+          "romaji": "Hito ga ookatta desu.",
+          "vietnamese": "Có rất đông người."
+        },
+        {
+          "index": 4,
+          "raw": "ちかくの 大学だいがく の 学生がくせい も あそびに 来きました。",
+          "japanese": "近くの 大学の 学生も 遊びに 来ました。",
+          "furigana": "ちかくの だいがくの がくせいも あそびに きました。",
+          "romaji": "Chikaku no daigaku no gakusei mo asobi ni kimashita.",
+          "vietnamese": "Sinh viên của trường đại học gần đó cũng đến chơi."
+        },
+        {
+          "index": 5,
+          "raw": "いろいろな 国くに の りょうりが ありました。",
+          "japanese": "色々な 国の 料理が ありました。",
+          "furigana": "いろいろな くにの りょうりが ありました。",
+          "romaji": "Iroiro na kuni no ryouri ga arimashita.",
+          "vietnamese": "Có các món ăn của nhiều quốc gia khác nhau."
+        },
+        {
+          "index": 6,
+          "raw": "日本にほん の ラーメンや タイの トムヤム など です。",
+          "japanese": "日本の ラーメンや タイの トムヤム などです。",
+          "furigana": "にほんの ラーメンや タイの トムヤム などです。",
+          "romaji": "Nihon no raamen ya Tai no tomuyamu nado desu.",
+          "vietnamese": "Ví dụ như ramen của Nhật và tom yum của Thái."
+        },
+        {
+          "index": 7,
+          "raw": "わたしは おこのみやきを 食たべました。",
+          "japanese": "私は お好み焼きを 食べました。",
+          "furigana": "わたしは おこのみやきを たべました。",
+          "romaji": "Watashi wa okonomiyaki o tabemashita.",
+          "vietnamese": "Tôi đã ăn okonomiyaki."
+        },
+        {
+          "index": 8,
+          "raw": "ジュースも 飲のみました。",
+          "japanese": "ジュースも 飲みました。",
+          "furigana": "ジュースも のみました。",
+          "romaji": "Juusu mo nomimashita.",
+          "vietnamese": "Tôi cũng đã uống nước trái cây."
+        },
+        {
+          "index": 9,
+          "raw": "とても おいしかったです。",
+          "japanese": "とても おいしかったです。",
+          "furigana": "とても おいしかったです。",
+          "romaji": "Totemo oishikatta desu.",
+          "vietnamese": "Rất ngon."
+        },
+        {
+          "index": 10,
+          "raw": "たのしい 一日いちにち でした。",
+          "japanese": "楽しい 一日でした。",
+          "furigana": "たのしい いちにちでした。",
+          "romaji": "Tanoshii ichinichi deshita.",
+          "vietnamese": "Đó là một ngày rất vui."
+        }
+      ]
+    },
+    {
+      "id": "lesson-28",
+      "code": "Lesson 28",
+      "lessonNum": 28,
+      "title": "週末の えいが",
+      "topic": "Gia đình",
+      "description": "Đi xem phim với gia đình rồi ghé quán cà phê và mua sắm. 7 câu đọc",
+      "wordCount": 114,
+      "sentenceCount": 7,
+      "contentJapanese": "週末、家族と 映画を 見ました。 朝、10時半に 映画館へ 行きました。 私は ホラー映画が 好きですが、『スパイダーマン』を 見ました。 映画は とても 面白かったです。 それから カフェで コーヒーを 飲みました。 買い物も しました。 とても 楽しい 一日でした。",
+      "contentFurigana": "しゅうまつ、かぞくと えいがを みました。 あさ、じゅうじはんに えいがかんへ いきました。 わたしは ホラーえいがが すきですが、『スパイダーマン』を みました。 えいがは とても おもしろかったです。 それから カフェで コーヒーを のみました。 かいものも しました。 とても たのしい いちにちでした。",
+      "contentVietnamese": "Cuối tuần tôi đã xem phim cùng gia đình. Buổi sáng, lúc 10 giờ rưỡi tôi đã đi đến rạp chiếu phim. Tôi thích phim kinh dị nhưng hôm đó đã xem Spider-Man. Bộ phim rất thú vị. Sau đó tôi uống cà phê ở quán. Tôi cũng đi mua sắm. Đó là một ngày rất vui.",
+      "targetKanji": [
+        {
+          "character": "週末",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "家族",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "映画",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "見",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "朝",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "時半",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "映画館",
+          "reading": "",
+          "hanViet": ""
+        },
+        {
+          "character": "行",
+          "reading": "",
+          "hanViet": ""
+        }
+      ],
+      "targetKatakana": [
+        "ホラー",
+        "スパイダーマン",
+        "カフェ",
+        "コーヒー"
+      ],
+      "prepTimeSeconds": 20,
+      "readingTimeSeconds": 50,
+      "sentences": [
+        {
+          "index": 1,
+          "raw": "週末しゅうまつ、かぞくと えいがを 見みました。",
+          "japanese": "週末、家族と 映画を 見ました。",
+          "furigana": "しゅうまつ、かぞくと えいがを みました。",
+          "romaji": "Shuumatsu, kazoku to eiga o mimashita.",
+          "vietnamese": "Cuối tuần tôi đã xem phim cùng gia đình."
+        },
+        {
+          "index": 2,
+          "raw": "あさ、10時半じゅうじはん に えいがかんへ 行いきました。",
+          "japanese": "朝、10時半に 映画館へ 行きました。",
+          "furigana": "あさ、じゅうじはんに えいがかんへ いきました。",
+          "romaji": "Asa, juuji-han ni eigakan e ikimashita.",
+          "vietnamese": "Buổi sáng, lúc 10 giờ rưỡi tôi đã đi đến rạp chiếu phim."
+        },
+        {
+          "index": 3,
+          "raw": "わたしは ホラーえいがが すきですが、『スパイダーマン』を 見みました。",
+          "japanese": "私は ホラー映画が 好きですが、『スパイダーマン』を 見ました。",
+          "furigana": "わたしは ホラーえいがが すきですが、『スパイダーマン』を みました。",
+          "romaji": "Watashi wa horaa eiga ga suki desu ga, 'Supaidāman' o mimashita.",
+          "vietnamese": "Tôi thích phim kinh dị nhưng hôm đó đã xem Spider-Man."
+        },
+        {
+          "index": 4,
+          "raw": "えいがは とても おもしろかったです。",
+          "japanese": "映画は とても 面白かったです。",
+          "furigana": "えいがは とても おもしろかったです。",
+          "romaji": "Eiga wa totemo omoshirokatta desu.",
+          "vietnamese": "Bộ phim rất thú vị."
+        },
+        {
+          "index": 5,
+          "raw": "それから カフェで コーヒーを 飲のみました。",
+          "japanese": "それから カフェで コーヒーを 飲みました。",
+          "furigana": "それから カフェで コーヒーを のみました。",
+          "romaji": "Sorekara kafe de koohii o nomimashita.",
+          "vietnamese": "Sau đó tôi uống cà phê ở quán."
+        },
+        {
+          "index": 6,
+          "raw": "買い物かいもの も しました。",
+          "japanese": "買い物も しました。",
+          "furigana": "かいものも しました。",
+          "romaji": "Kaimono mo shimashita.",
+          "vietnamese": "Tôi cũng đi mua sắm."
+        },
+        {
+          "index": 7,
+          "raw": "とても たのしい 一日いちにち でした。",
+          "japanese": "とても 楽しい 一日でした。",
+          "furigana": "とても たのしい いちにちでした。",
+          "romaji": "Totemo tanoshii ichinichi deshita.",
+          "vietnamese": "Đó là một ngày rất vui."
+        }
+      ]
     }
   ],
   "qaQuestions": [
