@@ -31,8 +31,8 @@ RUN npm install --omit=dev --no-audit --no-fund
 # 4. Copy full application source code
 COPY . .
 
-# Ensure start.sh has executable permissions and Unix line endings
-RUN chmod +x start.sh && sed -i 's/\r$//' start.sh
+# Ensure start.sh has executable permissions, Unix line endings, and no UTF-8 BOM
+RUN chmod +x start.sh && sed -i -e '1s/^\xef\xbb\xbf//' -e 's/\r$//' start.sh
 
 # Environment defaults
 ENV NODE_ENV=production
@@ -43,4 +43,4 @@ ENV PYTHONUNBUFFERED=1
 
 EXPOSE 10000
 
-CMD ["./start.sh"]
+CMD ["bash", "start.sh"]
