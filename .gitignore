@@ -32,7 +32,11 @@ Thumbs.db
 dist/
 build/
 
-# Testing
-coverage/
-
 .agents/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
