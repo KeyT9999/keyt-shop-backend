@@ -1,0 +1,212 @@
+[
+  {
+    "order": 1,
+    "term": "今度",
+    "reading": "こんど",
+    "romaji": "kondo",
+    "partOfSpeech": "Danh từ chỉ thời gian",
+    "meaning": "Lần tới",
+    "examples": [
+      {
+        "japanese": "今度また遊びましょう。",
+        "reading": "こんどまたあそびましょう。",
+        "vietnamese": "Lần tới chúng ta lại cùng đi chơi nhé."
+      }
+    ]
+  },
+  {
+    "order": 2,
+    "term": "今晩",
+    "reading": "こんばん",
+    "romaji": "konban",
+    "partOfSpeech": "Danh từ chỉ thời gian",
+    "meaning": "Tối nay",
+    "examples": [
+      {
+        "japanese": "今晩何をしますか。",
+        "reading": "こんばんなにをしますか。",
+        "vietnamese": "Tối nay bạn làm gì?"
+      }
+    ]
+  },
+  {
+    "order": 3,
+    "term": "今年",
+    "reading": "ことし",
+    "romaji": "kotoshi",
+    "partOfSpeech": "Danh từ chỉ thời gian",
+    "meaning": "Năm nay",
+    "examples": [
+      {
+        "japanese": "今年日本へ旅行に行きます。",
+        "reading": "ことしにほんへりょこうにいきます。",
+        "vietnamese": "Năm nay tôi sẽ đi du lịch Nhật Bản."
+      }
+    ]
+  },
+  {
+    "order": 4,
+    "term": "来年",
+    "reading": "らいねん",
+    "romaji": "rainen",
+    "partOfSpeech": "Danh từ chỉ thời gian",
+    "meaning": "Sang năm",
+    "examples": [
+      {
+        "japanese": "来年大学生になります。",
+        "reading": "らいねんだいがくせいになります。",
+        "vietnamese": "Sang năm tôi sẽ trở thành sinh viên đại học."
+      }
+    ]
+  },
+  {
+    "order": 5,
+    "term": "アニメ",
+    "reading": "アニメ",
+    "romaji": "anime",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Hoạt hình",
+    "examples": [
+      {
+        "japanese": "日本のアニメが大好きです。",
+        "reading": "にほんのあにめがだいすきです。",
+        "vietnamese": "Tôi rất thích hoạt hình Nhật Bản."
+      }
+    ]
+  },
+  {
+    "order": 6,
+    "term": "絵",
+    "reading": "え",
+    "romaji": "e",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Tranh",
+    "examples": [
+      {
+        "japanese": "美術館で絵を見ます。",
+        "reading": "びじゅつかんでえをみます。",
+        "vietnamese": "Tôi ngắm tranh ở bảo tàng mỹ thuật."
+      }
+    ]
+  },
+  {
+    "order": 7,
+    "term": "景色",
+    "reading": "けしき",
+    "romaji": "keshiki",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Phong cảnh",
+    "examples": [
+      {
+        "japanese": "山の上からの景色はきれいです。",
+        "reading": "やまのうえからのけしきはきれいです。",
+        "vietnamese": "Phong cảnh nhìn từ trên núi rất đẹp."
+      }
+    ]
+  },
+  {
+    "order": 8,
+    "term": "自転車",
+    "reading": "じてんしゃ",
+    "romaji": "jitensha",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Xe đạp",
+    "examples": [
+      {
+        "japanese": "自転車で学校へ通います。",
+        "reading": "じてんしゃでがっこうへかよいます。",
+        "vietnamese": "Tôi đi học bằng xe đạp."
+      }
+    ]
+  },
+  {
+    "order": 9,
+    "term": "写真",
+    "reading": "しゃしん",
+    "romaji": "shashin",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Ảnh",
+    "examples": [
+      {
+        "japanese": "たくさん写真を撮りました。",
+        "reading": "たくさんしゃしんをとりました。",
+        "vietnamese": "Tôi đã chụp rất nhiều ảnh."
+      }
+    ]
+  },
+  {
+    "order": 10,
+    "term": "撮ります",
+    "reading": "とります",
+    "romaji": "torimasu",
+    "partOfSpeech": "Động từ",
+    "meaning": "Chụp",
+    "examples": [
+      {
+        "japanese": "ここで写真を撮りましょう。",
+        "reading": "ここでしゃしんをとりましょう。",
+        "vietnamese": "Chúng ta hãy chụp ảnh ở đây nào."
+      }
+    ]
+  },
+  {
+    "order": 11,
+    "term": "借ります",
+    "reading": "かります",
+    "romaji": "karimasu",
+    "partOfSpeech": "Động từ",
+    "meaning": "Vay, mượn",
+    "examples": [
+      {
+        "japanese": "図書館で本を借ります。",
+        "reading": "としょかんでほんをかります。",
+        "vietnamese": "Tôi mượn sách ở thư viện."
+      }
+    ]
+  },
+  {
+    "order": 12,
+    "term": "欲しい",
+    "reading": "ほしい",
+    "romaji": "hoshii",
+    "partOfSpeech": "Tính từ đuôi i",
+    "meaning": "Muốn có",
+    "examples": [
+      {
+        "japanese": "新しいパソコンが欲しいです。",
+        "reading": "あたらしいぱそこんがほしいです。",
+        "vietnamese": "Tôi muốn có máy tính mới."
+      }
+    ]
+  },
+  {
+    "order": 13,
+    "term": "好き",
+    "reading": "すき",
+    "romaji": "suki",
+    "partOfSpeech": "Tính từ đuôi na",
+    "meaning": "Thích",
+    "examples": [
+      {
+        "japanese": "日本の料理が好きです。",
+        "reading": "にほんのりょうりがすきです。",
+        "vietnamese": "Tôi thích món ăn Nhật Bản."
+      }
+    ]
+  },
+  {
+    "order": 14,
+    "term": "嫌い",
+    "reading": "きらい",
+    "romaji": "kirai",
+    "partOfSpeech": "Tính từ đuôi na",
+    "meaning": "Ghét",
+    "examples": [
+      {
+        "japanese": "苦いコーヒーが嫌いです。",
+        "reading": "にがいこーひーがきらいです。",
+        "vietnamese": "Tôi ghét cà phê đắng."
+      }
+    ]
+  }
+]

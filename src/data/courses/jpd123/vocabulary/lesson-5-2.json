@@ -1,0 +1,302 @@
+[
+  {
+    "order": 1,
+    "term": "今朝",
+    "reading": "けさ",
+    "romaji": "kesa",
+    "partOfSpeech": "Danh từ chỉ thời gian",
+    "meaning": "Sáng nay",
+    "examples": [
+      {
+        "japanese": "今朝パンとコーヒーを飲みました。",
+        "reading": "けさぱんとこーひーをのみました。",
+        "vietnamese": "Sáng nay tôi đã ăn bánh mì và uống cà phê."
+      }
+    ]
+  },
+  {
+    "order": 2,
+    "term": "先月",
+    "reading": "せんげつ",
+    "romaji": "sengetsu",
+    "partOfSpeech": "Danh từ chỉ thời gian",
+    "meaning": "Tháng trước",
+    "examples": [
+      {
+        "japanese": "先月日本へ来ました。",
+        "reading": "せんげつにほんへきました。",
+        "vietnamese": "Tôi đã đến Nhật Bản vào tháng trước."
+      }
+    ]
+  },
+  {
+    "order": 3,
+    "term": "去年",
+    "reading": "きょねん",
+    "romaji": "kyonen",
+    "partOfSpeech": "Danh từ chỉ thời gian",
+    "meaning": "Năm ngoái",
+    "examples": [
+      {
+        "japanese": "去年大学を卒業しました。",
+        "reading": "きょねんだいがくをそつぎょうしました。",
+        "vietnamese": "Tôi đã tốt nghiệp đại học năm ngoái."
+      }
+    ]
+  },
+  {
+    "order": 4,
+    "term": "かぜ",
+    "reading": "かぜ",
+    "romaji": "kaze",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Cảm cúm",
+    "examples": [
+      {
+        "japanese": "かぜをひきましたから、病院へ行きます。",
+        "reading": "かぜをひきましたから、びょういんへいきます。",
+        "vietnamese": "Vì bị cảm cúm nên tôi đi bệnh viện."
+      }
+    ]
+  },
+  {
+    "order": 5,
+    "term": "天気",
+    "reading": "てんき",
+    "romaji": "tenki",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Thời tiết",
+    "examples": [
+      {
+        "japanese": "明日の天気はどうですか。",
+        "reading": "あしたのてんきはどうですか。",
+        "vietnamese": "Thời tiết ngày mai thế nào?"
+      }
+    ]
+  },
+  {
+    "order": 6,
+    "term": "ばんごはん",
+    "reading": "ばんごはん",
+    "romaji": "bangohan",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Cơm tối",
+    "examples": [
+      {
+        "japanese": "一緒に晩ご飯を食べませんか。",
+        "reading": "いっしょにばんごはんをたべませんか。",
+        "vietnamese": "Cùng ăn cơm tối với tôi không?"
+      }
+    ]
+  },
+  {
+    "order": 7,
+    "term": "ふく",
+    "reading": "ふく",
+    "romaji": "fuku",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Quần áo",
+    "examples": [
+      {
+        "japanese": "新しい服を買いました。",
+        "reading": "あたらしいふくをかいました。",
+        "vietnamese": "Tôi đã mua quần áo mới."
+      }
+    ]
+  },
+  {
+    "order": 8,
+    "term": "のぼります",
+    "reading": "のぼります",
+    "romaji": "noborimasu",
+    "partOfSpeech": "Động từ",
+    "meaning": "Leo, trèo",
+    "examples": [
+      {
+        "japanese": "週末に富士山に登ります。",
+        "reading": "しゅうまつにふじさんにのぼります。",
+        "vietnamese": "Cuối tuần tôi sẽ leo núi Phú Sĩ."
+      }
+    ]
+  },
+  {
+    "order": 9,
+    "term": "はいります",
+    "reading": "はいります",
+    "romaji": "hairimasu",
+    "partOfSpeech": "Động từ",
+    "meaning": "Vào",
+    "examples": [
+      {
+        "japanese": "お風呂に入ります。",
+        "reading": "おふろにはいります。",
+        "vietnamese": "Tôi đi tắm bồn."
+      }
+    ]
+  },
+  {
+    "order": 10,
+    "term": "いそがしい",
+    "reading": "いそがしい",
+    "romaji": "isogashii",
+    "partOfSpeech": "Tính từ đuôi i",
+    "meaning": "Bận",
+    "examples": [
+      {
+        "japanese": "今週はとても忙しいです。",
+        "reading": "こんしゅうはとてもいそがしいです。",
+        "vietnamese": "Tuần này tôi rất bận."
+      }
+    ]
+  },
+  {
+    "order": 11,
+    "term": "おもしろい",
+    "reading": "おもしろい",
+    "romaji": "omoshiroi",
+    "partOfSpeech": "Tính từ đuôi i",
+    "meaning": "Thú vị",
+    "examples": [
+      {
+        "japanese": "この映画はとても面白いです。",
+        "reading": "このえいがはとてもおもしろいです。",
+        "vietnamese": "Bộ phim này rất thú vị."
+      }
+    ]
+  },
+  {
+    "order": 12,
+    "term": "きもちがいい",
+    "reading": "きもちがいい",
+    "romaji": "kimochiga ii",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "Sảng khoái",
+    "examples": [
+      {
+        "japanese": "温泉に入ると気持ちがいいです。",
+        "reading": "おんせんにはいるときもちがいいです。",
+        "vietnamese": "Ngâm mình trong suối nước nóng rất sảng khoái."
+      }
+    ]
+  },
+  {
+    "order": 13,
+    "term": "高い",
+    "reading": "たかい",
+    "romaji": "takai",
+    "partOfSpeech": "Tính từ đuôi i",
+    "meaning": "Cao, đắt",
+    "examples": [
+      {
+        "japanese": "この時計はとても高いです。",
+        "reading": "このとけいはとてもたかいです。",
+        "vietnamese": "Chiếc đồng hồ này rất đắt."
+      }
+    ]
+  },
+  {
+    "order": 14,
+    "term": "安い",
+    "reading": "やすい",
+    "romaji": "yasui",
+    "partOfSpeech": "Tính từ đuôi i",
+    "meaning": "Rẻ",
+    "examples": [
+      {
+        "japanese": "この店の物は安くていいです。",
+        "reading": "このみせのものはやすくていいです。",
+        "vietnamese": "Đồ ở quán này vừa rẻ vừa tốt."
+      }
+    ]
+  },
+  {
+    "order": 15,
+    "term": "楽しい",
+    "reading": "たのしい",
+    "romaji": "tanoshii",
+    "partOfSpeech": "Tính từ đuôi i",
+    "meaning": "Vui vẻ",
+    "examples": [
+      {
+        "japanese": "昨日のパーティーはとても楽しかったです。",
+        "reading": "きのうのぱーてぃーはとてもたのしかったです。",
+        "vietnamese": "Bữa tiệc hôm qua rất vui vẻ."
+      }
+    ]
+  },
+  {
+    "order": 16,
+    "term": "むずかしい",
+    "reading": "むずかしい",
+    "romaji": "muzukashii",
+    "partOfSpeech": "Tính từ đuôi i",
+    "meaning": "Khó",
+    "examples": [
+      {
+        "japanese": "日本語の漢字は難しいです。",
+        "reading": "にほんごのかんじはむずかしいです。",
+        "vietnamese": "Hán tự tiếng Nhật rất khó."
+      }
+    ]
+  },
+  {
+    "order": 17,
+    "term": "かんたん",
+    "reading": "かんたん",
+    "romaji": "kantan",
+    "partOfSpeech": "Tính từ đuôi na",
+    "meaning": "Đơn giản",
+    "examples": [
+      {
+        "japanese": "このテストは簡単でした。",
+        "reading": "このてすとはかんたんでした。",
+        "vietnamese": "Bài kiểm tra này rất đơn giản."
+      }
+    ]
+  },
+  {
+    "order": 18,
+    "term": "たいへん",
+    "reading": "たいへん",
+    "romaji": "taihen",
+    "partOfSpeech": "Tính từ đuôi na",
+    "meaning": "Vất vả",
+    "examples": [
+      {
+        "japanese": "毎日の仕事は大変です。",
+        "reading": "まいにちのしごとはたいへんです。",
+        "vietnamese": "Công việc mỗi ngày rất vất vả."
+      }
+    ]
+  },
+  {
+    "order": 19,
+    "term": "ひま",
+    "reading": "ひま",
+    "romaji": "hima",
+    "partOfSpeech": "Tính từ đuôi na",
+    "meaning": "Rảnh rỗi",
+    "examples": [
+      {
+        "japanese": "明日は暇ですから遊びに行きましょう。",
+        "reading": "あしたはひまですからあそびにいきましょう。",
+        "vietnamese": "Ngày mai tôi rảnh nên chúng mình cùng đi chơi nhé."
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "term": "どうして",
+    "reading": "どうして",
+    "romaji": "doushite",
+    "partOfSpeech": "Từ nghi vấn",
+    "meaning": "Tại sao",
+    "examples": [
+      {
+        "japanese": "どうして昨日休みましたか。",
+        "reading": "どうしてきのうやすみましたか。",
+        "vietnamese": "Tại sao hôm qua bạn lại nghỉ thế?"
+      }
+    ]
+  }
+]

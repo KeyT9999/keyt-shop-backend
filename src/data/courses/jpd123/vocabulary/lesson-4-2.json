@@ -1,0 +1,407 @@
+[
+  {
+    "order": 1,
+    "term": "温泉",
+    "reading": "おんせん",
+    "romaji": "onsen",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Suối nước nóng",
+    "examples": [
+      {
+        "japanese": "日本の温泉は気持ちがいいです。",
+        "reading": "にほんのおんせんはきもちがいいです。",
+        "vietnamese": "Suối nước nóng ở Nhật Bản rất dễ chịu."
+      }
+    ]
+  },
+  {
+    "order": 2,
+    "term": "川",
+    "reading": "かわ",
+    "romaji": "kawa",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Sông",
+    "examples": [
+      {
+        "japanese": "川で泳ぎます。",
+        "reading": "かわでおよぎます。",
+        "vietnamese": "Bơi ở sông."
+      }
+    ]
+  },
+  {
+    "order": 3,
+    "term": "山",
+    "reading": "やま",
+    "romaji": "yama",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Núi",
+    "examples": [
+      {
+        "japanese": "富士山は高い山です。",
+        "reading": "ふじさんはたかいやまです。",
+        "vietnamese": "Núi Phú Sĩ là một ngọn núi cao."
+      }
+    ]
+  },
+  {
+    "order": 4,
+    "term": "教会",
+    "reading": "きょうかい",
+    "romaji": "kyoukai",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Nhà thờ",
+    "examples": [
+      {
+        "japanese": "白い教会があります。",
+        "reading": "しろいきょうかいがあります。",
+        "vietnamese": "Có một nhà thờ màu trắng."
+      }
+    ]
+  },
+  {
+    "order": 5,
+    "term": "城",
+    "reading": "おしろ",
+    "romaji": "oshiro",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Lâu đài",
+    "examples": [
+      {
+        "japanese": "大阪城を見に行きました。",
+        "reading": "おおさかじょうをみにいきました。",
+        "vietnamese": "Tôi đã đi ngắm lâu đài Osaka."
+      }
+    ]
+  },
+  {
+    "order": 6,
+    "term": "神社",
+    "reading": "じんじゃ",
+    "romaji": "jinja",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Đền",
+    "examples": [
+      {
+        "japanese": "お正月に神社へ行きます。",
+        "reading": "おしょうがつにじんじゃへいきます。",
+        "vietnamese": "Vào dịp Tết tôi đi viếng đền."
+      }
+    ]
+  },
+  {
+    "order": 7,
+    "term": "寺",
+    "reading": "おてら",
+    "romaji": "otera",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Chùa",
+    "examples": [
+      {
+        "japanese": "京都には古いお寺が多いです。",
+        "reading": "きょうとにはふるいおてらがおおいです。",
+        "vietnamese": "Ở Kyoto có nhiều ngôi chùa cổ kính."
+      }
+    ]
+  },
+  {
+    "order": 8,
+    "term": "ビル",
+    "reading": "ビル",
+    "romaji": "biru",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Tòa nhà",
+    "examples": [
+      {
+        "japanese": "高いビルがたくさんあります。",
+        "reading": "たかいビルがたくさんあります。",
+        "vietnamese": "Có rất nhiều tòa nhà cao tầng."
+      }
+    ]
+  },
+  {
+    "order": 9,
+    "term": "ところ",
+    "reading": "ところ",
+    "romaji": "tokoro",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Nơi, chỗ",
+    "examples": [
+      {
+        "japanese": "ここはどんなところですか。",
+        "reading": "ここはどんなところですか。",
+        "vietnamese": "Nơi này là nơi như thế nào?"
+      }
+    ]
+  },
+  {
+    "order": 10,
+    "term": "人",
+    "reading": "ひと",
+    "romaji": "hito",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Người",
+    "examples": [
+      {
+        "japanese": "親切な人が好きです。",
+        "reading": "しんせつなひとがすきです。",
+        "vietnamese": "Tôi thích những người tốt bụng."
+      }
+    ]
+  },
+  {
+    "order": 11,
+    "term": "緑",
+    "reading": "みどり",
+    "romaji": "midori",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Màu xanh; cây xanh",
+    "examples": [
+      {
+        "japanese": "この町は緑が多いです。",
+        "reading": "このまちはみどりがおおいです。",
+        "vietnamese": "Thị trấn này có nhiều cây xanh."
+      }
+    ]
+  },
+  {
+    "order": 12,
+    "term": "あります",
+    "reading": "あります",
+    "romaji": "arimasu",
+    "partOfSpeech": "Động từ",
+    "meaning": "Có",
+    "examples": [
+      {
+        "japanese": "あそこに公園があります。",
+        "reading": "あそこにこうえんがあります。",
+        "vietnamese": "Ở đằng kia có công viên."
+      }
+    ]
+  },
+  {
+    "order": 13,
+    "term": "新しい",
+    "reading": "あたらしい",
+    "romaji": "atarashii",
+    "partOfSpeech": "Tính từ đuôi i",
+    "meaning": "Mới",
+    "examples": [
+      {
+        "japanese": "新しい車を買いました。",
+        "reading": "あたらしいくるまをかいましました。",
+        "vietnamese": "Tôi đã mua một chiếc xe ô tô mới."
+      }
+    ]
+  },
+  {
+    "order": 14,
+    "term": "古い",
+    "reading": "ふるい",
+    "romaji": "furui",
+    "partOfSpeech": "Tính từ đuôi i",
+    "meaning": "Cũ",
+    "examples": [
+      {
+        "japanese": "古い本を読みます。",
+        "reading": "ふるいほんをよみます。",
+        "vietnamese": "Tôi đọc sách cũ."
+      }
+    ]
+  },
+  {
+    "order": 15,
+    "term": "いい",
+    "reading": "いい",
+    "romaji": "ii",
+    "partOfSpeech": "Tính từ đuôi i",
+    "meaning": "Tốt",
+    "examples": [
+      {
+        "japanese": "今日はいい天気ですね。",
+        "reading": "きょうはいいてんきですね。",
+        "vietnamese": "Hôm nay thời tiết đẹp/tốt nhỉ."
+      }
+    ]
+  },
+  {
+    "order": 16,
+    "term": "多い",
+    "reading": "おおい",
+    "romaji": "ooi",
+    "partOfSpeech": "Tính từ đuôi i",
+    "meaning": "Nhiều",
+    "examples": [
+      {
+        "japanese": "人が多いです。",
+        "reading": "ひとがおおいです。",
+        "vietnamese": "Nhiều người."
+      }
+    ]
+  },
+  {
+    "order": 17,
+    "term": "少ない",
+    "reading": "すくない",
+    "romaji": "sukunai",
+    "partOfSpeech": "Tính từ đuôi i",
+    "meaning": "Ít",
+    "examples": [
+      {
+        "japanese": "車が少ないです。",
+        "reading": "くるまがすくないです。",
+        "vietnamese": "Ít xe ô tô."
+      }
+    ]
+  },
+  {
+    "order": 18,
+    "term": "大きい",
+    "reading": "おおきい",
+    "romaji": "ookii",
+    "partOfSpeech": "Tính từ đuôi i",
+    "meaning": "To, lớn",
+    "examples": [
+      {
+        "japanese": "大きい家ですね。",
+        "reading": "おおきいいえですね。",
+        "vietnamese": "Ngôi nhà to lớn quá nhỉ."
+      }
+    ]
+  },
+  {
+    "order": 19,
+    "term": "小さい",
+    "reading": "ちいさい",
+    "romaji": "chiisai",
+    "partOfSpeech": "Tính từ đuôi i",
+    "meaning": "Nhỏ",
+    "examples": [
+      {
+        "japanese": "小さい犬がいます。",
+        "reading": "ちいさいいぬがいます。",
+        "vietnamese": "Có một con chó nhỏ."
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "term": "高い",
+    "reading": "たかい",
+    "romaji": "takai",
+    "partOfSpeech": "Tính từ đuôi i",
+    "meaning": "Cao, đắt",
+    "examples": [
+      {
+        "japanese": "このカメラは高いです。",
+        "reading": "このカメラはたかいです。",
+        "vietnamese": "Chiếc máy ảnh này đắt."
+      }
+    ]
+  },
+  {
+    "order": 21,
+    "term": "低い",
+    "reading": "ひくい",
+    "romaji": "hikui",
+    "partOfSpeech": "Tính từ đuôi i",
+    "meaning": "Thấp",
+    "examples": [
+      {
+        "japanese": "あの山は低いです。",
+        "reading": "あのやまはひくいです。",
+        "vietnamese": "Ngọn núi kia thấp."
+      }
+    ]
+  },
+  {
+    "order": 22,
+    "term": "きれい",
+    "reading": "きれい",
+    "romaji": "kirei",
+    "partOfSpeech": "Tính từ đuôi na",
+    "meaning": "Đẹp, sạch sẽ",
+    "examples": [
+      {
+        "japanese": "きれいな花ですね。",
+        "reading": "きれいなはなですね。",
+        "vietnamese": "Bông hoa đẹp quá nhỉ."
+      }
+    ]
+  },
+  {
+    "order": 23,
+    "term": "静か",
+    "reading": "しずか",
+    "romaji": "shizuka",
+    "partOfSpeech": "Tính từ đuôi na",
+    "meaning": "Yên tĩnh",
+    "examples": [
+      {
+        "japanese": "夜はとても静かです。",
+        "reading": "よるはとてもしずかです。",
+        "vietnamese": "Ban đêm rất yên tĩnh."
+      }
+    ]
+  },
+  {
+    "order": 24,
+    "term": "にぎやか",
+    "reading": "にぎやか",
+    "romaji": "nigiyaka",
+    "partOfSpeech": "Tính từ đuôi na",
+    "meaning": "Náo nhiệt",
+    "examples": [
+      {
+        "japanese": "駅の前はにぎやかです。",
+        "reading": "えきのまえはにぎやかです。",
+        "vietnamese": "Trước nhà ga rất náo nhiệt."
+      }
+    ]
+  },
+  {
+    "order": 25,
+    "term": "有名",
+    "reading": "ゆうめい",
+    "romaji": "yuumei",
+    "partOfSpeech": "Tính từ đuôi na",
+    "meaning": "Nổi tiếng",
+    "examples": [
+      {
+        "japanese": "このお寺は有名です。",
+        "reading": "このおてらはゆうめいです。",
+        "vietnamese": "Ngôi chùa này nổi tiếng."
+      }
+    ]
+  },
+  {
+    "order": 26,
+    "term": "どんな",
+    "reading": "どんな",
+    "romaji": "donna",
+    "partOfSpeech": "Từ nghi vấn",
+    "meaning": "Như thế nào",
+    "examples": [
+      {
+        "japanese": "どんな音楽が好きですか。",
+        "reading": "どんなおんがくがすきですか。",
+        "vietnamese": "Bạn thích loại âm nhạc như thế nào?"
+      }
+    ]
+  },
+  {
+    "order": 27,
+    "term": "そして",
+    "reading": "そして",
+    "romaji": "soshite",
+    "partOfSpeech": "Liên từ",
+    "meaning": "Và",
+    "examples": [
+      {
+        "japanese": "静かです。そして、きれいです。",
+        "reading": "しずかです。そして、きれいです。",
+        "vietnamese": "Nơi đây yên tĩnh. Và sạch sẽ/đẹp."
+      }
+    ]
+  }
+]

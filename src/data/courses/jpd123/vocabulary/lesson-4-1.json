@@ -1,0 +1,242 @@
+[
+  {
+    "order": 1,
+    "term": "北",
+    "reading": "きた",
+    "romaji": "kita",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Phía bắc",
+    "examples": [
+      {
+        "japanese": "北へ行きます。",
+        "reading": "きたへいきます。",
+        "vietnamese": "Đi về phía bắc."
+      }
+    ]
+  },
+  {
+    "order": 2,
+    "term": "南",
+    "reading": "みなみ",
+    "romaji": "minami",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Phía nam",
+    "examples": [
+      {
+        "japanese": "南の島に行きたいです。",
+        "reading": "みなみのしまにいきたいです。",
+        "vietnamese": "Tôi muốn đi đến hòn đảo phía nam."
+      }
+    ]
+  },
+  {
+    "order": 3,
+    "term": "東",
+    "reading": "ひがし",
+    "romaji": "higashi",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Phía đông",
+    "examples": [
+      {
+        "japanese": "太陽は東から昇ります。",
+        "reading": "たいようはひがしからのぼります。",
+        "vietnamese": "Mặt trời mọc từ phía đông."
+      }
+    ]
+  },
+  {
+    "order": 4,
+    "term": "西",
+    "reading": "にし",
+    "romaji": "nishi",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Phía tây",
+    "examples": [
+      {
+        "japanese": "西の空が赤いです。",
+        "reading": "にしのそらがあかいです。",
+        "vietnamese": "Bầu trời phía tây đỏ rực."
+      }
+    ]
+  },
+  {
+    "order": 5,
+    "term": "真ん中",
+    "reading": "まんなか",
+    "romaji": "mannaka",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Chính giữa",
+    "examples": [
+      {
+        "japanese": "部屋の真ん中にテーブルがあります。",
+        "reading": "へやのまんなかにテーブルがあります。",
+        "vietnamese": "Có một chiếc bàn ở chính giữa căn phòng."
+      }
+    ]
+  },
+  {
+    "order": 6,
+    "term": "車",
+    "reading": "くるま",
+    "romaji": "kuruma",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Ô tô",
+    "examples": [
+      {
+        "japanese": "車を運転します。",
+        "reading": "くるまをうんてんします。",
+        "vietnamese": "Lái xe ô tô."
+      }
+    ]
+  },
+  {
+    "order": 7,
+    "term": "新幹線",
+    "reading": "しんかんせん",
+    "romaji": "shinkansen",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Tàu cao tốc Shinkansen",
+    "examples": [
+      {
+        "japanese": "新幹線で東京へ行きます。",
+        "reading": "しんかんせんでとうきょうへいきます。",
+        "vietnamese": "Đi Tokyo bằng tàu Shinkansen."
+      }
+    ]
+  },
+  {
+    "order": 8,
+    "term": "電車",
+    "reading": "でんしゃ",
+    "romaji": "densha",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Tàu điện",
+    "examples": [
+      {
+        "japanese": "電車に乗ります。",
+        "reading": "でんしゃにのります。",
+        "vietnamese": "Lên tàu điện."
+      }
+    ]
+  },
+  {
+    "order": 9,
+    "term": "飛行機",
+    "reading": "ひこうき",
+    "romaji": "hikouki",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Máy bay",
+    "examples": [
+      {
+        "japanese": "飛行機で日本へ行きます。",
+        "reading": "ひこうきでにほんへいきます。",
+        "vietnamese": "Đi Nhật bằng máy bay."
+      }
+    ]
+  },
+  {
+    "order": 10,
+    "term": "駅",
+    "reading": "えき",
+    "romaji": "eki",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Nhà ga",
+    "examples": [
+      {
+        "japanese": "駅の前で会いましょう。",
+        "reading": "えきのまえであいましょう。",
+        "vietnamese": "Hãy gặp nhau ở trước nhà ga."
+      }
+    ]
+  },
+  {
+    "order": 11,
+    "term": "町",
+    "reading": "まち",
+    "romaji": "machi",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Thành phố, thị trấn",
+    "examples": [
+      {
+        "japanese": "ここは静かな町です。",
+        "reading": "ここはしずかなまちです。",
+        "vietnamese": "Nơi đây là một thị trấn yên tĩnh."
+      }
+    ]
+  },
+  {
+    "order": 12,
+    "term": "～時間",
+    "reading": "～じかん",
+    "romaji": "~jikan",
+    "partOfSpeech": "Lượng từ",
+    "meaning": "~ tiếng",
+    "examples": [
+      {
+        "japanese": "毎日2時間勉強します。",
+        "reading": "まいにちにじかんべんきょうします。",
+        "vietnamese": "Mỗi ngày tôi học 2 tiếng."
+      }
+    ]
+  },
+  {
+    "order": 13,
+    "term": "～時間半",
+    "reading": "～じかんはん",
+    "romaji": "~jikanhan",
+    "partOfSpeech": "Lượng từ",
+    "meaning": "~ tiếng rưỡi",
+    "examples": [
+      {
+        "japanese": "映画は2時間半かかりました。",
+        "reading": "えいがはにじかんはんかかりました。",
+        "vietnamese": "Bộ phim kéo dài 2 tiếng rưỡi."
+      }
+    ]
+  },
+  {
+    "order": 14,
+    "term": "歩いて",
+    "reading": "あるいて",
+    "romaji": "aruite",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "Đi bộ",
+    "examples": [
+      {
+        "japanese": "学校まで歩いて行きます。",
+        "reading": "がっこうまであるいていきます。",
+        "vietnamese": "Tôi đi bộ đến trường."
+      }
+    ]
+  },
+  {
+    "order": 15,
+    "term": "～くらい",
+    "reading": "～くらい",
+    "romaji": "~kurai",
+    "partOfSpeech": "Hậu tố",
+    "meaning": "Khoảng ~",
+    "examples": [
+      {
+        "japanese": "駅から家まで10分くらいです。",
+        "reading": "えきからいえまでじゅっぷんくらいです。",
+        "vietnamese": "Từ ga về nhà mất khoảng 10 phút."
+      }
+    ]
+  },
+  {
+    "order": 16,
+    "term": "どのくらい",
+    "reading": "どのくらい",
+    "romaji": "donokurai",
+    "partOfSpeech": "Từ nghi vấn",
+    "meaning": "Bao lâu",
+    "examples": [
+      {
+        "japanese": "東京までどのくらいかかりますか。",
+        "reading": "とうきょうまでどのくらいかかりますか。",
+        "vietnamese": "Mất bao lâu để đến Tokyo?"
+      }
+    ]
+  }
+]

@@ -1,0 +1,362 @@
+[
+  {
+    "order": 1,
+    "term": "今週",
+    "reading": "こんしゅう",
+    "romaji": "konshuu",
+    "partOfSpeech": "Danh từ chỉ thời gian",
+    "meaning": "Tuần này",
+    "examples": [
+      {
+        "japanese": "今週はとても忙しいです。",
+        "reading": "こんしゅうはとてもいそがしいです。",
+        "vietnamese": "Tuần này tôi rất bận."
+      }
+    ]
+  },
+  {
+    "order": 2,
+    "term": "来週",
+    "reading": "らいしゅう",
+    "romaji": "raishuu",
+    "partOfSpeech": "Danh từ chỉ thời gian",
+    "meaning": "Tuần sau",
+    "examples": [
+      {
+        "japanese": "来週テストがあります。",
+        "reading": "らいしゅうてすとがあります。",
+        "vietnamese": "Tuần sau có bài kiểm tra."
+      }
+    ]
+  },
+  {
+    "order": 3,
+    "term": "今月",
+    "reading": "こんげつ",
+    "romaji": "kongetsu",
+    "partOfSpeech": "Danh từ chỉ thời gian",
+    "meaning": "Tháng này",
+    "examples": [
+      {
+        "japanese": "今月の終わりに旅行します。",
+        "reading": "こんげつのおわりにりょこうします。",
+        "vietnamese": "Cuối tháng này tôi sẽ đi du lịch."
+      }
+    ]
+  },
+  {
+    "order": 4,
+    "term": "来月",
+    "reading": "らいげつ",
+    "romaji": "raigetsu",
+    "partOfSpeech": "Danh từ chỉ thời gian",
+    "meaning": "Tháng sau",
+    "examples": [
+      {
+        "japanese": "来月日本へ行きます。",
+        "reading": "らいげつにほんへいきます。",
+        "vietnamese": "Tháng sau tôi sẽ đi Nhật."
+      }
+    ]
+  },
+  {
+    "order": 5,
+    "term": "カラオケ",
+    "reading": "カラオケ",
+    "romaji": "karaoke",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Hát karaoke",
+    "examples": [
+      {
+        "japanese": "友達とカラオケに行きました。",
+        "reading": "ともだちとからおけにいきました。",
+        "vietnamese": "Tôi đã đi hát karaoke với bạn bè."
+      }
+    ]
+  },
+  {
+    "order": 6,
+    "term": "コンサート",
+    "reading": "コンサート",
+    "romaji": "konsaato",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Buổi hòa nhạc",
+    "examples": [
+      {
+        "japanese": "週末にコンサートを見に行きます。",
+        "reading": "しゅうまつにこんさーとをみにいきます。",
+        "vietnamese": "Cuối tuần tôi đi xem buổi hòa nhạc."
+      }
+    ]
+  },
+  {
+    "order": 7,
+    "term": "試合",
+    "reading": "しあい",
+    "romaji": "shiai",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Trận đấu",
+    "examples": [
+      {
+        "japanese": "サッカーの試合を見ました。",
+        "reading": "さっかーのしあいをみました。",
+        "vietnamese": "Tôi đã xem trận đấu bóng đá."
+      }
+    ]
+  },
+  {
+    "order": 8,
+    "term": "セール",
+    "reading": "セール",
+    "romaji": "seeru",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Giảm giá",
+    "examples": [
+      {
+        "japanese": "デパートでセールをやっています。",
+        "reading": "でぱーとでせーるをやっています。",
+        "vietnamese": "Trung tâm thương mại đang có đợt giảm giá."
+      }
+    ]
+  },
+  {
+    "order": 9,
+    "term": "チケット",
+    "reading": "チケット",
+    "romaji": "chiketto",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Vé",
+    "examples": [
+      {
+        "japanese": "コンサートのチケットを二枚買いました。",
+        "reading": "こんさーとのちけっとをにまいかいました。",
+        "vietnamese": "Tôi đã mua hai vé xem hòa nhạc."
+      }
+    ]
+  },
+  {
+    "order": 10,
+    "term": "地図",
+    "reading": "ちず",
+    "romaji": "chizu",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Bản đồ",
+    "examples": [
+      {
+        "japanese": "地図を見ながら歩きます。",
+        "reading": "ちずをみながらあるきます。",
+        "vietnamese": "Tôi vừa đi vừa nhìn bản đồ."
+      }
+    ]
+  },
+  {
+    "order": 11,
+    "term": "ドライブ",
+    "reading": "ドライブ",
+    "romaji": "doraibu",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Lái xe",
+    "examples": [
+      {
+        "japanese": "天気がいいのでドライブに行きます。",
+        "reading": "てんきがいいのでどらいぶにいきます。",
+        "vietnamese": "Thời tiết đẹp nên tôi đi lái xe dạo mát."
+      }
+    ]
+  },
+  {
+    "order": 12,
+    "term": "水着",
+    "reading": "みずぎ",
+    "romaji": "mizugi",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Đồ bơi",
+    "examples": [
+      {
+        "japanese": "海へ行くので水着を買いました。",
+        "reading": "うみへいくのでみずぎをかいました。",
+        "vietnamese": "Vì đi biển nên tôi đã mua đồ bơi."
+      }
+    ]
+  },
+  {
+    "order": 13,
+    "term": "野球",
+    "reading": "やきゅう",
+    "romaji": "yakyuu",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Bóng chày",
+    "examples": [
+      {
+        "japanese": "放課後野球をします。",
+        "reading": "ほうかごやきゅうをします。",
+        "vietnamese": "Sau giờ học tôi chơi bóng chày."
+      }
+    ]
+  },
+  {
+    "order": 14,
+    "term": "約束",
+    "reading": "やくそく",
+    "romaji": "yakusoku",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Hứa, hẹn",
+    "examples": [
+      {
+        "japanese": "友達と約束があります。",
+        "reading": "ともだちとやくそくがあります。",
+        "vietnamese": "Tôi có hẹn với bạn bè."
+      }
+    ]
+  },
+  {
+    "order": 15,
+    "term": "用事",
+    "reading": "ようじ",
+    "romaji": "youji",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Việc bận",
+    "examples": [
+      {
+        "japanese": "今日は用事があるので早く帰ります。",
+        "reading": "きょうしようじがあるのでをはやくかえります。",
+        "vietnamese": "Hôm nay có việc bận nên tôi về sớm."
+      }
+    ]
+  },
+  {
+    "order": 16,
+    "term": "～枚",
+    "reading": "～まい",
+    "romaji": "~mai",
+    "partOfSpeech": "Lượng từ",
+    "meaning": "Cách đếm vật mỏng",
+    "examples": [
+      {
+        "japanese": "シャツを三枚買いました。",
+        "reading": "しゃつをさんまいかいました。",
+        "vietnamese": "Tôi đã mua ba chiếc áo sơ mi."
+      }
+    ]
+  },
+  {
+    "order": 17,
+    "term": "あります",
+    "reading": "あります",
+    "romaji": "arimasu",
+    "partOfSpeech": "Động từ",
+    "meaning": "Có",
+    "examples": [
+      {
+        "japanese": "明日パーティーがあります。",
+        "reading": "あしたぱーてぃーがあります。",
+        "vietnamese": "Ngày mai có bữa tiệc."
+      }
+    ]
+  },
+  {
+    "order": 18,
+    "term": "残念",
+    "reading": "ざんねん",
+    "romaji": "zannen",
+    "partOfSpeech": "Tính từ đuôi na",
+    "meaning": "Tiếc",
+    "examples": [
+      {
+        "japanese": "行けなくてとても残念です。",
+        "reading": "いけなくてとてもざんねんです。",
+        "vietnamese": "Không đi được nên tôi rất tiếc."
+      }
+    ]
+  },
+  {
+    "order": 19,
+    "term": "一緒に",
+    "reading": "いっしょに",
+    "romaji": "isshoni",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "Cùng với",
+    "examples": [
+      {
+        "japanese": "一緒にお昼ご飯を食べませんか。",
+        "reading": "いっしょにおひるごはんをたべませんか。",
+        "vietnamese": "Cùng ăn trưa với tôi không?"
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "term": "いいですね",
+    "reading": "いいですね",
+    "romaji": "iidesune",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "Hay đấy",
+    "examples": [
+      {
+        "japanese": "「映画を見に行きませんか」「いいですね」",
+        "reading": "「えいがをみにいきませんか」「いいですね」",
+        "vietnamese": "「Đi xem phim không?」「Hay đấy!」"
+      }
+    ]
+  },
+  {
+    "order": 21,
+    "term": "ああ",
+    "reading": "ああ",
+    "romaji": "aa",
+    "partOfSpeech": "Thán từ",
+    "meaning": "A",
+    "examples": [
+      {
+        "japanese": "ああ、分かりました。",
+        "reading": "ああ、わかりました。",
+        "vietnamese": "A, tôi hiểu rồi."
+      }
+    ]
+  },
+  {
+    "order": 22,
+    "term": "すみません",
+    "reading": "すみません",
+    "romaji": "sumimasen",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "Xin lỗi",
+    "examples": [
+      {
+        "japanese": "すみません、駅はどこですか。",
+        "reading": "すみません、えきはどこですか。",
+        "vietnamese": "Xin lỗi, nhà ga ở đâu vậy?"
+      }
+    ]
+  },
+  {
+    "order": 23,
+    "term": "また今度",
+    "reading": "またこんど",
+    "romaji": "matakondo",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "Hẹn lần sau",
+    "examples": [
+      {
+        "japanese": "今日は忙しいので、また今度誘ってください。",
+        "reading": "きょうはいそがしいので、またこんどさそってください。",
+        "vietnamese": "Hôm nay tôi bận rồi, hẹn lần sau rủ tôi nhé."
+      }
+    ]
+  },
+  {
+    "order": 24,
+    "term": "わあ",
+    "reading": "わあ",
+    "romaji": "waa",
+    "partOfSpeech": "Thán từ",
+    "meaning": "Oa",
+    "examples": [
+      {
+        "japanese": "わあ、きれいな景色ですね！",
+        "reading": "わあ、きれいなけしきですね！",
+        "vietnamese": "Oa, phong cảnh đẹp quá nhỉ!"
+      }
+    ]
+  }
+]

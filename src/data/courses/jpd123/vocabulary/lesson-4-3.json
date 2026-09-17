@@ -1,0 +1,362 @@
+[
+  {
+    "order": 1,
+    "term": "少し",
+    "reading": "すこし",
+    "romaji": "sukoshi",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "Một chút",
+    "examples": [
+      {
+        "japanese": "日本語が少し分かります。",
+        "reading": "にほんごがすこしわかります。",
+        "vietnamese": "Tôi hiểu tiếng Nhật một chút."
+      }
+    ]
+  },
+  {
+    "order": 2,
+    "term": "とても",
+    "reading": "とても",
+    "romaji": "totemo",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "Rất",
+    "examples": [
+      {
+        "japanese": "今日はとても寒いです。",
+        "reading": "きょうはとてもさむいです。",
+        "vietnamese": "Hôm nay rất lạnh."
+      }
+    ]
+  },
+  {
+    "order": 3,
+    "term": "どう",
+    "reading": "どう",
+    "romaji": "dou",
+    "partOfSpeech": "Từ nghi vấn",
+    "meaning": "Thế nào",
+    "examples": [
+      {
+        "japanese": "日本の生活はどうですか。",
+        "reading": "にほんのせいかつはどうですか。",
+        "vietnamese": "Cuộc sống ở Nhật Bản thế nào?"
+      }
+    ]
+  },
+  {
+    "order": 4,
+    "term": "そうですね",
+    "reading": "そうですね",
+    "romaji": "soudesune",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "Đúng vậy nhỉ",
+    "examples": [
+      {
+        "japanese": "「今日はいい天気ですね」「そうですね」",
+        "reading": "「きょうはいいてんきですね」「そうですね」",
+        "vietnamese": "「Hôm nay thời tiết đẹp nhỉ」「Đúng vậy nhỉ」"
+      }
+    ]
+  },
+  {
+    "order": 5,
+    "term": "雨",
+    "reading": "あめ",
+    "romaji": "ame",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Mưa",
+    "examples": [
+      {
+        "japanese": "今日は雨が降っています。",
+        "reading": "きょうはあめがふっています。",
+        "vietnamese": "Hôm nay trời đang mưa."
+      }
+    ]
+  },
+  {
+    "order": 6,
+    "term": "雪",
+    "reading": "ゆき",
+    "romaji": "yuki",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Tuyết",
+    "examples": [
+      {
+        "japanese": "冬に雪がたくさん降ります。",
+        "reading": "ふゆにゆきがたくさんふります。",
+        "vietnamese": "Vào mùa đông tuyết rơi rất nhiều."
+      }
+    ]
+  },
+  {
+    "order": 7,
+    "term": "日",
+    "reading": "ひ",
+    "romaji": "hi",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Ngày / mặt trời",
+    "examples": [
+      {
+        "japanese": "暖かい日が続いています。",
+        "reading": "あたたかいひがつづいています。",
+        "vietnamese": "Những ngày ấm áp đang tiếp diễn."
+      }
+    ]
+  },
+  {
+    "order": 8,
+    "term": "メロン",
+    "reading": "メロン",
+    "romaji": "meron",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Dưa lưới",
+    "examples": [
+      {
+        "japanese": "このメロンはとても甘くておいしいです。",
+        "reading": "このめろんはとてもあまくておいしいです。",
+        "vietnamese": "Quả dưa lưới này rất ngọt và ngon."
+      }
+    ]
+  },
+  {
+    "order": 9,
+    "term": "暖かい",
+    "reading": "あたたかい",
+    "romaji": "atatakai",
+    "partOfSpeech": "Tính từ đuôi i",
+    "meaning": "Ấm áp",
+    "examples": [
+      {
+        "japanese": "春は暖かくて過ごしやすいです。",
+        "reading": "はるはあたたかくてすごしやすいです。",
+        "vietnamese": "Mùa xuân ấm áp và dễ chịu."
+      }
+    ]
+  },
+  {
+    "order": 10,
+    "term": "涼しい",
+    "reading": "すずしい",
+    "romaji": "suzushii",
+    "partOfSpeech": "Tính từ đuôi i",
+    "meaning": "Mát mẻ",
+    "examples": [
+      {
+        "japanese": "秋の夜は涼しいです。",
+        "reading": "あきのよるはすずしいです。",
+        "vietnamese": "Đêm mùa thu mát mẻ."
+      }
+    ]
+  },
+  {
+    "order": 11,
+    "term": "暑い",
+    "reading": "あつい",
+    "romaji": "atsui",
+    "partOfSpeech": "Tính từ đuôi i",
+    "meaning": "Nóng bức",
+    "examples": [
+      {
+        "japanese": "日本の夏はとても暑いです。",
+        "reading": "にほんのなつはとてもあついです。",
+        "vietnamese": "Mùa hè Nhật Bản rất nóng."
+      }
+    ]
+  },
+  {
+    "order": 12,
+    "term": "寒い",
+    "reading": "さむい",
+    "romaji": "samui",
+    "partOfSpeech": "Tính từ đuôi i",
+    "meaning": "Lạnh",
+    "examples": [
+      {
+        "japanese": "冬の朝はとても寒いです。",
+        "reading": "ふゆのあさはとてもさむいです。",
+        "vietnamese": "Buổi sáng mùa đông rất lạnh."
+      }
+    ]
+  },
+  {
+    "order": 13,
+    "term": "天気がいい",
+    "reading": "てんきがいい",
+    "romaji": "tenkiga ii",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "Thời tiết đẹp",
+    "examples": [
+      {
+        "japanese": "今日は天気がいいので散歩します。",
+        "reading": "きょうはてんきがいいのでさんぽします。",
+        "vietnamese": "Hôm nay trời đẹp nên tôi đi dạo."
+      }
+    ]
+  },
+  {
+    "order": 14,
+    "term": "天気がわるい",
+    "reading": "てんきがわるい",
+    "romaji": "tenkiga warui",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "Thời tiết xấu",
+    "examples": [
+      {
+        "japanese": "明日は天気がわるいそうです。",
+        "reading": "あしたはてんきがわるいそうです。",
+        "vietnamese": "Nghe nói ngày mai thời tiết xấu."
+      }
+    ]
+  },
+  {
+    "order": 15,
+    "term": "温かい",
+    "reading": "あたたかい",
+    "romaji": "atatakai",
+    "partOfSpeech": "Tính từ đuôi i",
+    "meaning": "Ấm",
+    "examples": [
+      {
+        "japanese": "温かいお茶を飲みます。",
+        "reading": "あたたかいおちゃをのみます。",
+        "vietnamese": "Tôi uống trà ấm."
+      }
+    ]
+  },
+  {
+    "order": 16,
+    "term": "熱い",
+    "reading": "あつい",
+    "romaji": "atsui",
+    "partOfSpeech": "Tính từ đuôi i",
+    "meaning": "Nóng",
+    "examples": [
+      {
+        "japanese": "このスープはまだ熱いです。",
+        "reading": "このすーぷはまだあついです。",
+        "vietnamese": "Món súp này vẫn còn nóng."
+      }
+    ]
+  },
+  {
+    "order": 17,
+    "term": "冷たい",
+    "reading": "つめたい",
+    "romaji": "tsumetai",
+    "partOfSpeech": "Tính từ đuôi i",
+    "meaning": "Lạnh / mát",
+    "examples": [
+      {
+        "japanese": "冷たいジュースをください。",
+        "reading": "つめたいじゅーすをください。",
+        "vietnamese": "Cho tôi nước trái cây lạnh."
+      }
+    ]
+  },
+  {
+    "order": 18,
+    "term": "おいしい",
+    "reading": "おいしい",
+    "romaji": "oishii",
+    "partOfSpeech": "Tính từ đuôi i",
+    "meaning": "Ngon",
+    "examples": [
+      {
+        "japanese": "日本のラーメンはとてもおいしいです。",
+        "reading": "にほんのらーめんはとてもおいしいです。",
+        "vietnamese": "Mì ramen Nhật Bản rất ngon."
+      }
+    ]
+  },
+  {
+    "order": 19,
+    "term": "甘い",
+    "reading": "あまい",
+    "romaji": "amai",
+    "partOfSpeech": "Tính từ đuôi i",
+    "meaning": "Ngọt",
+    "examples": [
+      {
+        "japanese": "このケーキは甘くておいしいです。",
+        "reading": "このけーきはあまくておいしいです。",
+        "vietnamese": "Cái bánh này ngọt và ngon."
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "term": "辛い",
+    "reading": "からい",
+    "romaji": "karai",
+    "partOfSpeech": "Tính từ đuôi i",
+    "meaning": "Cay",
+    "examples": [
+      {
+        "japanese": "キムチは辛いですがおいしいです。",
+        "reading": "きむちはからいですがおいしいです。",
+        "vietnamese": "Kim chi cay nhưng mà ngon."
+      }
+    ]
+  },
+  {
+    "order": 21,
+    "term": "苦い",
+    "reading": "にがい",
+    "romaji": "nigai",
+    "partOfSpeech": "Tính từ đuôi i",
+    "meaning": "Đắng",
+    "examples": [
+      {
+        "japanese": "この薬は苦いです。",
+        "reading": "このくすりはにがいです。",
+        "vietnamese": "Thuốc này đắng."
+      }
+    ]
+  },
+  {
+    "order": 22,
+    "term": "すっぱい",
+    "reading": "すっぱい",
+    "romaji": "suppai",
+    "partOfSpeech": "Tính từ đuôi i",
+    "meaning": "Chua",
+    "examples": [
+      {
+        "japanese": "レモンはすっぱいです。",
+        "reading": "れもんはすっぱいです。",
+        "vietnamese": "Chanh thì chua."
+      }
+    ]
+  },
+  {
+    "order": 23,
+    "term": "一年中",
+    "reading": "いちねんじゅう",
+    "romaji": "ichinenjuu",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "Suốt 1 năm",
+    "examples": [
+      {
+        "japanese": "ここは一年中暖かいです。",
+        "reading": "ここはいちねんじゅうあたたかいです。",
+        "vietnamese": "Ở đây ấm áp suốt cả năm."
+      }
+    ]
+  },
+  {
+    "order": 24,
+    "term": "あまり",
+    "reading": "あまり",
+    "romaji": "amari",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "Không ~ lắm",
+    "examples": [
+      {
+        "japanese": "今日はあまり寒くないです。",
+        "reading": "きょうはあまりさむくないです。",
+        "vietnamese": "Hôm nay không lạnh lắm."
+      }
+    ]
+  }
+]

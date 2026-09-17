@@ -1,0 +1,98 @@
+[
+  {
+    "lessonCode": "4-1",
+    "slug": "4-1-phuong-huong-va-phuong-tien",
+    "title": "Phương hướng và phương tiện",
+    "description": "Học về các phương hướng và phương tiện giao thông",
+    "order": 1,
+    "itemCount": 16
+  },
+  {
+    "lessonCode": "4-2",
+    "slug": "4-2-dia-diem-va-tinh-tu",
+    "title": "Địa điểm và tính từ",
+    "description": "Học về các địa điểm và tính từ miêu tả",
+    "order": 2,
+    "itemCount": 27
+  },
+  {
+    "lessonCode": "4-3",
+    "slug": "4-3-thoi-tiet-va-vi-giac",
+    "title": "Thời tiết và vị giác",
+    "description": "Học về thời tiết và các vị của thức ăn",
+    "order": 3,
+    "itemCount": 24
+  },
+  {
+    "lessonCode": "5-1",
+    "slug": "5-1-thoi-gian-va-hoat-dong",
+    "title": "Thời gian và hoạt động",
+    "description": "Học về các mốc thời gian và hoạt động hàng ngày",
+    "order": 4,
+    "itemCount": 25
+  },
+  {
+    "lessonCode": "5-2",
+    "slug": "5-2-thoi-tiet-va-cam-xuc",
+    "title": "Thời tiết và cảm xúc",
+    "description": "Học về thời tiết và các tính từ chỉ cảm giác, trạng thái",
+    "order": 5,
+    "itemCount": 20
+  },
+  {
+    "lessonCode": "5-3",
+    "slug": "5-3-so-thich",
+    "title": "Sở thích",
+    "description": "Học về các sở thích và hoạt động giải trí",
+    "order": 6,
+    "itemCount": 14
+  },
+  {
+    "lessonCode": "6-1",
+    "slug": "6-1-ke-hoach-va-su-kien",
+    "title": "Kế hoạch và sự kiện",
+    "description": "Học về kế hoạch, sự kiện và cách đếm vật mỏng",
+    "order": 7,
+    "itemCount": 24
+  },
+  {
+    "lessonCode": "6-2",
+    "slug": "6-2-an-uong-va-giai-tri",
+    "title": "Ăn uống và giải trí",
+    "description": "Học về đồ ăn, thức uống và các hoạt động giải trí",
+    "order": 8,
+    "itemCount": 23
+  },
+  {
+    "lessonCode": "6-3",
+    "slug": "6-3-am-thuc-nhat",
+    "title": "Ẩm thực Nhật",
+    "description": "Học về các món ăn đặc trưng của Nhật Bản",
+    "order": 9,
+    "itemCount": 8
+  },
+  {
+    "lessonCode": "7-1",
+    "slug": "7-1-vi-tri-va-dia-diem",
+    "title": "Vị trí và địa điểm",
+    "description": "Học về các từ chỉ vị trí và địa điểm công cộng",
+    "order": 10,
+    "itemCount": 20
+  },
+  {
+    "lessonCode": "7-2",
+    "slug": "7-2-do-dung-va-hanh-dong",
+    "title": "Đồ dùng và hành động",
+    "description": "Học về các vật dụng trong nhà và các động từ liên quan",
+    "order": 11,
+    "itemCount": 34
+  },
+  {
+    "lessonCode": "7-3",
+    "slug": "7-3-hoat-dong-thuong-ngay",
+    "title": "Hoạt động thường ngày",
+    "description": "Học về các hoạt động giải trí và sinh hoạt hàng ngày",
+    "order": 12,
+    "itemCount": 16
+  }
+]

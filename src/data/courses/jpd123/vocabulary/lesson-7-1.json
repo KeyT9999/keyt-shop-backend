@@ -1,0 +1,302 @@
+[
+  {
+    "order": 1,
+    "term": "改札",
+    "reading": "かいさつ",
+    "romaji": "kaisatsu",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Soát vé",
+    "examples": [
+      {
+        "japanese": "駅の改札の前で待ち合わせしましょう。",
+        "reading": "えきのかいさつのまえでまちあわせしましょう。",
+        "vietnamese": "Chúng ta hãy hẹn gặp nhau ở trước cửa soát vé nhà ga nhé."
+      }
+    ]
+  },
+  {
+    "order": 2,
+    "term": "木",
+    "reading": "き",
+    "romaji": "ki",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Cây / gỗ",
+    "examples": [
+      {
+        "japanese": "公園に大きな木があります。",
+        "reading": "こうえんにおおきなきがあります。",
+        "vietnamese": "Trong công viên có một cái cây lớn."
+      }
+    ]
+  },
+  {
+    "order": 3,
+    "term": "交番",
+    "reading": "こうばん",
+    "romaji": "kouban",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Đồn cảnh sát",
+    "examples": [
+      {
+        "japanese": "道が分からないので交番で聞きます。",
+        "reading": "みちがわからないのでこうばんでききます。",
+        "vietnamese": "Vì không biết đường nên tôi hỏi ở đồn cảnh sát."
+      }
+    ]
+  },
+  {
+    "order": 4,
+    "term": "自動販売機",
+    "reading": "じどうはんばいき",
+    "romaji": "jidouhanbaiki",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Máy bán hàng tự động",
+    "examples": [
+      {
+        "japanese": "自動販売機でお茶を買いました。",
+        "reading": "じどうはんばいきでおちゃをかいました。",
+        "vietnamese": "Tôi đã mua trà ở máy bán hàng tự động."
+      }
+    ]
+  },
+  {
+    "order": 5,
+    "term": "ポスト",
+    "reading": "ポスト",
+    "romaji": "posuto",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Thùng thư",
+    "examples": [
+      {
+        "japanese": "手紙をポストに入れます。",
+        "reading": "てがみをぽすとにいれます。",
+        "vietnamese": "Tôi bỏ thư vào thùng thư."
+      }
+    ]
+  },
+  {
+    "order": 6,
+    "term": "花",
+    "reading": "はな",
+    "romaji": "hana",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Hoa",
+    "examples": [
+      {
+        "japanese": "庭にきれいな花が咲いています。",
+        "reading": "にわにきれいなはながさいています。",
+        "vietnamese": "Trong vườn có hoa đẹp đang nở."
+      }
+    ]
+  },
+  {
+    "order": 7,
+    "term": "犬",
+    "reading": "いぬ",
+    "romaji": "inu",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Con chó",
+    "examples": [
+      {
+        "japanese": "毎朝犬の散歩をします。",
+        "reading": "まいあさいぬのさんぽをします。",
+        "vietnamese": "Mỗi sáng tôi dắt chó đi dạo."
+      }
+    ]
+  },
+  {
+    "order": 8,
+    "term": "間",
+    "reading": "あいだ",
+    "romaji": "aida",
+    "partOfSpeech": "Danh từ chỉ vị trí",
+    "meaning": "Giữa",
+    "examples": [
+      {
+        "japanese": "銀行とスーパーの間に本屋があります。",
+        "reading": "ぎんこうとすーぱーのあいだにほんやがあります。",
+        "vietnamese": "Ở giữa ngân hàng và siêu thị có một hiệu sách."
+      }
+    ]
+  },
+  {
+    "order": 9,
+    "term": "上",
+    "reading": "うえ",
+    "romaji": "ue",
+    "partOfSpeech": "Danh từ chỉ vị trí",
+    "meaning": "Trên",
+    "examples": [
+      {
+        "japanese": "机の上に本があります。",
+        "reading": "つくえのうえにほんがあります。",
+        "vietnamese": "Trên bàn có quyển sách."
+      }
+    ]
+  },
+  {
+    "order": 10,
+    "term": "下",
+    "reading": "した",
+    "romaji": "shita",
+    "partOfSpeech": "Danh từ chỉ vị trí",
+    "meaning": "Dưới",
+    "examples": [
+      {
+        "japanese": "椅子の下に猫がいます。",
+        "reading": "いすのしたにねこがいます。",
+        "vietnamese": "Dưới ghế có một con mèo."
+      }
+    ]
+  },
+  {
+    "order": 11,
+    "term": "近く",
+    "reading": "ちかく",
+    "romaji": "chikaku",
+    "partOfSpeech": "Danh từ chỉ vị trí",
+    "meaning": "Gần",
+    "examples": [
+      {
+        "japanese": "駅の近くに住んでいます。",
+        "reading": "えきのちかくにすんでいます。",
+        "vietnamese": "Tôi sống ở gần nhà ga."
+      }
+    ]
+  },
+  {
+    "order": 12,
+    "term": "隣",
+    "reading": "となり",
+    "romaji": "tonari",
+    "partOfSpeech": "Danh từ chỉ vị trí",
+    "meaning": "Bên cạnh",
+    "examples": [
+      {
+        "japanese": "私の隣に座ってください。",
+        "reading": "わたしのとなりにすわってください。",
+        "vietnamese": "Hãy ngồi bên cạnh tôi nhé."
+      }
+    ]
+  },
+  {
+    "order": 13,
+    "term": "中",
+    "reading": "なか",
+    "romaji": "naka",
+    "partOfSpeech": "Danh từ chỉ vị trí",
+    "meaning": "Trong",
+    "examples": [
+      {
+        "japanese": "かばんの中に財布があります。",
+        "reading": "かばんのなかにさいふがあります。",
+        "vietnamese": "Trong cặp có ví tiền."
+      }
+    ]
+  },
+  {
+    "order": 14,
+    "term": "外",
+    "reading": "そと",
+    "romaji": "soto",
+    "partOfSpeech": "Danh từ chỉ vị trí",
+    "meaning": "Ngoài",
+    "examples": [
+      {
+        "japanese": "外はとても寒いです。",
+        "reading": "そとはとてもさむいです。",
+        "vietnamese": "Bên ngoài trời rất lạnh."
+      }
+    ]
+  },
+  {
+    "order": 15,
+    "term": "前",
+    "reading": "まえ",
+    "romaji": "mae",
+    "partOfSpeech": "Danh từ chỉ vị trí",
+    "meaning": "Trước",
+    "examples": [
+      {
+        "japanese": "駅の前で友達を待ちます。",
+        "reading": "えきのまえでともだちをまちます。",
+        "vietnamese": "Tôi đợi bạn ở trước nhà ga."
+      }
+    ]
+  },
+  {
+    "order": 16,
+    "term": "後ろ",
+    "reading": "うしろ",
+    "romaji": "ushiro",
+    "partOfSpeech": "Danh từ chỉ vị trí",
+    "meaning": "Sau",
+    "examples": [
+      {
+        "japanese": "木の後ろに誰かいます。",
+        "reading": "きのうしろにだれかいます。",
+        "vietnamese": "Phía sau cái cây có ai đó."
+      }
+    ]
+  },
+  {
+    "order": 17,
+    "term": "横",
+    "reading": "よこ",
+    "romaji": "yoko",
+    "partOfSpeech": "Danh từ chỉ vị trí",
+    "meaning": "Bên cạnh",
+    "examples": [
+      {
+        "japanese": "テレビの横に時計を置きます。",
+        "reading": "てれびのよこにとけいをおきます。",
+        "vietnamese": "Tôi đặt đồng hồ ở cạnh tivi."
+      }
+    ]
+  },
+  {
+    "order": 18,
+    "term": "迎えに行きます",
+    "reading": "むかえにいきます",
+    "romaji": "mukaeniikimasu",
+    "partOfSpeech": "Động từ",
+    "meaning": "Đi đón",
+    "examples": [
+      {
+        "japanese": "車で空港へ迎えに行きます。",
+        "reading": "くるまでくうこうへむかえにいきます。",
+        "vietnamese": "Tôi đi xe ô tô ra sân bay đón người."
+      }
+    ]
+  },
+  {
+    "order": 19,
+    "term": "います",
+    "reading": "います",
+    "romaji": "imasu",
+    "partOfSpeech": "Động từ",
+    "meaning": "Có mặt ở",
+    "examples": [
+      {
+        "japanese": "教室に先生がいます。",
+        "reading": "きょうしつにせんせいがいます。",
+        "vietnamese": "Trong lớp học có giáo viên."
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "term": "もしもし",
+    "reading": "もしもし",
+    "romaji": "moshimoshi",
+    "partOfSpeech": "Thán từ",
+    "meaning": "A lô",
+    "examples": [
+      {
+        "japanese": "もしもし、田中さんですか。",
+        "reading": "もしもし、たなかさんですか。",
+        "vietnamese": "A lô, có phải anh Tanaka không?"
+      }
+    ]
+  }
+]

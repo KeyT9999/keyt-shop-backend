@@ -1,0 +1,122 @@
+[
+  {
+    "order": 1,
+    "term": "お好み焼き",
+    "reading": "おこのみやき",
+    "romaji": "okonomiyaki",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Bánh xèo Nhật",
+    "examples": [
+      {
+        "japanese": "大阪でお好み焼きを食べました。",
+        "reading": "おおさかでおこのみやきをたべました。",
+        "vietnamese": "Tôi đã ăn bánh xèo Nhật ở Osaka."
+      }
+    ]
+  },
+  {
+    "order": 2,
+    "term": "すき焼き",
+    "reading": "すきやき",
+    "romaji": "sukiyaki",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Món nhúng bò và rau",
+    "examples": [
+      {
+        "japanese": "今夜家族ですし焼きを作ります。",
+        "reading": "こんやかぞくですきやきをつくります。",
+        "vietnamese": "Tối nay tôi cùng gia đình làm món sukiyaki."
+      }
+    ]
+  },
+  {
+    "order": 3,
+    "term": "遊びます",
+    "reading": "あそびます",
+    "romaji": "asobimasu",
+    "partOfSpeech": "Động từ",
+    "meaning": "Chơi",
+    "examples": [
+      {
+        "japanese": "休みの日に友達と遊びます。",
+        "reading": "やすみのひにともだちとあそびます。",
+        "vietnamese": "Vào ngày nghỉ tôi đi chơi với bạn bè."
+      }
+    ]
+  },
+  {
+    "order": 4,
+    "term": "ぜひ",
+    "reading": "ぜひ",
+    "romaji": "zehi",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "Nhất định",
+    "examples": [
+      {
+        "japanese": "ぜひ遊びに来てください。",
+        "reading": "ぜひあそびにきてください。",
+        "vietnamese": "Nhất định hãy đến chơi nhé."
+      }
+    ]
+  },
+  {
+    "order": 5,
+    "term": "まだ",
+    "reading": "まだ",
+    "romaji": "mada",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "Vẫn, chưa",
+    "examples": [
+      {
+        "japanese": "まだ昼ご飯を食べていません。",
+        "reading": "まだひるごはんをたべていません。",
+        "vietnamese": "Tôi vẫn chưa ăn trưa."
+      }
+    ]
+  },
+  {
+    "order": 6,
+    "term": "もう",
+    "reading": "もう",
+    "romaji": "mou",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "Đã, rồi",
+    "examples": [
+      {
+        "japanese": "もう宿題をしましたか。",
+        "reading": "もうしゅくだいをしましたか。",
+        "vietnamese": "Bạn đã làm bài tập về nhà chưa?"
+      }
+    ]
+  },
+  {
+    "order": 7,
+    "term": "そうしましょう",
+    "reading": "そうしましょう",
+    "romaji": "soushimashou",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "Làm như thế đi",
+    "examples": [
+      {
+        "japanese": "「お茶でも飲みませんか」「ええ、そうしましょう」",
+        "reading": "「おちゃでものみませんか」「ええ、そうしましょう」",
+        "vietnamese": "「Đi uống trà không?」「Vâng, làm như thế đi!」"
+      }
+    ]
+  },
+  {
+    "order": 8,
+    "term": "わかりました",
+    "reading": "わかりました",
+    "romaji": "wakarimashita",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "Tôi hiểu rồi",
+    "examples": [
+      {
+        "japanese": "「明日９時に来てください」「はい、わかりました」",
+        "reading": "「あしたくじにきてください」「はい、わかりました」",
+        "vietnamese": "「Ngày mai hãy đến lúc 9 giờ nhé」「Vâng, tôi hiểu rồi」"
+      }
+    ]
+  }
+]

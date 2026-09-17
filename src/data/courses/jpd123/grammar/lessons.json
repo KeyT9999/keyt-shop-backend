@@ -1,0 +1,985 @@
+[
+  {
+    "lessonCode": "LESSON-4",
+    "slug": "grammar-bai-4-tinh-tu-va-su-ton-tai",
+    "title": "Tính từ và Sự tồn tại",
+    "description": "Học về tính từ đuôi い và な, phó từ mức độ, và cách diễn tả sự tồn tại với あります.",
+    "order": 1,
+    "itemCount": 7,
+    "items": [
+      {
+        "order": 1,
+        "title": "Tính từ đuôi い (Khẳng định)",
+        "pattern": "N は Aい です。",
+        "meaning": "N thì [tính chất] A",
+        "explanation": "Miêu tả tính chất của sự vật, hiện tượng trong câu khẳng định.",
+        "structures": [
+          "Danh từ + は + Tính từ đuôi い + です",
+          "N + は + A-い + です"
+        ],
+        "notes": [
+          "Giữ nguyên い khi đi với です."
+        ],
+        "examples": [
+          {
+            "japanese": "この料理は辛いです。",
+            "reading": "このりょうりはからいです。",
+            "vietnamese": "Món ăn này cay."
+          },
+          {
+            "japanese": "この本はおもしろいです。",
+            "reading": "このほんはおもしろいです。",
+            "vietnamese": "Quyển sách này thú vị."
+          },
+          {
+            "japanese": "日本の冬は寒いです。",
+            "reading": "にほんのふゆはさむいです。",
+            "vietnamese": "Mùa đông ở Nhật Bản lạnh."
+          },
+          {
+            "japanese": "富士山は高いです。",
+            "reading": "ふじさんはたかいです。",
+            "vietnamese": "Núi Phú Sĩ cao."
+          },
+          {
+            "japanese": "この林檎は甘いです。",
+            "reading": "このりんごはあまいです。",
+            "vietnamese": "Quả táo này ngọt."
+          }
+        ]
+      },
+      {
+        "order": 2,
+        "title": "Tính từ đuôi い (Phủ định)",
+        "pattern": "N は Aくない です。",
+        "meaning": "N không [tính chất] A",
+        "explanation": "Phủ định tính chất của sự vật, hiện tượng ở thì hiện tại/tương lai.",
+        "structures": [
+          "Danh từ + は + A (bỏ い) + くない です",
+          "Bỏ い thêm くない"
+        ],
+        "notes": [
+          "Ngoại lệ: いい (tốt) -> よくない."
+        ],
+        "examples": [
+          {
+            "japanese": "このレモンは酸っぱくないです。",
+            "reading": "このレモンはすっぱくないです。",
+            "vietnamese": "Quả chanh này không chua."
+          },
+          {
+            "japanese": "このお茶は熱くないです。",
+            "reading": "このおちゃはあつくないです。",
+            "vietnamese": "Trà này không nóng."
+          },
+          {
+            "japanese": "今日は忙しくないです。",
+            "reading": "きょうはいそがしくないです。",
+            "vietnamese": "Hôm nay tôi không bận."
+          },
+          {
+            "japanese": "この試験は難しくないです。",
+            "reading": "このしけんはむずかしくないです。",
+            "vietnamese": "Kỳ thi này không khó."
+          },
+          {
+            "japanese": "天気はよくないです。",
+            "reading": "てんきはよくないです。",
+            "vietnamese": "Thời tiết không tốt."
+          }
+        ]
+      },
+      {
+        "order": 3,
+        "title": "Tính từ đuôi な (Khẳng định)",
+        "pattern": "N は Aな です。",
+        "meaning": "N thì [tính chất] A",
+        "explanation": "Miêu tả tính chất bằng tính từ đuôi な.",
+        "structures": [
+          "Danh từ + は + Tính từ đuôi な (không có な) + です",
+          "N + は + A-na (bỏ na) + です"
+        ],
+        "notes": [
+          "Cần lưu ý các từ như きれい, ゆうめい là tính từ đuôi な."
+        ],
+        "examples": [
+          {
+            "japanese": "佐藤先生は有名です。",
+            "reading": "さとうせんせいはゆうめいです。",
+            "vietnamese": "Thầy Sato nổi tiếng."
+          },
+          {
+            "japanese": "この公園は静かです。",
+            "reading": "このこうえんはしずかです。",
+            "vietnamese": "Công viên này yên tĩnh."
+          },
+          {
+            "japanese": "この部屋はきれいです。",
+            "reading": "このへやはきれいです。",
+            "vietnamese": "Căn phòng này sạch đẹp."
+          },
+          {
+            "japanese": "ハノイは賑やかです。",
+            "reading": "ハノイはにぎやかです。",
+            "vietnamese": "Hà Nội thì nhộn nhịp."
+          },
+          {
+            "japanese": "彼は親切です。",
+            "reading": "かれはしんせつです。",
+            "vietnamese": "Anh ấy rất tốt bụng."
+          }
+        ]
+      },
+      {
+        "order": 4,
+        "title": "Tính từ đuôi な (Phủ định)",
+        "pattern": "N は Aじゃありません。",
+        "meaning": "N không [tính chất] A",
+        "explanation": "Phủ định tính chất với tính từ đuôi な.",
+        "structures": [
+          "Danh từ + は + A-na (bỏ な) + じゃありません / ではありません",
+          "Bỏ な thêm じゃありません"
+        ],
+        "notes": [
+          "Giống với cách phủ định danh từ."
+        ],
+        "examples": [
+          {
+            "japanese": "この車はきれいじゃありません。",
+            "reading": "このくるまはきれいじゃありません。",
+            "vietnamese": "Cái ô tô này không đẹp."
+          },
+          {
+            "japanese": "今日は暇じゃありません。",
+            "reading": "きょうはひまじゃありません。",
+            "vietnamese": "Hôm nay tôi không rảnh rỗi."
+          },
+          {
+            "japanese": "この町は便利じゃありません。",
+            "reading": "このまちはべんりじゃありません。",
+            "vietnamese": "Thành phố này không tiện lợi lắm."
+          },
+          {
+            "japanese": "あの人は親切じゃありません。",
+            "reading": "あのひとはしんせつじゃありません。",
+            "vietnamese": "Người kia không thân thiện."
+          },
+          {
+            "japanese": "この料理は有名じゃありません。",
+            "reading": "このりょうりはゆうめいじゃありません。",
+            "vietnamese": "Món ăn này không nổi tiếng."
+          }
+        ]
+      },
+      {
+        "order": 5,
+        "title": "Phó từ mức độ",
+        "pattern": "とても / すこし + A",
+        "meaning": "Rất / Một chút",
+        "explanation": "Nhấn mạnh hoặc giảm mức độ của tính chất.",
+        "structures": [
+          "とても / すこし + A",
+          "Đứng trước tính từ."
+        ],
+        "notes": [
+          "Dùng trong câu khẳng định."
+        ],
+        "examples": [
+          {
+            "japanese": "ハノイは今とても寒いです。",
+            "reading": "ハノイはいまとてもさむいです。",
+            "vietnamese": "Hà Nội bây giờ rất lạnh."
+          },
+          {
+            "japanese": "この辞書は少し高いです。",
+            "reading": "このじしょはすこしたかいです。",
+            "vietnamese": "Cuốn từ điển này hơi đắt."
+          },
+          {
+            "japanese": "日本語はとてもおもしろいです。",
+            "reading": "にほんごはとてもおもしろいです。",
+            "vietnamese": "Tiếng Nhật rất thú vị."
+          },
+          {
+            "japanese": "この部屋は少し狭いです。",
+            "reading": "このへやはすこしせまいです。",
+            "vietnamese": "Căn phòng này hơi hẹp."
+          },
+          {
+            "japanese": "昨日はとても暇でした。",
+            "reading": "きのうはとてもひまでした。",
+            "vietnamese": "Hôm qua tôi đã rất rảnh rỗi."
+          }
+        ]
+      },
+      {
+        "order": 6,
+        "title": "Phó từ 'Không... lắm'",
+        "pattern": "あまり + Aくない",
+        "meaning": "Không ... lắm",
+        "explanation": "Diễn tả mức độ thấp của một tính chất.",
+        "structures": [
+          "あまり + A phủ định",
+          "Đứng trước tính từ phủ định."
+        ],
+        "notes": [
+          "Luôn đi kèm với đuôi phủ định."
+        ],
+        "examples": [
+          {
+            "japanese": "この公園はあまり大きくないです。",
+            "reading": "このこうえんはあまりおおきくないです。",
+            "vietnamese": "Công viên này không lớn lắm."
+          },
+          {
+            "japanese": "日本語はあまり難しくないです。",
+            "reading": "にほんごはあまりむずかしくないです。",
+            "vietnamese": "Tiếng Nhật không khó lắm."
+          },
+          {
+            "japanese": "昨日はあまり寒くなかったです。",
+            "reading": "きのうはあまりさむくなかったです。",
+            "vietnamese": "Hôm qua không lạnh lắm."
+          },
+          {
+            "japanese": "この映画はあまりおもしろくないです。",
+            "reading": "このえいがはあまりおもしろくないです。",
+            "vietnamese": "Bộ phim này không hay lắm."
+          },
+          {
+            "japanese": "あのレストランはあまり有名じゃありません。",
+            "reading": "あのレストランはあまりゆうめいじゃありません。",
+            "vietnamese": "Nhà hàng kia không nổi tiếng lắm."
+          }
+        ]
+      },
+      {
+        "order": 7,
+        "title": "Sự hiện hữu (Vật)",
+        "pattern": "N1 に N2 が あります。",
+        "meaning": "Ở N1 có N2",
+        "explanation": "Diễn tả sự tồn tại của đồ vật, cây cối, địa điểm.",
+        "structures": [
+          "N địa điểm + に + N vật + が + あります",
+          "Địa điểm に Vật が あります"
+        ],
+        "notes": [
+          "あります dùng cho vật không tự di chuyển được."
+        ],
+        "examples": [
+          {
+            "japanese": "ハノイに山がありますか。",
+            "reading": "ハノイにやまがありますか。",
+            "vietnamese": "Ở Hà Nội có núi không?"
+          },
+          {
+            "japanese": "机の上に本があります。",
+            "reading": "つくえのうえにほんがあります。",
+            "vietnamese": "Có quyển sách ở trên bàn."
+          },
+          {
+            "japanese": "教室にテレビがあります。",
+            "reading": "きょうしつにテレビがあります。",
+            "vietnamese": "Trong lớp học có tivi."
+          },
+          {
+            "japanese": "公園に大きな木があります。",
+            "reading": "こうえんにおおきなきがあります。",
+            "vietnamese": "Trong công viên có cái cây lớn."
+          },
+          {
+            "japanese": "地下に駐車場があります。",
+            "reading": "ちかにちゅうしゃじょうがあります。",
+            "vietnamese": "Dưới hầm có bãi đỗ xe."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonCode": "LESSON-5",
+    "slug": "grammar-bai-5-qua-khu-so-thich-va-mong-muon",
+    "title": "Quá khứ, Sở thích và Mong muốn",
+    "description": "Học về thì quá khứ của động từ và tính từ, cách diễn tả sở thích và mong muốn.",
+    "order": 2,
+    "itemCount": 6,
+    "items": [
+      {
+        "order": 1,
+        "title": "Động từ thời quá khứ",
+        "pattern": "Vました / Vませんでした",
+        "meaning": "Đã làm / Đã không làm",
+        "explanation": "Diễn tả hành động đã xảy ra trong quá khứ.",
+        "structures": [
+          "Thay ます bằng ました (khẳng định) hoặc ませんでした (phủ định)",
+          "V-ます -> V-ました / V-ませんでした"
+        ],
+        "notes": [
+          "Lưu ý các trạng từ chỉ thời gian như きのう (hôm qua), おととい (hôm kia), けさ (sáng nay)."
+        ],
+        "examples": [
+          {
+            "japanese": "おととい、新宿へ行きました。",
+            "reading": "おととい、しんじゅくへいきました。",
+            "vietnamese": "Hôm kia tôi đã đi Shinjuku."
+          },
+          {
+            "japanese": "昨日は勉強しませんでした。",
+            "reading": "きのうはべんきょうしませんでした。",
+            "vietnamese": "Hôm qua tôi đã không học bài."
+          },
+          {
+            "japanese": "今朝、コーヒーを飲みました。",
+            "reading": "けさ、コーヒーをのみました。",
+            "vietnamese": "Sáng nay tôi đã uống cà phê."
+          },
+          {
+            "japanese": "土曜日に映画を見ました。",
+            "reading": "どようびにえいがをみました。",
+            "vietnamese": "Thứ bảy tôi đã xem phim."
+          },
+          {
+            "japanese": "昨日の夜は早く寝ました。",
+            "reading": "きのうのよるははやくねました。",
+            "vietnamese": "Tối qua tôi đã ngủ sớm."
+          }
+        ]
+      },
+      {
+        "order": 2,
+        "title": "Tính từ thời quá khứ",
+        "pattern": "A かったです / かったくないです",
+        "meaning": "Đã [tính chất] / Đã không [tính chất]",
+        "explanation": "Diễn tả cảm nghĩ, trạng thái trong quá khứ.",
+        "structures": [
+          "A-い: bỏ い thêm かったです / くなかったです",
+          "A-な / N: thêm でした / じゃありませんでした"
+        ],
+        "notes": [
+          "Rất quan trọng với tính từ đuôi い. Ngoại lệ: いい (tốt) -> よかったです / よくなかったです."
+        ],
+        "examples": [
+          {
+            "japanese": "旅行はとても楽しかったです。",
+            "reading": "りょこうはとてもたのしかったです。",
+            "vietnamese": "Chuyến du lịch đã rất vui."
+          },
+          {
+            "japanese": "昨日は寒くなかったです。",
+            "reading": "きのうはさむくなかったです。",
+            "vietnamese": "Hôm qua đã không lạnh."
+          },
+          {
+            "japanese": "試験は少し難しかったです。",
+            "reading": "しけんはすこしむずかしかったです。",
+            "vietnamese": "Kỳ thi đã hơi khó một chút."
+          },
+          {
+            "japanese": "天気はよかったです。",
+            "reading": "てんきはよかったです。",
+            "vietnamese": "Thời tiết đã rất tốt."
+          },
+          {
+            "japanese": "お祭りはとても賑やかでした。",
+            "reading": "おまつりはとてもにぎやかでした。",
+            "vietnamese": "Lễ hội đã rất nhộn nhịp."
+          }
+        ]
+      },
+      {
+        "order": 3,
+        "title": "Sở thích và sự ghét",
+        "pattern": "N が すきです / きらいです",
+        "meaning": "Thích N / Ghét N",
+        "explanation": "Bày tỏ cảm xúc yêu ghét đối với một đối tượng.",
+        "structures": [
+          "Danh từ + が + 好き / 嫌い + です",
+          "N が すきです / きらいです"
+        ],
+        "notes": [
+          "Trợ từ sử dụng là が, không phải を."
+        ],
+        "examples": [
+          {
+            "japanese": "私は日本のアニメが好きです。",
+            "reading": "わたしはにほんのアニメがすきです。",
+            "vietnamese": "Tôi thích phim hoạt hình Nhật Bản."
+          },
+          {
+            "japanese": "私は納豆が嫌いです。",
+            "reading": "わたしはなっとうがきらいです。",
+            "vietnamese": "Tôi ghét món Natto."
+          },
+          {
+            "japanese": "田中さんはサッカーが好きです。",
+            "reading": "たなかさんはサッカーがすきです。",
+            "vietnamese": "Anh Tanaka thích bóng đá."
+          },
+          {
+            "japanese": "私は甘い料理が嫌いです。",
+            "reading": "わたしはあまいりょうりがきらいです。",
+            "vietnamese": "Tôi ghét các món ăn ngọt."
+          },
+          {
+            "japanese": "どんな音楽が好きですか。",
+            "reading": "どんなおんがくがすきですか。",
+            "vietnamese": "Bạn thích loại nhạc nào?"
+          }
+        ]
+      },
+      {
+        "order": 4,
+        "title": "Mong muốn có đồ vật",
+        "pattern": "N が ほしいです",
+        "meaning": "Muốn có N",
+        "explanation": "Diễn tả nguyện vọng sở hữu một món đồ.",
+        "structures": [
+          "Danh từ + が + ほしい + です",
+          "N が ほしいです"
+        ],
+        "notes": [
+          "ほしい là một tính từ đuôi い, phủ định là ほしくないです."
+        ],
+        "examples": [
+          {
+            "japanese": "私はパソコンがほしいです。",
+            "reading": "わたしはパソコンがほしいです。",
+            "vietnamese": "Tôi muốn có một cái máy tính."
+          },
+          {
+            "japanese": "新しい靴が欲しいです。",
+            "reading": "あたらしいくつがほしいです。",
+            "vietnamese": "Tôi muốn có đôi giày mới."
+          },
+          {
+            "japanese": "誕生日にお金がほしいです。",
+            "reading": "たんじょうびにおかねがほしいです。",
+            "vietnamese": "Vào ngày sinh nhật tôi muốn có tiền."
+          },
+          {
+            "japanese": "私は広い家がほしいです。",
+            "reading": "わたしはひろいうちがほしいです。",
+            "vietnamese": "Tôi muốn có một ngôi nhà rộng."
+          },
+          {
+            "japanese": "今は何も欲しくないです。",
+            "reading": "いまはなにもほしくないです。",
+            "vietnamese": "Bây giờ tôi không muốn gì cả."
+          }
+        ]
+      },
+      {
+        "order": 5,
+        "title": "Mong muốn làm hành động",
+        "pattern": "Vたいです",
+        "meaning": "Muốn làm V",
+        "explanation": "Diễn tả nguyện vọng thực hiện một hành động.",
+        "structures": [
+          "V (bỏ ます) + たいです",
+          "Bỏ ます thêm たいです / たくないです"
+        ],
+        "notes": [
+          "Trợ từ を có thể chuyển thành が khi dùng với たい."
+        ],
+        "examples": [
+          {
+            "japanese": "私はコーヒーを（が）飲みたいです。",
+            "reading": "わたしはコーヒーを（が）のみたいです。",
+            "vietnamese": "Tôi muốn uống cà phê."
+          },
+          {
+            "japanese": "日本へ行きたいです。",
+            "reading": "にほんへいきたいです。",
+            "vietnamese": "Tôi muốn đi Nhật Bản."
+          },
+          {
+            "japanese": "おいしい寿司を食べたいです。",
+            "reading": "おいしいすしをたべたいです。",
+            "vietnamese": "Tôi muốn ăn sushi ngon."
+          },
+          {
+            "japanese": "今日はどこへも行きたくないです。",
+            "reading": "きょうはどこへもいきたくないです。",
+            "vietnamese": "Hôm nay tôi không muốn đi đâu cả."
+          },
+          {
+            "japanese": "週末は家でゆっくり休みたいです。",
+            "reading": "しゅうまつはうちでゆっくりやすみたいです。",
+            "vietnamese": "Cuối tuần tôi muốn ở nhà nghỉ ngơi thong thả."
+          }
+        ]
+      },
+      {
+        "order": 6,
+        "title": "Mục đích di chuyển",
+        "pattern": "N (địa điểm) へ V に行きます",
+        "meaning": "Đi đâu để làm gì",
+        "explanation": "Diễn tả mục đích của việc đi/đến/về.",
+        "structures": [
+          "N địa điểm + へ + V (bỏ ます) + に + 行きます / 来ます / 帰ります",
+          "Nへ [Vます/N] に 行きます"
+        ],
+        "notes": [
+          "V-masu bỏ masu hoặc N chỉ hành động (như 買い物)."
+        ],
+        "examples": [
+          {
+            "japanese": "新宿へ買い物に行きます。",
+            "reading": "しんじゅくへかいものにいきます。",
+            "vietnamese": "Tôi đi Shinjuku để mua sắm."
+          },
+          {
+            "japanese": "公園へ遊びに行きます。",
+            "reading": "こうえんへあそびにいきます。",
+            "vietnamese": "Tôi đi đến công viên để chơi."
+          },
+          {
+            "japanese": "デパートへ靴を買いに行きます。",
+            "reading": "デパートへくつをかいにいきます。",
+            "vietnamese": "Tôi đi đến bách hóa để mua giày."
+          },
+          {
+            "japanese": "日本へ日本語を勉強しに来ました。",
+            "reading": "にほんへにほんごをべんきょうしにきました。",
+            "vietnamese": "Tôi đã đến Nhật để học tiếng Nhật."
+          },
+          {
+            "japanese": "レストランへ昼ごはんを食べに行きます。",
+            "reading": "レストランへひるごはんをたべにいきます。",
+            "vietnamese": "Tôi đi đến nhà hàng để ăn trưa."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonCode": "LESSON-6",
+    "slug": "grammar-bai-6-ru-re-va-so-sanh",
+    "title": "Rủ rê và So sánh",
+    "description": "Học cách mời rủ, đề nghị cùng làm, và so sánh giữa các đối tượng.",
+    "order": 3,
+    "itemCount": 5,
+    "items": [
+      {
+        "order": 1,
+        "title": "Lời mời / Rủ rê",
+        "pattern": "Vませんか",
+        "meaning": "Cùng làm V nhé?",
+        "explanation": "Dùng để mời mọc đối phương làm gì đó một cách lịch sự.",
+        "structures": [
+          "Vませんか",
+          "Động từ chia thể phủ định + か"
+        ],
+        "notes": [
+          "Thường trả lời bằng いいですね (Được đấy)."
+        ],
+        "examples": [
+          {
+            "japanese": "晩ごはんを一緒に食べに行きませんか。",
+            "reading": "ばんごはんをいっしょにたべにいきませんか。",
+            "vietnamese": "Tối nay cùng đi ăn tối không?"
+          },
+          {
+            "japanese": "テニスをしませんか。",
+            "reading": "テニスをしませんか。",
+            "vietnamese": "Cùng chơi tennis không?"
+          },
+          {
+            "japanese": "明日、映画を見に行きませんか。",
+            "reading": "あした、えいがをみにいきませんか。",
+            "vietnamese": "Ngày mai cùng đi xem phim không?"
+          },
+          {
+            "japanese": "ちょっと休みませんか。",
+            "reading": "ちょっとやすみませんか。",
+            "vietnamese": "Nghỉ ngơi một lát không?"
+          },
+          {
+            "japanese": "お茶を飲みませんか。",
+            "reading": "おちゃをのみませんか。",
+            "vietnamese": "Uống trà nhé?"
+          }
+        ]
+      },
+      {
+        "order": 2,
+        "title": "Lời đề nghị / Cùng làm",
+        "pattern": "Vましょう",
+        "meaning": "Cùng làm V nào! (Let's...)",
+        "explanation": "Dùng để kêu gọi hoặc đồng ý với lời mời.",
+        "structures": [
+          "Vましょう",
+          "Bỏ ます thêm ましょう"
+        ],
+        "notes": [
+          "Mạnh mẽ hơn ませんか, thể hiện sự quyết tâm hoặc đồng thuận rõ ràng hơn."
+        ],
+        "examples": [
+          {
+            "japanese": "行きましょう。",
+            "reading": "いきましょう。",
+            "vietnamese": "Cùng đi nào!"
+          },
+          {
+            "japanese": "ちょっと休みましょう。",
+            "reading": "ちょっとやすみましょう。",
+            "vietnamese": "Chúng ta cùng nghỉ một lát nhé."
+          },
+          {
+            "japanese": "食べましょう。",
+            "reading": "たべましょう。",
+            "vietnamese": "Cùng ăn nào!"
+          },
+          {
+            "japanese": "始めましょう。",
+            "reading": "はじめましょう。",
+            "vietnamese": "Cùng bắt đầu nào!"
+          },
+          {
+            "japanese": "明日も会いましょう。",
+            "reading": "あしたもあいましょう。",
+            "vietnamese": "Ngày mai lại gặp nhé."
+          }
+        ]
+      },
+      {
+        "order": 3,
+        "title": "So sánh nhất",
+        "pattern": "N1 で N2 が いちばん A です",
+        "meaning": "Trong phạm vi N1 thì N2 là [tính chất] A nhất",
+        "explanation": "Diễn tả cái gì đó là nhất trong một nhóm.",
+        "structures": [
+          "Phạm vi + で + Đối tượng + が + いちばん + Tính từ + です",
+          "N1でN2が いちばんAです"
+        ],
+        "notes": [
+          "いちばん nghĩa là số 1 / nhất. Có thể dùng với tính từ đuôi い và đuôi な."
+        ],
+        "examples": [
+          {
+            "japanese": "スポーツで野球がいちばんおもしろいです。",
+            "reading": "スポーツでやきゅうがいちばんおもしろいです。",
+            "vietnamese": "Trong các môn thể thao, bóng chày là thú vị nhất."
+          },
+          {
+            "japanese": "クラスで誰が一番背が高いですか。",
+            "reading": "クラスでだれがいちばんせがたかいですか。",
+            "vietnamese": "Trong lớp ai là người cao nhất?"
+          },
+          {
+            "japanese": "一年でいつがいちばん暑いですか。",
+            "reading": "いちねんでいつがいちばんあついですか。",
+            "vietnamese": "Trong một năm, khi nào là nóng nhất?"
+          },
+          {
+            "japanese": "果物でリンゴがいちばん好きです。",
+            "reading": "くだものでりんごがいちばんすきです。",
+            "vietnamese": "Trong các loại quả, tôi thích táo nhất."
+          },
+          {
+            "japanese": "世界でどこがいちばんきれいですか。",
+            "reading": "せかいでどこがいちばんきれいですか。",
+            "vietnamese": "Trên thế giới, nơi nào là đẹp nhất?"
+          }
+        ]
+      },
+      {
+        "order": 4,
+        "title": "So sánh hơn",
+        "pattern": "N1 は N2 より A です",
+        "meaning": "N1 thì [tính chất] A hơn N2",
+        "explanation": "So sánh hai đối tượng với nhau.",
+        "structures": [
+          "N1 + は + N2 + より + Tính từ + です",
+          "N1はN2よりAです"
+        ],
+        "notes": [
+          "Đối tượng sau より là đối tượng làm chuẩn so sánh (đối tượng bị so sánh)."
+        ],
+        "examples": [
+          {
+            "japanese": "七月は八月より雨が多いです。",
+            "reading": "しちがつははちがつよりあめがおおいです。",
+            "vietnamese": "Tháng 7 mưa nhiều hơn tháng 8."
+          },
+          {
+            "japanese": "この鞄はその鞄より重いです。",
+            "reading": "このかばんはそのかばんよりおもいです。",
+            "vietnamese": "Cái túi này nặng hơn cái túi đó."
+          },
+          {
+            "japanese": "新幹線は電車より速いです。",
+            "reading": "しんかんせんはでんしゃよりはやいです。",
+            "vietnamese": "Tàu Shinkansen nhanh hơn tàu thường."
+          },
+          {
+            "japanese": "北海道は大阪より寒いです。",
+            "reading": "ほっかいどうはおおさかよりさむいです。",
+            "vietnamese": "Hokkaido lạnh hơn Osaka."
+          },
+          {
+            "japanese": "私は弟より背が高いです。",
+            "reading": "わたしはおとうとよりせがたかいです。",
+            "vietnamese": "Tôi cao hơn em trai."
+          }
+        ]
+      },
+      {
+        "order": 5,
+        "title": "Câu hỏi so sánh giữa 2 đối tượng",
+        "pattern": "N1 と N2 と どちらが A ですか",
+        "meaning": "N1 và N2, cái nào [tính chất] A hơn?",
+        "explanation": "Hỏi để lựa chọn một trong hai.",
+        "structures": [
+          "N1 + と + N2 + と + どちらが + Tính từ + ですか",
+          "N1とN2と どちらが Aですか"
+        ],
+        "notes": [
+          "Trả lời bằng: N のほうが A です (N thì [tính chất] A hơn)."
+        ],
+        "examples": [
+          {
+            "japanese": "夏と冬とどちらが好きですか。",
+            "reading": "なつとふゆとどちらがすきですか。",
+            "vietnamese": "Giữa mùa hè và mùa đông, bạn thích mùa nào hơn?"
+          },
+          {
+            "japanese": "リンゴと蜜柑とどちらが甘いですか。",
+            "reading": "りんごとみかんとどちらがあまいですか。",
+            "vietnamese": "Táo và quýt, cái nào ngọt hơn?"
+          },
+          {
+            "japanese": "テニスとサッカーとどちらがおもしろいですか。",
+            "reading": "テニスとサッカーとどちらがおもしろいですか。",
+            "vietnamese": "Tennis và bóng đá, cái nào thú vị hơn?"
+          },
+          {
+            "japanese": "お父さんとお母さんとどちらが厳しいですか。",
+            "reading": "おとうさんとおかあさんとどちらがきびしいですか。",
+            "vietnamese": "Bố và mẹ, ai nghiêm khắc hơn?"
+          },
+          {
+            "japanese": "肉と魚とどちらが健康にいいですか。",
+            "reading": "にくとさかなとどちらがけんこうにいいですか。",
+            "vietnamese": "Thịt và cá, cái nào tốt cho sức khỏe hơn?"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonCode": "LESSON-7",
+    "slug": "grammar-bai-7-su-hien-dien-va-dang-thuc-hien",
+    "title": "Sự hiện diện và Đang thực hiện",
+    "description": "Học về sự hiện diện của người/động vật, thể て và thì hiện tại tiếp diễn.",
+    "order": 4,
+    "itemCount": 5,
+    "items": [
+      {
+        "order": 1,
+        "title": "Sự hiện diện (Người/Động vật)",
+        "pattern": "N1 に N2 (Người/Động vật) が います",
+        "meaning": "Ở N1 có N2",
+        "explanation": "Diễn tả sự hiện diện của con người hoặc động vật. います dùng cho sinh vật sống tự di chuyển được.",
+        "structures": [
+          "Nđịa điểm + に + Nngười/động vật + が + います",
+          "Địa điểm に Người/Động vật が います"
+        ],
+        "notes": [
+          "います dùng cho sinh vật (người, động vật). あります dùng cho đồ vật, thực vật."
+        ],
+        "examples": [
+          {
+            "japanese": "あそこにパクさんがいます。",
+            "reading": "あそこにパクさんがいます。",
+            "vietnamese": "Anh Park ở đằng kia."
+          },
+          {
+            "japanese": "部屋に猫がいます。",
+            "reading": "へやにねこがいます。",
+            "vietnamese": "Có con mèo ở trong phòng."
+          },
+          {
+            "japanese": "公園に子供がいます。",
+            "reading": "こうえんにこどもがいます。",
+            "vietnamese": "Trong công viên có trẻ con."
+          },
+          {
+            "japanese": "庭に犬が二匹います。",
+            "reading": "にわにいぬがにひきいます。",
+            "vietnamese": "Trong sân có 2 con chó."
+          },
+          {
+            "japanese": "事務所に田中さんがいますか。",
+            "reading": "じむしょにたなかさんがいますか。",
+            "vietnamese": "Anh Tanaka có ở văn phòng không?"
+          }
+        ]
+      },
+      {
+        "order": 2,
+        "title": "Yêu cầu lịch sự",
+        "pattern": "Vて ください",
+        "meaning": "Xin hãy V",
+        "explanation": "Yêu cầu, nhờ vả hoặc chỉ dẫn đối phương làm gì. Thể て là cơ sở cho nhiều cấu trúc nâng cao.",
+        "structures": [
+          "Vて + ください",
+          "Động từ chia thể て + ください"
+        ],
+        "notes": [
+          "Thể て là dạng biến đổi của động từ. Cách chia phụ thuộc vào nhóm động từ (グループ1/2/3)."
+        ],
+        "examples": [
+          {
+            "japanese": "私の鞄をとってください。",
+            "reading": "わたしのかばんをとってください。",
+            "vietnamese": "Xin hãy lấy cặp của tôi."
+          },
+          {
+            "japanese": "ここに名前を書いてください。",
+            "reading": "ここになまえをかいてください。",
+            "vietnamese": "Xin hãy viết tên vào đây."
+          },
+          {
+            "japanese": "窓を開けてください。",
+            "reading": "まどをあけてください。",
+            "vietnamese": "Hãy mở cửa sổ giúp tôi."
+          },
+          {
+            "japanese": "少し待ってください。",
+            "reading": "すこしまってください。",
+            "vietnamese": "Xin hãy đợi một chút."
+          },
+          {
+            "japanese": "日本語で話してください。",
+            "reading": "にほんごではなしてください。",
+            "vietnamese": "Hãy nói bằng tiếng Nhật."
+          }
+        ]
+      },
+      {
+        "order": 3,
+        "title": "Thì hiện tại tiếp diễn",
+        "pattern": "Vて います",
+        "meaning": "Đang làm V",
+        "explanation": "Diễn tả hành động đang diễn ra tại thời điểm nói. Cũng dùng để diễn tả trạng thái kết quả.",
+        "structures": [
+          "Vて + います",
+          "Động từ chia thể て + います"
+        ],
+        "notes": [
+          "Ngoài hành động đang tiếp diễn, cũng dùng để diễn tả trạng thái hiện tại (kết quả của hành động đã xảy ra)."
+        ],
+        "examples": [
+          {
+            "japanese": "パクさんは電話をかけています。",
+            "reading": "パクさんはでんわをかけています。",
+            "vietnamese": "Anh Park đang gọi điện thoại."
+          },
+          {
+            "japanese": "今、雨が降っています。",
+            "reading": "いま、あめがふっています。",
+            "vietnamese": "Bây giờ trời đang mưa."
+          },
+          {
+            "japanese": "子供たちは公園で遊んでいます。",
+            "reading": "こどもたちはこうえんであそんでいます。",
+            "vietnamese": "Lũ trẻ đang chơi ở công viên."
+          },
+          {
+            "japanese": "私は日本語を勉強しています。",
+            "reading": "わたしはにほんごをべんきょうしています。",
+            "vietnamese": "Tôi đang học tiếng Nhật."
+          },
+          {
+            "japanese": "料理を作っています。",
+            "reading": "りょうりをつくっています。",
+            "vietnamese": "Tôi đang nấu ăn."
+          }
+        ]
+      },
+      {
+        "order": 4,
+        "title": "Đề nghị giúp đỡ",
+        "pattern": "Vましょうか",
+        "meaning": "Để tôi làm V nhé?",
+        "explanation": "Dùng khi muốn đề nghị làm giúp ai đó việc gì. Thường dùng khi thấy đối phương đang gặp khó khăn.",
+        "structures": [
+          "Vましょうか",
+          "Bỏ ます thêm ましょうか"
+        ],
+        "notes": [
+          "Khác với Vましょう (Let's...) — Vましょうか mang ý nghĩa đề nghị giúp đỡ một chiều, không phải cùng nhau làm."
+        ],
+        "examples": [
+          {
+            "japanese": "手伝いましょうか。",
+            "reading": "てつだいましょうか。",
+            "vietnamese": "Tôi giúp một tay nhé?"
+          },
+          {
+            "japanese": "窓を閉めましょうか。",
+            "reading": "まどをしめましょうか。",
+            "vietnamese": "Tôi đóng cửa sổ giúp bạn nhé?"
+          },
+          {
+            "japanese": "荷物を持ちましょうか。",
+            "reading": "にもつをもちましょうか。",
+            "vietnamese": "Để tôi bê hành lý giúp bạn nhé?"
+          },
+          {
+            "japanese": "タクシーを呼びましょうか。",
+            "reading": "タクシーをよびましょうか。",
+            "vietnamese": "Để tôi gọi taxi giúp bạn nhé?"
+          },
+          {
+            "japanese": "地図を書きましょうか。",
+            "reading": "ちずをかきましょうか。",
+            "vietnamese": "Để tôi vẽ bản đồ giúp nhé?"
+          }
+        ]
+      },
+      {
+        "order": 5,
+        "title": "Cách thức làm gì đó",
+        "pattern": "Vます かた",
+        "meaning": "Cách V",
+        "explanation": "Diễn tả cách thực hiện một hành động. Biến động từ thành một danh từ chỉ cách thức.",
+        "structures": [
+          "V(bỏ ます) + かた",
+          "Động từ bỏ ます thêm かた"
+        ],
+        "notes": [
+          "Sau khi thêm かた, từ trở thành danh từ nên có thể dùng trợ từ danh từ như を, の, が, etc."
+        ],
+        "examples": [
+          {
+            "japanese": "料理の作り方を教えてください。",
+            "reading": "りょうりのつくりかたをおしえてください。",
+            "vietnamese": "Xin hãy chỉ cho tôi cách nấu ăn."
+          },
+          {
+            "japanese": "この漢字の読み方を教えてください。",
+            "reading": "このかんじのよみかたをおしえてください。",
+            "vietnamese": "Xin hãy chỉ cho tôi cách đọc chữ Kanji này."
+          },
+          {
+            "japanese": "お箸の使い方を知っていますか。",
+            "reading": "おはしのつかいかたをしっていますか。",
+            "vietnamese": "Bạn có biết cách dùng đũa không?"
+          },
+          {
+            "japanese": "パソコンの使い方を習いました。",
+            "reading": "パソコンのつかいかたをならいました。",
+            "vietnamese": "Tôi đã học cách sử dụng máy tính."
+          },
+          {
+            "japanese": "この言葉の意味を教えてください。",
+            "reading": "このことばのいみをおしえてください。",
+            "vietnamese": "Hãy chỉ cho tôi ý nghĩa của từ này."
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,347 @@
+[
+  {
+    "order": 1,
+    "term": "食べ物",
+    "reading": "たべもの",
+    "romaji": "tabemono",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Đồ ăn",
+    "examples": [
+      {
+        "japanese": "日本の食べ物はとてもおいしいです。",
+        "reading": "にほんのたべものはとてもおいしいです。",
+        "vietnamese": "Đồ ăn Nhật Bản rất ngon."
+      }
+    ]
+  },
+  {
+    "order": 2,
+    "term": "飲み物",
+    "reading": "のみもの",
+    "romaji": "nomimono",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Đồ uống",
+    "examples": [
+      {
+        "japanese": "冷たい飲み物を飲みましょう。",
+        "reading": "つめたいのみものをのみましょう。",
+        "vietnamese": "Chúng ta hãy uống đồ uống lạnh nhé."
+      }
+    ]
+  },
+  {
+    "order": 3,
+    "term": "焼肉",
+    "reading": "やきにく",
+    "romaji": "yakiniku",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Thịt nướng",
+    "examples": [
+      {
+        "japanese": "友達と焼肉を食べに行きました。",
+        "reading": "ともだちとやきにくをたべにいきました。",
+        "vietnamese": "Tôi đã đi ăn thịt nướng cùng bạn bè."
+      }
+    ]
+  },
+  {
+    "order": 4,
+    "term": "ラーメン",
+    "reading": "ラーメン",
+    "romaji": "raamen",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Mỳ Nhật",
+    "examples": [
+      {
+        "japanese": "昼ご飯にラーメンを食べます。",
+        "reading": "ひるごはんにらーめんをたべます。",
+        "vietnamese": "Tôi ăn mỳ ramen vào bữa trưa."
+      }
+    ]
+  },
+  {
+    "order": 5,
+    "term": "食べ放題",
+    "reading": "たべほうだい",
+    "romaji": "tabehoudai",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Ăn buffet",
+    "examples": [
+      {
+        "japanese": "このレストランは食べ放題があります。",
+        "reading": "このれすとらんはたべほうだいがあります。",
+        "vietnamese": "Nhà hàng này có gói ăn buffet."
+      }
+    ]
+  },
+  {
+    "order": 6,
+    "term": "コース",
+    "reading": "コース",
+    "romaji": "koosu",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Suất ăn / khóa học",
+    "examples": [
+      {
+        "japanese": "ディナーのコースを注文しました。",
+        "reading": "でぃなーのこーすをちゅうもんしました。",
+        "vietnamese": "Tôi đã gọi suất ăn bữa tối."
+      }
+    ]
+  },
+  {
+    "order": 7,
+    "term": "居酒屋",
+    "reading": "いざかや",
+    "romaji": "izakaya",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Quán rượu",
+    "examples": [
+      {
+        "japanese": "仕事の後に居酒屋へ行きます。",
+        "reading": "しごとのあとにいざかやへいきます。",
+        "vietnamese": "Sau giờ làm tôi đi đến quán rượu izakaya."
+      }
+    ]
+  },
+  {
+    "order": 8,
+    "term": "映画館",
+    "reading": "えいがかん",
+    "romaji": "eigakan",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Rạp chiếu phim",
+    "examples": [
+      {
+        "japanese": "映画館で新しい映画を見ました。",
+        "reading": "えいがかんであたらしいえいがをみました。",
+        "vietnamese": "Tôi đã xem phim mới ở rạp chiếu phim."
+      }
+    ]
+  },
+  {
+    "order": 9,
+    "term": "地下鉄",
+    "reading": "ちかてつ",
+    "romaji": "chikatetsu",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Tàu điện ngầm",
+    "examples": [
+      {
+        "japanese": "地下鉄で会社へ通っています。",
+        "reading": "ちかてつでかいしゃへかよっています。",
+        "vietnamese": "Tôi đi làm bằng tàu điện ngầm."
+      }
+    ]
+  },
+  {
+    "order": 10,
+    "term": "歌手",
+    "reading": "かしゅ",
+    "romaji": "kashu",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Ca sĩ",
+    "examples": [
+      {
+        "japanese": "彼女はとても有名な歌手です。",
+        "reading": "かのじょはとてもゆうめいなかしゅです。",
+        "vietnamese": "Cô ấy là một ca sĩ rất nổi tiếng."
+      }
+    ]
+  },
+  {
+    "order": 11,
+    "term": "季節",
+    "reading": "きせつ",
+    "romaji": "kisetsu",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Mùa",
+    "examples": [
+      {
+        "japanese": "日本には四季という四つの季節があります。",
+        "reading": "にほんにはしきというよっつのきせつがあります。",
+        "vietnamese": "Ở Nhật Bản có 4 mùa gọi là tứ quý."
+      }
+    ]
+  },
+  {
+    "order": 12,
+    "term": "コメディー",
+    "reading": "コメディー",
+    "romaji": "komedii",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Hài kịch",
+    "examples": [
+      {
+        "japanese": "コメディー映画を見て笑いました。",
+        "reading": "こめでぃーえいがをみてわらいました。",
+        "vietnamese": "Tôi đã cười khi xem phim hài kịch."
+      }
+    ]
+  },
+  {
+    "order": 13,
+    "term": "ジャズ",
+    "reading": "ジャズ",
+    "romaji": "jazu",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Nhạc jazz",
+    "examples": [
+      {
+        "japanese": "カフェで静かなジャズを聴きます。",
+        "reading": "かふぇでしずかなじゃずをききます。",
+        "vietnamese": "Tôi nghe nhạc jazz êm dịu ở quán cà phê."
+      }
+    ]
+  },
+  {
+    "order": 14,
+    "term": "ツアー",
+    "reading": "ツアー",
+    "romaji": "tsuaa",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Tour du lịch",
+    "examples": [
+      {
+        "japanese": "京都のバスツアーに参加しました。",
+        "reading": "きょうとのばすつあーにさんかしました。",
+        "vietnamese": "Tôi đã tham gia tour xe buýt ở Kyoto."
+      }
+    ]
+  },
+  {
+    "order": 15,
+    "term": "どちら",
+    "reading": "どちら",
+    "romaji": "dochira",
+    "partOfSpeech": "Từ nghi vấn",
+    "meaning": "Bên nào",
+    "examples": [
+      {
+        "japanese": "肉と魚とどちらが好きですか。",
+        "reading": "にくとさかなとどちらがすきですか。",
+        "vietnamese": "Thịt và cá thì bạn thích bên nào hơn?"
+      }
+    ]
+  },
+  {
+    "order": 16,
+    "term": "どちらも",
+    "reading": "どちらも",
+    "romaji": "dochiramo",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "Bên nào cũng",
+    "examples": [
+      {
+        "japanese": "どちらもおいしいです。",
+        "reading": "どちらもおいしいです。",
+        "vietnamese": "Bên nào cũng ngon cả."
+      }
+    ]
+  },
+  {
+    "order": 17,
+    "term": "近い",
+    "reading": "ちかい",
+    "romaji": "chikai",
+    "partOfSpeech": "Tính từ đuôi i",
+    "meaning": "Gần",
+    "examples": [
+      {
+        "japanese": "駅から家まで近いです。",
+        "reading": "えきからいえまでちかいです。",
+        "vietnamese": "Từ nhà ga về đến nhà rất gần."
+      }
+    ]
+  },
+  {
+    "order": 18,
+    "term": "遠い",
+    "reading": "とおい",
+    "romaji": "tooi",
+    "partOfSpeech": "Tính từ đuôi i",
+    "meaning": "Xa",
+    "examples": [
+      {
+        "japanese": "会社まで少し遠いです。",
+        "reading": "かいしゃまですこしとおいです。",
+        "vietnamese": "Đến công ty hơi xa một chút."
+      }
+    ]
+  },
+  {
+    "order": 19,
+    "term": "早い",
+    "reading": "はやい",
+    "romaji": "hayai",
+    "partOfSpeech": "Tính từ đuôi i",
+    "meaning": "Sớm",
+    "examples": [
+      {
+        "japanese": "毎朝早く起きます。",
+        "reading": "まいあさはやくおきます。",
+        "vietnamese": "Mỗi sáng tôi dậy sớm."
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "term": "広い",
+    "reading": "ひろい",
+    "romaji": "hiroi",
+    "partOfSpeech": "Tính từ đuôi i",
+    "meaning": "Rộng",
+    "examples": [
+      {
+        "japanese": "この部屋は広くて明るいです。",
+        "reading": "このへやはひろくてあかるいです。",
+        "vietnamese": "Căn phòng này vừa rộng vừa sáng."
+      }
+    ]
+  },
+  {
+    "order": 21,
+    "term": "一番",
+    "reading": "いちばん",
+    "romaji": "ichiban",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "Nhất",
+    "examples": [
+      {
+        "japanese": "一年の中で春が一番好きです。",
+        "reading": "いちねんのなかではるがいちばんすきです。",
+        "vietnamese": "Trong một năm tôi thích mùa xuân nhất."
+      }
+    ]
+  },
+  {
+    "order": 22,
+    "term": "全部",
+    "reading": "ぜんぶ",
+    "romaji": "zenbu",
+    "partOfSpeech": "Danh từ/Trạng từ",
+    "meaning": "Toàn bộ",
+    "examples": [
+      {
+        "japanese": "宿題を全部終わらせました。",
+        "reading": "しゅくだいをぜんぶおわらせました。",
+        "vietnamese": "Tôi đã hoàn thành toàn bộ bài tập về nhà."
+      }
+    ]
+  },
+  {
+    "order": 23,
+    "term": "そうですねえ",
+    "reading": "そうですねえ",
+    "romaji": "soudesunee",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "Để xem nào",
+    "examples": [
+      {
+        "japanese": "「何を食べますか」「そうですねえ、寿司にしましょう」",
+        "reading": "「なにをたべますか」「そうですねえ、すしにしましょう」",
+        "vietnamese": "「Bạn ăn món gì?」「Để xem nào, ăn sushi đi」"
+      }
+    ]
+  }
+]

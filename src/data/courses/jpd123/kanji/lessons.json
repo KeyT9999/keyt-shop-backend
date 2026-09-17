@@ -1,0 +1,751 @@
+[
+  {
+    "lessonCode": "LESSON-4",
+    "slug": "kanji-bai-4-dia-diem-va-phuong-huong",
+    "title": "Địa điểm và Phương hướng",
+    "description": "Học 10 chữ Hán về địa điểm và các hướng trong tiếng Nhật",
+    "order": 1,
+    "itemCount": 10,
+    "items": [
+      {
+        "character": "東",
+        "meaning": ["phía đông"],
+        "onyomi": ["トウ"],
+        "kunyomi": ["ひがし"],
+        "strokeCount": 8,
+        "mnemonic": "Mặt trời mọc xuyên qua tán cây ở phía đông.",
+        "exampleWords": [
+          { "term": "東", "reading": "ひがし", "meaning": "Phía đông" },
+          { "term": "東京", "reading": "とうきょう", "meaning": "Tokyo" }
+        ],
+        "order": 1
+      },
+      {
+        "character": "京",
+        "meaning": ["kinh đô", "thủ đô"],
+        "onyomi": ["キョウ", "ケイ"],
+        "kunyomi": ["みやこ"],
+        "strokeCount": 8,
+        "mnemonic": "Ngôi nhà lớn trên đồi cao là nơi vua ở — kinh đô.",
+        "exampleWords": [
+          { "term": "東京", "reading": "とうきょう", "meaning": "Tokyo" },
+          { "term": "京都", "reading": "きょうと", "meaning": "Kyoto" }
+        ],
+        "order": 2
+      },
+      {
+        "character": "名",
+        "meaning": ["tên gọi"],
+        "onyomi": ["メイ", "ミョウ"],
+        "kunyomi": ["な"],
+        "strokeCount": 6,
+        "mnemonic": "Mặt trăng soi sáng buổi tối — gọi tên nhau dưới ánh trăng.",
+        "exampleWords": [
+          { "term": "名前", "reading": "なまえ", "meaning": "Tên" },
+          { "term": "有名", "reading": "ゆうめい", "meaning": "Nổi tiếng" }
+        ],
+        "order": 3
+      },
+      {
+        "character": "前",
+        "meaning": ["phía trước"],
+        "onyomi": ["ゼン"],
+        "kunyomi": ["まえ"],
+        "strokeCount": 9,
+        "mnemonic": "Chiếc thuyền và thanh kiếm tiến về phía trước.",
+        "exampleWords": [
+          { "term": "前", "reading": "まえ", "meaning": "Phía trước" },
+          { "term": "午前", "reading": "ごぜん", "meaning": "Buổi sáng (a.m.)" },
+          { "term": "前日", "reading": "ぜんじつ", "meaning": "Ngày trước đó" }
+        ],
+        "order": 4
+      },
+      {
+        "character": "国",
+        "meaning": ["quốc gia"],
+        "onyomi": ["コク"],
+        "kunyomi": ["くに"],
+        "strokeCount": 8,
+        "mnemonic": "Vùng đất được bao quanh bởi biên giới — quốc gia.",
+        "exampleWords": [
+          { "term": "国", "reading": "くに", "meaning": "Đất nước" },
+          { "term": "外国", "reading": "がいこく", "meaning": "Nước ngoài" },
+          { "term": "外国人", "reading": "がいこくじん", "meaning": "Người nước ngoài" }
+        ],
+        "order": 5
+      },
+      {
+        "character": "南",
+        "meaning": ["phía nam"],
+        "onyomi": ["ナン"],
+        "kunyomi": ["みなみ"],
+        "strokeCount": 9,
+        "mnemonic": "Phương Nam ấm áp có nhiều cây cối xanh tốt.",
+        "exampleWords": [
+          { "term": "南", "reading": "みなみ", "meaning": "Phía nam" },
+          { "term": "東南アジア", "reading": "とうなんアジア", "meaning": "Đông Nam Á" }
+        ],
+        "order": 6
+      },
+      {
+        "character": "女",
+        "meaning": ["phụ nữ"],
+        "onyomi": ["ジョ", "ニョ"],
+        "kunyomi": ["おんな"],
+        "strokeCount": 3,
+        "mnemonic": "Hình người phụ nữ đang cúi mình duyên dáng.",
+        "exampleWords": [
+          { "term": "女の人", "reading": "おんなのひと", "meaning": "Người phụ nữ" },
+          { "term": "男女", "reading": "だんじょ", "meaning": "Nam nữ" }
+        ],
+        "order": 7
+      },
+      {
+        "character": "男",
+        "meaning": ["nam giới"],
+        "onyomi": ["ダン", "ナン"],
+        "kunyomi": ["おとこ"],
+        "strokeCount": 7,
+        "mnemonic": "Người đàn ông làm việc trên cánh đồng dùng sức mạnh.",
+        "exampleWords": [
+          { "term": "男の人", "reading": "おとこのひと", "meaning": "Người đàn ông" },
+          { "term": "男女", "reading": "だんじょ", "meaning": "Nam nữ" }
+        ],
+        "order": 8
+      },
+      {
+        "character": "区",
+        "meaning": ["khu vực"],
+        "onyomi": ["ク"],
+        "kunyomi": [],
+        "strokeCount": 4,
+        "mnemonic": "Vùng đất được phân chia thành các khu nhỏ.",
+        "exampleWords": [
+          { "term": "〜区", "reading": "〜く", "meaning": "Quận ~" },
+          { "term": "新宿区", "reading": "しんじゅくく", "meaning": "Quận Shinjuku" }
+        ],
+        "order": 9
+      },
+      {
+        "character": "市",
+        "meaning": ["thành phố", "chợ"],
+        "onyomi": ["シ"],
+        "kunyomi": ["いち"],
+        "strokeCount": 5,
+        "mnemonic": "Nơi mọi người tụ họp để mua bán — chợ, thành phố.",
+        "exampleWords": [
+          { "term": "〜市", "reading": "〜し", "meaning": "Thành phố ~" },
+          { "term": "東京都", "reading": "とうきょうと", "meaning": "Tokyo Metropolitan" }
+        ],
+        "order": 10
+      }
+    ],
+    "vocabularyItems": [
+      { "term": "東", "reading": "ひがし", "meaning": "phía đông" },
+      { "term": "東京", "reading": "とうきょう", "meaning": "Tokyo" },
+      { "term": "午前", "reading": "ごぜん", "meaning": "a.m" },
+      { "term": "前日", "reading": "ぜんじつ", "meaning": "ngày trước đó" },
+      { "term": "名前", "reading": "なまえ", "meaning": "tên" },
+      { "term": "国", "reading": "くに", "meaning": "đất nước, quốc gia" },
+      { "term": "外国", "reading": "がいこく", "meaning": "nước ngoài" },
+      { "term": "男の人", "reading": "おとこのひと", "meaning": "người đàn ông" },
+      { "term": "女の人", "reading": "おんなのひと", "meaning": "người phụ nữ" },
+      { "term": "〜区", "reading": "〜く", "meaning": "quận ~" },
+      { "term": "〜市", "reading": "〜し", "meaning": "Thành phố ~" },
+      { "term": "前", "reading": "まえ", "meaning": "phía trước" },
+      { "term": "京都", "reading": "きょうと", "meaning": "Kyoto" },
+      { "term": "外国人", "reading": "がいこくじん", "meaning": "người nước ngoài" },
+      { "term": "男女", "reading": "だんじょ", "meaning": "nam nữ" }
+    ]
+  },
+  {
+    "lessonCode": "LESSON-5",
+    "slug": "kanji-bai-5-hanh-dong-va-nghi-ngoi",
+    "title": "Hành động và Nghỉ ngơi",
+    "description": "Học 12 chữ Hán miêu tả các hoạt động thường ngày và nghỉ ngơi",
+    "order": 2,
+    "itemCount": 12,
+    "items": [
+      {
+        "character": "先",
+        "meaning": ["trước", "đầu tiên"],
+        "onyomi": ["セン"],
+        "kunyomi": ["さき"],
+        "strokeCount": 6,
+        "mnemonic": "Người đi trước dẫn đường bằng đôi chân và đầu óc.",
+        "exampleWords": [
+          { "term": "先生", "reading": "せんせい", "meaning": "Thầy/cô giáo" },
+          { "term": "先週", "reading": "せんしゅう", "meaning": "Tuần trước" },
+          { "term": "先日", "reading": "せんじつ", "meaning": "Vài ngày trước" }
+        ],
+        "order": 1
+      },
+      {
+        "character": "週",
+        "meaning": ["tuần lễ"],
+        "onyomi": ["シュウ"],
+        "kunyomi": [],
+        "strokeCount": 11,
+        "mnemonic": "Đi vòng quanh một tuần — chu kỳ 7 ngày.",
+        "exampleWords": [
+          { "term": "先週", "reading": "せんしゅう", "meaning": "Tuần trước" },
+          { "term": "来週", "reading": "らいしゅう", "meaning": "Tuần sau" },
+          { "term": "一週間", "reading": "いっしゅうかん", "meaning": "1 tuần" }
+        ],
+        "order": 2
+      },
+      {
+        "character": "毎",
+        "meaning": ["mỗi", "mọi"],
+        "onyomi": ["マイ"],
+        "kunyomi": ["ごと"],
+        "strokeCount": 6,
+        "mnemonic": "Người mẹ chăm sóc mỗi ngày không ngừng nghỉ.",
+        "exampleWords": [
+          { "term": "毎日", "reading": "まいにち", "meaning": "Mỗi ngày" },
+          { "term": "毎週", "reading": "まいしゅう", "meaning": "Mỗi tuần" },
+          { "term": "毎月", "reading": "まいつき", "meaning": "Mỗi tháng" },
+          { "term": "毎年", "reading": "まいとし", "meaning": "Mỗi năm" }
+        ],
+        "order": 3
+      },
+      {
+        "character": "午",
+        "meaning": ["buổi trưa", "giờ Ngọ"],
+        "onyomi": ["ゴ"],
+        "kunyomi": [],
+        "strokeCount": 4,
+        "mnemonic": "Cột mốc giữa ngày — giờ Ngọ, chính Ngọ.",
+        "exampleWords": [
+          { "term": "午前", "reading": "ごぜん", "meaning": "Buổi sáng (a.m.)" },
+          { "term": "午後", "reading": "ごご", "meaning": "Buổi chiều (p.m.)" }
+        ],
+        "order": 4
+      },
+      {
+        "character": "後",
+        "meaning": ["phía sau", "sau này"],
+        "onyomi": ["ゴ", "コウ"],
+        "kunyomi": ["あと", "うしろ", "のち"],
+        "strokeCount": 9,
+        "mnemonic": "Bước chậm lại phía sau người đi trước.",
+        "exampleWords": [
+          { "term": "後ろ", "reading": "うしろ", "meaning": "Phía sau" },
+          { "term": "後", "reading": "あと", "meaning": "Sau đó" },
+          { "term": "午後", "reading": "ごご", "meaning": "Buổi chiều (p.m.)" },
+          { "term": "前後", "reading": "ぜんご", "meaning": "Trước sau" }
+        ],
+        "order": 5
+      },
+      {
+        "character": "見",
+        "meaning": ["nhìn", "thấy"],
+        "onyomi": ["ケン"],
+        "kunyomi": ["みる", "みえる"],
+        "strokeCount": 7,
+        "mnemonic": "Con mắt trên đôi chân — nhìn xem khắp nơi.",
+        "exampleWords": [
+          { "term": "見ます", "reading": "みます", "meaning": "Nhìn" },
+          { "term": "見学", "reading": "けんがく", "meaning": "Tham quan kiến tập" },
+          { "term": "見物", "reading": "けんぶつ", "meaning": "Tham quan" }
+        ],
+        "order": 6
+      },
+      {
+        "character": "食",
+        "meaning": ["ăn", "thức ăn"],
+        "onyomi": ["ショク", "ジキ"],
+        "kunyomi": ["たべる"],
+        "strokeCount": 9,
+        "mnemonic": "Cơm đặt trong bát để ăn — thức ăn nuôi sống con người.",
+        "exampleWords": [
+          { "term": "食べます", "reading": "たべます", "meaning": "Ăn" },
+          { "term": "食事", "reading": "しょくじ", "meaning": "Bữa ăn" },
+          { "term": "食べ物", "reading": "たべもの", "meaning": "Đồ ăn" },
+          { "term": "飲食", "reading": "いんしょく", "meaning": "Ẩm thực" }
+        ],
+        "order": 7
+      },
+      {
+        "character": "飲",
+        "meaning": ["uống"],
+        "onyomi": ["イン"],
+        "kunyomi": ["のむ"],
+        "strokeCount": 12,
+        "mnemonic": "Cúi đầu xuống uống nước từ cái bình.",
+        "exampleWords": [
+          { "term": "飲みます", "reading": "のみます", "meaning": "Uống" },
+          { "term": "飲み物", "reading": "のみもの", "meaning": "Đồ uống" },
+          { "term": "飲食", "reading": "いんしょく", "meaning": "Ẩm thực" },
+          { "term": "飲み水", "reading": "のみみず", "meaning": "Nước uống" }
+        ],
+        "order": 8
+      },
+      {
+        "character": "買",
+        "meaning": ["mua"],
+        "onyomi": ["バイ"],
+        "kunyomi": ["かう"],
+        "strokeCount": 12,
+        "mnemonic": "Lưới bắt tiền — mua hàng bằng tiền.",
+        "exampleWords": [
+          { "term": "買います", "reading": "かいます", "meaning": "Mua" },
+          { "term": "買い物", "reading": "かいもの", "meaning": "Mua sắm" }
+        ],
+        "order": 9
+      },
+      {
+        "character": "物",
+        "meaning": ["đồ vật"],
+        "onyomi": ["ブツ", "モツ"],
+        "kunyomi": ["もの"],
+        "strokeCount": 8,
+        "mnemonic": "Con trâu kéo đồ vật nặng nề.",
+        "exampleWords": [
+          { "term": "物", "reading": "もの", "meaning": "Đồ vật" },
+          { "term": "買い物", "reading": "かいもの", "meaning": "Mua sắm" },
+          { "term": "食べ物", "reading": "たべもの", "meaning": "Đồ ăn" },
+          { "term": "飲み物", "reading": "のみもの", "meaning": "Đồ uống" },
+          { "term": "人物", "reading": "じんぶつ", "meaning": "Nhân vật" },
+          { "term": "見物", "reading": "けんぶつ", "meaning": "Tham quan" }
+        ],
+        "order": 10
+      },
+      {
+        "character": "行",
+        "meaning": ["đi", "thực hiện"],
+        "onyomi": ["コウ", "ギョウ"],
+        "kunyomi": ["いく", "ゆく", "おこなう"],
+        "strokeCount": 6,
+        "mnemonic": "Ngã tư đường — đi ra ngoài bước vào thế giới.",
+        "exampleWords": [
+          { "term": "行きます", "reading": "いきます", "meaning": "Đi" },
+          { "term": "旅行", "reading": "りょこう", "meaning": "Du lịch" },
+          { "term": "銀行", "reading": "ぎんこう", "meaning": "Ngân hàng" }
+        ],
+        "order": 11
+      },
+      {
+        "character": "休",
+        "meaning": ["nghỉ ngơi"],
+        "onyomi": ["キュウ"],
+        "kunyomi": ["やすむ"],
+        "strokeCount": 6,
+        "mnemonic": "Người tựa vào cây nghỉ ngơi dưới bóng mát.",
+        "exampleWords": [
+          { "term": "休みます", "reading": "やすみます", "meaning": "Nghỉ" },
+          { "term": "休み", "reading": "やすみ", "meaning": "Kỳ nghỉ" },
+          { "term": "休日", "reading": "きゅうじつ", "meaning": "Ngày nghỉ" },
+          { "term": "休みの日", "reading": "やすみのひ", "meaning": "Ngày nghỉ" }
+        ],
+        "order": 12
+      }
+    ],
+    "vocabularyItems": [
+      { "term": "先生", "reading": "せんせい", "meaning": "thầy/cô giáo" },
+      { "term": "先日", "reading": "せんじつ", "meaning": "vài ngày trước" },
+      { "term": "先月", "reading": "せんげつ", "meaning": "tháng trước" },
+      { "term": "先週", "reading": "せんしゅう", "meaning": "tuần trước" },
+      { "term": "一週間", "reading": "いっしゅうかん", "meaning": "1 tuần" },
+      { "term": "毎日", "reading": "まいにち", "meaning": "mỗi ngày" },
+      { "term": "毎週", "reading": "まいしゅう", "meaning": "mỗi tuần" },
+      { "term": "毎年", "reading": "まいとし/まいねん", "meaning": "mỗi năm" },
+      { "term": "毎月", "reading": "まいつき", "meaning": "mỗi tháng" },
+      { "term": "後ろ", "reading": "うしろ", "meaning": "phía sau" },
+      { "term": "後", "reading": "あと", "meaning": "sau đó" },
+      { "term": "午後", "reading": "ごご", "meaning": "p.m" },
+      { "term": "前後", "reading": "ぜんご", "meaning": "trước sau" },
+      { "term": "見ます", "reading": "みます", "meaning": "nhìn" },
+      { "term": "見学", "reading": "けんがく", "meaning": "tham quan kiến tập" },
+      { "term": "食べます", "reading": "たべます", "meaning": "ăn" },
+      { "term": "食事", "reading": "しょくじ", "meaning": "ăn, bữa ăn" },
+      { "term": "飲みます", "reading": "のみます", "meaning": "uống" },
+      { "term": "飲食", "reading": "いんしょく", "meaning": "ẩm thực" },
+      { "term": "飲み水", "reading": "のみみず", "meaning": "nước uống" },
+      { "term": "休みます", "reading": "やすみます", "meaning": "nghỉ" },
+      { "term": "休みの日", "reading": "やすみのひ", "meaning": "ngày nghỉ" },
+      { "term": "休日", "reading": "きゅうじつ", "meaning": "ngày nghỉ" },
+      { "term": "買います", "reading": "かいます", "meaning": "mua" },
+      { "term": "物", "reading": "もの", "meaning": "đồ vật" },
+      { "term": "買い物", "reading": "かいもの", "meaning": "mua sắm" },
+      { "term": "食べ物", "reading": "たべもの", "meaning": "đồ ăn" },
+      { "term": "飲み物", "reading": "のみもの", "meaning": "đồ uống" },
+      { "term": "人物", "reading": "じんぶつ", "meaning": "nhân vật" },
+      { "term": "見物", "reading": "けんぶつ", "meaning": "tham quan" },
+      { "term": "行きます", "reading": "いきます", "meaning": "đi" }
+    ]
+  },
+  {
+    "lessonCode": "LESSON-6",
+    "slug": "kanji-bai-6-giao-tiep-va-sinh-hoat",
+    "title": "Giao tiếp và Sinh hoạt",
+    "description": "Học 9 chữ Hán về sinh hoạt và tương tác hàng ngày",
+    "order": 3,
+    "itemCount": 9,
+    "items": [
+      {
+        "character": "今",
+        "meaning": ["bây giờ", "hiện tại"],
+        "onyomi": ["コン", "キン"],
+        "kunyomi": ["いま"],
+        "strokeCount": 4,
+        "mnemonic": "Mái nhà che chở cho người trong thời điểm hiện tại.",
+        "exampleWords": [
+          { "term": "今", "reading": "いま", "meaning": "Bây giờ" },
+          { "term": "今日", "reading": "きょう", "meaning": "Hôm nay" },
+          { "term": "今週", "reading": "こんしゅう", "meaning": "Tuần này" },
+          { "term": "今月", "reading": "こんげつ", "meaning": "Tháng này" },
+          { "term": "今年", "reading": "ことし", "meaning": "Năm nay" }
+        ],
+        "order": 1
+      },
+      {
+        "character": "来",
+        "meaning": ["đến"],
+        "onyomi": ["ライ"],
+        "kunyomi": ["くる", "きたる"],
+        "strokeCount": 7,
+        "mnemonic": "Người từ xa đến với bước chân từ tám hướng.",
+        "exampleWords": [
+          { "term": "来ます", "reading": "きます", "meaning": "Đến" },
+          { "term": "来週", "reading": "らいしゅう", "meaning": "Tuần sau" },
+          { "term": "来月", "reading": "らいげつ", "meaning": "Tháng sau" },
+          { "term": "来年", "reading": "らいねん", "meaning": "Năm sau" },
+          { "term": "来日", "reading": "らいにち", "meaning": "Đến Nhật Bản" }
+        ],
+        "order": 2
+      },
+      {
+        "character": "帰",
+        "meaning": ["trở về"],
+        "onyomi": ["キ"],
+        "kunyomi": ["かえる"],
+        "strokeCount": 10,
+        "mnemonic": "Bước chân quay về nhà — trở về nơi xuất phát.",
+        "exampleWords": [
+          { "term": "帰ります", "reading": "かえります", "meaning": "Về" },
+          { "term": "日帰り", "reading": "ひがえり", "meaning": "Đi về trong ngày" },
+          { "term": "帰国", "reading": "きこく", "meaning": "Về nước" }
+        ],
+        "order": 3
+      },
+      {
+        "character": "会",
+        "meaning": ["gặp gỡ", "hội họp"],
+        "onyomi": ["カイ", "エ"],
+        "kunyomi": ["あう"],
+        "strokeCount": 6,
+        "mnemonic": "Người và người gặp nhau dưới một mái nhà chung.",
+        "exampleWords": [
+          { "term": "会います", "reading": "あいます", "meaning": "Gặp" },
+          { "term": "会社", "reading": "かいしゃ", "meaning": "Công ty" },
+          { "term": "会話", "reading": "かいわ", "meaning": "Hội thoại" },
+          { "term": "飲み会", "reading": "のみかい", "meaning": "Nhậu" },
+          { "term": "国会", "reading": "こっかい", "meaning": "Quốc hội" },
+          { "term": "会見", "reading": "かいけん", "meaning": "Họp báo" }
+        ],
+        "order": 4
+      },
+      {
+        "character": "社",
+        "meaning": ["xã hội", "công ty", "đền thờ"],
+        "onyomi": ["シャ"],
+        "kunyomi": ["やしろ"],
+        "strokeCount": 7,
+        "mnemonic": "Nơi thờ thần đất — từ đền thờ đến xã hội rộng lớn.",
+        "exampleWords": [
+          { "term": "会社", "reading": "かいしゃ", "meaning": "Công ty" },
+          { "term": "社会", "reading": "しゃかい", "meaning": "Xã hội" }
+        ],
+        "order": 5
+      },
+      {
+        "character": "聞",
+        "meaning": ["nghe", "hỏi"],
+        "onyomi": ["ブン", "モン"],
+        "kunyomi": ["きく", "きこえる"],
+        "strokeCount": 14,
+        "mnemonic": "Tai đặt ở cửa để nghe tin tức — nghe ngóng.",
+        "exampleWords": [
+          { "term": "聞きます", "reading": "ききます", "meaning": "Nghe" },
+          { "term": "新聞", "reading": "しんぶん", "meaning": "Báo" }
+        ],
+        "order": 6
+      },
+      {
+        "character": "読",
+        "meaning": ["đọc"],
+        "onyomi": ["ドク", "トク"],
+        "kunyomi": ["よむ"],
+        "strokeCount": 14,
+        "mnemonic": "Bán từng từ đọc ra — bán chữ để thu hiểu biết.",
+        "exampleWords": [
+          { "term": "読みます", "reading": "よみます", "meaning": "Đọc" },
+          { "term": "読み物", "reading": "よみもの", "meaning": "Tài liệu đọc" },
+          { "term": "読書", "reading": "どくしょ", "meaning": "Đọc sách" }
+        ],
+        "order": 7
+      },
+      {
+        "character": "書",
+        "meaning": ["viết", "sách"],
+        "onyomi": ["ショ"],
+        "kunyomi": ["かく"],
+        "strokeCount": 10,
+        "mnemonic": "Cây bút vẽ chữ trên tờ giấy — viết lách.",
+        "exampleWords": [
+          { "term": "書きます", "reading": "かきます", "meaning": "Viết" },
+          { "term": "読書", "reading": "どくしょ", "meaning": "Đọc sách" },
+          { "term": "辞書", "reading": "じしょ", "meaning": "Từ điển" },
+          { "term": "書き物", "reading": "かきもの", "meaning": "Tài liệu viết" }
+        ],
+        "order": 8
+      },
+      {
+        "character": "話",
+        "meaning": ["trò chuyện", "câu chuyện"],
+        "onyomi": ["ワ"],
+        "kunyomi": ["はなす", "はなし"],
+        "strokeCount": 13,
+        "mnemonic": "Lời nói từ miệng — ngôn ngữ tạo nên câu chuyện.",
+        "exampleWords": [
+          { "term": "話します", "reading": "はなします", "meaning": "Nói chuyện" },
+          { "term": "話", "reading": "はなし", "meaning": "Câu chuyện" },
+          { "term": "会話", "reading": "かいわ", "meaning": "Hội thoại" },
+          { "term": "電話", "reading": "でんわ", "meaning": "Điện thoại" }
+        ],
+        "order": 9
+      }
+    ],
+    "vocabularyItems": [
+      { "term": "今年", "reading": "ことし", "meaning": "năm nay" },
+      { "term": "今日", "reading": "きょう", "meaning": "hôm nay" },
+      { "term": "今月", "reading": "こんげつ", "meaning": "tháng này" },
+      { "term": "今週", "reading": "こんしゅう", "meaning": "tuần này" },
+      { "term": "来ます", "reading": "きます", "meaning": "đến" },
+      { "term": "来週", "reading": "らいしゅう", "meaning": "tuần sau" },
+      { "term": "来月", "reading": "らいげつ", "meaning": "tháng sau" },
+      { "term": "来年", "reading": "らいねん", "meaning": "năm sau" },
+      { "term": "来日", "reading": "らいにち", "meaning": "đến Nhật Bản" },
+      { "term": "帰ります", "reading": "かえります", "meaning": "về" },
+      { "term": "日帰り", "reading": "ひがえり", "meaning": "đi về trong ngày" },
+      { "term": "帰国", "reading": "きこく", "meaning": "về nước" },
+      { "term": "会います", "reading": "あいます", "meaning": "gặp" },
+      { "term": "飲み会", "reading": "のみかい", "meaning": "nhậu" },
+      { "term": "国会", "reading": "こっかい", "meaning": "quốc hội" },
+      { "term": "会見", "reading": "かいけん", "meaning": "họp báo" },
+      { "term": "会社", "reading": "かいしゃ", "meaning": "công ty" },
+      { "term": "社会", "reading": "しゃかい", "meaning": "xã hội" },
+      { "term": "聞きます", "reading": "ききます", "meaning": "nghe" },
+      { "term": "新聞", "reading": "しんぶん", "meaning": "báo" },
+      { "term": "読みます", "reading": "よみます", "meaning": "đọc" },
+      { "term": "読み物", "reading": "よみもの", "meaning": "tài liệu đọc" },
+      { "term": "書きます", "reading": "かきます", "meaning": "viết" },
+      { "term": "読書", "reading": "どくしょ", "meaning": "đọc sách" },
+      { "term": "話します", "reading": "はなします", "meaning": "nói chuyện" },
+      { "term": "話", "reading": "はなし", "meaning": "câu chuyện" },
+      { "term": "会話", "reading": "かいわ", "meaning": "hội thoại" },
+      { "term": "電話", "reading": "でんわ", "meaning": "điện thoại" },
+      { "term": "今", "reading": "いま", "meaning": "bây giờ" },
+      { "term": "辞書", "reading": "じしょ", "meaning": "từ điển" },
+      { "term": "書き物", "reading": "かきもの", "meaning": "tài liệu viết" }
+    ]
+  },
+  {
+    "lessonCode": "LESSON-7",
+    "slug": "kanji-bai-7-tu-nhien-va-co-ban",
+    "title": "Tự nhiên và Cơ bản",
+    "description": "Học 11 chữ Hán về các yếu tố tự nhiên và cơ bản",
+    "order": 4,
+    "itemCount": 11,
+    "items": [
+      {
+        "character": "寺",
+        "meaning": ["chùa"],
+        "onyomi": ["ジ"],
+        "kunyomi": ["てら"],
+        "strokeCount": 6,
+        "mnemonic": "Đất đai và tay người xây nên ngôi chùa thờ Phật.",
+        "exampleWords": [
+          { "term": "お寺", "reading": "おてら", "meaning": "Chùa" },
+          { "term": "金閣寺", "reading": "きんかくじ", "meaning": "Chùa Vàng Kinkakuji" }
+        ],
+        "order": 1
+      },
+      {
+        "character": "言",
+        "meaning": ["nói", "ngôn từ"],
+        "onyomi": ["ゴン", "ゲン"],
+        "kunyomi": ["いう", "こと"],
+        "strokeCount": 7,
+        "mnemonic": "Lời nói phát ra từ miệng — ngôn ngữ của con người.",
+        "exampleWords": [
+          { "term": "言います", "reading": "いいます", "meaning": "Nói" },
+          { "term": "言語", "reading": "げんご", "meaning": "Ngôn ngữ" },
+          { "term": "言葉", "reading": "ことば", "meaning": "Từ vựng, ngôn từ" }
+        ],
+        "order": 2
+      },
+      {
+        "character": "貝",
+        "meaning": ["vỏ sò", "tiền tệ"],
+        "onyomi": ["バイ"],
+        "kunyomi": ["かい"],
+        "strokeCount": 7,
+        "mnemonic": "Vỏ sò có mắt nhìn — tiền tệ thời xưa dùng vỏ sò.",
+        "exampleWords": [
+          { "term": "貝", "reading": "かい", "meaning": "Con sò, vỏ sò" }
+        ],
+        "order": 3
+      },
+      {
+        "character": "田",
+        "meaning": ["ruộng"],
+        "onyomi": ["デン"],
+        "kunyomi": ["た"],
+        "strokeCount": 5,
+        "mnemonic": "Ruộng lúa được chia thành các ô vuông bởi bờ ruộng.",
+        "exampleWords": [
+          { "term": "田んぼ", "reading": "たんぼ", "meaning": "Cánh đồng" },
+          { "term": "水田", "reading": "すいでん", "meaning": "Cánh đồng lúa nước" },
+          { "term": "田中", "reading": "たなか", "meaning": "Tanaka (họ người)" }
+        ],
+        "order": 4
+      },
+      {
+        "character": "力",
+        "meaning": ["sức lực"],
+        "onyomi": ["リョク", "リキ"],
+        "kunyomi": ["ちから"],
+        "strokeCount": 2,
+        "mnemonic": "Cánh tay cơ bắp gồng lên tạo ra sức mạnh.",
+        "exampleWords": [
+          { "term": "力", "reading": "ちから", "meaning": "Sức lực" },
+          { "term": "水力", "reading": "すいりょく", "meaning": "Sức nước" },
+          { "term": "火力", "reading": "かりょく", "meaning": "Hỏa lực" }
+        ],
+        "order": 5
+      },
+      {
+        "character": "門",
+        "meaning": ["cửa", "cổng"],
+        "onyomi": ["モン"],
+        "kunyomi": ["かど"],
+        "strokeCount": 8,
+        "mnemonic": "Hai cánh cửa khép lại tạo thành cổng ra vào.",
+        "exampleWords": [
+          { "term": "門", "reading": "もん", "meaning": "Cổng, cửa" },
+          { "term": "専門", "reading": "せんもん", "meaning": "Chuyên môn" }
+        ],
+        "order": 6
+      },
+      {
+        "character": "肉",
+        "meaning": ["thịt"],
+        "onyomi": ["ニク"],
+        "kunyomi": [],
+        "strokeCount": 6,
+        "mnemonic": "Hình khối thịt được cắt ra từ cơ thể động vật.",
+        "exampleWords": [
+          { "term": "肉", "reading": "にく", "meaning": "Thịt" },
+          { "term": "牛肉", "reading": "ぎゅうにく", "meaning": "Thịt bò" },
+          { "term": "豚肉", "reading": "ぶたにく", "meaning": "Thịt heo" },
+          { "term": "鶏肉", "reading": "とりにく", "meaning": "Thịt gà" }
+        ],
+        "order": 7
+      },
+      {
+        "character": "料",
+        "meaning": ["nguyên liệu", "tài liệu", "phí"],
+        "onyomi": ["リョウ"],
+        "kunyomi": [],
+        "strokeCount": 10,
+        "mnemonic": "Lúa đong đo — nguyên liệu, phí tổn cần tính toán.",
+        "exampleWords": [
+          { "term": "料金", "reading": "りょうきん", "meaning": "Tiền phí" },
+          { "term": "料理", "reading": "りょうり", "meaning": "Món ăn, nấu ăn" }
+        ],
+        "order": 8
+      },
+      {
+        "character": "理",
+        "meaning": ["lý lẽ", "logic", "địa lý"],
+        "onyomi": ["リ"],
+        "kunyomi": [],
+        "strokeCount": 11,
+        "mnemonic": "Ngọc được mài giũa theo lý lẽ — cái đẹp có quy tắc.",
+        "exampleWords": [
+          { "term": "料理", "reading": "りょうり", "meaning": "Nấu ăn" },
+          { "term": "地理", "reading": "ちり", "meaning": "Địa lý" },
+          { "term": "理由", "reading": "りゆう", "meaning": "Lý do" }
+        ],
+        "order": 9
+      },
+      {
+        "character": "野",
+        "meaning": ["cánh đồng", "hoang dã"],
+        "onyomi": ["ヤ"],
+        "kunyomi": ["の"],
+        "strokeCount": 11,
+        "mnemonic": "Mảnh đất rộng mở không người ở — hoang dã, đồng quê.",
+        "exampleWords": [
+          { "term": "野菜", "reading": "やさい", "meaning": "Rau" },
+          { "term": "野球", "reading": "やきゅう", "meaning": "Bóng chày" }
+        ],
+        "order": 10
+      },
+      {
+        "character": "半",
+        "meaning": ["một nửa"],
+        "onyomi": ["ハン"],
+        "kunyomi": ["なかば"],
+        "strokeCount": 5,
+        "mnemonic": "Vật bị cắt đôi từ trên xuống — một nửa.",
+        "exampleWords": [
+          { "term": "半年", "reading": "はんとし", "meaning": "Nửa năm" },
+          { "term": "半分", "reading": "はんぶん", "meaning": "Một nửa" },
+          { "term": "半日", "reading": "はんにち", "meaning": "Nửa ngày" },
+          { "term": "半月", "reading": "はんつき", "meaning": "Nửa tháng" },
+          { "term": "七時半", "reading": "しちじはん", "meaning": "7h30" },
+          { "term": "大半", "reading": "たいはん", "meaning": "Phần lớn" }
+        ],
+        "order": 11
+      }
+    ],
+    "vocabularyItems": [
+      { "term": "肉", "reading": "にく", "meaning": "thịt" },
+      { "term": "牛肉", "reading": "ぎゅうにく", "meaning": "thịt bò" },
+      { "term": "豚肉", "reading": "ぶたにく", "meaning": "thịt heo" },
+      { "term": "鶏肉", "reading": "とりにく", "meaning": "thịt gà" },
+      { "term": "料金", "reading": "りょうきん", "meaning": "tiền phí" },
+      { "term": "料理", "reading": "りょうり", "meaning": "món ăn" },
+      { "term": "野菜", "reading": "やさい", "meaning": "rau" },
+      { "term": "半年", "reading": "はんとし/はんねん", "meaning": "nửa năm" },
+      { "term": "半分", "reading": "はんぶん", "meaning": "Một nửa" },
+      { "term": "半日", "reading": "はんじつ/はんにち", "meaning": "Nửa ngày" },
+      { "term": "半月", "reading": "はんつき", "meaning": "Nửa tháng" },
+      { "term": "七時半", "reading": "しちじはん", "meaning": "7h30" },
+      { "term": "大きい", "reading": "おおきい", "meaning": "to" },
+      { "term": "大学生", "reading": "だいがくせい", "meaning": "Sinh viên đại học" },
+      { "term": "大人", "reading": "おとな", "meaning": "Người lớn" },
+      { "term": "大会", "reading": "たいかい", "meaning": "đại hội" },
+      { "term": "大半", "reading": "たいはん", "meaning": "Phần lớn" },
+      { "term": "大学", "reading": "だいがく", "meaning": "đại học" },
+      { "term": "小さい", "reading": "ちいさい", "meaning": "bé, nhỏ" },
+      { "term": "小学校", "reading": "しょうがっこう", "meaning": "Trường tiểu học" },
+      { "term": "小学生", "reading": "しょうがくせい", "meaning": "học sinh tiểu học" },
+      { "term": "小人", "reading": "こびと", "meaning": "đứa trẻ, người tí hon" },
+      { "term": "お寺", "reading": "おてら", "meaning": "chùa" },
+      { "term": "言います", "reading": "いいます", "meaning": "nói" },
+      { "term": "言語", "reading": "げんご", "meaning": "ngôn ngữ" },
+      { "term": "言葉", "reading": "ことば", "meaning": "từ vựng" },
+      { "term": "貝", "reading": "かい", "meaning": "con sò" },
+      { "term": "田んぼ", "reading": "たんぼ", "meaning": "cánh đồng" },
+      { "term": "水田", "reading": "すいでん", "meaning": "cánh đồng lúa nước" },
+      { "term": "力", "reading": "ちから", "meaning": "sức lực" },
+      { "term": "水力", "reading": "すいりょく", "meaning": "sức nước" },
+      { "term": "火力", "reading": "かりょく", "meaning": "công suất nhiệt, hỏa lực" },
+      { "term": "門", "reading": "もん", "meaning": "cổng, cửa" }
+    ]
+  }
+]

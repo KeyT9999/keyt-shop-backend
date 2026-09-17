@@ -1,0 +1,377 @@
+[
+  {
+    "order": 1,
+    "term": "今日",
+    "reading": "きょう",
+    "romaji": "kyou",
+    "partOfSpeech": "Danh từ chỉ thời gian",
+    "meaning": "Hôm nay",
+    "examples": [
+      {
+        "japanese": "今日はいい天気です。",
+        "reading": "きょうはいいてんきです。",
+        "vietnamese": "Hôm nay thời tiết đẹp."
+      }
+    ]
+  },
+  {
+    "order": 2,
+    "term": "明日",
+    "reading": "あした",
+    "romaji": "ashita",
+    "partOfSpeech": "Danh từ chỉ thời gian",
+    "meaning": "Ngày mai",
+    "examples": [
+      {
+        "japanese": "明日学校へ行きます。",
+        "reading": "あしたがっこうへいきます。",
+        "vietnamese": "Ngày mai tôi đi học."
+      }
+    ]
+  },
+  {
+    "order": 3,
+    "term": "あさって",
+    "reading": "あさって",
+    "romaji": "asatte",
+    "partOfSpeech": "Danh từ chỉ thời gian",
+    "meaning": "Ngày kia",
+    "examples": [
+      {
+        "japanese": "あさって友達と会います。",
+        "reading": "あさってともだちとあいます。",
+        "vietnamese": "Ngày kia tôi gặp bạn."
+      }
+    ]
+  },
+  {
+    "order": 4,
+    "term": "昨日",
+    "reading": "きのう",
+    "romaji": "kinou",
+    "partOfSpeech": "Danh từ chỉ thời gian",
+    "meaning": "Hôm qua",
+    "examples": [
+      {
+        "japanese": "昨日本を読みました。",
+        "reading": "きのうほんをよみました。",
+        "vietnamese": "Hôm qua tôi đã đọc sách."
+      }
+    ]
+  },
+  {
+    "order": 5,
+    "term": "おととい",
+    "reading": "おととい",
+    "romaji": "ototoi",
+    "partOfSpeech": "Danh từ chỉ thời gian",
+    "meaning": "Hôm kia",
+    "examples": [
+      {
+        "japanese": "おととい京都へ行きました。",
+        "reading": "おとといきょうとへいきました。",
+        "vietnamese": "Hôm kia tôi đã đi Kyoto."
+      }
+    ]
+  },
+  {
+    "order": 6,
+    "term": "先週",
+    "reading": "せんしゅう",
+    "romaji": "senshuu",
+    "partOfSpeech": "Danh từ chỉ thời gian",
+    "meaning": "Tuần trước",
+    "examples": [
+      {
+        "japanese": "先週映画を見ました。",
+        "reading": "せんしゅうえいがをみました。",
+        "vietnamese": "Tuần trước tôi đã xem phim."
+      }
+    ]
+  },
+  {
+    "order": 7,
+    "term": "週末",
+    "reading": "しゅうまつ",
+    "romaji": "shuumatsu",
+    "partOfSpeech": "Danh từ chỉ thời gian",
+    "meaning": "Cuối tuần",
+    "examples": [
+      {
+        "japanese": "週末何をしますか。",
+        "reading": "しゅうまつなにをしますか。",
+        "vietnamese": "Cuối tuần bạn làm gì?"
+      }
+    ]
+  },
+  {
+    "order": 8,
+    "term": "家",
+    "reading": "いえ",
+    "romaji": "ie",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Nhà",
+    "examples": [
+      {
+        "japanese": "私の家はここから近いです。",
+        "reading": "わたしのいえはここからちかいです。",
+        "vietnamese": "Nhà tôi gần đây."
+      }
+    ]
+  },
+  {
+    "order": 9,
+    "term": "へや",
+    "reading": "へや",
+    "romaji": "heya",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Căn phòng",
+    "examples": [
+      {
+        "japanese": "自分の部屋で勉強します。",
+        "reading": "じぶんのへやでべんきょうします。",
+        "vietnamese": "Tôi học trong phòng của mình."
+      }
+    ]
+  },
+  {
+    "order": 10,
+    "term": "デパート",
+    "reading": "デパート",
+    "romaji": "depaato",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Trung tâm thương mại",
+    "examples": [
+      {
+        "japanese": "デパートで服を買いました。",
+        "reading": "でぱーとでふくをかいました。",
+        "vietnamese": "Tôi đã mua quần áo ở trung tâm thương mại."
+      }
+    ]
+  },
+  {
+    "order": 11,
+    "term": "びじゅつかん",
+    "reading": "びじゅつかん",
+    "romaji": "bijutsukan",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Bảo tàng mỹ thuật",
+    "examples": [
+      {
+        "japanese": "日曜日びじゅつかんへ行きます。",
+        "reading": "にちようびびじゅつかんへいきます。",
+        "vietnamese": "Chủ nhật tôi đi bảo tàng mỹ thuật."
+      }
+    ]
+  },
+  {
+    "order": 12,
+    "term": "ゲーム",
+    "reading": "ゲーム",
+    "romaji": "geemu",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Trò chơi",
+    "examples": [
+      {
+        "japanese": "夜友達とゲームをします。",
+        "reading": "よるともだちとげーむをします。",
+        "vietnamese": "Buổi tối tôi chơi game với bạn bè."
+      }
+    ]
+  },
+  {
+    "order": 13,
+    "term": "かぞく",
+    "reading": "かぞく",
+    "romaji": "kazoku",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Gia đình",
+    "examples": [
+      {
+        "japanese": "家族と一緒に住んでいます。",
+        "reading": "かぞくといっしょにすんでいます。",
+        "vietnamese": "Tôi đang sống cùng gia đình."
+      }
+    ]
+  },
+  {
+    "order": 14,
+    "term": "こいびと",
+    "reading": "こいびと",
+    "romaji": "koibito",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Người yêu",
+    "examples": [
+      {
+        "japanese": "週末に恋人とデートします。",
+        "reading": "しゅうまつにこいびととでーとします。",
+        "vietnamese": "Cuối tuần tôi hẹn hò với người yêu."
+      }
+    ]
+  },
+  {
+    "order": 15,
+    "term": "ともだち",
+    "reading": "ともだち",
+    "romaji": "tomodachi",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Bạn bè",
+    "examples": [
+      {
+        "japanese": "友達とカフェへ行きました。",
+        "reading": "ともだちとかふぇへいきました。",
+        "vietnamese": "Tôi đã đi cà phê với bạn bè."
+      }
+    ]
+  },
+  {
+    "order": 16,
+    "term": "ルームメイト",
+    "reading": "ルームメイト",
+    "romaji": "ruumumeito",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Bạn cùng phòng",
+    "examples": [
+      {
+        "japanese": "私のルームメイトはとても親切です。",
+        "reading": "わたしのるーむめいとはとてもしんせつです。",
+        "vietnamese": "Bạn cùng phòng của tôi rất tốt bụng."
+      }
+    ]
+  },
+  {
+    "order": 17,
+    "term": "どこか",
+    "reading": "どこか",
+    "romaji": "dokoka",
+    "partOfSpeech": "Từ nghi vấn",
+    "meaning": "Nơi nào đó",
+    "examples": [
+      {
+        "japanese": "週末どこかへ行きましたか。",
+        "reading": "しゅうまつどこかへいきましたか。",
+        "vietnamese": "Cuối tuần bạn có đi đâu đó không?"
+      }
+    ]
+  },
+  {
+    "order": 18,
+    "term": "会います",
+    "reading": "あいます",
+    "romaji": "aimasu",
+    "partOfSpeech": "Động từ",
+    "meaning": "Gặp gỡ",
+    "examples": [
+      {
+        "japanese": "駅で友達に会います。",
+        "reading": "えきでともだちにあいます。",
+        "vietnamese": "Tôi gặp bạn bè ở nhà ga."
+      }
+    ]
+  },
+  {
+    "order": 19,
+    "term": "つくります",
+    "reading": "つくります",
+    "romaji": "tsukurimasu",
+    "partOfSpeech": "Động từ",
+    "meaning": "Làm, chế tạo",
+    "examples": [
+      {
+        "japanese": "晩ご飯を作ります。",
+        "reading": "ばんごはんをつくります。",
+        "vietnamese": "Tôi nấu cơm tối."
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "term": "買い物します",
+    "reading": "かいものします",
+    "romaji": "kaimonoshimasu",
+    "partOfSpeech": "Động từ",
+    "meaning": "Mua sắm",
+    "examples": [
+      {
+        "japanese": "スーパーで買い物します。",
+        "reading": "すーぱーでかいものします。",
+        "vietnamese": "Tôi mua sắm ở siêu thị."
+      }
+    ]
+  },
+  {
+    "order": 21,
+    "term": "食事します",
+    "reading": "しょくじします",
+    "romaji": "shokujishimasu",
+    "partOfSpeech": "Động từ",
+    "meaning": "Dùng bữa",
+    "examples": [
+      {
+        "japanese": "レストランで食事します。",
+        "reading": "れすとらんでしょくじします。",
+        "vietnamese": "Tôi dùng bữa ở nhà hàng."
+      }
+    ]
+  },
+  {
+    "order": 22,
+    "term": "洗濯します",
+    "reading": "せんたくします",
+    "romaji": "sentakushimasu",
+    "partOfSpeech": "Động từ",
+    "meaning": "Giặt giũ",
+    "examples": [
+      {
+        "japanese": "休みの日に洗濯します。",
+        "reading": "やすみのひにせんたくします。",
+        "vietnamese": "Tôi giặt giũ vào ngày nghỉ."
+      }
+    ]
+  },
+  {
+    "order": 23,
+    "term": "掃除します",
+    "reading": "そうじします",
+    "romaji": "soujishimasu",
+    "partOfSpeech": "Động từ",
+    "meaning": "Lau dọn",
+    "examples": [
+      {
+        "japanese": "部屋をきれいに掃除します。",
+        "reading": "へやをきれいにあるそうじします。",
+        "vietnamese": "Tôi lau dọn căn phòng sạch sẽ."
+      }
+    ]
+  },
+  {
+    "order": 24,
+    "term": "それから",
+    "reading": "それから",
+    "romaji": "sorekara",
+    "partOfSpeech": "Liên từ",
+    "meaning": "Sau đó",
+    "examples": [
+      {
+        "japanese": "宿題をしました。それから寝ました。",
+        "reading": "しゅくだいをしました。それからねました。",
+        "vietnamese": "Tôi đã làm bài tập. Sau đó tôi đi ngủ."
+      }
+    ]
+  },
+  {
+    "order": 25,
+    "term": "一人で",
+    "reading": "ひとりで",
+    "romaji": "hitoride",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "Một mình",
+    "examples": [
+      {
+        "japanese": "一人で旅行に行きました。",
+        "reading": "ひとりでりょこうにいきました。",
+        "vietnamese": "Tôi đã đi du lịch một mình."
+      }
+    ]
+  }
+]

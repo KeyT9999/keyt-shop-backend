@@ -1,0 +1,242 @@
+[
+  {
+    "order": 1,
+    "term": "歌",
+    "reading": "うた",
+    "romaji": "uta",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Bài hát",
+    "examples": [
+      {
+        "japanese": "日本の歌をよく聴きます。",
+        "reading": "にほんのうたをよくききます。",
+        "vietnamese": "Tôi thường nghe các bài hát tiếng Nhật."
+      }
+    ]
+  },
+  {
+    "order": 2,
+    "term": "ギター",
+    "reading": "ギター",
+    "romaji": "gitaa",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Đàn guitar",
+    "examples": [
+      {
+        "japanese": "休みの日にギターを練習します。",
+        "reading": "やすみのひにぎたーをれんしゅうします。",
+        "vietnamese": "Vào ngày nghỉ tôi luyện tập đàn guitar."
+      }
+    ]
+  },
+  {
+    "order": 3,
+    "term": "台所",
+    "reading": "だいどころ",
+    "romaji": "daidokoro",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Nhà bếp",
+    "examples": [
+      {
+        "japanese": "母は台所で料理を作っています。",
+        "reading": "はははだいどころでりょうりをつくっています。",
+        "vietnamese": "Mẹ tôi đang nấu ăn trong nhà bếp."
+      }
+    ]
+  },
+  {
+    "order": 4,
+    "term": "たばこ",
+    "reading": "たばこ",
+    "romaji": "tabako",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Thuốc lá",
+    "examples": [
+      {
+        "japanese": "ここでたばこを吸わないでください。",
+        "reading": "ここでたばこをすわないでください。",
+        "vietnamese": "Xin vui lòng không hút thuốc lá ở đây."
+      }
+    ]
+  },
+  {
+    "order": 5,
+    "term": "電話",
+    "reading": "でんわ",
+    "romaji": "denwa",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Điện thoại",
+    "examples": [
+      {
+        "japanese": "友達に電話をかけます。",
+        "reading": "ともだちにでんわをかけます。",
+        "vietnamese": "Tôi gọi điện thoại cho bạn bè."
+      }
+    ]
+  },
+  {
+    "order": 6,
+    "term": "ピザ",
+    "reading": "ピザ",
+    "romaji": "piza",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Pizza",
+    "examples": [
+      {
+        "japanese": "みんなでピザを食べましょう。",
+        "reading": "みんなでぴざをたべましょう。",
+        "vietnamese": "Chúng ta hãy cùng nhau ăn pizza nhé."
+      }
+    ]
+  },
+  {
+    "order": 7,
+    "term": "窓",
+    "reading": "まど",
+    "romaji": "mado",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Cửa sổ",
+    "examples": [
+      {
+        "japanese": "窓を開けて空気を入れ替えます。",
+        "reading": "まどをあけてくうきをいれかえます。",
+        "vietnamese": "Tôi mở cửa sổ để thông thoáng khí trời."
+      }
+    ]
+  },
+  {
+    "order": 8,
+    "term": "歌います",
+    "reading": "うたいます",
+    "romaji": "utaimasu",
+    "partOfSpeech": "Động từ",
+    "meaning": "Hát",
+    "examples": [
+      {
+        "japanese": "カラオケで好きな歌を歌います。",
+        "reading": "からおけですきなうたをうたいます。",
+        "vietnamese": "Tôi hát những bài hát mình thích ở phòng karaoke."
+      }
+    ]
+  },
+  {
+    "order": 9,
+    "term": "吸います",
+    "reading": "すいます",
+    "romaji": "suimasu",
+    "partOfSpeech": "Động từ",
+    "meaning": "Hút",
+    "examples": [
+      {
+        "japanese": "外の新鮮な空気を吸います。",
+        "reading": "そとのしんせんなきくうきをすいます。",
+        "vietnamese": "Tôi hít thở không khí trong lành ngoài trời."
+      }
+    ]
+  },
+  {
+    "order": 10,
+    "term": "話します",
+    "reading": "はなします",
+    "romaji": "hanashimasu",
+    "partOfSpeech": "Động từ",
+    "meaning": "Nói chuyện",
+    "examples": [
+      {
+        "japanese": "先生と日本語で話します。",
+        "reading": "せんせいとにほんごではなします。",
+        "vietnamese": "Tôi nói chuyện bằng tiếng Nhật với thầy cô giáo."
+      }
+    ]
+  },
+  {
+    "order": 11,
+    "term": "弾きます",
+    "reading": "ひきます",
+    "romaji": "hikimasu",
+    "partOfSpeech": "Động từ",
+    "meaning": "Chơi nhạc cụ",
+    "examples": [
+      {
+        "japanese": "ピアノを上手に弾きます。",
+        "reading": "ぴあのをじょうずにひきます。",
+        "vietnamese": "Cô ấy chơi đàn piano rất giỏi."
+      }
+    ]
+  },
+  {
+    "order": 12,
+    "term": "持ちます",
+    "reading": "もちます",
+    "romaji": "mochimasu",
+    "partOfSpeech": "Động từ",
+    "meaning": "Cầm, mang",
+    "examples": [
+      {
+        "japanese": "重い荷物を持ちます。",
+        "reading": "おもいにもつをもちます。",
+        "vietnamese": "Tôi xách hành lý nặng."
+      }
+    ]
+  },
+  {
+    "order": 13,
+    "term": "開けます",
+    "reading": "あけます",
+    "romaji": "akemasu",
+    "partOfSpeech": "Động từ",
+    "meaning": "Mở",
+    "examples": [
+      {
+        "japanese": "暑いのでドアを開けます。",
+        "reading": "あついのでどあをあけます。",
+        "vietnamese": "Vì nóng nên tôi mở cửa ra."
+      }
+    ]
+  },
+  {
+    "order": 14,
+    "term": "閉めます",
+    "reading": "しめます",
+    "romaji": "shimemasu",
+    "partOfSpeech": "Động từ",
+    "meaning": "Đóng",
+    "examples": [
+      {
+        "japanese": "出かける前に窓を閉めます。",
+        "reading": "でかけるまえにまどをしめます。",
+        "vietnamese": "Trước khi ra ngoài tôi đóng cửa sổ lại."
+      }
+    ]
+  },
+  {
+    "order": 15,
+    "term": "かけます",
+    "reading": "かけます",
+    "romaji": "kakemasu",
+    "partOfSpeech": "Động từ",
+    "meaning": "Gọi",
+    "examples": [
+      {
+        "japanese": "家族に電話をかけます。",
+        "reading": "かぞくにでんわをかけます。",
+        "vietnamese": "Tôi gọi điện thoại cho gia đình."
+      }
+    ]
+  },
+  {
+    "order": 16,
+    "term": "持って来ます",
+    "reading": "もってきます",
+    "romaji": "mottekimasu",
+    "partOfSpeech": "Động từ",
+    "meaning": "Mang đến",
+    "examples": [
+      {
+        "japanese": "明日教科書を持って来てください。",
+        "reading": "あしたきょうかしょをもってきてください。",
+        "vietnamese": "Ngày mai xin hãy mang sách giáo khoa đến nhé."
+      }
+    ]
+  }
+]

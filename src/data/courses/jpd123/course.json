@@ -1,0 +1,16 @@
+{
+  "code": "JPD123",
+  "title": "Tiếng Nhật Sơ Cấp JPD123",
+  "shortDescription": "Khóa học tiếng Nhật chuẩn trường Đại học dành cho sinh viên và người mới bắt đầu.",
+  "description": "Chương trình tiếng Nhật JPD123 toàn diện bao gồm 4 phần chính: Hán Tự (Kanji), Từ Vựng (Vocabulary), Ngữ Pháp (Grammar) và Luyện Thi (Mock Exams). Giúp bạn nắm vững kiến thức nền tảng tương đương cấp độ JLPT N5.",
+  "level": "N5",
+  "thumbnail": "https://images.unsplash.com/photo-1528164344705-475426879c0d?auto=format&fit=crop&w=800&q=80",
+  "isPublished": true,
+  "sortOrder": 1,
+  "stats": {
+    "totalVocabulary": 180,
+    "totalKanji": 42,
+    "totalGrammar": 23,
+    "totalExams": 1
+  }
+}

@@ -1,0 +1,512 @@
+[
+  {
+    "order": 1,
+    "term": "椅子",
+    "reading": "いす",
+    "romaji": "isu",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Ghế",
+    "examples": [
+      {
+        "japanese": "椅子に座ってください。",
+        "reading": "いすにすわってください。",
+        "vietnamese": "Xin hãy ngồi vào ghế."
+      }
+    ]
+  },
+  {
+    "order": 2,
+    "term": "テーブル",
+    "reading": "テーブル",
+    "romaji": "teeburu",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Bàn",
+    "examples": [
+      {
+        "japanese": "テーブルの上に皿を置きます。",
+        "reading": "てーぶるのうえにさらをおきます。",
+        "vietnamese": "Tôi đặt đĩa lên bàn."
+      }
+    ]
+  },
+  {
+    "order": 3,
+    "term": "電子レンジ",
+    "reading": "でんしレンジ",
+    "romaji": "denshirenji",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Lò vi sóng",
+    "examples": [
+      {
+        "japanese": "電子レンジでお弁当を温めます。",
+        "reading": "でんしれんじでおべんとうをあたためます。",
+        "vietnamese": "Tôi hâm nóng cơm hộp bằng lò vi sóng."
+      }
+    ]
+  },
+  {
+    "order": 4,
+    "term": "冷蔵庫",
+    "reading": "れいぞうこ",
+    "romaji": "reizouko",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Tủ lạnh",
+    "examples": [
+      {
+        "japanese": "冷蔵庫に牛乳があります。",
+        "reading": "れいぞうこにぎゅうにゅうがあります。",
+        "vietnamese": "Trong tủ lạnh có sữa tươi."
+      }
+    ]
+  },
+  {
+    "order": 5,
+    "term": "砂糖",
+    "reading": "さとう",
+    "romaji": "satou",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Đường",
+    "examples": [
+      {
+        "japanese": "コーヒーに砂糖を入れます。",
+        "reading": "こーひーにさとうをいれます。",
+        "vietnamese": "Tôi cho đường vào cà phê."
+      }
+    ]
+  },
+  {
+    "order": 6,
+    "term": "塩",
+    "reading": "しお",
+    "romaji": "shio",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Muối",
+    "examples": [
+      {
+        "japanese": "料理に塩を少し入れます。",
+        "reading": "りょうりにしおをすこしいれます。",
+        "vietnamese": "Tôi cho một ít muối vào món ăn."
+      }
+    ]
+  },
+  {
+    "order": 7,
+    "term": "醤油",
+    "reading": "しょうゆ",
+    "romaji": "shouyu",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Xì dầu",
+    "examples": [
+      {
+        "japanese": "寿司に醤油をつけて食べます。",
+        "reading": "すしにしょうゆをつけてたべます。",
+        "vietnamese": "Tôi chấm xì dầu rồi ăn sushi."
+      }
+    ]
+  },
+  {
+    "order": 8,
+    "term": "コップ",
+    "reading": "コップ",
+    "romaji": "koppu",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Cốc",
+    "examples": [
+      {
+        "japanese": "コップに水を注ぎます。",
+        "reading": "こっぷにみずをそそぎます。",
+        "vietnamese": "Tôi rót nước vào cốc."
+      }
+    ]
+  },
+  {
+    "order": 9,
+    "term": "お皿",
+    "reading": "おさら",
+    "romaji": "osara",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Đĩa",
+    "examples": [
+      {
+        "japanese": "お皿をきれいに洗いました。",
+        "reading": "おさらをきれいにあらいました。",
+        "vietnamese": "Tôi đã rửa sạch những chiếc đĩa."
+      }
+    ]
+  },
+  {
+    "order": 10,
+    "term": "スプーン",
+    "reading": "スプーン",
+    "romaji": "supuun",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Thìa",
+    "examples": [
+      {
+        "japanese": "スプーンでスープを飲みます。",
+        "reading": "すぷーんですーぷをのみます。",
+        "vietnamese": "Tôi ăn súp bằng thìa."
+      }
+    ]
+  },
+  {
+    "order": 11,
+    "term": "ナイフ",
+    "reading": "ナイフ",
+    "romaji": "naifu",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Dao",
+    "examples": [
+      {
+        "japanese": "ナイフで肉を切ります。",
+        "reading": "ないふでにくをきります。",
+        "vietnamese": "Tôi cắt thịt bằng dao."
+      }
+    ]
+  },
+  {
+    "order": 12,
+    "term": "フォーク",
+    "reading": "フォーク",
+    "romaji": "fooku",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Nĩa",
+    "examples": [
+      {
+        "japanese": "フォークでパスタを食べます。",
+        "reading": "ふぉーくでぱすたをたべます。",
+        "vietnamese": "Tôi ăn mì ý bằng nĩa."
+      }
+    ]
+  },
+  {
+    "order": 13,
+    "term": "箸",
+    "reading": "はし",
+    "romaji": "hashi",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Đũa",
+    "examples": [
+      {
+        "japanese": "箸を使ってご飯を食べます。",
+        "reading": "はしをつかってごはんをたべます。",
+        "vietnamese": "Tôi dùng đũa để ăn cơm."
+      }
+    ]
+  },
+  {
+    "order": 14,
+    "term": "漢字",
+    "reading": "かんじ",
+    "romaji": "kanji",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Chữ Hán",
+    "examples": [
+      {
+        "japanese": "毎日漢字を練習します。",
+        "reading": "まいにちかんじをれんしゅうします。",
+        "vietnamese": "Mỗi ngày tôi luyện tập chữ Hán."
+      }
+    ]
+  },
+  {
+    "order": 15,
+    "term": "どれ",
+    "reading": "どれ",
+    "romaji": "dore",
+    "partOfSpeech": "Từ nghi vấn",
+    "meaning": "Cái nào",
+    "examples": [
+      {
+        "japanese": "あなたの傘はどれですか。",
+        "reading": "あなたのかさはどれですか。",
+        "vietnamese": "Cái ô của bạn là cái nào?"
+      }
+    ]
+  },
+  {
+    "order": 16,
+    "term": "どの～",
+    "reading": "どの～",
+    "romaji": "dono~",
+    "partOfSpeech": "Từ nghi vấn",
+    "meaning": "~ nào",
+    "examples": [
+      {
+        "japanese": "どの本が一番面白いですか。",
+        "reading": "どのほんがいちばんおもしろいですか。",
+        "vietnamese": "Cuốn sách nào thú vị nhất?"
+      }
+    ]
+  },
+  {
+    "order": 17,
+    "term": "洗います",
+    "reading": "あらいます",
+    "romaji": "araimasu",
+    "partOfSpeech": "Động từ",
+    "meaning": "Giặt, rửa",
+    "examples": [
+      {
+        "japanese": "ご飯の前に手を洗います。",
+        "reading": "ごはんのまえにてをあらいます。",
+        "vietnamese": "Tôi rửa tay trước khi ăn cơm."
+      }
+    ]
+  },
+  {
+    "order": 18,
+    "term": "置きます",
+    "reading": "おきます",
+    "romaji": "okimasu",
+    "partOfSpeech": "Động từ",
+    "meaning": "Đặt, để",
+    "examples": [
+      {
+        "japanese": "荷物をここに置いてください。",
+        "reading": "にもつをここにおいてください。",
+        "vietnamese": "Xin hãy để hành lý ở đây."
+      }
+    ]
+  },
+  {
+    "order": 19,
+    "term": "書きます",
+    "reading": "かきます",
+    "romaji": "kakimasu",
+    "partOfSpeech": "Động từ",
+    "meaning": "Viết",
+    "examples": [
+      {
+        "japanese": "手紙を日本語で書きます。",
+        "reading": "てがみをにほんごでかきます。",
+        "vietnamese": "Tôi viết thư bằng tiếng Nhật."
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "term": "貸します",
+    "reading": "かします",
+    "romaji": "kashimasu",
+    "partOfSpeech": "Động từ",
+    "meaning": "Cho mượn",
+    "examples": [
+      {
+        "japanese": "友達に消しゴムを貸しました。",
+        "reading": "ともだちにけしごむをかしました。",
+        "vietnamese": "Tôi đã cho bạn mượn cục tẩy."
+      }
+    ]
+  },
+  {
+    "order": 21,
+    "term": "聞きます",
+    "reading": "ききます",
+    "romaji": "kikimasu",
+    "partOfSpeech": "Động từ",
+    "meaning": "Nghe, hỏi",
+    "examples": [
+      {
+        "japanese": "先生に質問を聞きます。",
+        "reading": "せんせいにしつもんをききます。",
+        "vietnamese": "Tôi hỏi câu hỏi với thầy cô giáo."
+      }
+    ]
+  },
+  {
+    "order": 22,
+    "term": "切ります",
+    "reading": "きります",
+    "romaji": "kirimasu",
+    "partOfSpeech": "Động từ",
+    "meaning": "Cắt",
+    "examples": [
+      {
+        "japanese": "はさみで紙を切ります。",
+        "reading": "はさみでかみをきります。",
+        "vietnamese": "Tôi dùng kéo cắt giấy."
+      }
+    ]
+  },
+  {
+    "order": 23,
+    "term": "使います",
+    "reading": "つかいます",
+    "romaji": "tsukaimasu",
+    "partOfSpeech": "Động từ",
+    "meaning": "Sử dụng",
+    "examples": [
+      {
+        "japanese": "パソコンを使ってレポートを書きます。",
+        "reading": "ぱそこんをつかってれぽーとをかきます。",
+        "vietnamese": "Tôi dùng máy tính để viết báo cáo."
+      }
+    ]
+  },
+  {
+    "order": 24,
+    "term": "手伝います",
+    "reading": "てつだいます",
+    "romaji": "tetsudaimasu",
+    "partOfSpeech": "Động từ",
+    "meaning": "Giúp đỡ",
+    "examples": [
+      {
+        "japanese": "母の料理を手伝います。",
+        "reading": "ははのりょうりをてつだいます。",
+        "vietnamese": "Tôi giúp mẹ nấu ăn."
+      }
+    ]
+  },
+  {
+    "order": 25,
+    "term": "取ります",
+    "reading": "とります",
+    "romaji": "torimasu",
+    "partOfSpeech": "Động từ",
+    "meaning": "Lấy",
+    "examples": [
+      {
+        "japanese": "そこの塩を取ってください。",
+        "reading": "そこのしおをとってください。",
+        "vietnamese": "Xin hãy lấy giúp tôi lọ muối ở đằng đó."
+      }
+    ]
+  },
+  {
+    "order": 26,
+    "term": "持って行きます",
+    "reading": "もっていきます",
+    "romaji": "motteikimasu",
+    "partOfSpeech": "Động từ",
+    "meaning": "Mang đi",
+    "examples": [
+      {
+        "japanese": "傘を持って行きます。",
+        "reading": "かさをもっていきます。",
+        "vietnamese": "Tôi mang theo ô đi."
+      }
+    ]
+  },
+  {
+    "order": 27,
+    "term": "分かります",
+    "reading": "わかります",
+    "romaji": "wakarimasu",
+    "partOfSpeech": "Động từ",
+    "meaning": "Hiểu",
+    "examples": [
+      {
+        "japanese": "日本語の意味が分かります。",
+        "reading": "にほんごのいみがわかります。",
+        "vietnamese": "Tôi hiểu ý nghĩa tiếng Nhật."
+      }
+    ]
+  },
+  {
+    "order": 28,
+    "term": "出します",
+    "reading": "だします",
+    "romaji": "dashimasu",
+    "partOfSpeech": "Động từ",
+    "meaning": "Nộp, lấy ra",
+    "examples": [
+      {
+        "japanese": "宿題を先生に出します。",
+        "reading": "しゅくだいをせんせいにだします。",
+        "vietnamese": "Tôi nộp bài tập cho thầy cô giáo."
+      }
+    ]
+  },
+  {
+    "order": 29,
+    "term": "入れます",
+    "reading": "いれます",
+    "romaji": "iremasu",
+    "partOfSpeech": "Động từ",
+    "meaning": "Cho vào",
+    "examples": [
+      {
+        "japanese": "かばんにノートを入れます。",
+        "reading": "かばんにのーとをいれます。",
+        "vietnamese": "Tôi cho vở vào trong cặp."
+      }
+    ]
+  },
+  {
+    "order": 30,
+    "term": "教えます",
+    "reading": "おしえます",
+    "romaji": "oshiemasu",
+    "partOfSpeech": "Động từ",
+    "meaning": "Dạy",
+    "examples": [
+      {
+        "japanese": "先生が日本語を教えてくれます。",
+        "reading": "せんせいがにほんごをおしえてくれます。",
+        "vietnamese": "Thầy cô giáo dạy tiếng Nhật cho tôi."
+      }
+    ]
+  },
+  {
+    "order": 31,
+    "term": "たくさん",
+    "reading": "たくさん",
+    "romaji": "takusan",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "Nhiều",
+    "examples": [
+      {
+        "japanese": "果物をたくさん買いました。",
+        "reading": "くだものをたくさんかいました。",
+        "vietnamese": "Tôi đã mua rất nhiều hoa quả."
+      }
+    ]
+  },
+  {
+    "order": 32,
+    "term": "すみませんが",
+    "reading": "すみませんが",
+    "romaji": "sumimasenga",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "Xin lỗi",
+    "examples": [
+      {
+        "japanese": "すみませんが、ペンを貸してください。",
+        "reading": "すみませんが、ぺんをかしてください。",
+        "vietnamese": "Xin lỗi, cho tôi mượn cây bút với ạ."
+      }
+    ]
+  },
+  {
+    "order": 33,
+    "term": "ああ",
+    "reading": "ああ",
+    "romaji": "aa",
+    "partOfSpeech": "Thán từ",
+    "meaning": "A, à",
+    "examples": [
+      {
+        "japanese": "ああ、そうでしたね。",
+        "reading": "ああ、そうでしたね。",
+        "vietnamese": "À, đúng rồi nhỉ."
+      }
+    ]
+  },
+  {
+    "order": 34,
+    "term": "いいですよ",
+    "reading": "いいですよ",
+    "romaji": "iidesuyo",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "Được đấy",
+    "examples": [
+      {
+        "japanese": "「手伝いましょうか」「ええ、いいですよ」",
+        "reading": "「てつだいましょうか」「ええ、いいですよ」",
+        "vietnamese": "「Để tôi giúp nhé」「Vâng, được đấy ạ」"
+      }
+    ]
+  }
+]
