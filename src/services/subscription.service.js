@@ -70,6 +70,9 @@ class SubscriptionService {
         query.endDate = { $gte: now };
       } else if (status === 'expired') {
         query.endDate = { $lt: now };
+      } else if (status === 'ending_soon') {
+        const sevenDaysLater = new Date(Date.now() + 7 * 24 * 60 * 60 * 1000);
+        query.endDate = { $gte: now, $lte: sevenDaysLater };
       } else if (status === 'notified') {
         query.preExpiryNotified = true;
       } else if (status === 'pending') {
