@@ -88,6 +88,14 @@ const corsOptions = {
 app.use(cors(corsOptions));
 app.use(express.json());
 
+// Handle invalid JSON body gracefully
+app.use((err, req, res, next) => {
+  if (err instanceof SyntaxError && err.status === 400 && 'body' in err) {
+    return res.status(400).json({ success: false, message: 'Invalid JSON payload' });
+  }
+  next(err);
+});
+
 app.get('/', (req, res) => {
   res.send('KeyT Shop Backend is running 🚀');
 });
@@ -195,6 +203,18 @@ app.use('/api/public', publicRoutes);
 app.use('/api/courses', courseRoutes);
 app.use('/api/courses', speakingRoutes);
 app.use('/api/learning', learningRoutes);
+
+// Global error handler
+app.use((err, req, res, next) => {
+  console.error('❌ Global error handler caught:', err.message || err);
+  if (res.headersSent) {
+    return next(err);
+  }
+  res.status(err.status || 500).json({
+    success: false,
+    message: err.message || 'Internal Server Error'
+  });
+});
 
 module.exports = app;
 

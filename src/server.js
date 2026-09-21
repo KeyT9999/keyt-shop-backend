@@ -7,6 +7,14 @@ const { initSocket } = require('./socket');
 
 const PORT = process.env.PORT || 5000;
 
+process.on('uncaughtException', (err) => {
+  console.error('❌ Uncaught Exception:', err);
+});
+
+process.on('unhandledRejection', (reason, promise) => {
+  console.error('❌ Unhandled Rejection at:', promise, 'reason:', reason);
+});
+
 // Create HTTP server wrapping Express app
 const server = http.createServer(app);
 
