@@ -1,0 +1,17 @@
+[
+  { "order": 1, "term": "今天", "reading": "jīntiān", "partOfSpeech": "Từ vựng", "meaning": "hôm nay", "examples": [] },
+  { "order": 2, "term": "明天", "reading": "míngtiān", "partOfSpeech": "Từ vựng", "meaning": "ngày mai", "examples": [] },
+  { "order": 3, "term": "昨天", "reading": "zuótiān", "partOfSpeech": "Từ vựng", "meaning": "hôm qua", "examples": [] },
+  { "order": 4, "term": "现在", "reading": "xiànzài", "partOfSpeech": "Từ vựng", "meaning": "bây giờ", "examples": [] },
+  { "order": 5, "term": "时间", "reading": "shíjiān", "partOfSpeech": "Từ vựng", "meaning": "thời gian", "examples": [] },
+  { "order": 6, "term": "年", "reading": "nián", "partOfSpeech": "Từ vựng", "meaning": "năm", "examples": [] },
+  { "order": 7, "term": "月", "reading": "yuè", "partOfSpeech": "Từ vựng", "meaning": "tháng", "examples": [] },
+  { "order": 8, "term": "号", "reading": "hào", "partOfSpeech": "Từ vựng", "meaning": "ngày, số", "examples": [] },
+  { "order": 9, "term": "星期", "reading": "xīngqī", "partOfSpeech": "Từ vựng", "meaning": "tuần, thứ", "examples": [] },
+  { "order": 10, "term": "点", "reading": "diǎn", "partOfSpeech": "Từ vựng", "meaning": "giờ", "examples": [] },
+  { "order": 11, "term": "分", "reading": "fēn", "partOfSpeech": "Từ vựng", "meaning": "phút", "examples": [] },
+  { "order": 12, "term": "上午", "reading": "shàngwǔ", "partOfSpeech": "Từ vựng", "meaning": "buổi sáng", "examples": [] },
+  { "order": 13, "term": "下午", "reading": "xiàwǔ", "partOfSpeech": "Từ vựng", "meaning": "buổi chiều", "examples": [] },
+  { "order": 14, "term": "中午", "reading": "zhōngwǔ", "partOfSpeech": "Từ vựng", "meaning": "buổi trưa", "examples": [] },
+  { "order": 15, "term": "晚上", "reading": "wǎnshang", "partOfSpeech": "Từ vựng", "meaning": "buổi tối", "examples": [] }
+]

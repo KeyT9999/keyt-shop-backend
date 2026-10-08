@@ -1,0 +1,17 @@
+[
+  { "order": 1, "term": "一", "reading": "yī", "partOfSpeech": "Từ vựng", "meaning": "một", "examples": [] },
+  { "order": 2, "term": "二", "reading": "èr", "partOfSpeech": "Từ vựng", "meaning": "hai", "examples": [] },
+  { "order": 3, "term": "三", "reading": "sān", "partOfSpeech": "Từ vựng", "meaning": "ba", "examples": [] },
+  { "order": 4, "term": "四", "reading": "sì", "partOfSpeech": "Từ vựng", "meaning": "bốn", "examples": [] },
+  { "order": 5, "term": "五", "reading": "wǔ", "partOfSpeech": "Từ vựng", "meaning": "năm", "examples": [] },
+  { "order": 6, "term": "六", "reading": "liù", "partOfSpeech": "Từ vựng", "meaning": "sáu", "examples": [] },
+  { "order": 7, "term": "七", "reading": "qī", "partOfSpeech": "Từ vựng", "meaning": "bảy", "examples": [] },
+  { "order": 8, "term": "八", "reading": "bā", "partOfSpeech": "Từ vựng", "meaning": "tám", "examples": [] },
+  { "order": 9, "term": "九", "reading": "jiǔ", "partOfSpeech": "Từ vựng", "meaning": "chín", "examples": [] },
+  { "order": 10, "term": "十", "reading": "shí", "partOfSpeech": "Từ vựng", "meaning": "mười", "examples": [] },
+  { "order": 11, "term": "个", "reading": "gè", "partOfSpeech": "Từ vựng", "meaning": "cái, người", "examples": [] },
+  { "order": 12, "term": "本", "reading": "běn", "partOfSpeech": "Từ vựng", "meaning": "quyển, cuốn", "examples": [] },
+  { "order": 13, "term": "张", "reading": "zhāng", "partOfSpeech": "Từ vựng", "meaning": "tờ, chiếc", "examples": [] },
+  { "order": 14, "term": "两", "reading": "liǎng", "partOfSpeech": "Từ vựng", "meaning": "hai", "examples": [] },
+  { "order": 15, "term": "多少", "reading": "duōshao", "partOfSpeech": "Từ vựng", "meaning": "bao nhiêu", "examples": [] }
+]

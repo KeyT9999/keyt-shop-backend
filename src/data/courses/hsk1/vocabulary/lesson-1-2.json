@@ -1,0 +1,17 @@
+[
+  { "order": 1, "term": "人", "reading": "rén", "partOfSpeech": "Từ vựng", "meaning": "người", "examples": [] },
+  { "order": 2, "term": "朋友", "reading": "péngyou", "partOfSpeech": "Từ vựng", "meaning": "bạn bè", "examples": [] },
+  { "order": 3, "term": "同学", "reading": "tóngxué", "partOfSpeech": "Từ vựng", "meaning": "bạn học", "examples": [] },
+  { "order": 4, "term": "老师", "reading": "lǎoshī", "partOfSpeech": "Từ vựng", "meaning": "giáo viên", "examples": [] },
+  { "order": 5, "term": "学生", "reading": "xuésheng", "partOfSpeech": "Từ vựng", "meaning": "học sinh, sinh viên", "examples": [] },
+  { "order": 6, "term": "学生", "reading": "xuéshēng", "partOfSpeech": "Từ vựng", "meaning": "học sinh, sinh viên", "examples": [] },
+  { "order": 7, "term": "大夫", "reading": "dàifu", "partOfSpeech": "Từ vựng", "meaning": "bác sĩ", "examples": [] },
+  { "order": 8, "term": "同事", "reading": "tóngshì", "partOfSpeech": "Từ vựng", "meaning": "đồng nghiệp", "examples": [] },
+  { "order": 9, "term": "爸爸", "reading": "bàba", "partOfSpeech": "Từ vựng", "meaning": "bố, ba", "examples": [] },
+  { "order": 10, "term": "妈妈", "reading": "māma", "partOfSpeech": "Từ vựng", "meaning": "mẹ", "examples": [] },
+  { "order": 11, "term": "哥哥", "reading": "gēge", "partOfSpeech": "Từ vựng", "meaning": "anh trai", "examples": [] },
+  { "order": 12, "term": "弟弟", "reading": "dìdi", "partOfSpeech": "Từ vựng", "meaning": "em trai", "examples": [] },
+  { "order": 13, "term": "姐姐", "reading": "jiějie", "partOfSpeech": "Từ vựng", "meaning": "chị gái", "examples": [] },
+  { "order": 14, "term": "妹妹", "reading": "mèimei", "partOfSpeech": "Từ vựng", "meaning": "em gái", "examples": [] },
+  { "order": 15, "term": "女儿", "reading": "nǚ'ér", "partOfSpeech": "Từ vựng", "meaning": "con gái", "examples": [] }
+]

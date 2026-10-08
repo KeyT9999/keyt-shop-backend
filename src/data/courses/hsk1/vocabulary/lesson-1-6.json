@@ -1,0 +1,17 @@
+[
+  { "order": 1, "term": "吃", "reading": "chī", "partOfSpeech": "Từ vựng", "meaning": "ăn", "examples": [] },
+  { "order": 2, "term": "喝", "reading": "hē", "partOfSpeech": "Từ vựng", "meaning": "uống", "examples": [] },
+  { "order": 3, "term": "水", "reading": "shuǐ", "partOfSpeech": "Từ vựng", "meaning": "nước", "examples": [] },
+  { "order": 4, "term": "茶", "reading": "chá", "partOfSpeech": "Từ vựng", "meaning": "trà", "examples": [] },
+  { "order": 5, "term": "咖啡", "reading": "kāfēi", "partOfSpeech": "Từ vựng", "meaning": "cà phê", "examples": [] },
+  { "order": 6, "term": "饭", "reading": "fàn", "partOfSpeech": "Từ vựng", "meaning": "cơm, bữa ăn", "examples": [] },
+  { "order": 7, "term": "菜", "reading": "cài", "partOfSpeech": "Từ vựng", "meaning": "món ăn, rau", "examples": [] },
+  { "order": 8, "term": "水果", "reading": "shuǐguǒ", "partOfSpeech": "Từ vựng", "meaning": "hoa quả", "examples": [] },
+  { "order": 9, "term": "苹果", "reading": "píngguǒ", "partOfSpeech": "Từ vựng", "meaning": "táo", "examples": [] },
+  { "order": 10, "term": "杯子", "reading": "bēizi", "partOfSpeech": "Từ vựng", "meaning": "cốc, ly", "examples": [] },
+  { "order": 11, "term": "米饭", "reading": "mǐfàn", "partOfSpeech": "Từ vựng", "meaning": "cơm", "examples": [] },
+  { "order": 12, "term": "牛奶", "reading": "niúnǎi", "partOfSpeech": "Từ vựng", "meaning": "sữa bò", "examples": [] },
+  { "order": 13, "term": "鸡", "reading": "jī", "partOfSpeech": "Từ vựng", "meaning": "gà", "examples": [] },
+  { "order": 14, "term": "蛋", "reading": "dàn", "partOfSpeech": "Từ vựng", "meaning": "trứng", "examples": [] },
+  { "order": 15, "term": "鱼", "reading": "yú", "partOfSpeech": "Từ vựng", "meaning": "cá", "examples": [] }
+]

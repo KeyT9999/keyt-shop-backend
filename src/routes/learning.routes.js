@@ -16,7 +16,15 @@ router.post(
   authenticateToken,
   [
     body('mode')
-      .isIn(['flashcard', 'typing', 'multichoice'])
+      .isIn([
+        'flashcard',
+        'typing',
+        'multichoice',
+        'smart-quiz',
+        'speed-match',
+        'time-attack',
+        'mistake-buster'
+      ])
       .withMessage('Chế độ học không hợp lệ.'),
     body('isCorrect')
       .isBoolean()

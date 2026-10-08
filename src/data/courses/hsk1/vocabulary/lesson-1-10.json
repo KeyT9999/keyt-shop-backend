@@ -1,0 +1,17 @@
+[
+  { "order": 1, "term": "大", "reading": "dà", "partOfSpeech": "Từ vựng", "meaning": "lớn", "examples": [] },
+  { "order": 2, "term": "小", "reading": "xiǎo", "partOfSpeech": "Từ vựng", "meaning": "nhỏ", "examples": [] },
+  { "order": 3, "term": "高", "reading": "gāo", "partOfSpeech": "Từ vựng", "meaning": "cao", "examples": [] },
+  { "order": 4, "term": "好看", "reading": "hǎokàn", "partOfSpeech": "Từ vựng", "meaning": "đẹp, dễ nhìn", "examples": [] },
+  { "order": 5, "term": "漂亮", "reading": "piàoliang", "partOfSpeech": "Từ vựng", "meaning": "xinh đẹp", "examples": [] },
+  { "order": 6, "term": "热", "reading": "rè", "partOfSpeech": "Từ vựng", "meaning": "nóng", "examples": [] },
+  { "order": 7, "term": "冷", "reading": "lěng", "partOfSpeech": "Từ vựng", "meaning": "lạnh", "examples": [] },
+  { "order": 8, "term": "好吃", "reading": "hǎochī", "partOfSpeech": "Từ vựng", "meaning": "ngon", "examples": [] },
+  { "order": 9, "term": "好", "reading": "hǎo", "partOfSpeech": "Từ vựng", "meaning": "tốt, khỏe", "examples": [] },
+  { "order": 10, "term": "高兴", "reading": "gāoxìng", "partOfSpeech": "Từ vựng", "meaning": "vui", "examples": [] },
+  { "order": 11, "term": "累", "reading": "lèi", "partOfSpeech": "Từ vựng", "meaning": "mệt", "examples": [] },
+  { "order": 12, "term": "忙", "reading": "máng", "partOfSpeech": "Từ vựng", "meaning": "bận", "examples": [] },
+  { "order": 13, "term": "快", "reading": "kuài", "partOfSpeech": "Từ vựng", "meaning": "nhanh", "examples": [] },
+  { "order": 14, "term": "慢", "reading": "màn", "partOfSpeech": "Từ vựng", "meaning": "chậm", "examples": [] },
+  { "order": 15, "term": "好", "reading": "hǎo", "partOfSpeech": "Từ vựng", "meaning": "tốt", "examples": [] }
+]

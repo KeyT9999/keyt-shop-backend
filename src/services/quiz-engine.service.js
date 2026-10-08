@@ -14,9 +14,9 @@ function shuffle(array) {
 }
 
 /**
- * Japanese text normalizer: strips spaces, normalizes half-width to full-width kana
+ * Vocabulary text normalizer: strips spaces and normalizes full-width ASCII.
  */
-function normalizeJapanese(str) {
+function normalizeVocabularyText(str) {
   if (!str) return '';
   return str
     .trim()
@@ -132,10 +132,10 @@ const quizEngineService = {
         item
       };
     } else {
-      // User typed Japanese reading (Hiragana/Katakana/Kanji)
-      const cleanReading = normalizeJapanese(item.reading);
-      const cleanTerm = normalizeJapanese(item.term);
-      const cleanUser = normalizeJapanese(cleanInput);
+      // User typed the course term or its reading (kana or Pinyin).
+      const cleanReading = normalizeVocabularyText(item.reading);
+      const cleanTerm = normalizeVocabularyText(item.term);
+      const cleanUser = normalizeVocabularyText(cleanInput);
 
       const isCorrect = cleanUser === cleanReading || cleanUser === cleanTerm;
       return {

@@ -1,0 +1,17 @@
+[
+  { "order": 1, "term": "你", "reading": "nǐ", "partOfSpeech": "Từ vựng", "meaning": "bạn", "examples": [] },
+  { "order": 2, "term": "我", "reading": "wǒ", "partOfSpeech": "Từ vựng", "meaning": "tôi", "examples": [] },
+  { "order": 3, "term": "他/她", "reading": "tā", "partOfSpeech": "Từ vựng", "meaning": "anh ấy, cô ấy", "examples": [] },
+  { "order": 4, "term": "您", "reading": "nín", "partOfSpeech": "Từ vựng", "meaning": "ngài, ông, bà", "examples": [] },
+  { "order": 5, "term": "你们", "reading": "nǐmen", "partOfSpeech": "Từ vựng", "meaning": "các bạn", "examples": [] },
+  { "order": 6, "term": "我们", "reading": "wǒmen", "partOfSpeech": "Từ vựng", "meaning": "chúng tôi, chúng ta", "examples": [] },
+  { "order": 7, "term": "他们", "reading": "tāmen", "partOfSpeech": "Từ vựng", "meaning": "họ", "examples": [] },
+  { "order": 8, "term": "好", "reading": "hǎo", "partOfSpeech": "Từ vựng", "meaning": "tốt, khỏe", "examples": [] },
+  { "order": 9, "term": "谢谢", "reading": "xièxie", "partOfSpeech": "Từ vựng", "meaning": "cảm ơn", "examples": [] },
+  { "order": 10, "term": "不客气", "reading": "bú kèqi", "partOfSpeech": "Từ vựng", "meaning": "không có gì", "examples": [] },
+  { "order": 11, "term": "再见", "reading": "zàijiàn", "partOfSpeech": "Từ vựng", "meaning": "tạm biệt", "examples": [] },
+  { "order": 12, "term": "请", "reading": "qǐng", "partOfSpeech": "Từ vựng", "meaning": "xin, mời", "examples": [] },
+  { "order": 13, "term": "对不起", "reading": "duìbuqǐ", "partOfSpeech": "Từ vựng", "meaning": "xin lỗi", "examples": [] },
+  { "order": 14, "term": "没关系", "reading": "méi guānxi", "partOfSpeech": "Từ vựng", "meaning": "không sao", "examples": [] },
+  { "order": 15, "term": "叫", "reading": "jiào", "partOfSpeech": "Từ vựng", "meaning": "gọi, tên là", "examples": [] }
+]

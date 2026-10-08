@@ -1,0 +1,12 @@
+[
+  { "order": 1, "term": "钱", "reading": "qián", "partOfSpeech": "Từ vựng", "meaning": "tiền", "examples": [] },
+  { "order": 2, "term": "块", "reading": "kuài", "partOfSpeech": "Từ vựng", "meaning": "đồng, tệ", "examples": [] },
+  { "order": 3, "term": "元", "reading": "yuán", "partOfSpeech": "Từ vựng", "meaning": "đồng, nhân dân tệ", "examples": [] },
+  { "order": 4, "term": "贵", "reading": "guì", "partOfSpeech": "Từ vựng", "meaning": "đắt", "examples": [] },
+  { "order": 5, "term": "便宜", "reading": "piányi", "partOfSpeech": "Từ vựng", "meaning": "rẻ", "examples": [] },
+  { "order": 6, "term": "多少", "reading": "duōshao", "partOfSpeech": "Từ vựng", "meaning": "bao nhiêu", "examples": [] },
+  { "order": 7, "term": "买", "reading": "mǎi", "partOfSpeech": "Từ vựng", "meaning": "mua", "examples": [] },
+  { "order": 8, "term": "卖", "reading": "mài", "partOfSpeech": "Từ vựng", "meaning": "bán", "examples": [] },
+  { "order": 9, "term": "衣服", "reading": "yīfu", "partOfSpeech": "Từ vựng", "meaning": "quần áo", "examples": [] },
+  { "order": 10, "term": "东西", "reading": "dōngxi", "partOfSpeech": "Từ vựng", "meaning": "đồ vật, thứ", "examples": [] }
+]

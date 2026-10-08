@@ -1,0 +1,17 @@
+[
+  { "order": 1, "term": "什么", "reading": "shénme", "partOfSpeech": "Từ vựng", "meaning": "cái gì", "examples": [] },
+  { "order": 2, "term": "谁", "reading": "shéi", "partOfSpeech": "Từ vựng", "meaning": "ai", "examples": [] },
+  { "order": 3, "term": "哪", "reading": "nǎ", "partOfSpeech": "Từ vựng", "meaning": "nào", "examples": [] },
+  { "order": 4, "term": "哪儿", "reading": "nǎr", "partOfSpeech": "Từ vựng", "meaning": "ở đâu, đâu", "examples": [] },
+  { "order": 5, "term": "怎么", "reading": "zěnme", "partOfSpeech": "Từ vựng", "meaning": "thế nào, làm sao", "examples": [] },
+  { "order": 6, "term": "怎么样", "reading": "zěnme yàng", "partOfSpeech": "Từ vựng", "meaning": "thế nào", "examples": [] },
+  { "order": 7, "term": "为什么", "reading": "wèishénme", "partOfSpeech": "Từ vựng", "meaning": "tại sao", "examples": [] },
+  { "order": 8, "term": "吗", "reading": "ma", "partOfSpeech": "Từ vựng", "meaning": "trợ từ nghi vấn", "examples": [] },
+  { "order": 9, "term": "呢", "reading": "ne", "partOfSpeech": "Từ vựng", "meaning": "còn... thì sao", "examples": [] },
+  { "order": 10, "term": "的", "reading": "de", "partOfSpeech": "Từ vựng", "meaning": "của, trợ từ", "examples": [] },
+  { "order": 11, "term": "了", "reading": "le", "partOfSpeech": "Từ vựng", "meaning": "rồi", "examples": [] },
+  { "order": 12, "term": "不", "reading": "bù", "partOfSpeech": "Từ vựng", "meaning": "không", "examples": [] },
+  { "order": 13, "term": "没", "reading": "méi", "partOfSpeech": "Từ vựng", "meaning": "không, chưa", "examples": [] },
+  { "order": 14, "term": "也", "reading": "yě", "partOfSpeech": "Từ vựng", "meaning": "cũng", "examples": [] },
+  { "order": 15, "term": "都", "reading": "dōu", "partOfSpeech": "Từ vựng", "meaning": "đều", "examples": [] }
+]

@@ -1,0 +1,17 @@
+[
+  { "order": 1, "term": "去", "reading": "qù", "partOfSpeech": "Từ vựng", "meaning": "đi", "examples": [] },
+  { "order": 2, "term": "来", "reading": "lái", "partOfSpeech": "Từ vựng", "meaning": "đến", "examples": [] },
+  { "order": 3, "term": "回", "reading": "huí", "partOfSpeech": "Từ vựng", "meaning": "trở về", "examples": [] },
+  { "order": 4, "term": "看", "reading": "kàn", "partOfSpeech": "Từ vựng", "meaning": "xem, nhìn", "examples": [] },
+  { "order": 5, "term": "听", "reading": "tīng", "partOfSpeech": "Từ vựng", "meaning": "nghe", "examples": [] },
+  { "order": 6, "term": "说", "reading": "shuō", "partOfSpeech": "Từ vựng", "meaning": "nói", "examples": [] },
+  { "order": 7, "term": "睡觉", "reading": "shuìjiào", "partOfSpeech": "Từ vựng", "meaning": "ngủ", "examples": [] },
+  { "order": 8, "term": "起床", "reading": "qǐchuáng", "partOfSpeech": "Từ vựng", "meaning": "thức dậy", "examples": [] },
+  { "order": 9, "term": "工作", "reading": "gōngzuò", "partOfSpeech": "Từ vựng", "meaning": "làm việc, công việc", "examples": [] },
+  { "order": 10, "term": "打", "reading": "dǎ", "partOfSpeech": "Từ vựng", "meaning": "đánh, gọi", "examples": [] },
+  { "order": 11, "term": "打电话", "reading": "dǎ diànhuà", "partOfSpeech": "Từ vựng", "meaning": "gọi điện thoại", "examples": [] },
+  { "order": 12, "term": "坐", "reading": "zuò", "partOfSpeech": "Từ vựng", "meaning": "ngồi, đi bằng", "examples": [] },
+  { "order": 13, "term": "买", "reading": "mǎi", "partOfSpeech": "Từ vựng", "meaning": "mua", "examples": [] },
+  { "order": 14, "term": "卖", "reading": "mài", "partOfSpeech": "Từ vựng", "meaning": "bán", "examples": [] },
+  { "order": 15, "term": "做饭", "reading": "zuòfàn", "partOfSpeech": "Từ vựng", "meaning": "nấu ăn", "examples": [] }
+]

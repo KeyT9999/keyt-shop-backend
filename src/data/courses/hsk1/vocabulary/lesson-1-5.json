@@ -1,0 +1,12 @@
+[
+  { "order": 1, "term": "学校", "reading": "xuéxiào", "partOfSpeech": "Từ vựng", "meaning": "trường học", "examples": [] },
+  { "order": 2, "term": "学", "reading": "xué", "partOfSpeech": "Từ vựng", "meaning": "học", "examples": [] },
+  { "order": 3, "term": "学习", "reading": "xuéxí", "partOfSpeech": "Từ vựng", "meaning": "học tập", "examples": [] },
+  { "order": 4, "term": "课", "reading": "kè", "partOfSpeech": "Từ vựng", "meaning": "tiết học, môn học", "examples": [] },
+  { "order": 5, "term": "书", "reading": "shū", "partOfSpeech": "Từ vựng", "meaning": "sách", "examples": [] },
+  { "order": 6, "term": "字", "reading": "zì", "partOfSpeech": "Từ vựng", "meaning": "chữ", "examples": [] },
+  { "order": 7, "term": "汉字", "reading": "hànzì", "partOfSpeech": "Từ vựng", "meaning": "chữ Hán", "examples": [] },
+  { "order": 8, "term": "读", "reading": "dú", "partOfSpeech": "Từ vựng", "meaning": "đọc", "examples": [] },
+  { "order": 9, "term": "写", "reading": "xiě", "partOfSpeech": "Từ vựng", "meaning": "viết", "examples": [] },
+  { "order": 10, "term": "做", "reading": "zuò", "partOfSpeech": "Từ vựng", "meaning": "làm", "examples": [] }
+]

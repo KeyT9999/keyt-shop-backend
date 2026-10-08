@@ -1,0 +1,12 @@
+[
+  { "order": 1, "term": "家", "reading": "jiā", "partOfSpeech": "Từ vựng", "meaning": "nhà, gia đình", "examples": [] },
+  { "order": 2, "term": "学校", "reading": "xuéxiào", "partOfSpeech": "Từ vựng", "meaning": "trường học", "examples": [] },
+  { "order": 3, "term": "商店", "reading": "shāngdiàn", "partOfSpeech": "Từ vựng", "meaning": "cửa hàng", "examples": [] },
+  { "order": 4, "term": "医院", "reading": "yīyuàn", "partOfSpeech": "Từ vựng", "meaning": "bệnh viện", "examples": [] },
+  { "order": 5, "term": "饭店", "reading": "fàndiàn", "partOfSpeech": "Từ vựng", "meaning": "khách sạn", "examples": [] },
+  { "order": 6, "term": "北", "reading": "běi", "partOfSpeech": "Từ vựng", "meaning": "Bắc", "examples": [] },
+  { "order": 7, "term": "南", "reading": "nán", "partOfSpeech": "Từ vựng", "meaning": "Nam", "examples": [] },
+  { "order": 8, "term": "里", "reading": "lǐ", "partOfSpeech": "Từ vựng", "meaning": "trong", "examples": [] },
+  { "order": 9, "term": "上", "reading": "shàng", "partOfSpeech": "Từ vựng", "meaning": "trên", "examples": [] },
+  { "order": 10, "term": "下", "reading": "xià", "partOfSpeech": "Từ vựng", "meaning": "dưới", "examples": [] }
+]

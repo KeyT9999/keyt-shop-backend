@@ -1,0 +1,16 @@
+{
+  "code": "HSK1",
+  "title": "Tiếng Trung HSK1",
+  "shortDescription": "150 mục từ tiếng Trung nền tảng theo 11 chủ đề.",
+  "description": "Học từ vựng HSK1 qua chữ Hán giản thể, Pinyin, nghĩa tiếng Việt và các chế độ luyện tập tương tác.",
+  "level": "OTHER",
+  "thumbnail": "",
+  "isPublished": true,
+  "sortOrder": 3,
+  "stats": {
+    "totalVocabulary": 150,
+    "totalKanji": 0,
+    "totalGrammar": 0,
+    "totalExams": 0
+  }
+}
