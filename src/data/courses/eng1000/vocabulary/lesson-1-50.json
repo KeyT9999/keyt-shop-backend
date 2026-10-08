@@ -1,0 +1,182 @@
+[
+  {
+    "order": 1,
+    "term": "Colleague",
+    "reading": "ˈkɒliːɡ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Đồng nghiệp",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "Manager",
+    "reading": "ˈmænɪdʒər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Quản lý",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "Meeting",
+    "reading": "ˈmiːtɪŋ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Cuộc họp",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "Deadline",
+    "reading": "ˈdɛd.laɪn",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Hạn chót",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "Project",
+    "reading": "ˈprɒdʒɛkt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Dự án",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "Presentation",
+    "reading": "ˌprɛz.ənˈteɪ.ʃən",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Bài thuyết trình",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "Teamwork",
+    "reading": "ˈtiːm.wɜːk",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Làm việc nhóm",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "Email",
+    "reading": "ˈiːmeɪl",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Email",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "Report",
+    "reading": "rɪˈpɔːt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Báo cáo",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "Schedule",
+    "reading": "ˈʃɛdjuːl",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Lịch trình",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "Overtime",
+    "reading": "ˈəʊ.və.taɪm",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Làm thêm giờ",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "Promotion",
+    "reading": "prəˈməʊ.ʃən",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Thăng chức",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "Conference",
+    "reading": "ˈkɒn.fər.əns",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Hội nghị",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "Workload",
+    "reading": "ˈwɜːk.loʊd",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Khối lượng công việc",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "Office",
+    "reading": "ˈɒf.ɪs",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Văn phòng",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "Desk",
+    "reading": "dɛsk",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Bàn làm việc",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "Meeting room",
+    "reading": "ˈmiːtɪŋ ruːm",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Phòng họp",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "Printer",
+    "reading": "ˈprɪn.tər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Máy in",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "Deadline",
+    "reading": "ˈdɛd.laɪn",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Hạn chót",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "Business trip",
+    "reading": "ˈbɪz.nəs trɪp",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Chuyến công tác",
+    "examples": []
+  }
+]

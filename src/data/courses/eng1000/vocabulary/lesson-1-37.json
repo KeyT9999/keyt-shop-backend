@@ -1,0 +1,182 @@
+[
+  {
+    "order": 1,
+    "term": "Doctor",
+    "reading": "ˈdɑktər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Bác sĩ",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "Patient",
+    "reading": "ˈpeɪʃənt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Bệnh nhân",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "Nurse",
+    "reading": "nɜrs",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Y tá",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "Hospital",
+    "reading": "ˈhɑːspɪtəl",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Bệnh viện",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "Medicine",
+    "reading": "ˈmɛdɪsɪn",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Thuốc",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "Pharmacy",
+    "reading": "ˈfɑrməsi",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Hiệu thuốc",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "Appointment",
+    "reading": "əˈpɔɪntmənt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Cuộc hẹn",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "Diagnosis",
+    "reading": "ˌdaɪəɡˈnoʊsɪs",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Chẩn đoán",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "Prescription",
+    "reading": "prɪˈskrɪpʃən",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Đơn thuốc",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "Surgery",
+    "reading": "ˈsɜrdʒəri",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Phẫu thuật",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "Vaccine",
+    "reading": "ˈvæksiːn",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Vắc-xin",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "Health",
+    "reading": "hɛlθ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Sức khỏe",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "Fitness",
+    "reading": "ˈfɪtnɪs",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Sức khỏe, thể chất",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "Exercise",
+    "reading": "ˈɛksərˌsaɪz",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Tập thể dục",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "Nutrition",
+    "reading": "nuˈtrɪʃən",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Dinh dưỡng",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "Wellness",
+    "reading": "ˈwɛlnəs",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Sự khỏe mạnh, sự an lành",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "Allergy",
+    "reading": "ˈælərʤi",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Dị ứng",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "Fever",
+    "reading": "ˈfiːvər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Sốt",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "Headache",
+    "reading": "ˈhɛdˌeɪk",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Đau đầu",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "Stress",
+    "reading": "strɛs",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Căng thẳng",
+    "examples": []
+  }
+]

@@ -1,0 +1,326 @@
+[
+  {
+    "order": 1,
+    "term": "Parent",
+    "reading": "'peərənt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Bố hoặc mẹ",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "Father",
+    "reading": "ˈfɑː.ðər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Bố",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "Mother",
+    "reading": "ˈmʌð.ər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Mẹ",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "A child",
+    "reading": "tʃaɪld",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Con cái (số ít)",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "Children",
+    "reading": "ˈtʃɪl.drən",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Con cái (số nhiều)",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "Son",
+    "reading": "sʌn",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Con trai",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "Daughter",
+    "reading": "ˈdɔː.tər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Con gái",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "Twin",
+    "reading": "twin",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sinh đôi",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "Triplet",
+    "reading": "ˈtrɪp.lət",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sinh ba",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "Sibling",
+    "reading": "ˈsɪb.lɪŋ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Anh/ chị/ em ruột",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "Sister",
+    "reading": "ˈsɪs.tər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Chị gái",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "Brother",
+    "reading": "ˈbrʌð.ər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Anh trai",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "Husband",
+    "reading": "ˈhʌz.bənd",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Chồng",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "Wife",
+    "reading": "waɪf",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Vợ",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "Grandparent",
+    "reading": "ˈɡrænpeərənt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Ông hoặc bà",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "Grandmother",
+    "reading": "ˈɡrænmʌðə(r)",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Bà ngoại/ bà nội",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "Grandfather",
+    "reading": "ˈɡrænfɑːðə(r)",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Ông ngoại/ ông nội",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "Grandchild",
+    "reading": "ˈɡræn.tʃaɪld",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Cháu",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "Grandson",
+    "reading": "ˈɡræn.sʌn",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Cháu trai",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "Granddaughter",
+    "reading": "ˈɡræn.dɔː.tər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Cháu gái",
+    "examples": []
+  },
+  {
+    "order": 21,
+    "term": "Nephew",
+    "reading": "ˈnev.juː",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Cháu trai",
+    "examples": []
+  },
+  {
+    "order": 22,
+    "term": "Niece",
+    "reading": "niːs",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Cháu gái",
+    "examples": []
+  },
+  {
+    "order": 23,
+    "term": "Cousin",
+    "reading": "ˈkʌz.ən",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Anh chị em họ",
+    "examples": []
+  },
+  {
+    "order": 24,
+    "term": "Uncle",
+    "reading": "ˈʌŋ.kəl",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Chú/ bác trai/ cậu",
+    "examples": []
+  },
+  {
+    "order": 25,
+    "term": "Aunt",
+    "reading": "ɑːnt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Cô/ dì/ bác gái",
+    "examples": []
+  },
+  {
+    "order": 26,
+    "term": "Godfather",
+    "reading": "ˈɡɒdˌfɑː.ðər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Bố đỡ đầu",
+    "examples": []
+  },
+  {
+    "order": 27,
+    "term": "Godmother",
+    "reading": "ˈɡɒdˌmʌð.ər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Mẹ đỡ đầu",
+    "examples": []
+  },
+  {
+    "order": 28,
+    "term": "Godson",
+    "reading": "ˈɡɒd.sʌn",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Con trai đỡ đầu",
+    "examples": []
+  },
+  {
+    "order": 29,
+    "term": "Goddaughter",
+    "reading": "ˈɡɒdˌdɔː.tər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Con gái đỡ đầu",
+    "examples": []
+  },
+  {
+    "order": 30,
+    "term": "Father-in-law",
+    "reading": "ˈfɑː.ðər.ɪn.lɔː",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Bố chồng/ bố vợ",
+    "examples": []
+  },
+  {
+    "order": 31,
+    "term": "Mother-in-law",
+    "reading": "ˈmʌð.ə.rɪn.lɔː",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Mẹ chồng/ mẹ vợ",
+    "examples": []
+  },
+  {
+    "order": 32,
+    "term": "Son-in-law",
+    "reading": "ˈsʌn.ɪn.lɔː",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Con rể",
+    "examples": []
+  },
+  {
+    "order": 33,
+    "term": "Daughter-in-law",
+    "reading": "ˈdɔː.tər.ɪn.lɔː",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Con dâu",
+    "examples": []
+  },
+  {
+    "order": 34,
+    "term": "Sister-in-law",
+    "reading": "ˈsɪs.tə.rɪn.lɔː",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Chị dâu/ em dâu",
+    "examples": []
+  },
+  {
+    "order": 35,
+    "term": "Brother-in-law",
+    "reading": "ˈbrʌð.ə.rɪn.lɔː",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Anh rể/ em rể",
+    "examples": []
+  },
+  {
+    "order": 36,
+    "term": "Relative",
+    "reading": "ˈrel.ə.tɪv",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Họ hàng",
+    "examples": []
+  }
+]

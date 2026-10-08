@@ -1,0 +1,182 @@
+[
+  {
+    "order": 1,
+    "term": "Art",
+    "reading": "ɑːrt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Nghệ thuật",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "Painting",
+    "reading": "ˈpeɪntɪŋ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Tranh",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "Sculpture",
+    "reading": "ˈskʌlpʧər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Điêu khắc",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "Drawing",
+    "reading": "ˈdrɔːɪŋ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Vẽ",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "Photography",
+    "reading": "fəˈtɑːɡrəfi",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Nhiếp ảnh",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "Gallery",
+    "reading": "ˈɡæləri",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Phòng trưng bày",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "Exhibit",
+    "reading": "ɪɡˈzɪbɪt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Triển lãm",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "Sculptor",
+    "reading": "ˈskʌlpʧər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Nhà điêu khắc",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "Brush",
+    "reading": "brʌʃ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Cọ",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "Palette",
+    "reading": "ˈpælɪt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Bảng màu",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "Canvas",
+    "reading": "ˈkænvəs",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Bức tranh",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "Sketch",
+    "reading": "skɛtʃ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Bản phác thảo",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "Pottery",
+    "reading": "ˈpɑːtəri",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Gốm sứ",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "Ceramics",
+    "reading": "səˈræmɪks",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Gốm sứ",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "Abstract",
+    "reading": "ˈæbstrækt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Trừu tượng",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "Landscape",
+    "reading": "ˈlændskeɪp",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Phong cảnh",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "Portrait",
+    "reading": "ˈpɔːrtrət",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Chân dung",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "Artistic",
+    "reading": "ɑːrˈtɪstɪk",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Mỹ thuật",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "Composition",
+    "reading": "ˌkɑːmpəˈzɪʃən",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Cách bố trí",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "Artwork",
+    "reading": "ˈɑːrtwɜːrk",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Tác phẩm nghệ thuật",
+    "examples": []
+  }
+]

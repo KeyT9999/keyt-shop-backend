@@ -1,0 +1,182 @@
+[
+  {
+    "order": 1,
+    "term": "recipe",
+    "reading": "ˈrɛsəpi",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "công thức nấu ăn",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "ingredient",
+    "reading": "ɪnˈɡriːdiənt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nguyên liệu",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "utensil",
+    "reading": "juːˈtɛnsəl",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "dụng cụ nấu ăn",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "chopping board",
+    "reading": "ˈʧɑːpɪŋ bɔːrd",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thớt cắt",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "knife",
+    "reading": "naɪf",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "dao",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "cutting",
+    "reading": "ˈkʌtɪŋ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cắt",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "peeling",
+    "reading": "ˈpiːlɪŋ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "gọt",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "boiling",
+    "reading": "ˈbɔɪlɪŋ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sôi",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "frying",
+    "reading": "ˈfraɪɪŋ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chiên",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "baking",
+    "reading": "ˈbeɪkɪŋ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nướng",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "grilling",
+    "reading": "ˈɡrɪlɪŋ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nướng (lưới)",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "sautéing",
+    "reading": "sɔːˈteɪɪŋ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "xào",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "simmering",
+    "reading": "ˈsɪmərɪŋ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "ninh",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "stirring",
+    "reading": "ˈstɜːrɪŋ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "khuấy",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "whisking",
+    "reading": "ˈwɪskɪŋ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đánh (trứng, kem)",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "marinating",
+    "reading": "ˈmærɪneɪtɪŋ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "ướp (thịt)",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "seasoning",
+    "reading": "ˈsiːzənɪŋ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "gia vị",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "tasting",
+    "reading": "ˈteɪstɪŋ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nếm thử",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "garnish",
+    "reading": "ˈɡɑːrnɪʃ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "trang trí",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "plating",
+    "reading": "ˈpleɪtɪŋ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "dọn đĩa",
+    "examples": []
+  }
+]

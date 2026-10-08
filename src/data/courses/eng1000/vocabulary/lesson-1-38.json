@@ -1,0 +1,182 @@
+[
+  {
+    "order": 1,
+    "term": "Fever",
+    "reading": "ˈfiːvər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Sốt",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "Cough",
+    "reading": "kɑf",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Ho",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "Headache",
+    "reading": "ˈhɛdˌeɪk",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Đau đầu",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "Sore throat",
+    "reading": "sɔr θroʊt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Đau họng",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "Runny nose",
+    "reading": "ˈrʌni noʊz",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Sổ mũi",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "Sneezing",
+    "reading": "ˈsnizɪŋ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Hắt hơi",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "Fatigue",
+    "reading": "fəˈtiːɡ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Mệt mỏi",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "Nausea",
+    "reading": "ˈnɔːziə",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Buồn nôn",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "Dizziness",
+    "reading": "ˈdɪznəs",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Chóng mặt",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "Vomiting",
+    "reading": "ˈvɑmɪtɪŋ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Nôn mửa",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "Diarrhea",
+    "reading": "daɪəˈriə",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Tiêu chảy",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "Rash",
+    "reading": "ræʃ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Nổi mẩn",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "Swelling",
+    "reading": "ˈswɛlɪŋ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Sưng",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "Fatigue",
+    "reading": "fəˈtiːɡ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Mệt mỏi",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "Chills",
+    "reading": "ʧɪlz",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Rùng mình",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "Shortness of breath",
+    "reading": "ˈʃɔrtnəs ʌv brɛθ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Khó thở",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "Stomachache",
+    "reading": "ˈstʌməkˌeɪk",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Đau bụng",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "Back pain",
+    "reading": "bæk peɪn",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Đau lưng",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "Joint pain",
+    "reading": "ʤɔɪnt peɪn",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Đau khớp",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "Numbness",
+    "reading": "ˈnʌmnəs",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Tê liệt",
+    "examples": []
+  }
+]

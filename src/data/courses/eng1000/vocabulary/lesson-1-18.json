@@ -1,0 +1,182 @@
+[
+  {
+    "order": 1,
+    "term": "travel",
+    "reading": "ˈtrævəl",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "du lịch",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "trip",
+    "reading": "trɪp",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chuyến đi",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "destination",
+    "reading": "ˌdɛstɪˈneɪʃən",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "điểm đến",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "itinerary",
+    "reading": "aɪˈtɪnərəri",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "lịch trình",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "tourist",
+    "reading": "ˈtʊrɪst",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "du khách",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "sightseeing",
+    "reading": "ˈsaɪtˌsiːɪŋ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tham quan",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "explore",
+    "reading": "ɪkˈsplɔːr",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "khám phá",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "adventure",
+    "reading": "ədˈvɛnʧər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cuộc phiêu lưu",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "accommodation",
+    "reading": "əˌkɑːməˈdeɪʃən",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chỗ ở",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "hotel",
+    "reading": "hoʊˈtɛl",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "khách sạn",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "hostel",
+    "reading": "ˈhɑːstəl",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nhà trọ",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "passport",
+    "reading": "ˈpæspɔːrt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "hộ chiếu",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "visa",
+    "reading": "ˈviːzə",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "visa",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "luggage",
+    "reading": "ˈlʌɡɪdʒ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "hành lý",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "airport",
+    "reading": "ˈɛrˌpɔːrt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sân bay",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "departure",
+    "reading": "dɪˈpɑːrʧər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "khởi hành",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "arrival",
+    "reading": "əˈraɪvəl",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đến nơi",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "currency",
+    "reading": "ˈkɜːrənsi",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tiền tệ",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "exchange",
+    "reading": "ɪksˈʧeɪndʒ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "trao đổi",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "guide",
+    "reading": "ɡaɪd",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "hướng dẫn viên",
+    "examples": []
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "order": 1,
+    "term": "dog",
+    "reading": "dɔɡ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chó",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "cat",
+    "reading": "kæt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "mèo",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "lion",
+    "reading": "ˈlaɪən",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sư tử",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "tiger",
+    "reading": "ˈtaɪɡər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "hổ",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "elephant",
+    "reading": "ˈɛləfənt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "voi",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "giraffe",
+    "reading": "dʒəˈræf",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "hươu cao cổ",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "monkey",
+    "reading": "ˈmʌŋki",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "khỉ",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "bear",
+    "reading": "bɛr",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "gấu",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "dolphin",
+    "reading": "ˈdɒlfɪn",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cá heo",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "shark",
+    "reading": "ʃɑrk",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cá mập",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "horse",
+    "reading": "hɔrs",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "ngựa",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "cow",
+    "reading": "kaʊ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "bò",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "sheep",
+    "reading": "ʃip",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cừu",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "rabbit",
+    "reading": "ˈræbɪt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thỏ",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "bird",
+    "reading": "bɜrd",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chim",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "butterfly",
+    "reading": "ˈbʌtərflaɪ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "bướm",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "fish",
+    "reading": "fɪʃ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cá",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "snake",
+    "reading": "sneɪk",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "rắn",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "spider",
+    "reading": "ˈspaɪdər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nhện",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "turtle",
+    "reading": "ˈtɜrtl̩",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "rùa",
+    "examples": []
+  }
+]

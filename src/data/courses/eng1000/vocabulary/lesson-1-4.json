@@ -1,0 +1,335 @@
+[
+  {
+    "order": 1,
+    "term": "Affection",
+    "reading": "əˈfɛkʃən",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Sự yêu mến, sự quý trọng",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "Ambition",
+    "reading": "æmˈbɪʃən",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Ước mơ, khát vọng",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "Assurance",
+    "reading": "əˈʃʊrəns",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Sự tin tưởng, sự đảm bảo",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "Authenticity",
+    "reading": "ɔːˌθɛntɪˈsɪti",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Sự chân thật, tính xác thực",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "Boldness",
+    "reading": "ˈbəʊldnəs",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Sự dũng cảm, gan dạ",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "Bravery",
+    "reading": "ˈbreɪvri",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Sự can đảm, lòng dũng cảm",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "Calmness",
+    "reading": "ˈkɑːmnəs",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Sự bình tĩnh",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "Carefulness",
+    "reading": "ˈkeəfʊlnəs",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Sự cẩn thận",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "Charity",
+    "reading": "ˈtʃærəti",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Sự từ thiện, tình người",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "Compassion",
+    "reading": "kəmˈpæʃən",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Sự thông cảm, lòng trắc ẩn",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "Confidence",
+    "reading": "ˈkɒnfɪdəns",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Sự tự tin, sự tin tưởng",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "Courage",
+    "reading": "ˈkʌrɪdʒ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Sự can đảm, sự dũng mãnh",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "Creativity",
+    "reading": "ˌkriːeɪˈtɪvəti",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Sự sáng tạo, tính sáng tạo",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "Decisiveness",
+    "reading": "dɪˈsaɪsɪvnəs",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Sự quả quyết, sự kiên quyết",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "Determination",
+    "reading": "dɪˌtɜːmɪˈneɪʃn",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Sự quả quyết, sự kiên định",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "Diligence",
+    "reading": "ˈdɪlɪdʒəns",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Sự cần cù, sự siêng năng",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "Empathy",
+    "reading": "ˈɛmpəθi",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Sự đồng cảm, sự thông cảm",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "Enthusiasm",
+    "reading": "ɪnˈθjuːziæzəm",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Sự nhiệt tình, sự hăng hái",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "Faithfulness",
+    "reading": "ˈfeɪθfʊlnəs",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Sự trung thành, lòng trung thành",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "Flexibility",
+    "reading": "ˌfleksəˈbɪləti",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Sự linh hoạt, tính linh hoạt",
+    "examples": []
+  },
+  {
+    "order": 21,
+    "term": "Forgiveness",
+    "reading": "fəˈɡɪvnəs",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Sự tha thứ, sự khoan dung",
+    "examples": []
+  },
+  {
+    "order": 22,
+    "term": "Generosity",
+    "reading": "ˌdʒenəˈrɒsəti",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Sự rộng lượng, sự hào phóng",
+    "examples": []
+  },
+  {
+    "order": 23,
+    "term": "Gentleness",
+    "reading": "ˈdʒentlnəs",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Sự nhẹ nhàng, sự hiền dịu",
+    "examples": []
+  },
+  {
+    "order": 24,
+    "term": "Gratitude",
+    "reading": "ˈɡrætɪtjuːd",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Sự biết ơn, lòng biết ơn",
+    "examples": []
+  },
+  {
+    "order": 25,
+    "term": "Happiness",
+    "reading": "ˈhæpɪnəs",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Sự hạnh phúc, niềm vui",
+    "examples": []
+  },
+  {
+    "order": 26,
+    "term": "Harmony",
+    "reading": "ˈhɑːməni",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Sự hòa thuận, sự hài hòa",
+    "examples": []
+  },
+  {
+    "order": 27,
+    "term": "Honesty",
+    "reading": "ˈɒnɪsti",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Sự thật thà, tính trung thực",
+    "examples": []
+  },
+  {
+    "order": 28,
+    "term": "Humility",
+    "reading": "hjuːˈmɪləti",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Sự khiêm tốn, tính khiêm tốn",
+    "examples": []
+  },
+  {
+    "order": 29,
+    "term": "Humor",
+    "reading": "ˈhjuːmə",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Sự hài hước, tính hài hước",
+    "examples": []
+  },
+  {
+    "order": 30,
+    "term": "Innovation",
+    "reading": "ˌɪnəʊˈveɪʃn",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Sự đổi mới, tính đổi mới",
+    "examples": []
+  },
+  {
+    "order": 31,
+    "term": "Integrity",
+    "reading": "ɪnˈteɡrəti",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Sự toàn vẹn, tính liêm chính",
+    "examples": []
+  },
+  {
+    "order": 32,
+    "term": "Joy",
+    "reading": "dʒɔɪ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Sự vui mừng, sự hạnh phúc",
+    "examples": []
+  },
+  {
+    "order": 33,
+    "term": "Kindness",
+    "reading": "ˈkaɪndnəs",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Sự tử tế, tính nhân từ",
+    "examples": []
+  },
+  {
+    "order": 34,
+    "term": "Loyalty",
+    "reading": "ˈlɔɪəlti",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Sự trung thành, tính trung thành",
+    "examples": []
+  },
+  {
+    "order": 35,
+    "term": "Mindfulness",
+    "reading": "ˈmaɪndfʊlnəs",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Sự tỉnh táo, tính tỉnh táo",
+    "examples": []
+  },
+  {
+    "order": 36,
+    "term": "Modesty",
+    "reading": "ˈmɒdəsti",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Sự khiêm nhường, tính khiêm nhường",
+    "examples": []
+  },
+  {
+    "order": 37,
+    "term": "Openness",
+    "reading": "ˈəʊpənəs",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Sự cởi mở, tính cởi mở",
+    "examples": []
+  }
+]

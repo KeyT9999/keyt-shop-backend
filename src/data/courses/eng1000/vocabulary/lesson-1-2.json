@@ -1,0 +1,272 @@
+[
+  {
+    "order": 1,
+    "term": "Shirt",
+    "reading": "ʃɜːt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Áo sơ mi",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "T-shirt",
+    "reading": "ˈtiː ʃɜːt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Áo phông",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "Trousers",
+    "reading": "ˈtraʊzəz",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Quần dài",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "Dress",
+    "reading": "dres",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Đầm",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "Skirt",
+    "reading": "skɜːt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Chân váy",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "Coat",
+    "reading": "kəʊt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Áo khoác dài",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "Jacket",
+    "reading": "ˈdʒækɪt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Áo khoác",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "Sweater",
+    "reading": "ˈswetə(r)",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Áo len",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "Jeans",
+    "reading": "dʒiːnz",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Quần jeans",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "Cardigan",
+    "reading": "ˈkɑːdɪɡən",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Áo ca-đi-gan",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "Pants",
+    "reading": "pænts",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Quần dài",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "Shorts",
+    "reading": "ʃɔːts",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Quần đùi",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "House dress",
+    "reading": "haus dres",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Váy mặc ở nhà",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "Maternity dress",
+    "reading": "mə’təniti dres",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Váy bầu",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "Wedding gown",
+    "reading": "ˈwedɪŋ ɡaʊn",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Váy cưới",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "Blouse",
+    "reading": "blaʊz",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Áo sơ mi nữ",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "Miniskirt",
+    "reading": "ˈmɪniskɜːt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Chân váy ngắn",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "Night gown",
+    "reading": "naɪt ɡaʊn",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Đầm ngủ",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "Bib overalls",
+    "reading": "ˈbɪb əʊvərɔːlz",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Quần sạc lô",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "Pyjamas",
+    "reading": "pəˈdʒɑːməz",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Đồ pi-ya-ma",
+    "examples": []
+  },
+  {
+    "order": 21,
+    "term": "Bathrobe",
+    "reading": "ˈbɑːθrəʊb",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Áo choàng tắm",
+    "examples": []
+  },
+  {
+    "order": 22,
+    "term": "Swimsuit",
+    "reading": "ˈswɪmsuːt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Đồ bơi",
+    "examples": []
+  },
+  {
+    "order": 23,
+    "term": "Pleated skirt",
+    "reading": "plit kət",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Váy xếp ly",
+    "examples": []
+  },
+  {
+    "order": 24,
+    "term": "Blazer",
+    "reading": "ˈbleɪzə(r)",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Áo khoác blazer",
+    "examples": []
+  },
+  {
+    "order": 25,
+    "term": "Tank top",
+    "reading": "ˈtæŋk tɒp",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Áo ba lỗ",
+    "examples": []
+  },
+  {
+    "order": 26,
+    "term": "Evening dress",
+    "reading": "ˈiːvnɪŋ dres",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Đầm dạ hội",
+    "examples": []
+  },
+  {
+    "order": 27,
+    "term": "Slip dress",
+    "reading": "slɪp dres",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Đầm hai dây",
+    "examples": []
+  },
+  {
+    "order": 28,
+    "term": "Crop top",
+    "reading": "ˈkrɒp tɒp",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Áo crop top",
+    "examples": []
+  },
+  {
+    "order": 29,
+    "term": "Leggings",
+    "reading": "leɡɪŋz",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Quần ôm sát",
+    "examples": []
+  },
+  {
+    "order": 30,
+    "term": "Maxi",
+    "reading": "ˈmæksi",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Đầm maxi",
+    "examples": []
+  }
+]

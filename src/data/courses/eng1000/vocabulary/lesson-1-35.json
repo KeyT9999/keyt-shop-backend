@@ -1,0 +1,182 @@
+[
+  {
+    "order": 1,
+    "term": "Stop sign",
+    "reading": "stɑp saɪn",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Biển stop",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "Yield sign",
+    "reading": "jild saɪn",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Biển nhường đường",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "Speed limit",
+    "reading": "spid ˈlɪmɪt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Giới hạn tốc độ",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "No entry",
+    "reading": "noʊ ˈɛntri",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Cấm vào",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "One-way",
+    "reading": "wʌn-weɪ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Đường một chiều",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "No parking",
+    "reading": "noʊ ˈpɑrkɪŋ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Cấm đỗ xe",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "Pedestrian crossing",
+    "reading": "pəˈdɛstriən ˈkrɔsɪŋ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Vạch qua đường cho người đi bộ",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "School zone",
+    "reading": "skul zoʊn",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Khu vực trường học",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "Road work ahead",
+    "reading": "roʊd wɜrk əˈhɛd",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Công trường trên đường",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "No U-turn",
+    "reading": "noʊ ˈjuˈtɜrn",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Cấm quay đầu",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "Railroad crossing",
+    "reading": "ˈreɪlˌroʊd ˈkrɔsɪŋ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Vạch chung cầu đường",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "Traffic light",
+    "reading": "ˈtræfɪk laɪt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Đèn giao thông",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "Bicycle lane",
+    "reading": "ˈbaɪsɪkəl leɪn",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Làn đường cho xe đạp",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "No overtaking",
+    "reading": "noʊ ˈoʊvərˌteɪkɪŋ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Cấm vượt",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "Detour",
+    "reading": "ˈdiːtʊr",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Đường vòng qua",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "Bus stop",
+    "reading": "bʌs stɑp",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Bến xe buýt",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "Airport",
+    "reading": "ˈɛrˌpɔrt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Sân bay",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "Train station",
+    "reading": "treɪn ˈsteɪʃən",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Ga tàu",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "Parking garage",
+    "reading": "ˈpɑrkɪŋ ˈɡærɪdʒ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Nhà để xe",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "Crosswalk",
+    "reading": "ˈkrɔswɔk",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Vạch dành cho người đi bộ",
+    "examples": []
+  }
+]

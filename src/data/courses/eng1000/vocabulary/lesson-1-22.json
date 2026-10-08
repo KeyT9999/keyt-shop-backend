@@ -1,0 +1,182 @@
+[
+  {
+    "order": 1,
+    "term": "fiction",
+    "reading": "ˈfɪkʃən",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tiểu thuyết",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "non-fiction",
+    "reading": "nɑnˈfɪkʃən",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "phi hư cấu",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "mystery",
+    "reading": "ˈmɪstəri",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "bí ẩn, trinh thám",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "romance",
+    "reading": "ˈroʊmæns",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tình cảm",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "science fiction",
+    "reading": "ˈsaɪəns ˈfɪkʃən",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "khoa học viễn tưởng",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "fantasy",
+    "reading": "ˈfæntəsi",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "huyền bí",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "thriller",
+    "reading": "ˈθrɪlər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "ly kỳ",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "horror",
+    "reading": "ˈhɔːrər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "kinh dị",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "biography",
+    "reading": "baɪˈɑːɡrəfi",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tiểu sử",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "autobiography",
+    "reading": "ˌɔːtoʊbaɪˈɑːɡrəfi",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tự truyện",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "historical fiction",
+    "reading": "hɪˈstɔːrɪkəl ˈfɪkʃən",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tiểu thuyết lịch sử",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "poetry",
+    "reading": "ˈpoʊətri",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thơ",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "drama",
+    "reading": "ˈdrɑːmə",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "kịch",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "comedy",
+    "reading": "ˈkɑːmədi",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "hài",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "thriller",
+    "reading": "ˈθrɪlər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "căng thẳng, hồi hộp",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "adventure",
+    "reading": "ədˈvɛnʧər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "phiêu lưu",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "young adult",
+    "reading": "jʌŋ ˈædʌlt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thanh thiếu niên",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "children's",
+    "reading": "ˈtʃɪldrənz",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thiếu nhi",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "self-help",
+    "reading": "ˌsɛlf ˈhɛlp",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tự giúp bản thân",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "historical romance",
+    "reading": "hɪˈstɔːrɪkəl ˈroʊmæns",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tình cảm lịch sử",
+    "examples": []
+  }
+]

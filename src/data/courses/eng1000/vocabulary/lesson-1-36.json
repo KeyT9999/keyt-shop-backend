@@ -1,0 +1,182 @@
+[
+  {
+    "order": 1,
+    "term": "Doctor",
+    "reading": "ˈdɑktər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Bác sĩ",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "Teacher",
+    "reading": "ˈtiːʧər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Giáo viên",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "Engineer",
+    "reading": "ˌɛnʤɪˈnɪr",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Kỹ sư",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "Lawyer",
+    "reading": "ˈlɔjər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Luật sư",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "Nurse",
+    "reading": "nɜrs",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Y tá",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "Police officer",
+    "reading": "pəˈlis ˈɔfɪsər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Cảnh sát",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "Firefighter",
+    "reading": "ˈfaɪrˌfaɪtər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Lính cứu hỏa",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "Chef",
+    "reading": "ʃɛf",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Đầu bếp",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "Accountant",
+    "reading": "əˈkaʊntənt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Kế toán viên",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "Architect",
+    "reading": "ˈɑr.kɪ.tɛkt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Kiến trúc sư",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "Programmer",
+    "reading": "ˈproʊˌɡræmər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Lập trình viên",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "Writer",
+    "reading": "ˈraɪtər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Nhà văn",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "Actor",
+    "reading": "ˈæktər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Diễn viên",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "Singer",
+    "reading": "ˈsɪŋər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Ca sĩ",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "Mechanic",
+    "reading": "məˈkænɪk",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Thợ máy",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "Electrician",
+    "reading": "ɪˌlɛkˈtrɪʃən",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Thợ điện",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "Carpenter",
+    "reading": "ˈkɑrpəntər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Thợ mộc",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "Photographer",
+    "reading": "fəˈtɑːɡrəfər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Nhiếp ảnh gia",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "Salesperson",
+    "reading": "ˈseɪlzˌpɜrsən",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Nhân viên bán hàng",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "Astronaut",
+    "reading": "ˈæstrəˌnɔt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Phi hành gia",
+    "examples": []
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "order": 1,
+    "term": "sport",
+    "reading": "spɔːrt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "môn thể thao",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "athlete",
+    "reading": "ˈæθliːt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "vận động viên",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "team",
+    "reading": "tiːm",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đội",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "competition",
+    "reading": "ˌkɒmpɪˈtɪʃən",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cuộc thi, cạnh tranh",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "tournament",
+    "reading": "ˈtʊərnəmənt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "giải đấu, giải thể thao",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "referee",
+    "reading": "ˈrɛfəriː",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "trọng tài",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "stadium",
+    "reading": "ˈsteɪdiəm",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sân vận động",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "coach",
+    "reading": "koʊʧ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "huấn luyện viên",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "champion",
+    "reading": "ˈʧæmpiən",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nhà vô địch",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "victory",
+    "reading": "ˈvɪktəri",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chiến thắng",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "defeat",
+    "reading": "dɪˈfiːt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thất bại",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "medal",
+    "reading": "ˈmɛdl",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "huy chương",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "record",
+    "reading": "ˈrɛkɔːrd",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "kỷ lục",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "athlete",
+    "reading": "ˈæθliːt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "vận động viên",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "equipment",
+    "reading": "ɪˈkwɪpmənt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "trang thiết bị",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "fitness",
+    "reading": "ˈfɪtnəs",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thể lực",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "endurance",
+    "reading": "ɪnˈdʊrəns",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sức bền",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "agility",
+    "reading": "əˈʤɪləti",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự nhanh nhẹn",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "strength",
+    "reading": "strɛŋθ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sức mạnh",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "flexibility",
+    "reading": "ˌflɛksəˈbɪlɪti",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự linh hoạt",
+    "examples": []
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "order": 1,
+    "term": "kitchen",
+    "reading": "ˈkɪʧɪn",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nhà bếp",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "stove",
+    "reading": "stoʊv",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "bếp",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "oven",
+    "reading": "ˈʌvən",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "lò nướng",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "refrigerator",
+    "reading": "rɪˈfrɪʤəreɪtər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tủ lạnh",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "microwave",
+    "reading": "ˈmaɪkrəˌweɪv",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "lò vi sóng",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "sink",
+    "reading": "sɪŋk",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "bồn rửa",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "faucet",
+    "reading": "ˈfɔːsɪt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "vòi nước",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "dishwasher",
+    "reading": "ˈdɪʃˌwɑːʃər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "máy rửa chén",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "countertop",
+    "reading": "ˈkaʊntərˌtɑːp",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "mặt bếp",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "cabinet",
+    "reading": "ˈkæbənɪt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tủ",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "cutting board",
+    "reading": "ˈkʌtɪŋ bɔːrd",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thớt cắt",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "knife",
+    "reading": "naɪf",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "con dao",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "spoon",
+    "reading": "spuːn",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cái thìa",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "fork",
+    "reading": "fɔːrk",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cái nĩa",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "plate",
+    "reading": "pleɪt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đĩa",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "bowl",
+    "reading": "boʊl",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tô",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "pot",
+    "reading": "pɒt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nồi",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "pan",
+    "reading": "pæn",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chảo",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "whisk",
+    "reading": "wɪsk",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cái đánh trứng",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "blender",
+    "reading": "ˈblɛndər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "máy xay",
+    "examples": []
+  }
+]

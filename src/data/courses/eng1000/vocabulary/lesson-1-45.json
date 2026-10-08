@@ -1,0 +1,182 @@
+[
+  {
+    "order": 1,
+    "term": "Culture",
+    "reading": "ˈkʌltʃər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Văn hóa",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "Tradition",
+    "reading": "trəˈdɪʃən",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Truyền thống",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "Customs",
+    "reading": "ˈkʌstəmz",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Phong tục",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "Heritage",
+    "reading": "ˈherɪtɪdʒ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Di sản",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "Ritual",
+    "reading": "ˈrɪtʃuəl",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Nghi lễ",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "Ceremony",
+    "reading": "ˈsɛrəˌmoʊni",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Lễ nghi",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "Folklore",
+    "reading": "ˈfoʊklɔːr",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Văn hóa dân gian",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "Artifacts",
+    "reading": "ˈɑːrtɪˌfækts",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Đồ cổ",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "Cultural Exchange",
+    "reading": "ˈkʌltʃərəl ɪksˈʧeɪndʒ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Trao đổi văn hóa",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "Diversity",
+    "reading": "daɪˈvɜrsɪti",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Đa dạng",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "Multicultural",
+    "reading": "ˌmʌltiˈkʌltʃərəl",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Đa văn hóa",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "Ethnicity",
+    "reading": "ɛθˈnɪsɪti",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Dân tộc",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "Language",
+    "reading": "ˈlæŋɡwɪʤ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Ngôn ngữ",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "Cuisine",
+    "reading": "kwɪˈzin",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Ẩm thực",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "Festivals",
+    "reading": "ˈfɛstəvəlz",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Lễ hội",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "Symbols",
+    "reading": "ˈsɪmbəlz",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Biểu tượng",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "Cultural Identity",
+    "reading": "ˈkʌltʃərəl aɪˈdɛntɪti",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Nhận thức văn hóa",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "Cultural Heritage",
+    "reading": "ˈkʌltʃərəl ˈhɛrɪtɪdʒ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Di sản văn hóa",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "Artistic",
+    "reading": "ɑːrˈtɪstɪk",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Mỹ thuật",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "Values",
+    "reading": "ˈvæljuːz",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Giá trị",
+    "examples": []
+  }
+]

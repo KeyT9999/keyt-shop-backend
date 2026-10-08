@@ -1,0 +1,182 @@
+[
+  {
+    "order": 1,
+    "term": "melody",
+    "reading": "ˈmɛlədi",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "giai điệu",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "rhythm",
+    "reading": "ˈrɪðəm",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nhịp điệu",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "harmony",
+    "reading": "ˈhɑːrməni",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "âm điệu",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "tempo",
+    "reading": "ˈtɛmpoʊ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nhịp độ",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "beat",
+    "reading": "biːt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nhịp",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "lyrics",
+    "reading": "ˈlɪrɪks",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "lời bài hát",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "chorus",
+    "reading": "ˈkɔːrəs",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đoạn hợp xướng",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "verse",
+    "reading": "vɜːrs",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đoạn hợp ca",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "solo",
+    "reading": "ˈsoʊloʊ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "màn trình diễn đơn",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "duet",
+    "reading": "ˈduːɛt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "hòa âm đôi",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "orchestra",
+    "reading": "ˈɔːrkɪstrə",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "dàn nhạc",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "conductor",
+    "reading": "kənˈdʌktər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "người chỉ huy dàn nhạc",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "instrument",
+    "reading": "ˈɪnstrəmənt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nhạc cụ",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "piano",
+    "reading": "piˈænoʊ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đàn piano",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "guitar",
+    "reading": "ɡɪˈtɑːr",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đàn guitar",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "violin",
+    "reading": "ˈvaɪəlɪn",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đàn vi-ô-lông",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "trumpet",
+    "reading": "ˈtrʌmpɪt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "kèn trumpet",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "drums",
+    "reading": "drʌmz",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "trống",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "voice",
+    "reading": "vɔɪs",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "giọng",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "concert",
+    "reading": "ˈkɑːnsərt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "buổi hòa nhạc",
+    "examples": []
+  }
+]

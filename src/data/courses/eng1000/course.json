@@ -1,0 +1,16 @@
+{
+  "code": "ENG1000",
+  "title": "1.000 từ tiếng Anh thông dụng",
+  "shortDescription": "1.044 mục từ tiếng Anh theo 50 chủ đề.",
+  "description": "Học từ vựng tiếng Anh theo chủ đề với phiên âm IPA, nghĩa tiếng Việt, flashcard, luyện gõ, trắc nghiệm và nghe thụ động.",
+  "level": "OTHER",
+  "thumbnail": "",
+  "isPublished": true,
+  "sortOrder": 5,
+  "stats": {
+    "totalVocabulary": 1044,
+    "totalKanji": 0,
+    "totalGrammar": 0,
+    "totalExams": 0
+  }
+}

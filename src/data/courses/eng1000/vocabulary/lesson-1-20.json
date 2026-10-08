@@ -1,0 +1,182 @@
+[
+  {
+    "order": 1,
+    "term": "entertainment",
+    "reading": "ˌɛntərˈteɪnmənt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "giải trí",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "movie",
+    "reading": "ˈmuːvi",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "phim",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "theater",
+    "reading": "ˈθiːətər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "rạp hát, nhà hát",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "concert",
+    "reading": "ˈkɑːnsərt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "buổi hòa nhạc",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "performance",
+    "reading": "pərˈfɔːrməns",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "biểu diễn",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "music",
+    "reading": "ˈmjuːzɪk",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "âm nhạc",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "dance",
+    "reading": "dæns",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "khiêu vũ",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "festival",
+    "reading": "ˈfɛstəvəl",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "lễ hội",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "exhibition",
+    "reading": "ˌɛksɪˈbɪʃən",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "triển lãm",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "art",
+    "reading": "ɑːrt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nghệ thuật",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "comedy",
+    "reading": "ˈkɑːmədi",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "hài kịch",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "drama",
+    "reading": "ˈdrɑːmə",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "kịch",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "performance",
+    "reading": "pərˈfɔːrməns",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự biểu diễn",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "actor",
+    "reading": "ˈæktər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "diễn viên",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "actress",
+    "reading": "ˈæktrəs",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nữ diễn viên",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "audience",
+    "reading": "ˈɔːdiəns",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "khán giả",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "ticket",
+    "reading": "ˈtɪkɪt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "vé",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "applause",
+    "reading": "əˈplɔːz",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tràng pháo tay",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "performer",
+    "reading": "pərˈfɔːrmər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nghệ sĩ",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "show",
+    "reading": "ʃoʊ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chương trình",
+    "examples": []
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "order": 1,
+    "term": "shop",
+    "reading": "ʃɑːp",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cửa hàng",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "store",
+    "reading": "stɔːr",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cửa hàng",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "mall",
+    "reading": "mɔːl",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "trung tâm mua sắm",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "market",
+    "reading": "ˈmɑːrkɪt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chợ",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "customer",
+    "reading": "ˈkʌstəmər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "khách hàng",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "sale",
+    "reading": "seɪl",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "giảm giá",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "discount",
+    "reading": "ˈdɪskaʊnt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "giảm giá",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "cashier",
+    "reading": "kæˈʃɪər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thu ngân",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "receipt",
+    "reading": "rɪˈsiːpt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "biên lai",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "basket",
+    "reading": "ˈbæskɪt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "giỏ",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "cart",
+    "reading": "kɑːrt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "xe đẩy hàng",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "aisle",
+    "reading": "aɪl",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "lối đi",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "checkout",
+    "reading": "ˈtʃɛkaʊt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "quầy thanh toán",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "payment",
+    "reading": "ˈpeɪmənt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thanh toán",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "size",
+    "reading": "saɪz",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "kích cỡ",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "fitting room",
+    "reading": "ˈfɪtɪŋ ruːm",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "phòng thử đồ",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "receipt",
+    "reading": "rɪˈsiːpt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "biên lai",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "sale",
+    "reading": "seɪl",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "giảm giá",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "hanger",
+    "reading": "ˈhæŋər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "móc treo áo",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "shelf",
+    "reading": "ʃɛlf",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "kệ",
+    "examples": []
+  }
+]

@@ -1,0 +1,173 @@
+[
+  {
+    "order": 1,
+    "term": "Blue",
+    "reading": "bluː",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Màu xanh dương",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "Green",
+    "reading": "ɡriːn",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Màu xanh lá cây",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "Yellow",
+    "reading": "ˈjɛloʊ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Màu vàng",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "Orange",
+    "reading": "ˈɔrɪndʒ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Màu cam",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "Pink",
+    "reading": "pɪŋk",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Màu hồng",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "Purple",
+    "reading": "ˈpɜrpl̩",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Màu tím",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "Black",
+    "reading": "blæk",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Màu đen",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "White",
+    "reading": "waɪt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Màu trắng",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "Gray",
+    "reading": "ɡreɪ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Màu xám",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "Brown",
+    "reading": "braʊn",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Màu nâu",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "Silver",
+    "reading": "ˈsɪlvər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Màu bạc",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "Gold",
+    "reading": "ɡoʊld",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Màu vàng (vàng óng)",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "Turquoise",
+    "reading": "ˈtɜrkwɔɪz",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Màu ngọc lam",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "Magenta",
+    "reading": "məˈdʒɛntə",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Màu đỏ hồng",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "Indigo",
+    "reading": "ˈɪndɪɡoʊ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Màu chàm",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "Coral",
+    "reading": "ˈkɔrəl",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Màu san hô",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "Beige",
+    "reading": "beɪʒ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Màu be",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "Lavender",
+    "reading": "ˈlævəndər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Màu oải hương",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "Maroon",
+    "reading": "məˈrun",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Màu đỏ nâu",
+    "examples": []
+  }
+]

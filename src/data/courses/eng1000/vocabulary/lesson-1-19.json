@@ -1,0 +1,182 @@
+[
+  {
+    "order": 1,
+    "term": "photography",
+    "reading": "fəˈtɑːɡrəfi",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nhiếp ảnh",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "camera",
+    "reading": "ˈkæmərə",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "máy ảnh",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "lens",
+    "reading": "lɛnz",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "ống kính",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "shutter",
+    "reading": "ˈʃʌtər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cửa khẩu (trong máy ảnh)",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "focus",
+    "reading": "ˈfoʊkəs",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "lấy nét",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "exposure",
+    "reading": "ɪkˈspoʊʒər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chụp sáng",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "aperture",
+    "reading": "ˈæpərʧər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "khẩu độ",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "ISO",
+    "reading": "ˌaɪɛsˈoʊ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "độ nhạy sáng ISO",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "shutter speed",
+    "reading": "ˈʃʌtər spid",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tốc độ chụp",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "white balance",
+    "reading": "waɪt ˈbæləns",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cân bằng trắng",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "composition",
+    "reading": "ˌkɑːmpəˈzɪʃən",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cách bố trí",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "frame",
+    "reading": "freɪm",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "khung ảnh",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "exposure",
+    "reading": "ɪkˈspoʊʒər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự tiếp xúc ánh sáng",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "zoom",
+    "reading": "zuːm",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thu phóng",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "portrait",
+    "reading": "ˈpɔːrtrɪt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chân dung",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "landscape",
+    "reading": "ˈlændskeɪp",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "phong cảnh",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "aperture",
+    "reading": "ˈæpərʧər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "giới hạn (trong ống kính)",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "megapixel",
+    "reading": "ˈmɛɡəˌpɪksəl",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "triệu điểm ảnh",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "exposure",
+    "reading": "ɪkˈspoʊʒər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "ánh sáng tiếp xúc",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "editing",
+    "reading": "ˈɛdɪtɪŋ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chỉnh sửa",
+    "examples": []
+  }
+]

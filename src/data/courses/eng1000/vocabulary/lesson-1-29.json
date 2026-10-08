@@ -1,0 +1,182 @@
+[
+  {
+    "order": 1,
+    "term": "lifestyle",
+    "reading": "ˈlaɪfˌstaɪl",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "lối sống",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "routine",
+    "reading": "ruˈtin",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "lịch trình",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "healthy",
+    "reading": "ˈhɛlθi",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "lành mạnh",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "exercise",
+    "reading": "ˈɛksərˌsaɪz",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tập luyện",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "diet",
+    "reading": "ˈdaɪət",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chế độ ăn uống",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "balanced",
+    "reading": "ˈbælənst",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cân đối",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "stress",
+    "reading": "strɛs",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "căng thẳng",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "relaxation",
+    "reading": "ˌriːlækˈseɪʃən",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thư giãn",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "meditation",
+    "reading": "ˌmɛdɪˈteɪʃən",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thiền",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "mindfulness",
+    "reading": "ˈmaɪndfəlnəs",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tỉnh thức",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "sleep",
+    "reading": "sliːp",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "giấc ngủ",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "hobbies",
+    "reading": "ˈhɑbiz",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sở thích",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "socialize",
+    "reading": "ˈsoʊʃəˌlaɪz",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "giao lưu",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "leisure",
+    "reading": "ˈliʒər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thời gian rảnh rỗi",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "self-care",
+    "reading": "sɛlf-kɛr",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chăm sóc bản thân",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "mindfulness",
+    "reading": "ˈmaɪndfəlnəs",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tỉnh thức",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "work-life balance",
+    "reading": "wɜrk-laɪf ˈbæləns",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cân bằng công việc và cuộc sống",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "productivity",
+    "reading": "ˌproʊˌdʌkˈtɪvəti",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "năng suất",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "well-being",
+    "reading": "wɛl ˈbiɪŋ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự khỏe mạnh",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "personal development",
+    "reading": "ˈpɜrsənəl dɪˈvɛləpmənt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "phát triển cá nhân",
+    "examples": []
+  }
+]

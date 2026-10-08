@@ -1,0 +1,182 @@
+[
+  {
+    "order": 1,
+    "term": "coffee",
+    "reading": "ˈkɒfi",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cà phê",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "tea",
+    "reading": "tiː",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "trà",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "juice",
+    "reading": "dʒuːs",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nước trái cây",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "water",
+    "reading": "ˈwɔːtər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nước",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "soda",
+    "reading": "ˈsoʊdə",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nước có ga",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "milk",
+    "reading": "mɪlk",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sữa",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "smoothie",
+    "reading": "ˈsmuːði",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sinh tố",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "cocktail",
+    "reading": "ˈkɑːkteɪl",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cocktail",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "beer",
+    "reading": "bɪr",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "bia",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "wine",
+    "reading": "waɪn",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "rượu vang",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "champagne",
+    "reading": "ʃæmˈpeɪn",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "rượu sâm banh",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "whiskey",
+    "reading": "ˈwɪski",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "rượu whiskey",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "soda water",
+    "reading": "ˈsoʊdə ˈwɔːtər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nước suối có ga",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "lemonade",
+    "reading": "ˌlɛməˈneɪd",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nước chanh",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "hot chocolate",
+    "reading": "ˌhɒt ˈtʃɔːklət",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sữa nóng cacao",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "iced tea",
+    "reading": "aɪst tiː",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "trà đá",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "energy drink",
+    "reading": "ˈɛnərdʒi drɪŋk",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nước giải khát",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "fruit punch",
+    "reading": "fruːt pʌntʃ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nước trái cây có rượu",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "herbal tea",
+    "reading": "ˈhɜːrbəl tiː",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "trà thảo dược",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "soft drink",
+    "reading": "sɒft drɪŋk",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nước ngọt, nước có ga",
+    "examples": []
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "order": 1,
+    "term": "action",
+    "reading": "ˈækʃən",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "hành động",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "adventure",
+    "reading": "ədˈvɛnʧər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "phiêu lưu",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "comedy",
+    "reading": "ˈkɑːmədi",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "hài",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "drama",
+    "reading": "ˈdrɑːmə",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "kịch, tình cảm",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "thriller",
+    "reading": "ˈθrɪlər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "hồi hộp",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "horror",
+    "reading": "ˈhɔːrər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "kinh dị",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "romance",
+    "reading": "ˈroʊmæns",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tình cảm",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "science fiction",
+    "reading": "ˈsaɪəns ˈfɪkʃən",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "khoa học viễn tưởng",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "fantasy",
+    "reading": "ˈfæntəsi",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "huyền bí, ảo tưởng",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "animation",
+    "reading": "ˌænɪˈmeɪʃən",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "hoạt hình",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "musical",
+    "reading": "ˈmjuːzɪkəl",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nhạc kịch",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "documentary",
+    "reading": "ˌdɑːkjəˈmɛntəri",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "phim tài liệu",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "crime",
+    "reading": "kraɪm",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tội phạm",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "suspense",
+    "reading": "səˈspɛns",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "căng thẳng, hồi hộp",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "western",
+    "reading": "ˈwɛstərn",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "phim miền Tây",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "historical",
+    "reading": "hɪˈstɔːrɪkəl",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "lịch sử",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "thriller",
+    "reading": "ˈθrɪlər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "ly kỳ",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "war",
+    "reading": "wɔːr",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chiến tranh",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "romantic comedy",
+    "reading": "roʊˈmæntɪk ˈkɑːmədi",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "hài lãng mạn",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "biopic",
+    "reading": "ˈbaɪɑːpɪk",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "phim truyện tiểu sử",
+    "examples": []
+  }
+]

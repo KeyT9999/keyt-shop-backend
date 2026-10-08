@@ -1,0 +1,182 @@
+[
+  {
+    "order": 1,
+    "term": "appetizer",
+    "reading": "ˈæpɪtaɪzər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "món khai vị",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "entree",
+    "reading": "ˈɑːntreɪ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "món chính",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "cuisine",
+    "reading": "kwɪˈzin",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "ẩm thực",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "recipe",
+    "reading": "ˈrɛsɪpi",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "công thức nấu ăn",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "ingredient",
+    "reading": "ɪnˈɡridiənt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nguyên liệu",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "savory",
+    "reading": "ˈseɪvəri",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "ngon mồm, đậm đà",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "spicy",
+    "reading": "ˈspaɪsi",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cay",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "indulgent",
+    "reading": "ɪnˈdʌlʤənt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "phung phí, thỏa mãn",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "wholesome",
+    "reading": "ˈhoʊl.səm",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "lành mạnh, bổ dưỡng",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "gourmet",
+    "reading": "ˈɡʊrmeɪ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "ẩm thực tinh hoa",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "cuisine",
+    "reading": "kwɪˈzin",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "ẩm thực",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "delicious",
+    "reading": "dɪˈlɪʃəs",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "ngon miệng, thơm ngon",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "buffet",
+    "reading": "ˈbʊfeɪ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tiệc tự chọn",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "presentation",
+    "reading": "ˌprɛzənˈteɪʃən",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cách trình bày, thể hiện",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "simmer",
+    "reading": "ˈsɪmər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "ninh nhỏ lửa",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "bake",
+    "reading": "beɪk",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nướng",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "grill",
+    "reading": "ɡrɪl",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nướng trên lửa than",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "steam",
+    "reading": "stim",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "hấp",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "sauté",
+    "reading": "sɔːˈteɪ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "xào",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "garnish",
+    "reading": "ˈɡɑːrnɪʃ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "trang trí, điểm tô",
+    "examples": []
+  }
+]

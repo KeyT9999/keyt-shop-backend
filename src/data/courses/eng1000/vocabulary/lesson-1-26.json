@@ -1,0 +1,182 @@
+[
+  {
+    "order": 1,
+    "term": "house",
+    "reading": "haʊs",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nhà",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "apartment",
+    "reading": "əˈpɑːrtmənt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "căn hộ",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "bedroom",
+    "reading": "ˈbɛdruːm",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "phòng ngủ",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "living room",
+    "reading": "ˈlɪvɪŋ ruːm",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "phòng khách",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "kitchen",
+    "reading": "ˈkɪʧɪn",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nhà bếp",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "bathroom",
+    "reading": "ˈbæθruːm",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "phòng tắm",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "balcony",
+    "reading": "ˈbælkəni",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "ban công",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "backyard",
+    "reading": "ˈbækjɑːrd",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sân sau",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "garden",
+    "reading": "ˈɡɑːrdən",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "vườn",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "garage",
+    "reading": "ˈɡærɑːʒ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nhà để xe",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "roof",
+    "reading": "ruːf",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "mái nhà",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "wall",
+    "reading": "wɔːl",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "bức tường",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "floor",
+    "reading": "flɔːr",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sàn",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "window",
+    "reading": "ˈwɪndoʊ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cửa sổ",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "door",
+    "reading": "dɔːr",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cửa",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "staircase",
+    "reading": "ˈstɛrkeɪs",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cầu thang",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "furniture",
+    "reading": "ˈfɜːrnɪʧər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nội thất",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "rent",
+    "reading": "rɛnt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thuê, tiền thuê",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "landlord",
+    "reading": "ˈlændlɔːrd",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chủ nhà, chủ nhà trọ",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "tenant",
+    "reading": "ˈtɛnənt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "người thuê nhà",
+    "examples": []
+  }
+]

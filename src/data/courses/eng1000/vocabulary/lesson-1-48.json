@@ -1,0 +1,182 @@
+[
+  {
+    "order": 1,
+    "term": "Urban",
+    "reading": "ˈɜːrbən",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Đô thị",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "Downtown",
+    "reading": "ˈdaʊntaʊn",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Trung tâm thành phố",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "Suburb",
+    "reading": "ˈsʌrbɜːrb",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Ngoại ô",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "Skyline",
+    "reading": "ˈskaɪlaɪn",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Đường chân trời",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "Traffic",
+    "reading": "ˈtræfɪk",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Giao thông",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "Pedestrian",
+    "reading": "pəˈdɛstriən",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Người đi bộ",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "Avenue",
+    "reading": "ˈævənuː",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Đại lộ",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "Boulevard",
+    "reading": "ˈbuːləˌvɑːrd",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Đại lộ",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "Intersection",
+    "reading": "ˌɪntərˈsɛkʃən",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Ngã tư",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "Sidewalk",
+    "reading": "ˈsaɪdwɔːk",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Vỉa hè",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "Park",
+    "reading": "pɑːrk",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Công viên",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "Museum",
+    "reading": "mjuːˈziəm",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Bảo tàng",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "Library",
+    "reading": "ˈlaɪbrəri",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Thư viện",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "Restaurant",
+    "reading": "ˈrɛstərɒnt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Nhà hàng",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "Shopping mall",
+    "reading": "ˈʃɑpɪŋ mɔːl",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Trung tâm mua sắm",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "Skyscraper",
+    "reading": "ˈskaɪˌskreɪpər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Tòa nhà chọc trời",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "Neighborhood",
+    "reading": "ˈneɪbərˌhʊd",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Khu phố",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "Public transport",
+    "reading": "ˈpʌblɪk ˈtrænspɔːrt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Phương tiện giao thông công cộng",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "Landmark",
+    "reading": "ˈlændmɑːrk",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Địa danh nổi tiếng",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "Fountain",
+    "reading": "ˈfaʊntɪn",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Đài phun nước",
+    "examples": []
+  }
+]

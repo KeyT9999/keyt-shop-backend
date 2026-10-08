@@ -1,0 +1,182 @@
+[
+  {
+    "order": 1,
+    "term": "Car",
+    "reading": "kɑr",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Xe hơi",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "Bus",
+    "reading": "bʌs",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Xe buýt",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "Train",
+    "reading": "treɪn",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Tàu hỏa",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "Bicycle",
+    "reading": "ˈbaɪsɪkəl",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Xe đạp",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "Motorcycle",
+    "reading": "ˈmoʊtərˌsaɪkəl",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Xe máy",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "Taxi",
+    "reading": "ˈtæksi",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Xe taxi",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "Subway",
+    "reading": "ˈsʌbˌweɪ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Xe điện ngầm",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "Tram",
+    "reading": "træm",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Xe điện",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "Airplane",
+    "reading": "ˈɛrˌpleɪn",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Máy bay",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "Helicopter",
+    "reading": "ˈhɛlɪˌkɑptər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Trực thăng",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "Ship",
+    "reading": "ʃɪp",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Tàu",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "Boat",
+    "reading": "boʊt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Thuyền",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "Ferry",
+    "reading": "ˈfɛri",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Phà",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "Truck",
+    "reading": "trʌk",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Xe tải",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "Van",
+    "reading": "væn",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Xe bán tải",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "Scooter",
+    "reading": "ˈskutər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Xe tay ga",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "Skateboard",
+    "reading": "ˈskeɪtˌbɔrd",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Ván trượt",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "Roller skates",
+    "reading": "ˈroʊlər skeɪts",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Giày trượt bánh xe",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "Segway",
+    "reading": "ˈsɛɡweɪ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Xe điện tự cân bằng",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "Hot air balloon",
+    "reading": "hɑt ɛr bəˈlun",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Khinh khí cầu",
+    "examples": []
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "order": 1,
+    "term": "painting",
+    "reading": "ˈpeɪntɪŋ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "hội họa",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "photography",
+    "reading": "fəˈtɑːɡrəfi",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nhiếp ảnh",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "gardening",
+    "reading": "ˈɡɑːrdnɪŋ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "làm vườn",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "cooking",
+    "reading": "ˈkʊkɪŋ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nấu ăn",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "reading",
+    "reading": "ˈriːdɪŋ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đọc sách",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "writing",
+    "reading": "ˈraɪtɪŋ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "viết",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "drawing",
+    "reading": "ˈdrɔːɪŋ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "vẽ",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "hiking",
+    "reading": "ˈhaɪkɪŋ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "leo núi",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "fishing",
+    "reading": "ˈfɪʃɪŋ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "câu cá",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "knitting",
+    "reading": "ˈnɪtɪŋ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đan len",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "dancing",
+    "reading": "ˈdænsɪŋ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "khiêu vũ",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "playing guitar",
+    "reading": "ˈpleɪɪŋ ɡɪˈtɑːr",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chơi guitar",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "playing piano",
+    "reading": "ˈpleɪɪŋ piˈænoʊ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chơi piano",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "playing chess",
+    "reading": "ˈpleɪɪŋ ʧɛs",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chơi cờ",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "playing tennis",
+    "reading": "ˈpleɪɪŋ ˈtɛnɪs",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chơi quần vợt",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "collecting stamps",
+    "reading": "kəˈlɛktɪŋ stæmps",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sưu tập tem",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "birdwatching",
+    "reading": "ˈbɜːrdˌwɑːʧɪŋ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "quan sát chim",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "playing video games",
+    "reading": "ˈpleɪɪŋ ˈvɪdi.oʊ ɡeɪmz",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chơi game",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "cycling",
+    "reading": "ˈsaɪklɪŋ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đi xe đạp",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "hiking",
+    "reading": "ˈhaɪkɪŋ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đi bộ đường dài",
+    "examples": []
+  }
+]

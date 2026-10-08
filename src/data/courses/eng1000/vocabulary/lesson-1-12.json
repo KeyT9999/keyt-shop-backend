@@ -1,0 +1,182 @@
+[
+  {
+    "order": 1,
+    "term": "shrimp",
+    "reading": "ʃrɪmp",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tôm",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "crab",
+    "reading": "kræb",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cua",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "lobster",
+    "reading": "ˈlɑːbstər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tôm hùm",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "oyster",
+    "reading": "ˈɔɪstər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "hàu",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "scallop",
+    "reading": "ˈskɒləp",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sò điệp",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "clam",
+    "reading": "klæm",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nghêu",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "squid",
+    "reading": "skwɪd",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "mực",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "octopus",
+    "reading": "ˈɒktəpəs",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "bạch tuộc",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "mussels",
+    "reading": "ˈmʌsəlz",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "con trai",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "fish",
+    "reading": "fɪʃ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cá",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "salmon",
+    "reading": "ˈsæmən",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cá hồi",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "tuna",
+    "reading": "ˈtuːnə",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cá ngừ",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "cod",
+    "reading": "kɒd",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cá tuyết",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "haddock",
+    "reading": "ˈhædək",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cá tuyết trắng",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "sardine",
+    "reading": "sɑːrˈdiːn",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cá mòi",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "anchovy",
+    "reading": "ˈænʧəvi",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cá cơm",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "trout",
+    "reading": "traʊt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cá hồi nướng",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "shrimp cocktail",
+    "reading": "ʃrɪmp ˈkɒkteɪl",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "món tôm sốt cocktail",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "caviar",
+    "reading": "ˈkæviɑːr",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "trứng cá hồi",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "calamari",
+    "reading": "kəˈlæməri",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "mực nướng",
+    "examples": []
+  }
+]

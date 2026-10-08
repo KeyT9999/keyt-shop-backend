@@ -1,0 +1,227 @@
+[
+  {
+    "order": 1,
+    "term": "acid rain",
+    "reading": "ˈæsɪd reɪn",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "mưa a xít",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "atmosphere",
+    "reading": "ˈætməsfɪə",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "khí quyển",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "biodiversity",
+    "reading": "ˌbaɪoʊdəˈvərsət̮i",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự đa dạng sinh học",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "catastrophe",
+    "reading": "kəˈtæstrəfi",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thảm họa",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "climate",
+    "reading": "ˈklaɪmət",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "khí hậu",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "climate change",
+    "reading": "ˈklaɪmət ʧeɪnʤ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "hiện tượng biến đổi khí hậu",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "creature",
+    "reading": "ˈkriːʧə",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sinh vật",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "destruction",
+    "reading": "dɪsˈtrʌkʃən",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự phá hủy",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "disposal",
+    "reading": "dɪsˈpəʊzəl",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự vứt bỏ",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "desertification",
+    "reading": "dɪˌzɜːtɪfɪˈkeɪʃən",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "quá trình sa mạc hóa",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "deforestation",
+    "reading": "dɪˌfɒrɪˈsteɪʃ(ə)n",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự phá rừng",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "dust",
+    "reading": "dʌst",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "bụi bẩn",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "earthquake",
+    "reading": "ˈɜːθkweɪk",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cơn động đất",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "ecology",
+    "reading": "ɪˈkɒləʤi",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sinh thái học",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "ecosystem",
+    "reading": "ˈiːkəʊˌsɪstəm",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "hệ sinh thái",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "alternative energy",
+    "reading": "ɔːlˈtɜːnətɪv ˈɛnəʤi",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "năng lượng thay thế",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "environment",
+    "reading": "ɪnˈvaɪrənmənt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "môi trường",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "environmentalist",
+    "reading": "ɪnˌvaɪrənˈmentəlɪst",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nhà môi trường học",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "erosion",
+    "reading": "ɪˈrəʊʒən",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự xói mòn",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "exhaust",
+    "reading": "ɪgˈzɔːst",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "khí thải",
+    "examples": []
+  },
+  {
+    "order": 21,
+    "term": "famine",
+    "reading": "ˈfæmɪn",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nạn đói",
+    "examples": []
+  },
+  {
+    "order": 22,
+    "term": "pesticide",
+    "reading": "ˈpɛstɪsaɪd",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thuốc trừ sâu",
+    "examples": []
+  },
+  {
+    "order": 23,
+    "term": "fertilizer",
+    "reading": "ˈfɜːtɪlaɪzə",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "phân bón",
+    "examples": []
+  },
+  {
+    "order": 24,
+    "term": "greenhouse effect",
+    "reading": "ˈgriːnhaʊs ɪˈfɛkt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "hiệu ứng nhà kính",
+    "examples": []
+  },
+  {
+    "order": 25,
+    "term": "industrial waste",
+    "reading": "ɪnˈdʌstrɪəl weɪst",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chất thải công nghiệp",
+    "examples": []
+  }
+]

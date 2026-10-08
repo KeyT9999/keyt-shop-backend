@@ -1,0 +1,182 @@
+[
+  {
+    "order": 1,
+    "term": "carrot",
+    "reading": "ˈkærət",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cà rốt",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "broccoli",
+    "reading": "ˈbrɒkəli",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "súp lơ xanh",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "lettuce",
+    "reading": "ˈlɛtɪs",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "rau diếp",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "cucumber",
+    "reading": "ˈkjuːkʌmbər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "dưa chuột",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "tomato",
+    "reading": "təˈmeɪtoʊ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cà chua",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "spinach",
+    "reading": "ˈspɪnɪʤ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "rau bina",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "cabbage",
+    "reading": "ˈkæbɪʤ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "bắp cải",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "onion",
+    "reading": "ˈʌnjən",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "hành tây",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "garlic",
+    "reading": "ˈɡɑːrlɪk",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tỏi",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "potato",
+    "reading": "pəˈteɪtoʊ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "khoai tây",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "bell pepper",
+    "reading": "bɛl ˈpɛpər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "ớt chuông",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "zucchini",
+    "reading": "zuːˈkiːni",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "bí đỏ",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "eggplant",
+    "reading": "ˈɛɡˌplænt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cà tím",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "cauliflower",
+    "reading": "ˈkɑːlɪˌflaʊər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "bông cải trắng",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "pumpkin",
+    "reading": "ˈpʌmpkɪn",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "bí ngô",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "sweet potato",
+    "reading": "swiːt pəˈteɪtoʊ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "khoai lang",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "asparagus",
+    "reading": "əˈspærəɡəs",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "măng tây",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "radish",
+    "reading": "ˈrædɪʃ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "củ cải đỏ",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "beet",
+    "reading": "bit",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "củ cải đường",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "green bean",
+    "reading": "ɡrin bin",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đậu bắp",
+    "examples": []
+  }
+]

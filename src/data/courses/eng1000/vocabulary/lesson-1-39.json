@@ -1,0 +1,182 @@
+[
+  {
+    "order": 1,
+    "term": "Curriculum",
+    "reading": "kəˈrɪkjələm",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Chương trình học",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "Classroom",
+    "reading": "ˈklæsruːm",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Lớp học",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "Teacher",
+    "reading": "ˈtiːʧər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Giáo viên",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "Student",
+    "reading": "ˈstjuːdənt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Học sinh",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "Learning",
+    "reading": "ˈlɜːrnɪŋ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Việc học",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "Knowledge",
+    "reading": "ˈnɑːlɪdʒ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Kiến thức",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "Homework",
+    "reading": "ˈhoʊmwɜːrk",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Bài tập về nhà",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "Assignment",
+    "reading": "əˈsaɪnmənt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Bài tập được giao",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "Test",
+    "reading": "tɛst",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Bài kiểm tra",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "Exam",
+    "reading": "ɪɡˈzæm",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Kỳ thi",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "Grade",
+    "reading": "ɡreɪd",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Điểm số",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "School",
+    "reading": "skuːl",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Trường học",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "University",
+    "reading": "ˌjuːnɪˈvɜːrsɪti",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Đại học",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "Lecture",
+    "reading": "ˈlɛkʧər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Bài giảng",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "Research",
+    "reading": "rɪˈsɜːrtʃ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Nghiên cứu",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "Library",
+    "reading": "ˈlaɪbrəri",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Thư viện",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "Degree",
+    "reading": "dɪˈɡriː",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Bằng cấp",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "Scholarships",
+    "reading": "ˈskɒlərʃɪps",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Học bổng",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "Distance learning",
+    "reading": "ˈdɪstəns ˈlɜːrnɪŋ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Học từ xa",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "Extracurricular",
+    "reading": "ˌɛkstrəkəˈrɪkjələr",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Ngoại khóa",
+    "examples": []
+  }
+]

@@ -214,7 +214,12 @@ async function seedSingleCourse(courseSlug, coursesDir) {
 
   // 5. Seed Sample Exam Scaffold
   const examSlug = `${course.code.toLowerCase()}-mock-exam-midterm`;
-  const examFormat = course.code.toUpperCase().startsWith('HSK') ? 'HSK Format' : 'N5 Format';
+  const normalizedCourseCode = course.code.toUpperCase();
+  const examFormat = normalizedCourseCode.startsWith('HSK')
+    ? 'HSK Format'
+    : normalizedCourseCode.startsWith('ENG')
+      ? 'English Format'
+      : 'N5 Format';
   const examDoc = await Exam.findOneAndUpdate(
     { courseCode: course.code, slug: examSlug },
     {

@@ -1,0 +1,218 @@
+[
+  {
+    "order": 1,
+    "term": "mother",
+    "reading": "ˈmʌð.ər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "mẹ",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "father",
+    "reading": "ˈfɑː.ðər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "ba",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "brother",
+    "reading": "ˈbrʌð.ər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "anh/em trai",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "sister",
+    "reading": "ˈsɪs.tər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chị/em gái",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "sibling",
+    "reading": "ˈsɪb.lɪŋ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "anh/chị/em ruột",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "uncle",
+    "reading": "ˈʌŋ.kəl",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chú/bác",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "aunt",
+    "reading": "ɑːnt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cô/dì",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "nephew",
+    "reading": "ˈnef.juː",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cháu trai",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "niece",
+    "reading": "niːs",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cháu gái",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "cousin",
+    "reading": "ˈkʌz.ən",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "anh/chị/em họ hàng",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "relative",
+    "reading": "ˈrel.ə.tɪv",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "họ hàng",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "ancestor",
+    "reading": "ˈæn.ses.tər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tổ tiên",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "descendant",
+    "reading": "dɪˈsen.dənt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "hậu duệ",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "wedding",
+    "reading": "ˈwed.ɪŋ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đám cưới",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "reunion",
+    "reading": "ˌriːˈjuː.njən",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tụ họp",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "holiday",
+    "reading": "ˈhɒl.ə.deɪ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "ngày lễ",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "funeral",
+    "reading": "ˈfjuː.nər.əl",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tang lễ",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "inherit",
+    "reading": "ɪnˈher.ɪt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thừa kế",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "adopt",
+    "reading": "əˈdɒpt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nhận nuôi",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "nurture",
+    "reading": "ˈnɜː.tʃər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nuôi nấng",
+    "examples": []
+  },
+  {
+    "order": 21,
+    "term": "acquaintance",
+    "reading": "əˈkweɪn.təns",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "người quen",
+    "examples": []
+  },
+  {
+    "order": 22,
+    "term": "companion",
+    "reading": "kəmˈpæn.jən",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "bạn đồng hành",
+    "examples": []
+  },
+  {
+    "order": 23,
+    "term": "classmate",
+    "reading": "ˈklɑːs.meɪt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "bạn cùng lớp",
+    "examples": []
+  },
+  {
+    "order": 24,
+    "term": "schoolmate",
+    "reading": "ˈskuːl.meɪt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "bạn cùng trường",
+    "examples": []
+  }
+]

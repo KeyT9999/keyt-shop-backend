@@ -1,0 +1,182 @@
+[
+  {
+    "order": 1,
+    "term": "football",
+    "reading": "ˈfʊtbɔːl",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "bóng đá",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "goal",
+    "reading": "ɡoʊl",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "bàn thắng",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "player",
+    "reading": "ˈpleɪər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cầu thủ",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "referee",
+    "reading": "ˈrɛfəriː",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "trọng tài",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "team",
+    "reading": "tiːm",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đội",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "coach",
+    "reading": "koʊʧ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "huấn luyện viên",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "captain",
+    "reading": "ˈkæptən",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đội trưởng",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "match",
+    "reading": "mætʃ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "trận đấu",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "stadium",
+    "reading": "ˈsteɪdiəm",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sân vận động",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "dribble",
+    "reading": "ˈdrɪbəl",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đi bóng",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "pass",
+    "reading": "pæs",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chuyền bóng",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "shoot",
+    "reading": "ʃuːt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sút bóng",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "tackle",
+    "reading": "ˈtækəl",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "phá bóng, cắt bóng",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "penalty",
+    "reading": "ˈpɛnəlti",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đá phạt đền",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "corner",
+    "reading": "ˈkɔːrnər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "quả phạt góc",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "header",
+    "reading": "ˈhɛdər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đánh đầu",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "foul",
+    "reading": "faʊl",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "vi phạm",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "offside",
+    "reading": "ˈɔfˌsaɪd",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "việt vị",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "substitution",
+    "reading": "ˌsʌbstɪˈtuːʃən",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thay người",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "league",
+    "reading": "liːɡ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "giải bóng đá",
+    "examples": []
+  }
+]

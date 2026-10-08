@@ -1,0 +1,182 @@
+[
+  {
+    "order": 1,
+    "term": "apple",
+    "reading": "ˈæpəl",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "quả táo",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "banana",
+    "reading": "bəˈnænə",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "quả chuối",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "orange",
+    "reading": "ˈɔːrɪndʒ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "quả cam",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "strawberry",
+    "reading": "ˈstrɔːbəri",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "quả dâu tây",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "watermelon",
+    "reading": "ˈwɔːtərmɛlən",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "dưa hấu",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "pineapple",
+    "reading": "ˈpaɪnˌæpəl",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "quả dứa",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "mango",
+    "reading": "ˈmæŋɡoʊ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "quả xoài",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "grape",
+    "reading": "ɡreɪp",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "quả nho",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "lemon",
+    "reading": "ˈlɛmən",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "quả chanh",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "cherry",
+    "reading": "ˈʧɛri",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "quả anh đào",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "peach",
+    "reading": "piːʧ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "quả đào",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "pear",
+    "reading": "pɛr",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "quả lê",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "kiwi",
+    "reading": "ˈkiwi",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "quả kiwi",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "blueberry",
+    "reading": "ˈbluːˌbɛri",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "quả việt quất",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "raspberry",
+    "reading": "ˈræzˌbɛri",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "quả mâm xôi",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "avocado",
+    "reading": "ˌævəˈkɑːdoʊ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "quả bơ",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "coconut",
+    "reading": "ˈkoʊkəˌnʌt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "quả dừa",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "pomegranate",
+    "reading": "ˈpɑːmɪɡrænɪt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "quả lựu",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "passion fruit",
+    "reading": "ˈpæʃən ˌfruːt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "quả chanh dây",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "apricot",
+    "reading": "ˈeɪprɪkɑːt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "quả mơ",
+    "examples": []
+  }
+]

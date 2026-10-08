@@ -1,0 +1,182 @@
+[
+  {
+    "order": 1,
+    "term": "Mathematics",
+    "reading": "ˌmæθəˈmætɪks",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Toán học",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "Science",
+    "reading": "ˈsaɪəns",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Khoa học",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "History",
+    "reading": "ˈhɪstəri",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Lịch sử",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "Geography",
+    "reading": "dʒiˈɑːɡrəfi",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Địa lý",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "Literature",
+    "reading": "ˈlɪtərətʃər",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Văn học",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "English",
+    "reading": "ˈɪŋɡlɪʃ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Tiếng Anh",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "Art",
+    "reading": "ɑːrt",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Mỹ thuật",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "Music",
+    "reading": "ˈmjuːzɪk",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "m nhạc",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "Physical Education",
+    "reading": "ˈfɪzɪkəl ˌɛdjuˈkeɪʃən",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Giáo dục thể chất",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "Chemistry",
+    "reading": "ˈkɛmɪstri",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Hóa học",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "Physics",
+    "reading": "ˈfɪzɪks",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Vật lý",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "Biology",
+    "reading": "baɪˈɑːlədʒi",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Sinh học",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "Economics",
+    "reading": "ˌiːkəˈnɑːmɪks",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Kinh tế",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "Psychology",
+    "reading": "saɪˈkɒlədʒi",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Tâm lý học",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "Sociology",
+    "reading": "ˌsoʊsiˈɒlədʒi",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Xã hội học",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "Computer Science",
+    "reading": "kəmˈpjuːtər ˈsaɪəns",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Khoa học máy tính",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "Foreign Language",
+    "reading": "ˈfɔːrən ˈlæŋɡwɪdʒ",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Ngoại ngữ",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "Ethics",
+    "reading": "ˈɛθɪks",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Đạo đức",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "Philosophy",
+    "reading": "fɪˈlɒsəfi",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Triết học",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "Political Science",
+    "reading": "pəˈlɪtɪkəl ˈsaɪəns",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Khoa học chính trị",
+    "examples": []
+  }
+]
