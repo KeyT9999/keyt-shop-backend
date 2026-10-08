@@ -1,0 +1,14 @@
+[
+  { "order": 1, "term": "因为", "reading": "yīnwèi", "partOfSpeech": "Từ vựng", "meaning": "bởi vì", "examples": [] },
+  { "order": 2, "term": "所以", "reading": "suǒyǐ", "partOfSpeech": "Từ vựng", "meaning": "cho nên", "examples": [] },
+  { "order": 3, "term": "但是", "reading": "dànshì", "partOfSpeech": "Từ vựng", "meaning": "nhưng", "examples": [] },
+  { "order": 4, "term": "虽然", "reading": "suīrán", "partOfSpeech": "Từ vựng", "meaning": "tuy rằng", "examples": [] },
+  { "order": 5, "term": "但", "reading": "dàn", "partOfSpeech": "Từ vựng", "meaning": "nhưng", "examples": [] },
+  { "order": 6, "term": "一起", "reading": "yìqǐ", "partOfSpeech": "Từ vựng", "meaning": "cùng nhau", "examples": [] },
+  { "order": 7, "term": "已经", "reading": "yǐjīng", "partOfSpeech": "Từ vựng", "meaning": "đã", "examples": [] },
+  { "order": 8, "term": "可能", "reading": "kěnéng", "partOfSpeech": "Từ vựng", "meaning": "có thể, khả năng", "examples": [] },
+  { "order": 9, "term": "真", "reading": "zhēn", "partOfSpeech": "Từ vựng", "meaning": "thật, thật là", "examples": [] },
+  { "order": 10, "term": "非常", "reading": "fēicháng", "partOfSpeech": "Từ vựng", "meaning": "vô cùng, rất", "examples": [] },
+  { "order": 11, "term": "希望", "reading": "xīwàng", "partOfSpeech": "Từ vựng", "meaning": "hy vọng", "examples": [] },
+  { "order": 12, "term": "觉得", "reading": "juéde", "partOfSpeech": "Từ vựng", "meaning": "cảm thấy", "examples": [] }
+]

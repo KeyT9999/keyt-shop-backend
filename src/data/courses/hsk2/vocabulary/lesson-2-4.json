@@ -1,0 +1,17 @@
+[
+  { "order": 1, "term": "走", "reading": "zǒu", "partOfSpeech": "Từ vựng", "meaning": "đi, rời đi", "examples": [] },
+  { "order": 2, "term": "到", "reading": "dào", "partOfSpeech": "Từ vựng", "meaning": "đến", "examples": [] },
+  { "order": 3, "term": "出", "reading": "chū", "partOfSpeech": "Từ vựng", "meaning": "ra, xuất", "examples": [] },
+  { "order": 4, "term": "进", "reading": "jìn", "partOfSpeech": "Từ vựng", "meaning": "vào", "examples": [] },
+  { "order": 5, "term": "开始", "reading": "kāishǐ", "partOfSpeech": "Từ vựng", "meaning": "bắt đầu", "examples": [] },
+  { "order": 6, "term": "等", "reading": "děng", "partOfSpeech": "Từ vựng", "meaning": "đợi, chờ", "examples": [] },
+  { "order": 7, "term": "玩", "reading": "wán", "partOfSpeech": "Từ vựng", "meaning": "chơi", "examples": [] },
+  { "order": 8, "term": "完", "reading": "wán", "partOfSpeech": "Từ vựng", "meaning": "xong, hết", "examples": [] },
+  { "order": 9, "term": "穿", "reading": "chuān", "partOfSpeech": "Từ vựng", "meaning": "mặc", "examples": [] },
+  { "order": 10, "term": "送", "reading": "sòng", "partOfSpeech": "Từ vựng", "meaning": "tặng, đưa", "examples": [] },
+  { "order": 11, "term": "长", "reading": "zhǎng", "partOfSpeech": "Từ vựng", "meaning": "lớn lên, mọc", "examples": [] },
+  { "order": 12, "term": "休息", "reading": "xiūxi", "partOfSpeech": "Từ vựng", "meaning": "nghỉ ngơi", "examples": [] },
+  { "order": 13, "term": "洗", "reading": "xǐ", "partOfSpeech": "Từ vựng", "meaning": "rửa, giặt", "examples": [] },
+  { "order": 14, "term": "起床", "reading": "qǐchuáng", "partOfSpeech": "Từ vựng", "meaning": "dậy", "examples": [] },
+  { "order": 15, "term": "上班", "reading": "shàngbān", "partOfSpeech": "Từ vựng", "meaning": "đi làm", "examples": [] }
+]

@@ -1,0 +1,17 @@
+[
+  { "order": 1, "term": "孩子", "reading": "háizi", "partOfSpeech": "Từ vựng", "meaning": "đứa trẻ", "examples": [] },
+  { "order": 2, "term": "大家", "reading": "dàjiā", "partOfSpeech": "Từ vựng", "meaning": "mọi người", "examples": [] },
+  { "order": 3, "term": "您", "reading": "nín", "partOfSpeech": "Từ vựng", "meaning": "ngài, ông, bà", "examples": [] },
+  { "order": 4, "term": "女", "reading": "nǚ", "partOfSpeech": "Từ vựng", "meaning": "nữ", "examples": [] },
+  { "order": 5, "term": "男", "reading": "nán", "partOfSpeech": "Từ vựng", "meaning": "nam", "examples": [] },
+  { "order": 6, "term": "妻子", "reading": "qīzi", "partOfSpeech": "Từ vựng", "meaning": "vợ", "examples": [] },
+  { "order": 7, "term": "丈夫", "reading": "zhàngfu", "partOfSpeech": "Từ vựng", "meaning": "chồng", "examples": [] },
+  { "order": 8, "term": "眼睛", "reading": "yǎnjing", "partOfSpeech": "Từ vựng", "meaning": "mắt", "examples": [] },
+  { "order": 9, "term": "哥哥", "reading": "gēge", "partOfSpeech": "Từ vựng", "meaning": "anh trai", "examples": [] },
+  { "order": 10, "term": "弟弟", "reading": "dìdi", "partOfSpeech": "Từ vựng", "meaning": "em trai", "examples": [] },
+  { "order": 11, "term": "妹妹", "reading": "mèimei", "partOfSpeech": "Từ vựng", "meaning": "em gái", "examples": [] },
+  { "order": 12, "term": "姐姐", "reading": "jiějie", "partOfSpeech": "Từ vựng", "meaning": "chị gái", "examples": [] },
+  { "order": 13, "term": "姓", "reading": "xìng", "partOfSpeech": "Từ vựng", "meaning": "mang họ", "examples": [] },
+  { "order": 14, "term": "生日", "reading": "shēngrì", "partOfSpeech": "Từ vựng", "meaning": "sinh nhật", "examples": [] },
+  { "order": 15, "term": "服务员", "reading": "fúwùyuán", "partOfSpeech": "Từ vựng", "meaning": "nhân viên phục vụ", "examples": [] }
+]

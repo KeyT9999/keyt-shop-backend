@@ -1,0 +1,18 @@
+[
+  { "order": 1, "term": "就", "reading": "jiù", "partOfSpeech": "Từ vựng", "meaning": "thì, liền, ngay", "examples": [] },
+  { "order": 2, "term": "要", "reading": "yào", "partOfSpeech": "Từ vựng", "meaning": "muốn, cần, sắp", "examples": [] },
+  { "order": 3, "term": "吧", "reading": "ba", "partOfSpeech": "Từ vựng", "meaning": "nhé, đi, chứ", "examples": [] },
+  { "order": 4, "term": "对", "reading": "duì", "partOfSpeech": "Từ vựng", "meaning": "đối với, đúng", "examples": [] },
+  { "order": 5, "term": "也", "reading": "yě", "partOfSpeech": "Từ vựng", "meaning": "cũng", "examples": [] },
+  { "order": 6, "term": "还", "reading": "hái", "partOfSpeech": "Từ vựng", "meaning": "vẫn, còn", "examples": [] },
+  { "order": 7, "term": "让", "reading": "ràng", "partOfSpeech": "Từ vựng", "meaning": "để cho, khiến", "examples": [] },
+  { "order": 8, "term": "给", "reading": "gěi", "partOfSpeech": "Từ vựng", "meaning": "cho, đưa", "examples": [] },
+  { "order": 9, "term": "过", "reading": "guo", "partOfSpeech": "Từ vựng", "meaning": "đã từng", "examples": [] },
+  { "order": 10, "term": "得", "reading": "de", "partOfSpeech": "Từ vựng", "meaning": "được, đến mức", "examples": [] },
+  { "order": 11, "term": "着", "reading": "zhe", "partOfSpeech": "Từ vựng", "meaning": "đang, mãi", "examples": [] },
+  { "order": 12, "term": "可以", "reading": "kěyǐ", "partOfSpeech": "Từ vựng", "meaning": "có thể", "examples": [] },
+  { "order": 13, "term": "别", "reading": "bié", "partOfSpeech": "Từ vựng", "meaning": "đừng", "examples": [] },
+  { "order": 14, "term": "再", "reading": "zài", "partOfSpeech": "Từ vựng", "meaning": "lại, nữa", "examples": [] },
+  { "order": 15, "term": "最", "reading": "zuì", "partOfSpeech": "Từ vựng", "meaning": "nhất", "examples": [] },
+  { "order": 16, "term": "比", "reading": "bǐ", "partOfSpeech": "Từ vựng", "meaning": "so với", "examples": [] }
+]

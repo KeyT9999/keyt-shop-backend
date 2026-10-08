@@ -1,0 +1,13 @@
+[
+  { "order": 1, "term": "时间", "reading": "shíjiān", "partOfSpeech": "Từ vựng", "meaning": "thời gian", "examples": [] },
+  { "order": 2, "term": "次", "reading": "cì", "partOfSpeech": "Từ vựng", "meaning": "lần", "examples": [] },
+  { "order": 3, "term": "一下", "reading": "yíxià", "partOfSpeech": "Từ vựng", "meaning": "một chút, một lát", "examples": [] },
+  { "order": 4, "term": "每", "reading": "měi", "partOfSpeech": "Từ vựng", "meaning": "mỗi", "examples": [] },
+  { "order": 5, "term": "小时", "reading": "xiǎoshí", "partOfSpeech": "Từ vựng", "meaning": "tiếng đồng hồ", "examples": [] },
+  { "order": 6, "term": "晚上", "reading": "wǎnshang", "partOfSpeech": "Từ vựng", "meaning": "buổi tối", "examples": [] },
+  { "order": 7, "term": "早上", "reading": "zǎoshang", "partOfSpeech": "Từ vựng", "meaning": "buổi sáng", "examples": [] },
+  { "order": 8, "term": "去年", "reading": "qùnián", "partOfSpeech": "Từ vựng", "meaning": "năm ngoái", "examples": [] },
+  { "order": 9, "term": "日", "reading": "rì", "partOfSpeech": "Từ vựng", "meaning": "ngày", "examples": [] },
+  { "order": 10, "term": "刚才", "reading": "gāngcái", "partOfSpeech": "Từ vựng", "meaning": "vừa nãy", "examples": [] },
+  { "order": 11, "term": "第一", "reading": "dì-yī", "partOfSpeech": "Từ vựng", "meaning": "thứ nhất", "examples": [] }
+]

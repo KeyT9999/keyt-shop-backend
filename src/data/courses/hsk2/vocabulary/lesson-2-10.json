@@ -1,0 +1,11 @@
+[
+  { "order": 1, "term": "运动", "reading": "yùndòng", "partOfSpeech": "Từ vựng", "meaning": "vận động, thể thao", "examples": [] },
+  { "order": 2, "term": "跳舞", "reading": "tiàowǔ", "partOfSpeech": "Từ vựng", "meaning": "nhảy múa", "examples": [] },
+  { "order": 3, "term": "唱歌", "reading": "chànggē", "partOfSpeech": "Từ vựng", "meaning": "hát", "examples": [] },
+  { "order": 4, "term": "游泳", "reading": "yóuyǒng", "partOfSpeech": "Từ vựng", "meaning": "bơi", "examples": [] },
+  { "order": 5, "term": "旅游", "reading": "lǚyóu", "partOfSpeech": "Từ vựng", "meaning": "du lịch", "examples": [] },
+  { "order": 6, "term": "跑步", "reading": "pǎobù", "partOfSpeech": "Từ vựng", "meaning": "chạy bộ", "examples": [] },
+  { "order": 7, "term": "打篮球", "reading": "dǎ lánqiú", "partOfSpeech": "Từ vựng", "meaning": "chơi bóng rổ", "examples": [] },
+  { "order": 8, "term": "踢足球", "reading": "tī zúqiú", "partOfSpeech": "Từ vựng", "meaning": "đá bóng", "examples": [] },
+  { "order": 9, "term": "玩", "reading": "wán", "partOfSpeech": "Từ vựng", "meaning": "chơi", "examples": [] }
+]

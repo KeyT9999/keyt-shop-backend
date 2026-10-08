@@ -1,0 +1,11 @@
+[
+  { "order": 1, "term": "咖啡", "reading": "kāfēi", "partOfSpeech": "Từ vựng", "meaning": "cà phê", "examples": [] },
+  { "order": 2, "term": "鱼", "reading": "yú", "partOfSpeech": "Từ vựng", "meaning": "cá", "examples": [] },
+  { "order": 3, "term": "牛奶", "reading": "niúnǎi", "partOfSpeech": "Từ vựng", "meaning": "sữa bò", "examples": [] },
+  { "order": 4, "term": "鸡蛋", "reading": "jīdàn", "partOfSpeech": "Từ vựng", "meaning": "trứng gà", "examples": [] },
+  { "order": 5, "term": "羊肉", "reading": "yángròu", "partOfSpeech": "Từ vựng", "meaning": "thịt cừu", "examples": [] },
+  { "order": 6, "term": "面条", "reading": "miàntiáo", "partOfSpeech": "Từ vựng", "meaning": "mì", "examples": [] },
+  { "order": 7, "term": "西瓜", "reading": "xīguā", "partOfSpeech": "Từ vựng", "meaning": "dưa hấu", "examples": [] },
+  { "order": 8, "term": "好吃", "reading": "hǎochī", "partOfSpeech": "Từ vựng", "meaning": "ngon", "examples": [] },
+  { "order": 9, "term": "药", "reading": "yào", "partOfSpeech": "Từ vựng", "meaning": "thuốc", "examples": [] }
+]

@@ -76,6 +76,14 @@ async function seedSingleCourse(courseSlug, coursesDir) {
         const lessonDoc = vocabLessonMap[lessonCode];
         if (lessonDoc) {
           const items = JSON.parse(fs.readFileSync(path.join(vocabDir, file), 'utf8'));
+          const existingAudioItems = await VocabularyItem.find({ lessonId: lessonDoc._id })
+            .select('order term audioUrl')
+            .lean();
+          const audioByItem = new Map(
+            existingAudioItems
+              .filter((item) => item.audioUrl)
+              .map((item) => [`${item.order}:${item.term}`, item.audioUrl])
+          );
           await VocabularyItem.deleteMany({ lessonId: lessonDoc._id });
           if (items.length > 0) {
             const docsToInsert = items.map((item) => ({
@@ -88,7 +96,8 @@ async function seedSingleCourse(courseSlug, coursesDir) {
               romaji: item.romaji || '',
               partOfSpeech: item.partOfSpeech || 'Danh từ',
               meaning: item.meaning,
-              examples: item.examples || []
+              examples: item.examples || [],
+              audioUrl: audioByItem.get(`${item.order}:${item.term}`)
             }));
             await VocabularyItem.insertMany(docsToInsert);
           }
@@ -205,6 +214,7 @@ async function seedSingleCourse(courseSlug, coursesDir) {
 
   // 5. Seed Sample Exam Scaffold
   const examSlug = `${course.code.toLowerCase()}-mock-exam-midterm`;
+  const examFormat = course.code.toUpperCase().startsWith('HSK') ? 'HSK Format' : 'N5 Format';
   const examDoc = await Exam.findOneAndUpdate(
     { courseCode: course.code, slug: examSlug },
     {
@@ -212,7 +222,7 @@ async function seedSingleCourse(courseSlug, coursesDir) {
         courseId: course._id,
         courseCode: course.code,
         slug: examSlug,
-        title: `Đề Thi Thử Giữa Kỳ ${course.code} (N5 Format)`,
+        title: `Đề Thi Thử Giữa Kỳ ${course.code} (${examFormat})`,
         description: `Bài kiểm tra tổng hợp kiến thức ${course.code}.`,
         durationMinutes: 45,
         passingScore: 60,
@@ -238,9 +248,30 @@ async function seedCourses() {
       return fs.statSync(full).isDirectory() && fs.existsSync(path.join(full, 'course.json'));
     });
 
-    console.log(`Found ${availableCourses.length} course(s) to seed: ${availableCourses.join(', ')}`);
+    const courseArgIndex = process.argv.indexOf('--course');
+    const courseArg = courseArgIndex >= 0 ? process.argv[courseArgIndex + 1] : null;
+    const courseEqualsArg = process.argv.find((arg) => arg.startsWith('--course='));
+    if (courseArgIndex >= 0 && (!courseArg || courseArg.startsWith('--'))) {
+      throw new Error('--course requires a course code, such as HSK2.');
+    }
+    if (courseEqualsArg === '--course=') {
+      throw new Error('--course requires a course code, such as HSK2.');
+    }
+    const requestedCourse = (courseArg || courseEqualsArg?.slice('--course='.length) || '').toUpperCase();
+    const coursesToSeed = requestedCourse
+      ? availableCourses.filter((slug) => {
+          const metadata = JSON.parse(fs.readFileSync(path.join(coursesDir, slug, 'course.json'), 'utf8'));
+          return metadata.code.toUpperCase() === requestedCourse;
+        })
+      : availableCourses;
 
-    for (const cSlug of availableCourses) {
+    if (requestedCourse && coursesToSeed.length === 0) {
+      throw new Error(`Course ${requestedCourse} was not found. Available courses: ${availableCourses.join(', ')}`);
+    }
+
+    console.log(`Found ${coursesToSeed.length} course(s) to seed: ${coursesToSeed.join(', ')}`);
+
+    for (const cSlug of coursesToSeed) {
       await seedSingleCourse(cSlug, coursesDir);
     }
 

@@ -100,6 +100,34 @@ GET http://localhost:5000/api/products/:id
 }
 ```
 
+## HSK1 and HSK2 Mandarin audio
+
+Vivibe's API key and voice ID belong in the backend `.env` only (`VIVIBE_API_KEY` and `VIVIBE_USER_VOICE_ID`). The generator stores each exported audio URL on its HSK1 vocabulary item in `audioUrl`; later runs skip items that already have a URL, and reseeding preserves those URLs.
+
+```bash
+# List account voices and see whether the API provides language metadata
+npm run generate:hsk1-audio -- --list-voices
+
+# Check how many HSK1 words still need audio
+npm run generate:hsk1-audio -- --dry-run
+
+# Generate one word first so its Mandarin pronunciation can be reviewed
+npm run generate:hsk1-audio -- --limit 1
+
+# After confirming the sample, generate every remaining word
+npm run generate:hsk1-audio
+```
+
+Use the matching HSK2 command to prepare audio for the HSK2 vocabulary:
+
+```bash
+npm run generate:hsk2-audio -- --dry-run
+npm run generate:hsk2-audio -- --limit 1
+npm run generate:hsk2-audio
+```
+
+Vivibe's published API docs do not confirm Mandarin support for a voice. The one-word run is a pronunciation check before generating the full list.
+
 ## ✅ Checklist Test
 
 - [ ] Server chạy thành công trên port 5000

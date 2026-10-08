@@ -1,0 +1,16 @@
+[
+  { "order": 1, "term": "卖", "reading": "mài", "partOfSpeech": "Từ vựng", "meaning": "bán", "examples": [] },
+  { "order": 2, "term": "票", "reading": "piào", "partOfSpeech": "Từ vựng", "meaning": "vé", "examples": [] },
+  { "order": 3, "term": "手机", "reading": "shǒujī", "partOfSpeech": "Từ vựng", "meaning": "điện thoại di động", "examples": [] },
+  { "order": 4, "term": "手表", "reading": "shǒubiǎo", "partOfSpeech": "Từ vựng", "meaning": "đồng hồ đeo tay", "examples": [] },
+  { "order": 5, "term": "颜色", "reading": "yánsè", "partOfSpeech": "Từ vựng", "meaning": "màu sắc", "examples": [] },
+  { "order": 6, "term": "红", "reading": "hóng", "partOfSpeech": "Từ vựng", "meaning": "đỏ", "examples": [] },
+  { "order": 7, "term": "黑", "reading": "hēi", "partOfSpeech": "Từ vựng", "meaning": "đen", "examples": [] },
+  { "order": 8, "term": "白", "reading": "bái", "partOfSpeech": "Từ vựng", "meaning": "trắng", "examples": [] },
+  { "order": 9, "term": "贵", "reading": "guì", "partOfSpeech": "Từ vựng", "meaning": "đắt", "examples": [] },
+  { "order": 10, "term": "便宜", "reading": "piányi", "partOfSpeech": "Từ vựng", "meaning": "rẻ", "examples": [] },
+  { "order": 11, "term": "件", "reading": "jiàn", "partOfSpeech": "Từ vựng", "meaning": "cái, chiếc", "examples": [] },
+  { "order": 12, "term": "铅笔", "reading": "qiānbǐ", "partOfSpeech": "Từ vựng", "meaning": "bút chì", "examples": [] },
+  { "order": 13, "term": "报纸", "reading": "bàozhǐ", "partOfSpeech": "Từ vựng", "meaning": "báo", "examples": [] },
+  { "order": 14, "term": "新", "reading": "xīn", "partOfSpeech": "Từ vựng", "meaning": "mới", "examples": [] }
+]

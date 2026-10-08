@@ -1,0 +1,13 @@
+[
+  { "lessonCode": "2-1", "slug": "2-1-tu-chuc-nang-cau-truc-cau", "title": "Từ chức năng & cấu trúc câu", "description": "Các từ chức năng và cấu trúc câu thường gặp ở trình độ HSK2.", "order": 1, "itemCount": 16 },
+  { "lessonCode": "2-2", "slug": "2-2-nguyen-nhan-lien-ket-y", "title": "Nguyên nhân & liên kết ý", "description": "Từ nối nguyên nhân, kết quả và cách diễn đạt ý kiến.", "order": 2, "itemCount": 12 },
+  { "lessonCode": "2-3", "slug": "2-3-giao-tiep-suy-nghi", "title": "Giao tiếp & suy nghĩ", "description": "Từ vựng để hỏi, trả lời, giới thiệu và diễn đạt suy nghĩ.", "order": 3, "itemCount": 12 },
+  { "lessonCode": "2-4", "slug": "2-4-hoat-dong-hang-ngay", "title": "Hoạt động hằng ngày", "description": "Các hoạt động, việc nhà và công việc thường ngày.", "order": 4, "itemCount": 15 },
+  { "lessonCode": "2-5", "slug": "2-5-gia-dinh-con-nguoi", "title": "Gia đình & con người", "description": "Từ chỉ thành viên gia đình, con người và nghề nghiệp.", "order": 5, "itemCount": 15 },
+  { "lessonCode": "2-6", "slug": "2-6-thoi-gian", "title": "Thời gian", "description": "Từ chỉ thời điểm, khoảng thời gian và thứ tự.", "order": 6, "itemCount": 11 },
+  { "lessonCode": "2-7", "slug": "2-7-dia-diem-phuong-huong", "title": "Địa điểm & phương hướng", "description": "Từ chỉ vị trí, phương hướng và địa điểm quen thuộc.", "order": 7, "itemCount": 15 },
+  { "lessonCode": "2-8", "slug": "2-8-mua-sam-do-dung", "title": "Mua sắm & đồ dùng", "description": "Từ vựng về mua bán, giá cả, màu sắc và đồ dùng.", "order": 8, "itemCount": 14 },
+  { "lessonCode": "2-9", "slug": "2-9-an-uong", "title": "Ăn uống", "description": "Tên món ăn, đồ uống và cách miêu tả hương vị.", "order": 9, "itemCount": 9 },
+  { "lessonCode": "2-10", "slug": "2-10-the-thao-giai-tri", "title": "Thể thao & giải trí", "description": "Các môn thể thao, hoạt động giải trí và du lịch.", "order": 10, "itemCount": 9 },
+  { "lessonCode": "2-11", "slug": "2-11-cam-xuc-trang-thai", "title": "Cảm xúc & trạng thái", "description": "Tính từ và động từ diễn tả cảm xúc, trạng thái.", "order": 11, "itemCount": 12 }
+]

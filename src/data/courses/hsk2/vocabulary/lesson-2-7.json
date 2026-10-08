@@ -1,0 +1,17 @@
+[
+  { "order": 1, "term": "从", "reading": "cóng", "partOfSpeech": "Từ vựng", "meaning": "từ", "examples": [] },
+  { "order": 2, "term": "离", "reading": "lí", "partOfSpeech": "Từ vựng", "meaning": "cách, xa", "examples": [] },
+  { "order": 3, "term": "往", "reading": "wǎng", "partOfSpeech": "Từ vựng", "meaning": "hướng, về", "examples": [] },
+  { "order": 4, "term": "外", "reading": "wài", "partOfSpeech": "Từ vựng", "meaning": "ngoài", "examples": [] },
+  { "order": 5, "term": "旁边", "reading": "pángbiān", "partOfSpeech": "Từ vựng", "meaning": "bên cạnh", "examples": [] },
+  { "order": 6, "term": "远", "reading": "yuǎn", "partOfSpeech": "Từ vựng", "meaning": "xa", "examples": [] },
+  { "order": 7, "term": "近", "reading": "jìn", "partOfSpeech": "Từ vựng", "meaning": "gần", "examples": [] },
+  { "order": 8, "term": "左边", "reading": "zuǒbian", "partOfSpeech": "Từ vựng", "meaning": "bên trái", "examples": [] },
+  { "order": 9, "term": "右边", "reading": "yòubian", "partOfSpeech": "Từ vựng", "meaning": "bên phải", "examples": [] },
+  { "order": 10, "term": "路", "reading": "lù", "partOfSpeech": "Từ vựng", "meaning": "đường", "examples": [] },
+  { "order": 11, "term": "门", "reading": "mén", "partOfSpeech": "Từ vựng", "meaning": "cửa", "examples": [] },
+  { "order": 12, "term": "房间", "reading": "fángjiān", "partOfSpeech": "Từ vựng", "meaning": "phòng", "examples": [] },
+  { "order": 13, "term": "机场", "reading": "jīchǎng", "partOfSpeech": "Từ vựng", "meaning": "sân bay", "examples": [] },
+  { "order": 14, "term": "宾馆", "reading": "bīnguǎn", "partOfSpeech": "Từ vựng", "meaning": "khách sạn", "examples": [] },
+  { "order": 15, "term": "教室", "reading": "jiàoshì", "partOfSpeech": "Từ vựng", "meaning": "lớp học", "examples": [] }
+]

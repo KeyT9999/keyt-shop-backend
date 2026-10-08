@@ -8,7 +8,10 @@
     "dev": "nodemon src/server.js",
     "test": "jest --runInBand",
     "create-admin": "node scripts/create-admin.js",
-    "seed:courses": "node scripts/seed-courses.js"
+    "seed:courses": "node scripts/seed-courses.js",
+    "seed:hsk2": "node scripts/seed-courses.js --course=HSK2",
+    "generate:hsk1-audio": "node scripts/generate-hsk1-audio.js --course HSK1",
+    "generate:hsk2-audio": "node scripts/generate-hsk1-audio.js --course HSK2"
   },
   "keywords": [
     "nodejs",

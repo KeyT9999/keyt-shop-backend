@@ -1,0 +1,14 @@
+[
+  { "order": 1, "term": "知道", "reading": "zhīdao", "partOfSpeech": "Từ vựng", "meaning": "biết", "examples": [] },
+  { "order": 2, "term": "告诉", "reading": "gàosu", "partOfSpeech": "Từ vựng", "meaning": "nói, bảo", "examples": [] },
+  { "order": 3, "term": "问", "reading": "wèn", "partOfSpeech": "Từ vựng", "meaning": "hỏi", "examples": [] },
+  { "order": 4, "term": "懂", "reading": "dǒng", "partOfSpeech": "Từ vựng", "meaning": "hiểu", "examples": [] },
+  { "order": 5, "term": "介绍", "reading": "jièshào", "partOfSpeech": "Từ vựng", "meaning": "giới thiệu", "examples": [] },
+  { "order": 6, "term": "说话", "reading": "shuōhuà", "partOfSpeech": "Từ vựng", "meaning": "nói chuyện", "examples": [] },
+  { "order": 7, "term": "告诉", "reading": "gàosu", "partOfSpeech": "Từ vựng", "meaning": "nói cho biết", "examples": [] },
+  { "order": 8, "term": "觉得", "reading": "juéde", "partOfSpeech": "Từ vựng", "meaning": "cảm thấy", "examples": [] },
+  { "order": 9, "term": "意思", "reading": "yìsi", "partOfSpeech": "Từ vựng", "meaning": "ý nghĩa", "examples": [] },
+  { "order": 10, "term": "问题", "reading": "wèntí", "partOfSpeech": "Từ vựng", "meaning": "câu hỏi, vấn đề", "examples": [] },
+  { "order": 11, "term": "题", "reading": "tí", "partOfSpeech": "Từ vựng", "meaning": "đề, câu hỏi", "examples": [] },
+  { "order": 12, "term": "错", "reading": "cuò", "partOfSpeech": "Từ vựng", "meaning": "sai", "examples": [] }
+]
