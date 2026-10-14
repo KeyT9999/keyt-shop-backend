@@ -23,7 +23,8 @@ router.post(
         'smart-quiz',
         'speed-match',
         'time-attack',
-        'mistake-buster'
+        'mistake-buster',
+        'mastery-loop'
       ])
       .withMessage('Chế độ học không hợp lệ.'),
     body('isCorrect')
