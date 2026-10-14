@@ -115,8 +115,10 @@ class SpeakingService {
       return null;
     }
 
-    // 1. Pick random passage
-    const randomPassage = passages[Math.floor(Math.random() * passages.length)];
+    // 1. Pick random passage (prioritize 10 official exam passages Đề A-1 to Đề A-10)
+    const officialPassages = passages.filter((p) => p.isOfficialExam || (p.code && p.code.startsWith('Đề A')));
+    const passagePool = officialPassages.length > 0 ? officialPassages : passages;
+    const randomPassage = passagePool[Math.floor(Math.random() * passagePool.length)];
 
     // 2. Pick 1 image question (Câu 1)
     const imageQuestions = questions.filter((q) => q.hasImage);
