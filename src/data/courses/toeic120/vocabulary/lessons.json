@@ -1,0 +1,50 @@
+[
+  {
+    "lessonCode": "1-1",
+    "slug": "phan-1-tu-1-den-20-trang-516",
+    "title": "Phần 1 — Từ 1 đến 20 (Trang 516)",
+    "description": "Thành ngữ & cụm từ TOEIC từ 1 đến 20 (Trang 516) kèm Quiz luyện tập.",
+    "order": 1,
+    "itemCount": 20
+  },
+  {
+    "lessonCode": "1-2",
+    "slug": "phan-2-tu-21-den-40-trang-517",
+    "title": "Phần 2 — Từ 21 đến 40 (Trang 517)",
+    "description": "Thành ngữ & cụm từ TOEIC từ 21 đến 40 (Trang 517) kèm Quiz luyện tập.",
+    "order": 2,
+    "itemCount": 20
+  },
+  {
+    "lessonCode": "1-3",
+    "slug": "phan-3-tu-41-den-60-trang-518",
+    "title": "Phần 3 — Từ 41 đến 60 (Trang 518)",
+    "description": "Thành ngữ & cụm từ TOEIC từ 41 đến 60 (Trang 518) kèm Quiz luyện tập.",
+    "order": 3,
+    "itemCount": 20
+  },
+  {
+    "lessonCode": "1-4",
+    "slug": "phan-4-tu-61-den-80-trang-519",
+    "title": "Phần 4 — Từ 61 đến 80 (Trang 519)",
+    "description": "Thành ngữ & cụm từ TOEIC từ 61 đến 80 (Trang 519) kèm Quiz luyện tập.",
+    "order": 4,
+    "itemCount": 20
+  },
+  {
+    "lessonCode": "1-5",
+    "slug": "phan-5-tu-81-den-100-trang-520",
+    "title": "Phần 5 — Từ 81 đến 100 (Trang 520)",
+    "description": "Thành ngữ & cụm từ TOEIC từ 81 đến 100 (Trang 520) kèm Quiz luyện tập.",
+    "order": 5,
+    "itemCount": 20
+  },
+  {
+    "lessonCode": "1-6",
+    "slug": "phan-6-tu-101-den-120-trang-521",
+    "title": "Phần 6 — Từ 101 đến 120 (Trang 521)",
+    "description": "Thành ngữ & cụm từ TOEIC từ 101 đến 120 (Trang 521) kèm Quiz luyện tập.",
+    "order": 6,
+    "itemCount": 20
+  }
+]

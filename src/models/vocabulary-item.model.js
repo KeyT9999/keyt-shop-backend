@@ -29,7 +29,7 @@ const vocabularyItemSchema = new mongoose.Schema(
     },
     reading: {
       type: String,
-      required: true,
+      default: '',
       trim: true
     },
     romaji: {

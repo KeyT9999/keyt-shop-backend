@@ -95,13 +95,14 @@ const quizEngineService = {
         isCorrect: opt.id === 'correct'
       }));
 
+      const readingInfo = target.reading ? ` (${target.reading})` : '';
       return {
         questionNumber: idx + 1,
         vocabularyId: target._id,
         term: target.term,
         reading: target.reading,
         partOfSpeech: target.partOfSpeech,
-        prompt: `Từ "${target.term}" (${target.reading}) có nghĩa là gì?`,
+        prompt: `Cụm từ / thành ngữ "${target.term}"${readingInfo} có nghĩa là gì?`,
         options: shuffledOptions.map((o) => ({ id: o.id, text: o.text })),
         correctOptionId: shuffledOptions.find((o) => o.isCorrect)?.id,
         correctMeaning: target.meaning
@@ -137,10 +138,11 @@ const quizEngineService = {
       const cleanTerm = normalizeVocabularyText(item.term);
       const cleanUser = normalizeVocabularyText(cleanInput);
 
-      const isCorrect = cleanUser === cleanReading || cleanUser === cleanTerm;
+      const isCorrect = (cleanReading && cleanUser === cleanReading) || cleanUser === cleanTerm;
+      const readingSuffix = item.reading ? ` (${item.reading})` : '';
       return {
         isCorrect,
-        correctAnswer: `${item.term} (${item.reading})`,
+        correctAnswer: `${item.term}${readingSuffix}`,
         item
       };
     }
