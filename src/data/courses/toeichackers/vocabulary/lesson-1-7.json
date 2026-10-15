@@ -1,0 +1,1514 @@
+[
+  {
+    "order": 1,
+    "term": "analysis",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "giải tích, sự phân tích",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "monopoly",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Độc quyền.",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "respondent",
+    "reading": "/ris'pɔndənt/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "trả lời, đáp lại (lòng tốt...)",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "survey",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "điều tra, exploratory s. (thống kê) điều tra sơ bộ",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "competition",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tranh đua, cạnh tranh",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "consistently",
+    "reading": "/kən'sistəntli/",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "phù hợp với, thích hợp với, kiên định, trước sau như một",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "demand",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "yêu cầu, nhu cầu",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "for a change",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "để thay đổi",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "mural",
+    "reading": "/'mjuərəl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "tường, như tường",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "sculpture",
+    "reading": "/'skʌlptʃə/ (sculp) /skʌlp/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "thuật điêu khắc, thuật chạm trổ, công trình điêu khắc",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "additional",
+    "reading": "/ə'diʃənl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "thêm vào, phụ vào, tăng thêm",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "advanced",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cấp cao, tiên tiến",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "appreciate",
+    "reading": "/ə'pri:ʃieit/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "đánh giá, đánh giá đúng, đánh giá cao, hiểu rõ giá trị",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "expand",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "mở rộng, khai triển",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "postpone",
+    "reading": "/poust'poun/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "hoãn lại, đặt (cái gì) ở hàng thứ (sau cái khác)",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "buy",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "mua",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "demonstration",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "[sự, phép] chứng minh, analytic d. phép chứng minh giải tích",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "effective",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "hữu hiệu, có hiệu quả",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "examine",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nghiên cứu, quan sát, kiểm tra",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "like",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "giống như, bằng",
+    "examples": []
+  },
+  {
+    "order": 21,
+    "term": "closely",
+    "reading": "/'klousli/",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "gần, gần gũi, thân mật, chặt chẽ, khít, sát, sít vào nhau",
+    "examples": []
+  },
+  {
+    "order": 22,
+    "term": "cooperate",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "hợp tác",
+    "examples": []
+  },
+  {
+    "order": 23,
+    "term": "especially",
+    "reading": "/is'peʃəli/",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "đặc biệt là, nhất là",
+    "examples": []
+  },
+  {
+    "order": 24,
+    "term": "reserve",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "dự trữ // kho dự trữ",
+    "examples": []
+  },
+  {
+    "order": 25,
+    "term": "very",
+    "reading": "/'veri/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "thực, thực sự, chính, ngay",
+    "examples": []
+  },
+  {
+    "order": 26,
+    "term": "consecutive",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "liên tiếp",
+    "examples": []
+  },
+  {
+    "order": 27,
+    "term": "expectation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "kỳ vọng, e. of life (thống kê) kỳ vọng sinh tồn",
+    "examples": []
+  },
+  {
+    "order": 28,
+    "term": "publicize",
+    "reading": "/'pʌblisaiz/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "đưa ra công khai, làm cho thiên hạ biết đến",
+    "examples": []
+  },
+  {
+    "order": 29,
+    "term": "extremely",
+    "reading": "/iks'tri:mli/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "thái cực, mức độ cùng cực, tình trạng cùng cực",
+    "examples": []
+  },
+  {
+    "order": 30,
+    "term": "raise",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tăng, nâng lên (luỹ thừa)",
+    "examples": []
+  },
+  {
+    "order": 31,
+    "term": "affect",
+    "reading": "/ə'fekt/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "làm ảnh hưởng đến, làm tác động đến, chạm đến",
+    "examples": []
+  },
+  {
+    "order": 32,
+    "term": "campaign",
+    "reading": "/kæm'pein/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "chiến dịch, cuộc vận động",
+    "examples": []
+  },
+  {
+    "order": 33,
+    "term": "probable",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "có lẽ, có thể",
+    "examples": []
+  },
+  {
+    "order": 34,
+    "term": "target",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "mục tiêu",
+    "examples": []
+  },
+  {
+    "order": 35,
+    "term": "comparison",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "so sánh",
+    "examples": []
+  },
+  {
+    "order": 36,
+    "term": "focus",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tiêu điểm, tập trung tại tiêu điểm",
+    "examples": []
+  },
+  {
+    "order": 37,
+    "term": "impact",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "va, va chạm, plastic i. va chạm dẻo",
+    "examples": []
+  },
+  {
+    "order": 38,
+    "term": "seasonal",
+    "reading": "/'si:zənl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "từng thời, từng lúc, từng mùa, từng vụ",
+    "examples": []
+  },
+  {
+    "order": 39,
+    "term": "gap",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "khe, khoảng cách, trống",
+    "examples": []
+  },
+  {
+    "order": 40,
+    "term": "mounting",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "lắp ráp, khung",
+    "examples": []
+  },
+  {
+    "order": 41,
+    "term": "reflective",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "phản chiếu (nhất là ánh sáng), biết suy nghĩ",
+    "examples": []
+  },
+  {
+    "order": 42,
+    "term": "after all",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "sau tất cả",
+    "examples": []
+  },
+  {
+    "order": 43,
+    "term": "answer the phone",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "trả lời điện thoại",
+    "examples": []
+  },
+  {
+    "order": 44,
+    "term": "around the world",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "trên toàn thế giới",
+    "examples": []
+  },
+  {
+    "order": 45,
+    "term": "array",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "bảng, dãy sắp xếp, (máy tính) mảng",
+    "examples": []
+  },
+  {
+    "order": 46,
+    "term": "as itis",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "như itis",
+    "examples": []
+  },
+  {
+    "order": 47,
+    "term": "attempt",
+    "reading": "/ə'tempt/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự cố gắng, sự thử, sự mưu hại, sự xâm phạm, sự phạm đến",
+    "examples": []
+  },
+  {
+    "order": 48,
+    "term": "audiovisual",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "nghe nhìn, thính thị",
+    "examples": []
+  },
+  {
+    "order": 49,
+    "term": "avoid",
+    "reading": "/ə'vɔid/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "tránh, tránh xa, huỷ bỏ, thủ tiêu (bản án)",
+    "examples": []
+  },
+  {
+    "order": 50,
+    "term": "based",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "dựa trên",
+    "examples": []
+  },
+  {
+    "order": 51,
+    "term": "be based on",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "dựa trên",
+    "examples": []
+  },
+  {
+    "order": 52,
+    "term": "be familiar with",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "làm quen với",
+    "examples": []
+  },
+  {
+    "order": 53,
+    "term": "cinema",
+    "reading": "/'sinimə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "rạp xi nê, rạp chiếu bóng, the cinema điện ảnh, xi nê, phim chiếu bóng",
+    "examples": []
+  },
+  {
+    "order": 54,
+    "term": "competitive",
+    "reading": "/kəm'petitiv/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "cạnh tranh, đua tranh, cuộc thi tuyển",
+    "examples": []
+  },
+  {
+    "order": 55,
+    "term": "conclude",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "kết luận, kết thúc",
+    "examples": []
+  },
+  {
+    "order": 56,
+    "term": "concrete",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "bê tông // cụ thể in the c. một cách sự thể",
+    "examples": []
+  },
+  {
+    "order": 57,
+    "term": "conflict with",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "xung đột với",
+    "examples": []
+  },
+  {
+    "order": 58,
+    "term": "energy drink",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "nước tăng lực",
+    "examples": []
+  },
+  {
+    "order": 59,
+    "term": "find out",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tìm hiểu",
+    "examples": []
+  },
+  {
+    "order": 60,
+    "term": "informal",
+    "reading": "/in'fɔ:ml/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "không theo thủ tục quy định, không chính thức, không nghi thức thân mật",
+    "examples": []
+  },
+  {
+    "order": 61,
+    "term": "marketplace",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chợ",
+    "examples": []
+  },
+  {
+    "order": 62,
+    "term": "on display",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "được trưng bày",
+    "examples": []
+  },
+  {
+    "order": 63,
+    "term": "practice",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thực tiễn, sự hoạt động",
+    "examples": []
+  },
+  {
+    "order": 64,
+    "term": "public relations (PR) department",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "bộ phận quan hệ công chúng (PR)",
+    "examples": []
+  },
+  {
+    "order": 65,
+    "term": "sales",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "bán hàng",
+    "examples": []
+  },
+  {
+    "order": 66,
+    "term": "shadow",
+    "reading": "/'ʃædou/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "bóng, bóng tối, bóng râm, bóng mát, bóng (của bức tranh)",
+    "examples": []
+  },
+  {
+    "order": 67,
+    "term": "strict",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chặt chẽ, ngặt",
+    "examples": []
+  },
+  {
+    "order": 68,
+    "term": "tool",
+    "reading": "/tu:l/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "dụng cụ, đồ dùng, công cụ",
+    "examples": []
+  },
+  {
+    "order": 69,
+    "term": "typical",
+    "reading": "/'tipikl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "tiêu biểu, điển hình ((cũng) typic), đặc thù, đặc trưng",
+    "examples": []
+  },
+  {
+    "order": 70,
+    "term": "a piece of equipment",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "một thiết bị",
+    "examples": []
+  },
+  {
+    "order": 71,
+    "term": "all the way",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tất cả các cách",
+    "examples": []
+  },
+  {
+    "order": 72,
+    "term": "appealing",
+    "reading": "/ə'pi:liɳ/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "van lơn, cầu khẩn, cảm động, thương tâm, làm mủi lòng",
+    "examples": []
+  },
+  {
+    "order": 73,
+    "term": "as opposed to",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "trái ngược với",
+    "examples": []
+  },
+  {
+    "order": 74,
+    "term": "at once",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "ngay lập tức",
+    "examples": []
+  },
+  {
+    "order": 75,
+    "term": "boldly",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "táo bạo, liều lĩnh, trơ trẽn, trâng tráo",
+    "examples": []
+  },
+  {
+    "order": 76,
+    "term": "call on",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm động từ",
+    "meaning": "kêu gọi; ghé thăm",
+    "examples": []
+  },
+  {
+    "order": 77,
+    "term": "definite",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "xác định, positively d. xác định dương",
+    "examples": []
+  },
+  {
+    "order": 78,
+    "term": "distinguish",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "phân biệt",
+    "examples": []
+  },
+  {
+    "order": 79,
+    "term": "excluding",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "không bao gồm",
+    "examples": []
+  },
+  {
+    "order": 80,
+    "term": "expectancy",
+    "reading": "/iks'pektəns/ (expectancy) /iks'pektənsi/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "tình trạng mong chờ, tình trạng ngóng chờ, tình trạng trông mong, triển vọng (có thể có cái gì...)",
+    "examples": []
+  },
+  {
+    "order": 81,
+    "term": "extraordinary",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đặc biệt",
+    "examples": []
+  },
+  {
+    "order": 82,
+    "term": "forgetfully",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "sao lãng, lơ là",
+    "examples": []
+  },
+  {
+    "order": 83,
+    "term": "good for",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tốt cho",
+    "examples": []
+  },
+  {
+    "order": 84,
+    "term": "in bloom",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đang nở rộ",
+    "examples": []
+  },
+  {
+    "order": 85,
+    "term": "in reference to",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "liên quan đến",
+    "examples": []
+  },
+  {
+    "order": 86,
+    "term": "market stall",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "gian hàng ngoài chợ",
+    "examples": []
+  },
+  {
+    "order": 87,
+    "term": "mechanism",
+    "reading": "/'mekənizm/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "máy móc, cơ cấu, cơ chế ((nghĩa đen) & (nghĩa bóng)), kỹ thuật, kỹ xảo",
+    "examples": []
+  },
+  {
+    "order": 88,
+    "term": "metropolitan area",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "khu vực đô thị",
+    "examples": []
+  },
+  {
+    "order": 89,
+    "term": "national holiday",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "ngày lễ quốc gia",
+    "examples": []
+  },
+  {
+    "order": 90,
+    "term": "noteworthy",
+    "reading": "/'nout,wə:ði/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "đáng chú ý, đáng để ý, đáng ghi nh",
+    "examples": []
+  },
+  {
+    "order": 91,
+    "term": "on schedule",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đúng tiến độ",
+    "examples": []
+  },
+  {
+    "order": 92,
+    "term": "over the Internet",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "qua Internet",
+    "examples": []
+  },
+  {
+    "order": 93,
+    "term": "perception",
+    "reading": "/pə'sepʃn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự nhận thức, tri giác",
+    "examples": []
+  },
+  {
+    "order": 94,
+    "term": "potentially",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "xem potential",
+    "examples": []
+  },
+  {
+    "order": 95,
+    "term": "preview",
+    "reading": "/'pri:'vju:/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự xem trước, sự duyệt trước (phim ảnh, ảnh...), xem trước, duyệt trước (phim ảnh, ảnh...)",
+    "examples": []
+  },
+  {
+    "order": 96,
+    "term": "public display",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "trưng bày công cộng",
+    "examples": []
+  },
+  {
+    "order": 97,
+    "term": "run a campaign",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "chạy chiến dịch",
+    "examples": []
+  },
+  {
+    "order": 98,
+    "term": "serve a customer",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "phục vụ khách hàng",
+    "examples": []
+  },
+  {
+    "order": 99,
+    "term": "spouse",
+    "reading": "/spauz/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "(từ cổ,nghĩa cổ) chồng, vợ",
+    "examples": []
+  },
+  {
+    "order": 100,
+    "term": "upside down",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "lộn ngược",
+    "examples": []
+  },
+  {
+    "order": 101,
+    "term": "vending machine",
+    "reading": "/'vendiɳmə,ʃi:n/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "máy tự động bán hàng lặt vặt (dao cạo, tem, kẹo...) ((cũng) vendor)",
+    "examples": []
+  },
+  {
+    "order": 102,
+    "term": "visible",
+    "reading": "/'vizəbl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "thấy được, có thể trông thấy được, rõ ràng, rõ rệt",
+    "examples": []
+  },
+  {
+    "order": 103,
+    "term": "a complete line of",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "một dòng hoàn chỉnh của",
+    "examples": []
+  },
+  {
+    "order": 104,
+    "term": "accept the offer",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "chấp nhận lời đề nghị",
+    "examples": []
+  },
+  {
+    "order": 105,
+    "term": "astonishingly",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "đáng kinh ngạc",
+    "examples": []
+  },
+  {
+    "order": 106,
+    "term": "be noted for",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "được chú ý vì",
+    "examples": []
+  },
+  {
+    "order": 107,
+    "term": "claim",
+    "reading": "/kleim/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự đòi, sự yêu sách, sự thỉnh cầu, quyền đòi, quyền yêu sách",
+    "examples": []
+  },
+  {
+    "order": 108,
+    "term": "classified ad",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "quảng cáo được phân loại",
+    "examples": []
+  },
+  {
+    "order": 109,
+    "term": "compilation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "biên dịch, dịch mã",
+    "examples": []
+  },
+  {
+    "order": 110,
+    "term": "comprehensible",
+    "reading": "/,kɔmpri'hensəbl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "có thể hiểu, có thể lĩnh hội, có thể nhận thức, có thể bao gồm được, có thể bao hàm được",
+    "examples": []
+  },
+  {
+    "order": 111,
+    "term": "criticize",
+    "reading": "/'kritisaiz/ (criticise) /'kritisaiz/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "phê bình, phê phán, bình phẩm, chỉ trích",
+    "examples": []
+  },
+  {
+    "order": 112,
+    "term": "dumping",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Bán phá giá.",
+    "examples": []
+  },
+  {
+    "order": 113,
+    "term": "first priority",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "ưu tiên hàng đầu",
+    "examples": []
+  },
+  {
+    "order": 114,
+    "term": "fixed price",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "giá cố định",
+    "examples": []
+  },
+  {
+    "order": 115,
+    "term": "have control over",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "có quyền kiểm soát",
+    "examples": []
+  },
+  {
+    "order": 116,
+    "term": "have little chance of -ing",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "có ít cơ hội -ing",
+    "examples": []
+  },
+  {
+    "order": 117,
+    "term": "in favor of",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "ủng hộ",
+    "examples": []
+  },
+  {
+    "order": 118,
+    "term": "keep A informed of B",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "thông báo cho A về B",
+    "examples": []
+  },
+  {
+    "order": 119,
+    "term": "make an assessment",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "thực hiện đánh giá",
+    "examples": []
+  },
+  {
+    "order": 120,
+    "term": "mediate",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "gián tiếp, có cách quãng, trung gian",
+    "examples": []
+  },
+  {
+    "order": 121,
+    "term": "minimize the risk of",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "giảm thiểu rủi ro",
+    "examples": []
+  },
+  {
+    "order": 122,
+    "term": "modestly",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "khiêm tốn",
+    "examples": []
+  },
+  {
+    "order": 123,
+    "term": "persistent",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "ổn định, vững, normally p. (đại số) ổn định, chuẩn tắc",
+    "examples": []
+  },
+  {
+    "order": 124,
+    "term": "publicity",
+    "reading": "/pʌb'lisiti/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "tính công khai, sự làm cho thiên hạ biết đến",
+    "examples": []
+  },
+  {
+    "order": 125,
+    "term": "randomly",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "ẩu, bừa, không có mục đích, ngẫu nhiên, tình cờ",
+    "examples": []
+  },
+  {
+    "order": 126,
+    "term": "release date",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "ngày phát hành",
+    "examples": []
+  },
+  {
+    "order": 127,
+    "term": "stay competitive",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "duy trì tính cạnh tranh",
+    "examples": []
+  },
+  {
+    "order": 128,
+    "term": "striking difference",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "sự khác biệt nổi bật",
+    "examples": []
+  },
+  {
+    "order": 129,
+    "term": "suitable",
+    "reading": "/'sju:təbl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "hợp, phù hợp, thích hợp",
+    "examples": []
+  },
+  {
+    "order": 130,
+    "term": "take a long time",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "mất nhiều thời gian",
+    "examples": []
+  },
+  {
+    "order": 131,
+    "term": "take action",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "thực hiện hành động",
+    "examples": []
+  },
+  {
+    "order": 132,
+    "term": "trademark",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "<vt>  TM nhãn hiệu đăng ký, đặc điểm phân biệt",
+    "examples": []
+  },
+  {
+    "order": 133,
+    "term": "turn to",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "chuyển sang",
+    "examples": []
+  },
+  {
+    "order": 134,
+    "term": "unacceptable",
+    "reading": "/'ʌnək'septəbl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "không thể nhận, không chấp nhận được, không thể chịu được, khó chịu",
+    "examples": []
+  },
+  {
+    "order": 135,
+    "term": "verify",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thử lại",
+    "examples": []
+  },
+  {
+    "order": 136,
+    "term": "with the exception of",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "ngoại trừ",
+    "examples": []
+  },
+  {
+    "order": 137,
+    "term": "without notice",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "mà không cần thông báo",
+    "examples": []
+  },
+  {
+    "order": 138,
+    "term": "all walks of life",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "mọi tầng lớp xã hội",
+    "examples": []
+  },
+  {
+    "order": 139,
+    "term": "all-out",
+    "reading": "/'ɔ:l'aut/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "dốc hết sức, dốc toàn lực, toàn, hoàn toàn",
+    "examples": []
+  },
+  {
+    "order": 140,
+    "term": "ata stretch",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "ata stretch",
+    "examples": []
+  },
+  {
+    "order": 141,
+    "term": "back up",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "sao lưu",
+    "examples": []
+  },
+  {
+    "order": 142,
+    "term": "capture",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự bắt",
+    "examples": []
+  },
+  {
+    "order": 143,
+    "term": "confiscation",
+    "reading": "/,kɔnfis'keiʃn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự tịch thu, sự sung công, sự ỷ quyền cướp không",
+    "examples": []
+  },
+  {
+    "order": 144,
+    "term": "consolidate",
+    "reading": "/kən'sɔlideit/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "làm (cho) chắc, củng cố, hợp nhất, thống nhất",
+    "examples": []
+  },
+  {
+    "order": 145,
+    "term": "constitute",
+    "reading": "/'kɔnstitju:t/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "cấu tạo, tạo thành, thiết lập, thành lập",
+    "examples": []
+  },
+  {
+    "order": 146,
+    "term": "drive up",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "lái xe lên",
+    "examples": []
+  },
+  {
+    "order": 147,
+    "term": "endorsement",
+    "reading": "/in'dɔ:smənt/ (indorsation) /,indɔ:'seiʃn/ (indorsement) /in'dɔ:smənt/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự chứng thực đằng sau (séc...), lời viết đằng sau, lời ghi đằng sau (một văn kiện)",
+    "examples": []
+  },
+  {
+    "order": 148,
+    "term": "feasibility study",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "Nghiên cứu khả thi.",
+    "examples": []
+  },
+  {
+    "order": 149,
+    "term": "focus group",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "nhóm trọng tâm",
+    "examples": []
+  },
+  {
+    "order": 150,
+    "term": "gauge",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "độ đo, tỷ xích, calip || chia độ, định cỡ, differential g. cái đo vi phân, vi phân kế",
+    "examples": []
+  },
+  {
+    "order": 151,
+    "term": "intervention",
+    "reading": "/,intə'venʃn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự xen vào, sự can thiệp",
+    "examples": []
+  },
+  {
+    "order": 152,
+    "term": "irretrievable",
+    "reading": "/,iri'tri:vəbl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "không thể lấy lại được, không thể phục hồi lại được",
+    "examples": []
+  },
+  {
+    "order": 153,
+    "term": "jeopardize",
+    "reading": "/'dʤepədaiz/ (jeopardize) /'dʤepədaiz/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "nguy hại, gây nguy hiểm, liều (mạng)",
+    "examples": []
+  },
+  {
+    "order": 154,
+    "term": "legible",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "rõ ràng, dễ đọc",
+    "examples": []
+  },
+  {
+    "order": 155,
+    "term": "lose ground",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "mất điểm",
+    "examples": []
+  },
+  {
+    "order": 156,
+    "term": "misleading",
+    "reading": "/mis'li:diɳ/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "làm cho lạc đường, làm cho lạc lối, làm cho mê muội, làm cho lầm đường lạc lối",
+    "examples": []
+  },
+  {
+    "order": 157,
+    "term": "momentum",
+    "reading": "/mou'mentəm/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "động lượng, xung lượng, đà",
+    "examples": []
+  },
+  {
+    "order": 158,
+    "term": "public profile",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "hồ sơ công khai",
+    "examples": []
+  },
+  {
+    "order": 159,
+    "term": "recognizable",
+    "reading": "/'rekəgnaizəbl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "có thể công nhận, có thể thừa nhận, có thể nhận ra",
+    "examples": []
+  },
+  {
+    "order": 160,
+    "term": "reputable",
+    "reading": "/'repjutəbl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "có tiếng tốt, danh giá, đáng kính trọng",
+    "examples": []
+  },
+  {
+    "order": 161,
+    "term": "segment",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "xecmăng, đoạn",
+    "examples": []
+  },
+  {
+    "order": 162,
+    "term": "set forth",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đặt ra",
+    "examples": []
+  },
+  {
+    "order": 163,
+    "term": "set out",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đặt ra",
+    "examples": []
+  },
+  {
+    "order": 164,
+    "term": "setback",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "bước lùi",
+    "examples": []
+  },
+  {
+    "order": 165,
+    "term": "take a stand against",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "phản đối",
+    "examples": []
+  },
+  {
+    "order": 166,
+    "term": "telling",
+    "reading": "/'teliɳ/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "mạnh, có hiệu quả, đích đáng, đanh thép",
+    "examples": []
+  },
+  {
+    "order": 167,
+    "term": "underlying",
+    "reading": "/,ʌndə'laiiɳ/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "nằm dưới, dưới, cơ bản, cơ sở",
+    "examples": []
+  },
+  {
+    "order": 168,
+    "term": "vanish",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "triệt tiêu, biến mất",
+    "examples": []
+  }
+]

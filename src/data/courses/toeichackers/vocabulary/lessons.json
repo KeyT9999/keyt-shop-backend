@@ -1,0 +1,242 @@
+[
+  {
+    "lessonCode": "1-1",
+    "slug": "day-1-tuyen-dung-thoat-canh-that-nghiep",
+    "title": "Day 1: Tuyển dụng — Thoát cảnh thất nghiệp",
+    "description": "Từ vựng Hackers TOEIC Day 1: Tuyển dụng — Thoát cảnh thất nghiệp: gồm 131 từ và cụm từ thông dụng nhất.",
+    "order": 1,
+    "itemCount": 131
+  },
+  {
+    "lessonCode": "1-2",
+    "slug": "day-2-phep-tac---quy-inh-quy-inh-ve-trang-phuc",
+    "title": "Day 2: Phép tắc - Quy định — Quy định về trang phục",
+    "description": "Từ vựng Hackers TOEIC Day 2: Phép tắc - Quy định — Quy định về trang phục: gồm 141 từ và cụm từ thông dụng nhất.",
+    "order": 2,
+    "itemCount": 141
+  },
+  {
+    "lessonCode": "1-3",
+    "slug": "day-3-cong-viec-van-phong-1-cao-thu-chon-van-phong",
+    "title": "Day 3: Công việc văn phòng (1) — Cao thủ chốn văn phòng",
+    "description": "Từ vựng Hackers TOEIC Day 3: Công việc văn phòng (1) — Cao thủ chốn văn phòng: gồm 141 từ và cụm từ thông dụng nhất.",
+    "order": 3,
+    "itemCount": 141
+  },
+  {
+    "lessonCode": "1-4",
+    "slug": "day-4-cong-viec-van-phong-2-bi-quyet-kinh-doanh",
+    "title": "Day 4: Công việc văn phòng (2) — Bí quyết kinh doanh",
+    "description": "Từ vựng Hackers TOEIC Day 4: Công việc văn phòng (2) — Bí quyết kinh doanh: gồm 155 từ và cụm từ thông dụng nhất.",
+    "order": 4,
+    "itemCount": 155
+  },
+  {
+    "lessonCode": "1-5",
+    "slug": "day-5-cong-viec-van-phong-3-vu-khi-bi-mat",
+    "title": "Day 5: Công việc văn phòng (3) — Vũ khí bí mật",
+    "description": "Từ vựng Hackers TOEIC Day 5: Công việc văn phòng (3) — Vũ khí bí mật: gồm 161 từ và cụm từ thông dụng nhất.",
+    "order": 5,
+    "itemCount": 161
+  },
+  {
+    "lessonCode": "1-6",
+    "slug": "day-6-thoi-gian-ranh---cong-ong-ngay-nghi",
+    "title": "Day 6: Thời gian rảnh - Cộng đồng — Ngày nghỉ",
+    "description": "Từ vựng Hackers TOEIC Day 6: Thời gian rảnh - Cộng đồng — Ngày nghỉ: gồm 142 từ và cụm từ thông dụng nhất.",
+    "order": 6,
+    "itemCount": 142
+  },
+  {
+    "lessonCode": "1-7",
+    "slug": "day-7-marketing-1-chien-luoc-marketing",
+    "title": "Day 7: Marketing (1) — Chiến lược marketing",
+    "description": "Từ vựng Hackers TOEIC Day 7: Marketing (1) — Chiến lược marketing: gồm 168 từ và cụm từ thông dụng nhất.",
+    "order": 7,
+    "itemCount": 168
+  },
+  {
+    "lessonCode": "1-8",
+    "slug": "day-8-marketing-2-chien-luoc-marketing",
+    "title": "Day 8: Marketing (2) — Chiến lược marketing",
+    "description": "Từ vựng Hackers TOEIC Day 8: Marketing (2) — Chiến lược marketing: gồm 164 từ và cụm từ thông dụng nhất.",
+    "order": 8,
+    "itemCount": 164
+  },
+  {
+    "lessonCode": "1-9",
+    "slug": "day-9-kinh-te-hoi-sinh-nen-kinh-te",
+    "title": "Day 9: Kinh tế — Hồi sinh nền kinh tế",
+    "description": "Từ vựng Hackers TOEIC Day 9: Kinh tế — Hồi sinh nền kinh tế: gồm 168 từ và cụm từ thông dụng nhất.",
+    "order": 9,
+    "itemCount": 168
+  },
+  {
+    "lessonCode": "1-10",
+    "slug": "day-10-mua-sam-cao-thu-mua-sam",
+    "title": "Day 10: Mua sắm — Cao thủ mua sắm",
+    "description": "Từ vựng Hackers TOEIC Day 10: Mua sắm — Cao thủ mua sắm: gồm 164 từ và cụm từ thông dụng nhất.",
+    "order": 10,
+    "itemCount": 164
+  },
+  {
+    "lessonCode": "1-11",
+    "slug": "day-11-phat-trien-san-pham-ra-mat-san-pham-moi",
+    "title": "Day 11: Phát triển sản phẩm — Ra mắt sản phẩm mới",
+    "description": "Từ vựng Hackers TOEIC Day 11: Phát triển sản phẩm — Ra mắt sản phẩm mới: gồm 165 từ và cụm từ thông dụng nhất.",
+    "order": 11,
+    "itemCount": 165
+  },
+  {
+    "lessonCode": "1-12",
+    "slug": "day-12-san-xuat-tu-ong-hoa-o-nha-may",
+    "title": "Day 12: Sản xuất — Tự động hóa ở nhà máy",
+    "description": "Từ vựng Hackers TOEIC Day 12: Sản xuất — Tự động hóa ở nhà máy: gồm 166 từ và cụm từ thông dụng nhất.",
+    "order": 12,
+    "itemCount": 166
+  },
+  {
+    "lessonCode": "1-13",
+    "slug": "day-13-dich-vu-khach-hang-khach-hang-la-thuong-e",
+    "title": "Day 13: Dịch vụ khách hàng — Khách hàng là thượng đế",
+    "description": "Từ vựng Hackers TOEIC Day 13: Dịch vụ khách hàng — Khách hàng là thượng đế: gồm 164 từ và cụm từ thông dụng nhất.",
+    "order": 13,
+    "itemCount": 164
+  },
+  {
+    "lessonCode": "1-14",
+    "slug": "day-14-du-lich---san-bay-muc-ich-chuyen-cong-tac",
+    "title": "Day 14: Du lịch - Sân bay — Mục đích chuyến công tác",
+    "description": "Từ vựng Hackers TOEIC Day 14: Du lịch - Sân bay — Mục đích chuyến công tác: gồm 162 từ và cụm từ thông dụng nhất.",
+    "order": 14,
+    "itemCount": 162
+  },
+  {
+    "lessonCode": "1-15",
+    "slug": "day-15-hop-ong-am-phan-hop-ong",
+    "title": "Day 15: Hợp đồng — Đàm phán hợp đồng",
+    "description": "Từ vựng Hackers TOEIC Day 15: Hợp đồng — Đàm phán hợp đồng: gồm 164 từ và cụm từ thông dụng nhất.",
+    "order": 15,
+    "itemCount": 164
+  },
+  {
+    "lessonCode": "1-16",
+    "slug": "day-16-giao-dich-hiep-inh-thuong-mai",
+    "title": "Day 16: Giao dịch — Hiệp định thương mại",
+    "description": "Từ vựng Hackers TOEIC Day 16: Giao dịch — Hiệp định thương mại: gồm 166 từ và cụm từ thông dụng nhất.",
+    "order": 16,
+    "itemCount": 166
+  },
+  {
+    "lessonCode": "1-17",
+    "slug": "day-17-thuong-mai---van-chuyen-giao-hang-nhanh",
+    "title": "Day 17: Thương mại - Vận chuyển — Giao hàng nhanh",
+    "description": "Từ vựng Hackers TOEIC Day 17: Thương mại - Vận chuyển — Giao hàng nhanh: gồm 162 từ và cụm từ thông dụng nhất.",
+    "order": 17,
+    "itemCount": 162
+  },
+  {
+    "lessonCode": "1-18",
+    "slug": "day-18-noi-luu-tru---nha-hang-mon-an-ac-biet",
+    "title": "Day 18: Nơi lưu trú - Nhà hàng — Món ăn đặc biệt",
+    "description": "Từ vựng Hackers TOEIC Day 18: Nơi lưu trú - Nhà hàng — Món ăn đặc biệt: gồm 159 từ và cụm từ thông dụng nhất.",
+    "order": 18,
+    "itemCount": 159
+  },
+  {
+    "lessonCode": "1-19",
+    "slug": "day-19-doanh-thu-tien-thuong-la-bao-nhieu",
+    "title": "Day 19: Doanh thu — Tiền thưởng là bao nhiêu",
+    "description": "Từ vựng Hackers TOEIC Day 19: Doanh thu — Tiền thưởng là bao nhiêu: gồm 162 từ và cụm từ thông dụng nhất.",
+    "order": 19,
+    "itemCount": 162
+  },
+  {
+    "lessonCode": "1-20",
+    "slug": "day-20-ke-toan-tiet-kiem-chi-tieu",
+    "title": "Day 20: Kế toán — Tiết kiệm chi tiêu",
+    "description": "Từ vựng Hackers TOEIC Day 20: Kế toán — Tiết kiệm chi tiêu: gồm 169 từ và cụm từ thông dụng nhất.",
+    "order": 20,
+    "itemCount": 169
+  },
+  {
+    "lessonCode": "1-21",
+    "slug": "day-21-xu-huong-cua-doanh-nghiep-thi-ua-trong-cong-ty",
+    "title": "Day 21: Xu hướng của doanh nghiệp — Thi đua trong công ty",
+    "description": "Từ vựng Hackers TOEIC Day 21: Xu hướng của doanh nghiệp — Thi đua trong công ty: gồm 168 từ và cụm từ thông dụng nhất.",
+    "order": 21,
+    "itemCount": 168
+  },
+  {
+    "lessonCode": "1-22",
+    "slug": "day-22-hoi-hop-mot-cuoc-hop-khan",
+    "title": "Day 22: Hội họp — Một cuộc họp khẩn",
+    "description": "Từ vựng Hackers TOEIC Day 22: Hội họp — Một cuộc họp khẩn: gồm 166 từ và cụm từ thông dụng nhất.",
+    "order": 22,
+    "itemCount": 166
+  },
+  {
+    "lessonCode": "1-23",
+    "slug": "day-23-phuc-loi-cua-nhan-vien-nhap-vai",
+    "title": "Day 23: Phúc lợi của nhân viên — Nhập vai",
+    "description": "Từ vựng Hackers TOEIC Day 23: Phúc lợi của nhân viên — Nhập vai: gồm 156 từ và cụm từ thông dụng nhất.",
+    "order": 23,
+    "itemCount": 156
+  },
+  {
+    "lessonCode": "1-24",
+    "slug": "day-24-luan-chuyen-nhan-su-ngay-au-thang-chuc",
+    "title": "Day 24: Luân chuyển nhân sự — Ngày đầu thăng chức",
+    "description": "Từ vựng Hackers TOEIC Day 24: Luân chuyển nhân sự — Ngày đầu thăng chức: gồm 154 từ và cụm từ thông dụng nhất.",
+    "order": 24,
+    "itemCount": 154
+  },
+  {
+    "lessonCode": "1-25",
+    "slug": "day-25-giao-thong-lai-xe",
+    "title": "Day 25: Giao thông — Lái xe",
+    "description": "Từ vựng Hackers TOEIC Day 25: Giao thông — Lái xe: gồm 158 từ và cụm từ thông dụng nhất.",
+    "order": 25,
+    "itemCount": 158
+  },
+  {
+    "lessonCode": "1-26",
+    "slug": "day-26-ngan-hang-so-du-tai-khoan-va-long-mieu-thao",
+    "title": "Day 26: Ngân hàng — Số dư tài khoản và lông miêu thảo",
+    "description": "Từ vựng Hackers TOEIC Day 26: Ngân hàng — Số dư tài khoản và lông miêu thảo: gồm 151 từ và cụm từ thông dụng nhất.",
+    "order": 26,
+    "itemCount": 151
+  },
+  {
+    "lessonCode": "1-27",
+    "slug": "day-27-au-tu-ban-be-va-co-phieu",
+    "title": "Day 27: Đầu tư — Bạn bè và cổ phiếu",
+    "description": "Từ vựng Hackers TOEIC Day 27: Đầu tư — Bạn bè và cổ phiếu: gồm 163 từ và cụm từ thông dụng nhất.",
+    "order": 27,
+    "itemCount": 163
+  },
+  {
+    "lessonCode": "1-28",
+    "slug": "day-28-toa-nha---nha-co-ien",
+    "title": "Day 28: Tòa nhà - Nhà — Cổ điển",
+    "description": "Từ vựng Hackers TOEIC Day 28: Tòa nhà - Nhà — Cổ điển: gồm 154 từ và cụm từ thông dụng nhất.",
+    "order": 28,
+    "itemCount": 154
+  },
+  {
+    "lessonCode": "1-29",
+    "slug": "day-29-moi-truong-du-bao-thoi-tiet",
+    "title": "Day 29: Môi trường — Dự báo thời tiết",
+    "description": "Từ vựng Hackers TOEIC Day 29: Môi trường — Dự báo thời tiết: gồm 164 từ và cụm từ thông dụng nhất.",
+    "order": 29,
+    "itemCount": 164
+  },
+  {
+    "lessonCode": "1-30",
+    "slug": "day-30-suc-khoe-benh-nang",
+    "title": "Day 30: Sức khỏe — Bệnh nặng",
+    "description": "Từ vựng Hackers TOEIC Day 30: Sức khỏe — Bệnh nặng: gồm 160 từ và cụm từ thông dụng nhất.",
+    "order": 30,
+    "itemCount": 160
+  }
+]

@@ -1,0 +1,1280 @@
+[
+  {
+    "order": 1,
+    "term": "celebrity",
+    "reading": "/si'lebriti/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự nổi danh, sự nổi tiếng, danh tiếng, nhân vật có danh tiếng, người nổi danh",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "collection",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự thu hút, sự tập hợp, tập hợp, Abelian c. [hệ, tập hợp] Aben",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "exhibition",
+    "reading": "/,eksi'biʃn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "cuộc triển lãm cuộc trưng bày, sự phô bày, sự trưng bày",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "live",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sống, tồn tại // hoạt, sinh thực",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "donation",
+    "reading": "/dou'neiʃn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự tặng, sự cho, sự biếu, sự quyên cúng",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "improvise",
+    "reading": "/'imprəvaiz/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "ứng khẩu, cương (trên sân khấu...), làm ứng biến, làm ngay được",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "popular",
+    "reading": "/'pɔpjulə/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "nhân dân, của nhân dân, do nhân dân, bình dân",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "admission",
+    "reading": "/əd'miʃn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự nhận vào, sự thu nạp vào, sự kết nạp",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "alumni",
+    "reading": "/ə'lʌmnəs/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "học sinh, (nguyên) học sinh đại học",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "banquet",
+    "reading": "/'bæɳkwit/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "tiệc lớn, thết tiệc lớn",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "present",
+    "reading": "/'preznt - pri'zent/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "pri'zent/, có mặt, hiện diện",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "anniversary",
+    "reading": "/,æni'və:səri/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "ngày kỷ niệm, lễ kỷ niệm",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "required",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đòi hỏi, cần tìm",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "rest",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tĩnh, nghỉ, (toán kinh tế) phần còn lại",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "succeed",
+    "reading": "/sək'si:d/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "kế tiếp, tiếp theo, kế nghiệp",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "issue",
+    "reading": "/'isju:/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự phát ra, sự phát hành",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "anonymous",
+    "reading": "/ə'nɔniməs/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "giấu tên, vô danh",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "commit",
+    "reading": "/kə'mit/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "giao, gửi, giao phó, uỷ nhiệm, uỷ thác, bỏ tù, giam giữ, tống giam",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "edition",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự xuất bản",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "antique",
+    "reading": "/æn'ti:k/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "cổ, cổ xưa, theo lối cổ, theo kiểu cổ",
+    "examples": []
+  },
+  {
+    "order": 21,
+    "term": "audience",
+    "reading": "/'ɔ:djəns/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "những người nghe, thính giả, người xem, khán giả",
+    "examples": []
+  },
+  {
+    "order": 22,
+    "term": "author",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tác giả",
+    "examples": []
+  },
+  {
+    "order": 23,
+    "term": "informative",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thông tin, tin",
+    "examples": []
+  },
+  {
+    "order": 24,
+    "term": "manuscript",
+    "reading": "/'mænjuskript/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "bản viết tay, bản thảo, bản đưa in (của tác giả)",
+    "examples": []
+  },
+  {
+    "order": 25,
+    "term": "note",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chú thích, ghi chú, (toán kinh tế) tín phiếu",
+    "examples": []
+  },
+  {
+    "order": 26,
+    "term": "beneficial",
+    "reading": "/,beni'fiʃəl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "có ích, có lợi",
+    "examples": []
+  },
+  {
+    "order": 27,
+    "term": "lend",
+    "reading": "/end/ (lent) /lent/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "cho vay, cho mượn, thêm phần, thêm vào",
+    "examples": []
+  },
+  {
+    "order": 28,
+    "term": "upcoming",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sắp tới",
+    "examples": []
+  },
+  {
+    "order": 29,
+    "term": "advocate",
+    "reading": "/'ædvəkit/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "người biện hộ, người bào chữa, người bênh vực, luật sư, thầy cãi",
+    "examples": []
+  },
+  {
+    "order": 30,
+    "term": "current",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "dòng || hiện hành, action c. dòng tác dụng",
+    "examples": []
+  },
+  {
+    "order": 31,
+    "term": "local",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "địa phương, cục bộ",
+    "examples": []
+  },
+  {
+    "order": 32,
+    "term": "variety",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "hh, ds. đa tạp",
+    "examples": []
+  },
+  {
+    "order": 33,
+    "term": "contributor",
+    "reading": "/kən'tribjutə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "người đóng góp, người góp phần, người cộng tác (với một tờ báo)",
+    "examples": []
+  },
+  {
+    "order": 34,
+    "term": "defy",
+    "reading": "/di'fai/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "thách, thách thức, thách đố, bất chấp, coi thường, không tuân theo",
+    "examples": []
+  },
+  {
+    "order": 35,
+    "term": "fascinating",
+    "reading": "/'fæsineitiɳ/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "làm mê, làm say mê, quyến rũ",
+    "examples": []
+  },
+  {
+    "order": 36,
+    "term": "showing",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự trình diễn, hành động trình diễn, hồ sơ, chứng cứ (của sự thành công, chất lượng  của ai/cái gì)",
+    "examples": []
+  },
+  {
+    "order": 37,
+    "term": "adventure",
+    "reading": "/əd'ventʃə/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "phiêu lưu, mạo hiểm, liều, dám đi, dám đến (nơi nào...)",
+    "examples": []
+  },
+  {
+    "order": 38,
+    "term": "art museum",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "bảo tàng nghệ thuật",
+    "examples": []
+  },
+  {
+    "order": 39,
+    "term": "backpack",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "cái ba lô đeo trên vai",
+    "examples": []
+  },
+  {
+    "order": 40,
+    "term": "begin",
+    "reading": "/bi'gin/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "bắt đầu, mở đầu, khởi đầu, bắt đầu nói",
+    "examples": []
+  },
+  {
+    "order": 41,
+    "term": "bring",
+    "reading": "/briɳ/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "cầm lại, đem lại, mang lại, xách lại, đưa lại, đưa ra",
+    "examples": []
+  },
+  {
+    "order": 42,
+    "term": "cabin",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "phòng, buồng",
+    "examples": []
+  },
+  {
+    "order": 43,
+    "term": "care for",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "chăm sóc",
+    "examples": []
+  },
+  {
+    "order": 44,
+    "term": "climb a mountain",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "leo núi",
+    "examples": []
+  },
+  {
+    "order": 45,
+    "term": "concert",
+    "reading": "/kən'sə:t/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự phối hợp, sự hoà hợp, buổi hoà nhạc",
+    "examples": []
+  },
+  {
+    "order": 46,
+    "term": "film festivat",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "phim festivat",
+    "examples": []
+  },
+  {
+    "order": 47,
+    "term": "fishing",
+    "reading": "/'fiʃiɳ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự đánh cá, sự câu cá, nghề cá",
+    "examples": []
+  },
+  {
+    "order": 48,
+    "term": "gallery",
+    "reading": "/'gæləri/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "phòng trưng bày tranh tượng, nhà cầu, hành lang",
+    "examples": []
+  },
+  {
+    "order": 49,
+    "term": "invitation",
+    "reading": "/,invi'teiʃn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự mời, lời mời, giấy mời, cái lôi cuốn, cái hấp dẫn",
+    "examples": []
+  },
+  {
+    "order": 50,
+    "term": "lawn",
+    "reading": "/lɔ:n/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "vải batit (một thứ vải gai mịn), bãi c",
+    "examples": []
+  },
+  {
+    "order": 51,
+    "term": "leisure",
+    "reading": "/'leʤə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "thì giờ rỗi rãi, lúc thư nhàn",
+    "examples": []
+  },
+  {
+    "order": 52,
+    "term": "paint",
+    "reading": "/peint/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sơn, thuốc màu",
+    "examples": []
+  },
+  {
+    "order": 53,
+    "term": "painting",
+    "reading": "/'peintiɳ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự sơn, hội hoạ",
+    "examples": []
+  },
+  {
+    "order": 54,
+    "term": "play cards",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "chơi bài",
+    "examples": []
+  },
+  {
+    "order": 55,
+    "term": "race",
+    "reading": "/reis/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "nòi, chủng tộc, nòi người",
+    "examples": []
+  },
+  {
+    "order": 56,
+    "term": "resort",
+    "reading": "/'ri:'sɔ:t/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "cái dùng đến, phương kế, phương sách, nơi có đông người lui tới",
+    "examples": []
+  },
+  {
+    "order": 57,
+    "term": "sightseeing",
+    "reading": "/'sait,si:iɳ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự đi tham quan, cuộc tham quan",
+    "examples": []
+  },
+  {
+    "order": 58,
+    "term": "theater",
+    "reading": "/'θiətə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "(như) thetre",
+    "examples": []
+  },
+  {
+    "order": 59,
+    "term": "amusement park",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "khu vực ngoài trời có đu, vòng ngựa gỗ, phòng tập bắn...để vui chơi",
+    "examples": []
+  },
+  {
+    "order": 60,
+    "term": "ancient history",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "lịch sử cổ đại",
+    "examples": []
+  },
+  {
+    "order": 61,
+    "term": "artifact",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự giả tạo, giả tượng, <khcổ> đồ tạo tác (do người tiền sử tạo ra, để phân biệt với những đồ vật lấy sẵn trong thiên nhiên)",
+    "examples": []
+  },
+  {
+    "order": 62,
+    "term": "auditorium",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "phòng nghe, thính đường",
+    "examples": []
+  },
+  {
+    "order": 63,
+    "term": "be booked up",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "được đặt trước",
+    "examples": []
+  },
+  {
+    "order": 64,
+    "term": "choir",
+    "reading": "/'kwaiə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "đội hợp xướng, đội hợp ca (của nhà thờ), chỗ ngồi của đội hợp xướng trong nhà thờ",
+    "examples": []
+  },
+  {
+    "order": 65,
+    "term": "entertain",
+    "reading": "/,entə'tein/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "tiếp đãi, chiêu đãi",
+    "examples": []
+  },
+  {
+    "order": 66,
+    "term": "flower bed",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "bồn hoa",
+    "examples": []
+  },
+  {
+    "order": 67,
+    "term": "go toa film",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đi xem phim",
+    "examples": []
+  },
+  {
+    "order": 68,
+    "term": "grip",
+    "reading": "/grip/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "rãnh nhỏ, mương nhỏ, sự cầm chặt, sự nắm chặt, sự ôm chặt, sự kẹp chặt",
+    "examples": []
+  },
+  {
+    "order": 69,
+    "term": "have a race",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "có một cuộc đua",
+    "examples": []
+  },
+  {
+    "order": 70,
+    "term": "jog along the street",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "chạy bộ dọc theo đường phố",
+    "examples": []
+  },
+  {
+    "order": 71,
+    "term": "musical instrument",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "nhạc cụ",
+    "examples": []
+  },
+  {
+    "order": 72,
+    "term": "oar",
+    "reading": "/ɔ:/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "mái chèo, người chèo thuyền, tay chèo",
+    "examples": []
+  },
+  {
+    "order": 73,
+    "term": "oil painting",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "sơn dầu",
+    "examples": []
+  },
+  {
+    "order": 74,
+    "term": "outdoor",
+    "reading": "/'autdɔ:/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "ngoài trời, ở ngoài",
+    "examples": []
+  },
+  {
+    "order": 75,
+    "term": "paddle",
+    "reading": "/'pædl/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "cái giầm, cánh (guồng nước)",
+    "examples": []
+  },
+  {
+    "order": 76,
+    "term": "premiere",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "ra mắt",
+    "examples": []
+  },
+  {
+    "order": 77,
+    "term": "recreational activity",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "hoạt động giải trí",
+    "examples": []
+  },
+  {
+    "order": 78,
+    "term": "right",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đúng, phải, thẳng // bên phải",
+    "examples": []
+  },
+  {
+    "order": 79,
+    "term": "slide down",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "trượt xuống",
+    "examples": []
+  },
+  {
+    "order": 80,
+    "term": "splash",
+    "reading": "/splæʃ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự bắn toé (bùn, nước...), lượng (bùn nước...) bắn toé",
+    "examples": []
+  },
+  {
+    "order": 81,
+    "term": "sport tournament",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "giải đấu thể thao",
+    "examples": []
+  },
+  {
+    "order": 82,
+    "term": "stadium",
+    "reading": "/'steidjəm/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sân vận động, đường đua",
+    "examples": []
+  },
+  {
+    "order": 83,
+    "term": "stroll",
+    "reading": "/stroul/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự đi dạo, sự đi tản bộ, đi dạo, đi tản bộ",
+    "examples": []
+  },
+  {
+    "order": 84,
+    "term": "take a break",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "nghỉ ngơi",
+    "examples": []
+  },
+  {
+    "order": 85,
+    "term": "admission to",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "được nhận vào",
+    "examples": []
+  },
+  {
+    "order": 86,
+    "term": "amuse",
+    "reading": "/ə'mju:z/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "làm vui, làm thích thú, làm buồn cười, giải trí, tiêu khiển",
+    "examples": []
+  },
+  {
+    "order": 87,
+    "term": "artistic",
+    "reading": "/ɑ:'tistik/ (artistical) /ɑ:'tistikəl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "nghệ thuật, (thuộc) mỹ thuật",
+    "examples": []
+  },
+  {
+    "order": 88,
+    "term": "contestant",
+    "reading": "/kən'testənt/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "đấu thủ, đối thủ, người tranh giải, người dự thi, người tranh luận, người tranh cãi",
+    "examples": []
+  },
+  {
+    "order": 89,
+    "term": "delight",
+    "reading": "/di'lait/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự vui thích, sự vui sướng, điều thích thú, niềm khoái cảm",
+    "examples": []
+  },
+  {
+    "order": 90,
+    "term": "donate",
+    "reading": "/dou'neit/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "tặng, cho, biếu, quyên cúng",
+    "examples": []
+  },
+  {
+    "order": 91,
+    "term": "enjoyable",
+    "reading": "/in'dʤɔiəbl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "thú vị, thích thú",
+    "examples": []
+  },
+  {
+    "order": 92,
+    "term": "even though",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "mặc dù",
+    "examples": []
+  },
+  {
+    "order": 93,
+    "term": "exhibit",
+    "reading": "/ig'zibit/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "vật trưng bày, vật triển lãm, sự phô bày, sự trưng bày",
+    "examples": []
+  },
+  {
+    "order": 94,
+    "term": "exist",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tồn tại, có, hiện hành",
+    "examples": []
+  },
+  {
+    "order": 95,
+    "term": "free admission",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "vào cửa miễn phí",
+    "examples": []
+  },
+  {
+    "order": 96,
+    "term": "group rate",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "mức giá theo nhóm",
+    "examples": []
+  },
+  {
+    "order": 97,
+    "term": "head for",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đầu cho",
+    "examples": []
+  },
+  {
+    "order": 98,
+    "term": "make oneself at home",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tự nhiên như ở nhà",
+    "examples": []
+  },
+  {
+    "order": 99,
+    "term": "municipal",
+    "reading": "/mju:'nisipəl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "thành phố, (thuộc) đô thị, (thuộc) thị xã, luật lệ riêng của một nước",
+    "examples": []
+  },
+  {
+    "order": 100,
+    "term": "out of order",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "hết hàng",
+    "examples": []
+  },
+  {
+    "order": 101,
+    "term": "periodical",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "có chu kỳ, đều // báo chí xuất bản có định kỳ",
+    "examples": []
+  },
+  {
+    "order": 102,
+    "term": "playing field",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "sân chơi",
+    "examples": []
+  },
+  {
+    "order": 103,
+    "term": "several",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "một vài, nhiều",
+    "examples": []
+  },
+  {
+    "order": 104,
+    "term": "show up",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "xuất hiện",
+    "examples": []
+  },
+  {
+    "order": 105,
+    "term": "spectator",
+    "reading": "/spek'teitə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "người xem, khán giả",
+    "examples": []
+  },
+  {
+    "order": 106,
+    "term": "take A for a walk",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "a đi dạo",
+    "examples": []
+  },
+  {
+    "order": 107,
+    "term": "take a photograph",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "chụp ảnh",
+    "examples": []
+  },
+  {
+    "order": 108,
+    "term": "take a tour",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tham quan",
+    "examples": []
+  },
+  {
+    "order": 109,
+    "term": "take a walk",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đi dạo",
+    "examples": []
+  },
+  {
+    "order": 110,
+    "term": "take great pleasure",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tận hưởng niềm vui lớn",
+    "examples": []
+  },
+  {
+    "order": 111,
+    "term": "touch up a photograph",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "chạm vào một bức ảnh",
+    "examples": []
+  },
+  {
+    "order": 112,
+    "term": "usher",
+    "reading": "/'   /",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "người chỉ chỗ ngồi (trong rạp hát, rạp chiếu bóng), chưởng toà",
+    "examples": []
+  },
+  {
+    "order": 113,
+    "term": "vacation package",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "gói kỳ nghỉ",
+    "examples": []
+  },
+  {
+    "order": 114,
+    "term": "wait for seats",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "chờ chỗ",
+    "examples": []
+  },
+  {
+    "order": 115,
+    "term": "wait in line",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "chờ xếp hàng",
+    "examples": []
+  },
+  {
+    "order": 116,
+    "term": "water the plants",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tưới cây",
+    "examples": []
+  },
+  {
+    "order": 117,
+    "term": "win a contest",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "giành chiến thắng một cuộc thi",
+    "examples": []
+  },
+  {
+    "order": 118,
+    "term": "appreciative",
+    "reading": "/ə'pri:ʃjətiv/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "biết đánh giá, biết thưởng thức, khen ngợi, đánh giá cao, tán thưởng",
+    "examples": []
+  },
+  {
+    "order": 119,
+    "term": "be in line",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "xếp hàng",
+    "examples": []
+  },
+  {
+    "order": 120,
+    "term": "be in the mood for -ing",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "có tâm trạng để -ing",
+    "examples": []
+  },
+  {
+    "order": 121,
+    "term": "botanical garden",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "vườn thực vật",
+    "examples": []
+  },
+  {
+    "order": 122,
+    "term": "casually",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "tình cờ, ngẫu nhiên, thất thường",
+    "examples": []
+  },
+  {
+    "order": 123,
+    "term": "censorship",
+    "reading": "/'sensəʃip/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "cơ quan kiểm duyệt, quyền kiểm duyệt",
+    "examples": []
+  },
+  {
+    "order": 124,
+    "term": "enlightening",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "khai sáng",
+    "examples": []
+  },
+  {
+    "order": 125,
+    "term": "enthusiastically",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "phấn khởi, hăng hái, nồng nhiệt",
+    "examples": []
+  },
+  {
+    "order": 126,
+    "term": "excellence",
+    "reading": "/'eksələns/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự trội hơn, sự xuất sắc, sự ưu tú, tính ưu tú",
+    "examples": []
+  },
+  {
+    "order": 127,
+    "term": "excursion",
+    "reading": "/iks'kə:ʃn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "cuộc đi chơi, cuộc đi chơi tập thể (bằng xe lửa, tàu thuỷ...) với giá hạ có định hạn ngày đi ngày về)",
+    "examples": []
+  },
+  {
+    "order": 128,
+    "term": "festivity",
+    "reading": "/fes'tiviti/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự vui mừng, sự hân hoan",
+    "examples": []
+  },
+  {
+    "order": 129,
+    "term": "flock",
+    "reading": "/flock/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "cụm, túm (bông, len), len phế phẩm, bông phế phẩm (để nhồi nệm)",
+    "examples": []
+  },
+  {
+    "order": 130,
+    "term": "intermission",
+    "reading": "/,intə'miʃn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự ngừng, thời gian ngừng",
+    "examples": []
+  },
+  {
+    "order": 131,
+    "term": "intriguingly",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "xem intrigue",
+    "examples": []
+  },
+  {
+    "order": 132,
+    "term": "memoirs",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "hồi ký",
+    "examples": []
+  },
+  {
+    "order": 133,
+    "term": "must-see",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "những điều không thể bỏ qua",
+    "examples": []
+  },
+  {
+    "order": 134,
+    "term": "pass the time",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "giết thời gian",
+    "examples": []
+  },
+  {
+    "order": 135,
+    "term": "portrait",
+    "reading": "/'pɔ:trit/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "chân dung, ảnh, hình tượng, điển hình",
+    "examples": []
+  },
+  {
+    "order": 136,
+    "term": "pose",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đặt",
+    "examples": []
+  },
+  {
+    "order": 137,
+    "term": "publication",
+    "reading": "/,pʌbli'keiʃn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự công bố, sự xuất bản (sách)",
+    "examples": []
+  },
+  {
+    "order": 138,
+    "term": "rally",
+    "reading": "/'ræli/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự tập hợp lại, sự lấy lại sức",
+    "examples": []
+  },
+  {
+    "order": 139,
+    "term": "ridiculous",
+    "reading": "/ri'dikjuləs/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "buồn cười, tức cười, lố bịch, lố lăng",
+    "examples": []
+  },
+  {
+    "order": 140,
+    "term": "roam around",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đi lang thang xung quanh",
+    "examples": []
+  },
+  {
+    "order": 141,
+    "term": "stay tuned",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "hãy chú ý theo dõi",
+    "examples": []
+  },
+  {
+    "order": 142,
+    "term": "transferable",
+    "reading": "/træns'fə:rəbl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "có thể dời chuyển, có thể di chuyển, có thể mang sang được, nhượng được, có thể nhường được",
+    "examples": []
+  }
+]

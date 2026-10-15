@@ -1,0 +1,1181 @@
+[
+  {
+    "order": 1,
+    "term": "applicant",
+    "reading": "/'æplikənt/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "người xin việc, người thỉnh cầu",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "opening",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "vị trí tuyển dụng còn trống, lễ khai trương",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "requirement",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "yêu cầu, điều kiện, nhu cầu",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "résumé",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sơ yếu lý lịch, CV xin việc",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "candidate",
+    "reading": "/'kændidit/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "người ứng cử, người dự thi",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "confidence",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự tin cậy, lòng tin tưởng",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "meet",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "gặp gỡ; đáp ứng, thỏa mãn (yêu cầu)",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "qualified",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "đủ tư cách, đủ khả năng, đủ điều kiện",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "highly",
+    "reading": "/'haili/",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "rất, lắm, hết sức, ở mức độ cao, tốt, cao",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "interview",
+    "reading": "/'intəvju:/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự gặp gỡ, sự gặp mặt, cuộc nói chuyện riêng",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "professional",
+    "reading": "/professional/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "nghề, (thuộc) nghề nghiệp, chuyên nghiệp",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "achievement",
+    "reading": "/ə'tʃi:vmənt/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "thành tích, thành tựu, sự đạt được, sự giành được",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "hire",
+    "reading": "/'haiə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự thuê, sự cho thuê",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "position",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "vị trí, tình hình",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "reference",
+    "reading": "/'refrəns/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "người giới thiệu, thư giới thiệu, tài liệu tham khảo",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "training",
+    "reading": "/'treiniɳ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự dạy dỗ, sự rèn luyện, sự đào tạo",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "corridor",
+    "reading": "/'kɔridɔ:/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "hành lang (nhà, toa xe lửa), đường hành lang (chạy qua địa phận của một nước khác để thông ra biển)",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "eligible",
+    "reading": "/i'liminəbl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "đủ tư cách, thích hợp, có thể chọn được",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "excellent",
+    "reading": "/'eksələnt/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "hơn hẳn, trội hơn, rất tốt, thượng hạng, xuất sắc, ưu tú",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "impressed",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "bị ấn tượng, có ấn tượng tốt",
+    "examples": []
+  },
+  {
+    "order": 21,
+    "term": "associate",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "liên kết, kết hợp, liên đới, liên hợp",
+    "examples": []
+  },
+  {
+    "order": 22,
+    "term": "condition",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "điều kiện, tình hình, địa vị, c. of equivalence điều kiện tương đương",
+    "examples": []
+  },
+  {
+    "order": 23,
+    "term": "employment",
+    "reading": "/im'plɔimənt/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự dùng, sự thuê làm (công...), sự làm công, việc làm",
+    "examples": []
+  },
+  {
+    "order": 24,
+    "term": "identify",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đồng nhất hoá, nhận ra",
+    "examples": []
+  },
+  {
+    "order": 25,
+    "term": "diligent",
+    "reading": "/'dilidʤənt/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "siêng năng, chuyên cần, cần cù",
+    "examples": []
+  },
+  {
+    "order": 26,
+    "term": "familiar",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "quen thuộc, thường, thông thường",
+    "examples": []
+  },
+  {
+    "order": 27,
+    "term": "lack",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự thiếu, sự vắng mặt",
+    "examples": []
+  },
+  {
+    "order": 28,
+    "term": "managerial",
+    "reading": "/,mænə'dʤiəriəl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "người quản lý, (thuộc) giám đốc, (thuộc) ban quản trị",
+    "examples": []
+  },
+  {
+    "order": 29,
+    "term": "proficiency",
+    "reading": "/proficiency/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự tài giỏi, sự thành thạo, tài năng (về việc gì)",
+    "examples": []
+  },
+  {
+    "order": 30,
+    "term": "appeal",
+    "reading": "/ə'pi:l/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự kêu gọi, lời kêu gọi",
+    "examples": []
+  },
+  {
+    "order": 31,
+    "term": "apprehensive",
+    "reading": "/,æpri'hensiv/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "sợ hãi, e sợ, nhận thức, (thuộc) tri giác",
+    "examples": []
+  },
+  {
+    "order": 32,
+    "term": "consultant",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cố vấn, chuyên viên tham vấn",
+    "examples": []
+  },
+  {
+    "order": 33,
+    "term": "prospective",
+    "reading": "/prospective/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "tương lai, sẽ tới về sau",
+    "examples": []
+  },
+  {
+    "order": 34,
+    "term": "specialize",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chuyên môn hoá",
+    "examples": []
+  },
+  {
+    "order": 35,
+    "term": "degree",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "độ, cấp bậc, d. of accuracy độ chính xác",
+    "examples": []
+  },
+  {
+    "order": 36,
+    "term": "entitle",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "cho đầu đề, cho tên (sách...), xưng hô bằng tước",
+    "examples": []
+  },
+  {
+    "order": 37,
+    "term": "payroll",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "bảng lương, tổng quỹ lương",
+    "examples": []
+  },
+  {
+    "order": 38,
+    "term": "recruit",
+    "reading": "/ri'kru:t/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "tuyển dụng, chiêu mộ (nhân sự)",
+    "examples": []
+  },
+  {
+    "order": 39,
+    "term": "certification",
+    "reading": "/,sə:tifi'keiʃn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự cấp giấy chứng nhận, giấy chứng nhận",
+    "examples": []
+  },
+  {
+    "order": 40,
+    "term": "occupation",
+    "reading": "/,ɔkju'peiʃn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự chiếm, sự giữ, sự chiếm giữ, sự chiếm đóng, sự ở (một ngôi nhà)",
+    "examples": []
+  },
+  {
+    "order": 41,
+    "term": "wage",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "tiền lương, tiền công (theo giờ/ngày)",
+    "examples": []
+  },
+  {
+    "order": 42,
+    "term": "application form",
+    "reading": "/,æpli'keiʃn'blænk/ (/application_form/) /,æpli'keiʃn'fɔ:m/",
+    "romaji": "",
+    "partOfSpeech": "Cụm danh từ",
+    "meaning": "mẫu đơn xin việc, đơn ứng tuyển",
+    "examples": []
+  },
+  {
+    "order": 43,
+    "term": "apply for",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm động từ",
+    "meaning": "nộp đơn ứng tuyển vào",
+    "examples": []
+  },
+  {
+    "order": 44,
+    "term": "career",
+    "reading": "/kə'riə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "nghề, nghề nghiệp, sự nghiệp (của một người)",
+    "examples": []
+  },
+  {
+    "order": 45,
+    "term": "completion",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự bổ sung, sự làm cho đầy đủ, sự mở rộng",
+    "examples": []
+  },
+  {
+    "order": 46,
+    "term": "criteria",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "các tiêu chuẩn (số nhiều của criterion)",
+    "examples": []
+  },
+  {
+    "order": 47,
+    "term": "decade",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thập phân, thập niên",
+    "examples": []
+  },
+  {
+    "order": 48,
+    "term": "employ",
+    "reading": "/im'plɔi/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự dùng (người), việc làm",
+    "examples": []
+  },
+  {
+    "order": 49,
+    "term": "fair",
+    "reading": "/feə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "hội chợ, chợ phiên, day",
+    "examples": []
+  },
+  {
+    "order": 50,
+    "term": "graduation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "ssự chia độ, sự chia đường cong theo các điểm, (đại số) sự phân bậc",
+    "examples": []
+  },
+  {
+    "order": 51,
+    "term": "insufficient",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "không đủ, thiếu sót",
+    "examples": []
+  },
+  {
+    "order": 52,
+    "term": "job offer",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm danh từ",
+    "meaning": "lời mời làm việc, thư nhận việc",
+    "examples": []
+  },
+  {
+    "order": 53,
+    "term": "list",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "danh sách, bảng // lập danh sách, check l. (máy tính) sơ đồ kiểm tra thử, bảng kiểm tra",
+    "examples": []
+  },
+  {
+    "order": 54,
+    "term": "minimum",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cực tiểu, improper m. cực tiểu không chân chính",
+    "examples": []
+  },
+  {
+    "order": 55,
+    "term": "newcomer",
+    "reading": "/'nju:'kʌmə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "người mới đến",
+    "examples": []
+  },
+  {
+    "order": 56,
+    "term": "part-time",
+    "reading": "/'pɑ:ttaim/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ / Trạng từ",
+    "meaning": "bán thời gian, việc làm thêm",
+    "examples": []
+  },
+  {
+    "order": 57,
+    "term": "party",
+    "reading": "/'pɑ:ti/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "đảng, đảng Cộng sản",
+    "examples": []
+  },
+  {
+    "order": 58,
+    "term": "plentiful",
+    "reading": "/'plentiful/ (plenteous) /'plentjəs/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "sung túc, phong phú, dồi dào",
+    "examples": []
+  },
+  {
+    "order": 59,
+    "term": "previous job",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "công việc trước đó",
+    "examples": []
+  },
+  {
+    "order": 60,
+    "term": "secretary",
+    "reading": "/'sekrətri/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "thư ký, bí thư, bộ trưởng, tổng trưởng",
+    "examples": []
+  },
+  {
+    "order": 61,
+    "term": "send in",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "gửi vào",
+    "examples": []
+  },
+  {
+    "order": 62,
+    "term": "tidy",
+    "reading": "/'taidi/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "sạch sẽ, ngăn nắp, gọn gàng, khá nhiều, kha khá",
+    "examples": []
+  },
+  {
+    "order": 63,
+    "term": "achieve one's goal",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đạt được mục tiêu của mình",
+    "examples": []
+  },
+  {
+    "order": 64,
+    "term": "apprentice",
+    "reading": "/ə'prentis/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "người học việc, người học nghề, người mới vào nghề, người mới tập sự",
+    "examples": []
+  },
+  {
+    "order": 65,
+    "term": "cover letter",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm danh từ",
+    "meaning": "thư xin việc, thư ứng tuyển",
+    "examples": []
+  },
+  {
+    "order": 66,
+    "term": "devoted",
+    "reading": "/di'voutid/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "hiến cho, dâng cho, dành cho, hết lòng, tận tâm, tận tình, tận tuỵ",
+    "examples": []
+  },
+  {
+    "order": 67,
+    "term": "dress formally",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm động từ",
+    "meaning": "ăn mặc trang trọng, lịch sự",
+    "examples": []
+  },
+  {
+    "order": 68,
+    "term": "dressed in suit",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm động từ",
+    "meaning": "mặc com-lê / trang phục công sở",
+    "examples": []
+  },
+  {
+    "order": 69,
+    "term": "enthusiastic",
+    "reading": "/in'θju:zi'æstik/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "hăng hái, nhiệt tình, say mê",
+    "examples": []
+  },
+  {
+    "order": 70,
+    "term": "exclude",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "loại trừ",
+    "examples": []
+  },
+  {
+    "order": 71,
+    "term": "figure out",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tìm ra",
+    "examples": []
+  },
+  {
+    "order": 72,
+    "term": "fluently",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "trôi chảy, lưu loát",
+    "examples": []
+  },
+  {
+    "order": 73,
+    "term": "full time work",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm danh từ",
+    "meaning": "công việc toàn thời gian",
+    "examples": []
+  },
+  {
+    "order": 74,
+    "term": "job opportunity",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "cơ hội việc làm",
+    "examples": []
+  },
+  {
+    "order": 75,
+    "term": "job seeker",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "người tìm việc",
+    "examples": []
+  },
+  {
+    "order": 76,
+    "term": "lay out",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "trình bày",
+    "examples": []
+  },
+  {
+    "order": 77,
+    "term": "letter of recommendation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm danh từ",
+    "meaning": "thư giới thiệu",
+    "examples": []
+  },
+  {
+    "order": 78,
+    "term": "pay raise",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tăng lương",
+    "examples": []
+  },
+  {
+    "order": 79,
+    "term": "proof of employment",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm danh từ",
+    "meaning": "giấy xác nhận công tác, chứng minh việc làm",
+    "examples": []
+  },
+  {
+    "order": 80,
+    "term": "reapply",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đăng ký lại",
+    "examples": []
+  },
+  {
+    "order": 81,
+    "term": "recommendation letter",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm danh từ",
+    "meaning": "thư giới thiệu",
+    "examples": []
+  },
+  {
+    "order": 82,
+    "term": "send off to",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "gửi đến",
+    "examples": []
+  },
+  {
+    "order": 83,
+    "term": "take an examination",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm động từ",
+    "meaning": "tham gia kỳ thi, dự thi",
+    "examples": []
+  },
+  {
+    "order": 84,
+    "term": "training center",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "trung tâm đào tạo",
+    "examples": []
+  },
+  {
+    "order": 85,
+    "term": "waiting room",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "phòng chờ",
+    "examples": []
+  },
+  {
+    "order": 86,
+    "term": "workstation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "trạm làm việc",
+    "examples": []
+  },
+  {
+    "order": 87,
+    "term": "zealous",
+    "reading": "/'zeləs/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "sốt sắng, hắng hái, có nhiệt tâm, có nhiệt huyết",
+    "examples": []
+  },
+  {
+    "order": 88,
+    "term": "address the audience",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "giải quyết vấn đề với khán giả",
+    "examples": []
+  },
+  {
+    "order": 89,
+    "term": "be influenced by appearance",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "bị ảnh hưởng bởi ngoại hình",
+    "examples": []
+  },
+  {
+    "order": 90,
+    "term": "bilingual",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "sử dụng hai thứ tiếng, thông thạo hai thứ tiếng, Song ngữ, người nói hai thứ tiếng",
+    "examples": []
+  },
+  {
+    "order": 91,
+    "term": "curriculum vitae",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm danh từ",
+    "meaning": "sơ yếu lý lịch (CV)",
+    "examples": []
+  },
+  {
+    "order": 92,
+    "term": "diploma",
+    "reading": "/di'ploumə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "văn kiện chính thức, văn thư công",
+    "examples": []
+  },
+  {
+    "order": 93,
+    "term": "external",
+    "reading": "/eks'tə:nl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "ở ngoài, bên ngoài (hiện tượng...), ngoài, để dùng bên ngoài",
+    "examples": []
+  },
+  {
+    "order": 94,
+    "term": "fluency",
+    "reading": "/fluency/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự lưu loát, sự trôi chảy, sự nói lưu loát, sự viết trôi chảy",
+    "examples": []
+  },
+  {
+    "order": 95,
+    "term": "fluent in",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "thông thạo",
+    "examples": []
+  },
+  {
+    "order": 96,
+    "term": "human resources",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm danh từ",
+    "meaning": "nhân sự, phòng nhân sự",
+    "examples": []
+  },
+  {
+    "order": 97,
+    "term": "improperly",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "không thích hợp, không đúng cách",
+    "examples": []
+  },
+  {
+    "order": 98,
+    "term": "in a positive manner",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "một cách tích cực",
+    "examples": []
+  },
+  {
+    "order": 99,
+    "term": "in the field of",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "trong lĩnh vực",
+    "examples": []
+  },
+  {
+    "order": 100,
+    "term": "inexperience",
+    "reading": "/,iniks'piəriəns/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự thiếu kinh nghiệm",
+    "examples": []
+  },
+  {
+    "order": 101,
+    "term": "lack confidence",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "thiếu tự tin",
+    "examples": []
+  },
+  {
+    "order": 102,
+    "term": "make A a regular habit",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tạo thói quen thường xuyên",
+    "examples": []
+  },
+  {
+    "order": 103,
+    "term": "make a commitment to",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "cam kết",
+    "examples": []
+  },
+  {
+    "order": 104,
+    "term": "make a point of -ing",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "làm cho một điểm của -ing",
+    "examples": []
+  },
+  {
+    "order": 105,
+    "term": "manpower",
+    "reading": "/'mæn,pauə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "nhân lực, sức người",
+    "examples": []
+  },
+  {
+    "order": 106,
+    "term": "master's degree",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "bằng thạc sĩ",
+    "examples": []
+  },
+  {
+    "order": 107,
+    "term": "match",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đối thủ ngang sức, cuộc đấu // thử sức, đấu",
+    "examples": []
+  },
+  {
+    "order": 108,
+    "term": "necessity",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự cần thiết",
+    "examples": []
+  },
+  {
+    "order": 109,
+    "term": "novice",
+    "reading": "/'nɔvis/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "người tập việc, người mới học, người chưa có kinh nghiệm",
+    "examples": []
+  },
+  {
+    "order": 110,
+    "term": "paycheck",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tiền lương",
+    "examples": []
+  },
+  {
+    "order": 111,
+    "term": "qualification",
+    "reading": "/,kwɔlifi'keiʃn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự cho là, sự gọi là",
+    "examples": []
+  },
+  {
+    "order": 112,
+    "term": "relevant",
+    "reading": "/'relivənt/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "thích đang, thích hợp, xác đáng",
+    "examples": []
+  },
+  {
+    "order": 113,
+    "term": "self-motivation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tự tạo động lực cho bản thân",
+    "examples": []
+  },
+  {
+    "order": 114,
+    "term": "send a notification",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "gửi thông báo",
+    "examples": []
+  },
+  {
+    "order": 115,
+    "term": "sign up for",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đăng ký",
+    "examples": []
+  },
+  {
+    "order": 116,
+    "term": "talented",
+    "reading": "/'tæləntid/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "có tài",
+    "examples": []
+  },
+  {
+    "order": 117,
+    "term": "vacancy",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chỗ trống",
+    "examples": []
+  },
+  {
+    "order": 118,
+    "term": "visiting",
+    "reading": "/'vizitiɳ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự thăm hỏi, sự thăm viếng, đang thăm, thăm viếng",
+    "examples": []
+  },
+  {
+    "order": 119,
+    "term": "wanted",
+    "reading": "/'wɔntid/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "cần, được cần đến, được yêu cầu, được đòi hỏi, bị tìm bắt, bị truy nã",
+    "examples": []
+  },
+  {
+    "order": 120,
+    "term": "work history",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "lịch sử công việc",
+    "examples": []
+  },
+  {
+    "order": 121,
+    "term": "workforce",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "lực lượng lao động",
+    "examples": []
+  },
+  {
+    "order": 122,
+    "term": "commensurate",
+    "reading": "/kə'menʃərit/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "cùng diện tích với, xứng với",
+    "examples": []
+  },
+  {
+    "order": 123,
+    "term": "credential",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thông tin xác thực",
+    "examples": []
+  },
+  {
+    "order": 124,
+    "term": "familiarize oneself with",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "làm quen với",
+    "examples": []
+  },
+  {
+    "order": 125,
+    "term": "increment",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "số gia, lượng gia, independent i. gia độc lập",
+    "examples": []
+  },
+  {
+    "order": 126,
+    "term": "interpersonal skills",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "kỹ năng giao tiếp",
+    "examples": []
+  },
+  {
+    "order": 127,
+    "term": "not to mention",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "chưa kể",
+    "examples": []
+  },
+  {
+    "order": 128,
+    "term": "oriented",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "định hướng",
+    "examples": []
+  },
+  {
+    "order": 129,
+    "term": "preeminent",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "xuất sắc, ưu việt, hơn hẳn, đứng trên những cái khác, trội hơn những người khác",
+    "examples": []
+  },
+  {
+    "order": 130,
+    "term": "probationer",
+    "reading": "/probationer/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "người đang tập sự (y tá, y sĩ...), phạm nhân được tạm tha có theo dõi",
+    "examples": []
+  },
+  {
+    "order": 131,
+    "term": "versatile",
+    "reading": "/'və:sətail/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "nhiều tài, uyên bác, linh hoạt",
+    "examples": []
+  }
+]

@@ -1,0 +1,1460 @@
+[
+  {
+    "order": 1,
+    "term": "attraction",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "[sự, lực] hấp dẫn, capillary a. sức hút, mao dẫn",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "exotic",
+    "reading": "/eg'zɔtik/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "ở nước ngoài đưa vào, ngoại lai (cây cỏ, từ, mốt), kỳ lạ, kỳ cục",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "international",
+    "reading": "/,intə'næʃənl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "quốc tế, tổ chức quốc tế cộng sản",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "superb",
+    "reading": "/sju:'pə:b/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "nguy nga, tráng lệ, oai hùng, hùng vĩ, cao cả",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "baggage",
+    "reading": "/'bædidʤ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "hành lý, trang bị cầm tay (của quân đội trong lúc hành quân)",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "destination",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chỗ ghi (thông tin)",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "locate",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "định xứ, định vị trí, được đặt",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "missing",
+    "reading": "/'misiɳ/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "vắng, thiếu, khuyết, mất tích, thất lạc, the missing (quân sự) những người mất tích",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "approximately",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "một cách xấp xỉ",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "board",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "bảng, bàn",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "duty",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nghĩa vụ, nhiệm vụ, ad valorem d. (thống kê) thuế phần trăm",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "process",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "quá trình, phương pháp, cách p. with in dependent increments, quá trình với gia số độc lập",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "comfortable",
+    "reading": "/'kʌmfətəbl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "tiện lợi, đủ tiện nghi, ấm cúng",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "declare",
+    "reading": "/di'kleə/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "tuyên bố, công bố",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "depart",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "khởi hành, rời khỏi",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "emergency",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "trường hợp bất ngờ, sự hỏng bất ngờ",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "passenger",
+    "reading": "/'pæsindʤə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "hành khách (đi tàu xe...), thành viên không có khả năng làm được trò trống gì",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "specify",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chuyên môn hoá, chi tiết hoá",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "carrier",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "vật mang, bộ phận tải, truyền sóng",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "customarily",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "thông thường, theo lẽ thường",
+    "examples": []
+  },
+  {
+    "order": 21,
+    "term": "outgoing",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "ra, (toán kinh tế) tiền phí tổn",
+    "examples": []
+  },
+  {
+    "order": 22,
+    "term": "tightly",
+    "reading": "/'taitli/",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "chặt chẽ, sít sao ((nghĩa đen) & (nghĩa bóng))",
+    "examples": []
+  },
+  {
+    "order": 23,
+    "term": "tour",
+    "reading": "/tuə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "cuộc đi, cuộc đi du lịch, cuộc đi chơi, cuộc đi dạo",
+    "examples": []
+  },
+  {
+    "order": 24,
+    "term": "arrive",
+    "reading": "/ə'raiv/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "đến, tới nơi, xảy đến",
+    "examples": []
+  },
+  {
+    "order": 25,
+    "term": "brochure",
+    "reading": "/'brouʃjuə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "cuốn sách mỏng",
+    "examples": []
+  },
+  {
+    "order": 26,
+    "term": "confuse",
+    "reading": "/kən'fju:z/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "làm lộn xộn, làm lung tung, xáo trộn, làm cho mơ hồ, làm cho mập mờ, làm cho tối, làm rối rắm (ý nghĩa...)",
+    "examples": []
+  },
+  {
+    "order": 27,
+    "term": "involve",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nâng lên luỹ thừa, suy ra, kéo theo",
+    "examples": []
+  },
+  {
+    "order": 28,
+    "term": "customs",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "thuế đánh vào hàng nhập từ nước ngoài vào, thuế nhập khẩu",
+    "examples": []
+  },
+  {
+    "order": 29,
+    "term": "fill out/in",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "điền/vào",
+    "examples": []
+  },
+  {
+    "order": 30,
+    "term": "ship",
+    "reading": "/ʃip/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "tàu thuỷ, tàu, máy bay, phi cơ",
+    "examples": []
+  },
+  {
+    "order": 31,
+    "term": "suitcase",
+    "reading": "/'sju:tkeis/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "cái va li",
+    "examples": []
+  },
+  {
+    "order": 32,
+    "term": "unavailable",
+    "reading": "/'ʌnə'veiləbl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "không sẵn sàng để dùng, không dùng được",
+    "examples": []
+  },
+  {
+    "order": 33,
+    "term": "away",
+    "reading": "/ə'wei/",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "xa, xa cách, rời xa, xa ra, đi (xa), biến đi, mất đi, hết đi",
+    "examples": []
+  },
+  {
+    "order": 34,
+    "term": "dramatic",
+    "reading": "/drə'mætik/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "kịch, như kịch, như đóng kịch, thích hợp với sân khấu, đột ngột gây cảm xúc mạnh mẽ, gây ấn tượng sâu sắc, gây xúc động",
+    "examples": []
+  },
+  {
+    "order": 35,
+    "term": "hospitality",
+    "reading": "/,hɔspi'tæliti/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "lòng mến khách, đề nghị quý báo cho đăng thư của tôi",
+    "examples": []
+  },
+  {
+    "order": 36,
+    "term": "indulge",
+    "reading": "/in'dju:/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "nuông chiều, chiều theo, nuôi, ấp ủ, theo đuổi",
+    "examples": []
+  },
+  {
+    "order": 37,
+    "term": "proximity",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự gần, sự lân cận",
+    "examples": []
+  },
+  {
+    "order": 38,
+    "term": "seating",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự sắp xếp chỗ ngồi, chỗ để ngồi",
+    "examples": []
+  },
+  {
+    "order": 39,
+    "term": "unlimited",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "vô hạn, không giới hạn",
+    "examples": []
+  },
+  {
+    "order": 40,
+    "term": "agent",
+    "reading": "/'eidʤənt/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "người đại lý, số nhiều) tay sai, chỉ điểm tay chân, bộ hạ",
+    "examples": []
+  },
+  {
+    "order": 41,
+    "term": "airport",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sân bay, phi trường",
+    "examples": []
+  },
+  {
+    "order": 42,
+    "term": "beach",
+    "reading": "/bi:tʃ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sỏi cát (ở bãi biển), bãi biển",
+    "examples": []
+  },
+  {
+    "order": 43,
+    "term": "boat",
+    "reading": "/bout/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "tàu thuyền, đĩa hình thuyền (để đựng nước thịt...)",
+    "examples": []
+  },
+  {
+    "order": 44,
+    "term": "border",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "biên, bờ",
+    "examples": []
+  },
+  {
+    "order": 45,
+    "term": "business class",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "hạng thương gia",
+    "examples": []
+  },
+  {
+    "order": 46,
+    "term": "central",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "trung tâm",
+    "examples": []
+  },
+  {
+    "order": 47,
+    "term": "connect",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nối lại, làm cho liên thông",
+    "examples": []
+  },
+  {
+    "order": 48,
+    "term": "departure time",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "thời gian khởi hành",
+    "examples": []
+  },
+  {
+    "order": 49,
+    "term": "duty-free shop",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "cửa hàng miễn thuế",
+    "examples": []
+  },
+  {
+    "order": 50,
+    "term": "first class",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "hạng nhất",
+    "examples": []
+  },
+  {
+    "order": 51,
+    "term": "flight",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự bay, blind f. (cơ học) sự bay mù",
+    "examples": []
+  },
+  {
+    "order": 52,
+    "term": "go on vacation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đi nghỉ mát",
+    "examples": []
+  },
+  {
+    "order": 53,
+    "term": "guidebook",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sách hướng dẫn",
+    "examples": []
+  },
+  {
+    "order": 54,
+    "term": "journey",
+    "reading": "/'dʤə:ni/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "cuộc hành trình (thường là bằng đường bộ), chặng đường đi, quâng đường đi (trong một thời gian nhất định)",
+    "examples": []
+  },
+  {
+    "order": 55,
+    "term": "nonstop flight",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "chuyến bay thẳng",
+    "examples": []
+  },
+  {
+    "order": 56,
+    "term": "pack",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "bó, khối",
+    "examples": []
+  },
+  {
+    "order": 57,
+    "term": "passport",
+    "reading": "/'pɑ:spɔ:t/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "hộ chiếu, cái đảm bảo để đạt được (cái gì)",
+    "examples": []
+  },
+  {
+    "order": 58,
+    "term": "pilot",
+    "reading": "/'pailət/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "hoa tiêu, người lái (máy bay), phi công",
+    "examples": []
+  },
+  {
+    "order": 59,
+    "term": "safe",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "an toàn, tin cậy",
+    "examples": []
+  },
+  {
+    "order": 60,
+    "term": "salon",
+    "reading": "/'sælʤ:ɳ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "phòng tiếp khách, cuộc triển lãm tranh hằng năm (của các nghệ sĩ ở Pa-ri)",
+    "examples": []
+  },
+  {
+    "order": 61,
+    "term": "span",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "khoảng cách, (giải tích) bề rộng",
+    "examples": []
+  },
+  {
+    "order": 62,
+    "term": "sudden",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thình lình, đột suất",
+    "examples": []
+  },
+  {
+    "order": 63,
+    "term": "travel",
+    "reading": "/'træveil/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự đi du lịch, cuộc du hành",
+    "examples": []
+  },
+  {
+    "order": 64,
+    "term": "trip",
+    "reading": "/trip/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "cuộc đi chơi, cuộc dạo chơi, cuộc du ngoạn, chuyến đi, cuộc hành trình, sự vượt biển",
+    "examples": []
+  },
+  {
+    "order": 65,
+    "term": "underwater",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nước ngầm",
+    "examples": []
+  },
+  {
+    "order": 66,
+    "term": "unique",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "duy nhất, đơn trị",
+    "examples": []
+  },
+  {
+    "order": 67,
+    "term": "visitor",
+    "reading": "/'vizitə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "khách, người đến thăm, người thanh tra, người kiểm tra (trường học...)",
+    "examples": []
+  },
+  {
+    "order": 68,
+    "term": "aboard",
+    "reading": "/ə'bɔ:d/",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "trên tàu, trên boong tàu, trên thuyền, trên xe lửa, trên máy bay",
+    "examples": []
+  },
+  {
+    "order": 69,
+    "term": "aircraft",
+    "reading": "/'eəkrɑ:ft/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "máy bay, tàu bay, khí cầu",
+    "examples": []
+  },
+  {
+    "order": 70,
+    "term": "airfare",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "vé máy bay",
+    "examples": []
+  },
+  {
+    "order": 71,
+    "term": "aisle seat",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "ghế ngồi ở lối đi giữa lối đi",
+    "examples": []
+  },
+  {
+    "order": 72,
+    "term": "be onatrip",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "được onatrip",
+    "examples": []
+  },
+  {
+    "order": 73,
+    "term": "board a flight",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "lên chuyến bay",
+    "examples": []
+  },
+  {
+    "order": 74,
+    "term": "boarding gate",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "cổng lên máy bay",
+    "examples": []
+  },
+  {
+    "order": 75,
+    "term": "boarding pass",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "thẻ lên máy bay",
+    "examples": []
+  },
+  {
+    "order": 76,
+    "term": "boarding time",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "thời gian lên máy bay",
+    "examples": []
+  },
+  {
+    "order": 77,
+    "term": "by air",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "bằng đường hàng không",
+    "examples": []
+  },
+  {
+    "order": 78,
+    "term": "carry-on baggage",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "hành lý xách tay",
+    "examples": []
+  },
+  {
+    "order": 79,
+    "term": "connecting flight",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "chuyến bay chuyển tiếp",
+    "examples": []
+  },
+  {
+    "order": 80,
+    "term": "crew",
+    "reading": "/kru:/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "toàn bộ thuỷ thủ trên tàu, toàn bộ người lái và nhân viên trên máy bay",
+    "examples": []
+  },
+  {
+    "order": 81,
+    "term": "cruise",
+    "reading": "/kru:z/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "cuộc đi chơi biển (bằng tàu thuỷ), cuộc tuần tra trên biển",
+    "examples": []
+  },
+  {
+    "order": 82,
+    "term": "currency exchange",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đổi ngoại tệ",
+    "examples": []
+  },
+  {
+    "order": 83,
+    "term": "drift",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự trôi, sự rời, kéo theo, frequency d. sự mất tần số",
+    "examples": []
+  },
+  {
+    "order": 84,
+    "term": "ferry",
+    "reading": "/'feri/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "bến phà, phà",
+    "examples": []
+  },
+  {
+    "order": 85,
+    "term": "flight attendant",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tiếp viên hàng không",
+    "examples": []
+  },
+  {
+    "order": 86,
+    "term": "fluid",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chất lỏng, môi trường",
+    "examples": []
+  },
+  {
+    "order": 87,
+    "term": "guest pass",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "phiếu khuyến mãi cho khách",
+    "examples": []
+  },
+  {
+    "order": 88,
+    "term": "guided tour",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tour có hướng dẫn viên",
+    "examples": []
+  },
+  {
+    "order": 89,
+    "term": "in-flight",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "trong chuyến bay của một máy bay",
+    "examples": []
+  },
+  {
+    "order": 90,
+    "term": "landing",
+    "reading": "/'lændiɳ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự đổ bộ, sự ghé vào bờ (tàu biển, thuyền bè), sự hạ cánh (máy bay)",
+    "examples": []
+  },
+  {
+    "order": 91,
+    "term": "landmark",
+    "reading": "/'lændmɑ:k/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "mốc bờ (để dẫn đường cho các thuỷ thủ từ ngoài khơi hướng về đất liền), mốc ranh giới, giới hạn",
+    "examples": []
+  },
+  {
+    "order": 92,
+    "term": "layover",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thời gian nghỉ giữa ca",
+    "examples": []
+  },
+  {
+    "order": 93,
+    "term": "line up",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "xếp hàng",
+    "examples": []
+  },
+  {
+    "order": 94,
+    "term": "luggage tag",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "thẻ hành lý",
+    "examples": []
+  },
+  {
+    "order": 95,
+    "term": "mainland",
+    "reading": "/'meinlənd/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "lục địa, đất liền",
+    "examples": []
+  },
+  {
+    "order": 96,
+    "term": "missing luggage",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "mất hành lý",
+    "examples": []
+  },
+  {
+    "order": 97,
+    "term": "native",
+    "reading": "/'neitiv/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "nơi sinh, tự nhiên, bẩm sinh",
+    "examples": []
+  },
+  {
+    "order": 98,
+    "term": "observation tower",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tháp quan sát",
+    "examples": []
+  },
+  {
+    "order": 99,
+    "term": "accumulate",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tích luỹ, tụ",
+    "examples": []
+  },
+  {
+    "order": 100,
+    "term": "distant",
+    "reading": "/'distənt/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "xa, cách, xa cách, có thái độ cách biệt, có thái độ xa cách, không thân mật, lạnh nhạt",
+    "examples": []
+  },
+  {
+    "order": 101,
+    "term": "favor",
+    "reading": "/'feivə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "thiện ý, sự quý mến",
+    "examples": []
+  },
+  {
+    "order": 102,
+    "term": "geographic",
+    "reading": "/dʤiə'græfik/ (geographical) /dʤiə'græfikəl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "địa lý",
+    "examples": []
+  },
+  {
+    "order": 103,
+    "term": "go through customs",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "làm thủ tục hải quan",
+    "examples": []
+  },
+  {
+    "order": 104,
+    "term": "jet lag",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "jet lag",
+    "examples": []
+  },
+  {
+    "order": 105,
+    "term": "memorable",
+    "reading": "/'memərəbl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "đáng ghi nhớ, không quên được",
+    "examples": []
+  },
+  {
+    "order": 106,
+    "term": "memorial",
+    "reading": "/mi'nɔ:riəl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "kỷ niệm, để ghi nhớ, để kỷ niệm",
+    "examples": []
+  },
+  {
+    "order": 107,
+    "term": "overbook",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "đăng ký trước quá nhiều",
+    "examples": []
+  },
+  {
+    "order": 108,
+    "term": "overhead",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tạp phí",
+    "examples": []
+  },
+  {
+    "order": 109,
+    "term": "overhead rack",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "giá treo trên cao",
+    "examples": []
+  },
+  {
+    "order": 110,
+    "term": "port",
+    "reading": "/pɔ:t/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "cảng, nơi ẩn náu",
+    "examples": []
+  },
+  {
+    "order": 111,
+    "term": "porter",
+    "reading": "/'pɔ:tə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "người gác cổng, công nhân khuân vác",
+    "examples": []
+  },
+  {
+    "order": 112,
+    "term": "precisely",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "một cách chính xác",
+    "examples": []
+  },
+  {
+    "order": 113,
+    "term": "reclaim",
+    "reading": "/ri'kleim/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "past reclaim, beyond reclaim không thể cải tạo được",
+    "examples": []
+  },
+  {
+    "order": 114,
+    "term": "remains",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "đồ thừa, cái còn lại, phế tích, tàn tích (những toà nhà  cổ xưa còn lại đã bị phá hủy)",
+    "examples": []
+  },
+  {
+    "order": 115,
+    "term": "remote",
+    "reading": "/ri'mout/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "xa, xa xôi, xa xăm, xa cách, cách biệt (thái độ...)",
+    "examples": []
+  },
+  {
+    "order": 116,
+    "term": "rightly",
+    "reading": "/'raitli/",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "phải, đúng, đúng đắn, có lý",
+    "examples": []
+  },
+  {
+    "order": 117,
+    "term": "round trip",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "chuyến đi khứ hồi",
+    "examples": []
+  },
+  {
+    "order": 118,
+    "term": "row the boat",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "chèo thuyền",
+    "examples": []
+  },
+  {
+    "order": 119,
+    "term": "runway",
+    "reading": "/'rʌnwei/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "lối dẫn vật nuôi đi uống nước, đường lăn gỗ (từ trên đồi xuống...)",
+    "examples": []
+  },
+  {
+    "order": 120,
+    "term": "seasickness",
+    "reading": "/'si:,siknis/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "chứng say sóng",
+    "examples": []
+  },
+  {
+    "order": 121,
+    "term": "stop over",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "dừng lại",
+    "examples": []
+  },
+  {
+    "order": 122,
+    "term": "suburban train line",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tuyến tàu ngoại ô",
+    "examples": []
+  },
+  {
+    "order": 123,
+    "term": "take off",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "take off",
+    "examples": []
+  },
+  {
+    "order": 124,
+    "term": "take one's bag off",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "lấy túi của một người ra",
+    "examples": []
+  },
+  {
+    "order": 125,
+    "term": "train conductor",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "dây dẫn tàu hỏa",
+    "examples": []
+  },
+  {
+    "order": 126,
+    "term": "travel agency",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "hãng (văn phòng) của người đại lý du lịch",
+    "examples": []
+  },
+  {
+    "order": 127,
+    "term": "travel arrangement",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "thu xếp đi lại",
+    "examples": []
+  },
+  {
+    "order": 128,
+    "term": "unload",
+    "reading": "/'ʌn'loud/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "cất gánh nặng, dỡ hàng, tháo đạn (ở súng) ra",
+    "examples": []
+  },
+  {
+    "order": 129,
+    "term": "unlock",
+    "reading": "/'ʌn'lɔk/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "mở, mở khoá, để lộ, tiết lộ",
+    "examples": []
+  },
+  {
+    "order": 130,
+    "term": "voyage",
+    "reading": "/'vɔidʤ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "cuộc du lịch xa bằng đường biển, đi du lịch xa bằng đường biển",
+    "examples": []
+  },
+  {
+    "order": 131,
+    "term": "walking tour",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tour đi bộ",
+    "examples": []
+  },
+  {
+    "order": 132,
+    "term": "wildlife",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "những thú vật, chim muông... hoang dã, wildlife conservation",
+    "examples": []
+  },
+  {
+    "order": 133,
+    "term": "airsickness",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "chứng say gió khi đi máy bay",
+    "examples": []
+  },
+  {
+    "order": 134,
+    "term": "allowance",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cho vay tiếp, (toán kinh tế) tiền trợ cấp",
+    "examples": []
+  },
+  {
+    "order": 135,
+    "term": "aviation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "hàng không",
+    "examples": []
+  },
+  {
+    "order": 136,
+    "term": "barge",
+    "reading": "/bɑ:dʤ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sà lan, xuồng lớn của ban chỉ huy (trên tàu chiến)",
+    "examples": []
+  },
+  {
+    "order": 137,
+    "term": "be left unattended",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "không được giám sát",
+    "examples": []
+  },
+  {
+    "order": 138,
+    "term": "buckle up (= fasten seatbelt",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "thắt dây an toàn (= thắt dây an toàn",
+    "examples": []
+  },
+  {
+    "order": 139,
+    "term": "carousel",
+    "reading": "/kæru'zel/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "trò kéo quân (ngựa gỗ hay xe ô tô gỗ chạy vòng tròn)",
+    "examples": []
+  },
+  {
+    "order": 140,
+    "term": "channel",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "ống kênh, binary c. kênh nhị nguyên, kênh nhị phân",
+    "examples": []
+  },
+  {
+    "order": 141,
+    "term": "charter plane",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "máy bay thuê bao",
+    "examples": []
+  },
+  {
+    "order": 142,
+    "term": "concourse",
+    "reading": "/'kɔɳkɔ:s/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "đám đông tụ tập, sự tụ tập, sự tụ hội",
+    "examples": []
+  },
+  {
+    "order": 143,
+    "term": "confer",
+    "reading": "/kən'fə:/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "phong, ban, bàn bạc, hỏi ý kiến, hội ý",
+    "examples": []
+  },
+  {
+    "order": 144,
+    "term": "deck",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cỗ bài",
+    "examples": []
+  },
+  {
+    "order": 145,
+    "term": "disembark (= get off, leave",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "xuống xe (= xuống xe, rời đi",
+    "examples": []
+  },
+  {
+    "order": 146,
+    "term": "dispense",
+    "reading": "/dis'pens/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "phân phát, phân phối, pha chế và cho (thuốc)",
+    "examples": []
+  },
+  {
+    "order": 147,
+    "term": "harbor",
+    "reading": "/'hɑ:bə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "harbor",
+    "examples": []
+  },
+  {
+    "order": 148,
+    "term": "impound",
+    "reading": "/im'paund/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "nhốt (súc vật) vào bãi rào, cất (xe cộ...) vào bãi rào",
+    "examples": []
+  },
+  {
+    "order": 149,
+    "term": "life preserver",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "thiết bị bảo vệ sự sống",
+    "examples": []
+  },
+  {
+    "order": 150,
+    "term": "lodging",
+    "reading": "/'lɔdʤiɳ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "chỗ trọ, chỗ tạm trú, phòng có sãn đồ cho thuê",
+    "examples": []
+  },
+  {
+    "order": 151,
+    "term": "meet one's flight",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đáp ứng chuyến bay của một người",
+    "examples": []
+  },
+  {
+    "order": 152,
+    "term": "motion sickness",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "say tàu xe",
+    "examples": []
+  },
+  {
+    "order": 153,
+    "term": "presumable",
+    "reading": "/pri'zju:məbl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "có thể được, có thể cho là đúng, có thể cầm bằng, có thể đoán chừng",
+    "examples": []
+  },
+  {
+    "order": 154,
+    "term": "quarantine desk",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "bàn cách ly",
+    "examples": []
+  },
+  {
+    "order": 155,
+    "term": "remittance",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tiền chuyển đi, chuyển khoản",
+    "examples": []
+  },
+  {
+    "order": 156,
+    "term": "stall",
+    "reading": "/stɔ:l/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "chuồng (ngựa, trâu bò), ngăn chuồng",
+    "examples": []
+  },
+  {
+    "order": 157,
+    "term": "swap",
+    "reading": "/swɔp/ (swap) /swɔp/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự trao đổi, sự đổi chác, đổi, trao đổi, đổi chác",
+    "examples": []
+  },
+  {
+    "order": 158,
+    "term": "tie the boat to",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "buộc thuyền vào",
+    "examples": []
+  },
+  {
+    "order": 159,
+    "term": "touch down",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "chạm xuống",
+    "examples": []
+  },
+  {
+    "order": 160,
+    "term": "turbulence",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "giác loạn",
+    "examples": []
+  },
+  {
+    "order": 161,
+    "term": "turn up",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "bật lên",
+    "examples": []
+  },
+  {
+    "order": 162,
+    "term": "vessel",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tàu, thuyền",
+    "examples": []
+  }
+]

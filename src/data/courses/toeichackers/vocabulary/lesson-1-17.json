@@ -1,0 +1,1460 @@
+[
+  {
+    "order": 1,
+    "term": "courier",
+    "reading": "/'kuriə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "người đưa thư, người đưa tin tức, người thông tin (thường dùng để đặt tên báo)",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "deliver",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "phân phối",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "ensure",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đảm bảo",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "fragile",
+    "reading": "/'frædʤail/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "dễ vỡ, dễ gây, dễ hỏng, mỏng mảnh, mỏng manh ((nghĩa đen) & (nghĩa bóng))",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "perishable",
+    "reading": "/'periʃəbl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "có thể bị diệt vong, có thể chết",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "address",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "địa chỉ, current a. địa chỉ hiện đại",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "adequately",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "tương xứng, thích đáng, thoả đáng",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "carton",
+    "reading": "/'kɑ:tən/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "hộp bìa cứng (đựng hàng), bìa cứng (để làm hộp)",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "particularly",
+    "reading": "/pə'tikjuləli/",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "đặc biệt, cá biệt, riêng biệt, tỉ mỉ, chi tiết",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "shipment",
+    "reading": "/'ʃipmənt/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự xếp (hàng) xuống tàu, hàng hoá trên tàu",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "agency",
+    "reading": "/'eidʤənsi/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "tác dụng, lực, sự môi giới, sự trung gian",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "article",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "điều khoản, mục, vật phẩm",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "efficient",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "hiệu dụng, hiệu nghiệm, hiệu suất, (thống kê) hữu hiệu",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "enclose",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "bao quanh, chứa |",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "careful",
+    "reading": "/'keəful/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "cẩn thận, thận trọng, biết giữ gìn, biết lưu ý, kỹ lưỡng, chu đáo",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "carry",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "số mang sang hàng tiếp theo, sự chuyển sang // mang sang, accumulative c. số mang sang được tích luỹ",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "pick up",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "nhận hàng",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "attach",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "buộc chặt, cột chặt",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "content",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "dung, dung lượng, c. of a point set dung lượng của một tập hợp điểm",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "formerly",
+    "reading": "/'fɔ:məli/",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "trước đây, thuở xưa",
+    "examples": []
+  },
+  {
+    "order": 21,
+    "term": "package",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "khối",
+    "examples": []
+  },
+  {
+    "order": 22,
+    "term": "react",
+    "reading": "/ri:'ækt/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "tác động trở lại, ảnh hưởng trở lại, phản ứng lại, (hoá học) phản ứng",
+    "examples": []
+  },
+  {
+    "order": 23,
+    "term": "acknowledge",
+    "reading": "/ək'nɔlidʤ/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "nhận, thừa nhận, công nhận, báo cho biết đã nhận được",
+    "examples": []
+  },
+  {
+    "order": 24,
+    "term": "caution",
+    "reading": "/'kɔ:ʃn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự thận trọng, sự cẩn thận, lời cảnh cáo, lời quở trách",
+    "examples": []
+  },
+  {
+    "order": 25,
+    "term": "convenience",
+    "reading": "/kən'vi:njəns/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự tiện lợi, sự thuận lợi, sự thích hợp",
+    "examples": []
+  },
+  {
+    "order": 26,
+    "term": "correspondence",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "[phép, sự] tương ứng, algebraic c. tương ứng đại số",
+    "examples": []
+  },
+  {
+    "order": 27,
+    "term": "handle",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cán, tay cầm, tay lái // điều khiển, sử dụng quay lại",
+    "examples": []
+  },
+  {
+    "order": 28,
+    "term": "remarkable",
+    "reading": "/ri'mɑ:kəbl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "đáng chú ý, xuất sắc, phi thường, đặc biệt",
+    "examples": []
+  },
+  {
+    "order": 29,
+    "term": "separate",
+    "reading": "/'seprit/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "riêng rẽ, rời, không dính với nhau, vặt rời",
+    "examples": []
+  },
+  {
+    "order": 30,
+    "term": "detach",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tách ra",
+    "examples": []
+  },
+  {
+    "order": 31,
+    "term": "envelope",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đường bao, bao nhóm",
+    "examples": []
+  },
+  {
+    "order": 32,
+    "term": "impose",
+    "reading": "/im'pouz/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "đánh (thuế...), bắt chịu, bắt gánh vác, bắt cáng đáng",
+    "examples": []
+  },
+  {
+    "order": 33,
+    "term": "storage",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "bộ nhớ, carry s. (máy tính) bộ nhớ chuyển dịch",
+    "examples": []
+  },
+  {
+    "order": 34,
+    "term": "warehouse",
+    "reading": "/'weəhaus/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "kho hàng, cửa hàng",
+    "examples": []
+  },
+  {
+    "order": 35,
+    "term": "affix",
+    "reading": "/'æfiks/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự thêm vào, phần thêm vào",
+    "examples": []
+  },
+  {
+    "order": 36,
+    "term": "exclusion",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự đi lệch (khỏi quỹ đạo thông thường) dịch",
+    "examples": []
+  },
+  {
+    "order": 37,
+    "term": "incorrect",
+    "reading": "/,inkə'rekt/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "không đúng, không chỉnh, sai, còn đầy lỗi (sách đưa in...)",
+    "examples": []
+  },
+  {
+    "order": 38,
+    "term": "recipient",
+    "reading": "/ri'sipiənt/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "receptive, người nhận (tiền, quà biếu...)",
+    "examples": []
+  },
+  {
+    "order": 39,
+    "term": "oblige",
+    "reading": "/ə'blaidʤ/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "bắt buộc, cưỡng bách, đặt nghĩa vụ cho",
+    "examples": []
+  },
+  {
+    "order": 40,
+    "term": "step",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "bước, induction s. bước quy nạp",
+    "examples": []
+  },
+  {
+    "order": 41,
+    "term": "barrier",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "lớp chắn, hàng rào, chướng ngại",
+    "examples": []
+  },
+  {
+    "order": 42,
+    "term": "base",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cơ sở, nền, đáy, cơ số, b. of point cơ sở tại một điểm",
+    "examples": []
+  },
+  {
+    "order": 43,
+    "term": "butcher's shop",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "cửa hàng bán thịt",
+    "examples": []
+  },
+  {
+    "order": 44,
+    "term": "cargo",
+    "reading": "/'kɑ:gou/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "hàng hoá (chở trên tàu thuỷ)",
+    "examples": []
+  },
+  {
+    "order": 45,
+    "term": "clinic",
+    "reading": "/'klinik/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "bệnh viện thực hành, sự lên lớp ở buồng bệnh, sự thực hành ở buồng bệnh",
+    "examples": []
+  },
+  {
+    "order": 46,
+    "term": "crate",
+    "reading": "/kreit/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "thùng thưa (do nhiều thanh gỗ đóng lại, còn nhiều kẽ hở, không kín hẳn), sọt (để đựng đồ sứ, hoa quả...)",
+    "examples": []
+  },
+  {
+    "order": 47,
+    "term": "delay",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "làm chậm trễ // sự trậm, sự trễ, adjustable d. sự trễ điều chỉnh được",
+    "examples": []
+  },
+  {
+    "order": 48,
+    "term": "due date",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "ngày đến hạn",
+    "examples": []
+  },
+  {
+    "order": 49,
+    "term": "following week",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tuần sau",
+    "examples": []
+  },
+  {
+    "order": 50,
+    "term": "geta ticket",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "vé geta",
+    "examples": []
+  },
+  {
+    "order": 51,
+    "term": "in storage",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "trong kho",
+    "examples": []
+  },
+  {
+    "order": 52,
+    "term": "instructor",
+    "reading": "/in'strʌktə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "người dạy, thầy giáo, trợ giáo (đại học)",
+    "examples": []
+  },
+  {
+    "order": 53,
+    "term": "load",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tải trọng, tải, trọng tải, concentrated l. tải trọng tập trung",
+    "examples": []
+  },
+  {
+    "order": 54,
+    "term": "mail",
+    "reading": "/meil/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "áo giáp, mặc áo giáp",
+    "examples": []
+  },
+  {
+    "order": 55,
+    "term": "museum",
+    "reading": "/mju:'ziəm/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "nhà bảo tàng",
+    "examples": []
+  },
+  {
+    "order": 56,
+    "term": "offload",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "giảm tải",
+    "examples": []
+  },
+  {
+    "order": 57,
+    "term": "parcel",
+    "reading": "/'pɑ:sl/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "gói, bưu kiện ((cũng) postal parcel)",
+    "examples": []
+  },
+  {
+    "order": 58,
+    "term": "parking pass",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "thẻ đậu xe",
+    "examples": []
+  },
+  {
+    "order": 59,
+    "term": "pick up packages",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "gói hàng đến lấy",
+    "examples": []
+  },
+  {
+    "order": 60,
+    "term": "pottery",
+    "reading": "/'pɔtəri/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "đồ gốm, nghề làm đồ gốm",
+    "examples": []
+  },
+  {
+    "order": 61,
+    "term": "public park",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "công viên công cộng",
+    "examples": []
+  },
+  {
+    "order": 62,
+    "term": "shipping",
+    "reading": "/'ʃipiɳ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự xếp hàng xuống tàu, sự chở hàng bằng tàu",
+    "examples": []
+  },
+  {
+    "order": 63,
+    "term": "stamp",
+    "reading": "/stæmp/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "tem, con dấu",
+    "examples": []
+  },
+  {
+    "order": 64,
+    "term": "trade",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Thương mại (hay mậu dịch).",
+    "examples": []
+  },
+  {
+    "order": 65,
+    "term": "van",
+    "reading": "/væn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "tiền đội, quân tiên phong, những người đi tiên phong, những người lãnh đạo (một phong trào)",
+    "examples": []
+  },
+  {
+    "order": 66,
+    "term": "venue",
+    "reading": "/'venju:/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "nơi lập toà xử án, nơi gặp gỡ, nơi hẹn gặp",
+    "examples": []
+  },
+  {
+    "order": 67,
+    "term": "weight",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "trọng lượng, balnce w. đối trọng",
+    "examples": []
+  },
+  {
+    "order": 68,
+    "term": "as of now",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tính đến thời điểm hiện tại",
+    "examples": []
+  },
+  {
+    "order": 69,
+    "term": "broker",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "người môi giới",
+    "examples": []
+  },
+  {
+    "order": 70,
+    "term": "canal",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "ống",
+    "examples": []
+  },
+  {
+    "order": 71,
+    "term": "carry a large parcel",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "mang theo một kiện hàng lớn",
+    "examples": []
+  },
+  {
+    "order": 72,
+    "term": "closing",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đóng, khép (d)",
+    "examples": []
+  },
+  {
+    "order": 73,
+    "term": "courier service",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "dịch vụ chuyển phát nhanh",
+    "examples": []
+  },
+  {
+    "order": 74,
+    "term": "door-to-door delivery",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "giao hàng tận nơi",
+    "examples": []
+  },
+  {
+    "order": 75,
+    "term": "drive off",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "lái xe tắt",
+    "examples": []
+  },
+  {
+    "order": 76,
+    "term": "drop off",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "trả khách",
+    "examples": []
+  },
+  {
+    "order": 77,
+    "term": "drycleaner (= drycleaner's",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "drycleaner (= drycleaner's",
+    "examples": []
+  },
+  {
+    "order": 78,
+    "term": "floor manager",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "quản lý tầng",
+    "examples": []
+  },
+  {
+    "order": 79,
+    "term": "in transit",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đang di chuyển",
+    "examples": []
+  },
+  {
+    "order": 80,
+    "term": "inn",
+    "reading": "/in/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "quán trọ, khách sạn nhỏ (ở nông thôn, thị trấn), nhà nội trú (của học sinh đại học)",
+    "examples": []
+  },
+  {
+    "order": 81,
+    "term": "lab report",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "báo cáo phòng thí nghiệm",
+    "examples": []
+  },
+  {
+    "order": 82,
+    "term": "lace",
+    "reading": "/leis/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "dây, buộc, dải buộc, ren, đăng ten",
+    "examples": []
+  },
+  {
+    "order": 83,
+    "term": "load A onto B",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tải A lên B",
+    "examples": []
+  },
+  {
+    "order": 84,
+    "term": "load a truck",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "chất hàng lên xe tải",
+    "examples": []
+  },
+  {
+    "order": 85,
+    "term": "loaded with",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "được tải với",
+    "examples": []
+  },
+  {
+    "order": 86,
+    "term": "loading",
+    "reading": "/'loudiɳ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự chất hàng (lên xe, tàu), hàng chở (trên xe, tàu)",
+    "examples": []
+  },
+  {
+    "order": 87,
+    "term": "lost in delivery",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "thất lạc khi giao hàng",
+    "examples": []
+  },
+  {
+    "order": 88,
+    "term": "mailing list",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "danh sách gửi thư",
+    "examples": []
+  },
+  {
+    "order": 89,
+    "term": "make a delivery",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "giao hàng",
+    "examples": []
+  },
+  {
+    "order": 90,
+    "term": "packing tape",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "băng keo đóng gói",
+    "examples": []
+  },
+  {
+    "order": 91,
+    "term": "pass over",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "vượt qua",
+    "examples": []
+  },
+  {
+    "order": 92,
+    "term": "pavement",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "lát",
+    "examples": []
+  },
+  {
+    "order": 93,
+    "term": "people on foot",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "người đi bộ",
+    "examples": []
+  },
+  {
+    "order": 94,
+    "term": "pick up passengers",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đón hành khách",
+    "examples": []
+  },
+  {
+    "order": 95,
+    "term": "pier",
+    "reading": "/piə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "bến tàu (nhô ra ngoài), cầu tàu",
+    "examples": []
+  },
+  {
+    "order": 96,
+    "term": "pile up",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "chất đống",
+    "examples": []
+  },
+  {
+    "order": 97,
+    "term": "postal",
+    "reading": "/'poustəl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "bưu điện, ,  (thông tục) bưu thiếp ((cũng) postal card)",
+    "examples": []
+  },
+  {
+    "order": 98,
+    "term": "tab technician",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "kỹ thuật viên tab",
+    "examples": []
+  },
+  {
+    "order": 99,
+    "term": "accelerate",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tăng tốc, gia tốc, làm nhanh",
+    "examples": []
+  },
+  {
+    "order": 100,
+    "term": "additional charge",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "phụ phí",
+    "examples": []
+  },
+  {
+    "order": 101,
+    "term": "ahead of schedule",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "trước thời hạn",
+    "examples": []
+  },
+  {
+    "order": 102,
+    "term": "at the last minute",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "vào phút chót",
+    "examples": []
+  },
+  {
+    "order": 103,
+    "term": "by hand",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "bằng tay",
+    "examples": []
+  },
+  {
+    "order": 104,
+    "term": "car maintenance",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "bảo dưỡng xe",
+    "examples": []
+  },
+  {
+    "order": 105,
+    "term": "city official",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "quan chức thành phố",
+    "examples": []
+  },
+  {
+    "order": 106,
+    "term": "correction",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự sửa chữa, sự hiệu đính, c. for continue sửa cho liên tục",
+    "examples": []
+  },
+  {
+    "order": 107,
+    "term": "delivery option",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tùy chọn giao hàng",
+    "examples": []
+  },
+  {
+    "order": 108,
+    "term": "discard",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chui (bài)",
+    "examples": []
+  },
+  {
+    "order": 109,
+    "term": "express mail",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "chuyển phát nhanh qua đường bưu",
+    "examples": []
+  },
+  {
+    "order": 110,
+    "term": "fortunately",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "may mắn, may thay",
+    "examples": []
+  },
+  {
+    "order": 111,
+    "term": "free of charge",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "miễn phí",
+    "examples": []
+  },
+  {
+    "order": 112,
+    "term": "load size",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "kích thước tải",
+    "examples": []
+  },
+  {
+    "order": 113,
+    "term": "marginally",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nhẹ",
+    "examples": []
+  },
+  {
+    "order": 114,
+    "term": "ordered",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "được sắp, được lệnh, cyclically o. được sắp xilic",
+    "examples": []
+  },
+  {
+    "order": 115,
+    "term": "ordering",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sắp thứ tự, partial o. sự xắp bộ phận",
+    "examples": []
+  },
+  {
+    "order": 116,
+    "term": "ordinarily",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "theo cách bình thường, nói chung, thông thường",
+    "examples": []
+  },
+  {
+    "order": 117,
+    "term": "packaging",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "bao bì",
+    "examples": []
+  },
+  {
+    "order": 118,
+    "term": "postage",
+    "reading": "/'poustidʤ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "bưu phí",
+    "examples": []
+  },
+  {
+    "order": 119,
+    "term": "provided (that",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "với điều kiện (rằng",
+    "examples": []
+  },
+  {
+    "order": 120,
+    "term": "respond to",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "phản hồi",
+    "examples": []
+  },
+  {
+    "order": 121,
+    "term": "separation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự tách, sự phân hoạch, sự chia, s. of roots sự tách nghiệm",
+    "examples": []
+  },
+  {
+    "order": 122,
+    "term": "sizable",
+    "reading": "/'saizəbl/ (sizeable) /'saizəbl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "to, lớn, có cỡ lớn",
+    "examples": []
+  },
+  {
+    "order": 123,
+    "term": "society",
+    "reading": "/sə'saiəti/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "xã hội, lối sống xã hội",
+    "examples": []
+  },
+  {
+    "order": 124,
+    "term": "strap",
+    "reading": "/stræp/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "dây (da, lụa, vải...), đai da",
+    "examples": []
+  },
+  {
+    "order": 125,
+    "term": "time limit",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "giới hạn thời gian",
+    "examples": []
+  },
+  {
+    "order": 126,
+    "term": "trade negotiation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đàm phán thương mại",
+    "examples": []
+  },
+  {
+    "order": 127,
+    "term": "trade show",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "triển lãm thương mại",
+    "examples": []
+  },
+  {
+    "order": 128,
+    "term": "waterway",
+    "reading": "/'wɔ:təwei/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "đường sông tàu bè qua lại được",
+    "examples": []
+  },
+  {
+    "order": 129,
+    "term": "weigh",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cân",
+    "examples": []
+  },
+  {
+    "order": 130,
+    "term": "weight limit",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "giới hạn trọng lượng",
+    "examples": []
+  },
+  {
+    "order": 131,
+    "term": "without delay",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "không chậm trễ",
+    "examples": []
+  },
+  {
+    "order": 132,
+    "term": "wrap up",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "kết thúc",
+    "examples": []
+  },
+  {
+    "order": 133,
+    "term": "alumni association",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "hội cựu sinh viên",
+    "examples": []
+  },
+  {
+    "order": 134,
+    "term": "bilateral",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "hai bên, hai phía",
+    "examples": []
+  },
+  {
+    "order": 135,
+    "term": "classified",
+    "reading": "/'klæsifaid/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "đã được phân loại, chính thức được coi là mật",
+    "examples": []
+  },
+  {
+    "order": 136,
+    "term": "consulate",
+    "reading": "/'kɔnsjulit/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "chức lãnh sự, toà lãnh sự",
+    "examples": []
+  },
+  {
+    "order": 137,
+    "term": "decidedly",
+    "reading": "/di'saididli/",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "kiên quyết, dứt khoát, rõ ràng, không cãi được",
+    "examples": []
+  },
+  {
+    "order": 138,
+    "term": "diplomat",
+    "reading": "/di'ploumətist/ (diplomat) /'dipləmæt/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "nhà ngoại giao, người khéo giao thiệp",
+    "examples": []
+  },
+  {
+    "order": 139,
+    "term": "embargo",
+    "reading": "/em'bɑ:gou/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "lệnh cấm vận, sự đình chỉ hoạt động (một ngành buôn bán)",
+    "examples": []
+  },
+  {
+    "order": 140,
+    "term": "expatriate",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Chuyên gia (từ các nước phát triển)",
+    "examples": []
+  },
+  {
+    "order": 141,
+    "term": "expedite",
+    "reading": "/'ekspidait/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "xúc tiến, thanh toán, giải quyết (công việc)",
+    "examples": []
+  },
+  {
+    "order": 142,
+    "term": "freight",
+    "reading": "/freit/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "việc chuyên chở hàng bằng đường thuỷ, (từ Mỹ,nghĩa Mỹ) việc chuyên chở hàng hoá (cả bằng đường bộ)",
+    "examples": []
+  },
+  {
+    "order": 143,
+    "term": "handling",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "điều khiển, xử lý, chỉnh lý, data h. chỉnh lý các dữ kiện",
+    "examples": []
+  },
+  {
+    "order": 144,
+    "term": "import license",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "giấy phép nhập khẩu",
+    "examples": []
+  },
+  {
+    "order": 145,
+    "term": "inaugurate",
+    "reading": "/i'nɔ:gjureit/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "tấn phong, khai mạc",
+    "examples": []
+  },
+  {
+    "order": 146,
+    "term": "institute",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "học viện, [cơ quan, hội] khoa học // thiết lập, gây cơ sở, đặt nền móng",
+    "examples": []
+  },
+  {
+    "order": 147,
+    "term": "institution",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự thiết lập, sự đặt nền móng",
+    "examples": []
+  },
+  {
+    "order": 148,
+    "term": "intended recipient",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "người nhận dự định",
+    "examples": []
+  },
+  {
+    "order": 149,
+    "term": "janitor",
+    "reading": "/'dʤænitə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "người gác cổng, người coi nhà (khi chủ đi vắng)",
+    "examples": []
+  },
+  {
+    "order": 150,
+    "term": "loading dock",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "bến bốc hàng",
+    "examples": []
+  },
+  {
+    "order": 151,
+    "term": "logistics",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "lôgic ký hiệu",
+    "examples": []
+  },
+  {
+    "order": 152,
+    "term": "openly",
+    "reading": "/'oupnli/",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "công khai, thẳng thắn",
+    "examples": []
+  },
+  {
+    "order": 153,
+    "term": "oversight",
+    "reading": "/'ouvəsaid/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự quên sót, điều lầm lỗi",
+    "examples": []
+  },
+  {
+    "order": 154,
+    "term": "progression",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cấp số, arithmetic p. cấp số cộng",
+    "examples": []
+  },
+  {
+    "order": 155,
+    "term": "province",
+    "reading": "/province/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "tỉnh, địa phận, giáo khu (dưới quyền tổng giám mục)",
+    "examples": []
+  },
+  {
+    "order": 156,
+    "term": "realtor (= realestate agency",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "người môi giới bất động sản (= cơ quan bất động sản",
+    "examples": []
+  },
+  {
+    "order": 157,
+    "term": "reciprocal",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đảo nghịch, r. of a matrix ma trận nghịch đảo",
+    "examples": []
+  },
+  {
+    "order": 158,
+    "term": "selective",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chọn, lựa",
+    "examples": []
+  },
+  {
+    "order": 159,
+    "term": "stow",
+    "reading": "/stou/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "xếp gọn ghẽ (hàng hoá...), chứa được, dựng được",
+    "examples": []
+  },
+  {
+    "order": 160,
+    "term": "surplus",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thừa, dư",
+    "examples": []
+  },
+  {
+    "order": 161,
+    "term": "transportable",
+    "reading": "/træns'pɔ:təbl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "có thể chuyên chở được, có thể vận chuyển được, có thể bị kết tội đi đày, có thể đưa đến tội đi đày",
+    "examples": []
+  },
+  {
+    "order": 162,
+    "term": "wheelbarrow",
+    "reading": "/'wi:l,b rou/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "xe cút kít",
+    "examples": []
+  }
+]

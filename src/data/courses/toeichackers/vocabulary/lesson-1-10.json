@@ -1,0 +1,1478 @@
+[
+  {
+    "order": 1,
+    "term": "affordable",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "giá cả phải chăng, hợp túi tiền",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "auction",
+    "reading": "/'ɔ:kʃn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự bán đấu giá",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "exactly",
+    "reading": "/ig'zæktli/",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "chính xác, đúng đắn, đúng như thế, đúng như vậy (dùng trong câu trả lời)",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "installment",
+    "reading": "/in'stɔ:lmənt/ (installment) /in'stɔ:lmənt/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "phần trả mỗi lần (của một số tiền), phần cung cấp mỗi lần, phần đăng (báo...) mỗi lần",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "purchase",
+    "reading": "/'pθ:tʃəs/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự mua, sự tậu được, vật mua được, vật tậu được",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "authentic",
+    "reading": "/ɔ:'θentik/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "thật, xác thực",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "charge",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự nạp điện, giá cả",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "notice",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chú ý, chú thích",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "experienced",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "có kinh nghiệm, hiểu biết",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "expert",
+    "reading": "/'ekspə:t/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "chuyên môn, thành thạo, thông thạo, lão luyện, của nhà chuyên môn",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "instruction",
+    "reading": "/in'strʌkʃn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự dạy, kiến thức truyền cho, tài liệu cung cấp cho",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "refund",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "trả (tiền) bồi thường",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "warranty",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "bảo đảm",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "delivery",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự phân phối, sự cung cấp",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "price",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "giá cả, giá, accounting p. giá kiểm tra",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "receipt",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự nhận, (toán kinh tế) giấy biên lai",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "subscriber",
+    "reading": "/səb'skraibə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "người góp (tiền), người mua (báo) dài hạn",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "benefit",
+    "reading": "/'benifit/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "lợi, lợi ích, buổi biểu diễn",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "carefully",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "cẩn thận, chu đáo",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "offer",
+    "reading": "/'ɔfə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự đưa tay ra, sự tỏ ra sẵn sàng cho, sự tỏ ra sẵn sàng làm, sự chào hàng",
+    "examples": []
+  },
+  {
+    "order": 21,
+    "term": "description",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự mô tả",
+    "examples": []
+  },
+  {
+    "order": 22,
+    "term": "exclusively",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "exclusively",
+    "examples": []
+  },
+  {
+    "order": 23,
+    "term": "area",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "diện tích, effective a. diện tích hữu hiệu",
+    "examples": []
+  },
+  {
+    "order": 24,
+    "term": "relatively",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "một cách tương đối",
+    "examples": []
+  },
+  {
+    "order": 25,
+    "term": "spare",
+    "reading": "/speə/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "thừa, dư, có để dành, thanh đạm, sơ sài",
+    "examples": []
+  },
+  {
+    "order": 26,
+    "term": "alter",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thay đổi, hiệu chỉnh",
+    "examples": []
+  },
+  {
+    "order": 27,
+    "term": "apply",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "ứng dụng",
+    "examples": []
+  },
+  {
+    "order": 28,
+    "term": "clearance",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự làm sạch, sự xoá bỏ (ở máy tính)",
+    "examples": []
+  },
+  {
+    "order": 29,
+    "term": "method",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "phương pháp, m. of approximation phương pháp [gần đúng, xấp xỉ]",
+    "examples": []
+  },
+  {
+    "order": 30,
+    "term": "mutually",
+    "reading": "/'mju:tjuəli/",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "lẫn nhau, qua lại",
+    "examples": []
+  },
+  {
+    "order": 31,
+    "term": "acceptable",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nhận được, chấp nhận được, thừa nhận được",
+    "examples": []
+  },
+  {
+    "order": 32,
+    "term": "desire",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "ước muốn",
+    "examples": []
+  },
+  {
+    "order": 33,
+    "term": "officially",
+    "reading": "/ə'fiʃəli/",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "chính thức",
+    "examples": []
+  },
+  {
+    "order": 34,
+    "term": "redeemable",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "có thể cứu được",
+    "examples": []
+  },
+  {
+    "order": 35,
+    "term": "consumption",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự tiêu dùng",
+    "examples": []
+  },
+  {
+    "order": 36,
+    "term": "fabric",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cơ cấu, cấu trúc",
+    "examples": []
+  },
+  {
+    "order": 37,
+    "term": "qualify",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "xác định, định tính",
+    "examples": []
+  },
+  {
+    "order": 38,
+    "term": "valid",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "có hiệu lực to be v. có hiệu lực",
+    "examples": []
+  },
+  {
+    "order": 39,
+    "term": "vendor",
+    "reading": "/'vendɔ:/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "vender, người bán nhà đất",
+    "examples": []
+  },
+  {
+    "order": 40,
+    "term": "bakery",
+    "reading": "/'beikəri/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "lò bánh mì, hiệu bánh mì",
+    "examples": []
+  },
+  {
+    "order": 41,
+    "term": "basis",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cơ sở, b. of intergers cơ sở của hệ đếm",
+    "examples": []
+  },
+  {
+    "order": 42,
+    "term": "best-selling",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "bán được nhiều, bán chạy, rất được ưa chuộng",
+    "examples": []
+  },
+  {
+    "order": 43,
+    "term": "brand",
+    "reading": "/brænd/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "nhãn (hàng hoá), loại hàng",
+    "examples": []
+  },
+  {
+    "order": 44,
+    "term": "cashier",
+    "reading": "/kə'ʃiə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "thủ quỹ, cách chức, thải ra",
+    "examples": []
+  },
+  {
+    "order": 45,
+    "term": "clothing",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự phủ, c. of surface sự phủ bề mặt",
+    "examples": []
+  },
+  {
+    "order": 46,
+    "term": "corner",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "góc đỉnh (tam giác, đa giác), điểm góc (của một đường )",
+    "examples": []
+  },
+  {
+    "order": 47,
+    "term": "costume",
+    "reading": "/'kɔstju:m/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "quần áo, y phục, cách ăn mặc, trang phục, phục sức",
+    "examples": []
+  },
+  {
+    "order": 48,
+    "term": "department store",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "cửa hàng bách hóa tổng hợp",
+    "examples": []
+  },
+  {
+    "order": 49,
+    "term": "discount store",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "cửa hàng giảm giá",
+    "examples": []
+  },
+  {
+    "order": 50,
+    "term": "display",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự biểu hiện || biểu hiện",
+    "examples": []
+  },
+  {
+    "order": 51,
+    "term": "fit",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thích hợp, phù hợp // kẻ theo điểm",
+    "examples": []
+  },
+  {
+    "order": 52,
+    "term": "free",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tự do",
+    "examples": []
+  },
+  {
+    "order": 53,
+    "term": "fully",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "hoàn toàn, đầy đủ",
+    "examples": []
+  },
+  {
+    "order": 54,
+    "term": "grocery",
+    "reading": "/'grousəri/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "việc buôn bán tạp phẩm, cửa hàng tạp phẩm",
+    "examples": []
+  },
+  {
+    "order": 55,
+    "term": "keep",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "giữ, theo (quy tắc)",
+    "examples": []
+  },
+  {
+    "order": 56,
+    "term": "label",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nhãn // ký hiệu, đánh dấu",
+    "examples": []
+  },
+  {
+    "order": 57,
+    "term": "necklace",
+    "reading": "/'neklis/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "chuỗi hạt (vàng, ngọc)",
+    "examples": []
+  },
+  {
+    "order": 58,
+    "term": "photography equipment",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "thiết bị chụp ảnh",
+    "examples": []
+  },
+  {
+    "order": 59,
+    "term": "shelf",
+    "reading": "/ʃelf/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "giá sách, ngăn sách",
+    "examples": []
+  },
+  {
+    "order": 60,
+    "term": "shop",
+    "reading": "/ʃɔp/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "cửa hàng, cửa hiệu, phân xưởng",
+    "examples": []
+  },
+  {
+    "order": 61,
+    "term": "shopper",
+    "reading": "/'ʃɔp/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "người đi mua hàng, nhân viên đi khảo giá (người được một cửa hiệu thuê để đi so sánh mặt hàng và giá cả của các cửa hiệu khác) (cg comparison shopper)",
+    "examples": []
+  },
+  {
+    "order": 62,
+    "term": "size",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cỡ, kích thước, s. of a region (thống kê) mức ý nghĩa",
+    "examples": []
+  },
+  {
+    "order": 63,
+    "term": "store",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nhà kho, (máy tính) nhớ",
+    "examples": []
+  },
+  {
+    "order": 64,
+    "term": "sunglasses",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "kính mát, kính râm",
+    "examples": []
+  },
+  {
+    "order": 65,
+    "term": "supermarket",
+    "reading": "/'sju:pə'mɑ:kit/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "cửa hàng tự động lớn (bán đồ ăn và đồ dùng trong nhà)",
+    "examples": []
+  },
+  {
+    "order": 66,
+    "term": "tax",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thuế, income t. thuế thu nhập",
+    "examples": []
+  },
+  {
+    "order": 67,
+    "term": "wear",
+    "reading": "/weə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự mang, sự dùng",
+    "examples": []
+  },
+  {
+    "order": 68,
+    "term": "afford to do",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đủ khả năng để làm",
+    "examples": []
+  },
+  {
+    "order": 69,
+    "term": "apparel",
+    "reading": "/ə'pærəl/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "đồ thêu trang trí trên áo thầy tu, quần áo, y phục",
+    "examples": []
+  },
+  {
+    "order": 70,
+    "term": "at the moment",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "hiện tại",
+    "examples": []
+  },
+  {
+    "order": 71,
+    "term": "celebrate",
+    "reading": "/'selibretid/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "kỷ niệm, làm lễ kỷ niệm, tán dương, ca tụng",
+    "examples": []
+  },
+  {
+    "order": 72,
+    "term": "decorative item",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "mặt hàng trang trí",
+    "examples": []
+  },
+  {
+    "order": 73,
+    "term": "discounted coupon",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "phiếu giảm giá",
+    "examples": []
+  },
+  {
+    "order": 74,
+    "term": "for sale",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "để bán",
+    "examples": []
+  },
+  {
+    "order": 75,
+    "term": "half price",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "nửa giá",
+    "examples": []
+  },
+  {
+    "order": 76,
+    "term": "have A strapped to one's shoulder",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "có một dây buộc vào vai của một người",
+    "examples": []
+  },
+  {
+    "order": 77,
+    "term": "instead",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thay cho, thay thế, i. of this thay cho điều này",
+    "examples": []
+  },
+  {
+    "order": 78,
+    "term": "make a purchase",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "mua hàng",
+    "examples": []
+  },
+  {
+    "order": 79,
+    "term": "make no difference",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "không tạo ra sự khác biệt",
+    "examples": []
+  },
+  {
+    "order": 80,
+    "term": "make payment",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "thực hiện thanh toán",
+    "examples": []
+  },
+  {
+    "order": 81,
+    "term": "Not that I'm aware of",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "Không phải là tôi nhận thức được",
+    "examples": []
+  },
+  {
+    "order": 82,
+    "term": "out of town",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "ra khỏi thị trấn",
+    "examples": []
+  },
+  {
+    "order": 83,
+    "term": "overcoat",
+    "reading": "/'ouvə'kout/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "áo khoác ngoài, lớp sơn phủ ((cũng) overcoating)",
+    "examples": []
+  },
+  {
+    "order": 84,
+    "term": "Pay in cash",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "Thanh toán bằng tiền mặt",
+    "examples": []
+  },
+  {
+    "order": 85,
+    "term": "put out for display",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đưa ra để trưng bày",
+    "examples": []
+  },
+  {
+    "order": 86,
+    "term": "shoelace",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "dây giày",
+    "examples": []
+  },
+  {
+    "order": 87,
+    "term": "shopkeeper",
+    "reading": "/'ʃɔp,ki:pə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "người chủ hiệu, nhân dân Anh, nước Anh",
+    "examples": []
+  },
+  {
+    "order": 88,
+    "term": "showroom",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "nơi trưng bày, phòng để trưng bày (hàng hoá để bán )",
+    "examples": []
+  },
+  {
+    "order": 89,
+    "term": "sleeve",
+    "reading": "/sli:v/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "tay áo, ống ngoài, ống bọc ngoài,  măngsông",
+    "examples": []
+  },
+  {
+    "order": 90,
+    "term": "souvenir",
+    "reading": "/'su:vəniə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "vật kỷ niệm",
+    "examples": []
+  },
+  {
+    "order": 91,
+    "term": "stack",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chùm, bó, đống",
+    "examples": []
+  },
+  {
+    "order": 92,
+    "term": "stand in line",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đứng xếp hàng",
+    "examples": []
+  },
+  {
+    "order": 93,
+    "term": "storefront",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "mặt trước cửa hàng",
+    "examples": []
+  },
+  {
+    "order": 94,
+    "term": "stylish",
+    "reading": "/'stailiʃ/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "bảnh bao, diện, hợp thời trang",
+    "examples": []
+  },
+  {
+    "order": 95,
+    "term": "tag",
+    "reading": "/tæ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sắt bịt đầu (dây giày...), mép khuy giày ủng",
+    "examples": []
+  },
+  {
+    "order": 96,
+    "term": "take the order",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "nhận đơn hàng",
+    "examples": []
+  },
+  {
+    "order": 97,
+    "term": "try on",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm động từ",
+    "meaning": "thử (quần áo, giày dép)",
+    "examples": []
+  },
+  {
+    "order": 98,
+    "term": "underline",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "gạch dưới // nhấn mạch",
+    "examples": []
+  },
+  {
+    "order": 99,
+    "term": "watch band",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "dây đeo đồng hồ",
+    "examples": []
+  },
+  {
+    "order": 100,
+    "term": "window-shopping",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự xem hàng bày ô kính (nhìn hàng hoá bày trong ô kính nhà hàng mà thường không có ý định mua gì)",
+    "examples": []
+  },
+  {
+    "order": 101,
+    "term": "a selection of",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "lựa chọn",
+    "examples": []
+  },
+  {
+    "order": 102,
+    "term": "a variety of (= various",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "nhiều loại (= khác nhau",
+    "examples": []
+  },
+  {
+    "order": 103,
+    "term": "at a discounted price",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "với mức giá chiết khấu",
+    "examples": []
+  },
+  {
+    "order": 104,
+    "term": "by check",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "bằng séc",
+    "examples": []
+  },
+  {
+    "order": 105,
+    "term": "by credit card",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "bằng thẻ tín dụng",
+    "examples": []
+  },
+  {
+    "order": 106,
+    "term": "by no means",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "không bao giờ",
+    "examples": []
+  },
+  {
+    "order": 107,
+    "term": "dairy products",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "sản phẩm từ sữa",
+    "examples": []
+  },
+  {
+    "order": 108,
+    "term": "elsewhere",
+    "reading": "/'els'weə/",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "ở một nơi nào khác",
+    "examples": []
+  },
+  {
+    "order": 109,
+    "term": "extra charge",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "phụ phí",
+    "examples": []
+  },
+  {
+    "order": 110,
+    "term": "get inline",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "vào nội tuyến",
+    "examples": []
+  },
+  {
+    "order": 111,
+    "term": "gift certificate",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "phiếu quà tặng",
+    "examples": []
+  },
+  {
+    "order": 112,
+    "term": "give a discount",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "giảm giá",
+    "examples": []
+  },
+  {
+    "order": 113,
+    "term": "glassware",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "đồ đạc bằng thuỷ tinh, hàng thuỷ tinh",
+    "examples": []
+  },
+  {
+    "order": 114,
+    "term": "in cash",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "bằng tiền mặt",
+    "examples": []
+  },
+  {
+    "order": 115,
+    "term": "inexpensive",
+    "reading": "/,iniks'pensiv/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "không đắt, rẻ",
+    "examples": []
+  },
+  {
+    "order": 116,
+    "term": "lately",
+    "reading": "/'leitli/",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "cách đây không lâu, mới gần đây",
+    "examples": []
+  },
+  {
+    "order": 117,
+    "term": "latest",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cuối cùng, chậm nhất, muộn nhất",
+    "examples": []
+  },
+  {
+    "order": 118,
+    "term": "luxury",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Hàng xa xỉ (cúng coi là hàng thượng lưu).",
+    "examples": []
+  },
+  {
+    "order": 119,
+    "term": "merchandise",
+    "reading": "/'mə:tʃəndaiz/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "hàng hoá, buôn bán",
+    "examples": []
+  },
+  {
+    "order": 120,
+    "term": "no later than",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "không muộn hơn",
+    "examples": []
+  },
+  {
+    "order": 121,
+    "term": "outerwear",
+    "reading": "/'autəweə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "quần áo ngoài, áo khoác ngoài (áo mưa, áo ấm...)",
+    "examples": []
+  },
+  {
+    "order": 122,
+    "term": "outlet",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "lối ra, rút ra",
+    "examples": []
+  },
+  {
+    "order": 123,
+    "term": "portable",
+    "reading": "/'pɔ:təbl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "có thể mang theo, xách tay, di động",
+    "examples": []
+  },
+  {
+    "order": 124,
+    "term": "readership",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "địa vị phó giáo sư, chức phó giáo sư",
+    "examples": []
+  },
+  {
+    "order": 125,
+    "term": "readily",
+    "reading": "/'redili/",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "sẵn sàng, vui lòng, sẵn lòng",
+    "examples": []
+  },
+  {
+    "order": 126,
+    "term": "refundable",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "có thể được trả lại tiền",
+    "examples": []
+  },
+  {
+    "order": 127,
+    "term": "showcase",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "giới thiệu",
+    "examples": []
+  },
+  {
+    "order": 128,
+    "term": "textile",
+    "reading": "/'tekstail/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "dệt, có sợi dệt được, hàng dệt, vải",
+    "examples": []
+  },
+  {
+    "order": 129,
+    "term": "thrifty",
+    "reading": "/'θrifti/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "tiết kiệm, tằn tiện, thịnh vượng, phồn vinh",
+    "examples": []
+  },
+  {
+    "order": 130,
+    "term": "valid for",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "có giá trị trong",
+    "examples": []
+  },
+  {
+    "order": 131,
+    "term": "value",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "giá trị, v. of a game (lý thuyết trò chơi) Giá trị của trò chơi",
+    "examples": []
+  },
+  {
+    "order": 132,
+    "term": "voucher",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Tem phiếu.",
+    "examples": []
+  },
+  {
+    "order": 133,
+    "term": "wholesale",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "(mua, bán) buôn",
+    "examples": []
+  },
+  {
+    "order": 134,
+    "term": "wrap a present",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "gói quà",
+    "examples": []
+  },
+  {
+    "order": 135,
+    "term": "at a substantial discount",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "với mức giảm giá đáng kể",
+    "examples": []
+  },
+  {
+    "order": 136,
+    "term": "automotive repair shop",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "cửa hàng sửa chữa ô tô",
+    "examples": []
+  },
+  {
+    "order": 137,
+    "term": "awning",
+    "reading": "/'ɔ:niɳ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "tấm vải bạt (để che nắng, mưa... trên boong tàu), mái hiên",
+    "examples": []
+  },
+  {
+    "order": 138,
+    "term": "bargain over prices",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "mặc cả về giá cả",
+    "examples": []
+  },
+  {
+    "order": 139,
+    "term": "cash register",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "máy tính tiền",
+    "examples": []
+  },
+  {
+    "order": 140,
+    "term": "collectable",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "bộ sưu tập",
+    "examples": []
+  },
+  {
+    "order": 141,
+    "term": "conversely",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "một cách ngược lại, đảo lại",
+    "examples": []
+  },
+  {
+    "order": 142,
+    "term": "cooking utensil (= cookware",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "dụng cụ nấu ăn (= dụng cụ nấu ăn",
+    "examples": []
+  },
+  {
+    "order": 143,
+    "term": "dilute",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "làm loãng, pha loãng",
+    "examples": []
+  },
+  {
+    "order": 144,
+    "term": "display case",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "hộp trưng bày",
+    "examples": []
+  },
+  {
+    "order": 145,
+    "term": "embellish",
+    "reading": "/im'beliʃ/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "làm đẹp, trang điểm, tô son điểm phấn, thêm thắt, thêm mắm thêm muối (vào một chuyện...)",
+    "examples": []
+  },
+  {
+    "order": 146,
+    "term": "embroider",
+    "reading": "/im'brɔidə/ (broider) /'brɔidə/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "thêu (khăn...), thêu dệt (chuyện...)",
+    "examples": []
+  },
+  {
+    "order": 147,
+    "term": "equivalent",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tương đương, almost e. gần tương đương, hầu tương đương",
+    "examples": []
+  },
+  {
+    "order": 148,
+    "term": "exhilarating",
+    "reading": "/ig'zilərənt/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "làm vui vẻ, làm hồ hởi, điều làm vui vẻ, điều làm hồ hởi",
+    "examples": []
+  },
+  {
+    "order": 149,
+    "term": "exorbitant price",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "giá cắt cổ",
+    "examples": []
+  },
+  {
+    "order": 150,
+    "term": "exposition",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự trình bày, sự mô tả, sự giải thích",
+    "examples": []
+  },
+  {
+    "order": 151,
+    "term": "exquisite",
+    "reading": "/'ekskwizit/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "thanh, thanh tú, thấm thía (sự đua)",
+    "examples": []
+  },
+  {
+    "order": 152,
+    "term": "extravagance",
+    "reading": "/iks'trævigəns/ (extravagancy) /iks'trævigənsi/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "tính quá mức, tính quá độ, tính quá cao (giá cả...)",
+    "examples": []
+  },
+  {
+    "order": 153,
+    "term": "garment",
+    "reading": "/'gɑ:mənt/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "áo quần, vỏ ngoài, cái bọc ngoài",
+    "examples": []
+  },
+  {
+    "order": 154,
+    "term": "generic",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chung (cho một loại), hh(đại số) sinh || đồng loại",
+    "examples": []
+  },
+  {
+    "order": 155,
+    "term": "lavish",
+    "reading": "/'læviʃ/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "xài phí, lãng phí, hoang toàng, nhiều, quá nhiều",
+    "examples": []
+  },
+  {
+    "order": 156,
+    "term": "look different",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "trông khác",
+    "examples": []
+  },
+  {
+    "order": 157,
+    "term": "merchant",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nhà buôn",
+    "examples": []
+  },
+  {
+    "order": 158,
+    "term": "observably",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "quan sát được",
+    "examples": []
+  },
+  {
+    "order": 159,
+    "term": "predictably",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "có thể đoán trước, có thể dự đoán, dự báo, có thể đoán được (ý nghĩ, tình cảm  của người đó qua cách cư xử)",
+    "examples": []
+  },
+  {
+    "order": 160,
+    "term": "redeem",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chuộc, bồi thường",
+    "examples": []
+  },
+  {
+    "order": 161,
+    "term": "secondhand",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "cũ, mua lại (về quần áo, sách vở)",
+    "examples": []
+  },
+  {
+    "order": 162,
+    "term": "stylishly",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "đặc sắc, hợp thời trang",
+    "examples": []
+  },
+  {
+    "order": 163,
+    "term": "tailor",
+    "reading": "/'teilə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "thợ may, người tốt vì lụa",
+    "examples": []
+  },
+  {
+    "order": 164,
+    "term": "wind a watch",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "lên dây đồng hồ",
+    "examples": []
+  }
+]

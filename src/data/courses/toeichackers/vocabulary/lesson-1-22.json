@@ -1,0 +1,1496 @@
+[
+  {
+    "order": 1,
+    "term": "agenda",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đề tài thảo luận, chương trình nghị sự, nghị trình",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "convene",
+    "reading": "/kən'vi:n/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "triệu tập (hội nghị...), họp, nhóm họp, hội họp, họp lại",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "coordination",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "phối hợp",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "refute",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "bác bỏ",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "unanimous",
+    "reading": "/ju:'næniməs/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "nhất trí",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "consensus",
+    "reading": "/kən'sensəs/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự đồng lòng, sự đồng tâm, sự nhất trí, sự liên ứng",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "convince",
+    "reading": "/kən'vins/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "làm cho tin, làm cho nghe theo, thuyết phục, làm cho nhận thức thấy (sai lầm, tội lỗi...)",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "defer",
+    "reading": "/di'fə:/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "hoãn, trì hoãn, để chậm lại, hoãn quân địch",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "usually",
+    "reading": "/'ju: u li/",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "thường thường, thường lệ",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "determine",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "xác định, giới hạn, quyết định",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "meeting",
+    "reading": "/'mi:tiɳ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "cuộc mít tinh, cuộc biểu tình, cuộc gặp gỡ, cuộc hội họp, hội nghị",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "report",
+    "reading": "/ri'pɔ:t/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "bản báo cáo, biên bản",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "reschedule",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "lên lịch lại",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "approve",
+    "reading": "/ə'pru:v/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "tán thành, đồng ý, bằng lòng, chấp thuận, xác nhận, phê chuẩn, chuẩn y",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "comment",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chú giải, ghi chú = mark = note",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "enclosed",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "kèm theo",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "phase",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "pha, initial p. phan ban đầu",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "easy",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "dễ dàng, đơn giản",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "record",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự ghi, continous r. (máy tính) sự ghi liên tục",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "suggestion",
+    "reading": "/sə'dʤestʃn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự gợi ý, ý kiến (lý thuyết...) đề nghị",
+    "examples": []
+  },
+  {
+    "order": 21,
+    "term": "attention",
+    "reading": "/ə'tenʃn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự chú ý, sự chăm sóc",
+    "examples": []
+  },
+  {
+    "order": 22,
+    "term": "coincidentally",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "xem coincidental",
+    "examples": []
+  },
+  {
+    "order": 23,
+    "term": "object",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "vật (thể), đối tượng // không tán thành, o. of anholonomity vật thể không hôlônôm",
+    "examples": []
+  },
+  {
+    "order": 24,
+    "term": "crowded",
+    "reading": "/'kraudid/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "đông đúc, đầy, tràn đầy",
+    "examples": []
+  },
+  {
+    "order": 25,
+    "term": "differ",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "khác với, phân biệt với",
+    "examples": []
+  },
+  {
+    "order": 26,
+    "term": "narrowly",
+    "reading": "/'nærouli/",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "chật hẹp, hẹp hòi ((nghĩa đen) & (nghĩa bóng)), kỹ lưỡng, tỉ mỉ, từng ly từng tí",
+    "examples": []
+  },
+  {
+    "order": 27,
+    "term": "outcome",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Kết cục, kết quả.",
+    "examples": []
+  },
+  {
+    "order": 28,
+    "term": "undergo",
+    "reading": "/,ʌndə'gou/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "chịu, bị, trải qua",
+    "examples": []
+  },
+  {
+    "order": 29,
+    "term": "brief",
+    "reading": "/bri:f/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "ngắn, vắn tắt, gọn, bản tóm tắt, bản toát yếu",
+    "examples": []
+  },
+  {
+    "order": 30,
+    "term": "discuss",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thảo luận",
+    "examples": []
+  },
+  {
+    "order": 31,
+    "term": "give",
+    "reading": "/giv/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "cho, biếu, tặng, ban, cho, sinh ra, đem lại",
+    "examples": []
+  },
+  {
+    "order": 32,
+    "term": "distract",
+    "reading": "/dis'trækt/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "làm sao lãng, làm lãng đi, làm lãng trí, làm rối bời, làm rối trí",
+    "examples": []
+  },
+  {
+    "order": 33,
+    "term": "emphasis",
+    "reading": "/'emfəsis/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự nhấn mạnh, (ngôn ngữ học) sự nhấn giọng",
+    "examples": []
+  },
+  {
+    "order": 34,
+    "term": "organize",
+    "reading": "/'ɔ:gənaiz/ (organise) /'ɔ:gənaiz/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "tổ chức, cấu tạo, thiết lập, lập thành nghiệp đoàn, đưa vào nghiệp đoàn",
+    "examples": []
+  },
+  {
+    "order": 35,
+    "term": "adjourn",
+    "reading": "/ə'dʤə:n/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "hoãn, hoãn lại, để lại, ngừng (buổi họp...) để sau họp lại",
+    "examples": []
+  },
+  {
+    "order": 36,
+    "term": "mention",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nói đến, nhớ",
+    "examples": []
+  },
+  {
+    "order": 37,
+    "term": "persuasive",
+    "reading": "/pə'sweisiv/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "có tài thuyết phục, có sức thuyết phục, khiến tin theo, khiến nghe theo",
+    "examples": []
+  },
+  {
+    "order": 38,
+    "term": "understanding",
+    "reading": "/,ʌndə'stændiɳ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự hiểu biết, sự am hiểu, óc thông minh, óc suy xét, trí tuệ",
+    "examples": []
+  },
+  {
+    "order": 39,
+    "term": "constructive",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "xây dựng",
+    "examples": []
+  },
+  {
+    "order": 40,
+    "term": "irrelevant",
+    "reading": "/i'relivənt/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "không thích đáng, không thích hợp",
+    "examples": []
+  },
+  {
+    "order": 41,
+    "term": "constraint",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự ràng buộc, sự hạn chế, artificial c. liên hệ giả tạo, ràng buộc giả tạo",
+    "examples": []
+  },
+  {
+    "order": 42,
+    "term": "advise A of B",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "thông báo A/B",
+    "examples": []
+  },
+  {
+    "order": 43,
+    "term": "annual meeting",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "cuộc họp thường niên",
+    "examples": []
+  },
+  {
+    "order": 44,
+    "term": "be held",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "được giữ",
+    "examples": []
+  },
+  {
+    "order": 45,
+    "term": "be scheduled for",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "được lên lịch cho",
+    "examples": []
+  },
+  {
+    "order": 46,
+    "term": "business talk",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "thảo luận kinh doanh",
+    "examples": []
+  },
+  {
+    "order": 47,
+    "term": "conference room",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "phòng hội nghị",
+    "examples": []
+  },
+  {
+    "order": 48,
+    "term": "conversation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "trao đổi, nói chuyện, đối thoại, hội thoại, đàm thoại",
+    "examples": []
+  },
+  {
+    "order": 49,
+    "term": "debate",
+    "reading": "/di'beit/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "cuộc tranh luận, cuộc thảo luận, cuộc tranh cãi, biên bản chính thức của những phiên họp nghị viện",
+    "examples": []
+  },
+  {
+    "order": 50,
+    "term": "express",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "biểu thị",
+    "examples": []
+  },
+  {
+    "order": 51,
+    "term": "gathering",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự tập trung, sự tích luỹ, data g. sự tập trung các dữ kiện, sự thu thập các số liệu",
+    "examples": []
+  },
+  {
+    "order": 52,
+    "term": "guest speaker",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "diễn giả khách mời",
+    "examples": []
+  },
+  {
+    "order": 53,
+    "term": "hand out",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "phát tay",
+    "examples": []
+  },
+  {
+    "order": 54,
+    "term": "holiday",
+    "reading": "/'hɔlədi/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "ngày lễ, ngày nghỉ, kỳ nghỉ (hè, đông...)",
+    "examples": []
+  },
+  {
+    "order": 55,
+    "term": "judge",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "phán đoán, tranh luận",
+    "examples": []
+  },
+  {
+    "order": 56,
+    "term": "let's end",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "hãy kết thúc",
+    "examples": []
+  },
+  {
+    "order": 57,
+    "term": "local time",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "giờ địa phương",
+    "examples": []
+  },
+  {
+    "order": 58,
+    "term": "meeting time",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "thời gian gặp gỡ",
+    "examples": []
+  },
+  {
+    "order": 59,
+    "term": "result in",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "dẫn đến",
+    "examples": []
+  },
+  {
+    "order": 60,
+    "term": "scan",
+    "reading": "/skæn/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "đọc thử xem có đúng âm luật và nhịp điệu (thơ), ngâm, bình (thơ)",
+    "examples": []
+  },
+  {
+    "order": 61,
+    "term": "seating chart",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "sơ đồ chỗ ngồi",
+    "examples": []
+  },
+  {
+    "order": 62,
+    "term": "seminar",
+    "reading": "/'seminɑ:/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Xêmina, hội nghị chuyên đề, nhóm nghiên cứu chuyên đề",
+    "examples": []
+  },
+  {
+    "order": 63,
+    "term": "shake hands",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "bắt tay",
+    "examples": []
+  },
+  {
+    "order": 64,
+    "term": "speech",
+    "reading": "/spi:tʃ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "khả năng nói, năng lực nói, lời nói, lời",
+    "examples": []
+  },
+  {
+    "order": 65,
+    "term": "teammate",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đồng đội",
+    "examples": []
+  },
+  {
+    "order": 66,
+    "term": "vote",
+    "reading": "/vout/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự bỏ phiếu, lá phiếu",
+    "examples": []
+  },
+  {
+    "order": 67,
+    "term": "water",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nước",
+    "examples": []
+  },
+  {
+    "order": 68,
+    "term": "weekly",
+    "reading": "/'wi:kli/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "kéo dài một tuần, hằng tuần",
+    "examples": []
+  },
+  {
+    "order": 69,
+    "term": "write down",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "viết xuống",
+    "examples": []
+  },
+  {
+    "order": 70,
+    "term": "a large attendance",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "một lượng lớn người tham dự",
+    "examples": []
+  },
+  {
+    "order": 71,
+    "term": "attend a conference",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tham dự một cuộc họp",
+    "examples": []
+  },
+  {
+    "order": 72,
+    "term": "business attire",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "trang phục kinh doanh",
+    "examples": []
+  },
+  {
+    "order": 73,
+    "term": "conference calt",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "calt hội nghị",
+    "examples": []
+  },
+  {
+    "order": 74,
+    "term": "convention",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "quy ước, hiệp ước",
+    "examples": []
+  },
+  {
+    "order": 75,
+    "term": "conventional",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "có quy ước",
+    "examples": []
+  },
+  {
+    "order": 76,
+    "term": "custom",
+    "reading": "/'kʌstəm/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "phong tục, tục lệ, luật pháp theo tục lệ",
+    "examples": []
+  },
+  {
+    "order": 77,
+    "term": "face to face",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "mặt đối mặt",
+    "examples": []
+  },
+  {
+    "order": 78,
+    "term": "film footage",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "cảnh phim",
+    "examples": []
+  },
+  {
+    "order": 79,
+    "term": "get an appointment",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đặt lịch hẹn",
+    "examples": []
+  },
+  {
+    "order": 80,
+    "term": "get back in touch",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "liên hệ lại",
+    "examples": []
+  },
+  {
+    "order": 81,
+    "term": "get in touch with",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "liên hệ với",
+    "examples": []
+  },
+  {
+    "order": 82,
+    "term": "give a presentation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "thuyết trình",
+    "examples": []
+  },
+  {
+    "order": 83,
+    "term": "have a discussion",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "thảo luận",
+    "examples": []
+  },
+  {
+    "order": 84,
+    "term": "intense",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "mạnh, có cường độ",
+    "examples": []
+  },
+  {
+    "order": 85,
+    "term": "keynote address",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "bài phát biểu quan trọng",
+    "examples": []
+  },
+  {
+    "order": 86,
+    "term": "keynote speaker",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "diễn giả chính",
+    "examples": []
+  },
+  {
+    "order": 87,
+    "term": "make a speech",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "phát biểu",
+    "examples": []
+  },
+  {
+    "order": 88,
+    "term": "make adjustments",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "thực hiện điều chỉnh",
+    "examples": []
+  },
+  {
+    "order": 89,
+    "term": "misprint",
+    "reading": "/'mis'print/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "lỗi in, in sai",
+    "examples": []
+  },
+  {
+    "order": 90,
+    "term": "occupied",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "đang sử dụng, đầy (người)",
+    "examples": []
+  },
+  {
+    "order": 91,
+    "term": "pass around",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đi lại xung quanh",
+    "examples": []
+  },
+  {
+    "order": 92,
+    "term": "pass out",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "ngất xỉu",
+    "examples": []
+  },
+  {
+    "order": 93,
+    "term": "put in an offer",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đưa ra đề nghị",
+    "examples": []
+  },
+  {
+    "order": 94,
+    "term": "run a meeting",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "điều hành một cuộc họp",
+    "examples": []
+  },
+  {
+    "order": 95,
+    "term": "schedule an appointment",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đặt lịch hẹn",
+    "examples": []
+  },
+  {
+    "order": 96,
+    "term": "speak up",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "lên tiếng",
+    "examples": []
+  },
+  {
+    "order": 97,
+    "term": "stare into",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "nhìn chằm chằm vào",
+    "examples": []
+  },
+  {
+    "order": 98,
+    "term": "take down",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "tháo ra, dỡ ra, ghi chép",
+    "examples": []
+  },
+  {
+    "order": 99,
+    "term": "take notes",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "ghi chép",
+    "examples": []
+  },
+  {
+    "order": 100,
+    "term": "take part in",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tham gia",
+    "examples": []
+  },
+  {
+    "order": 101,
+    "term": "visual aid",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "<snh> phương tiện nhìn (tranh vẽ, phim ảnh  dùng làm phương tiện giảng dạy)",
+    "examples": []
+  },
+  {
+    "order": 102,
+    "term": "be supposed to do",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đáng lẽ phải làm",
+    "examples": []
+  },
+  {
+    "order": 103,
+    "term": "biweekly",
+    "reading": "/'bai'wi:kli/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "một tuần hai lần, hai tuần một lần",
+    "examples": []
+  },
+  {
+    "order": 104,
+    "term": "bring up",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đưa lên",
+    "examples": []
+  },
+  {
+    "order": 105,
+    "term": "clash",
+    "reading": "/klæʃ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "tiếng chan chát, tiếng loảng xoảng, sự xung đột, sự va chạm, sự mâu thuẫn, sự bất đồng",
+    "examples": []
+  },
+  {
+    "order": 106,
+    "term": "come to a decision",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đi đến quyết định",
+    "examples": []
+  },
+  {
+    "order": 107,
+    "term": "come to an agreement",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đi đến một thỏa thuận",
+    "examples": []
+  },
+  {
+    "order": 108,
+    "term": "controversial",
+    "reading": "/,kɔntrə'və:ʃəl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "có thể gây ra tranh luận, có thể bàn cãi được (vấn đề...), ưa tranh cãi, thích tranh luận (người)",
+    "examples": []
+  },
+  {
+    "order": 109,
+    "term": "develop into",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "phát triển thành",
+    "examples": []
+  },
+  {
+    "order": 110,
+    "term": "get the point",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "hiểu ý",
+    "examples": []
+  },
+  {
+    "order": 111,
+    "term": "in conclusion",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "kết luận",
+    "examples": []
+  },
+  {
+    "order": 112,
+    "term": "in support of",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "để hỗ trợ",
+    "examples": []
+  },
+  {
+    "order": 113,
+    "term": "in the middle of",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "ở giữa",
+    "examples": []
+  },
+  {
+    "order": 114,
+    "term": "insist",
+    "reading": "/in'sist/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "cứ nhất định, khăng khăng đòi, cố nài",
+    "examples": []
+  },
+  {
+    "order": 115,
+    "term": "insult",
+    "reading": "/'insʌlt/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "lời lăng mạ, lời sỉ nhục, sự lăng mạ, sự xúc phạm đến phẩm giá",
+    "examples": []
+  },
+  {
+    "order": 116,
+    "term": "inviting",
+    "reading": "/in'vaitiɳ/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "mời mọc, lôi cuốn, hấp dẫn",
+    "examples": []
+  },
+  {
+    "order": 117,
+    "term": "luncheon",
+    "reading": "/'lʌntʃn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "tiệc trưa",
+    "examples": []
+  },
+  {
+    "order": 118,
+    "term": "make a conclusion",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đưa ra kết luận",
+    "examples": []
+  },
+  {
+    "order": 119,
+    "term": "make a decision",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đưa ra quyết định",
+    "examples": []
+  },
+  {
+    "order": 120,
+    "term": "offer an apology toA",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "gửi lời xin lỗi đến",
+    "examples": []
+  },
+  {
+    "order": 121,
+    "term": "official arrangement",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "sự sắp xếp chính thức",
+    "examples": []
+  },
+  {
+    "order": 122,
+    "term": "OJT (on-the-job training",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "OJT (đào tạo tại chỗ",
+    "examples": []
+  },
+  {
+    "order": 123,
+    "term": "opponent",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đối phương",
+    "examples": []
+  },
+  {
+    "order": 124,
+    "term": "participate in",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tham gia",
+    "examples": []
+  },
+  {
+    "order": 125,
+    "term": "postpone until",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "hoãn đến",
+    "examples": []
+  },
+  {
+    "order": 126,
+    "term": "public speaking",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "nói trước công chúng",
+    "examples": []
+  },
+  {
+    "order": 127,
+    "term": "punctual",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "kịp thời, chính xác",
+    "examples": []
+  },
+  {
+    "order": 128,
+    "term": "reach a conclusion",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đi đến kết luận",
+    "examples": []
+  },
+  {
+    "order": 129,
+    "term": "reach unanimous agreement",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đạt được sự đồng thuận nhất trí",
+    "examples": []
+  },
+  {
+    "order": 130,
+    "term": "reassure",
+    "reading": "/,ri:ə'ʃuə/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "cam đoan một lần nữa, đoan chắc một lần nữa, bảo hiểm lại",
+    "examples": []
+  },
+  {
+    "order": 131,
+    "term": "recess",
+    "reading": "/ri'ses/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "thời gian ngừng họp (quốc hội...), kỳ nghỉ (trường trung học, đại học)",
+    "examples": []
+  },
+  {
+    "order": 132,
+    "term": "to start with",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "để bắt đầu với",
+    "examples": []
+  },
+  {
+    "order": 133,
+    "term": "to the point",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đi thẳng vào vấn đề",
+    "examples": []
+  },
+  {
+    "order": 134,
+    "term": "turn out",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "hóa ra",
+    "examples": []
+  },
+  {
+    "order": 135,
+    "term": "without the consent of",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "mà không có sự đồng ý của",
+    "examples": []
+  },
+  {
+    "order": 136,
+    "term": "abbreviate",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "viết gọn, viết tắt",
+    "examples": []
+  },
+  {
+    "order": 137,
+    "term": "abridgment",
+    "reading": "/ə'bridʤmənt/ (abridgement) /ə'bridʤmənt/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự rút ngắn, sự cô gọn, sự tóm tắt, bài tóm tắt sách, sách tóm tắt",
+    "examples": []
+  },
+  {
+    "order": 138,
+    "term": "chair",
+    "reading": "/tʃeə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "ghế, chức giáo sư đại học",
+    "examples": []
+  },
+  {
+    "order": 139,
+    "term": "coherent",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "mạch lạc",
+    "examples": []
+  },
+  {
+    "order": 140,
+    "term": "confine",
+    "reading": "/kən'fain/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "giam giữ, giam hãm, giam cầm, nhốt giữ lại, hạn chế",
+    "examples": []
+  },
+  {
+    "order": 141,
+    "term": "conflict of interest",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "xung đột lợi ích",
+    "examples": []
+  },
+  {
+    "order": 142,
+    "term": "consenting",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đồng ý",
+    "examples": []
+  },
+  {
+    "order": 143,
+    "term": "conversationally",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "xem conversation",
+    "examples": []
+  },
+  {
+    "order": 144,
+    "term": "counteroffer",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đề nghị hoàn giá",
+    "examples": []
+  },
+  {
+    "order": 145,
+    "term": "disperse",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tán xạ, tiêu tán",
+    "examples": []
+  },
+  {
+    "order": 146,
+    "term": "distinguished",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "được đánh dấu",
+    "examples": []
+  },
+  {
+    "order": 147,
+    "term": "elaborate",
+    "reading": "/i'læbərit/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "phức tạp, tỉ mỉ, kỹ lưỡng, công phu",
+    "examples": []
+  },
+  {
+    "order": 148,
+    "term": "eloquent",
+    "reading": "/'eləkwənt/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "hùng biện, hùng hồn",
+    "examples": []
+  },
+  {
+    "order": 149,
+    "term": "enthuse",
+    "reading": "/in'θju:z/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "tỏ ra hăng hái, đầy nhiệt tình, chan chứa tình cảm",
+    "examples": []
+  },
+  {
+    "order": 150,
+    "term": "excerpt",
+    "reading": "/'eksə:pt/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "phần trích, đoạn trích (sách...), trích, trích dẫn (một đoạn trong sách...)",
+    "examples": []
+  },
+  {
+    "order": 151,
+    "term": "faction",
+    "reading": "/'fækʃn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "bè phái, bè cánh, óc bè phái, tư tưởng bè phái",
+    "examples": []
+  },
+  {
+    "order": 152,
+    "term": "moderate a meeting",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "kiểm duyệt một cuộc họp",
+    "examples": []
+  },
+  {
+    "order": 153,
+    "term": "off chance",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "cơ hội bất ngờ",
+    "examples": []
+  },
+  {
+    "order": 154,
+    "term": "presiding",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chủ trì",
+    "examples": []
+  },
+  {
+    "order": 155,
+    "term": "presumably",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "có thể đoán chừng, có thể được",
+    "examples": []
+  },
+  {
+    "order": 156,
+    "term": "prop against",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "chống lại",
+    "examples": []
+  },
+  {
+    "order": 157,
+    "term": "put off",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "trì hoãn",
+    "examples": []
+  },
+  {
+    "order": 158,
+    "term": "run late",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "chạy muộn",
+    "examples": []
+  },
+  {
+    "order": 159,
+    "term": "sit through",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "ngồi xuống",
+    "examples": []
+  },
+  {
+    "order": 160,
+    "term": "stand on",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đứng lên",
+    "examples": []
+  },
+  {
+    "order": 161,
+    "term": "stand up for",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đứng lên vì",
+    "examples": []
+  },
+  {
+    "order": 162,
+    "term": "succinct",
+    "reading": "/sək'siɳkt/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "ngắn gọn, cô đọng",
+    "examples": []
+  },
+  {
+    "order": 163,
+    "term": "summit meeting",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "cuộc họp thượng đỉnh",
+    "examples": []
+  },
+  {
+    "order": 164,
+    "term": "summon",
+    "reading": "/'sʌmən/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "gọi đến, mời đến, triệu đến, triệu tập (cuộc họp)",
+    "examples": []
+  },
+  {
+    "order": 165,
+    "term": "symposium",
+    "reading": "/sim'pouziəm/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "hội nghị chuyên đề, tập những bài phát biểu, tập bài báo của nhiều người viết (về một vấn đề)",
+    "examples": []
+  },
+  {
+    "order": 166,
+    "term": "uphold",
+    "reading": "/ p'hould/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "nâng lên, ngước (mắt...) lên",
+    "examples": []
+  }
+]

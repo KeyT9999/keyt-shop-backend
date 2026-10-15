@@ -1,0 +1,1271 @@
+[
+  {
+    "order": 1,
+    "term": "accustomed",
+    "reading": "/ə'kʌstəmd/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "quen với, thành thói quen, thành thường lệ",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "colleague",
+    "reading": "/kɔ'li:g/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "bạn đồng nghiệp, bạn đồng sự",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "corporation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nghiệp đoàn, hiệp hội, công ty (cổ phần)",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "demanding",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "đòi hỏi khắt khe",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "efficiently",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "có hiệu quả, hiệu nghiệm",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "request",
+    "reading": "/ri'kwest/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "lời thỉnh cầu, lời yêu cầu, lời đề nghị, nhu cầu, sự hỏi mua",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "directly",
+    "reading": "/di'rektli/",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "thẳng, ngay, lập tức, thẳng, trực tiếp",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "manage",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "quản lý, lãnh đạo",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "submit",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chịu phụ thuộc, chịu sự kiểm tra",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "deadline",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "đường giới hạn không được vượt qua, hạn cuối cùng (trả tiền, rút quân...)",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "instruct",
+    "reading": "/in'strʌkt/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "chỉ dẫn, chỉ thị cho, dạy, đào tạo",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "notify",
+    "reading": "/'noutifai/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "báo, khai báo, thông báo, cho hay, cho biết",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "remind",
+    "reading": "/ri'maind/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "nhắc nhở, làm nhớ lại (cái gì)",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "sample",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "mẫu, artificial s. mẫu nhân tạo, mẫu giả",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "deserve",
+    "reading": "/di'zə:v/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "đáng, xứng đáng",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "monitor",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "mônitơ, thiết bị điều khiển",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "perform",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thực hiện p. a multiplication thực hiện phép nhân",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "assignment",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự phân bổ, sự phân công, phép gán",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "electronically",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "electronically",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "entire",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nguyên",
+    "examples": []
+  },
+  {
+    "order": 21,
+    "term": "extension",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự mở rộng, sự kéo dài",
+    "examples": []
+  },
+  {
+    "order": 22,
+    "term": "release",
+    "reading": "/ri'li:s/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự giải thoát, sự thoát khỏi (điều lo lắng, sầu muộn, bệnh tật...), sự thả, sự phóng thích",
+    "examples": []
+  },
+  {
+    "order": 23,
+    "term": "absolutely",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "một cách tuyệt đối",
+    "examples": []
+  },
+  {
+    "order": 24,
+    "term": "attendance",
+    "reading": "/ə'tendəns/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự dự, sự có mặt, số người dự, số người có mặt",
+    "examples": []
+  },
+  {
+    "order": 25,
+    "term": "attentively",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "chăm chú",
+    "examples": []
+  },
+  {
+    "order": 26,
+    "term": "delegate",
+    "reading": "/'deligit/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "người đại biểu, người đại diện, người được uỷ nhiệm",
+    "examples": []
+  },
+  {
+    "order": 27,
+    "term": "draw",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "kéo, rút (bài), vẽ",
+    "examples": []
+  },
+  {
+    "order": 28,
+    "term": "revision",
+    "reading": "/ri'viʤn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự xem lại, sự xét lại, sự duyệt lại, sự sửa lại",
+    "examples": []
+  },
+  {
+    "order": 29,
+    "term": "supervision",
+    "reading": "/,sju:pə'viʤn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự trông nom, sự giám sát",
+    "examples": []
+  },
+  {
+    "order": 30,
+    "term": "workshop",
+    "reading": "/'wə:kʃɔp/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "xưởng",
+    "examples": []
+  },
+  {
+    "order": 31,
+    "term": "acquaint",
+    "reading": "/ə'kweint/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "làm quen, báo, cho biết, cho hay",
+    "examples": []
+  },
+  {
+    "order": 32,
+    "term": "check",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "kiểm tra (d/đ)",
+    "examples": []
+  },
+  {
+    "order": 33,
+    "term": "convey",
+    "reading": "/kən'vei/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "chở, chuyên chở, vận chuyển, truyền (âm thanh, hương vị, lệnh, tin)",
+    "examples": []
+  },
+  {
+    "order": 34,
+    "term": "headquarters",
+    "reading": "/'hed'kwɔ:təz/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự chỉ huy, tổng hành dinh",
+    "examples": []
+  },
+  {
+    "order": 35,
+    "term": "reluctantly",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "miễn cưỡng, bất đắc dự, không tự nguyện, không sẵn lòng",
+    "examples": []
+  },
+  {
+    "order": 36,
+    "term": "concentrate",
+    "reading": "/'kɔnsentreit/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "tập trung, cô (chất lỏng)",
+    "examples": []
+  },
+  {
+    "order": 37,
+    "term": "file",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "bộ phận ghi chữ, phiếu ghi tên",
+    "examples": []
+  },
+  {
+    "order": 38,
+    "term": "involved",
+    "reading": "/in'vɔlvd/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "rắc rối, phức tạp, bị mắc míu, bị liên luỵ, bọ dính líu, bị dính dáng",
+    "examples": []
+  },
+  {
+    "order": 39,
+    "term": "oversee",
+    "reading": "/'ouvə'si:/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "trông nom, giám thị, quan sát",
+    "examples": []
+  },
+  {
+    "order": 40,
+    "term": "a sheet of",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "một tờ",
+    "examples": []
+  },
+  {
+    "order": 41,
+    "term": "as if",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "như thể",
+    "examples": []
+  },
+  {
+    "order": 42,
+    "term": "as well as",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "cũng như",
+    "examples": []
+  },
+  {
+    "order": 43,
+    "term": "be known as",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "được gọi là",
+    "examples": []
+  },
+  {
+    "order": 44,
+    "term": "cartridge",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "ống, đầu",
+    "examples": []
+  },
+  {
+    "order": 45,
+    "term": "daily",
+    "reading": "/'deili/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "hằng ngày, báo hàng ngày",
+    "examples": []
+  },
+  {
+    "order": 46,
+    "term": "detail",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chi tiết",
+    "examples": []
+  },
+  {
+    "order": 47,
+    "term": "hand",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "bàn tay, (lý thuyết trò chơi) người chơi",
+    "examples": []
+  },
+  {
+    "order": 48,
+    "term": "in order to do",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "để thực hiện",
+    "examples": []
+  },
+  {
+    "order": 49,
+    "term": "laptop",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "máy tính laptop, máy tính xách tay",
+    "examples": []
+  },
+  {
+    "order": 50,
+    "term": "offering",
+    "reading": "/'ɔfəriɳ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự biếu, sự tặng, sự dâng, sự hiến, sự cúng, sự tiến, đồ biếu, đồ tặng, lễ vật, đồ cúng, đồ tiến",
+    "examples": []
+  },
+  {
+    "order": 51,
+    "term": "on one's own",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "một mình",
+    "examples": []
+  },
+  {
+    "order": 52,
+    "term": "on vacation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đi nghỉ mát",
+    "examples": []
+  },
+  {
+    "order": 53,
+    "term": "paper jam",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "kẹt giấy",
+    "examples": []
+  },
+  {
+    "order": 54,
+    "term": "Paperwork",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "công việc giấy tờ",
+    "examples": []
+  },
+  {
+    "order": 55,
+    "term": "partition",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự phân hoạch, sự phân chia, conjugate p.s (đại số) phân hoạch liên hợp",
+    "examples": []
+  },
+  {
+    "order": 56,
+    "term": "section",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tiết diện, lát cắt, s. of a function lát cắt của một hàm",
+    "examples": []
+  },
+  {
+    "order": 57,
+    "term": "sheet",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tầng, tờ",
+    "examples": []
+  },
+  {
+    "order": 58,
+    "term": "tabletop",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "mặt bàn",
+    "examples": []
+  },
+  {
+    "order": 59,
+    "term": "telephone call",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "gọi điện thoại",
+    "examples": []
+  },
+  {
+    "order": 60,
+    "term": "upstairs",
+    "reading": "/' p'ste z/",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "ở trên gác, ở tầng trên, lên gác, lên tầng trên",
+    "examples": []
+  },
+  {
+    "order": 61,
+    "term": "adjust the mirror",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "điều chỉnh gương",
+    "examples": []
+  },
+  {
+    "order": 62,
+    "term": "advance reservation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đặt phòng trước",
+    "examples": []
+  },
+  {
+    "order": 63,
+    "term": "arrange an appointment",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "sắp xếp một cuộc hẹn",
+    "examples": []
+  },
+  {
+    "order": 64,
+    "term": "bulletin board",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "bảng công báo",
+    "examples": []
+  },
+  {
+    "order": 65,
+    "term": "call back",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "gọi lại",
+    "examples": []
+  },
+  {
+    "order": 66,
+    "term": "extend an invitation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "mở rộng lời mời",
+    "examples": []
+  },
+  {
+    "order": 67,
+    "term": "get a permit",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "xin giấy phép",
+    "examples": []
+  },
+  {
+    "order": 68,
+    "term": "hand in",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "nộp trực tiếp",
+    "examples": []
+  },
+  {
+    "order": 69,
+    "term": "in alphabetical order",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "theo thứ tự bảng chữ cái",
+    "examples": []
+  },
+  {
+    "order": 70,
+    "term": "in luck",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "may mắn",
+    "examples": []
+  },
+  {
+    "order": 71,
+    "term": "ina hurry",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "ina hurry",
+    "examples": []
+  },
+  {
+    "order": 72,
+    "term": "listing",
+    "reading": "/'listiɳ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự lập danh sách, sự ghi vào danh sách, danh sách",
+    "examples": []
+  },
+  {
+    "order": 73,
+    "term": "make a call",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "thực hiện cuộc gọi",
+    "examples": []
+  },
+  {
+    "order": 74,
+    "term": "make a correction",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "chỉnh sửa",
+    "examples": []
+  },
+  {
+    "order": 75,
+    "term": "make a final change",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "thực hiện thay đổi cuối cùng",
+    "examples": []
+  },
+  {
+    "order": 76,
+    "term": "make a note of",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "ghi chú về",
+    "examples": []
+  },
+  {
+    "order": 77,
+    "term": "make an impression",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tạo ấn tượng",
+    "examples": []
+  },
+  {
+    "order": 78,
+    "term": "move ahead with",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tiến lên phía trước với",
+    "examples": []
+  },
+  {
+    "order": 79,
+    "term": "on a business trip",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "trong chuyến công tác",
+    "examples": []
+  },
+  {
+    "order": 80,
+    "term": "on business",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "về kinh doanh",
+    "examples": []
+  },
+  {
+    "order": 81,
+    "term": "on duty",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đang làm nhiệm vụ",
+    "examples": []
+  },
+  {
+    "order": 82,
+    "term": "scrub",
+    "reading": "/skrʌb/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "bụi cây, bụi rậm, nơi có bụi cây, nơi có bụi rậm",
+    "examples": []
+  },
+  {
+    "order": 83,
+    "term": "seal",
+    "reading": "/si:l/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "chó biển, sealskin",
+    "examples": []
+  },
+  {
+    "order": 84,
+    "term": "acquired",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thu được",
+    "examples": []
+  },
+  {
+    "order": 85,
+    "term": "adapt",
+    "reading": "/ə'dæpt/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "tra vào, lắp vào, phỏng theo, sửa lại cho hợp",
+    "examples": []
+  },
+  {
+    "order": 86,
+    "term": "administer",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "quản lý, quản trị",
+    "examples": []
+  },
+  {
+    "order": 87,
+    "term": "boardroom",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "phòng họp của ban giám đốc",
+    "examples": []
+  },
+  {
+    "order": 88,
+    "term": "clerical",
+    "reading": "/'klerikəl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "công việc biên chép, (thuộc) văn phòng, tăng lữ",
+    "examples": []
+  },
+  {
+    "order": 89,
+    "term": "conclusive",
+    "reading": "/kən'klu:siv/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "cuối cùng, để kết thúc, để kết luận",
+    "examples": []
+  },
+  {
+    "order": 90,
+    "term": "delete",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "gạch, bỏ đi",
+    "examples": []
+  },
+  {
+    "order": 91,
+    "term": "editorial",
+    "reading": "/,edi'tɔ:riəl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "công tác thu thập và xuất bản, chủ bút (báo...)",
+    "examples": []
+  },
+  {
+    "order": 92,
+    "term": "endless",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "vô hạn",
+    "examples": []
+  },
+  {
+    "order": 93,
+    "term": "familiarize",
+    "reading": "/fə'miljəraiz/ (familiarise) /fə'miljəraiz/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "phổ biến (một vấn đề), làm cho quen (với vấn đề gì, công việc gì...)",
+    "examples": []
+  },
+  {
+    "order": 94,
+    "term": "in one's absence",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "vắng mặt",
+    "examples": []
+  },
+  {
+    "order": 95,
+    "term": "in person",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "trực tiếp",
+    "examples": []
+  },
+  {
+    "order": 96,
+    "term": "including",
+    "reading": "/in'klu:diɳ/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "bao gồm cả, kể cả",
+    "examples": []
+  },
+  {
+    "order": 97,
+    "term": "on purpose",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "cố ý",
+    "examples": []
+  },
+  {
+    "order": 98,
+    "term": "on time",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đúng giờ",
+    "examples": []
+  },
+  {
+    "order": 99,
+    "term": "overseas",
+    "reading": "/'ouvə'si:/ (overseas) /'ouvə'si:z/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "ngoài nước, hải ngoại",
+    "examples": []
+  },
+  {
+    "order": 100,
+    "term": "panic",
+    "reading": "/'pænik/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "cây tắc, sự hoảng sợ, sự hoang mang sợ hãi",
+    "examples": []
+  },
+  {
+    "order": 101,
+    "term": "past due",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "quá hạn",
+    "examples": []
+  },
+  {
+    "order": 102,
+    "term": "perceive",
+    "reading": "/pə'si:v/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "hiểu, nhận thức, lĩnh hội, thấy, trông thấy",
+    "examples": []
+  },
+  {
+    "order": 103,
+    "term": "put forward",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đưa ra",
+    "examples": []
+  },
+  {
+    "order": 104,
+    "term": "reminder",
+    "reading": "/ri'maində/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "cái nhắc nhở, cái làm nhớ lại (một điều gì)",
+    "examples": []
+  },
+  {
+    "order": 105,
+    "term": "return one's call",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "trả lời cuộc gọi của một người",
+    "examples": []
+  },
+  {
+    "order": 106,
+    "term": "secretarial",
+    "reading": "/,sekrə'teəriəl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "thư ký, (thuộc) bí thư, bộ trưởng",
+    "examples": []
+  },
+  {
+    "order": 107,
+    "term": "speak into the microphone",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "nói vào micrô",
+    "examples": []
+  },
+  {
+    "order": 108,
+    "term": "speak on the phone",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "nói chuyện điện thoại",
+    "examples": []
+  },
+  {
+    "order": 109,
+    "term": "stand ina line",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đứng thành hàng",
+    "examples": []
+  },
+  {
+    "order": 110,
+    "term": "strive",
+    "reading": "/straiv/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "cố gắng, phấn đấu, đấu tranh",
+    "examples": []
+  },
+  {
+    "order": 111,
+    "term": "take a message",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "nhận tin nhắn",
+    "examples": []
+  },
+  {
+    "order": 112,
+    "term": "take apart",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tháo rời",
+    "examples": []
+  },
+  {
+    "order": 113,
+    "term": "take charge of",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "phụ trách",
+    "examples": []
+  },
+  {
+    "order": 114,
+    "term": "take on responsibility",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đảm nhận trách nhiệm",
+    "examples": []
+  },
+  {
+    "order": 115,
+    "term": "regard A as B",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "xem A như là B",
+    "examples": []
+  },
+  {
+    "order": 116,
+    "term": "throw one's effort into",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "ném nỗ lực của mình vào",
+    "examples": []
+  },
+  {
+    "order": 117,
+    "term": "translate",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tịnh tiến, dịch",
+    "examples": []
+  },
+  {
+    "order": 118,
+    "term": "utility provider",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "nhà cung cấp dịch vụ tiện ích",
+    "examples": []
+  },
+  {
+    "order": 119,
+    "term": "administrative",
+    "reading": "/əd'ministrətiv/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "hành chính, (thuộc) quản trị, chính quyền, (thuộc) nhà nước",
+    "examples": []
+  },
+  {
+    "order": 120,
+    "term": "behind schedule",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "chậm so với kế hoạch",
+    "examples": []
+  },
+  {
+    "order": 121,
+    "term": "condense",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "làm ngưng, làm cô đọng",
+    "examples": []
+  },
+  {
+    "order": 122,
+    "term": "conglomerate",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Conglomerate, Tập đoàn",
+    "examples": []
+  },
+  {
+    "order": 123,
+    "term": "day-to-day operation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "hoạt động hàng ngày",
+    "examples": []
+  },
+  {
+    "order": 124,
+    "term": "default",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thiếu, mặc định, đương nhiên",
+    "examples": []
+  },
+  {
+    "order": 125,
+    "term": "follow up on",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tiếp tục theo dõi",
+    "examples": []
+  },
+  {
+    "order": 126,
+    "term": "in line with",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "phù hợp với",
+    "examples": []
+  },
+  {
+    "order": 127,
+    "term": "in writing",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "bằng văn bản",
+    "examples": []
+  },
+  {
+    "order": 128,
+    "term": "on hold",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tạm dừng",
+    "examples": []
+  },
+  {
+    "order": 129,
+    "term": "popularize",
+    "reading": "/'pɔpjuləraiz/ (popularise) /'pɔpjuləraiz/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "đại chúng hoá, truyền bá, phổ biến",
+    "examples": []
+  },
+  {
+    "order": 130,
+    "term": "productively",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "sản xuất, tạo ra, phát sinh (sau khi làm cái gì)",
+    "examples": []
+  },
+  {
+    "order": 131,
+    "term": "proponent",
+    "reading": "/proponent/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "đề nghị, đề xuất, đề xướng, người đề nghị, người đề xuất, người đề xướng (một kiến nghị...)",
+    "examples": []
+  },
+  {
+    "order": 132,
+    "term": "proprietor",
+    "reading": "/proprietor/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "chủ, người sở hữu",
+    "examples": []
+  },
+  {
+    "order": 133,
+    "term": "site inspection",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "kiểm tra hiện trường",
+    "examples": []
+  },
+  {
+    "order": 134,
+    "term": "stay awake",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tỉnh táo",
+    "examples": []
+  },
+  {
+    "order": 135,
+    "term": "subordinate",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "phụ thuộc",
+    "examples": []
+  },
+  {
+    "order": 136,
+    "term": "subsidiary",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "bổ trợ",
+    "examples": []
+  },
+  {
+    "order": 137,
+    "term": "take initiative",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "chủ động",
+    "examples": []
+  },
+  {
+    "order": 138,
+    "term": "take the place of",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "thay thế",
+    "examples": []
+  },
+  {
+    "order": 139,
+    "term": "take turns",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "thay phiên nhau",
+    "examples": []
+  },
+  {
+    "order": 140,
+    "term": "telecommute",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "làm việc từ xa",
+    "examples": []
+  },
+  {
+    "order": 141,
+    "term": "utilization",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự sử dụng",
+    "examples": []
+  }
+]

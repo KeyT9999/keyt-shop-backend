@@ -1,0 +1,1433 @@
+[
+  {
+    "order": 1,
+    "term": "check in",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "nhận phòng",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "chef",
+    "reading": "/ʃef/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "đầu bếp",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "compensate",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "bù, bồi thường, bổ chính",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "complimentary",
+    "reading": "/,kɔmpli'mentəri/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "ca ngợi, ca tụng, tán tụng, mời, biếu (vé)",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "container",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đồ chứa, thùng hàng",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "accommodate",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thu nhận, chứa",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "available",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sẵn sàng, dùng được",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "elegant",
+    "reading": "/'eligənt/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "thanh lịch, tao nhã (người, cách ăn mặc...), nhã (văn)",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "flavor",
+    "reading": "/'fleivə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "vị ngon, mùi thơm, mùi vị",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "reception",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự thu nhận (tín hiệu)",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "cater",
+    "reading": "/'keitə/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "cung cấp thực phẩm, lương thực, phục vụ cho, mua vui cho, giải trí cho",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "in advance",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "trước",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "make",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "làm, sản xuất, hoàn thành",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "refreshments",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đồ uống giải khát",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "reservation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự dữ trữ, sự bảo lưu",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "beverage",
+    "reading": "/'bəvəridʤ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "đồ uống",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "cancel",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "giản ước (phân phối), gạch bỏ c. out triệt tiêu lãn nhau, giản ước",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "confirm",
+    "reading": "/kən'fə:m/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "xác nhận, chứng thực",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "conveniently",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "tiện lợi, thuận tiện",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "rate",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "suất, tốc độ (tương đối), tỷ số, hệ số",
+    "examples": []
+  },
+  {
+    "order": 21,
+    "term": "atmosphere",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "atmôtphe, khí quyển, standard a. vlđc. khí quyển tiêu chuẩn",
+    "examples": []
+  },
+  {
+    "order": 22,
+    "term": "cuisine",
+    "reading": "/kwi':zi:n/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "cách nấu nướng",
+    "examples": []
+  },
+  {
+    "order": 23,
+    "term": "decorate",
+    "reading": "/'dekəreit/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "trang hoàng, trang trí, tặng thưởng huy chương, tặng thưởng huân chương",
+    "examples": []
+  },
+  {
+    "order": 24,
+    "term": "information",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thông tin, tin tức, alphanumerical i. thông tin chữ số",
+    "examples": []
+  },
+  {
+    "order": 25,
+    "term": "retain",
+    "reading": "/ri'tein/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "giữ, cầm lại, ghi nhớ",
+    "examples": []
+  },
+  {
+    "order": 26,
+    "term": "sequence",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "dãy, s. of functions dãy hàm",
+    "examples": []
+  },
+  {
+    "order": 27,
+    "term": "amenity",
+    "reading": "/ə'mi:niti/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "tính nhã nhặn, tính hoà nhã, sự dễ chịu, sự thú vị (ở nơi nào...)",
+    "examples": []
+  },
+  {
+    "order": 28,
+    "term": "belongings",
+    "reading": "/bi'lɔɳiɳz/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "của cải, đồ dùng",
+    "examples": []
+  },
+  {
+    "order": 29,
+    "term": "book",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sách",
+    "examples": []
+  },
+  {
+    "order": 30,
+    "term": "entirely",
+    "reading": "/in'taiəli/",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "toàn bộ, toàn vẹn, trọn vẹn, hoàn toàn",
+    "examples": []
+  },
+  {
+    "order": 31,
+    "term": "extensive",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "rộng rãi",
+    "examples": []
+  },
+  {
+    "order": 32,
+    "term": "prior",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tiên nghiệm",
+    "examples": []
+  },
+  {
+    "order": 33,
+    "term": "choice",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chọn lựa (d)",
+    "examples": []
+  },
+  {
+    "order": 34,
+    "term": "ease",
+    "reading": "/i:z/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự thanh thản, sự thoải mái, sự không bị ràng buộc",
+    "examples": []
+  },
+  {
+    "order": 35,
+    "term": "ingredient",
+    "reading": "/in'gri:djənt/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "phần hợp thành, thành phần",
+    "examples": []
+  },
+  {
+    "order": 36,
+    "term": "sip",
+    "reading": "/sip/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "hớp, nhắp, ít, uống từng hớp, nhắp (rượu)",
+    "examples": []
+  },
+  {
+    "order": 37,
+    "term": "stir",
+    "reading": "/stə:/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "nhà tù, trại giam, sự khuấy, sự quấy trộn",
+    "examples": []
+  },
+  {
+    "order": 38,
+    "term": "complication",
+    "reading": "/,kɔmpli'keiʃn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự phức tạp, sự rắc rối, biến chứng",
+    "examples": []
+  },
+  {
+    "order": 39,
+    "term": "freshness",
+    "reading": "/'freʃnis/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự tươi (hoa...), sự tươi mát, sự mát mẻ (không khí...)",
+    "examples": []
+  },
+  {
+    "order": 40,
+    "term": "occupancy",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự chiếm chỗ",
+    "examples": []
+  },
+  {
+    "order": 41,
+    "term": "bite",
+    "reading": "/bait/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự cắn, sự ngoạm, miếng cắn",
+    "examples": []
+  },
+  {
+    "order": 42,
+    "term": "blend",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "pha trộn, hợp nhau",
+    "examples": []
+  },
+  {
+    "order": 43,
+    "term": "buffet",
+    "reading": "/'bufei/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "quán giải khát (ở ga), tủ đựng bát đĩa",
+    "examples": []
+  },
+  {
+    "order": 44,
+    "term": "cafeteria",
+    "reading": "/,kæfi'tiəriə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "quán ăn tự phục vụ",
+    "examples": []
+  },
+  {
+    "order": 45,
+    "term": "cereal",
+    "reading": "/'siəriəl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "ngũ cốc, số nhiều) ngũ cốc",
+    "examples": []
+  },
+  {
+    "order": 46,
+    "term": "clean",
+    "reading": "/kli:n/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "sạch, sạch sẽ, trong sạch không tội lỗi",
+    "examples": []
+  },
+  {
+    "order": 47,
+    "term": "cookbook",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sách hướng dẫn, sách cẩm nang, sách dạy nấu ăn",
+    "examples": []
+  },
+  {
+    "order": 48,
+    "term": "delicious",
+    "reading": "/di'liʃəs/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "thơm tho, ngon ngọt, ngọt ngào, vui thích, khoái",
+    "examples": []
+  },
+  {
+    "order": 49,
+    "term": "dessert",
+    "reading": "/di'zə:t/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "món tráng miệng, món ngọt cuối bữa (ăn trước khi ăn hoa quả)",
+    "examples": []
+  },
+  {
+    "order": 50,
+    "term": "dine",
+    "reading": "/dain/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "ăn cơm (trưa, chiều), thết cơm (ai), cho (ai) ăn cơm",
+    "examples": []
+  },
+  {
+    "order": 51,
+    "term": "dining room",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "phòng ăn",
+    "examples": []
+  },
+  {
+    "order": 52,
+    "term": "dish",
+    "reading": "/diʃ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "đĩa (đựng thức ăn), móm ăn (đựng trong đĩa)",
+    "examples": []
+  },
+  {
+    "order": 53,
+    "term": "dishwasher",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "máy rửa bát, người rửa bát",
+    "examples": []
+  },
+  {
+    "order": 54,
+    "term": "dry dishes",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "bát đĩa khô",
+    "examples": []
+  },
+  {
+    "order": 55,
+    "term": "fresh",
+    "reading": "/freʃ/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "tươi (hoa, trứng, sữa, cá, thịt...), tươi tắn, mơn mởn",
+    "examples": []
+  },
+  {
+    "order": 56,
+    "term": "garlic",
+    "reading": "/'gɑ:lik/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "cây tỏi, củ tỏi",
+    "examples": []
+  },
+  {
+    "order": 57,
+    "term": "meal",
+    "reading": "/'mi:l/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "bột ((thường) xay chưa mịn), lượng sữa vắt (vắt một lần ở bò sữa)",
+    "examples": []
+  },
+  {
+    "order": 58,
+    "term": "plate",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "bản, tấm, index p. (máy tính) mặt số",
+    "examples": []
+  },
+  {
+    "order": 59,
+    "term": "pot",
+    "reading": "/pɔt/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "ấm, bình, lọ, chậu, hũ, vại, ca (uống nước), ấm (đầy), bình (đầy), lọ (đầy), chậu (đầy), hũ (đầy), ca (đầy)",
+    "examples": []
+  },
+  {
+    "order": 60,
+    "term": "recipe",
+    "reading": "/'resipi/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "công thức (bánh, món ăn, thuốc pha chế), đơn thuốc, thuốc pha chế theo đơn, thuốc bốc theo đơn",
+    "examples": []
+  },
+  {
+    "order": 61,
+    "term": "seafood",
+    "reading": "/'si:fud/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "hải sản",
+    "examples": []
+  },
+  {
+    "order": 62,
+    "term": "spice",
+    "reading": "/spais/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "đồ gia vị, cái làm thêm đậm đà (câu chuyện...)",
+    "examples": []
+  },
+  {
+    "order": 63,
+    "term": "spicy",
+    "reading": "/'spaisi/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "có bỏ gia vị, hóm hỉnh, dí dỏm",
+    "examples": []
+  },
+  {
+    "order": 64,
+    "term": "spill",
+    "reading": "/spil/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "làm tràn, làm đổ, đánh đổ (nước...), làm ngã ngựa, làm văng khỏi yên, làm văng khỏi xe",
+    "examples": []
+  },
+  {
+    "order": 65,
+    "term": "taste",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Sở thích, thị hiếu.",
+    "examples": []
+  },
+  {
+    "order": 66,
+    "term": "tasty",
+    "reading": "/'teisti/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "ngon, nhã, nền",
+    "examples": []
+  },
+  {
+    "order": 67,
+    "term": "whipped cream",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "kem đánh bông",
+    "examples": []
+  },
+  {
+    "order": 68,
+    "term": "a glass of",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "một ly",
+    "examples": []
+  },
+  {
+    "order": 69,
+    "term": "appetizer",
+    "reading": "/'æpitaizə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "rượu khai vị, món ăn khai vị",
+    "examples": []
+  },
+  {
+    "order": 70,
+    "term": "bottle",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chai, Klein’s b. chai Klein",
+    "examples": []
+  },
+  {
+    "order": 71,
+    "term": "chop",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cắt đoạn, cắt rời (đ)",
+    "examples": []
+  },
+  {
+    "order": 72,
+    "term": "countertop",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "mặt bàn",
+    "examples": []
+  },
+  {
+    "order": 73,
+    "term": "diner",
+    "reading": "/'dainə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "người dự bữa ăn, người dự tiệc, toa ăn (trên xe lửa)",
+    "examples": []
+  },
+  {
+    "order": 74,
+    "term": "dining area",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "khu vực ăn uống",
+    "examples": []
+  },
+  {
+    "order": 75,
+    "term": "dining supplies",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đồ dùng ăn uống",
+    "examples": []
+  },
+  {
+    "order": 76,
+    "term": "dust off",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "phủi bụi",
+    "examples": []
+  },
+  {
+    "order": 77,
+    "term": "food supplier",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "nhà cung cấp thực phẩm",
+    "examples": []
+  },
+  {
+    "order": 78,
+    "term": "frosting",
+    "reading": "/'frɔstiɳ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "lượt phủ (kem, đường... trên bánh ngọt), sự rắc đường lên bánh",
+    "examples": []
+  },
+  {
+    "order": 79,
+    "term": "frozen food product",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "sản phẩm thực phẩm đông lạnh",
+    "examples": []
+  },
+  {
+    "order": 80,
+    "term": "gather up",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "thu thập",
+    "examples": []
+  },
+  {
+    "order": 81,
+    "term": "get the food ready",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "chuẩn bị đồ ăn",
+    "examples": []
+  },
+  {
+    "order": 82,
+    "term": "grain",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "hạt",
+    "examples": []
+  },
+  {
+    "order": 83,
+    "term": "grill",
+    "reading": "/gril/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "grille, vỉ (nướng chả)",
+    "examples": []
+  },
+  {
+    "order": 84,
+    "term": "gusty",
+    "reading": "/'gʌsti/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "gió bão, dông tố, dễ nổi nóng (tính tình)",
+    "examples": []
+  },
+  {
+    "order": 85,
+    "term": "have a light dinner",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "thưởng thức bữa tối nhẹ nhàng",
+    "examples": []
+  },
+  {
+    "order": 86,
+    "term": "have a meal",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "dùng bữa",
+    "examples": []
+  },
+  {
+    "order": 87,
+    "term": "kettle",
+    "reading": "/'ketl/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "ấm đun nước, tình thế rất khó xử, việc rắc rối",
+    "examples": []
+  },
+  {
+    "order": 88,
+    "term": "kitchen appliance",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "thiết bị nhà bếp",
+    "examples": []
+  },
+  {
+    "order": 89,
+    "term": "lost and found",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "bị mất và tìm thấy",
+    "examples": []
+  },
+  {
+    "order": 90,
+    "term": "order a meal",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đặt bữa ăn",
+    "examples": []
+  },
+  {
+    "order": 91,
+    "term": "patio",
+    "reading": "/'pætiou/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sân trong (nhà người Tây ban nha)",
+    "examples": []
+  },
+  {
+    "order": 92,
+    "term": "patron",
+    "reading": "/'peitrən/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "người bảo trợ, người đỡ đầu, ông chủ, ông bầu",
+    "examples": []
+  },
+  {
+    "order": 93,
+    "term": "peel off",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "bóc vỏ",
+    "examples": []
+  },
+  {
+    "order": 94,
+    "term": "potholder",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "người giữ ổ gà",
+    "examples": []
+  },
+  {
+    "order": 95,
+    "term": "pour",
+    "reading": "/pɔ:/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "rót, đổ, giội, trút, thổ lộ, bộc lộ, trút ra",
+    "examples": []
+  },
+  {
+    "order": 96,
+    "term": "serving (= helping, portion",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "phục vụ (= giúp đỡ, phần",
+    "examples": []
+  },
+  {
+    "order": 97,
+    "term": "set the table",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "dọn bàn ăn",
+    "examples": []
+  },
+  {
+    "order": 98,
+    "term": "snack shop",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "cửa hàng đồ ăn nhẹ",
+    "examples": []
+  },
+  {
+    "order": 99,
+    "term": "specialty",
+    "reading": "/'speʃəlti/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "hợp đồng (đặc biệt) có đóng dấu, ngành chuyên môn, ngành chuyên khoa",
+    "examples": []
+  },
+  {
+    "order": 100,
+    "term": "spoil",
+    "reading": "/spɔil/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "chiến lợi phẩm, lợi lộc, quyền lợi (sau khi chiến thắng)",
+    "examples": []
+  },
+  {
+    "order": 101,
+    "term": "spoit",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nịnh hót",
+    "examples": []
+  },
+  {
+    "order": 102,
+    "term": "accommodation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "điều tiết, thích ứng, thích nghi (d)",
+    "examples": []
+  },
+  {
+    "order": 103,
+    "term": "agreeably",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "thú vị, dễ chịu",
+    "examples": []
+  },
+  {
+    "order": 104,
+    "term": "amazed",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "ngạc nhiên",
+    "examples": []
+  },
+  {
+    "order": 105,
+    "term": "booking",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đặt phòng",
+    "examples": []
+  },
+  {
+    "order": 106,
+    "term": "brew",
+    "reading": "/bru:n/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự chế, sự ủ (rượu bia), sự pha (trà)",
+    "examples": []
+  },
+  {
+    "order": 107,
+    "term": "caterer",
+    "reading": "/'keitərə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "người cung cấp lương thực, thực phẩm, chủ khách sạn, quản lý khách sạn",
+    "examples": []
+  },
+  {
+    "order": 108,
+    "term": "catering service",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "dịch vụ ăn uống",
+    "examples": []
+  },
+  {
+    "order": 109,
+    "term": "competitiveness",
+    "reading": "/kəm'petitivnis/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "tính cạnh tranh, tính đua tranh",
+    "examples": []
+  },
+  {
+    "order": 110,
+    "term": "eat up",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "ăn hết",
+    "examples": []
+  },
+  {
+    "order": 111,
+    "term": "explain to",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "giải thích cho",
+    "examples": []
+  },
+  {
+    "order": 112,
+    "term": "gently",
+    "reading": "/'dʤentli/",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "nhẹ nhàng, êm ái, dịu dàng, chầm chậm",
+    "examples": []
+  },
+  {
+    "order": 113,
+    "term": "organizer",
+    "reading": "/'ɔ:gənaizə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "người tổ chức, người tổ chức nghiệp đoàn",
+    "examples": []
+  },
+  {
+    "order": 114,
+    "term": "overnight stay",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "lưu trú qua đêm",
+    "examples": []
+  },
+  {
+    "order": 115,
+    "term": "parking facility",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "bãi đỗ xe",
+    "examples": []
+  },
+  {
+    "order": 116,
+    "term": "polish",
+    "reading": "/'pouliʃ/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "Polish (thuộc) Ba lan, nước bóng, nước láng",
+    "examples": []
+  },
+  {
+    "order": 117,
+    "term": "progressively",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "tăng lên, tăng dần dần từng nấc",
+    "examples": []
+  },
+  {
+    "order": 118,
+    "term": "recognized",
+    "reading": "/'rekəgnaizd/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "được công nhận, được thừa nhận, được chấp nhận, được tín nhiệm",
+    "examples": []
+  },
+  {
+    "order": 119,
+    "term": "refer",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chỉ, hướng theo",
+    "examples": []
+  },
+  {
+    "order": 120,
+    "term": "seemingly",
+    "reading": "/'si:miɳli/",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "cỏ vẻ, ra vẻ, tưởng chừng như",
+    "examples": []
+  },
+  {
+    "order": 121,
+    "term": "squeeze",
+    "reading": "/skwi:z/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự ép, sự vắt, sự siết, sự véo, sự ôm chặt",
+    "examples": []
+  },
+  {
+    "order": 122,
+    "term": "starving",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chết đói",
+    "examples": []
+  },
+  {
+    "order": 123,
+    "term": "stove",
+    "reading": "/stouv/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "cái lò, nhà kính trồng cây",
+    "examples": []
+  },
+  {
+    "order": 124,
+    "term": "suite",
+    "reading": "/swi:t/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "dãy, bộ, đoàn tuỳ tùng",
+    "examples": []
+  },
+  {
+    "order": 125,
+    "term": "tablecloth",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "khăn trải bàn",
+    "examples": []
+  },
+  {
+    "order": 126,
+    "term": "take an order",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "nhận đơn hàng",
+    "examples": []
+  },
+  {
+    "order": 127,
+    "term": "teapot",
+    "reading": "/'ti:pɔt/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "ấm pha trà",
+    "examples": []
+  },
+  {
+    "order": 128,
+    "term": "thickly",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "dày, dày đặc",
+    "examples": []
+  },
+  {
+    "order": 129,
+    "term": "trial",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "phép thử, thí nghiệm, uniformity t. (thống kê) phép thử đều",
+    "examples": []
+  },
+  {
+    "order": 130,
+    "term": "unpack",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tháo dỡ",
+    "examples": []
+  },
+  {
+    "order": 131,
+    "term": "utensit",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đồ dùng",
+    "examples": []
+  },
+  {
+    "order": 132,
+    "term": "valuables",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "đồ quý giá, vật có giá trị (đồ trang sức )",
+    "examples": []
+  },
+  {
+    "order": 133,
+    "term": "vegetarian",
+    "reading": "/,vedʤi'teəriən/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "người ăn chay, ăn chay",
+    "examples": []
+  },
+  {
+    "order": 134,
+    "term": "vinegar",
+    "reading": "/'vinigə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "giấm, chua như giấm",
+    "examples": []
+  },
+  {
+    "order": 135,
+    "term": "wait fora table",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "chờ bàn",
+    "examples": []
+  },
+  {
+    "order": 136,
+    "term": "wake-up call",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "cuộc gọi đánh thức",
+    "examples": []
+  },
+  {
+    "order": 137,
+    "term": "assorted",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "hỗn hợp, đủ loại",
+    "examples": []
+  },
+  {
+    "order": 138,
+    "term": "atrium",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "cửa, tâm nhĩ",
+    "examples": []
+  },
+  {
+    "order": 139,
+    "term": "batch",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "một nhóm, một toán, một mẻ",
+    "examples": []
+  },
+  {
+    "order": 140,
+    "term": "cloakroom",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "phòng giữ áo mũ, phòng vệ sinh",
+    "examples": []
+  },
+  {
+    "order": 141,
+    "term": "concierge",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "người giữ cửa, phu khuân vác",
+    "examples": []
+  },
+  {
+    "order": 142,
+    "term": "culinary",
+    "reading": "/'kʌlinəri/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "nấu nướng, (thuộc) việc bếp núc, xào nấu được (rau)",
+    "examples": []
+  },
+  {
+    "order": 143,
+    "term": "decaffeinated",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "được lọc hết chất cafêin",
+    "examples": []
+  },
+  {
+    "order": 144,
+    "term": "double occupancy",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "phòng đôi",
+    "examples": []
+  },
+  {
+    "order": 145,
+    "term": "garner",
+    "reading": "/'gɑ:nə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "vựa thóc, kho thóc, bỏ vào kho",
+    "examples": []
+  },
+  {
+    "order": 146,
+    "term": "garnish",
+    "reading": "/'gɑ:niʃ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "garnishing, nét hoa mỹ (văn)",
+    "examples": []
+  },
+  {
+    "order": 147,
+    "term": "gourmet",
+    "reading": "/'guəmei/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "người sành ăn, người sành rượu",
+    "examples": []
+  },
+  {
+    "order": 148,
+    "term": "grab a bite",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "cắn một miếng",
+    "examples": []
+  },
+  {
+    "order": 149,
+    "term": "indigenous",
+    "reading": "/in'didʤinəs/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "bản xứ",
+    "examples": []
+  },
+  {
+    "order": 150,
+    "term": "meal pass",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "phiếu ăn",
+    "examples": []
+  },
+  {
+    "order": 151,
+    "term": "paiate",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "paiate",
+    "examples": []
+  },
+  {
+    "order": 152,
+    "term": "palate",
+    "reading": "/'pælətl/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "vòm miệng, khẩu vị",
+    "examples": []
+  },
+  {
+    "order": 153,
+    "term": "pick up the check",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "nhận séc",
+    "examples": []
+  },
+  {
+    "order": 154,
+    "term": "preheat",
+    "reading": "/pri:'hi:t/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "nung sơ b",
+    "examples": []
+  },
+  {
+    "order": 155,
+    "term": "scoop",
+    "reading": "/sku:p/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "cái xẻng (xúc lúa, than, tiên...), cái môi dài cán",
+    "examples": []
+  },
+  {
+    "order": 156,
+    "term": "shut down",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tắt máy",
+    "examples": []
+  },
+  {
+    "order": 157,
+    "term": "sift",
+    "reading": "/sift/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "giần, sàng, rây, rắc",
+    "examples": []
+  },
+  {
+    "order": 158,
+    "term": "thriving",
+    "reading": "/'θvaiviɳ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự giàu có, sự phát đạt, sự thịnh vượng, sự lớn lên, sự khoẻ lên, sự phát triển mạnh",
+    "examples": []
+  },
+  {
+    "order": 159,
+    "term": "wait on",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "chờ",
+    "examples": []
+  }
+]

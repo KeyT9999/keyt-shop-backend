@@ -1,0 +1,1442 @@
+[
+  {
+    "order": 1,
+    "term": "checkup",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "kiểm tra sức khỏe",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "diagnosis",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự chuẩn đoán, phát hiện sai (trong máy), automatic d. sự chuẩn đoán tự động",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "fatigue",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự mỏi (kim loại)",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "physician",
+    "reading": "/fi'ziʃn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "thầy thuốc, người chữa",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "symptom",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "dấu hiệu, triệu chứng",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "comprehensive",
+    "reading": "/,kɔmpri'hensiv/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "bao hàm toàn diện, mau hiểu, thông minh, lĩnh hội nhanh, sáng ý",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "join",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "hợp nối, direct j. (đại số) hợp trực tiếp",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "participate",
+    "reading": "/pɑ:'tisipeit/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "tham gia, tham dự, cùng góp phần",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "recognize",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đoán nhận phana biệt",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "recovery",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự phục hồi",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "ability",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "khả năng",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "cleanliness",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "tính sạch sẽ, tình trạng sạch sẽ",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "duration",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "khoảng thời gian, d. of selection thời gian chọn",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "necessary",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cần",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "operation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "phép toán, (điều khiển học) sự làm việc",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "recommend",
+    "reading": "/,rekə'mend/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "giới thiệu, tiến cử (người, vật...), làm cho người ta mến, làm cho có cảm tưởng tốt về (ai)",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "dental",
+    "reading": "/'dentl/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "răng, âm răng",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "dietary",
+    "reading": "/'daiətəri/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "chế độ ăn uống, chế độ ăn kiêng",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "easily",
+    "reading": "/'i:zili/ (easy) /'i:zi/",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "thoải mái, thanh thản, không lo lắng, thanh thoát, ung dung",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "eliminate",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "khử bỏ, loại trừ",
+    "examples": []
+  },
+  {
+    "order": 21,
+    "term": "examination",
+    "reading": "/ig,zæmi'neiʃn/ (examen) /eg'zeimen/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự khám xét kỹ, sự xem xét kỹ, sự thẩm tra, sự khảo sát, sự nghiên cứu, sự thi cử",
+    "examples": []
+  },
+  {
+    "order": 22,
+    "term": "related",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "có liên quan, có quan hệ với ai/ cái gì, có họ với (cùng một họ, cùng một tầng lớp )",
+    "examples": []
+  },
+  {
+    "order": 23,
+    "term": "transmit",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "truyền",
+    "examples": []
+  },
+  {
+    "order": 24,
+    "term": "coverage",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "phủ, bản báo cáo tình hình",
+    "examples": []
+  },
+  {
+    "order": 25,
+    "term": "exposure",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự phơi sáng, sự khẳng định",
+    "examples": []
+  },
+  {
+    "order": 26,
+    "term": "periodically",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "có chu kỳ, một cách tuần hoàn",
+    "examples": []
+  },
+  {
+    "order": 27,
+    "term": "simple",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đơn giản, đơn",
+    "examples": []
+  },
+  {
+    "order": 28,
+    "term": "teaction",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "teaction",
+    "examples": []
+  },
+  {
+    "order": 29,
+    "term": "combination",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự tổ hợp, sự phối hợp, c. of observation (thống kê) tổ hợp đo ngắn",
+    "examples": []
+  },
+  {
+    "order": 30,
+    "term": "conscious",
+    "reading": "/'kɔnʃəs/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "biết rõ, thấy rõ, tỉnh, tỉnh táo, có ý thức",
+    "examples": []
+  },
+  {
+    "order": 31,
+    "term": "pharmaceutical",
+    "reading": "/,fɑ:mə'sju:tikəl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "dược khoa",
+    "examples": []
+  },
+  {
+    "order": 32,
+    "term": "premium",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Tiền trả thêm hay phí bảo hiểm.",
+    "examples": []
+  },
+  {
+    "order": 33,
+    "term": "relieve",
+    "reading": "/ri'li:v/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "làm an tâm, làm yên lòng, làm dịu, làm khuây khoả, an ủi, làm nhẹ bớt, giảm bớt (gánh nặng, lo âu, phiền muộn...)",
+    "examples": []
+  },
+  {
+    "order": 34,
+    "term": "deprivation",
+    "reading": "/,depri'veiʃn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự mất, sự lấy đi, sự tước đoạt",
+    "examples": []
+  },
+  {
+    "order": 35,
+    "term": "health",
+    "reading": "/'hi:liɳ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sức khoẻ, sự lành mạnh",
+    "examples": []
+  },
+  {
+    "order": 36,
+    "term": "induce",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cảm sinh",
+    "examples": []
+  },
+  {
+    "order": 37,
+    "term": "insurance",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự bảo hiểm biện pháp bảo hiểm, chế độ bảo hiểm, acsidnet i. bảo hiểm tai nạn",
+    "examples": []
+  },
+  {
+    "order": 38,
+    "term": "nutrition",
+    "reading": "/nju:'triʃn/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "sự nuôi dưỡng, sự dinh dưỡng, đồ ăn bổ",
+    "examples": []
+  },
+  {
+    "order": 39,
+    "term": "prevention",
+    "reading": "/pri'venʃn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự ngăn cản, sự ngăn trở, sự ngăn ngừa, sự phòng ngừa",
+    "examples": []
+  },
+  {
+    "order": 40,
+    "term": "susceptible",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "dễ bị, dễ mắc",
+    "examples": []
+  },
+  {
+    "order": 41,
+    "term": "allergic",
+    "reading": "/ə'lə:dʤik/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "dị ứng, dễ có ác cảm",
+    "examples": []
+  },
+  {
+    "order": 42,
+    "term": "beat",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "phách",
+    "examples": []
+  },
+  {
+    "order": 43,
+    "term": "blind",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "mù, chói",
+    "examples": []
+  },
+  {
+    "order": 44,
+    "term": "blink",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "màng chắn",
+    "examples": []
+  },
+  {
+    "order": 45,
+    "term": "cavity",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cái hốc, lỗ hổng, toroidal a. lỗ hổng hình xuyến",
+    "examples": []
+  },
+  {
+    "order": 46,
+    "term": "cold",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "lạnh, nguội",
+    "examples": []
+  },
+  {
+    "order": 47,
+    "term": "cosmetic",
+    "reading": "/kɔz'metik/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "thuốc xức (làm mượt tóc), (thuộc) mỹ dung (phấn, sáp, kem...)",
+    "examples": []
+  },
+  {
+    "order": 48,
+    "term": "cure",
+    "reading": "/kjuə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "cách chữa bệnh, cách điều trị, việc chữa bệnh, việc điều trị",
+    "examples": []
+  },
+  {
+    "order": 49,
+    "term": "disease",
+    "reading": "/di'zi:z/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "bệnh, bệnh tật, tệ nạn",
+    "examples": []
+  },
+  {
+    "order": 50,
+    "term": "feel sick",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "cảm thấy mệt mỏi",
+    "examples": []
+  },
+  {
+    "order": 51,
+    "term": "fitness",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự thích hợp, sự tương ứng",
+    "examples": []
+  },
+  {
+    "order": 52,
+    "term": "gym",
+    "reading": "/dʤim/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "gymnasium, thể dục",
+    "examples": []
+  },
+  {
+    "order": 53,
+    "term": "have an injection",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tiêm",
+    "examples": []
+  },
+  {
+    "order": 54,
+    "term": "healing",
+    "reading": "/'hi:liɳ/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "để chữa bệnh, để chữa vết thương, đang lành lại, đang lên da non (vết thương)",
+    "examples": []
+  },
+  {
+    "order": 55,
+    "term": "internal",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "trong, nội bộ",
+    "examples": []
+  },
+  {
+    "order": 56,
+    "term": "lung",
+    "reading": "/lʌɳ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "phổi, nơi thoáng đãng (ở trong hoặc gần thành phố)",
+    "examples": []
+  },
+  {
+    "order": 57,
+    "term": "medical facility",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "cơ sở y tế",
+    "examples": []
+  },
+  {
+    "order": 58,
+    "term": "organ",
+    "reading": "/'ɔ:gən/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "đàn ống (dùng trong nhà thờ), đàn hộp (có tay quay) ((cũng) barrel organ)",
+    "examples": []
+  },
+  {
+    "order": 59,
+    "term": "raincoat",
+    "reading": "/'reinkout/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "áo mưa",
+    "examples": []
+  },
+  {
+    "order": 60,
+    "term": "remedy",
+    "reading": "/'remidi/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "thuốc, phương thuốc, cách điều trị, cách chữa cháy",
+    "examples": []
+  },
+  {
+    "order": 61,
+    "term": "stomachache",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự đau bụng, sự đau trong ruột, sự đau trong dạ dày",
+    "examples": []
+  },
+  {
+    "order": 62,
+    "term": "surgery",
+    "reading": "/'sə:dʤəri/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "khoa phẫu thuật, việc mổ xẻ",
+    "examples": []
+  },
+  {
+    "order": 63,
+    "term": "toothache",
+    "reading": "/'tu:θeik/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "đau răng",
+    "examples": []
+  },
+  {
+    "order": 64,
+    "term": "treat",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "xử lý, (kỹ thuật) gia công chế biến",
+    "examples": []
+  },
+  {
+    "order": 65,
+    "term": "vision",
+    "reading": "/'viʤn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự nhìn, sức nhìn",
+    "examples": []
+  },
+  {
+    "order": 66,
+    "term": "well-being",
+    "reading": "/'wel'bi:i /",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "hạnh phúc, phúc lợi",
+    "examples": []
+  },
+  {
+    "order": 67,
+    "term": "workout",
+    "reading": "/'wə:kaut/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": ",  (thể dục,thể thao) buổi luyện tập",
+    "examples": []
+  },
+  {
+    "order": 68,
+    "term": "aging",
+    "reading": "/'eidʤiɳ/ (aging) /'eidʤiɳ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự hoá già",
+    "examples": []
+  },
+  {
+    "order": 69,
+    "term": "ankle sprain",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "bong gân mắt cá chân",
+    "examples": []
+  },
+  {
+    "order": 70,
+    "term": "back injury",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "chấn thương lưng",
+    "examples": []
+  },
+  {
+    "order": 71,
+    "term": "be ona special diet",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "được ona chế độ ăn uống đặc biệt",
+    "examples": []
+  },
+  {
+    "order": 72,
+    "term": "blood pressure",
+    "reading": "/'blʌd'preʃə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "huyết áp",
+    "examples": []
+  },
+  {
+    "order": 73,
+    "term": "blood supply",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "cung cấp máu",
+    "examples": []
+  },
+  {
+    "order": 74,
+    "term": "buzzing",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "ù ù",
+    "examples": []
+  },
+  {
+    "order": 75,
+    "term": "consequently",
+    "reading": "/'kɔnsikwəntli/",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "do đó, vì vậy cho nên, bởi thế, vậy thì",
+    "examples": []
+  },
+  {
+    "order": 76,
+    "term": "emergency room",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "phòng cấp cứu",
+    "examples": []
+  },
+  {
+    "order": 77,
+    "term": "get some exercise",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tập thể dục",
+    "examples": []
+  },
+  {
+    "order": 78,
+    "term": "harmful",
+    "reading": "/'hɑ:mful/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "gây tai hại, có hại",
+    "examples": []
+  },
+  {
+    "order": 79,
+    "term": "heart ailment",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "bệnh tim",
+    "examples": []
+  },
+  {
+    "order": 80,
+    "term": "injection",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "phép nội xạ đơn ánh, diagonal i. đơn ánh chéo",
+    "examples": []
+  },
+  {
+    "order": 81,
+    "term": "insomnia",
+    "reading": "/in'sɔmniə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "chứng mất ngủ",
+    "examples": []
+  },
+  {
+    "order": 82,
+    "term": "lose weight",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "giảm cân",
+    "examples": []
+  },
+  {
+    "order": 83,
+    "term": "maternity ward",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "phòng hộ sinh",
+    "examples": []
+  },
+  {
+    "order": 84,
+    "term": "patient's record",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "hồ sơ bệnh án của bệnh nhân",
+    "examples": []
+  },
+  {
+    "order": 85,
+    "term": "physical examination",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "khám sức khỏe",
+    "examples": []
+  },
+  {
+    "order": 86,
+    "term": "physical therapy",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "vật lý trị liệu",
+    "examples": []
+  },
+  {
+    "order": 87,
+    "term": "resist",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đối kháng, kháng lại",
+    "examples": []
+  },
+  {
+    "order": 88,
+    "term": "sneeze",
+    "reading": "/sni:z/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự hắt hơi, cái hắt hơi",
+    "examples": []
+  },
+  {
+    "order": 89,
+    "term": "surgical instrument",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "dụng cụ phẫu thuật",
+    "examples": []
+  },
+  {
+    "order": 90,
+    "term": "tablet",
+    "reading": "/'tæblit/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "tấm, bản, thẻ, phiến (bằng gỗ, ngà để viết, khắc), bài vị",
+    "examples": []
+  },
+  {
+    "order": 91,
+    "term": "take effect",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "có hiệu lực",
+    "examples": []
+  },
+  {
+    "order": 92,
+    "term": "take medication",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "uống thuốc",
+    "examples": []
+  },
+  {
+    "order": 93,
+    "term": "take some medicine",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "uống một ít thuốc",
+    "examples": []
+  },
+  {
+    "order": 94,
+    "term": "terminal",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cuối, điểm cuối",
+    "examples": []
+  },
+  {
+    "order": 95,
+    "term": "vaccination",
+    "reading": "/,væksi'neiʃn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự chủng, sự tiêm chủng",
+    "examples": []
+  },
+  {
+    "order": 96,
+    "term": "watch over",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "xem qua",
+    "examples": []
+  },
+  {
+    "order": 97,
+    "term": "antibiotic",
+    "reading": "/'æntibai'ɔtik/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "kháng sinh, thuốc kháng sinh",
+    "examples": []
+  },
+  {
+    "order": 98,
+    "term": "asthma",
+    "reading": "/'æsmə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "bệnh hen, bệnh suyễn",
+    "examples": []
+  },
+  {
+    "order": 99,
+    "term": "athletic skill",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "kỹ năng thể thao",
+    "examples": []
+  },
+  {
+    "order": 100,
+    "term": "chronic",
+    "reading": "/'krɔnik/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "mạn, kinh niên, ăn sâu, bám chặt, thâm căn cố đế",
+    "examples": []
+  },
+  {
+    "order": 101,
+    "term": "contagious",
+    "reading": "/kən'teidʤəs/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "lây ((nghĩa đen) & (nghĩa bóng))",
+    "examples": []
+  },
+  {
+    "order": 102,
+    "term": "diabetes",
+    "reading": "/,daiə'bi:tiz/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "bệnh đái đường",
+    "examples": []
+  },
+  {
+    "order": 103,
+    "term": "donor",
+    "reading": "/'dounə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "người cho, người tặng, người biếu, người quyên cúng",
+    "examples": []
+  },
+  {
+    "order": 104,
+    "term": "dosage",
+    "reading": "/'dousidʤ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự cho liều lượng (thuốc uống), liều lượng",
+    "examples": []
+  },
+  {
+    "order": 105,
+    "term": "dose",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "liều lượng, median effective d. liều lượng 50% hiệu quả",
+    "examples": []
+  },
+  {
+    "order": 106,
+    "term": "eradicate",
+    "reading": "/i'rædikeit/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "nhổ rễ, trừ tiệt",
+    "examples": []
+  },
+  {
+    "order": 107,
+    "term": "exhale",
+    "reading": "/eks'heil/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "bốc lên, toả ra, trút (cơn giận",
+    "examples": []
+  },
+  {
+    "order": 108,
+    "term": "first aid",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "sơ cứu",
+    "examples": []
+  },
+  {
+    "order": 109,
+    "term": "food poisoning",
+    "reading": "/'fu:d'pɔizniɳ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự trúng độc thức ăn",
+    "examples": []
+  },
+  {
+    "order": 110,
+    "term": "forbid",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cấm, không giải được",
+    "examples": []
+  },
+  {
+    "order": 111,
+    "term": "genetic research",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "nghiên cứu di truyền",
+    "examples": []
+  },
+  {
+    "order": 112,
+    "term": "germ",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "mần, phôi, group g. mầm nhóm",
+    "examples": []
+  },
+  {
+    "order": 113,
+    "term": "hygiene",
+    "reading": "/'haidʤi:n/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "vệ sinh",
+    "examples": []
+  },
+  {
+    "order": 114,
+    "term": "infection",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự ảnh hưởng",
+    "examples": []
+  },
+  {
+    "order": 115,
+    "term": "infectious disease",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "bệnh truyền nhiễm",
+    "examples": []
+  },
+  {
+    "order": 116,
+    "term": "inhale",
+    "reading": "/in'heil/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "hít vào, nuốt (khói thuốc lá...)",
+    "examples": []
+  },
+  {
+    "order": 117,
+    "term": "maximize",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "làm cực đại",
+    "examples": []
+  },
+  {
+    "order": 118,
+    "term": "medicinal",
+    "reading": "/me'disinl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "thuốc, dùng làm thuốc",
+    "examples": []
+  },
+  {
+    "order": 119,
+    "term": "overdose",
+    "reading": "/'ouvədous/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "liều quá mức, cho quá liều",
+    "examples": []
+  },
+  {
+    "order": 120,
+    "term": "painkiller",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thuốc giảm đau",
+    "examples": []
+  },
+  {
+    "order": 121,
+    "term": "paralysis",
+    "reading": "/pə'rælisi:z/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "chứng liệt, tình trạng tê liệt",
+    "examples": []
+  },
+  {
+    "order": 122,
+    "term": "patiently",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "xem patient",
+    "examples": []
+  },
+  {
+    "order": 123,
+    "term": "pulse",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "xung, xung lượng",
+    "examples": []
+  },
+  {
+    "order": 124,
+    "term": "recover",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "phục hồi",
+    "examples": []
+  },
+  {
+    "order": 125,
+    "term": "resemble",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "giống nhau",
+    "examples": []
+  },
+  {
+    "order": 126,
+    "term": "robust",
+    "reading": "/rə'bʌst/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "khoẻ mạnh, tráng kiện, cường tráng, làm mạnh khoẻ",
+    "examples": []
+  },
+  {
+    "order": 127,
+    "term": "ultimately",
+    "reading": "/'ʌltimitli/",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "cuối cùng, sau cùng, sau rốt",
+    "examples": []
+  },
+  {
+    "order": 128,
+    "term": "urgently",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "xem urgent",
+    "examples": []
+  },
+  {
+    "order": 129,
+    "term": "visualize",
+    "reading": "/'vizjuəlaiz/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "làm cho mắt trông thấy được, hình dung, mường tượng",
+    "examples": []
+  },
+  {
+    "order": 130,
+    "term": "acute",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nhọn",
+    "examples": []
+  },
+  {
+    "order": 131,
+    "term": "be on medication",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đang dùng thuốc",
+    "examples": []
+  },
+  {
+    "order": 132,
+    "term": "blurry",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "xem blur",
+    "examples": []
+  },
+  {
+    "order": 133,
+    "term": "compressed",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "bị nén",
+    "examples": []
+  },
+  {
+    "order": 134,
+    "term": "dehydration",
+    "reading": "/,di:hai'dreiʃn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự loại nước",
+    "examples": []
+  },
+  {
+    "order": 135,
+    "term": "deter",
+    "reading": "/di'tə:/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "ngăn cản, ngăn chặn, cản trở, làm nản lòng, làm nhụt chí, làm thoái chí",
+    "examples": []
+  },
+  {
+    "order": 136,
+    "term": "elderly",
+    "reading": "/'eldəli/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "sắp già",
+    "examples": []
+  },
+  {
+    "order": 137,
+    "term": "epidemic",
+    "reading": "/,epi'demik/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "dịch, bệnh dịch ((nghĩa đen) & (nghĩa bóng))",
+    "examples": []
+  },
+  {
+    "order": 138,
+    "term": "get a prescription filled",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "mua thuốc theo toa",
+    "examples": []
+  },
+  {
+    "order": 139,
+    "term": "have one's vision tested",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "kiểm tra thị lực của một người",
+    "examples": []
+  },
+  {
+    "order": 140,
+    "term": "insistent",
+    "reading": "/in'sistənt/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "cứ nhất định, khăng khăng, nài nỉ",
+    "examples": []
+  },
+  {
+    "order": 141,
+    "term": "intuitively",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "bằng trực giác, qua trực giác",
+    "examples": []
+  },
+  {
+    "order": 142,
+    "term": "life expectancy",
+    "reading": "/'laifiks'pektənsi/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "tuổi thọ trung bình (của một hạng người theo thống kê)",
+    "examples": []
+  },
+  {
+    "order": 143,
+    "term": "life span",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "tuổi thọ, thời gian sống",
+    "examples": []
+  },
+  {
+    "order": 144,
+    "term": "milestone",
+    "reading": "/'mailstoun/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "cột kilômét cọc, sự kiện quan trọng, mốc lịch sử, giai đoạn quan trọng (trong đời ai)",
+    "examples": []
+  },
+  {
+    "order": 145,
+    "term": "on an empty stomach",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "khi bụng đói",
+    "examples": []
+  },
+  {
+    "order": 146,
+    "term": "outpatient clinic",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "phòng khám ngoại trú",
+    "examples": []
+  },
+  {
+    "order": 147,
+    "term": "over-the-counter medicine",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "thuốc không kê đơn",
+    "examples": []
+  },
+  {
+    "order": 148,
+    "term": "palpitations",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đánh trống ngực",
+    "examples": []
+  },
+  {
+    "order": 149,
+    "term": "perspire",
+    "reading": "/pəs'paiə/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "đổ mồ hôi, toát mồ hôi, toát (nước...) ra (như mồ hôi)",
+    "examples": []
+  },
+  {
+    "order": 150,
+    "term": "plausible",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "có lý lẽ",
+    "examples": []
+  },
+  {
+    "order": 151,
+    "term": "prolonged",
+    "reading": "/prolonged/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "kéo dài, được nối dài thêm",
+    "examples": []
+  },
+  {
+    "order": 152,
+    "term": "quarantine",
+    "reading": "/'kwɔrənti:n/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "thời gian cách ly, thời gian kiểm dịch, sự cách ly, sự kiểm dịch (tàu mới đến bị nghi là có chở khách mắc bệnh dịch...)",
+    "examples": []
+  },
+  {
+    "order": 153,
+    "term": "recuperate",
+    "reading": "/ri'kju:pəreit/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "hồi phục (sức khoẻ), lấy lại (số tiền đã mất...)",
+    "examples": []
+  },
+  {
+    "order": 154,
+    "term": "recurring",
+    "reading": "/ri'kə:riɳ/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "trở lại luôn, lại diễn ra",
+    "examples": []
+  },
+  {
+    "order": 155,
+    "term": "refill",
+    "reading": "/'ri:fil/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "cái dự trữ (để làm đầy lại), cái để thay thế (cho cái gì hỏng hoặc dùng hết)",
+    "examples": []
+  },
+  {
+    "order": 156,
+    "term": "respiratory system",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "hệ hô hấp",
+    "examples": []
+  },
+  {
+    "order": 157,
+    "term": "respire",
+    "reading": "/ris'paiə/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "thở, hô hấp, lấy lại hơi",
+    "examples": []
+  },
+  {
+    "order": 158,
+    "term": "sterilize",
+    "reading": "/'sterilaiz/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "làm tiệt trùng, khử trùng, làm cho cằn cỗi",
+    "examples": []
+  },
+  {
+    "order": 159,
+    "term": "vocation",
+    "reading": "/vou'keiʃn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "thiên hướng, nghề, nghề nghiệp",
+    "examples": []
+  },
+  {
+    "order": 160,
+    "term": "wing",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cánh, cantiliver w. cánh mạng tự do",
+    "examples": []
+  }
+]

@@ -1,0 +1,1388 @@
+[
+  {
+    "order": 1,
+    "term": "drape",
+    "reading": "/dreip/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "màn, rèm, trướng, sự xếp nếp (quần áo, màn...)",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "furnished",
+    "reading": "/'fə:niʃt/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "có sãn đồ đạc, được trang bị đồ đạc",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "residence",
+    "reading": "/'rezidəns/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự ở, sự cư trú, sự trú ngụ, chỗ ở, nơi cư trú, nhà ở",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "spacious",
+    "reading": "/'speiʃəs/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "rộn lớn, rộng rãi",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "appropriate",
+    "reading": "/ə'proupriit/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "thích hợp, thích đáng, chiếm hữu, chiếm đoạt (làm của riêng)",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "community",
+    "reading": "/kə'mju:niti/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "dân, dân chúng, nhân dân (cùng ở một địa phương, quận, huyện, khu phố, tỉnh...), phường, hội, phái, nhóm người (cùng tôn giáo, cùng quốc tịch...)",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "construction",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự xây dựng, (hình học) phép dựng hình",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "delay",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "làm chậm trễ // sự trậm, sự trễ, adjustable d. sự trễ điều chỉnh được",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "renovation",
+    "reading": "/,renou'veiʃn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự làm mới lại, sự đổi mới, sự cải tiến",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "unoccupied",
+    "reading": "/'ʌn'ɔkjupaid/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "nhàn rỗi, rảnh (thời gian), không có người ở, vô chủ (nhà, đất...)",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "arrange",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sắp xếp",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "currently",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "hiện thời, hiện nay",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "location",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự định xứ, (máy tính) mắt (nhớ)",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "repair",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "phục chế, sửa chữa",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "abandon",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "bỏ, bỏ rơi (đ)",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "contractor",
+    "reading": "/kən'træktə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "thầu khoán, người đấu thầu, người thầu (cung cấp lương thực cho quân đội, bệnh viện, trường học), cơ co",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "numerous",
+    "reading": "/'nju:mərəs/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "đông, đông đảo, nhiều, có vần, có nhịp điệu (văn, thơ)",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "presently",
+    "reading": "/'prezntli/",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "chẳng mấy chốc, ngay sau đó, hiện giờ, hiện nay, bây gi",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "restore",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "phục hồi, xây dựng lại",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "densely",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "dày đặc, rậm rạp",
+    "examples": []
+  },
+  {
+    "order": 21,
+    "term": "develop",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "phát triển, khai triển, (vật lí) xuất hiện",
+    "examples": []
+  },
+  {
+    "order": 22,
+    "term": "district",
+    "reading": "/'distrikt/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "địa hạt, khu vực, quận, huyện, khu, vùng, miền",
+    "examples": []
+  },
+  {
+    "order": 23,
+    "term": "finally",
+    "reading": "/'fainəli/",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "cuối cùng, sau cùng, dứt khoát",
+    "examples": []
+  },
+  {
+    "order": 24,
+    "term": "maintain",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "gìn giữ, bảo quản, sửa chữa",
+    "examples": []
+  },
+  {
+    "order": 25,
+    "term": "prepare",
+    "reading": "/pri'peə/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "sửa soạn sắm sửa, chuẩn bị, dự bị, soạn (bài)",
+    "examples": []
+  },
+  {
+    "order": 26,
+    "term": "compulsory",
+    "reading": "/kəm'pʌlsəri/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "ép buộc, bắt buộc, cưỡng bách, giáo dục phổ cập",
+    "examples": []
+  },
+  {
+    "order": 27,
+    "term": "interfere",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "giao thoa làm nhiễu loạn, optical i. giao thoa ánh sáng",
+    "examples": []
+  },
+  {
+    "order": 28,
+    "term": "relocation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự di chuyển tới, sự xây dựng lại",
+    "examples": []
+  },
+  {
+    "order": 29,
+    "term": "renewal",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự hồi phục",
+    "examples": []
+  },
+  {
+    "order": 30,
+    "term": "totally",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "hoàn toàn",
+    "examples": []
+  },
+  {
+    "order": 31,
+    "term": "actually",
+    "reading": "/'æktjuəli/",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "thực sự, quả thật, đúng, quả là, hiện tại, hiện thời, hiện nay",
+    "examples": []
+  },
+  {
+    "order": 32,
+    "term": "architect",
+    "reading": "/'ɑ:kitekt/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "kiến trúc sư, người làm ra, người xây dựng, người sáng tạo",
+    "examples": []
+  },
+  {
+    "order": 33,
+    "term": "enlarge",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "mở rộng, phát triển, phóng đại",
+    "examples": []
+  },
+  {
+    "order": 34,
+    "term": "install",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tiết lập, lắp ráp",
+    "examples": []
+  },
+  {
+    "order": 35,
+    "term": "permanent",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "không đổi, thường xuyên, thường trực",
+    "examples": []
+  },
+  {
+    "order": 36,
+    "term": "adjacent",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "kề",
+    "examples": []
+  },
+  {
+    "order": 37,
+    "term": "consist",
+    "reading": "/kən'sist/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "gồm có, cốt ở, cốt tại, ở chỗ",
+    "examples": []
+  },
+  {
+    "order": 38,
+    "term": "suppose",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "giả sử",
+    "examples": []
+  },
+  {
+    "order": 39,
+    "term": "utility",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "ích lợi",
+    "examples": []
+  },
+  {
+    "order": 40,
+    "term": "cleanup",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự thu gọn, sự quét rọn sạch, sự truy quét tội phạm",
+    "examples": []
+  },
+  {
+    "order": 41,
+    "term": "decoration",
+    "reading": "/,dekə'reiʃn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự trang hoàng, đồ trang hoàng, đồ trang trí",
+    "examples": []
+  },
+  {
+    "order": 42,
+    "term": "desktop",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "bàn giấy, mặt bàn",
+    "examples": []
+  },
+  {
+    "order": 43,
+    "term": "dwell",
+    "reading": "/dwel/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "+ in,  at,  near,  on) ở, ngụ, ở, dừng lại ở, chăm chú vào, nhấn lâu vào, day đi day lại",
+    "examples": []
+  },
+  {
+    "order": 44,
+    "term": "fence",
+    "reading": "/fens/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "hàng rào, thuật đánh kiếm",
+    "examples": []
+  },
+  {
+    "order": 45,
+    "term": "floor",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sàn, đáy",
+    "examples": []
+  },
+  {
+    "order": 46,
+    "term": "frame",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "dàn, khung, hệ quy chiếu, hệ toạ độ // dựng",
+    "examples": []
+  },
+  {
+    "order": 47,
+    "term": "furniture",
+    "reading": "/'fə:nitʃə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "đồ đạc (trong nhà), trang bị (của máy móc, tàu bè)",
+    "examples": []
+  },
+  {
+    "order": 48,
+    "term": "garage",
+    "reading": "/'gærɑ:ʤ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "ga ra, nhà để ô tô, chỗ chữa ô tô",
+    "examples": []
+  },
+  {
+    "order": 49,
+    "term": "homemade",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tự làm",
+    "examples": []
+  },
+  {
+    "order": 50,
+    "term": "homeowner",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chủ nhà",
+    "examples": []
+  },
+  {
+    "order": 51,
+    "term": "inhabit",
+    "reading": "/in'hæbit/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "ở, sống ở (nơi nào) ((nghĩa đen) & (nghĩa bóng))",
+    "examples": []
+  },
+  {
+    "order": 52,
+    "term": "lighten",
+    "reading": "/'laitn/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "chiếu sáng, rọi sáng, soi sáng, sáng lên",
+    "examples": []
+  },
+  {
+    "order": 53,
+    "term": "lobby",
+    "reading": "/'lɔbi/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "hành lang, hành lang ở nghị viện",
+    "examples": []
+  },
+  {
+    "order": 54,
+    "term": "neighbor",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "như neighbour",
+    "examples": []
+  },
+  {
+    "order": 55,
+    "term": "remodeling",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tu sửa",
+    "examples": []
+  },
+  {
+    "order": 56,
+    "term": "rooftop",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tầng thượng",
+    "examples": []
+  },
+  {
+    "order": 57,
+    "term": "rope",
+    "reading": "/roup/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "dây thừng, dây chão, (the ropes) dây bao quanh vũ đài",
+    "examples": []
+  },
+  {
+    "order": 58,
+    "term": "stick",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "que, tay đòn",
+    "examples": []
+  },
+  {
+    "order": 59,
+    "term": "tank",
+    "reading": "/tæɳk/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "thùng, két, bể (chứa nước, dầu...), xe tăng",
+    "examples": []
+  },
+  {
+    "order": 60,
+    "term": "urban (+ rural",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "thành thị (+ nông thôn)",
+    "examples": []
+  },
+  {
+    "order": 61,
+    "term": "veranda",
+    "reading": "/və'rændə/ (verandah) /və'rændə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "hiên, hè",
+    "examples": []
+  },
+  {
+    "order": 62,
+    "term": "washing machine",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "máy giặt",
+    "examples": []
+  },
+  {
+    "order": 63,
+    "term": "architecture",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "kiến trúc, cấu trúc",
+    "examples": []
+  },
+  {
+    "order": 64,
+    "term": "canopy",
+    "reading": "/'kænəpi/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "màn trướng (treo trên bàn thờ, trước giường), vòm",
+    "examples": []
+  },
+  {
+    "order": 65,
+    "term": "cast a shadow",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đổ bóng",
+    "examples": []
+  },
+  {
+    "order": 66,
+    "term": "column",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cột, cheek c. cột kiểm tra",
+    "examples": []
+  },
+  {
+    "order": 67,
+    "term": "courtyard",
+    "reading": "/'kɔ:t'jɑ:d/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sân nhỏ, sân trong",
+    "examples": []
+  },
+  {
+    "order": 68,
+    "term": "cupboard",
+    "reading": "/'kʌpbəd/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "tủ (có ngăn), tủ búp phê, mối tình vờ vịt (vì lợi)",
+    "examples": []
+  },
+  {
+    "order": 69,
+    "term": "cut the grass",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "cắt cỏ",
+    "examples": []
+  },
+  {
+    "order": 70,
+    "term": "dedication ceremony",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "lễ dâng hiến",
+    "examples": []
+  },
+  {
+    "order": 71,
+    "term": "doorway",
+    "reading": "/'dɔ:wei/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "ô cửa (khoảng trống của khung cửa), con đường (dẫn đến)",
+    "examples": []
+  },
+  {
+    "order": 72,
+    "term": "dresser",
+    "reading": "/'dresə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "chạn bát đĩa, ,  (như) dressing-table",
+    "examples": []
+  },
+  {
+    "order": 73,
+    "term": "emergency exit",
+    "reading": "/i'mə:dʤənsi'eksit/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "lối ra khi khẩn cấp, lối ra an toàn",
+    "examples": []
+  },
+  {
+    "order": 74,
+    "term": "erect",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thẳng, thẳng góc || dựng, xây dựng, e. a perpendicular dựng một đường thẳng góc",
+    "examples": []
+  },
+  {
+    "order": 75,
+    "term": "every hour on the hour",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "mỗi giờ vào giờ đó",
+    "examples": []
+  },
+  {
+    "order": 76,
+    "term": "faucet",
+    "reading": "/'fɔ:sit/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "vòi (ở thùng rượu...)",
+    "examples": []
+  },
+  {
+    "order": 77,
+    "term": "floor plan",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "mặt bằng tầng",
+    "examples": []
+  },
+  {
+    "order": 78,
+    "term": "flooring",
+    "reading": "/flooring/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "nguyên vật liệu làm sàn, sự làm sàn nhà",
+    "examples": []
+  },
+  {
+    "order": 79,
+    "term": "front door",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "cửa trước",
+    "examples": []
+  },
+  {
+    "order": 80,
+    "term": "hallway",
+    "reading": "/'hɔ:lwei/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "phòng trước, hành lang",
+    "examples": []
+  },
+  {
+    "order": 81,
+    "term": "hammering",
+    "reading": "/'hæməriɳ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự quai búa, sự nện búa, tiếng quai búa, tiếng búa nện",
+    "examples": []
+  },
+  {
+    "order": 82,
+    "term": "handrail",
+    "reading": "/'hændreil/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "tay vịn, lan can (ở cầu thang...)",
+    "examples": []
+  },
+  {
+    "order": 83,
+    "term": "home-improvement",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "home-improvement",
+    "examples": []
+  },
+  {
+    "order": 84,
+    "term": "lamppost",
+    "reading": "/'læmppoust/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "cột đèn",
+    "examples": []
+  },
+  {
+    "order": 85,
+    "term": "light butb",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "nút nhẹ",
+    "examples": []
+  },
+  {
+    "order": 86,
+    "term": "make repairs",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "sửa chữa",
+    "examples": []
+  },
+  {
+    "order": 87,
+    "term": "make the bed",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "dọn giường",
+    "examples": []
+  },
+  {
+    "order": 88,
+    "term": "multistory",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "có nhiều tầng, cao tầng",
+    "examples": []
+  },
+  {
+    "order": 89,
+    "term": "outdoor wall",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tường ngoài trời",
+    "examples": []
+  },
+  {
+    "order": 90,
+    "term": "plug in",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "cắm điện",
+    "examples": []
+  },
+  {
+    "order": 91,
+    "term": "pole",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cực, cực điểm p. at infinity cực ở vô tận, p. of an analytic function (giải tích) cực điểm của một hàm giải tích",
+    "examples": []
+  },
+  {
+    "order": 92,
+    "term": "private residence",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "nơi ở riêng",
+    "examples": []
+  },
+  {
+    "order": 93,
+    "term": "put away",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "cất đi",
+    "examples": []
+  },
+  {
+    "order": 94,
+    "term": "rebuild",
+    "reading": "/'ri:bild/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "xây lại, xây dựng lại",
+    "examples": []
+  },
+  {
+    "order": 95,
+    "term": "access road",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đường vào",
+    "examples": []
+  },
+  {
+    "order": 96,
+    "term": "arrange the furniture",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "sắp xếp đồ đạc",
+    "examples": []
+  },
+  {
+    "order": 97,
+    "term": "built-in",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "gắn vào, có sẵn, nội trang",
+    "examples": []
+  },
+  {
+    "order": 98,
+    "term": "carpentry",
+    "reading": "/'kɑ:pintri/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "nghề thợ mộc, rui (kèo nhà)",
+    "examples": []
+  },
+  {
+    "order": 99,
+    "term": "describe",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "mô tả",
+    "examples": []
+  },
+  {
+    "order": 100,
+    "term": "desirable",
+    "reading": "/di'zaiərəbl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "đáng thèm muốn, đáng ao ước, đáng khát khao",
+    "examples": []
+  },
+  {
+    "order": 101,
+    "term": "fire alarm",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "chuông báo cháy",
+    "examples": []
+  },
+  {
+    "order": 102,
+    "term": "fire extinguisher",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "bình chữa cháy",
+    "examples": []
+  },
+  {
+    "order": 103,
+    "term": "fitting room",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "phòng thử đồ",
+    "examples": []
+  },
+  {
+    "order": 104,
+    "term": "fixture",
+    "reading": "/'fikstʃə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "vật cố định, đồ đạc đặt ở chỗ cố định, (pháp lý) đồ đạc cố định (về mặt pháp lý coi như thuộc hẳn về một toà nhà nào)",
+    "examples": []
+  },
+  {
+    "order": 105,
+    "term": "homebuilder",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "homebuilder",
+    "examples": []
+  },
+  {
+    "order": 106,
+    "term": "housewares",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "đồ dùng gia đình (nồi, niêu, xoong, chảo, bất, đựa...)",
+    "examples": []
+  },
+  {
+    "order": 107,
+    "term": "in error",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "có lỗi",
+    "examples": []
+  },
+  {
+    "order": 108,
+    "term": "overprice",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "quá giá",
+    "examples": []
+  },
+  {
+    "order": 109,
+    "term": "repairperson",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nhân viên sửa chữa",
+    "examples": []
+  },
+  {
+    "order": 110,
+    "term": "resident",
+    "reading": "/'rezidənt/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "cư trú, ở chính thức (một nơi nào), thường trú",
+    "examples": []
+  },
+  {
+    "order": 111,
+    "term": "restoration",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự phục hồi",
+    "examples": []
+  },
+  {
+    "order": 112,
+    "term": "scrubbing",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cọ rửa",
+    "examples": []
+  },
+  {
+    "order": 113,
+    "term": "skyscraper",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "như skysail, nhà chọc trời (toà nhà hiện đại rất cao ở thành thị)",
+    "examples": []
+  },
+  {
+    "order": 114,
+    "term": "space-saving",
+    "reading": "/'speis,seiviɳ/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "tiết kiệm được chỗ",
+    "examples": []
+  },
+  {
+    "order": 115,
+    "term": "spread on",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "lây lan trên",
+    "examples": []
+  },
+  {
+    "order": 116,
+    "term": "staircase",
+    "reading": "/'steəkeis/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "cầu thang, lồng cầu thang",
+    "examples": []
+  },
+  {
+    "order": 117,
+    "term": "stairway",
+    "reading": "/'steəwei/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "cầu thang",
+    "examples": []
+  },
+  {
+    "order": 118,
+    "term": "storage cabinet",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tủ bảo quản",
+    "examples": []
+  },
+  {
+    "order": 119,
+    "term": "structure",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cấu trúc, affine s. cấu trúc afin",
+    "examples": []
+  },
+  {
+    "order": 120,
+    "term": "switch on",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "bật",
+    "examples": []
+  },
+  {
+    "order": 121,
+    "term": "tenant",
+    "reading": "/'tenənt/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "người thuê mướn (nhà, đất...), tá điền",
+    "examples": []
+  },
+  {
+    "order": 122,
+    "term": "turn on its side",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "quay về phía nó",
+    "examples": []
+  },
+  {
+    "order": 123,
+    "term": "undergo renovation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "trải qua cải tạo",
+    "examples": []
+  },
+  {
+    "order": 124,
+    "term": "windowsill",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "bậu cửa sổ",
+    "examples": []
+  },
+  {
+    "order": 125,
+    "term": "annex",
+    "reading": "/ə'neks/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "phụ vào, phụ thêm, thêm vào, sáp nhập, thôn tính lãnh thổ...)",
+    "examples": []
+  },
+  {
+    "order": 126,
+    "term": "archway",
+    "reading": "/'ɑ:tʃwei/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "cổng tò vò, lối đi có mái vòm",
+    "examples": []
+  },
+  {
+    "order": 127,
+    "term": "be mounted on",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "được gắn trên",
+    "examples": []
+  },
+  {
+    "order": 128,
+    "term": "complex",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "mớ, đs",
+    "examples": []
+  },
+  {
+    "order": 129,
+    "term": "constructively",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "có tính cách xây dựng",
+    "examples": []
+  },
+  {
+    "order": 130,
+    "term": "demolish",
+    "reading": "/di'mɔliʃ/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "phá huỷ, đánh đổ",
+    "examples": []
+  },
+  {
+    "order": 131,
+    "term": "demolition",
+    "reading": "/di'mɔliʃmənt/ (demolition) /,demə'liʃn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự phá huỷ, sự đánh đổ",
+    "examples": []
+  },
+  {
+    "order": 132,
+    "term": "dig with a shovel",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đào bằng xẻng",
+    "examples": []
+  },
+  {
+    "order": 133,
+    "term": "drain",
+    "reading": "/drein/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "ống dẫn (nước...), cống, rãnh, mương, máng, ống dẫn lưu",
+    "examples": []
+  },
+  {
+    "order": 134,
+    "term": "for lease",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "cho thuê",
+    "examples": []
+  },
+  {
+    "order": 135,
+    "term": "insulation",
+    "reading": "/,insju'leiʃn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự cô lập, sự cách ly, sự biến (đất liền) thành một hòn đảo",
+    "examples": []
+  },
+  {
+    "order": 136,
+    "term": "landlord",
+    "reading": "/'lændlɔ:d/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "chủ nhà (nhà cho thuê), chủ quán trọ, chủ khách sạn",
+    "examples": []
+  },
+  {
+    "order": 137,
+    "term": "locale",
+    "reading": "/'loukəl/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "nơi xảy ra (sự việc gì...)",
+    "examples": []
+  },
+  {
+    "order": 138,
+    "term": "lock oneself out of one's house",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tự khóa mình ra khỏi nhà",
+    "examples": []
+  },
+  {
+    "order": 139,
+    "term": "maintenance",
+    "reading": "/'meintinəns/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự giữ, sự duy trì, sự bảo vệ, sự bảo quản",
+    "examples": []
+  },
+  {
+    "order": 140,
+    "term": "plumber",
+    "reading": "/'plʌmə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "thợ hàn chì",
+    "examples": []
+  },
+  {
+    "order": 141,
+    "term": "porch",
+    "reading": "/pɔ:tʃ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "cổng (ra vào), cổng vòm",
+    "examples": []
+  },
+  {
+    "order": 142,
+    "term": "premises",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "ngôi nhà hoặc các toà nhà khác có nhà phụ, đất đai..., cơ ngơi",
+    "examples": []
+  },
+  {
+    "order": 143,
+    "term": "rack",
+    "reading": "/ræk/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "những đám mây trôi giạt, tiêu tan thành mây khói, tiêu tan sự nghiệp",
+    "examples": []
+  },
+  {
+    "order": 144,
+    "term": "reconfiguration",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tái cấu hình",
+    "examples": []
+  },
+  {
+    "order": 145,
+    "term": "run the tap",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "chạy vòi",
+    "examples": []
+  },
+  {
+    "order": 146,
+    "term": "saw",
+    "reading": "/sɔ:/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "tục ngữ, cách ngôn",
+    "examples": []
+  },
+  {
+    "order": 147,
+    "term": "scaffolding",
+    "reading": "/'skæfəldiɳ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "giàn (làm nhà...)",
+    "examples": []
+  },
+  {
+    "order": 148,
+    "term": "screw",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đường đinh ốc",
+    "examples": []
+  },
+  {
+    "order": 149,
+    "term": "shockproof",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chống sốc",
+    "examples": []
+  },
+  {
+    "order": 150,
+    "term": "startle",
+    "reading": "/'stɑ:tl/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự giật mình, cái giật mình",
+    "examples": []
+  },
+  {
+    "order": 151,
+    "term": "symmetrically",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "đối xứng",
+    "examples": []
+  },
+  {
+    "order": 152,
+    "term": "tear down",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "xé nhỏ",
+    "examples": []
+  },
+  {
+    "order": 153,
+    "term": "uninhabited",
+    "reading": "/'ʌnin'hæbitid/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "không có người ở, bỏ không",
+    "examples": []
+  },
+  {
+    "order": 154,
+    "term": "woodwork",
+    "reading": "/'wudwə:k/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "nghề làm đồ gỗ, nghề mộc, đồ gỗ",
+    "examples": []
+  }
+]

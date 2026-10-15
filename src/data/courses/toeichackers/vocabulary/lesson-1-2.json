@@ -1,0 +1,1271 @@
+[
+  {
+    "order": 1,
+    "term": "attire",
+    "reading": "/ə'taiə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "quần áo, đồ trang điểm",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "code",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "mt, (điều khiển học) mã, chữ số",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "concern",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "liên quan, quan hệ",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "comply",
+    "reading": "/kəm'plai/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "tuân theo, chiếu theo, đồng ý làm theo",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "deposit slip",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "phiếu đặt cọc",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "exception",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự ngoại lệ",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "adhere",
+    "reading": "/əd'hiə/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "dính chặt vào, bám chặt vào, tham gia, gia nhập",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "permission",
+    "reading": "/pə'miʃn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự cho phép, sự chấp nhận, phép",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "refrain",
+    "reading": "/ri'frein/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "đoạn điệp, kìm lại, dằn lại, cầm lại, cố nhịn, cố nín, kiềm chế",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "severely",
+    "reading": "/si'viəli/",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "nghiêm khắc, nghiêm nghị",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "access",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự cho vào, (máy tính) lối vào nhận tin",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "revise",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "làm lại, sửa lại, xem lại, bipartite r. phép quay song diện",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "thoroughly",
+    "reading": "/'θʌrəli/",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "hoàn toàn, hoàn hảo, hết mực, hết sức, rất",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "approach",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự gần đúng, phép xấp xỉ, cách tiếp cận, radial a. gl. ghép xấp xỉ theo tia",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "approval",
+    "reading": "/ə'pru:vəl/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự tán thành, sự đồng ý, sự chấp thuận, sự phê chuẩn",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "forecast",
+    "reading": "/fɔ:'kɑ:st/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự dự đoán trước, sự dự báo trước",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "form",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "dạng // hình thành, in matrix f. ở dạng ma trận",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "head",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đầu phần trên, phần trước, đề mục",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "immediately",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "ngay lập tức, một cách trực tiếp",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "arrangement",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự sắp xếp, chỉnh hợp",
+    "examples": []
+  },
+  {
+    "order": 21,
+    "term": "mandate",
+    "reading": "/'mændeit/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "lệnh, trát, sự uỷ nhiệm, sự uỷ thác",
+    "examples": []
+  },
+  {
+    "order": 22,
+    "term": "negative",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "âm // sự phủ định, câu trả lời phủ định, đại lượng âm",
+    "examples": []
+  },
+  {
+    "order": 23,
+    "term": "procedure",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thủ tục, (thống kê) biện pháp",
+    "examples": []
+  },
+  {
+    "order": 24,
+    "term": "according to",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "theo",
+    "examples": []
+  },
+  {
+    "order": 25,
+    "term": "drastically",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "mạnh mẽ, quyết liệt, trầm trọng",
+    "examples": []
+  },
+  {
+    "order": 26,
+    "term": "effect",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tác dụng, hiệu quả, hiệu ứng, ảnh hưởng, curvature e. hiệu ứng độ cong",
+    "examples": []
+  },
+  {
+    "order": 27,
+    "term": "enable",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "có thể",
+    "examples": []
+  },
+  {
+    "order": 28,
+    "term": "standard",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tiêu chuẩn. mẫu, s. of life, s. of living mức sống",
+    "examples": []
+  },
+  {
+    "order": 29,
+    "term": "act",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tác động",
+    "examples": []
+  },
+  {
+    "order": 30,
+    "term": "ban",
+    "reading": "/bæn/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "cấm, cấm chỉ, nguyền rủa",
+    "examples": []
+  },
+  {
+    "order": 31,
+    "term": "compensation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự bù, sự bồi thường, sự bổ chính",
+    "examples": []
+  },
+  {
+    "order": 32,
+    "term": "constant",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "bằng số, hằng lượng, số không đổi, c. of integration hằng số tích phân",
+    "examples": []
+  },
+  {
+    "order": 33,
+    "term": "abolish",
+    "reading": "/ə'bɔliʃ/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "thủ tiêu, bãi bỏ, huỷ bỏ",
+    "examples": []
+  },
+  {
+    "order": 34,
+    "term": "authorize",
+    "reading": "/'ɔ:θəraiz/ (authorise) /'ɔ:θəraiz/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "cho quyền, uỷ quyền, cho phép, là căn cứ, là cái cớ chính đáng",
+    "examples": []
+  },
+  {
+    "order": 35,
+    "term": "enforce",
+    "reading": "/in'fɔ:s/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "làm cho có hiệu lực, làm cho có sức mạnh (một lý lẽ), đòi cho được (một yêu sách), ép làm, thúc ép, ép buộc (một việc gì)",
+    "examples": []
+  },
+  {
+    "order": 36,
+    "term": "obligation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "trách nhiệm",
+    "examples": []
+  },
+  {
+    "order": 37,
+    "term": "prohibit",
+    "reading": "/prohibit/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "cấm, ngăn cấm, cấm chỉ",
+    "examples": []
+  },
+  {
+    "order": 38,
+    "term": "habit",
+    "reading": "/'hæbit/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "thói quen, tập quán, thể chất, tạng người",
+    "examples": []
+  },
+  {
+    "order": 39,
+    "term": "legislation",
+    "reading": "/,ledʤis'leiʃn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự làm luật, sự lập pháp, pháp luật, pháp chế",
+    "examples": []
+  },
+  {
+    "order": 40,
+    "term": "restrict",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "hạn chế, thu hẹp",
+    "examples": []
+  },
+  {
+    "order": 41,
+    "term": "bend over",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "cúi xuống",
+    "examples": []
+  },
+  {
+    "order": 42,
+    "term": "busy",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "bận [điện thoại]",
+    "examples": []
+  },
+  {
+    "order": 43,
+    "term": "by oneself",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "một mình",
+    "examples": []
+  },
+  {
+    "order": 44,
+    "term": "curriculum",
+    "reading": "/kə'rikjuləm/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "chương trình giảng dạy, bản lý lịch",
+    "examples": []
+  },
+  {
+    "order": 45,
+    "term": "date",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "ngày, tháng // ghi ngày",
+    "examples": []
+  },
+  {
+    "order": 46,
+    "term": "dress",
+    "reading": "/dres/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "quần áo, vỏ ngoài, cái bọc ngoài, vẻ ngoài",
+    "examples": []
+  },
+  {
+    "order": 47,
+    "term": "enough",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đủ",
+    "examples": []
+  },
+  {
+    "order": 48,
+    "term": "faw firm",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "faw firm",
+    "examples": []
+  },
+  {
+    "order": 49,
+    "term": "finish",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "hoàn thành, kết thúc",
+    "examples": []
+  },
+  {
+    "order": 50,
+    "term": "get used to",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "làm quen với",
+    "examples": []
+  },
+  {
+    "order": 51,
+    "term": "have a problem (in) -ing",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "có vấn đề (trong) -ing",
+    "examples": []
+  },
+  {
+    "order": 52,
+    "term": "in case of",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "trong trường hợp",
+    "examples": []
+  },
+  {
+    "order": 53,
+    "term": "in rows",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "theo hàng",
+    "examples": []
+  },
+  {
+    "order": 54,
+    "term": "item",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "điểm, chương",
+    "examples": []
+  },
+  {
+    "order": 55,
+    "term": "large",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "lớn, rộng in the l. nói chung, trong toàn cục",
+    "examples": []
+  },
+  {
+    "order": 56,
+    "term": "loudly",
+    "reading": "/'laudili/",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "ầm ĩ, inh ỏi, nhiệt liệt, kịch liệt (ca ngợi, phản kháng)",
+    "examples": []
+  },
+  {
+    "order": 57,
+    "term": "protect",
+    "reading": "/protect/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "bảo vệ, bảo hộ, che chở, bảo vệ (nền công nghiệp trong nước chống lại sự cạnh tranh của hàng nước ngoài)",
+    "examples": []
+  },
+  {
+    "order": 58,
+    "term": "ruler",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thước",
+    "examples": []
+  },
+  {
+    "order": 59,
+    "term": "seldom",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "hiếm",
+    "examples": []
+  },
+  {
+    "order": 60,
+    "term": "stop",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "dừng lại // sự ngăn lại, dấu chấm câu, sự dừng",
+    "examples": []
+  },
+  {
+    "order": 61,
+    "term": "theft",
+    "reading": "/θeft/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự ăn trộm, sự trộm cắp",
+    "examples": []
+  },
+  {
+    "order": 62,
+    "term": "by",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Giới từ",
+    "meaning": "bằng cách; trước khi",
+    "examples": []
+  },
+  {
+    "order": 63,
+    "term": "witness",
+    "reading": "/'witnis/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự làm chứng, bằng chứng, chứng cớ, bằng cớ",
+    "examples": []
+  },
+  {
+    "order": 64,
+    "term": "abuse",
+    "reading": "/ə'bju:s/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự lạm dụng, sự lộng hành, thói xấu, hủ tục",
+    "examples": []
+  },
+  {
+    "order": 65,
+    "term": "against the law",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "trái pháp luật",
+    "examples": []
+  },
+  {
+    "order": 66,
+    "term": "assessment",
+    "reading": "/ə'sesmənt/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự định giá (một vật) để đánh thuế, sự đánh giá",
+    "examples": []
+  },
+  {
+    "order": 67,
+    "term": "authorization",
+    "reading": "/,ɔ:θərai'zeiʃn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự cho quyền, sự cho phép, uỷ quyền, quyền được cho phép",
+    "examples": []
+  },
+  {
+    "order": 68,
+    "term": "by all means",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "bằng mọi cách",
+    "examples": []
+  },
+  {
+    "order": 69,
+    "term": "by mistake",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "do nhầm lẫn",
+    "examples": []
+  },
+  {
+    "order": 70,
+    "term": "come to anend",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đi đến hồi kết",
+    "examples": []
+  },
+  {
+    "order": 71,
+    "term": "company regulations",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "quy định của công ty",
+    "examples": []
+  },
+  {
+    "order": 72,
+    "term": "concerning",
+    "reading": "/kən'sə:niɳ/",
+    "romaji": "",
+    "partOfSpeech": "Giới từ",
+    "meaning": "về việc",
+    "examples": []
+  },
+  {
+    "order": 73,
+    "term": "consideration",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự xét đến, sự chú ý in c. of chú ý đến",
+    "examples": []
+  },
+  {
+    "order": 74,
+    "term": "declaration",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "lời tuyên bố, khai báo",
+    "examples": []
+  },
+  {
+    "order": 75,
+    "term": "defensive",
+    "reading": "/di'fensiv/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "có tính chất bảo vệ, có tính chất phòng thủ, có tính chất chống giữ, để che chở, để bảo vệ, để phòng thủ",
+    "examples": []
+  },
+  {
+    "order": 76,
+    "term": "depiction",
+    "reading": "/,di'pikʃn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "thuật vẽ, hoạ, sự tả, sự miêu tả",
+    "examples": []
+  },
+  {
+    "order": 77,
+    "term": "disobedient",
+    "reading": "/,disə'bi:djənt/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "không vâng lời, không tuân lệnh",
+    "examples": []
+  },
+  {
+    "order": 78,
+    "term": "endure",
+    "reading": "/in'djuə/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "chịu đựng, cam chịu, chịu được, kéo dài, tồn tại",
+    "examples": []
+  },
+  {
+    "order": 79,
+    "term": "exemplary",
+    "reading": "/ig'zempləri/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "gương mẫu, mẫu mực, để làm gương, để cảnh cáo",
+    "examples": []
+  },
+  {
+    "order": 80,
+    "term": "give directions",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đưa ra chỉ dẫn",
+    "examples": []
+  },
+  {
+    "order": 81,
+    "term": "hold up",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "chờ đã",
+    "examples": []
+  },
+  {
+    "order": 82,
+    "term": "in accordance with",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "phù hợp với",
+    "examples": []
+  },
+  {
+    "order": 83,
+    "term": "keep in mind",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "hãy ghi nhớ",
+    "examples": []
+  },
+  {
+    "order": 84,
+    "term": "suspect",
+    "reading": "/'sʌspekt/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "đáng ngờ, khả nghi, bị tình nghi",
+    "examples": []
+  },
+  {
+    "order": 85,
+    "term": "take one's advice",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "nghe theo lời khuyên của ai đó",
+    "examples": []
+  },
+  {
+    "order": 86,
+    "term": "to one's advantage",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "có lợi cho mình",
+    "examples": []
+  },
+  {
+    "order": 87,
+    "term": "under control",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "dưới sự kiểm soát",
+    "examples": []
+  },
+  {
+    "order": 88,
+    "term": "under the supervision of",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "dưới sự giám sát của",
+    "examples": []
+  },
+  {
+    "order": 89,
+    "term": "accuse",
+    "reading": "/ə'kju:z/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "buộc tội, kết tội, tố cáo",
+    "examples": []
+  },
+  {
+    "order": 90,
+    "term": "attorney",
+    "reading": "/ə'tə:ni/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "người được uỷ quyền đại diện trước toà, luật sư (ở Anh bây giờ thường dùng với ý đùa cợt hoặc làm giảm giá trị)",
+    "examples": []
+  },
+  {
+    "order": 91,
+    "term": "from this day onward",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "từ ngày này trở đi",
+    "examples": []
+  },
+  {
+    "order": 92,
+    "term": "have permission to do",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "được phép làm",
+    "examples": []
+  },
+  {
+    "order": 93,
+    "term": "ina strict way (= strictly",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "ina strict way (= strict",
+    "examples": []
+  },
+  {
+    "order": 94,
+    "term": "indecisive",
+    "reading": "/,indi'saisiv/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "do dự, lưỡng lự, không quả quyết, không dứt khoát, không quyết định, lờ mờ, không r",
+    "examples": []
+  },
+  {
+    "order": 95,
+    "term": "make clear",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "làm rõ",
+    "examples": []
+  },
+  {
+    "order": 96,
+    "term": "ministry",
+    "reading": "/'ministri/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Bộ, chính phủ nội các",
+    "examples": []
+  },
+  {
+    "order": 97,
+    "term": "newly established",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "mới thành lập",
+    "examples": []
+  },
+  {
+    "order": 98,
+    "term": "obey",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tuân theo, (máy tính) hoàn thành (lệnh)",
+    "examples": []
+  },
+  {
+    "order": 99,
+    "term": "observance",
+    "reading": "/əb'zə:vəns/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự tuân theo, sự tuân thủ, sự làm lễ",
+    "examples": []
+  },
+  {
+    "order": 100,
+    "term": "on-site",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tại chỗ",
+    "examples": []
+  },
+  {
+    "order": 101,
+    "term": "penalty",
+    "reading": "/'penlti/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "hình phạt, tiền phạt, quả phạt đền (bóng đá)",
+    "examples": []
+  },
+  {
+    "order": 102,
+    "term": "pointed",
+    "reading": "/'pɔintid/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "nhọn, có đầu nhọn, châm chọc, chua cay (lời nhận xét)",
+    "examples": []
+  },
+  {
+    "order": 103,
+    "term": "precious",
+    "reading": "/'preʃəs/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "quý, quý giá, quý báu, cầu kỳ, kiểu cách, đài các",
+    "examples": []
+  },
+  {
+    "order": 104,
+    "term": "punishment",
+    "reading": "/'pʌniʃmənt/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự phạt, sự trừng phạt, sự trừng trị, ,  (thông tục) sự hành hạ, sự ngược đãi",
+    "examples": []
+  },
+  {
+    "order": 105,
+    "term": "put into effect",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "có hiệu lực",
+    "examples": []
+  },
+  {
+    "order": 106,
+    "term": "restriction",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự hạn chế, sự thu hẹp, sự giới hạn, r. of a function sự thu hẹp của một hàm",
+    "examples": []
+  },
+  {
+    "order": 107,
+    "term": "safety inspection",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "kiểm tra an toàn",
+    "examples": []
+  },
+  {
+    "order": 108,
+    "term": "stand over",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đứng lên",
+    "examples": []
+  },
+  {
+    "order": 109,
+    "term": "suppress",
+    "reading": "/sə'pres/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "chặn (bệnh), triệt (tiếng ồn)",
+    "examples": []
+  },
+  {
+    "order": 110,
+    "term": "tensely",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "một cách căng thẳng",
+    "examples": []
+  },
+  {
+    "order": 111,
+    "term": "unauthorized",
+    "reading": "/'ʌn'ɔ:θəraizd/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "không được phép, trái phép",
+    "examples": []
+  },
+  {
+    "order": 112,
+    "term": "warn",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "báo trước lưu ý",
+    "examples": []
+  },
+  {
+    "order": 113,
+    "term": "with respect to",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "liên quan đến",
+    "examples": []
+  },
+  {
+    "order": 114,
+    "term": "without respect to",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "mà không tôn trọng",
+    "examples": []
+  },
+  {
+    "order": 115,
+    "term": "accordance",
+    "reading": "/ə'kɔ:dəns/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự đồng ý, sự thoả thuận (với ai), sự phù hợp, sự theo đúng (cái gì)",
+    "examples": []
+  },
+  {
+    "order": 116,
+    "term": "at the discretion of",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "theo quyết định của",
+    "examples": []
+  },
+  {
+    "order": 117,
+    "term": "bound",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "biên giới, ranh giới cận, b. of the error cận của sai số, giới hạn sai số",
+    "examples": []
+  },
+  {
+    "order": 118,
+    "term": "circumscribe",
+    "reading": "/'sə:kəmskrɑib/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "vẽ đường xung quanh, vẽ hình ngoại tiếp",
+    "examples": []
+  },
+  {
+    "order": 119,
+    "term": "commonplace",
+    "reading": "/'kɔmənpleis/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "điều đáng ghi vào sổ tay, việc tầm thường",
+    "examples": []
+  },
+  {
+    "order": 120,
+    "term": "crucial",
+    "reading": "/'kru:ʃjəl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "quyết định, cốt yếu, chủ yếu",
+    "examples": []
+  },
+  {
+    "order": 121,
+    "term": "effortlessly",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "dễ dàng",
+    "examples": []
+  },
+  {
+    "order": 122,
+    "term": "enactment",
+    "reading": "/i'nækʃn/ (enactment) /i'næktmənt/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự ban hành (đạo luật), đạo luật",
+    "examples": []
+  },
+  {
+    "order": 123,
+    "term": "in observance of",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "để tuân thủ",
+    "examples": []
+  },
+  {
+    "order": 124,
+    "term": "inadvertently",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "tình cờ, không cố ý",
+    "examples": []
+  },
+  {
+    "order": 125,
+    "term": "infringement",
+    "reading": "/in'frindʤmənt/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự vi phạm, sự xâm phạm",
+    "examples": []
+  },
+  {
+    "order": 126,
+    "term": "judicial",
+    "reading": "/dʤu:'diʃəl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "toà án, (thuộc) quan toà",
+    "examples": []
+  },
+  {
+    "order": 127,
+    "term": "keenly",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "sắc sảo, nhiệt tình, hăng hái",
+    "examples": []
+  },
+  {
+    "order": 128,
+    "term": "lawsuit",
+    "reading": "/'lɔ:sju:t/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "việc kiện cáo, việc tố tụng",
+    "examples": []
+  },
+  {
+    "order": 129,
+    "term": "legitimate",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "làm hợp pháp",
+    "examples": []
+  },
+  {
+    "order": 130,
+    "term": "observant",
+    "reading": "/əb'zə:vənst/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "hay quan sát, tinh mắt, tinh ý, tuân theo (luật pháp, phong tục...)",
+    "examples": []
+  },
+  {
+    "order": 131,
+    "term": "off-limits",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "bị cấm không được lui tới (cửa hàng)",
+    "examples": []
+  },
+  {
+    "order": 132,
+    "term": "ordinance",
+    "reading": "/'ɔ:dinəns/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sắc lệnh, quy định, lễ nghi",
+    "examples": []
+  },
+  {
+    "order": 133,
+    "term": "petition",
+    "reading": "/pi'tiʃn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự cầu xin, sự thỉnh cầu, đơn xin, đơn thỉnh cầu",
+    "examples": []
+  },
+  {
+    "order": 134,
+    "term": "protective smock",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "áo khoác bảo hộ",
+    "examples": []
+  },
+  {
+    "order": 135,
+    "term": "pulled",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "kéo",
+    "examples": []
+  },
+  {
+    "order": 136,
+    "term": "punctuality",
+    "reading": "/,pʌɳktju'æliti/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "tính đúng giờ (không chậm trễ)",
+    "examples": []
+  },
+  {
+    "order": 137,
+    "term": "reprimand",
+    "reading": "/'reprimɑ:nd/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "lời khiển trách, lời quở trách, khiển trách, quở trách",
+    "examples": []
+  },
+  {
+    "order": 138,
+    "term": "stiff",
+    "reading": "/stif/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "cứng, cứng đơ, ngay đơ, cứng rắn, kiên quyết, không nhân nhượng",
+    "examples": []
+  },
+  {
+    "order": 139,
+    "term": "substantiate",
+    "reading": "/səb'stænʃieit/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "chứng minh",
+    "examples": []
+  },
+  {
+    "order": 140,
+    "term": "testimony",
+    "reading": "/'testiməni/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự chứng nhận, sự nhận thực, lới chứng, lời khai",
+    "examples": []
+  },
+  {
+    "order": 141,
+    "term": "trespass",
+    "reading": "/'trespəs/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự xâm phạm, sự xâm lấn, sự xúc phạm",
+    "examples": []
+  }
+]

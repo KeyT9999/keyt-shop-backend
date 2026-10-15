@@ -1,0 +1,1406 @@
+[
+  {
+    "order": 1,
+    "term": "annual",
+    "reading": "/'ænjuəl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "hàng năm, năm một, từng năm, sống một năm (cây)",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "enroll",
+    "reading": "/in'roul/ (enroll) /in'roul/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "tuyển (quân...), kết nạp vào, ghi tên cho vào (hội...)",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "purpose",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "mục đích",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "attend",
+    "reading": "/ə'tend/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "dự, có mặt, chăm sóc, phục vụ, phục dịch",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "encourage",
+    "reading": "/in'kʌridʤ/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "làm can đảm, làm mạnh dạn, khuyến khích, cổ vũ, động viên",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "participant",
+    "reading": "/pɑ:'tisipənt/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "người tham gia, người tham dự, tham gia, tham dự",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "conference",
+    "reading": "/'kɔnfərəns/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự bàn bạc, sự hội ý, hội nghị",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "recommendation",
+    "reading": "/,rekəmen'deiʃn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự giới thiệu, sự tiến cử, làm cho người ta mến, đức tính làm cho có cảm tưởng tốt",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "schedule",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thời khoa biểu, chương trình, design s. (máy tính) bản tính",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "include",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "bao gồm, bao hàm, chứa trong",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "result",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "kết quả, thành tựu",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "grateful",
+    "reading": "/'greitful/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "biết ơn, dễ chịu, khoan khoái",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "overtime",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Làm việc thêm ngoài giờ.",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "require",
+    "reading": "/ri'kwaiə/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "đòi hỏi, yêu cầu, cần đến, cần phải có",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "responsibility",
+    "reading": "/ris,pɔnsə'biliti/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "trách nhiệm, gánh trách nhiệm",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "assent",
+    "reading": "/ə'sent/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự chuẩn y, sự phê chuẩn, sự đồng ý, sự tán thành",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "regard",
+    "reading": "/ri'gɑ:d/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "cái nhìn, sự quan tâm, sự chú ý, sự để ý",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "tentative",
+    "reading": "/'tentətiv/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "ướm, thử, sự thử, sự toan làm",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "commence",
+    "reading": "/kə'mens/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "bắt đầu, mở đầu, khởi đầu, trúng tuyển, đỗ",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "function",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "hàm, hàm số, chức năng // tác dụng, vận hành",
+    "examples": []
+  },
+  {
+    "order": 21,
+    "term": "objective",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "khách quan // mục tiêu",
+    "examples": []
+  },
+  {
+    "order": 22,
+    "term": "welcome",
+    "reading": "/'welk m/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "được tiếp đ i ân cần, được hoan nghênh, hay, dễ chịu, thú vị",
+    "examples": []
+  },
+  {
+    "order": 23,
+    "term": "emphasize",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "nhấn mạnh, làm nổi bật (sự kiện...)",
+    "examples": []
+  },
+  {
+    "order": 24,
+    "term": "excited",
+    "reading": "/ik'saitid/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "bị kích thích, bị kích động, sôi nổi",
+    "examples": []
+  },
+  {
+    "order": 25,
+    "term": "honor",
+    "reading": "/'ɔnə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "(như) honour",
+    "examples": []
+  },
+  {
+    "order": 26,
+    "term": "treatment",
+    "reading": "/'tri:tmənt/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự đối xử, sự đối đãi, sự cư xử (với người nào), sự điều trị",
+    "examples": []
+  },
+  {
+    "order": 27,
+    "term": "bonus",
+    "reading": "/'bounəs/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "tiền thưởng, tiền các",
+    "examples": []
+  },
+  {
+    "order": 28,
+    "term": "earn",
+    "reading": "/ə:n/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "kiếm được (tiền...), giành được (phần thưởng, sự khen ngợi...)",
+    "examples": []
+  },
+  {
+    "order": 29,
+    "term": "entry",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự ra nhập, (máy tính) đưa số (vào máy)",
+    "examples": []
+  },
+  {
+    "order": 30,
+    "term": "salary",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tiền lương",
+    "examples": []
+  },
+  {
+    "order": 31,
+    "term": "arise",
+    "reading": "/ə'raiz/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "xuất hiện, nảy sinh ra, xảy ra, phát sinh do",
+    "examples": []
+  },
+  {
+    "order": 32,
+    "term": "existing",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "hiện tại, hiện tồn",
+    "examples": []
+  },
+  {
+    "order": 33,
+    "term": "exploit",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "lợi dụng, bóc lột",
+    "examples": []
+  },
+  {
+    "order": 34,
+    "term": "labor",
+    "reading": "/'leibə/ (labor) /'leibə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "lao động, công việc, công việc nặng nhọc",
+    "examples": []
+  },
+  {
+    "order": 35,
+    "term": "union",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "hợp, u. of sets hợp nhất của các tập hợp",
+    "examples": []
+  },
+  {
+    "order": 36,
+    "term": "application",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "phép trải, sự ứng dụng",
+    "examples": []
+  },
+  {
+    "order": 37,
+    "term": "award ceremony",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "lễ trao giải",
+    "examples": []
+  },
+  {
+    "order": 38,
+    "term": "bold",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đậm (chữ)",
+    "examples": []
+  },
+  {
+    "order": 39,
+    "term": "chat",
+    "reading": "/tʃæt/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "chuyện phiếm, chuyện gẫu, chuyện thân thuộc",
+    "examples": []
+  },
+  {
+    "order": 40,
+    "term": "clap",
+    "reading": "/klæp/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "tiếng vỗ, tiếng kêu vang, tiếng nổ vang (sét đánh), sự vỗ",
+    "examples": []
+  },
+  {
+    "order": 41,
+    "term": "finely",
+    "reading": "/'fainnis/",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "đẹp đẽ, tế nhị, tinh vi",
+    "examples": []
+  },
+  {
+    "order": 42,
+    "term": "fireplace",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "lò sưởi",
+    "examples": []
+  },
+  {
+    "order": 43,
+    "term": "friendly",
+    "reading": "/'frendli/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "thân mật, thân thiết, thân thiện, thuận lợi, tiện lợi",
+    "examples": []
+  },
+  {
+    "order": 44,
+    "term": "gentle",
+    "reading": "/'dʤentl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "hiền lành, dịu dàng, hoà nhã, nhẹ nhàng",
+    "examples": []
+  },
+  {
+    "order": 45,
+    "term": "get paid",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "nhận thanh toán",
+    "examples": []
+  },
+  {
+    "order": 46,
+    "term": "grab",
+    "reading": "/græb/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "cái chộp, sự túm lấy, sự vồ lấy, sự tóm, sự cố tóm lấy",
+    "examples": []
+  },
+  {
+    "order": 47,
+    "term": "group",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nhóm // nhóm lại, g. of algebras nhóm các đại số",
+    "examples": []
+  },
+  {
+    "order": 48,
+    "term": "hook",
+    "reading": "/huk/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "cái móc, cái mác, bản lề cửa",
+    "examples": []
+  },
+  {
+    "order": 49,
+    "term": "in charge of",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "phụ trách",
+    "examples": []
+  },
+  {
+    "order": 50,
+    "term": "introduction",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "lời giới thiệu",
+    "examples": []
+  },
+  {
+    "order": 51,
+    "term": "lively",
+    "reading": "/'laivli/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "sống, sinh động, giống như thật, vui vẻ",
+    "examples": []
+  },
+  {
+    "order": 52,
+    "term": "loudspeaker",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "loa phóng thanh ((cũng) speaker)",
+    "examples": []
+  },
+  {
+    "order": 53,
+    "term": "lounge",
+    "reading": "/'laundʤ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự đi thơ thẩn, sự lang thang không mục đích, ghế dài, đi văng, ghế tựa",
+    "examples": []
+  },
+  {
+    "order": 54,
+    "term": "management seminar",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "hội thảo quản lý",
+    "examples": []
+  },
+  {
+    "order": 55,
+    "term": "pharmacy",
+    "reading": "/'fɑ:məsi/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "dược khoa, khoa bào chế",
+    "examples": []
+  },
+  {
+    "order": 56,
+    "term": "precise",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chính xác, xác định",
+    "examples": []
+  },
+  {
+    "order": 57,
+    "term": "prize",
+    "reading": "/prize/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "giải thưởng, phầm thưởng, điều mong ước, ước vọng",
+    "examples": []
+  },
+  {
+    "order": 58,
+    "term": "smoking section",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "khu vực xông khói",
+    "examples": []
+  },
+  {
+    "order": 59,
+    "term": "take a vacation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đi nghỉ mát",
+    "examples": []
+  },
+  {
+    "order": 60,
+    "term": "vacation",
+    "reading": "/və'keiʃn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự bỏ trống, sự bỏ không, sự bỏ, sự thôi",
+    "examples": []
+  },
+  {
+    "order": 61,
+    "term": "a letter of gratitude",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "một lá thư bày tỏ lòng biết ơn",
+    "examples": []
+  },
+  {
+    "order": 62,
+    "term": "check out",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "trả phòng",
+    "examples": []
+  },
+  {
+    "order": 63,
+    "term": "childcare",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chăm sóc trẻ em",
+    "examples": []
+  },
+  {
+    "order": 64,
+    "term": "credit A with B (= credit Bto A",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tín dụng A với B (= tín dụng Bto A",
+    "examples": []
+  },
+  {
+    "order": 65,
+    "term": "don't have the nerve to do",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "không có can đảm để làm",
+    "examples": []
+  },
+  {
+    "order": 66,
+    "term": "give a raise",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tăng lương",
+    "examples": []
+  },
+  {
+    "order": 67,
+    "term": "going away party",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tiệc đi xa",
+    "examples": []
+  },
+  {
+    "order": 68,
+    "term": "intentionally",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "cố ý, cố tình",
+    "examples": []
+  },
+  {
+    "order": 69,
+    "term": "it's about time",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đã đến lúc",
+    "examples": []
+  },
+  {
+    "order": 70,
+    "term": "it's no use -ing",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "nó không có ích gì -ing",
+    "examples": []
+  },
+  {
+    "order": 71,
+    "term": "job satisfaction",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự hài lòng về công ăn việc làm",
+    "examples": []
+  },
+  {
+    "order": 72,
+    "term": "just in case",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "chỉ trong trường hợp",
+    "examples": []
+  },
+  {
+    "order": 73,
+    "term": "keep A up to date",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "cập nhật thông tin mới nhất cho A",
+    "examples": []
+  },
+  {
+    "order": 74,
+    "term": "know A like the back of one's hand",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "biết A giống như mu bàn tay của một người",
+    "examples": []
+  },
+  {
+    "order": 75,
+    "term": "meanwhile",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "in the meantime trong lúc ấy, trong khi ấy, trong khi chờ đợi, trong lúc ấy, đang lúc ấy",
+    "examples": []
+  },
+  {
+    "order": 76,
+    "term": "miserable",
+    "reading": "/'maizərəbl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "cực khổ, khốn khổ, khổ sở, cùng khổ, đáng thương",
+    "examples": []
+  },
+  {
+    "order": 77,
+    "term": "paid leave",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "nghỉ phép có lương",
+    "examples": []
+  },
+  {
+    "order": 78,
+    "term": "pick up one's paycheck",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "nhận tiền lương của một người",
+    "examples": []
+  },
+  {
+    "order": 79,
+    "term": "pity",
+    "reading": "/'piti/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "lòng thương hại, lòng thương xót, lòng trắc ẩn, điều đáng thương hại, điều đáng tiếc",
+    "examples": []
+  },
+  {
+    "order": 80,
+    "term": "privately",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "riêng, tư, cá nhân, tư nhân",
+    "examples": []
+  },
+  {
+    "order": 81,
+    "term": "psychological",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tâm lý học",
+    "examples": []
+  },
+  {
+    "order": 82,
+    "term": "put in some overtime",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "làm thêm giờ",
+    "examples": []
+  },
+  {
+    "order": 83,
+    "term": "safety drill",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "diễn tập an toàn",
+    "examples": []
+  },
+  {
+    "order": 84,
+    "term": "sensitivity",
+    "reading": "/,sensi'tiviti/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "tính dễ cảm xúc, tính nhạy cảm",
+    "examples": []
+  },
+  {
+    "order": 85,
+    "term": "show around",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tham quan xung quanh",
+    "examples": []
+  },
+  {
+    "order": 86,
+    "term": "stacks of books",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "chồng sách",
+    "examples": []
+  },
+  {
+    "order": 87,
+    "term": "surprisingly",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "làm ngạc nhiên, làm kinh ngạc, đáng sửng sốt",
+    "examples": []
+  },
+  {
+    "order": 88,
+    "term": "take place",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "diễn ra",
+    "examples": []
+  },
+  {
+    "order": 89,
+    "term": "take some time off",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "nghỉ ngơi một thời gian",
+    "examples": []
+  },
+  {
+    "order": 90,
+    "term": "terribly",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "rất tệ, không chịu nổi",
+    "examples": []
+  },
+  {
+    "order": 91,
+    "term": "terrific",
+    "reading": "/tə'rifik/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "khủng khiếp, kinh khủng, hết mức",
+    "examples": []
+  },
+  {
+    "order": 92,
+    "term": "the next best",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tốt nhất tiếp theo",
+    "examples": []
+  },
+  {
+    "order": 93,
+    "term": "thrilling",
+    "reading": "/'θriliɳ/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "làm rùng mình, cảm động, xúc động, hồi hộp, ly kỳ",
+    "examples": []
+  },
+  {
+    "order": 94,
+    "term": "be tired of",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "mệt mỏi vì",
+    "examples": []
+  },
+  {
+    "order": 95,
+    "term": "biannual",
+    "reading": "/bai'ænjuəl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "một năm hai lần",
+    "examples": []
+  },
+  {
+    "order": 96,
+    "term": "charitable",
+    "reading": "/'tʃæritəbl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "nhân đức, từ thiện, có lòng thảo",
+    "examples": []
+  },
+  {
+    "order": 97,
+    "term": "course of study",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "khóa học",
+    "examples": []
+  },
+  {
+    "order": 98,
+    "term": "depressed",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "bị giảm, bị hạ",
+    "examples": []
+  },
+  {
+    "order": 99,
+    "term": "extra pay",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "lương trả thêm",
+    "examples": []
+  },
+  {
+    "order": 100,
+    "term": "featured speaker",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "diễn giả nổi bật",
+    "examples": []
+  },
+  {
+    "order": 101,
+    "term": "generous",
+    "reading": "/'dʤenərəs/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "rộng lượng, khoan hồng, rộng rãi, hào phóng",
+    "examples": []
+  },
+  {
+    "order": 102,
+    "term": "laugh away",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "cười phá lên",
+    "examples": []
+  },
+  {
+    "order": 103,
+    "term": "merit",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chất lượng, tính năng",
+    "examples": []
+  },
+  {
+    "order": 104,
+    "term": "night shift",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "ca đêm",
+    "examples": []
+  },
+  {
+    "order": 105,
+    "term": "occupational safety and health",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "an toàn vệ sinh lao động",
+    "examples": []
+  },
+  {
+    "order": 106,
+    "term": "overtime allowance",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "phụ cấp làm thêm giờ",
+    "examples": []
+  },
+  {
+    "order": 107,
+    "term": "overtime rate",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "mức lương làm thêm giờ",
+    "examples": []
+  },
+  {
+    "order": 108,
+    "term": "paid vacation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "kỳ nghỉ được trả lương",
+    "examples": []
+  },
+  {
+    "order": 109,
+    "term": "pay increase",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tăng lương",
+    "examples": []
+  },
+  {
+    "order": 110,
+    "term": "pension",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Tiền lương hưu.",
+    "examples": []
+  },
+  {
+    "order": 111,
+    "term": "poorly paid",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "được trả lương thấp",
+    "examples": []
+  },
+  {
+    "order": 112,
+    "term": "reference number",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "số tham chiếu",
+    "examples": []
+  },
+  {
+    "order": 113,
+    "term": "respectfully",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "lễ phép, kính cẩn, bày tỏ sự kính trọng",
+    "examples": []
+  },
+  {
+    "order": 114,
+    "term": "retirement party",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tiệc nghỉ hưu",
+    "examples": []
+  },
+  {
+    "order": 115,
+    "term": "retirement plan",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "kế hoạch nghỉ hưu",
+    "examples": []
+  },
+  {
+    "order": 116,
+    "term": "salary and benefits",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tiền lương và phúc lợi",
+    "examples": []
+  },
+  {
+    "order": 117,
+    "term": "sheltered housing",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "nhà ở có mái che",
+    "examples": []
+  },
+  {
+    "order": 118,
+    "term": "sick leave",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "nghỉ ốm",
+    "examples": []
+  },
+  {
+    "order": 119,
+    "term": "sign up",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đăng ký",
+    "examples": []
+  },
+  {
+    "order": 120,
+    "term": "strong-willed",
+    "reading": "/'strɔɳ'wild/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "cứng cỏi, kiên quyết",
+    "examples": []
+  },
+  {
+    "order": 121,
+    "term": "time-off",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "thời gian nghỉ",
+    "examples": []
+  },
+  {
+    "order": 122,
+    "term": "unused",
+    "reading": "/' n'ju:zd/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "không dùng, chưa dùng đến",
+    "examples": []
+  },
+  {
+    "order": 123,
+    "term": "welfare",
+    "reading": "/'welfe /",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "hạnh phúc, phúc lợi",
+    "examples": []
+  },
+  {
+    "order": 124,
+    "term": "work environment",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "môi trường làm việc",
+    "examples": []
+  },
+  {
+    "order": 125,
+    "term": "working condition",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "điều kiện làm việc",
+    "examples": []
+  },
+  {
+    "order": 126,
+    "term": "chronological",
+    "reading": "/,krɔnə'lɔdʤik/ (chronological) /,krɔnə'lɔdʤikəl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "niên đại học, theo thứ tự niên đại",
+    "examples": []
+  },
+  {
+    "order": 127,
+    "term": "citation",
+    "reading": "/sai'teiʃn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự dẫn, sự trích dẫn, câu trích dẫn, đoạn trích dẫn",
+    "examples": []
+  },
+  {
+    "order": 128,
+    "term": "commemorate",
+    "reading": "/kə'memə'reiʃn/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "kỷ niệm, tưởng nhớ, là vật để kỷ niệm",
+    "examples": []
+  },
+  {
+    "order": 129,
+    "term": "conjunction",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự liên hợp, (logic học) phép hội, hội",
+    "examples": []
+  },
+  {
+    "order": 130,
+    "term": "cut benefits",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "cắt giảm phúc lợi",
+    "examples": []
+  },
+  {
+    "order": 131,
+    "term": "discriminate",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "phân biệt khác nhau, tách ra",
+    "examples": []
+  },
+  {
+    "order": 132,
+    "term": "distort",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "xoắn, vặn, làm biến dạng, làm méo",
+    "examples": []
+  },
+  {
+    "order": 133,
+    "term": "exhibitor",
+    "reading": "/ig'zibitə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "người phô trương, người phô bày, người trưng bày, người triển lãm, chủ rạp chiếu bóng",
+    "examples": []
+  },
+  {
+    "order": 134,
+    "term": "flextime",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thời gian linh hoạt",
+    "examples": []
+  },
+  {
+    "order": 135,
+    "term": "fringe benefits",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "phúc lợi phụ",
+    "examples": []
+  },
+  {
+    "order": 136,
+    "term": "get reimbursed for",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "được bồi hoàn",
+    "examples": []
+  },
+  {
+    "order": 137,
+    "term": "give in",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "nhượng bộ",
+    "examples": []
+  },
+  {
+    "order": 138,
+    "term": "goodwill",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Thiện chí.",
+    "examples": []
+  },
+  {
+    "order": 139,
+    "term": "kindhearted",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "tốt bung",
+    "examples": []
+  },
+  {
+    "order": 140,
+    "term": "knock off",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "knock off",
+    "examples": []
+  },
+  {
+    "order": 141,
+    "term": "labor costs",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "chi phí nhân công",
+    "examples": []
+  },
+  {
+    "order": 142,
+    "term": "labor dispute",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tranh chấp lao động",
+    "examples": []
+  },
+  {
+    "order": 143,
+    "term": "maternity leave",
+    "reading": "/mə'tə:niti'li:v/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "phép nghỉ đẻ, thời gian nghỉ đẻ",
+    "examples": []
+  },
+  {
+    "order": 144,
+    "term": "misuse",
+    "reading": "/'mis'ju:zidʤ/ (misuse) /'mis'ju:s/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự dùng sai, sự lạm dụng, sự hành hạ, sự bạc đâi, sự ngược đãi",
+    "examples": []
+  },
+  {
+    "order": 145,
+    "term": "nursery",
+    "reading": "/'nə:sri/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "phòng dành riêng cho tre bú, nhà trẻ",
+    "examples": []
+  },
+  {
+    "order": 146,
+    "term": "nursing",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự chăm sóc bệnh nhân, sự điều dưỡng",
+    "examples": []
+  },
+  {
+    "order": 147,
+    "term": "off-peak",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "ngoài cao điểm (điện, vé, giá cả )",
+    "examples": []
+  },
+  {
+    "order": 148,
+    "term": "pending",
+    "reading": "/'pendiɳ/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "chưa quyết định, chưa giải quyết, còn để treo đó, (pháp lý) chưa xử",
+    "examples": []
+  },
+  {
+    "order": 149,
+    "term": "pique",
+    "reading": "/pi:k/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự hờn giận, sự giận dỗi, sự oán giận, chạm tự ái của (ai)",
+    "examples": []
+  },
+  {
+    "order": 150,
+    "term": "sabotage",
+    "reading": "/'sæbətɑ:ʤ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự phá ngầm, sự phá hoại, phá ngầm, phá hoại",
+    "examples": []
+  },
+  {
+    "order": 151,
+    "term": "salary review",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đánh giá lương",
+    "examples": []
+  },
+  {
+    "order": 152,
+    "term": "second",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thứ hai, giay (thời gian)",
+    "examples": []
+  },
+  {
+    "order": 153,
+    "term": "severance pay",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "số tiền phải thanh toán cho người làm công khi hợp đồng của họ đã kết thúc",
+    "examples": []
+  },
+  {
+    "order": 154,
+    "term": "spry",
+    "reading": "/sprai/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "nhanh nhẹn, hoạt bát",
+    "examples": []
+  },
+  {
+    "order": 155,
+    "term": "straightforward",
+    "reading": "/'streit'fɔ:wəd/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "thành thật, thẳng thắn, cởi mở",
+    "examples": []
+  },
+  {
+    "order": 156,
+    "term": "yearn",
+    "reading": "/jə:n/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "mong mỏi, ao ước, khao khát, nóng lòng, thương mến",
+    "examples": []
+  }
+]

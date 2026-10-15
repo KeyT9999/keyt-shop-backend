@@ -1,0 +1,1424 @@
+[
+  {
+    "order": 1,
+    "term": "fuel",
+    "reading": "/fjuəl/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "chất đốt, nhiên liệu, cái khích động",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "opportunity",
+    "reading": "/,ɔpə'tju:niti/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "cơ hội, thời cơ, tính chất đúng lúc",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "permit",
+    "reading": "/'pə:mit/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "giấy phép, sự cho phép[pə'mit]",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "transportation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự vận tải, sư vận chuyển",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "clearly",
+    "reading": "/'kliəli/",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "rõ ràng, sáng sủa, sáng tỏ, cố nhiên, hẳn đi rồi (trong câu trả lời)",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "detailed",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "được làm chi tiết",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "ongoing",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đang diễn ra",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "alternative",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "loại trừ nhau (giả thiết)",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "designated",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "được chỉ định",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "intersection",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "giao, i. of events (xác suất) giao của các biến số",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "obtain",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đạt được, thu được",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "automotive",
+    "reading": "/,ɔ:tə'moutiv/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "tự động, máy móc tự động",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "closure",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cái bao đóng, integral c. bao đóng nguyên",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "commute",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "giao hoán chuyển mạch",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "downtown",
+    "reading": "/'dauntaun/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "khu buôn bán kinh doanh (của một thành phố), (thuộc) khu buôn bán kinh doanh, ở khu buôn bán kinh doanh (của một thành phố)",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "equip",
+    "reading": "/i'kwip/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "trang bị (cho ai... cái gì)",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "platform",
+    "reading": "/'plætfɔ:m/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "nền, bục, bệ, sân ga",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "vehicle",
+    "reading": "/'vi:ikl/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "xe, xe cộ, vật truyền, phương tiện truyền bá",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "fare",
+    "reading": "/feə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "tiền xe, tiền đò, tiền phà, tiền vé (tàu, máy bay...)",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "official",
+    "reading": "/ə'fiʃəl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "chính quyền, (thuộc) văn phòng",
+    "examples": []
+  },
+  {
+    "order": 21,
+    "term": "transit",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự qua kinh tuyến",
+    "examples": []
+  },
+  {
+    "order": 22,
+    "term": "drive",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "điều khiển, lái, sự chuyển động, automatic d. sự truyền tự động",
+    "examples": []
+  },
+  {
+    "order": 23,
+    "term": "expense",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tiêu dùng, sử dụng, tiền phí tổn at the same e. cùng giá",
+    "examples": []
+  },
+  {
+    "order": 24,
+    "term": "head",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đầu phần trên, phần trước, đề mục",
+    "examples": []
+  },
+  {
+    "order": 25,
+    "term": "trust",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự tin tưởng, (toán kinh tế) từ rớt, tín dụng",
+    "examples": []
+  },
+  {
+    "order": 26,
+    "term": "fine",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chính xác, thuần tuý, (tô pô) mịn // làm sạch",
+    "examples": []
+  },
+  {
+    "order": 27,
+    "term": "pass",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "vượt qua",
+    "examples": []
+  },
+  {
+    "order": 28,
+    "term": "prominently",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "lồi lên, nhô lên, dễ thấy, nổi bật",
+    "examples": []
+  },
+  {
+    "order": 29,
+    "term": "reserved",
+    "reading": "/ri'zə:vd/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "dành, dành riêng, dành trước, kín đáo",
+    "examples": []
+  },
+  {
+    "order": 30,
+    "term": "average",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "trung bình at the a. ở mức trung bình, above a. trên trung bình",
+    "examples": []
+  },
+  {
+    "order": 31,
+    "term": "collision",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự va chạm, double c. va chạm kép",
+    "examples": []
+  },
+  {
+    "order": 32,
+    "term": "obstruct",
+    "reading": "/əb'strʌkt/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "làm tắc, làm bế tắc, làm nghẽn, ngăn, che, lấp, che khuất",
+    "examples": []
+  },
+  {
+    "order": 33,
+    "term": "reverse",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "ngược, nghịch đảo",
+    "examples": []
+  },
+  {
+    "order": 34,
+    "term": "tow",
+    "reading": "/tou/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "xơ (lanh, gai), sự dắt, sự lai, sự kéo (tàu thuyền, đoàn toa móc)",
+    "examples": []
+  },
+  {
+    "order": 35,
+    "term": "have yet to do",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "vẫn chưa thực hiện",
+    "examples": []
+  },
+  {
+    "order": 36,
+    "term": "access to",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "truy cập vào",
+    "examples": []
+  },
+  {
+    "order": 37,
+    "term": "bus stop",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "trạm xe buýt",
+    "examples": []
+  },
+  {
+    "order": 38,
+    "term": "busy street",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "phố đông đúc",
+    "examples": []
+  },
+  {
+    "order": 39,
+    "term": "cab",
+    "reading": "/kæb/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "xe tắc xi, xe ngựa thuê",
+    "examples": []
+  },
+  {
+    "order": 40,
+    "term": "car rental",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "thuê xe",
+    "examples": []
+  },
+  {
+    "order": 41,
+    "term": "cite",
+    "reading": "/sait/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "dẫn, trích dẫn, đòi ra toà",
+    "examples": []
+  },
+  {
+    "order": 42,
+    "term": "crosswalk",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "như pedestrian crossing",
+    "examples": []
+  },
+  {
+    "order": 43,
+    "term": "free parking",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "chỗ đỗ xe miễn phí",
+    "examples": []
+  },
+  {
+    "order": 44,
+    "term": "gas station",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "trạm xăng",
+    "examples": []
+  },
+  {
+    "order": 45,
+    "term": "get off",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "được giảm",
+    "examples": []
+  },
+  {
+    "order": 46,
+    "term": "hang",
+    "reading": "/hæɳ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự cúi xuống, sự gục xuống, dốc, mặt dốc",
+    "examples": []
+  },
+  {
+    "order": 47,
+    "term": "hood",
+    "reading": "/hud/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "mũ trùm đầu (áo mưa...), huy hiệu học vị (gắn trên áo hay mũ trùm đầu để cho học vị ở trường đại học)",
+    "examples": []
+  },
+  {
+    "order": 48,
+    "term": "on foot",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đi bộ",
+    "examples": []
+  },
+  {
+    "order": 49,
+    "term": "park",
+    "reading": "/pɑ:k/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "vườn hoa, công viên, bâi (bâi đất, thường có thú rừng",
+    "examples": []
+  },
+  {
+    "order": 50,
+    "term": "path",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "bước, đường đi, quỹ đạo",
+    "examples": []
+  },
+  {
+    "order": 51,
+    "term": "route",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "hành trình, con đường",
+    "examples": []
+  },
+  {
+    "order": 52,
+    "term": "sharp",
+    "reading": "/ʃɑ:p/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "sắt, nhọn, bén, rõ ràng, rõ rệt, sắc nét",
+    "examples": []
+  },
+  {
+    "order": 53,
+    "term": "solve",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "giải, (toán kinh tế) trả tiền, thanh toán",
+    "examples": []
+  },
+  {
+    "order": 54,
+    "term": "stand",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đứng, đặt để",
+    "examples": []
+  },
+  {
+    "order": 55,
+    "term": "subway station",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "ga tàu điện ngầm",
+    "examples": []
+  },
+  {
+    "order": 56,
+    "term": "tour bus",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "xe buýt du lịch",
+    "examples": []
+  },
+  {
+    "order": 57,
+    "term": "traffic light",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "tín hiệu giao thông, đèn xanh đèn đỏ",
+    "examples": []
+  },
+  {
+    "order": 58,
+    "term": "wall",
+    "reading": "/wɔ:l/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "tường, vách, thàn, thành luỹ, thành quách",
+    "examples": []
+  },
+  {
+    "order": 59,
+    "term": "wash the car",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "rửa xe",
+    "examples": []
+  },
+  {
+    "order": 60,
+    "term": "wheel",
+    "reading": "/wi:l/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "bánh (xe) ((nghĩa đen) & (nghĩa bóng)), hệ thống bánh xe (của máy...)",
+    "examples": []
+  },
+  {
+    "order": 61,
+    "term": "across the street",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "bên kia đường",
+    "examples": []
+  },
+  {
+    "order": 62,
+    "term": "be closed to traffic",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "bị cấm tham gia giao thông",
+    "examples": []
+  },
+  {
+    "order": 63,
+    "term": "be held up in traffic",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "bị kẹt xe",
+    "examples": []
+  },
+  {
+    "order": 64,
+    "term": "be lined with",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "được lót bằng",
+    "examples": []
+  },
+  {
+    "order": 65,
+    "term": "broadcast",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "phát thanh hoặc truyền hình, quảng bá",
+    "examples": []
+  },
+  {
+    "order": 66,
+    "term": "bypass",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đi vòng quanh",
+    "examples": []
+  },
+  {
+    "order": 67,
+    "term": "carpool",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đi chung xe",
+    "examples": []
+  },
+  {
+    "order": 68,
+    "term": "come to a standstill",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "trở nên bế tắc",
+    "examples": []
+  },
+  {
+    "order": 69,
+    "term": "commuter",
+    "reading": "/kə'mju:tə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "người đi làm bằng vé tháng",
+    "examples": []
+  },
+  {
+    "order": 70,
+    "term": "cross the street",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "băng qua đường",
+    "examples": []
+  },
+  {
+    "order": 71,
+    "term": "direct traffic",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "lưu lượng truy cập trực tiếp",
+    "examples": []
+  },
+  {
+    "order": 72,
+    "term": "driver's license",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "bằng lái xe",
+    "examples": []
+  },
+  {
+    "order": 73,
+    "term": "driveway",
+    "reading": "/'draivwei/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "đường lái xe vào nhà (trong khu vực một toà nhà)",
+    "examples": []
+  },
+  {
+    "order": 74,
+    "term": "driving direction",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "hướng lái xe",
+    "examples": []
+  },
+  {
+    "order": 75,
+    "term": "footrest (= footstool",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "chỗ để chân (= bệ để chân)",
+    "examples": []
+  },
+  {
+    "order": 76,
+    "term": "get lost",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "biến mất",
+    "examples": []
+  },
+  {
+    "order": 77,
+    "term": "get to",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đến",
+    "examples": []
+  },
+  {
+    "order": 78,
+    "term": "getaride",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "getaride",
+    "examples": []
+  },
+  {
+    "order": 79,
+    "term": "give Aaride",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "cho Aaride",
+    "examples": []
+  },
+  {
+    "order": 80,
+    "term": "have a flat tire",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "bị xẹp lốp",
+    "examples": []
+  },
+  {
+    "order": 81,
+    "term": "headlight",
+    "reading": "/'hedlait/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "đèn pha (ô tô, xe lửa, xe điện, tàu thuỷ...)",
+    "examples": []
+  },
+  {
+    "order": 82,
+    "term": "land at the dock",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "cập bến",
+    "examples": []
+  },
+  {
+    "order": 83,
+    "term": "lane",
+    "reading": "/lein/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "đường nhỏ, đường làng, đường hẻm, ngõ hẻm (ở thành phố)",
+    "examples": []
+  },
+  {
+    "order": 84,
+    "term": "license plate number",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "biển số xe",
+    "examples": []
+  },
+  {
+    "order": 85,
+    "term": "lock the key in the car",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "khóa chìa khóa trong xe",
+    "examples": []
+  },
+  {
+    "order": 86,
+    "term": "make a stop",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "dừng lại",
+    "examples": []
+  },
+  {
+    "order": 87,
+    "term": "make a transfer",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "thực hiện chuyển khoản",
+    "examples": []
+  },
+  {
+    "order": 88,
+    "term": "march",
+    "reading": "/mɑ:tʃ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "March tháng ba, cuộc hành quân",
+    "examples": []
+  },
+  {
+    "order": 89,
+    "term": "mileage",
+    "reading": "/'mailidʤ/ (milage) /'mailidʤ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "tổng số dặm đã đi được, phụ cấp đi đường (tính theo dặm)",
+    "examples": []
+  },
+  {
+    "order": 90,
+    "term": "navigation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "hàng hải, hàng hải học, đạo hàng, môn dẫn đường",
+    "examples": []
+  },
+  {
+    "order": 91,
+    "term": "one-way ticket",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "vé một chiều",
+    "examples": []
+  },
+  {
+    "order": 92,
+    "term": "at full speed",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "ở tốc độ tối đa",
+    "examples": []
+  },
+  {
+    "order": 93,
+    "term": "clear A from B",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "xóa A khỏi B",
+    "examples": []
+  },
+  {
+    "order": 94,
+    "term": "collide",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "va chạm, đối lập",
+    "examples": []
+  },
+  {
+    "order": 95,
+    "term": "congested",
+    "reading": "/kən'dʤestid/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "đông nghịt, chật ních, sung huyết",
+    "examples": []
+  },
+  {
+    "order": 96,
+    "term": "creation",
+    "reading": "/kri:'eiʃn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự tạo thành, sự sáng tạo (thế giới), sự sáng tác",
+    "examples": []
+  },
+  {
+    "order": 97,
+    "term": "encounter",
+    "reading": "/in'kauntə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự gặp gỡ, sự bắt gặp, sự gặp phải",
+    "examples": []
+  },
+  {
+    "order": 98,
+    "term": "motivate",
+    "reading": "/'moutiveit/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "thúc đẩy, làm động cơ thúc đẩy, tích cực tận tuỵ vì có động cơ rõ rệt",
+    "examples": []
+  },
+  {
+    "order": 99,
+    "term": "move forward",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tiến lên phía trước",
+    "examples": []
+  },
+  {
+    "order": 100,
+    "term": "normal",
+    "reading": "/'nɔ:məl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "thường, thông thường, bình thường, tiêu chuẩn",
+    "examples": []
+  },
+  {
+    "order": 101,
+    "term": "parking garage",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "nhà để xe",
+    "examples": []
+  },
+  {
+    "order": 102,
+    "term": "pathway",
+    "reading": "/'pɑ:θwei/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "đường mòn, đường nhỏ",
+    "examples": []
+  },
+  {
+    "order": 103,
+    "term": "principal (= primary",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "hiệu trưởng (= chính",
+    "examples": []
+  },
+  {
+    "order": 104,
+    "term": "public transportation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "phương tiện giao thông công cộng",
+    "examples": []
+  },
+  {
+    "order": 105,
+    "term": "push one's way through",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đẩy một cách của một người thông qua",
+    "examples": []
+  },
+  {
+    "order": 106,
+    "term": "ride away",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đi xe",
+    "examples": []
+  },
+  {
+    "order": 107,
+    "term": "road sign",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "biển báo đường bộ",
+    "examples": []
+  },
+  {
+    "order": 108,
+    "term": "roadwork (= road construction",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "công tác đường bộ (= xây dựng đường bộ",
+    "examples": []
+  },
+  {
+    "order": 109,
+    "term": "shortcut",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "phím rút gọn, phím tắt",
+    "examples": []
+  },
+  {
+    "order": 110,
+    "term": "standing room",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "phòng đứng",
+    "examples": []
+  },
+  {
+    "order": 111,
+    "term": "steering wheel",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "vô lăng",
+    "examples": []
+  },
+  {
+    "order": 112,
+    "term": "still",
+    "reading": "/stil/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "im, yên, tĩnh mịch, làm thinh, nín lặng",
+    "examples": []
+  },
+  {
+    "order": 113,
+    "term": "stop at a tight",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "dừng lại ở một điểm chặt chẽ",
+    "examples": []
+  },
+  {
+    "order": 114,
+    "term": "stop for fuel",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "dừng để lấy nhiên liệu",
+    "examples": []
+  },
+  {
+    "order": 115,
+    "term": "storage compartment",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "ngăn chứa",
+    "examples": []
+  },
+  {
+    "order": 116,
+    "term": "street sign",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "biển báo đường phố",
+    "examples": []
+  },
+  {
+    "order": 117,
+    "term": "toll price",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "phí cầu đường",
+    "examples": []
+  },
+  {
+    "order": 118,
+    "term": "traffic congestion",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tắc nghẽn giao thông",
+    "examples": []
+  },
+  {
+    "order": 119,
+    "term": "traffic jam",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự ách tắc giao thông",
+    "examples": []
+  },
+  {
+    "order": 120,
+    "term": "traffic signal",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đèn tín hiệu giao thông",
+    "examples": []
+  },
+  {
+    "order": 121,
+    "term": "valuable",
+    "reading": "/'væljuəbl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "có giá trị lớn, quý giá, có thể đánh giá được, có thể định giá được",
+    "examples": []
+  },
+  {
+    "order": 122,
+    "term": "volunteer",
+    "reading": "/,vɔlən'tiə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "quân tình nguyện, người tình nguyện, người xung phong",
+    "examples": []
+  },
+  {
+    "order": 123,
+    "term": "waiking distance",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "khoảng cách từ bỏ",
+    "examples": []
+  },
+  {
+    "order": 124,
+    "term": "walk through",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đi bộ qua",
+    "examples": []
+  },
+  {
+    "order": 125,
+    "term": "walkway",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "đường dành cho người đi bộ",
+    "examples": []
+  },
+  {
+    "order": 126,
+    "term": "windshield",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "<Mỹ> kính chắn gió xe hơi, kính chắn gió xe máy",
+    "examples": []
+  },
+  {
+    "order": 127,
+    "term": "be towed away",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "được kéo đi",
+    "examples": []
+  },
+  {
+    "order": 128,
+    "term": "bear (= carry",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "gấu (= mang theo",
+    "examples": []
+  },
+  {
+    "order": 129,
+    "term": "bicycle rack",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "giá để xe đạp",
+    "examples": []
+  },
+  {
+    "order": 130,
+    "term": "carriage",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "bàn trượt (của máy tính trên bàn), xe (lửa, ngựa)",
+    "examples": []
+  },
+  {
+    "order": 131,
+    "term": "compact car",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "xe nhỏ gọn",
+    "examples": []
+  },
+  {
+    "order": 132,
+    "term": "conform to",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "phù hợp với",
+    "examples": []
+  },
+  {
+    "order": 133,
+    "term": "drawbridge",
+    "reading": "/'drɔ:bridʤ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "cầu sắt",
+    "examples": []
+  },
+  {
+    "order": 134,
+    "term": "emphatic",
+    "reading": "/im'fætik/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "nhấn mạnh, nhấn giọng, mang trọng âm (âm tiết)",
+    "examples": []
+  },
+  {
+    "order": 135,
+    "term": "fuel-efficient",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tiết kiệm nhiên liệu",
+    "examples": []
+  },
+  {
+    "order": 136,
+    "term": "give off",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "cho đi",
+    "examples": []
+  },
+  {
+    "order": 137,
+    "term": "gratuity",
+    "reading": "/grə'tju:iti/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "tiền thưởng (khi) về hưu, tiền thưởng (khi) giải ngũ",
+    "examples": []
+  },
+  {
+    "order": 138,
+    "term": "hastily",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "vội vàng, hấp tấp",
+    "examples": []
+  },
+  {
+    "order": 139,
+    "term": "inconveniently",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "bất tiện, phiền phức",
+    "examples": []
+  },
+  {
+    "order": 140,
+    "term": "navigate",
+    "reading": "/'nævigeit/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "lái (tàu, thuyền, máy bay...), đi sông, đi biển, vượt biển, bay",
+    "examples": []
+  },
+  {
+    "order": 141,
+    "term": "necessitate",
+    "reading": "/ni'sesiteit/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "bắt phải, đòi hỏi phải, cần phải có",
+    "examples": []
+  },
+  {
+    "order": 142,
+    "term": "opposition",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự đối lập, o. of proposition (logic học) sự phủ định của một mệnh đề",
+    "examples": []
+  },
+  {
+    "order": 143,
+    "term": "overnight express",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "chuyển phát nhanh qua đêm",
+    "examples": []
+  },
+  {
+    "order": 144,
+    "term": "pass by",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đi ngang qua",
+    "examples": []
+  },
+  {
+    "order": 145,
+    "term": "passerby",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "người qua đường",
+    "examples": []
+  },
+  {
+    "order": 146,
+    "term": "pave",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "lát",
+    "examples": []
+  },
+  {
+    "order": 147,
+    "term": "pedestrian",
+    "reading": "/pi'destriən/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "bằng chân, bộ, đi bộ",
+    "examples": []
+  },
+  {
+    "order": 148,
+    "term": "pull into",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "kéo vào",
+    "examples": []
+  },
+  {
+    "order": 149,
+    "term": "ramp",
+    "reading": "/ræmp/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "dốc, bờ dốc, đoạn đường thoai thoải, thang lên máy bay",
+    "examples": []
+  },
+  {
+    "order": 150,
+    "term": "refurbish",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "tân trang lại, trang trí lại",
+    "examples": []
+  },
+  {
+    "order": 151,
+    "term": "ridership",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "hành khách",
+    "examples": []
+  },
+  {
+    "order": 152,
+    "term": "sidewalk",
+    "reading": "/'saidwɔ:k/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "vỉa hè, lề đường",
+    "examples": []
+  },
+  {
+    "order": 153,
+    "term": "specialist",
+    "reading": "/'speʃəlist/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "chuyên gia, chuyên viên, nhà chuyên khoa",
+    "examples": []
+  },
+  {
+    "order": 154,
+    "term": "spoke",
+    "reading": "/spouk/",
+    "romaji": "",
+    "partOfSpeech": "Thời quá khứ của speak",
+    "meaning": "cái nan hoa, bậc thang, nấc thang",
+    "examples": []
+  },
+  {
+    "order": 155,
+    "term": "streetcar",
+    "reading": "/'stri:tkɑ:/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "xe điện ((cũng) tram,  tram-car)",
+    "examples": []
+  },
+  {
+    "order": 156,
+    "term": "surround",
+    "reading": "/sə'raund/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "tấm quanh thảm (phủ khoảng sàn nhà giữa thảm và tường), bao quanh, vây quanh",
+    "examples": []
+  },
+  {
+    "order": 157,
+    "term": "towing service",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "dịch vụ kéo xe",
+    "examples": []
+  },
+  {
+    "order": 158,
+    "term": "wagon",
+    "reading": "/'wægən/ (waggon) /'wægən/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "xe ngựa, xe bò (chở hàng), toa trần (chở hàng)",
+    "examples": []
+  }
+]

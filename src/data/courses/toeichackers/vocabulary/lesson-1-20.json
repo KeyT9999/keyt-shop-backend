@@ -1,0 +1,1523 @@
+[
+  {
+    "order": 1,
+    "term": "accounting",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "kế toán, quyết toán, thanh toán",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "audit",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thử, kiểm nghiệm",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "budget",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "ngân sách",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "curtail",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "rút ngắn",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "deficit",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Thâm hụt",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "financial",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "(thuộc) tài chính",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "capability",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "khả năng, quyền hạn",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "committee",
+    "reading": "/kə'miti/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "uỷ ban",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "frequently",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "thường xuyên",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "recently",
+    "reading": "/'ri:sntli/",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "gần đây, mới đây",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "substantially",
+    "reading": "/səb'stænʃəli/",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "về thực chất, về căn bản",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "adequate",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "phù hợp, thích hợp",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "comparison",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "so sánh",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "considerably",
+    "reading": "/kən'sidərəbli/",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "đáng kể, lớn lao, nhiều",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "proceeds",
+    "reading": "/proceeds/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "số thu nhập, tiền lời, lãi",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "allocate",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sắp xếp, phân bố",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "inspector",
+    "reading": "/in'spektə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "người thanh tra, phó trưởng khu cảnh sát",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "preferred",
+    "reading": "/pri'fə:d/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "được thích hơn, được ưa hơn, được ưu đâi, được ưu tiên",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "total",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "toàn phần, tổng cộng",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "browse",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đọc lướt",
+    "examples": []
+  },
+  {
+    "order": 21,
+    "term": "deduct",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "trừ đi",
+    "examples": []
+  },
+  {
+    "order": 22,
+    "term": "interrupt",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "gián đoạn, đứt đoạn",
+    "examples": []
+  },
+  {
+    "order": 23,
+    "term": "prompt",
+    "reading": "/prompt/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "xúi giục, thúc giục",
+    "examples": []
+  },
+  {
+    "order": 24,
+    "term": "quarter",
+    "reading": "/'kwɔ:tə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "một phần tư, mười lăm phút",
+    "examples": []
+  },
+  {
+    "order": 25,
+    "term": "amend",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tu chính (đ)",
+    "examples": []
+  },
+  {
+    "order": 26,
+    "term": "calculate",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tính toán",
+    "examples": []
+  },
+  {
+    "order": 27,
+    "term": "exempt",
+    "reading": "/ig'zempt/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "được miễn (thuế...), người được miễn (thuế...)",
+    "examples": []
+  },
+  {
+    "order": 28,
+    "term": "measurement",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "phép đo, chiều đo, hệ thống đo, actual m. phép đo theo kích thước tự nhiên",
+    "examples": []
+  },
+  {
+    "order": 29,
+    "term": "shorten",
+    "reading": "/'ʃɔ:tn/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "thu ngắn lại, thu hẹp vào, mặc quần soóc (cho trẻ em)",
+    "examples": []
+  },
+  {
+    "order": 30,
+    "term": "accurately",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "đúng đắn, chính xác, xác đáng",
+    "examples": []
+  },
+  {
+    "order": 31,
+    "term": "compare",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "so sánh",
+    "examples": []
+  },
+  {
+    "order": 32,
+    "term": "deficient",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "khuyết, thiếu",
+    "examples": []
+  },
+  {
+    "order": 33,
+    "term": "expenditure",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự tiêu dùng, sự sử dụng",
+    "examples": []
+  },
+  {
+    "order": 34,
+    "term": "fortunate",
+    "reading": "/'fɔ:tʃnit/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "may mắn, có phúc, tốt số, tốt, thuận lợi",
+    "examples": []
+  },
+  {
+    "order": 35,
+    "term": "worth",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "giá, w. of a game (lý thuyết trò chơi) giá của trò chơi",
+    "examples": []
+  },
+  {
+    "order": 36,
+    "term": "contend",
+    "reading": "/kən'tend/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "chiến đấu, đấu tranh, tranh giành, ganh đua",
+    "examples": []
+  },
+  {
+    "order": 37,
+    "term": "excess",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "dư, số thừa, (thống kê) dộ nhọn",
+    "examples": []
+  },
+  {
+    "order": 38,
+    "term": "fiscal",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "(thuộc) thu nhập",
+    "examples": []
+  },
+  {
+    "order": 39,
+    "term": "incidental",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "không cốt yếu, không thực chất",
+    "examples": []
+  },
+  {
+    "order": 40,
+    "term": "inflation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Lạm phát.",
+    "examples": []
+  },
+  {
+    "order": 41,
+    "term": "liable",
+    "reading": "/'laiəbl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "có trách nhiệm về pháp lý, có nghĩa vụ về pháp lý, có bổn phận, có khả năng bị",
+    "examples": []
+  },
+  {
+    "order": 42,
+    "term": "spend",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tiêu (dùng)",
+    "examples": []
+  },
+  {
+    "order": 43,
+    "term": "turnover",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "vòng quay, sự tròn xoay",
+    "examples": []
+  },
+  {
+    "order": 44,
+    "term": "abundant",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thừa",
+    "examples": []
+  },
+  {
+    "order": 45,
+    "term": "addition",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "phép cộng, a. of complex numbers phép cộng các số phức, tổng các số phức",
+    "examples": []
+  },
+  {
+    "order": 46,
+    "term": "advisor",
+    "reading": "/əd'vaizə/ (advisor) /əd'vaizə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "người khuyên bảo, người chỉ bảo, cố vấn",
+    "examples": []
+  },
+  {
+    "order": 47,
+    "term": "attack",
+    "reading": "/ə'tæk/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự tấn công, sự công kích, cơn (bệnh)",
+    "examples": []
+  },
+  {
+    "order": 48,
+    "term": "contest",
+    "reading": "/kən'test/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "cuộc tranh luận, cuộc tranh cãi, cuộc thi",
+    "examples": []
+  },
+  {
+    "order": 49,
+    "term": "expressive",
+    "reading": "/iks'presiv/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "có ý nghĩa, diễn cảm",
+    "examples": []
+  },
+  {
+    "order": 50,
+    "term": "fund",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "quỹ",
+    "examples": []
+  },
+  {
+    "order": 51,
+    "term": "funding",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Đổi nợ, đảo nợ, cấp vồn, tài trợ.",
+    "examples": []
+  },
+  {
+    "order": 52,
+    "term": "generate",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tạo (ra), phát sinh ra",
+    "examples": []
+  },
+  {
+    "order": 53,
+    "term": "glass cabinet",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tủ kính",
+    "examples": []
+  },
+  {
+    "order": 54,
+    "term": "in the coming year",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "trong năm tới",
+    "examples": []
+  },
+  {
+    "order": 55,
+    "term": "in the direction of",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "theo hướng",
+    "examples": []
+  },
+  {
+    "order": 56,
+    "term": "model number",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "số model",
+    "examples": []
+  },
+  {
+    "order": 57,
+    "term": "overcome",
+    "reading": "/,ouvə'kʌm/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "thắng, chiến thắng, vượt qua, khắc phục (khó khăn...)",
+    "examples": []
+  },
+  {
+    "order": 58,
+    "term": "picture",
+    "reading": "/'piktʃə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "bức tranh, bức ảnh, bức vẽ, chân dung",
+    "examples": []
+  },
+  {
+    "order": 59,
+    "term": "powerful",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "có sức, có lực mạnh",
+    "examples": []
+  },
+  {
+    "order": 60,
+    "term": "proper",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chân chính, riêng",
+    "examples": []
+  },
+  {
+    "order": 61,
+    "term": "question",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "câu hỏi, vấn đề, open ended q. (thống kê) vấn đề có vô số giải đáp",
+    "examples": []
+  },
+  {
+    "order": 62,
+    "term": "rare",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "hiếm",
+    "examples": []
+  },
+  {
+    "order": 63,
+    "term": "score",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "dấu, (lý thuyết trò chơi) sự đếm điểm",
+    "examples": []
+  },
+  {
+    "order": 64,
+    "term": "senior",
+    "reading": "/'si:njə/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "Senior nhiều tuổi hơn, bố (ghi sau tên họ người, để phân biệt hai bố con cùng tên hay hai ba học sinh cùng tên), nhiều tuổi hơn, cao cấp hơn, lâu năm hơn, ở trình độ cao hơn",
+    "examples": []
+  },
+  {
+    "order": 65,
+    "term": "shore",
+    "reading": "/ʃɔ:/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "bờ (biển, hồ lớn), bờ biển, phần đất giữa hai nước triều",
+    "examples": []
+  },
+  {
+    "order": 66,
+    "term": "spending",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chi tiêu",
+    "examples": []
+  },
+  {
+    "order": 67,
+    "term": "temporary",
+    "reading": "/'tempərəri/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "tạm thời, nhất thời, lâm thời",
+    "examples": []
+  },
+  {
+    "order": 68,
+    "term": "theme",
+    "reading": "/θi:m/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "đề tài, chủ đề, luận văn, bài luận",
+    "examples": []
+  },
+  {
+    "order": 69,
+    "term": "tie",
+    "reading": "/tai/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "dây buộc, dây cột, dây trói, dây giày",
+    "examples": []
+  },
+  {
+    "order": 70,
+    "term": "traditionat",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "traditionat",
+    "examples": []
+  },
+  {
+    "order": 71,
+    "term": "A and B alike",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "A và B giống nhau",
+    "examples": []
+  },
+  {
+    "order": 72,
+    "term": "a copy of",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "một bản sao của",
+    "examples": []
+  },
+  {
+    "order": 73,
+    "term": "accountant",
+    "reading": "/ə'kauntənt/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "nhân viên kế toán, người giữ sổ sách kế toán, người có trách nhiệm báo cáo về sổ sách kế toán",
+    "examples": []
+  },
+  {
+    "order": 74,
+    "term": "at a fast pace",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "với tốc độ nhanh",
+    "examples": []
+  },
+  {
+    "order": 75,
+    "term": "be similar to",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tương tự như",
+    "examples": []
+  },
+  {
+    "order": 76,
+    "term": "bring together",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tập hợp lại với nhau",
+    "examples": []
+  },
+  {
+    "order": 77,
+    "term": "by contrast",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "ngược lại",
+    "examples": []
+  },
+  {
+    "order": 78,
+    "term": "certainly",
+    "reading": "/'sə:tnli/",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "chắc, nhất định, hẳn thế, hẳn đi, hẳn là thế, tất nhiên, dĩ nhiên (dùng trong câu trả lời)",
+    "examples": []
+  },
+  {
+    "order": 79,
+    "term": "charge for",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tính phí cho",
+    "examples": []
+  },
+  {
+    "order": 80,
+    "term": "chief financial officer (CFO",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "giám đốc tài chính (CFO)",
+    "examples": []
+  },
+  {
+    "order": 81,
+    "term": "corrective",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sửa (sai), hiệu đính",
+    "examples": []
+  },
+  {
+    "order": 82,
+    "term": "cut down",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "cắt giảm",
+    "examples": []
+  },
+  {
+    "order": 83,
+    "term": "decide on",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "quyết định",
+    "examples": []
+  },
+  {
+    "order": 84,
+    "term": "displace",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "dời chỗ, thế",
+    "examples": []
+  },
+  {
+    "order": 85,
+    "term": "far from",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "cách xa",
+    "examples": []
+  },
+  {
+    "order": 86,
+    "term": "flat",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "phẳng, bẹt",
+    "examples": []
+  },
+  {
+    "order": 87,
+    "term": "flawless",
+    "reading": "/'flɔ:lis/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "không có vết, không rạn nứt, không có chỗ hỏng",
+    "examples": []
+  },
+  {
+    "order": 88,
+    "term": "frequency",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tần số, angular f. tần số góc",
+    "examples": []
+  },
+  {
+    "order": 89,
+    "term": "handbook",
+    "reading": "/'hændbuk/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sổ tay hướng dẫn, sách chỉ nam",
+    "examples": []
+  },
+  {
+    "order": 90,
+    "term": "handwritten",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "viết bằng tay (thay vì đánh máy)",
+    "examples": []
+  },
+  {
+    "order": 91,
+    "term": "impressively",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "hùng vự, nguy nga, gợi cảm",
+    "examples": []
+  },
+  {
+    "order": 92,
+    "term": "keep to oneself",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "giữ cho riêng mình",
+    "examples": []
+  },
+  {
+    "order": 93,
+    "term": "overly",
+    "reading": "/'ouvəli/",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "quá, thái quá, quá mức",
+    "examples": []
+  },
+  {
+    "order": 94,
+    "term": "phenomenon",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "hiện tượng, jump p. (điều khiển học) hiện tượng nhảy",
+    "examples": []
+  },
+  {
+    "order": 95,
+    "term": "reasonable",
+    "reading": "/'ri:znəbl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "có lý, hợp lý, biết lẽ phải, biết điều",
+    "examples": []
+  },
+  {
+    "order": 96,
+    "term": "record high",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "mức cao kỷ lục",
+    "examples": []
+  },
+  {
+    "order": 97,
+    "term": "reset",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "lập lại",
+    "examples": []
+  },
+  {
+    "order": 98,
+    "term": "see if",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "xem",
+    "examples": []
+  },
+  {
+    "order": 99,
+    "term": "sequel",
+    "reading": "/'si:kwəl/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự tiếp tục, đoạn tiếp, cuốn tiếp theo (tiểu thuyết...)",
+    "examples": []
+  },
+  {
+    "order": 100,
+    "term": "sharpen",
+    "reading": "/'ʃɑ:pən/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "mài, vót cho nhọn, mài sắc",
+    "examples": []
+  },
+  {
+    "order": 101,
+    "term": "side by side",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "cạnh nhau",
+    "examples": []
+  },
+  {
+    "order": 102,
+    "term": "_ activate",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "_ kích hoạt",
+    "examples": []
+  },
+  {
+    "order": 103,
+    "term": "A be followed by B",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "A được theo sau bởi B",
+    "examples": []
+  },
+  {
+    "order": 104,
+    "term": "a string of",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "một chuỗi",
+    "examples": []
+  },
+  {
+    "order": 105,
+    "term": "add upto",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "thêm tối đa",
+    "examples": []
+  },
+  {
+    "order": 106,
+    "term": "annual budget",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "ngân sách hàng năm",
+    "examples": []
+  },
+  {
+    "order": 107,
+    "term": "annual report",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "báo cáo hàng năm",
+    "examples": []
+  },
+  {
+    "order": 108,
+    "term": "badly",
+    "reading": "/'bædli/",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "xấu, tồi, dở, bậy, ác",
+    "examples": []
+  },
+  {
+    "order": 109,
+    "term": "barely",
+    "reading": "/'beəli/",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "công khai, rõ ràng, rỗng không, trơ trụi",
+    "examples": []
+  },
+  {
+    "order": 110,
+    "term": "be owned by",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "được sở hữu bởi",
+    "examples": []
+  },
+  {
+    "order": 111,
+    "term": "be suited for",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "phù hợp với",
+    "examples": []
+  },
+  {
+    "order": 112,
+    "term": "bookkeeper",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nhân viên kế toán",
+    "examples": []
+  },
+  {
+    "order": 113,
+    "term": "bound for",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "bị ràng buộc cho",
+    "examples": []
+  },
+  {
+    "order": 114,
+    "term": "calculation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự tính toán, phép tính, automatic c. tính toán tự động",
+    "examples": []
+  },
+  {
+    "order": 115,
+    "term": "cancellation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự giản ước, sự triệt tiêu nhau",
+    "examples": []
+  },
+  {
+    "order": 116,
+    "term": "capital",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "vốn, tư bản // chính, quan trọng, circulating c. (toán kinh tế) vốn luân chuyển, tư bản lưu thông",
+    "examples": []
+  },
+  {
+    "order": 117,
+    "term": "category",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "phạm trù, hạng mục, c. of sets phạm trù tập hợp",
+    "examples": []
+  },
+  {
+    "order": 118,
+    "term": "claim refund",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "yêu cầu hoàn tiền",
+    "examples": []
+  },
+  {
+    "order": 119,
+    "term": "collectively",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "một cách tập thể",
+    "examples": []
+  },
+  {
+    "order": 120,
+    "term": "combine A with B",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "kết hợp A với B",
+    "examples": []
+  },
+  {
+    "order": 121,
+    "term": "commercial use",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "sử dụng cho mục đích thương",
+    "examples": []
+  },
+  {
+    "order": 122,
+    "term": "common interest",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "lợi ích chung",
+    "examples": []
+  },
+  {
+    "order": 123,
+    "term": "compose",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "soạn, sáng tác",
+    "examples": []
+  },
+  {
+    "order": 124,
+    "term": "consulting firm",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "công ty tư vấn",
+    "examples": []
+  },
+  {
+    "order": 125,
+    "term": "conversion",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự biến đổi, sự chuyển",
+    "examples": []
+  },
+  {
+    "order": 126,
+    "term": "digit",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chữ số, hàng số, d.s with like place values các chữ số cùng hàng",
+    "examples": []
+  },
+  {
+    "order": 127,
+    "term": "monetary",
+    "reading": "/'mʌnitəri/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "tiền tệ, tiền tài",
+    "examples": []
+  },
+  {
+    "order": 128,
+    "term": "outlay",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tiền chi tiêu, phí tổn",
+    "examples": []
+  },
+  {
+    "order": 129,
+    "term": "place of origin",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "nơi xuất xứ",
+    "examples": []
+  },
+  {
+    "order": 130,
+    "term": "purchase order",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đơn đặt hàng",
+    "examples": []
+  },
+  {
+    "order": 131,
+    "term": "rigorously",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nghiêm khắc",
+    "examples": []
+  },
+  {
+    "order": 132,
+    "term": "set up a date",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "thiết lập ngày",
+    "examples": []
+  },
+  {
+    "order": 133,
+    "term": "shipping and handling fee",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "phí vận chuyển và bốc dỡ",
+    "examples": []
+  },
+  {
+    "order": 134,
+    "term": "take after",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "take after",
+    "examples": []
+  },
+  {
+    "order": 135,
+    "term": "unfamiliar",
+    "reading": "/'ʌnfə'miljə/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "không quen, không biết, lạ",
+    "examples": []
+  },
+  {
+    "order": 136,
+    "term": "unplug device",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "rút phích cắm thiết bị",
+    "examples": []
+  },
+  {
+    "order": 137,
+    "term": "well in advance",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "trước một thời gian dài",
+    "examples": []
+  },
+  {
+    "order": 138,
+    "term": "adjournment",
+    "reading": "/ə'dʤə:nmənt/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự hoãn lại, sự dời sang một nơi khác (để hội họp)",
+    "examples": []
+  },
+  {
+    "order": 139,
+    "term": "amply",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "dư dả, đầy đủ",
+    "examples": []
+  },
+  {
+    "order": 140,
+    "term": "back order",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đơn hàng chưa thanh toán",
+    "examples": []
+  },
+  {
+    "order": 141,
+    "term": "be in the black",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "mặc đồ đen",
+    "examples": []
+  },
+  {
+    "order": 142,
+    "term": "be in the red",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "có màu đỏ",
+    "examples": []
+  },
+  {
+    "order": 143,
+    "term": "break-even point",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "điểm hòa vốn",
+    "examples": []
+  },
+  {
+    "order": 144,
+    "term": "by a considerable margin",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "bằng một biên độ đáng kể",
+    "examples": []
+  },
+  {
+    "order": 145,
+    "term": "cash reserves",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "dự trữ tiền mặt",
+    "examples": []
+  },
+  {
+    "order": 146,
+    "term": "classification",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự phân loại, sự phân lớp, sự phân hạng, attributive c. sự phân theo thuộc tính",
+    "examples": []
+  },
+  {
+    "order": 147,
+    "term": "cut one's losses",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "cắt lỗ",
+    "examples": []
+  },
+  {
+    "order": 148,
+    "term": "discrepancy",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự phân kỳ, sự khác nhau",
+    "examples": []
+  },
+  {
+    "order": 149,
+    "term": "implicate",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "kéo theo",
+    "examples": []
+  },
+  {
+    "order": 150,
+    "term": "in place",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tại chỗ",
+    "examples": []
+  },
+  {
+    "order": 151,
+    "term": "inconsistency",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tính không nhất quán",
+    "examples": []
+  },
+  {
+    "order": 152,
+    "term": "incrementally",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "gia tăng, tăng thêm",
+    "examples": []
+  },
+  {
+    "order": 153,
+    "term": "levy",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thu thuế",
+    "examples": []
+  },
+  {
+    "order": 154,
+    "term": "liability",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "được phép, phải",
+    "examples": []
+  },
+  {
+    "order": 155,
+    "term": "operation budget",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "ngân sách hoạt động",
+    "examples": []
+  },
+  {
+    "order": 156,
+    "term": "plus tax",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "cộng thuế",
+    "examples": []
+  },
+  {
+    "order": 157,
+    "term": "precedent",
+    "reading": "/'presidənt/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "tiền lệ, lệ trước, trước",
+    "examples": []
+  },
+  {
+    "order": 158,
+    "term": "preclude",
+    "reading": "/pri'klu:d/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "loại trừ, trừ bỏ, ngăn ngừa",
+    "examples": []
+  },
+  {
+    "order": 159,
+    "term": "pretax",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "trước khi khấu trừ thuế",
+    "examples": []
+  },
+  {
+    "order": 160,
+    "term": "pros and cons",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "thuận và chống, tán thành và phản đối, những lý luận thuận và chống, những lý luận tán thành và phản đối",
+    "examples": []
+  },
+  {
+    "order": 161,
+    "term": "relevance",
+    "reading": "/'relivəns/ (relevancy) /'relivənsi/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự thích đáng, sự thích hợp, sự xác đáng",
+    "examples": []
+  },
+  {
+    "order": 162,
+    "term": "reliably",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "chắc chắn, đáng tin cậy, xác thực (tin tức...)",
+    "examples": []
+  },
+  {
+    "order": 163,
+    "term": "statistics",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thống kê học, thống kê, accident s. thống kê những tai nạn",
+    "examples": []
+  },
+  {
+    "order": 164,
+    "term": "stringently",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "nghiêm ngặt, nghiêm khắc, chặt chẽ (về nội quy, luật pháp...), khan hiếm (tiền)",
+    "examples": []
+  },
+  {
+    "order": 165,
+    "term": "substantively",
+    "reading": "/'sʌbstəntivli/",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "(dùng) như danh từ, lâu đài",
+    "examples": []
+  },
+  {
+    "order": 166,
+    "term": "vary from A to B",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "thay đổi từ A đến B",
+    "examples": []
+  },
+  {
+    "order": 167,
+    "term": "whereabout",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nơi ở",
+    "examples": []
+  },
+  {
+    "order": 168,
+    "term": "year-end",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "kết thúc, cuối tài khóa",
+    "examples": []
+  },
+  {
+    "order": 169,
+    "term": "be assigned to",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "được chỉ định cho",
+    "examples": []
+  }
+]

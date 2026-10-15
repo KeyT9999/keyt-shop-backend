@@ -1,0 +1,1514 @@
+[
+  {
+    "order": 1,
+    "term": "brisk",
+    "reading": "/brisk/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "nhanh, nhanh nhẩu, nhanh nhẹn, lanh lợi",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "dramatically",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "đột ngột",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "stagnant",
+    "reading": "/'stægnənt/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "ứ đọng, tù hãm, phẳng lặng như nước ao tù",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "unstable",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "không ổn định",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "analyst",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "phân tích viên",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "assert",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "khẳng định, giữ vững",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "boost",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tăng điện thế",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "pleased",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "hài lòng (thể hiện sự thoả mãn về ai/cái gì), sẵn lòng, vui mừng, vui vẻ được làm cái gì",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "potential",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thế, thế vị, advanced p. thế vị sớm, thế vị trước",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "rapidly",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "nhanh, nhanh chóng, mau lẹ, đứng, rất dốc (về dốc)",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "soar",
+    "reading": "/sɔ:/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự bay vút lên, tầm bay vút lên",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "costly",
+    "reading": "/'kɔstli/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "đắt tiền, quý giá, tốn tiền, hao tiền tốn của",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "limited",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "bị chặn, bị hạn chế",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "particular",
+    "reading": "/pə'tikjulə/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "đặc biệt, đặc thù, cá biệt, riêng biệt",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "remain",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "còn lại",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "drastic",
+    "reading": "/'dræstik/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "tác động mạnh mẽ, quyết liệt, xổ mạnh, tẩy mạnh",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "evenly",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đều",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "evidence",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự rõ ràng",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "lead",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tờ, lá, diệp",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "prospect",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "quang cảnh, viễn cảnh, triển vọng",
+    "examples": []
+  },
+  {
+    "order": 21,
+    "term": "fall",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự rơi, cột nước, bậc nước, thác nước",
+    "examples": []
+  },
+  {
+    "order": 22,
+    "term": "indicator",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "làm chỉ tiêu, bộ phận chỉ",
+    "examples": []
+  },
+  {
+    "order": 23,
+    "term": "industry",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "công nghiệp, lĩnh vực công nghiệp",
+    "examples": []
+  },
+  {
+    "order": 24,
+    "term": "likely",
+    "reading": "/'laikli/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "chắc đúng, có lẽ đúng, có lẽ thật, có thể",
+    "examples": []
+  },
+  {
+    "order": 25,
+    "term": "period",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chu kỳ, thời kỳ, p. of circulating decimal chu kỳ của một số thập phân tuần hoàn",
+    "examples": []
+  },
+  {
+    "order": 26,
+    "term": "boom",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự buôn bán phát đạt",
+    "examples": []
+  },
+  {
+    "order": 27,
+    "term": "consequence",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "hệ quả, hậu quả",
+    "examples": []
+  },
+  {
+    "order": 28,
+    "term": "director",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thiết bị chỉ hướng, dụng cụ điều khiển",
+    "examples": []
+  },
+  {
+    "order": 29,
+    "term": "substitute",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thế",
+    "examples": []
+  },
+  {
+    "order": 30,
+    "term": "economical",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tiét kiện",
+    "examples": []
+  },
+  {
+    "order": 31,
+    "term": "fairly",
+    "reading": "/'feəli/",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "công bằng, không thiên vị, chính đáng",
+    "examples": []
+  },
+  {
+    "order": 32,
+    "term": "implication",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "phép tất suy, sự kéo theo, i. of events (xác suất) sự kéo theo các sự kiện",
+    "examples": []
+  },
+  {
+    "order": 33,
+    "term": "thrive",
+    "reading": "/θraiv/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "thịnh vượng, phát đạt, lớn nhanh, mau lớn, phát triển mạnh",
+    "examples": []
+  },
+  {
+    "order": 34,
+    "term": "wane",
+    "reading": "/wein/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự khuyết, tuần trăng khuyết, sự tàn",
+    "examples": []
+  },
+  {
+    "order": 35,
+    "term": "adversity",
+    "reading": "/əd'və:siti/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự bất hạnh, vận đen, vận rủi",
+    "examples": []
+  },
+  {
+    "order": 36,
+    "term": "depression",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự giảm, sự hạ, vlđc. miền áp suất thấp",
+    "examples": []
+  },
+  {
+    "order": 37,
+    "term": "dwindle",
+    "reading": "/'dwind/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "nhỏ lại, thu nhỏ lại, teo đi, co lại, thoái hoá, suy đi",
+    "examples": []
+  },
+  {
+    "order": 38,
+    "term": "impede",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cản trở",
+    "examples": []
+  },
+  {
+    "order": 39,
+    "term": "promising",
+    "reading": "/promising/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "đầy hứa hẹn, đầy triển vọng",
+    "examples": []
+  },
+  {
+    "order": 40,
+    "term": "prosperity",
+    "reading": "/prosperity/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự thịnh vượng, sự phát đạt, sự phồn vinh, sự thành công",
+    "examples": []
+  },
+  {
+    "order": 41,
+    "term": "beginning",
+    "reading": "/bi'giniɳ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "phần đầu, lúc bắt đầu, lúc khởi đầu",
+    "examples": []
+  },
+  {
+    "order": 42,
+    "term": "business hours",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "giờ làm việc",
+    "examples": []
+  },
+  {
+    "order": 43,
+    "term": "cast",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "ném, quăng",
+    "examples": []
+  },
+  {
+    "order": 44,
+    "term": "CEO (chief executive officer",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "Giám đốc điều hành (CEO)",
+    "examples": []
+  },
+  {
+    "order": 45,
+    "term": "contribution to",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đóng góp cho",
+    "examples": []
+  },
+  {
+    "order": 46,
+    "term": "convenient",
+    "reading": "/kən'vi:njənt/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "tiện lợi, thuận lợi, thích hợp",
+    "examples": []
+  },
+  {
+    "order": 47,
+    "term": "differently",
+    "reading": "/'difrəntli/",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "khác, khác nhau, khác biệt",
+    "examples": []
+  },
+  {
+    "order": 48,
+    "term": "economy",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nền kinh tế, expanding e. nền kinh tế phát triển",
+    "examples": []
+  },
+  {
+    "order": 49,
+    "term": "enterprise",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "xí nghiệp",
+    "examples": []
+  },
+  {
+    "order": 50,
+    "term": "firm",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "hàng buôn // rắn, bền, ổn định",
+    "examples": []
+  },
+  {
+    "order": 51,
+    "term": "formally",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "một cách trang trọng, chính thức",
+    "examples": []
+  },
+  {
+    "order": 52,
+    "term": "franchise",
+    "reading": "/'fræntʃaiz/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "quyền bầu cử, tư cách hội viên",
+    "examples": []
+  },
+  {
+    "order": 53,
+    "term": "industrial",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "công nghiệp",
+    "examples": []
+  },
+  {
+    "order": 54,
+    "term": "lightly",
+    "reading": "/'laitli/",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "nhẹ, nhẹ nhàng",
+    "examples": []
+  },
+  {
+    "order": 55,
+    "term": "merge",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "hợp vào, lẫn vào",
+    "examples": []
+  },
+  {
+    "order": 56,
+    "term": "nice-looking",
+    "reading": "/'nais'lukiɳ/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "xinh, đáng yêu",
+    "examples": []
+  },
+  {
+    "order": 57,
+    "term": "not A but B",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "không phải A mà là B",
+    "examples": []
+  },
+  {
+    "order": 58,
+    "term": "optimistic",
+    "reading": "/,ɔpti'mistik/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "lạc quan chủ nghĩa",
+    "examples": []
+  },
+  {
+    "order": 59,
+    "term": "overall",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "khắp cả",
+    "examples": []
+  },
+  {
+    "order": 60,
+    "term": "plenty",
+    "reading": "/'plenti/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự sung túc, sự phong phú, sự dồi dào, sự có nhiều, sừng dê kết hoa quả (tượng trưng cho sự phong phú)",
+    "examples": []
+  },
+  {
+    "order": 61,
+    "term": "possibility",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "khả năng, tính có thể",
+    "examples": []
+  },
+  {
+    "order": 62,
+    "term": "private",
+    "reading": "/private/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "riêng, tư, cá nhân, riêng, mật, kín",
+    "examples": []
+  },
+  {
+    "order": 63,
+    "term": "rise",
+    "reading": "/raiz/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự lên, sự đưa lên, sự kéo lên, sự dâng, lên, sự tăng lên",
+    "examples": []
+  },
+  {
+    "order": 64,
+    "term": "situation",
+    "reading": "/,sitju'eiʃn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "vị trí, địa thế, tình thế, tình cảnh, hoàn cảnh, trạng thái",
+    "examples": []
+  },
+  {
+    "order": 65,
+    "term": "speed up",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tăng tốc",
+    "examples": []
+  },
+  {
+    "order": 66,
+    "term": "strengthen",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tăng cường, gia cố",
+    "examples": []
+  },
+  {
+    "order": 67,
+    "term": "trading",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự kinh doanh, việc mua bán",
+    "examples": []
+  },
+  {
+    "order": 68,
+    "term": "up-and-down",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "lắm núi đồi, lộn xộn, lên lên xuống xuống",
+    "examples": []
+  },
+  {
+    "order": 69,
+    "term": "accumulation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự tích luỹ, sự tụ, điểm tụ",
+    "examples": []
+  },
+  {
+    "order": 70,
+    "term": "ascend",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tăng, tiến, đi lên, trềo lên",
+    "examples": []
+  },
+  {
+    "order": 71,
+    "term": "be related to",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "có liên quan đến",
+    "examples": []
+  },
+  {
+    "order": 72,
+    "term": "blueprint",
+    "reading": "/'blu:'ribən/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "thiết kế, lên kế hoạch",
+    "examples": []
+  },
+  {
+    "order": 73,
+    "term": "bring in",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "mang vào",
+    "examples": []
+  },
+  {
+    "order": 74,
+    "term": "brokerage",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Hoa hồng môi giới.",
+    "examples": []
+  },
+  {
+    "order": 75,
+    "term": "business deal",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "giao dịch kinh doanh",
+    "examples": []
+  },
+  {
+    "order": 76,
+    "term": "business management",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "quản lý kinh doanh",
+    "examples": []
+  },
+  {
+    "order": 77,
+    "term": "commerce",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thương mại",
+    "examples": []
+  },
+  {
+    "order": 78,
+    "term": "family-run",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "do gia đình tự quản",
+    "examples": []
+  },
+  {
+    "order": 79,
+    "term": "fluctuation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự thăng giáng, sự dao động, biến thiên",
+    "examples": []
+  },
+  {
+    "order": 80,
+    "term": "for business",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "cho doanh nghiệp",
+    "examples": []
+  },
+  {
+    "order": 81,
+    "term": "foreign trade",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "ngoại thương",
+    "examples": []
+  },
+  {
+    "order": 82,
+    "term": "go into business",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đi vào kinh doanh",
+    "examples": []
+  },
+  {
+    "order": 83,
+    "term": "go out of business",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "ngừng hoạt động kinh doanh",
+    "examples": []
+  },
+  {
+    "order": 84,
+    "term": "indifferent",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "không phân biệt",
+    "examples": []
+  },
+  {
+    "order": 85,
+    "term": "mutual",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tương hỗ",
+    "examples": []
+  },
+  {
+    "order": 86,
+    "term": "nationwide",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "khắp cả nước, toàn quốc",
+    "examples": []
+  },
+  {
+    "order": 87,
+    "term": "need monitoring",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "cần theo dõi",
+    "examples": []
+  },
+  {
+    "order": 88,
+    "term": "neighboring",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "như neighbouring",
+    "examples": []
+  },
+  {
+    "order": 89,
+    "term": "prolong",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "kéo dài, mở rộng thác triển",
+    "examples": []
+  },
+  {
+    "order": 90,
+    "term": "real estate sale",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "bán bất động sản",
+    "examples": []
+  },
+  {
+    "order": 91,
+    "term": "recession",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Suy thoái.",
+    "examples": []
+  },
+  {
+    "order": 92,
+    "term": "relevantly",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "phù hợp",
+    "examples": []
+  },
+  {
+    "order": 93,
+    "term": "relieve pain",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "giảm đau",
+    "examples": []
+  },
+  {
+    "order": 94,
+    "term": "role model",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "mô hình vai trò",
+    "examples": []
+  },
+  {
+    "order": 95,
+    "term": "session",
+    "reading": "/'seʃn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "buổi họp, phiên họp, kỳ họp, hội nghị",
+    "examples": []
+  },
+  {
+    "order": 96,
+    "term": "stimulate",
+    "reading": "/'stimjuleit/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "kích thích, khuyến khích",
+    "examples": []
+  },
+  {
+    "order": 97,
+    "term": "supplement",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "phần phụ, s. of an angle (phần) phụ của một góc",
+    "examples": []
+  },
+  {
+    "order": 98,
+    "term": "tedious",
+    "reading": "/'ti:djəs/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "chán ngắt, tẻ, nhạt nhẽo, thiếu hấp dẫn, làm buồn tẻ",
+    "examples": []
+  },
+  {
+    "order": 99,
+    "term": "unavoidable",
+    "reading": "/,ʌnə'vɔidəbl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "không thể tránh được",
+    "examples": []
+  },
+  {
+    "order": 100,
+    "term": "unplug",
+    "reading": "/'ʌn'plʌg/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "tháo nút ra",
+    "examples": []
+  },
+  {
+    "order": 101,
+    "term": "worsen",
+    "reading": "/'wə:sn/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "làm cho xấu hơn, làm cho tồi hơn, làm cho tệ hơn, thắng",
+    "examples": []
+  },
+  {
+    "order": 102,
+    "term": "business practice",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "thực tiễn kinh doanh",
+    "examples": []
+  },
+  {
+    "order": 103,
+    "term": "collapse",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự sụp đổ // co, rút",
+    "examples": []
+  },
+  {
+    "order": 104,
+    "term": "cope with",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đối phó với",
+    "examples": []
+  },
+  {
+    "order": 105,
+    "term": "cost-effective",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "có hiệu quả kinh tế, có hiệu quả chi phí",
+    "examples": []
+  },
+  {
+    "order": 106,
+    "term": "descending",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "đi xuống",
+    "examples": []
+  },
+  {
+    "order": 107,
+    "term": "dominate",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "trội, ưu thế",
+    "examples": []
+  },
+  {
+    "order": 108,
+    "term": "downturn",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự suy sụp (trong hoạt động (kinh tế))",
+    "examples": []
+  },
+  {
+    "order": 109,
+    "term": "entail",
+    "reading": "/in'teil/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "chế độ kế thừa theo thứ tự, tài sản kế thừa theo thứ tự",
+    "examples": []
+  },
+  {
+    "order": 110,
+    "term": "exchange rate",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "Tỷ giá hối đoái.",
+    "examples": []
+  },
+  {
+    "order": 111,
+    "term": "flourish",
+    "reading": "/flourish/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự trang trí bay bướm, nét trang trí hoa mỹ",
+    "examples": []
+  },
+  {
+    "order": 112,
+    "term": "for large purchases",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "cho các giao dịch mua lớn",
+    "examples": []
+  },
+  {
+    "order": 113,
+    "term": "for the benefit of",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "vì lợi ích của",
+    "examples": []
+  },
+  {
+    "order": 114,
+    "term": "foremost",
+    "reading": "/'fɔ:moust/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "đầu tiên, trước nhất, đứng đầu, cao nhất, tốt nhất, trên hết, lỗi lạc nhất",
+    "examples": []
+  },
+  {
+    "order": 115,
+    "term": "forerunner",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "người báo hiệu, người báo trước",
+    "examples": []
+  },
+  {
+    "order": 116,
+    "term": "from around the globe",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "từ khắp nơi trên thế giới",
+    "examples": []
+  },
+  {
+    "order": 117,
+    "term": "infrastructure",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Hạ tầng cơ sở.",
+    "examples": []
+  },
+  {
+    "order": 118,
+    "term": "marketable",
+    "reading": "/'mɑ:kitəbl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "có thể bán được, thích hợp để bán ở chợ, có thể tiêu thụ được",
+    "examples": []
+  },
+  {
+    "order": 119,
+    "term": "multi-regional",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đa khu vực",
+    "examples": []
+  },
+  {
+    "order": 120,
+    "term": "multinational corporation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "Công ty đa quốc gia.",
+    "examples": []
+  },
+  {
+    "order": 121,
+    "term": "nationality",
+    "reading": "/,næʃə'næliti/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "tính chất dân tộc, tính chất quốc gia",
+    "examples": []
+  },
+  {
+    "order": 122,
+    "term": "net income",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "thu nhập ròng",
+    "examples": []
+  },
+  {
+    "order": 123,
+    "term": "penalize",
+    "reading": "/'pi:nəlaiz/ (penalize) /'pi:nəlaiz/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "trừng trị, trừng phạt, phạt (cầu thủ đá trái phép...)",
+    "examples": []
+  },
+  {
+    "order": 124,
+    "term": "put forth",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đưa ra",
+    "examples": []
+  },
+  {
+    "order": 125,
+    "term": "ratio",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tỷ suất, r. of division tỷ số chia",
+    "examples": []
+  },
+  {
+    "order": 126,
+    "term": "setup",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cơ cấu của một tổ chức, mưu mô sắp đặt để lừa người",
+    "examples": []
+  },
+  {
+    "order": 127,
+    "term": "skyrocket",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "tăng vọt, tăng chóng mặt",
+    "examples": []
+  },
+  {
+    "order": 128,
+    "term": "so far (= to date",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "cho đến nay (= đến nay)",
+    "examples": []
+  },
+  {
+    "order": 129,
+    "term": "surge",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "xung vận tốc (của tàu thuỷ)",
+    "examples": []
+  },
+  {
+    "order": 130,
+    "term": "synergy",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "tính hiệp trợ, hiệp lực, tính điều phối, đồng vận",
+    "examples": []
+  },
+  {
+    "order": 131,
+    "term": "synthesis",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "[phép, sự] tổng hợp, logical s. tổng hợp lôgíc",
+    "examples": []
+  },
+  {
+    "order": 132,
+    "term": "tactics",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chiến thuật",
+    "examples": []
+  },
+  {
+    "order": 133,
+    "term": "unemployment",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Thất nghiệp.",
+    "examples": []
+  },
+  {
+    "order": 134,
+    "term": "variable",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "biến (số) // biến thiên, biến đổi, additional v. biến thêm",
+    "examples": []
+  },
+  {
+    "order": 135,
+    "term": "vicious cycle",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "vòng luẩn quẩn",
+    "examples": []
+  },
+  {
+    "order": 136,
+    "term": "without a doubt",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "không nghi ngờ gì nữa",
+    "examples": []
+  },
+  {
+    "order": 137,
+    "term": "abate",
+    "reading": "/ə'beit/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "làm dịu đi, làm yếu đi, làm giảm bớt, hạ (giá), bớt (giá)",
+    "examples": []
+  },
+  {
+    "order": 138,
+    "term": "ailing",
+    "reading": "/'eiliɳ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự ốm đau, sự khó ở, ốm đau, khó ở",
+    "examples": []
+  },
+  {
+    "order": 139,
+    "term": "billing address",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "địa chỉ thanh toán",
+    "examples": []
+  },
+  {
+    "order": 140,
+    "term": "cease",
+    "reading": "/si:s/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "dừng, ngừng, ngớt, thôi, hết, tạnh, without cease không ngừng, không ngớt, liên tục",
+    "examples": []
+  },
+  {
+    "order": 141,
+    "term": "conspicuously",
+    "reading": "/kən'spikjuəsli/",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "dễ thấy, rõ ràng, đập ngay vào mắt, lồ lộ",
+    "examples": []
+  },
+  {
+    "order": 142,
+    "term": "deteriorate",
+    "reading": "/di'tiəriəreit/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "làm hư hỏng, làm giảm giá trị, làm cho xấu hơn",
+    "examples": []
+  },
+  {
+    "order": 143,
+    "term": "financial statement",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "Báo cáo tài chính.",
+    "examples": []
+  },
+  {
+    "order": 144,
+    "term": "government grant",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "trợ cấp của chính phủ",
+    "examples": []
+  },
+  {
+    "order": 145,
+    "term": "have a monopoly on",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "độc quyền về",
+    "examples": []
+  },
+  {
+    "order": 146,
+    "term": "implicitly",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "hoàn toàn",
+    "examples": []
+  },
+  {
+    "order": 147,
+    "term": "in demand",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đang có nhu cầu",
+    "examples": []
+  },
+  {
+    "order": 148,
+    "term": "leisurely",
+    "reading": "/'leʤəli/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "rỗi rãi, rảnh rang, thong thả, thong dong, ung dung, nhàn nhã",
+    "examples": []
+  },
+  {
+    "order": 149,
+    "term": "market value",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "giá trị thị trường",
+    "examples": []
+  },
+  {
+    "order": 150,
+    "term": "menace",
+    "reading": "/menəs/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "mối đe doạ, đe doạ",
+    "examples": []
+  },
+  {
+    "order": 151,
+    "term": "multilateral",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nhiều mặt",
+    "examples": []
+  },
+  {
+    "order": 152,
+    "term": "nontransferable",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "không thể chuyển nhượng được, không thể dời/di chuyển được",
+    "examples": []
+  },
+  {
+    "order": 153,
+    "term": "parent company",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "công ty mẹ (công ty điều khiển nhiều công ty khác)",
+    "examples": []
+  },
+  {
+    "order": 154,
+    "term": "perceptible",
+    "reading": "/pə'septəbl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "có thể nhận thức thấy, có thể cảm giác thấy",
+    "examples": []
+  },
+  {
+    "order": 155,
+    "term": "placement",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sắp đặt, sắp xếp việc làm",
+    "examples": []
+  },
+  {
+    "order": 156,
+    "term": "privatization",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự tư nhân hoá, sự tư hữu hoá",
+    "examples": []
+  },
+  {
+    "order": 157,
+    "term": "pull down",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "kéo xuống",
+    "examples": []
+  },
+  {
+    "order": 158,
+    "term": "rebound",
+    "reading": "/'ri:'baund/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "sự bật lại, sự nẩy lên (của quả bóng...), sự phản ứng (khi bị thất bại, bị va chạm...)",
+    "examples": []
+  },
+  {
+    "order": 159,
+    "term": "remark",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chú ý, chú thích",
+    "examples": []
+  },
+  {
+    "order": 160,
+    "term": "retrieval",
+    "reading": "/ri'tri:vəl/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự lấy lại, sự thu hồi, sự tìm và mang (thú, chim bắn được) về, sự phục hồi, sự xây dựng lại (cơ nghiệp)",
+    "examples": []
+  },
+  {
+    "order": 161,
+    "term": "runner-up",
+    "reading": "/'rʌnər'ʌp/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "con chó về nhì trong vòng đua chung kết, người đứng thứ nhì trong trận chung kết",
+    "examples": []
+  },
+  {
+    "order": 162,
+    "term": "secondary effect",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "hiệu ứng thứ cấp",
+    "examples": []
+  },
+  {
+    "order": 163,
+    "term": "slowdown",
+    "reading": "/'sloudaun/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự chậm lại, sự làm chậm lại, sự giảm tốc độ sản xuất (công nghiệp)",
+    "examples": []
+  },
+  {
+    "order": 164,
+    "term": "sluggish",
+    "reading": "/'slʌgiʃ/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "chậm chạp, uể oải, lờ đờ, lờ phờ",
+    "examples": []
+  },
+  {
+    "order": 165,
+    "term": "solitary",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "một cách đơn độc",
+    "examples": []
+  },
+  {
+    "order": 166,
+    "term": "stagnation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự đọng, sự đình trệ",
+    "examples": []
+  },
+  {
+    "order": 167,
+    "term": "Stationary",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "dừng",
+    "examples": []
+  },
+  {
+    "order": 168,
+    "term": "volatile",
+    "reading": "/'vɔlətail/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "dễ bay hơi, không kiên định, hay thay đổi",
+    "examples": []
+  }
+]

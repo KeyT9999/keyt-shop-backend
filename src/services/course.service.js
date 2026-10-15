@@ -10,12 +10,20 @@ const {
   UserCourseProgress
 } = require('../models/user-progress.model');
 
+function normalizeCourseCode(courseCode) {
+  const code = (courseCode || '').toUpperCase().trim();
+  if (code === 'TOEICHACKERS' || code === 'HACKERSTOEIC' || code === 'TOEIC-HACKERS') {
+    return 'TOEIC_HACKERS';
+  }
+  return code;
+}
+
 const courseService = {
   /**
    * Get Course overview with sections and user progress
    */
   async getCourseOverview(courseCode, userId = null) {
-    const code = (courseCode || '').toUpperCase();
+    const code = normalizeCourseCode(courseCode);
     const course = await Course.findOne({ code, isPublished: true }).lean();
 
     if (!course) {
@@ -158,7 +166,7 @@ const courseService = {
    * Get all lessons in a section
    */
   async getSectionLessons(courseCode, sectionType, userId = null) {
-    const code = (courseCode || '').toUpperCase();
+    const code = normalizeCourseCode(courseCode);
     const lessons = await CourseLesson.find({
       courseCode: code,
       sectionType,
@@ -201,7 +209,7 @@ const courseService = {
    * Helper: flexible lesson lookup by slug, lessonCode or order
    */
   async findLessonFlexibly(courseCode, sectionType, slug) {
-    const code = (courseCode || '').toUpperCase();
+    const code = normalizeCourseCode(courseCode);
     let lesson = await CourseLesson.findOne({
       courseCode: code,
       sectionType,
@@ -241,7 +249,7 @@ const courseService = {
    * Get items for a lesson with user progress
    */
   async getLessonItems(courseCode, sectionType, slug, userId = null) {
-    const code = (courseCode || '').toUpperCase();
+    const code = normalizeCourseCode(courseCode);
     const lesson = await this.findLessonFlexibly(courseCode, sectionType, slug);
 
     if (!lesson) {

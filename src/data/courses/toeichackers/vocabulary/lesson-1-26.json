@@ -1,0 +1,1361 @@
+[
+  {
+    "order": 1,
+    "term": "balance",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cái cân, sự cân bằng",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "delinquent",
+    "reading": "/di'liɳkwənt/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "có tội, phạm tội, lỗi lầm, chểnh mảng, lơ là nhiệm vụ",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "overdue",
+    "reading": "/'ouvə'dju:/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "quá chậm, quá hạn",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "regrettably",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "một cách đáng tiếc, thật đáng tiếc là",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "account",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "kể đến, tính đến",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "deposit",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "gửi tiền (vào ngân hàng) // món tiền gửi",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "investigation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự nghiên, sự điều tra",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "amount",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "số lượng, lượng, a. of infomation tk lượng thông tin, lượng tin",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "due",
+    "reading": "/dju:/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "quyền được hưởng, cái được hưởng",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "previously",
+    "reading": "/'pri:viəsli/",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "trước, trước đây",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "statement",
+    "reading": "/'steitmənt/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự bày tỏ, sự trình bày, sự phát biểu, lời tuyên bố",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "withdrawal",
+    "reading": "/wi 'dr : l/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự rút khỏi, sự rút ra",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "certificate",
+    "reading": "/sə'tifikit/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "giấy chứng nhận, bằng",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "expect",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chờ đợi, hy vọng, kỳ vọng",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "bill",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "ngân phiếu, hoá đơn",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "study",
+    "reading": "/'stʌdi/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự học tập, sự nghiên cứu",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "double",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đôi, ghép || làm gấp đôi, d. of a Riemannian surface mặt kép của một diện Riaman",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "lower",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "dưới // hạ xuống",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "summary",
+    "reading": "/'sʌməri/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "tóm tắt, sơ lược, giản lược, được miễn những thủ tục không cần thiết, được bớt những chi tiết không cần thiết",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "transaction",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Giao dịch / thương vụ.",
+    "examples": []
+  },
+  {
+    "order": 21,
+    "term": "detailed",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "được làm chi tiết",
+    "examples": []
+  },
+  {
+    "order": 22,
+    "term": "dissatisfaction",
+    "reading": "/'dis,sætis'fækʃn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự không bằng lòng, sự không hài lòng, sự không thoả mãn, sự bất mãn",
+    "examples": []
+  },
+  {
+    "order": 23,
+    "term": "in common",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "điểm chung",
+    "examples": []
+  },
+  {
+    "order": 24,
+    "term": "interest",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "lãi, compound i. lãi kép",
+    "examples": []
+  },
+  {
+    "order": 25,
+    "term": "ongoing",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đang diễn ra",
+    "examples": []
+  },
+  {
+    "order": 26,
+    "term": "alternatively",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "như một sự lựa chọn",
+    "examples": []
+  },
+  {
+    "order": 27,
+    "term": "attentive",
+    "reading": "/ə'tentiv/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "chăm chú, chú ý, lưu tâm",
+    "examples": []
+  },
+  {
+    "order": 28,
+    "term": "convert",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "làm nghịch đảo, biến đổi",
+    "examples": []
+  },
+  {
+    "order": 29,
+    "term": "reject",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "gạt bỏ, bác bỏ",
+    "examples": []
+  },
+  {
+    "order": 30,
+    "term": "relation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "quan hệ, hệ thức, r. of equivalence quan hệ tương đương",
+    "examples": []
+  },
+  {
+    "order": 31,
+    "term": "tentatively",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "ướm, thử, ngập ngừng",
+    "examples": []
+  },
+  {
+    "order": 32,
+    "term": "cash",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tiền mặt",
+    "examples": []
+  },
+  {
+    "order": 33,
+    "term": "heavily",
+    "reading": "/'hevili/",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "nặng, nặng nề ((nghĩa đen) & (nghĩa bóng))",
+    "examples": []
+  },
+  {
+    "order": 34,
+    "term": "loan",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "kt vay",
+    "examples": []
+  },
+  {
+    "order": 35,
+    "term": "mortgage",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "văn tự thế chấp, sự thế chấp",
+    "examples": []
+  },
+  {
+    "order": 36,
+    "term": "unexpected",
+    "reading": "/'ʌniks'pektid/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "không mong đợi, không ngờ, thình lình, điều không ngờ",
+    "examples": []
+  },
+  {
+    "order": 37,
+    "term": "payable",
+    "reading": "/'peiəbl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "có thể trả, phải trả, có lợi",
+    "examples": []
+  },
+  {
+    "order": 38,
+    "term": "personal",
+    "reading": "/'pə:snl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "cá nhân, tư, riêng, nói đến cá nhân, ám chỉ cá nhân, chỉ trích cá nhân",
+    "examples": []
+  },
+  {
+    "order": 39,
+    "term": "at the earliest",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "sớm nhất",
+    "examples": []
+  },
+  {
+    "order": 40,
+    "term": "at the same time",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "cùng một lúc",
+    "examples": []
+  },
+  {
+    "order": 41,
+    "term": "at this point",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tại thời điểm này",
+    "examples": []
+  },
+  {
+    "order": 42,
+    "term": "automatic payment",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "thanh toán tự động",
+    "examples": []
+  },
+  {
+    "order": 43,
+    "term": "banker",
+    "reading": "/'bæɳkə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "chủ ngân hàng, giám đốc ngân hàng, người có cổ phần ở ngân hàng",
+    "examples": []
+  },
+  {
+    "order": 44,
+    "term": "banking",
+    "reading": "/'bæɳkiɳ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "công việc ngân hàng",
+    "examples": []
+  },
+  {
+    "order": 45,
+    "term": "be used to -ing",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "được sử dụng để -ing",
+    "examples": []
+  },
+  {
+    "order": 46,
+    "term": "by the end of the year",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đến cuối năm",
+    "examples": []
+  },
+  {
+    "order": 47,
+    "term": "by this time",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đến lúc này",
+    "examples": []
+  },
+  {
+    "order": 48,
+    "term": "clerk",
+    "reading": "/klɑ:k/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "người thư ký, tu sĩ, giáo sĩ, mục sư ((cũng) clerk in holy orders)",
+    "examples": []
+  },
+  {
+    "order": 49,
+    "term": "coin",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tiền bằng kim loại, đồng tiền, biased c. đồng tiền không đối xứng",
+    "examples": []
+  },
+  {
+    "order": 50,
+    "term": "cozy",
+    "reading": "/'kouzi/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "ấm cúng, thoải mái dễ chịu, ấm giỏ ((cũng) tea cosy)",
+    "examples": []
+  },
+  {
+    "order": 51,
+    "term": "credit card number",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "số thẻ tín dụng",
+    "examples": []
+  },
+  {
+    "order": 52,
+    "term": "evening news °",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tin tức buổi tối °",
+    "examples": []
+  },
+  {
+    "order": 53,
+    "term": "float",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Tiền trôi nổi.",
+    "examples": []
+  },
+  {
+    "order": 54,
+    "term": "for a short time",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "trong một thời gian ngắn",
+    "examples": []
+  },
+  {
+    "order": 55,
+    "term": "generously",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "rộng lượng, hào hiệp, hào phóng",
+    "examples": []
+  },
+  {
+    "order": 56,
+    "term": "gesture",
+    "reading": "/'dʤestʃə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "điệu bộ, cử chỉ, động tác, hành động dễ gợi sự đáp lại",
+    "examples": []
+  },
+  {
+    "order": 57,
+    "term": "in addition",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "ngoài ra",
+    "examples": []
+  },
+  {
+    "order": 58,
+    "term": "in addition to",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "ngoài ra",
+    "examples": []
+  },
+  {
+    "order": 59,
+    "term": "in short",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tóm lại",
+    "examples": []
+  },
+  {
+    "order": 60,
+    "term": "next to",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "bên cạnh",
+    "examples": []
+  },
+  {
+    "order": 61,
+    "term": "pass",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "vượt qua",
+    "examples": []
+  },
+  {
+    "order": 62,
+    "term": "password",
+    "reading": "/'pɑ:swə:d/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "khẩu lệnh",
+    "examples": []
+  },
+  {
+    "order": 63,
+    "term": "thankful",
+    "reading": "/'θæɳkful/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "biết ơn, cám ơn",
+    "examples": []
+  },
+  {
+    "order": 64,
+    "term": "unnecessary",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "không cần thiết",
+    "examples": []
+  },
+  {
+    "order": 65,
+    "term": "useful",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "có ích",
+    "examples": []
+  },
+  {
+    "order": 66,
+    "term": "across from",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đối diện",
+    "examples": []
+  },
+  {
+    "order": 67,
+    "term": "alarming",
+    "reading": "/ə'lɑ:miɳ/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "làm lo sợ, làm sợ hãi, làm hốt hoảng, làm hoảng sợ",
+    "examples": []
+  },
+  {
+    "order": 68,
+    "term": "alternate",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "so le, luân phiên",
+    "examples": []
+  },
+  {
+    "order": 69,
+    "term": "anymore",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nữa",
+    "examples": []
+  },
+  {
+    "order": 70,
+    "term": "ata time",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "ata time",
+    "examples": []
+  },
+  {
+    "order": 71,
+    "term": "awfully",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "tàn khốc, khủng khiếp, vô cùng, hết sức",
+    "examples": []
+  },
+  {
+    "order": 72,
+    "term": "bank teller",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "giao dịch viên ngân hàng",
+    "examples": []
+  },
+  {
+    "order": 73,
+    "term": "bank toan",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "toan ngân hàng",
+    "examples": []
+  },
+  {
+    "order": 74,
+    "term": "be caught in",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "bị cuốn vào",
+    "examples": []
+  },
+  {
+    "order": 75,
+    "term": "be spread out",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "được trải ra",
+    "examples": []
+  },
+  {
+    "order": 76,
+    "term": "courteously",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "lịch sự, nhã nhặn",
+    "examples": []
+  },
+  {
+    "order": 77,
+    "term": "every other day",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "cách ngày một lần",
+    "examples": []
+  },
+  {
+    "order": 78,
+    "term": "flawed",
+    "reading": "/flɔ:d/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "có vết, rạn nứt, có chỗ hỏng",
+    "examples": []
+  },
+  {
+    "order": 79,
+    "term": "foreign currency",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "ngoại tệ",
+    "examples": []
+  },
+  {
+    "order": 80,
+    "term": "gaze into",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "nhìn vào",
+    "examples": []
+  },
+  {
+    "order": 81,
+    "term": "get a loan",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "nhận khoản vay",
+    "examples": []
+  },
+  {
+    "order": 82,
+    "term": "give out",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "phát",
+    "examples": []
+  },
+  {
+    "order": 83,
+    "term": "glance at",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "liếc nhìn",
+    "examples": []
+  },
+  {
+    "order": 84,
+    "term": "go wrong with",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đi sai với",
+    "examples": []
+  },
+  {
+    "order": 85,
+    "term": "hang out",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đi chơi",
+    "examples": []
+  },
+  {
+    "order": 86,
+    "term": "have around",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "có khoảng",
+    "examples": []
+  },
+  {
+    "order": 87,
+    "term": "locally",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "địa phương, cục bộ",
+    "examples": []
+  },
+  {
+    "order": 88,
+    "term": "pay off",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "trả hết",
+    "examples": []
+  },
+  {
+    "order": 89,
+    "term": "perhaps",
+    "reading": "/pə'hæps, (Àthtục) præps/ (praps) /praps/",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "có lẽ, có thể",
+    "examples": []
+  },
+  {
+    "order": 90,
+    "term": "putin",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "putin",
+    "examples": []
+  },
+  {
+    "order": 91,
+    "term": "savings",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Tiết kiệm.",
+    "examples": []
+  },
+  {
+    "order": 92,
+    "term": "short-term deposit",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tiền gửi ngắn hạn",
+    "examples": []
+  },
+  {
+    "order": 93,
+    "term": "the following day",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "ngày hôm sau",
+    "examples": []
+  },
+  {
+    "order": 94,
+    "term": "until the first of next month",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "cho đến ngày đầu tiên của tháng tiếp theo",
+    "examples": []
+  },
+  {
+    "order": 95,
+    "term": "VU bet",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "VU Bet",
+    "examples": []
+  },
+  {
+    "order": 96,
+    "term": "account payable",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tài khoản phải trả",
+    "examples": []
+  },
+  {
+    "order": 97,
+    "term": "bank account",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tài khoản ngân hàng",
+    "examples": []
+  },
+  {
+    "order": 98,
+    "term": "be highly regarded",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "được đánh giá cao",
+    "examples": []
+  },
+  {
+    "order": 99,
+    "term": "be of particular interest to",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đặc biệt quan tâm đến",
+    "examples": []
+  },
+  {
+    "order": 100,
+    "term": "ber",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "bER",
+    "examples": []
+  },
+  {
+    "order": 101,
+    "term": "billing information",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "thông tin thanh toán",
+    "examples": []
+  },
+  {
+    "order": 102,
+    "term": "credit",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tín dụng, sự cho vay, cho vay on c. nợ, mua chịu, bán chịu",
+    "examples": []
+  },
+  {
+    "order": 103,
+    "term": "creditor",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "người cho vay",
+    "examples": []
+  },
+  {
+    "order": 104,
+    "term": "currency",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Tiền mặt, tiền tệ",
+    "examples": []
+  },
+  {
+    "order": 105,
+    "term": "debit card",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "thẻ ghi nợ",
+    "examples": []
+  },
+  {
+    "order": 106,
+    "term": "debt",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "món nợ, national d. quốc trái",
+    "examples": []
+  },
+  {
+    "order": 107,
+    "term": "expiration date",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "ngày hết hạn",
+    "examples": []
+  },
+  {
+    "order": 108,
+    "term": "financial history",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "lịch sử tài chính",
+    "examples": []
+  },
+  {
+    "order": 109,
+    "term": "for the sake of",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "vì lợi ích của",
+    "examples": []
+  },
+  {
+    "order": 110,
+    "term": "forge",
+    "reading": "/fɔ:dʤ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "lò rèn, xưởng rèn",
+    "examples": []
+  },
+  {
+    "order": 111,
+    "term": "forgery",
+    "reading": "/'fɔ:dʤəri/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự giả mạo (chữ ký, giấy tờ...), cái giả mạo",
+    "examples": []
+  },
+  {
+    "order": 112,
+    "term": "forthcoming",
+    "reading": "/fɔ:θ'kʌmiɳ/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "sắp đến, sắp rời, sắp xuất bản (sách)",
+    "examples": []
+  },
+  {
+    "order": 113,
+    "term": "indeed",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thực vậy",
+    "examples": []
+  },
+  {
+    "order": 114,
+    "term": "midtown",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "trung tâm thành phố",
+    "examples": []
+  },
+  {
+    "order": 115,
+    "term": "otherwise",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cách khác, khác",
+    "examples": []
+  },
+  {
+    "order": 116,
+    "term": "owe",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "mắc nợ, có trách nhiệm",
+    "examples": []
+  },
+  {
+    "order": 117,
+    "term": "owing to",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Giới từ",
+    "meaning": "do vì, bởi vì",
+    "examples": []
+  },
+  {
+    "order": 118,
+    "term": "partial",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "riêng, riêng phần, thiên vị",
+    "examples": []
+  },
+  {
+    "order": 119,
+    "term": "Pay out",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "Chi trả",
+    "examples": []
+  },
+  {
+    "order": 120,
+    "term": "pop up",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "bật lên",
+    "examples": []
+  },
+  {
+    "order": 121,
+    "term": "public holiday",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "ngày nghỉ lễ",
+    "examples": []
+  },
+  {
+    "order": 122,
+    "term": "receptive",
+    "reading": "/ri'septiv/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "dễ tiếp thu, dễ lĩnh hội",
+    "examples": []
+  },
+  {
+    "order": 123,
+    "term": "reluctant",
+    "reading": "/ri'lʌktənt/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "miễn cưỡng, bất đắc dĩ, không thích, không sẵn lòng, trơ trơ, chống lại, khó bảo, khó làm",
+    "examples": []
+  },
+  {
+    "order": 124,
+    "term": "requisition",
+    "reading": "/,rekwi'ziʃn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự yêu cầu, tiêu chuẩn đòi hỏi",
+    "examples": []
+  },
+  {
+    "order": 125,
+    "term": "scrutinize",
+    "reading": "/'skru:tinaiz/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "nhìn chăm chú, nhìn kỹ, xem xét kỹ lưỡng, nghiên cứu cẩn thận",
+    "examples": []
+  },
+  {
+    "order": 126,
+    "term": "simplify",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "rút gọn, đơn giản",
+    "examples": []
+  },
+  {
+    "order": 127,
+    "term": "sustain",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "gìn giũ, chịu đựng, chống đỡ, duy trì",
+    "examples": []
+  },
+  {
+    "order": 128,
+    "term": "turn down",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "quay xuống",
+    "examples": []
+  },
+  {
+    "order": 129,
+    "term": "twofold",
+    "reading": "/'tu:fould/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "gấp đôi",
+    "examples": []
+  },
+  {
+    "order": 130,
+    "term": "accrue",
+    "reading": "/ə'kru:/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "đổ dồn về (ai...), sinh ra (từ...), do... mà ra",
+    "examples": []
+  },
+  {
+    "order": 131,
+    "term": "be held up",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "được giơ lên",
+    "examples": []
+  },
+  {
+    "order": 132,
+    "term": "belatedly",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "chậm, muộn",
+    "examples": []
+  },
+  {
+    "order": 133,
+    "term": "bounce",
+    "reading": "/'bauns/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự nảy lên, sự bật lên, sự khoe khoang khoác lác",
+    "examples": []
+  },
+  {
+    "order": 134,
+    "term": "cluster",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tích luỹ, tập hợp thành nhóm, nhóm theo tổ // nhóm, chùm",
+    "examples": []
+  },
+  {
+    "order": 135,
+    "term": "confiscate",
+    "reading": "/'kɔnfiskeit/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "tịch thu, sung công",
+    "examples": []
+  },
+  {
+    "order": 136,
+    "term": "crash",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "ngưng, đình chỉ, vỡ bể",
+    "examples": []
+  },
+  {
+    "order": 137,
+    "term": "credit money to one's account",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "ghi có tiền vào tài khoản của một người",
+    "examples": []
+  },
+  {
+    "order": 138,
+    "term": "curb",
+    "reading": "/kə:b/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "dây cằm (ngựa), sự kiềm chế, sự nén lại, sự kìm lại",
+    "examples": []
+  },
+  {
+    "order": 139,
+    "term": "draw a check",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "rút một tấm séc",
+    "examples": []
+  },
+  {
+    "order": 140,
+    "term": "fortnight",
+    "reading": "/'fɔ:tnait/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "hai tuần lễ, mười lăm ngày, anh ta ăn rất khoẻ",
+    "examples": []
+  },
+  {
+    "order": 141,
+    "term": "make a withdrawal",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "rút tiền",
+    "examples": []
+  },
+  {
+    "order": 142,
+    "term": "overdrawn",
+    "reading": "/'ouvə'drɔ:/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "rút quá số tiền gửi (ngân hàng), phóng đại, cường điệu, cường điệu quá hoá hỏng",
+    "examples": []
+  },
+  {
+    "order": 143,
+    "term": "redemption",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự chuộc, sự bồi thường",
+    "examples": []
+  },
+  {
+    "order": 144,
+    "term": "remit",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chuyển",
+    "examples": []
+  },
+  {
+    "order": 145,
+    "term": "secured",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Những khoản vay có bảo lãnh.",
+    "examples": []
+  },
+  {
+    "order": 146,
+    "term": "spurious",
+    "reading": "/'spjuəriəs/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "giả, giả mạo",
+    "examples": []
+  },
+  {
+    "order": 147,
+    "term": "take out a loan",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "vay tiền",
+    "examples": []
+  },
+  {
+    "order": 148,
+    "term": "take out insurance on",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "mua bảo hiểm trên",
+    "examples": []
+  },
+  {
+    "order": 149,
+    "term": "trust company",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "<Mỹ> công ty quản lý các tài sản ủy thác, vốn đầu tư )",
+    "examples": []
+  },
+  {
+    "order": 150,
+    "term": "trustee",
+    "reading": "/trʌs'ti:/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "người được uỷ thác trông nom, uỷ viên quản trị (của một trường học, tổ chức từ thiện...)",
+    "examples": []
+  },
+  {
+    "order": 151,
+    "term": "wire money to",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "chuyển tiền đến",
+    "examples": []
+  }
+]

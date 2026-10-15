@@ -1,0 +1,1487 @@
+[
+  {
+    "order": 1,
+    "term": "devise",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nghĩ ra, phát minh ra",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "feature",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nét, đặc điểm",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "innovative",
+    "reading": "/'inouveitəri/ (innovative) /'inouveitiv/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "có tính chất đổi mới, có tính chất là một sáng kiến",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "research",
+    "reading": "/ri'sə:tʃ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự nghiên cứu, nghiên cứu",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "revolutionary",
+    "reading": "/,revə'lu:ʃnəri/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "cách mạng, nhà cách mạng",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "envision",
+    "reading": "/in'viʤn/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "nhìn thấy như trong ảo ảnh, mường tượng, hình dung",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "extend",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "mở rộng, giãn",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "inspiration",
+    "reading": "/,inspə'reiʃn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự hít vào, sự thở vào, sự truyền cảm",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "patent",
+    "reading": "/'peitənt/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "có bằng sáng chế, có bằng công nhận đặc quyền chế tạo, tài tình, khéo léo, tinh xảo",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "sufficiently",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "đủ, thích đáng",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "allow",
+    "reading": "/ə'lau/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "cho phép để cho, thừa nhận, công nhận, chấp nhận",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "allow",
+    "reading": "/ə'lau/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "cho phép",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "following",
+    "reading": "/'fɔlouiɳ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự theo, sự noi theo, số người theo, số người ủng hộ",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "grant",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Trợ cấp.",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "intend",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "có ý định, có nghĩa là",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "improve",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "hoàn thiện, cải tiến",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "increasingly",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "xem increase",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "inspect",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "kiểm tra, quan sát",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "invest",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "hùn (vốn), đầu tư",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "upgrade",
+    "reading": "/' p'greid/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "đưa lên cấp bậc cao hn, nâng cấp",
+    "examples": []
+  },
+  {
+    "order": 21,
+    "term": "various",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "khác nhau",
+    "examples": []
+  },
+  {
+    "order": 22,
+    "term": "appearance",
+    "reading": "/ə'piərəns/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự xuất hiện, sự hiện ra sự ló ra, sự trình diện, sự ra hầu toà",
+    "examples": []
+  },
+  {
+    "order": 23,
+    "term": "explore",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thám hiểm, nghiên cứu",
+    "examples": []
+  },
+  {
+    "order": 24,
+    "term": "manual",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "bằng tay",
+    "examples": []
+  },
+  {
+    "order": 25,
+    "term": "response",
+    "reading": "/ris'pɔns/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự trả lời, sự đáp lại, sự hưởng ứng",
+    "examples": []
+  },
+  {
+    "order": 26,
+    "term": "successful",
+    "reading": "/sək'sesful/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "có kết quả, thành công, thắng lợi, thành đạt",
+    "examples": []
+  },
+  {
+    "order": 27,
+    "term": "advance",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Tiền ứng trước.",
+    "examples": []
+  },
+  {
+    "order": 28,
+    "term": "quality",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chất lượng, lot q. chất lượng của lô",
+    "examples": []
+  },
+  {
+    "order": 29,
+    "term": "reliable",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tin cậy được",
+    "examples": []
+  },
+  {
+    "order": 30,
+    "term": "accurate",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chính xác, a. to five decimalplaces chính xác dến năm số thập phân",
+    "examples": []
+  },
+  {
+    "order": 31,
+    "term": "availability",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tính sẵn sàng, tính khả dụng",
+    "examples": []
+  },
+  {
+    "order": 32,
+    "term": "development",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự khai triển, sự phát triển",
+    "examples": []
+  },
+  {
+    "order": 33,
+    "term": "update",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "làm cho cập nhật, hiện đại hoá, cho ai thông tin mới nhất (về cái gì)",
+    "examples": []
+  },
+  {
+    "order": 34,
+    "term": "accomplished",
+    "reading": "/ə'kɔmpiʃt/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "đã hoàn thành, đã làm xong, xong xuôi, trọn vẹn, được giáo dục kỹ lưỡng, có đầy đủ tài năng",
+    "examples": []
+  },
+  {
+    "order": 35,
+    "term": "complicated",
+    "reading": "/'kɔmplikeitid/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "phức tạp, rắc rối",
+    "examples": []
+  },
+  {
+    "order": 36,
+    "term": "indication",
+    "reading": "/,indi'keiʃn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự chỉ, số chỉ",
+    "examples": []
+  },
+  {
+    "order": 37,
+    "term": "inquiry",
+    "reading": "/in'kwaiəri/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự điều tra, sự thẩm tra, sự thẩm vấn, sự hỏi",
+    "examples": []
+  },
+  {
+    "order": 38,
+    "term": "manufacturer",
+    "reading": "/,mænju'fæktʃərə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "người chế tạo, người sản xuất, nhà công nghiệp",
+    "examples": []
+  },
+  {
+    "order": 39,
+    "term": "absolute",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tuyệt đối // hình tuyệt đối",
+    "examples": []
+  },
+  {
+    "order": 40,
+    "term": "compatible",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tương thích",
+    "examples": []
+  },
+  {
+    "order": 41,
+    "term": "superior",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "trên",
+    "examples": []
+  },
+  {
+    "order": 42,
+    "term": "broaden",
+    "reading": "/'brɔ:dn/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "mở rộng, nới rộng, làm rộng ra, rộng ra",
+    "examples": []
+  },
+  {
+    "order": 43,
+    "term": "corrosion",
+    "reading": "/kə'rouʤn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự gặm mòn",
+    "examples": []
+  },
+  {
+    "order": 44,
+    "term": "be known for",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "được biết đến với",
+    "examples": []
+  },
+  {
+    "order": 45,
+    "term": "be made of",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "được làm từ",
+    "examples": []
+  },
+  {
+    "order": 46,
+    "term": "brand new",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "hoàn toàn mới",
+    "examples": []
+  },
+  {
+    "order": 47,
+    "term": "break down",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "phá vỡ",
+    "examples": []
+  },
+  {
+    "order": 48,
+    "term": "catalog",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Cách viết khác : catalogue",
+    "examples": []
+  },
+  {
+    "order": 49,
+    "term": "chemist",
+    "reading": "/'kemist/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "nhà hoá học, người bán dược phẩm",
+    "examples": []
+  },
+  {
+    "order": 50,
+    "term": "close down",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đóng cửa",
+    "examples": []
+  },
+  {
+    "order": 51,
+    "term": "control",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "điều khiển, điều chỉnh, kiểm tra, anticipatory c. điều chỉnh trước, kiểm tra ngăn ngừa",
+    "examples": []
+  },
+  {
+    "order": 52,
+    "term": "design",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thiết kế, dự án || sự lập kế hoạch",
+    "examples": []
+  },
+  {
+    "order": 53,
+    "term": "developer",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "máy rửa phim, thuốc rửa phim",
+    "examples": []
+  },
+  {
+    "order": 54,
+    "term": "discovery",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự khám phá, sự phát minh",
+    "examples": []
+  },
+  {
+    "order": 55,
+    "term": "handmade",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "sản xuất bằng tay, làm bằng tay",
+    "examples": []
+  },
+  {
+    "order": 56,
+    "term": "inarow",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "inarow",
+    "examples": []
+  },
+  {
+    "order": 57,
+    "term": "invention",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự phát minh",
+    "examples": []
+  },
+  {
+    "order": 58,
+    "term": "late",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chậm, cuối",
+    "examples": []
+  },
+  {
+    "order": 59,
+    "term": "lid",
+    "reading": "/lid/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "nắp, vung, mi mắt ((cũng) eyelid)",
+    "examples": []
+  },
+  {
+    "order": 60,
+    "term": "original",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "gốc, nguyên thủy",
+    "examples": []
+  },
+  {
+    "order": 61,
+    "term": "receive",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nhận",
+    "examples": []
+  },
+  {
+    "order": 62,
+    "term": "repeat",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "lặp",
+    "examples": []
+  },
+  {
+    "order": 63,
+    "term": "request form",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "mẫu yêu cầu",
+    "examples": []
+  },
+  {
+    "order": 64,
+    "term": "sensor",
+    "reading": "/'sensə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": ",  (vật lý) phần tử nhạy",
+    "examples": []
+  },
+  {
+    "order": 65,
+    "term": "shape",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "dạng",
+    "examples": []
+  },
+  {
+    "order": 66,
+    "term": "switch off",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tắt",
+    "examples": []
+  },
+  {
+    "order": 67,
+    "term": "technique",
+    "reading": "/tek'ni:k/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "kỹ xảo, phương pháp kỹ thuật, kỹ thuật",
+    "examples": []
+  },
+  {
+    "order": 68,
+    "term": "test",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "phép thử kiểm định, dấu hiệu, tiêu chuẩn, t. for convergence dấu hiệu hội tụ",
+    "examples": []
+  },
+  {
+    "order": 69,
+    "term": "turn off (= turn on",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tắt (= bật",
+    "examples": []
+  },
+  {
+    "order": 70,
+    "term": "advancement",
+    "reading": "/əb'vɑ:nsmənt/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự tiến lên, sự tiến tới, sự tiến bộ, sự thúc đẩy, sự làm cho tiến lên",
+    "examples": []
+  },
+  {
+    "order": 71,
+    "term": "appliance",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "máy, thiết bị, phụ tùng",
+    "examples": []
+  },
+  {
+    "order": 72,
+    "term": "aseries of",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "aseries of",
+    "examples": []
+  },
+  {
+    "order": 73,
+    "term": "aside from",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "ngoài",
+    "examples": []
+  },
+  {
+    "order": 74,
+    "term": "certified",
+    "reading": "/'sə:tifaid/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "được chứng nhận, được nhận thực, được chứng thực, được đảm bảo giá trị",
+    "examples": []
+  },
+  {
+    "order": 75,
+    "term": "check the manual",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "kiểm tra hướng dẫn sử dụng",
+    "examples": []
+  },
+  {
+    "order": 76,
+    "term": "come up with",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "nghĩ ra",
+    "examples": []
+  },
+  {
+    "order": 77,
+    "term": "complementary",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "bù",
+    "examples": []
+  },
+  {
+    "order": 78,
+    "term": "composition",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự hợp thành, sự hợp, tích",
+    "examples": []
+  },
+  {
+    "order": 79,
+    "term": "consist of",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "bao gồm",
+    "examples": []
+  },
+  {
+    "order": 80,
+    "term": "cooperative",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "hợp tác",
+    "examples": []
+  },
+  {
+    "order": 81,
+    "term": "delighted",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "vui mừng, hài lòng",
+    "examples": []
+  },
+  {
+    "order": 82,
+    "term": "durable",
+    "reading": "/'djuərəbl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "bền, lâu bền",
+    "examples": []
+  },
+  {
+    "order": 83,
+    "term": "electronics",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "điện tử học, kỹ thuật điện tử, transistor e. điện tử học, các thiết bị bán dẫn",
+    "examples": []
+  },
+  {
+    "order": 84,
+    "term": "enter a contest",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tham gia một cuộc thi",
+    "examples": []
+  },
+  {
+    "order": 85,
+    "term": "give a demonstration of",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đưa ra một minh chứng về",
+    "examples": []
+  },
+  {
+    "order": 86,
+    "term": "go straight to",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đi thẳng đến",
+    "examples": []
+  },
+  {
+    "order": 87,
+    "term": "laboratory",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "phóng thí nghiệm, phòng thực nghiệm, computing l. (máy tính) phòng thực nghiệm tính toán",
+    "examples": []
+  },
+  {
+    "order": 88,
+    "term": "latest work",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "công việc mới nhất",
+    "examples": []
+  },
+  {
+    "order": 89,
+    "term": "lightweight",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "<thể> (thuộc) hạng cân nhẹ",
+    "examples": []
+  },
+  {
+    "order": 90,
+    "term": "out-of-date",
+    "reading": "/'autəv'deit/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "không còn đúng mốt nữa, lỗi thời",
+    "examples": []
+  },
+  {
+    "order": 91,
+    "term": "product designer",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "nhà thiết kế sản phẩm",
+    "examples": []
+  },
+  {
+    "order": 92,
+    "term": "product display",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "trưng bày sản phẩm",
+    "examples": []
+  },
+  {
+    "order": 93,
+    "term": "redesign",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thiết kế lại",
+    "examples": []
+  },
+  {
+    "order": 94,
+    "term": "trial period",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "thời gian dùng thử",
+    "examples": []
+  },
+  {
+    "order": 95,
+    "term": "try out",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "thử",
+    "examples": []
+  },
+  {
+    "order": 96,
+    "term": "unplug the equipment",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "rút phích cắm thiết bị",
+    "examples": []
+  },
+  {
+    "order": 97,
+    "term": "up-to-date",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "hiện đại",
+    "examples": []
+  },
+  {
+    "order": 98,
+    "term": "user's guide",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "hướng dẫn sử dụng",
+    "examples": []
+  },
+  {
+    "order": 99,
+    "term": "waterproof",
+    "reading": "/'wɔ:təpru:f/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "không thấm nước, áo mưa",
+    "examples": []
+  },
+  {
+    "order": 100,
+    "term": "well-prepared",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "được chuẩn bị tốt",
+    "examples": []
+  },
+  {
+    "order": 101,
+    "term": "with the lights on",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "với đèn sáng",
+    "examples": []
+  },
+  {
+    "order": 102,
+    "term": "be carried out",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "được thực hiện",
+    "examples": []
+  },
+  {
+    "order": 103,
+    "term": "be designed to do",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "được thiết kế để làm",
+    "examples": []
+  },
+  {
+    "order": 104,
+    "term": "breakthrough",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự chọc thủng phòng tuyến",
+    "examples": []
+  },
+  {
+    "order": 105,
+    "term": "by the time",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "vào thời điểm",
+    "examples": []
+  },
+  {
+    "order": 106,
+    "term": "collaboration",
+    "reading": "/kə,læbə'reiʃn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự cộng tác, sự cộng tác với địch",
+    "examples": []
+  },
+  {
+    "order": 107,
+    "term": "copyright",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tác quyền, bản quyền",
+    "examples": []
+  },
+  {
+    "order": 108,
+    "term": "custom-built",
+    "reading": "/'kʌstəm'bilt/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "chế tạo theo sự đặt hàng riêng",
+    "examples": []
+  },
+  {
+    "order": 109,
+    "term": "customize",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "đặc chế",
+    "examples": []
+  },
+  {
+    "order": 110,
+    "term": "disruption",
+    "reading": "/dis'rʌpʃn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự đập gãy, sự đập vỗ, sự phá vỡ, sự gẫy vỡ",
+    "examples": []
+  },
+  {
+    "order": 111,
+    "term": "energy source",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "nguồn năng lượng",
+    "examples": []
+  },
+  {
+    "order": 112,
+    "term": "except for",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "ngoại trừ",
+    "examples": []
+  },
+  {
+    "order": 113,
+    "term": "expand into",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "mở rộng sang",
+    "examples": []
+  },
+  {
+    "order": 114,
+    "term": "exploration",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự thám hiểm, sự nghiên cứu (trước)",
+    "examples": []
+  },
+  {
+    "order": 115,
+    "term": "fuel consumption",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "mức tiêu thụ nhiên liệu",
+    "examples": []
+  },
+  {
+    "order": 116,
+    "term": "guidance",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "điều khiển (từ xa)",
+    "examples": []
+  },
+  {
+    "order": 117,
+    "term": "innovate",
+    "reading": "/'inouveit/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "đưa vào những cái mới, tiến hành những đổi mới",
+    "examples": []
+  },
+  {
+    "order": 118,
+    "term": "interpretation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "[cái, sự] giải thích, sự thể hiện",
+    "examples": []
+  },
+  {
+    "order": 119,
+    "term": "keep one's eye on",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "hãy để mắt đến",
+    "examples": []
+  },
+  {
+    "order": 120,
+    "term": "licensed",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "được cấp phép",
+    "examples": []
+  },
+  {
+    "order": 121,
+    "term": "limited edition",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "phiên bản giới hạn",
+    "examples": []
+  },
+  {
+    "order": 122,
+    "term": "long-lasting",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "lâu dài",
+    "examples": []
+  },
+  {
+    "order": 123,
+    "term": "mechanical",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "có học, máy móc",
+    "examples": []
+  },
+  {
+    "order": 124,
+    "term": "plenty of",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "nhiều",
+    "examples": []
+  },
+  {
+    "order": 125,
+    "term": "prediction",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự dự đoán, dự báo",
+    "examples": []
+  },
+  {
+    "order": 126,
+    "term": "prototype",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "mẫu tử, mẫu đầu",
+    "examples": []
+  },
+  {
+    "order": 127,
+    "term": "quantity",
+    "reading": "/'kwɔntiti/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "lượng, số lượng, khối lượng, số lớn, vô số, rất nhiều",
+    "examples": []
+  },
+  {
+    "order": 128,
+    "term": "remnant",
+    "reading": "/'remnənt/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "cái còn lại, vật còn thừa, dấu vết còn lại, tàn dư",
+    "examples": []
+  },
+  {
+    "order": 129,
+    "term": "screen",
+    "reading": "/skri:n/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "bình phong, màn che, màn, tấm chắn",
+    "examples": []
+  },
+  {
+    "order": 130,
+    "term": "smoke detector",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "máy báo khói",
+    "examples": []
+  },
+  {
+    "order": 131,
+    "term": "suspend",
+    "reading": "/səs'pend/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "treo lơ lửng, đình chỉ, hoãn",
+    "examples": []
+  },
+  {
+    "order": 132,
+    "term": "technical",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "kỹ thuật",
+    "examples": []
+  },
+  {
+    "order": 133,
+    "term": "unfavorable",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "không thuận lợi",
+    "examples": []
+  },
+  {
+    "order": 134,
+    "term": "vulnerable to",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "dễ bị tổn thương",
+    "examples": []
+  },
+  {
+    "order": 135,
+    "term": "achievable",
+    "reading": "/ə'tʃi:vəbl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "có thể đạt được, có thể thực hiện được",
+    "examples": []
+  },
+  {
+    "order": 136,
+    "term": "apparatus",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "máy móc, công cụ",
+    "examples": []
+  },
+  {
+    "order": 137,
+    "term": "be geared to",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "được hướng đến",
+    "examples": []
+  },
+  {
+    "order": 138,
+    "term": "be stacked on top of each other",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "được xếp chồng lên nhau",
+    "examples": []
+  },
+  {
+    "order": 139,
+    "term": "bewildering",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "gây bối rối, khiến hoang mang",
+    "examples": []
+  },
+  {
+    "order": 140,
+    "term": "bring out",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đưa ra",
+    "examples": []
+  },
+  {
+    "order": 141,
+    "term": "concession",
+    "reading": "/kən'seʃn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự nhượng, sự nhượng bộ, sự nhường (đất đai...)",
+    "examples": []
+  },
+  {
+    "order": 142,
+    "term": "concurrently",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "đồng thời, kiêm",
+    "examples": []
+  },
+  {
+    "order": 143,
+    "term": "configuration",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cấu hình, (logic học) hình trạng",
+    "examples": []
+  },
+  {
+    "order": 144,
+    "term": "cutting-edge",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tiên tiến",
+    "examples": []
+  },
+  {
+    "order": 145,
+    "term": "detectable",
+    "reading": "/di'tektəbl/ (detectible) /di'tektəbl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "có thể dò ra, có thể tìm ra, có thể khám phá ra, có thể phát hiện ra, có thể nhận thấy, có thể nhận ra",
+    "examples": []
+  },
+  {
+    "order": 146,
+    "term": "distilt",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chưng cất",
+    "examples": []
+  },
+  {
+    "order": 147,
+    "term": "dysfunction",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "cũng disfunction, sự hoạt động khác thường của một cơ quan trong cơ thể",
+    "examples": []
+  },
+  {
+    "order": 148,
+    "term": "embedded",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "được nhúng",
+    "examples": []
+  },
+  {
+    "order": 149,
+    "term": "evolve",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tiến hoá, phát triển, khai triển",
+    "examples": []
+  },
+  {
+    "order": 150,
+    "term": "flammable",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "bén lửa, dễ cháy",
+    "examples": []
+  },
+  {
+    "order": 151,
+    "term": "implant",
+    "reading": "/im'plɑ:nt/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "đóng sâu vào, cắm chặt vào, ghi khắc, in sâu (vào tâm trí...)",
+    "examples": []
+  },
+  {
+    "order": 152,
+    "term": "intently",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "chăm chú, chú ý",
+    "examples": []
+  },
+  {
+    "order": 153,
+    "term": "obsolete",
+    "reading": "/'ɔbsəli:t/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "không dùng nữa, cổ xưa, cũ, đã lỗi thời",
+    "examples": []
+  },
+  {
+    "order": 154,
+    "term": "ornamental",
+    "reading": "/,ɔ:nə'mentl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "có tính chất trang hoàng, có tính chất trang trí, có tính chất trang sức, để trang trí, để trang sức",
+    "examples": []
+  },
+  {
+    "order": 155,
+    "term": "patronize",
+    "reading": "/'pætrənaiz/ (patronize) /'pætrənaiz/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "bảo trợ, đỡ đầu, đối xử với thái độ kẻ cả, bề trên",
+    "examples": []
+  },
+  {
+    "order": 156,
+    "term": "quality control standards",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tiêu chuẩn kiểm soát chất lượng",
+    "examples": []
+  },
+  {
+    "order": 157,
+    "term": "reassign",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chỉ định lại",
+    "examples": []
+  },
+  {
+    "order": 158,
+    "term": "specimen",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "mẫu, bản mẫu, ví dụ",
+    "examples": []
+  },
+  {
+    "order": 159,
+    "term": "staple",
+    "reading": "/'steipl/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "đinh kẹp, má kẹp (hình chữ U), dây thép rập sách",
+    "examples": []
+  },
+  {
+    "order": 160,
+    "term": "state-of-the-art",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "hiện đại",
+    "examples": []
+  },
+  {
+    "order": 161,
+    "term": "steer",
+    "reading": "/stiə/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "lái (tàu thuỷ, ô tô), hướng (bước...) về",
+    "examples": []
+  },
+  {
+    "order": 162,
+    "term": "streamline",
+    "reading": "/'stri:mlain/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "dòng nước, luồng không khí",
+    "examples": []
+  },
+  {
+    "order": 163,
+    "term": "sturdily",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "cứng cáp, vững chắc",
+    "examples": []
+  },
+  {
+    "order": 164,
+    "term": "top-of-the-line",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "top-of-the-line",
+    "examples": []
+  },
+  {
+    "order": 165,
+    "term": "transparent",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "trong suốt",
+    "examples": []
+  }
+]

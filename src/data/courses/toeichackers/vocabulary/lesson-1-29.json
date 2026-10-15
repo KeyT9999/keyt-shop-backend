@@ -1,0 +1,1478 @@
+[
+  {
+    "order": 1,
+    "term": "chance",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "trường hợp ngẫu nhiên, khả năng có thể, cơ hội",
+    "examples": []
+  },
+  {
+    "order": 2,
+    "term": "conserve",
+    "reading": "/kən'sə:v/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "mứt, mứt quả, giữ gìn, duy trì, bảo tồn, bảo toàn",
+    "examples": []
+  },
+  {
+    "order": 3,
+    "term": "clear",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "làm sạch, xoá bỏ (ở máy tính)",
+    "examples": []
+  },
+  {
+    "order": 4,
+    "term": "dispose",
+    "reading": "/dis'pouz/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "sắp đặt, sắp xếp, bó trí, làm cho có ý định, làm cho có khuynh hướng, làm cho có tâm trạng, làm cho có ý muốn",
+    "examples": []
+  },
+  {
+    "order": 5,
+    "term": "recycling",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "tái chế",
+    "examples": []
+  },
+  {
+    "order": 6,
+    "term": "waste",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Chất thải.",
+    "examples": []
+  },
+  {
+    "order": 7,
+    "term": "damage",
+    "reading": "/'dæmidʤ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "mối hại, điều hại, điều bất lợi, sự thiệt hại",
+    "examples": []
+  },
+  {
+    "order": 8,
+    "term": "occur",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "xuất hiện, xảy ra",
+    "examples": []
+  },
+  {
+    "order": 9,
+    "term": "significant",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "có nghĩa, có ỹ nghĩa, đáng kể",
+    "examples": []
+  },
+  {
+    "order": 10,
+    "term": "solution",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nghiệm, lời giải, phép giải, s. by inspection phép giải bằng cách chọn",
+    "examples": []
+  },
+  {
+    "order": 11,
+    "term": "aid",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thêm vào, phụ vào // sự thêm vào, sư phụ vào, training a. sách giáo khoa",
+    "examples": []
+  },
+  {
+    "order": 12,
+    "term": "excessive",
+    "reading": "/ik'sesiv/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "quá mức, thừa, quá thể, quá đáng",
+    "examples": []
+  },
+  {
+    "order": 13,
+    "term": "intensively",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "mạnh mẽ, sâu sắc",
+    "examples": []
+  },
+  {
+    "order": 14,
+    "term": "preserve",
+    "reading": "/pri'zə:v/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "mứt, khu vực cấm săn, khu vực cấm câu cá",
+    "examples": []
+  },
+  {
+    "order": 15,
+    "term": "mark",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "ký hiệu, dấu hiệu, vết, mức",
+    "examples": []
+  },
+  {
+    "order": 16,
+    "term": "pleasing",
+    "reading": "/'pli:ziɳ/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "dễ chịu, thú vị, làm vui lòng, làm vừa ý",
+    "examples": []
+  },
+  {
+    "order": 17,
+    "term": "vary",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "biến đổi, biến thiên, to v.directly biến đổi theo tỷ lệ thuận",
+    "examples": []
+  },
+  {
+    "order": 18,
+    "term": "dense",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "trù mật, d. in itself trù mật trong chính nó",
+    "examples": []
+  },
+  {
+    "order": 19,
+    "term": "emission",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự truyền, sự phát hành (tiền tệ), sự phát xạ (khí)",
+    "examples": []
+  },
+  {
+    "order": 20,
+    "term": "inaccessible",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "không đạt được",
+    "examples": []
+  },
+  {
+    "order": 21,
+    "term": "pollutant",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "chất gây ô nhiễm (do xe cộ, động cơ  thải ra)",
+    "examples": []
+  },
+  {
+    "order": 22,
+    "term": "consistent",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Thống nhất/ nhất quán.",
+    "examples": []
+  },
+  {
+    "order": 23,
+    "term": "continually",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "liên tục, không ngớt",
+    "examples": []
+  },
+  {
+    "order": 24,
+    "term": "environmental",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "thuộc về môi trường",
+    "examples": []
+  },
+  {
+    "order": 25,
+    "term": "organization",
+    "reading": "/,ɔ:gənai'zeiʃn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự tổ chức, sự cấu tạo, tổ chức, cơ quan",
+    "examples": []
+  },
+  {
+    "order": 26,
+    "term": "contaminate",
+    "reading": "/kən'tæmineit/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "làm bẩn, làm ô uế, làm nhiễm (bệnh)",
+    "examples": []
+  },
+  {
+    "order": 27,
+    "term": "disaster",
+    "reading": "/di'zɑ:stə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "tai hoạ, thảm hoạ, tai ách, điều bất hạnh",
+    "examples": []
+  },
+  {
+    "order": 28,
+    "term": "discharge",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự phóng điện, critical d. lưu lượng tới hạn",
+    "examples": []
+  },
+  {
+    "order": 29,
+    "term": "resource",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "phương kế, nguồn, tài nguyên",
+    "examples": []
+  },
+  {
+    "order": 30,
+    "term": "endangered",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "có nguy cơ tuyệt chủng",
+    "examples": []
+  },
+  {
+    "order": 31,
+    "term": "prominent",
+    "reading": "/prominent/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "lồi lên, nhô lên, đáng chú ý, nổi bật",
+    "examples": []
+  },
+  {
+    "order": 32,
+    "term": "purify",
+    "reading": "/'pjuərifai/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "làm sạch, lọc trong, tinh chế, rửa sạch, gột sạch (tội lỗi), làm thanh khiết, làm trong trắng",
+    "examples": []
+  },
+  {
+    "order": 33,
+    "term": "drought",
+    "reading": "/draut/ (drouth) /drauθ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "hạn hán, sự khô cạn",
+    "examples": []
+  },
+  {
+    "order": 34,
+    "term": "ecology",
+    "reading": "/i'kɔlədʤi/ (oecology) /i:'kɔlədʤi/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sinh thái học",
+    "examples": []
+  },
+  {
+    "order": 35,
+    "term": "extinction",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự dập tắt, sự làm ngừng, sự đình chỉ",
+    "examples": []
+  },
+  {
+    "order": 36,
+    "term": "habitat",
+    "reading": "/'hæbitæt/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "môi trường sống, nơi sống (của cây cối động vật), nhà, chỗ ở (người)",
+    "examples": []
+  },
+  {
+    "order": 37,
+    "term": "inflict",
+    "reading": "/in'flikt/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "nện, giáng (một đòn), gây ra (vết thương)",
+    "examples": []
+  },
+  {
+    "order": 38,
+    "term": "migration",
+    "reading": "/mai'greiʃn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự di trú, sự chuyển trường (từ trường đại học này sang trường đại học khác)",
+    "examples": []
+  },
+  {
+    "order": 39,
+    "term": "cave",
+    "reading": "/'keivi/",
+    "romaji": "",
+    "partOfSpeech": "Thán từ",
+    "meaning": ",  (từ lóng) chú ý! (thầy giáo đến kia...)",
+    "examples": []
+  },
+  {
+    "order": 40,
+    "term": "Celsius",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "thuộc về độ bách phân",
+    "examples": []
+  },
+  {
+    "order": 41,
+    "term": "chilly",
+    "reading": "/'tʃili/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "lạnh, lạnh lẽo, giá lạnh, ớn lạnh, rùng mình (vì lạnh)",
+    "examples": []
+  },
+  {
+    "order": 42,
+    "term": "clean up",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "dọn dẹp",
+    "examples": []
+  },
+  {
+    "order": 43,
+    "term": "cleaning supply",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "nguồn cung cấp vệ sinh",
+    "examples": []
+  },
+  {
+    "order": 44,
+    "term": "desert",
+    "reading": "/di'zə:t/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "công lao, giá trị, sự xứng đáng, sự đáng (khen thưởng, trừng phạt...)",
+    "examples": []
+  },
+  {
+    "order": 45,
+    "term": "dirt",
+    "reading": "/də:t/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "đâm bằng dao găm, đồ bẩn thỉu, đồ dơ bẩn, đồ dơ dáy",
+    "examples": []
+  },
+  {
+    "order": 46,
+    "term": "dust",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "bụi, cosmic d. bụi vũ trụ",
+    "examples": []
+  },
+  {
+    "order": 47,
+    "term": "empty a trash can",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "dọn sạch thùng rác",
+    "examples": []
+  },
+  {
+    "order": 48,
+    "term": "factory",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nhà máy, xưởng, automatic f. (điều khiển học) nhà máy tự động",
+    "examples": []
+  },
+  {
+    "order": 49,
+    "term": "flood",
+    "reading": "/flood/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "lũ, lụt, nạn lụt, dòng cuồn cuộn",
+    "examples": []
+  },
+  {
+    "order": 50,
+    "term": "general",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "chung, tổng quát, đầy đủ, tổng hợp in g. nói chung",
+    "examples": []
+  },
+  {
+    "order": 51,
+    "term": "harvest",
+    "reading": "/'hɑ:vist/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "việc gặt (lúa...), việc thu hoạch (hoa quả...), mùa gặt, vụ thu hoạch",
+    "examples": []
+  },
+  {
+    "order": 52,
+    "term": "humid",
+    "reading": "/'hju:mid/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "ẩm, ẩm ướt",
+    "examples": []
+  },
+  {
+    "order": 53,
+    "term": "landscape",
+    "reading": "/'lænskeip/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "phong cảnh, làm đẹp phong cảnh",
+    "examples": []
+  },
+  {
+    "order": 54,
+    "term": "point",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "điểm, vị trí at a p. (tại) một điểm",
+    "examples": []
+  },
+  {
+    "order": 55,
+    "term": "pollution",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "Ô nhiễm.",
+    "examples": []
+  },
+  {
+    "order": 56,
+    "term": "seed",
+    "reading": "/si:d/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "hạt, hạt giống, tinh dịch",
+    "examples": []
+  },
+  {
+    "order": 57,
+    "term": "shade",
+    "reading": "/ʃeid/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "bóng, bóng tối ((nghĩa đen) & (nghĩa bóng)), số nhiều) chỗ có bóng râm",
+    "examples": []
+  },
+  {
+    "order": 58,
+    "term": "shower",
+    "reading": "/'ʃouə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "người chỉ, người cho xem, người dẫn, người trưng bày",
+    "examples": []
+  },
+  {
+    "order": 59,
+    "term": "source",
+    "reading": "/sɔ:s/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "nguồn sông, nguồi suối, nguồn, nguồn gốc",
+    "examples": []
+  },
+  {
+    "order": 60,
+    "term": "southern",
+    "reading": "/'sʌðənə/ (southern) /'sʌðən/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "người ở miền Nam, dân các bang miền Nam (nước Mỹ)",
+    "examples": []
+  },
+  {
+    "order": 61,
+    "term": "sunny",
+    "reading": "/'sʌni/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "nắng, có nhiều ánh nắng, vui vẻ, hớn hở, tươi sáng",
+    "examples": []
+  },
+  {
+    "order": 62,
+    "term": "sunset",
+    "reading": "/'sʌnset/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "lúc mặt trời lặn, lúc xế chiều (của cuộc đời)",
+    "examples": []
+  },
+  {
+    "order": 63,
+    "term": "temperature",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "nhiệt độ, absolute t. nhiệt độ tuyệt đối",
+    "examples": []
+  },
+  {
+    "order": 64,
+    "term": "wet",
+    "reading": "/wet/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "ẩm, ướt, thấm nước, đẫm nước, đầm đìa",
+    "examples": []
+  },
+  {
+    "order": 65,
+    "term": "windy",
+    "reading": "/'windi/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "có gió, lắm gió, lộng gió, mưa gió, gió b o",
+    "examples": []
+  },
+  {
+    "order": 66,
+    "term": "wood",
+    "reading": "/wud/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "gỗ, củi",
+    "examples": []
+  },
+  {
+    "order": 67,
+    "term": "along the shore",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "dọc bờ biển",
+    "examples": []
+  },
+  {
+    "order": 68,
+    "term": "body of water",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "vùng nước",
+    "examples": []
+  },
+  {
+    "order": 69,
+    "term": "bush",
+    "reading": "/buʃ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "bụi cây, bụi rậm, rừng cây bụi",
+    "examples": []
+  },
+  {
+    "order": 70,
+    "term": "cliff",
+    "reading": "/klif/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "vách đá (nhô ra biển), câu chuyện hấp dẫn được kể từng phần trên một đài phát thanh",
+    "examples": []
+  },
+  {
+    "order": 71,
+    "term": "countryside",
+    "reading": "/'kʌntri'said/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "nông thôn, miền quê, vùng quê, địa phương (ở nông thôn), nhân dân miền quê",
+    "examples": []
+  },
+  {
+    "order": 72,
+    "term": "footpath",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "lối đi bộ",
+    "examples": []
+  },
+  {
+    "order": 73,
+    "term": "fountain",
+    "reading": "/'fauntin/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "suối nước, nguồn sông, vòi nước, vòi phun (công viên)",
+    "examples": []
+  },
+  {
+    "order": 74,
+    "term": "freezing",
+    "reading": "/'fri:ziɳ/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "giá lạnh, băng giá, rét lắm, lạnh nhạt, lạnh lùng, xa cách (thái độ)",
+    "examples": []
+  },
+  {
+    "order": 75,
+    "term": "gardening tool",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "dụng cụ làm vườn",
+    "examples": []
+  },
+  {
+    "order": 76,
+    "term": "grasp",
+    "reading": "/grɑ:sp/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự túm lấy, sự níu lấy, sự ôm ghì, quyền lực",
+    "examples": []
+  },
+  {
+    "order": 77,
+    "term": "hail",
+    "reading": "/heil/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "mưa đá, loạt, tràng dồn dập (như mưa)",
+    "examples": []
+  },
+  {
+    "order": 78,
+    "term": "lakefront",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "ven hồ",
+    "examples": []
+  },
+  {
+    "order": 79,
+    "term": "landscaping",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cảnh quan",
+    "examples": []
+  },
+  {
+    "order": 80,
+    "term": "lighthouse",
+    "reading": "/'laithaus/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "đèn biển, hải đăng",
+    "examples": []
+  },
+  {
+    "order": 81,
+    "term": "nightfall",
+    "reading": "/'naitfɔ:l/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "lúc sẩm tối, lúc chập tối, lúc hoàng hôn",
+    "examples": []
+  },
+  {
+    "order": 82,
+    "term": "off the shore",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "ngoài khơi bờ biển",
+    "examples": []
+  },
+  {
+    "order": 83,
+    "term": "overlook the water",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "nhìn ra mặt nước",
+    "examples": []
+  },
+  {
+    "order": 84,
+    "term": "pull weeds",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "nhổ cỏ dại",
+    "examples": []
+  },
+  {
+    "order": 85,
+    "term": "rain forest",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "rừng mưa nhiệt đới (ở các vùng nhiệt đới có lượng mưa lớn)",
+    "examples": []
+  },
+  {
+    "order": 86,
+    "term": "rain or shine",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "dù mưa hay nắng",
+    "examples": []
+  },
+  {
+    "order": 87,
+    "term": "rain shower",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "vòi hoa sen",
+    "examples": []
+  },
+  {
+    "order": 88,
+    "term": "rainstorm",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "mưa bão",
+    "examples": []
+  },
+  {
+    "order": 89,
+    "term": "ranger",
+    "reading": "/'reindʤ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "người hay đi lang thang, người bảo vệ rừng, nhân viên lân nghiệp",
+    "examples": []
+  },
+  {
+    "order": 90,
+    "term": "riverbank",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "bờ sông",
+    "examples": []
+  },
+  {
+    "order": 91,
+    "term": "riverside",
+    "reading": "/'rivəsaid/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "bờ sông, ở bờ sông, ven sông",
+    "examples": []
+  },
+  {
+    "order": 92,
+    "term": "scenery",
+    "reading": "/'si:nəri/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "đồ dùng trang trí (một gánh hát), cảnh phông",
+    "examples": []
+  },
+  {
+    "order": 93,
+    "term": "scenic",
+    "reading": "/'si:nik/ (scenical) /'si:nikəl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "sân khấu, (thuộc) kịch trường",
+    "examples": []
+  },
+  {
+    "order": 94,
+    "term": "slope",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "độ dốc, độ nghiêng, s. of a curve at a point độ dốc của một đường cong tại một điểm",
+    "examples": []
+  },
+  {
+    "order": 95,
+    "term": "stream",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "dòng, running s. dòng chảy",
+    "examples": []
+  },
+  {
+    "order": 96,
+    "term": "suburb",
+    "reading": "/'sʌbə:b/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "ngoại ô",
+    "examples": []
+  },
+  {
+    "order": 97,
+    "term": "sweep the leaves",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "quét lá",
+    "examples": []
+  },
+  {
+    "order": 98,
+    "term": "affirmative",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "khẳng định",
+    "examples": []
+  },
+  {
+    "order": 99,
+    "term": "atmospheric",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thuộc khí quyển",
+    "examples": []
+  },
+  {
+    "order": 100,
+    "term": "conservation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "bảo toàn, c. of energy bảo toàn",
+    "examples": []
+  },
+  {
+    "order": 101,
+    "term": "dislike",
+    "reading": "/dis'laik/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự không ưa, sự không thích, sự ghét, không ưa, không thích, ghét",
+    "examples": []
+  },
+  {
+    "order": 102,
+    "term": "environmental regulations",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "quy định về môi trường",
+    "examples": []
+  },
+  {
+    "order": 103,
+    "term": "fertile",
+    "reading": "/'fə:tail/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "tốt, màu mỡ (đất), có khả năng sinh sản",
+    "examples": []
+  },
+  {
+    "order": 104,
+    "term": "ground",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cơ sở, lý do, nguyên nhân, đất |",
+    "examples": []
+  },
+  {
+    "order": 105,
+    "term": "in particular",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đặc biệt",
+    "examples": []
+  },
+  {
+    "order": 106,
+    "term": "inclement",
+    "reading": "/in'klemənt/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "khắc nghiệt (khí hậu, thời tiết), hà khắc, khắc nghiệt (người)",
+    "examples": []
+  },
+  {
+    "order": 107,
+    "term": "mining",
+    "reading": "/'mainiɳ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự khai mỏ",
+    "examples": []
+  },
+  {
+    "order": 108,
+    "term": "natural habitat",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "môi trường sống tự nhiên",
+    "examples": []
+  },
+  {
+    "order": 109,
+    "term": "noise and air pollution",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "tiếng ồn và ô nhiễm không khí",
+    "examples": []
+  },
+  {
+    "order": 110,
+    "term": "nourishment",
+    "reading": "/'nʌriʃmənt/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự nuôi, sự nuôi dưỡng, đồ ăn, thực phẩm",
+    "examples": []
+  },
+  {
+    "order": 111,
+    "term": "nurture",
+    "reading": "/'nə:tʃə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "đồ ăn, sự nuôi dưỡng",
+    "examples": []
+  },
+  {
+    "order": 112,
+    "term": "overflow",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "dòng quá tải, (vật lí) dòng nước quá mức",
+    "examples": []
+  },
+  {
+    "order": 113,
+    "term": "quietly",
+    "reading": "/'kwiətli/",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "yên lặng, yên tĩnh, êm ả, yên ổn, thanh bình, thanh thản",
+    "examples": []
+  },
+  {
+    "order": 114,
+    "term": "react to",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "phản ứng với",
+    "examples": []
+  },
+  {
+    "order": 115,
+    "term": "recyclable",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "có thể tái chế",
+    "examples": []
+  },
+  {
+    "order": 116,
+    "term": "revolve",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "quay, tròn xoay, (thiên văn) chuyển động vòng quanh",
+    "examples": []
+  },
+  {
+    "order": 117,
+    "term": "setting",
+    "reading": "/'setiɳ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự đặt, sự để, sự sắp đặt, sự bố trí",
+    "examples": []
+  },
+  {
+    "order": 118,
+    "term": "sheer",
+    "reading": "/ʃiə/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "chỉ là, đúng là",
+    "examples": []
+  },
+  {
+    "order": 119,
+    "term": "solid",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "cố thể, s. of revolution cố thể tròn xoay",
+    "examples": []
+  },
+  {
+    "order": 120,
+    "term": "tangible",
+    "reading": "/'tændʤəbl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "có thể sờ mó được, hữu hình, đích xác, xác thực, hiển nhiên, rõ ràng, không thể nghi ngờ được",
+    "examples": []
+  },
+  {
+    "order": 121,
+    "term": "thoughtfully",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "trầm ngâm, trầm tư",
+    "examples": []
+  },
+  {
+    "order": 122,
+    "term": "thunderstorm",
+    "reading": "/'θʌndəstɔ:m/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "bão tố có sấm sét",
+    "examples": []
+  },
+  {
+    "order": 123,
+    "term": "trail",
+    "reading": "/treil/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "vạch, vệt dài, vết, dấu vết",
+    "examples": []
+  },
+  {
+    "order": 124,
+    "term": "trap",
+    "reading": "/træp/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "đồ đạc quần áo, đồ dùng riêng, hành lý",
+    "examples": []
+  },
+  {
+    "order": 125,
+    "term": "tree trunk",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "thân cây",
+    "examples": []
+  },
+  {
+    "order": 126,
+    "term": "twilight",
+    "reading": "/'twailait/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "lúc tranh tối tranh sáng, lúc hoàng hôn",
+    "examples": []
+  },
+  {
+    "order": 127,
+    "term": "under construction",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "đang xây dựng",
+    "examples": []
+  },
+  {
+    "order": 128,
+    "term": "vague",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "mơ hồ, không rõ ràng",
+    "examples": []
+  },
+  {
+    "order": 129,
+    "term": "water level",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "mực nước",
+    "examples": []
+  },
+  {
+    "order": 130,
+    "term": "weather forecast",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "dự báo thời tiết",
+    "examples": []
+  },
+  {
+    "order": 131,
+    "term": "weather report",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "dự báo thời tiết",
+    "examples": []
+  },
+  {
+    "order": 132,
+    "term": "windstorm",
+    "reading": "/'windst :m/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "b o",
+    "examples": []
+  },
+  {
+    "order": 133,
+    "term": "botanical",
+    "reading": "/bə'tænik/ (botanical) /bə'tænikəl/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "thực vật học",
+    "examples": []
+  },
+  {
+    "order": 134,
+    "term": "depletion",
+    "reading": "/di'pli:ʃn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự tháo hết ra, sự rút hết ra, sự xả hết ra, sự làm rỗng không",
+    "examples": []
+  },
+  {
+    "order": 135,
+    "term": "disposal",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự xếp đặt, sự khử",
+    "examples": []
+  },
+  {
+    "order": 136,
+    "term": "downpour",
+    "reading": "/'daunpɔ:/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "trận mưa như trút nước xuống",
+    "examples": []
+  },
+  {
+    "order": 137,
+    "term": "drench",
+    "reading": "/drentʃ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "liều thuốc (cho súc vật), trận mưa như trút nước",
+    "examples": []
+  },
+  {
+    "order": 138,
+    "term": "fade",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "sự phai màu, sự tàn lụi // thay đổi dần dần cường độ tín hiệu, làm",
+    "examples": []
+  },
+  {
+    "order": 139,
+    "term": "fuel emission",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "phát thải nhiên liệu",
+    "examples": []
+  },
+  {
+    "order": 140,
+    "term": "fumes",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "khói",
+    "examples": []
+  },
+  {
+    "order": 141,
+    "term": "grazing",
+    "reading": "/'greiziɳ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự thả súc vật cho ăn cỏ, sự chăn thả, đồng cỏ (cho súc vật)",
+    "examples": []
+  },
+  {
+    "order": 142,
+    "term": "irrigation system",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "hệ thống tưới tiêu",
+    "examples": []
+  },
+  {
+    "order": 143,
+    "term": "logging",
+    "reading": "/'lɔgiɳ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "việc đốn gỗ",
+    "examples": []
+  },
+  {
+    "order": 144,
+    "term": "mow the tawn",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "cắt xén",
+    "examples": []
+  },
+  {
+    "order": 145,
+    "term": "outskirts",
+    "reading": "/'autskə:ts/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "vùng ngoài (một tỉnh...), ngoại ô, vùng ngoại ô",
+    "examples": []
+  },
+  {
+    "order": 146,
+    "term": "outwardly",
+    "reading": "/'autwədli/",
+    "romaji": "",
+    "partOfSpeech": "Trạng từ",
+    "meaning": "bề ngoài, hướng ra phía ngoài",
+    "examples": []
+  },
+  {
+    "order": 147,
+    "term": "overpass",
+    "reading": "/'ouvəpɑ:s/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "cầu bắc qua đường, cầu chui[,ouvə'pɑ:s], đi qua",
+    "examples": []
+  },
+  {
+    "order": 148,
+    "term": "potted",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "mọc lên ở chậu, được gìn giữ trong chậu, rút ngắn, đơn giản hoá (sách )",
+    "examples": []
+  },
+  {
+    "order": 149,
+    "term": "precipitation",
+    "reading": "/pri,sipi'teiʃn/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự vội vàng, sự vội vã cuống cuồng, sự kết tủa, sự lắng",
+    "examples": []
+  },
+  {
+    "order": 150,
+    "term": "promptness",
+    "reading": "/promptness/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự mau lẹ, sự nhanh chóng, sự sốt sắng",
+    "examples": []
+  },
+  {
+    "order": 151,
+    "term": "pull up",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "kéo lên",
+    "examples": []
+  },
+  {
+    "order": 152,
+    "term": "residue",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "thặng dư, phần dư, phần còn lại, phần thừa dư r. at a pole thặng, dư tại một cực điểm",
+    "examples": []
+  },
+  {
+    "order": 153,
+    "term": "revert",
+    "reading": "/ri'və:t/",
+    "romaji": "",
+    "partOfSpeech": "Động từ",
+    "meaning": "trở lại (một vấn đề), trở về, trở lại (với chủ cũ) (tài sản)",
+    "examples": []
+  },
+  {
+    "order": 154,
+    "term": "rugged",
+    "reading": "/'rʌgid/",
+    "romaji": "",
+    "partOfSpeech": "Tính từ",
+    "meaning": "gồ ghề, lởm chởm, xù xì, thô lỗ, thô kệch, không đều (nét mặt)",
+    "examples": []
+  },
+  {
+    "order": 155,
+    "term": "sewage",
+    "reading": "/'sju:idʤ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "nước cống, rác cống, bón tưới bằng nước cống",
+    "examples": []
+  },
+  {
+    "order": 156,
+    "term": "shrub",
+    "reading": "/ʃrʌb/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "cây bụi, rượu bổ (pha bằng) nước quả",
+    "examples": []
+  },
+  {
+    "order": 157,
+    "term": "splendor",
+    "reading": "/'splendə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "(như) splendour",
+    "examples": []
+  },
+  {
+    "order": 158,
+    "term": "sustainable (++ unsustainable",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "bền vững (++ không bền vững",
+    "examples": []
+  },
+  {
+    "order": 159,
+    "term": "terrestrial",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "quả đất",
+    "examples": []
+  },
+  {
+    "order": 160,
+    "term": "timber",
+    "reading": "/'timbə/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "gỗ làm nhà, gỗ kiến trúc, gỗ, cây gỗ",
+    "examples": []
+  },
+  {
+    "order": 161,
+    "term": "toxication",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự đầu độc",
+    "examples": []
+  },
+  {
+    "order": 162,
+    "term": "tranquility",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng",
+    "meaning": "<Mỹ>",
+    "examples": []
+  },
+  {
+    "order": 163,
+    "term": "trimming",
+    "reading": "/'trimiɳ/",
+    "romaji": "",
+    "partOfSpeech": "Danh từ",
+    "meaning": "sự sắp xếp gọn gàng trật tự, sự cắt, sự hớt, sự tỉa, sự xén (cây)",
+    "examples": []
+  },
+  {
+    "order": 164,
+    "term": "vacant site",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ",
+    "meaning": "địa điểm bỏ trống",
+    "examples": []
+  }
+]
