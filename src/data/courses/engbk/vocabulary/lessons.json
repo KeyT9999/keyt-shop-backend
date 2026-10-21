@@ -1,0 +1,98 @@
+[
+  {
+    "lessonCode": "1-1",
+    "slug": "quiz-1-test-1-passage-1-phat-minh-thuoc-nhuom-tong-hop",
+    "title": "Quiz 1 — Test 1 / Passage 1: Phát minh thuốc nhuộm tổng hợp",
+    "description": "88 từ & cụm từ chủ đề phát minh khoa học, hóa học và ngành dệt (William Henry Perkin - Trang 7–11).",
+    "order": 1,
+    "itemCount": 88
+  },
+  {
+    "lessonCode": "1-2",
+    "slug": "quiz-2-test-1-passage-2-tim-kiem-tri-tue-ngoai-trai-dat",
+    "title": "Quiz 2 — Test 1 / Passage 2: Tìm kiếm trí tuệ ngoài Trái Đất",
+    "description": "85 từ & cụm từ chủ đề thiên văn, vũ trụ và sự sống ngoài Trái Đất (SETI - Trang 12–16).",
+    "order": 2,
+    "itemCount": 85
+  },
+  {
+    "lessonCode": "1-3",
+    "slug": "quiz-3-test-1-passage-3-lich-su-tien-hoa-cua-rua",
+    "title": "Quiz 3 — Test 1 / Passage 3: Lịch sử tiến hóa của rùa",
+    "description": "67 từ & cụm từ chủ đề tiến hóa động vật, hóa thạch và môi trường sống (Trang 17–20).",
+    "order": 3,
+    "itemCount": 67
+  },
+  {
+    "lessonCode": "1-4",
+    "slug": "quiz-4-test-2-passage-1-thinh-giac-tre-em-tieng-on-lop-hoc",
+    "title": "Quiz 4 — Test 2 / Passage 1: Thính giác trẻ em & tiếng ồn lớp học",
+    "description": "86 từ & cụm từ chủ đề thính giác, giáo dục học đường và sức khỏe trẻ em (Trang 22–26).",
+    "order": 4,
+    "itemCount": 86
+  },
+  {
+    "lessonCode": "1-5",
+    "slug": "quiz-5-test-2-passage-2-su-qua-canh-cua-sao-kim",
+    "title": "Quiz 5 — Test 2 / Passage 2: Sự quá cảnh của Sao Kim",
+    "description": "95 từ & cụm từ chủ đề thiên văn học và các cuộc quan sát khoa học lịch sử (Trang 27–31).",
+    "order": 5,
+    "itemCount": 95
+  },
+  {
+    "lessonCode": "1-6",
+    "slug": "quiz-6-test-2-passage-3-neuroeconomics-tu-duy-dot-pha",
+    "title": "Quiz 6 — Test 2 / Passage 3: Neuroeconomics & Tư duy đột phá",
+    "description": "92 từ & cụm từ chủ đề não bộ, nhận thức thần kinh và tư duy sáng tạo (Trang 32–36).",
+    "order": 6,
+    "itemCount": 92
+  },
+  {
+    "lessonCode": "1-7",
+    "slug": "quiz-7-test-3-passage-1-quan-diem-ve-ngon-ngu",
+    "title": "Quiz 7 — Test 3 / Passage 1: Quan điểm về ngôn ngữ",
+    "description": "58 từ & cụm từ chủ đề ngôn ngữ học và quy tắc chuẩn mực sử dụng ngôn ngữ (Trang 38–41).",
+    "order": 7,
+    "itemCount": 58
+  },
+  {
+    "lessonCode": "1-8",
+    "slug": "quiz-8-test-3-passage-2-nang-luong-thuy-trieu",
+    "title": "Quiz 8 — Test 3 / Passage 2: Năng lượng thủy triều",
+    "description": "70 từ & cụm từ chủ đề năng lượng tái tạo, tua-bin ngầm và kỹ thuật biển (Trang 42–45).",
+    "order": 8,
+    "itemCount": 70
+  },
+  {
+    "lessonCode": "1-9",
+    "slug": "quiz-9-test-3-passage-3-ly-thuyet-thong-tin",
+    "title": "Quiz 9 — Test 3 / Passage 3: Lý thuyết thông tin",
+    "description": "96 từ & cụm từ chủ đề truyền thông, mã hóa dữ liệu và công nghệ thông tin (Trang 46–50).",
+    "order": 9,
+    "itemCount": 96
+  },
+  {
+    "lessonCode": "1-10",
+    "slug": "quiz-10-test-4-passage-1-nha-khoa-hoc-marie-curie",
+    "title": "Quiz 10 — Test 4 / Passage 1: Nhà khoa học Marie Curie",
+    "description": "80 từ & cụm từ chủ đề phóng xạ, nghiên cứu khoa học và y học (Trang 51–55).",
+    "order": 10,
+    "itemCount": 80
+  },
+  {
+    "lessonCode": "1-11",
+    "slug": "quiz-11-test-4-passage-2-y-thuc-ban-than-o-tre-em",
+    "title": "Quiz 11 — Test 4 / Passage 2: Ý thức bản thân ở trẻ em",
+    "description": "97 từ & cụm từ chủ đề tâm lý học phát triển và sự hình thành nhận thức bản thân (Trang 56–60).",
+    "order": 11,
+    "itemCount": 97
+  },
+  {
+    "lessonCode": "1-12",
+    "slug": "quiz-12-test-4-passage-3-bao-tang-tinh-xac-thuc-lich-su",
+    "title": "Quiz 12 — Test 4 / Passage 3: Bảo tàng & Tính xác thực lịch sử",
+    "description": "103 từ & cụm từ chủ đề bảo tàng, di sản văn hóa và việc tái hiện lịch sử (Trang 61–66).",
+    "order": 12,
+    "itemCount": 103
+  }
+]

@@ -15,6 +15,9 @@ function normalizeCourseCode(courseCode) {
   if (code === 'TOEICHACKERS' || code === 'HACKERSTOEIC' || code === 'TOEIC-HACKERS') {
     return 'TOEIC_HACKERS';
   }
+  if (code === 'ENGBAKHI' || code === 'ENG-BA-KHI' || code === 'ENG_BA_KHI') {
+    return 'ENGBK';
+  }
   return code;
 }
 

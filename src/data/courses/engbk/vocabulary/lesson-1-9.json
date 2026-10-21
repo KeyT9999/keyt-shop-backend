@@ -1,0 +1,1442 @@
+[
+  {
+    "order": 1,
+    "term": "theory",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "lý thuyết",
+    "examples": [
+      {
+        "japanese": "Trong bài: “Information theory lies at the heart of everything - from DVD players and the genetic code…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 2,
+    "term": "lie at the heart/centre/root of something",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ / Collocation",
+    "meaning": "là cốt lõi, trọng tâm của",
+    "examples": [
+      {
+        "japanese": "Trong bài: “Information theory lies at the heart of everything - from DVD players and the genetic code of…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 3,
+    "term": "genetic code",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ / Collocation",
+    "meaning": "mã di truyền",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…heart of everything - from DVD players and the genetic code of DNA to the physics of the universe at its most fundamental. It…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 4,
+    "term": "fundamental",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "căn bản, nền tảng",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…DNA to the physics of the universe at its most fundamental. It has been central to the development of the science of…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 5,
+    "term": "central",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "trung tâm, quan trọng",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…universe at its most fundamental. It has been central to the development of the science of communication, which enables data…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 6,
+    "term": "enable",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "cho phép, tạo điều kiện",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…of the science of communication, which enables data to be sent electronically and has therefore had a major impact on…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 7,
+    "term": "major",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "lớn, quan trọng",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…be sent electronically and has therefore had a major impact on our lives A In April 2002 an event took place which…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 8,
+    "term": "impact",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "ảnh hưởng, tác động",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…electronically and has therefore had a major impact on our lives A In April 2002 an event took place which demonstrated one…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 9,
+    "term": "take place",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ / Collocation",
+    "meaning": "diễn ra, xảy ra",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…on our lives A In April 2002 an event took place which demonstrated one of the many applications of information theory.…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 10,
+    "term": "demonstrate",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "chứng minh, thể hiện",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…A In April 2002 an event took place which demonstrated one of the many applications of information theory. The space probe,…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 11,
+    "term": "application",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "ứng dụng",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…took place which demonstrated one of the many applications of information theory. The space probe, Voyager I”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 12,
+    "term": "space probe",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ / Collocation",
+    "meaning": "tàu thăm dò không gian",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…many applications of information theory. The space probe, Voyager I”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 13,
+    "term": "launch",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "phóng, khởi động",
+    "examples": [
+      {
+        "japanese": "Trong bài: “launched in 1977, had sent back spectacular images of Jupiter and Saturn and…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 14,
+    "term": "spectacular",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "ngoạn mục, ấn tượng",
+    "examples": [
+      {
+        "japanese": "Trong bài: “launched in 1977, had sent back spectacular images of Jupiter and Saturn and then soared out of the Solar System on…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 15,
+    "term": "soar",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "vút lên, tăng vọt",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…images of Jupiter and Saturn and then soared out of the Solar System on a one-way mission to the stars. After 25…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 16,
+    "term": "the solar system",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ / Collocation",
+    "meaning": "hệ Mặt Trời",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…Jupiter and Saturn and then soared out of the Solar System on a one-way mission to the stars. After 25 years of exposure to…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 17,
+    "term": "exposure to something",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ / Collocation",
+    "meaning": "sự tiếp xúc, phơi nhiễm với",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…mission to the stars. After 25 years of exposure to the freezing temperatures of deep space, the probe was beginning to…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 18,
+    "term": "deep space",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ / Collocation",
+    "meaning": "không gian sâu",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…of exposure to the freezing temperatures of deep space, the probe was beginning to show its age. Sensors and circuits…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 19,
+    "term": "probe",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "tàu thăm dò, thiết bị dò",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…the freezing temperatures of deep space, the probe was beginning to show its age. Sensors and circuits were on the brink…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "term": "sensor",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "cảm biến",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…the probe was beginning to show its age. Sensors and circuits were on the brink of failing and NASA experts realised…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 21,
+    "term": "circuit",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "mạch điện",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…was beginning to show its age. Sensors and circuits were on the brink of failing and NASA experts realised that they had to…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 22,
+    "term": "on the brink of something",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ / Collocation",
+    "meaning": "sắp xảy ra, cận kề",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…of Jupiter and Saturn and then soared out of the Solar System on a one-way mission to the stars. After 25 years of…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 23,
+    "term": "instruct",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "chỉ dẫn, ra lệnh",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…solution was to get a message to Voyager I to instruct it to use spares to change the failing parts. With the probe 12 billion…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 24,
+    "term": "spare",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "dự trữ, nhường; dư ra",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…a message to Voyager I to instruct it to use spares to change the failing parts. With the probe 12 billion kilometres from…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 25,
+    "term": "by means of sth",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ / Collocation",
+    "meaning": "bằng cách, thông qua",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…from Earth, this was not an easy task. By means of a radio dish belonging to NASA’s Deep Space Network, the message was…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 26,
+    "term": "orbit",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "quay quanh quỹ đạo",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…11 hours to reach its target, far beyond the orbit of Pluto. Yet, incredibly, the little probe managed to hear the faint…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 27,
+    "term": "incredibly",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "cực kỳ, khó tin",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…target, far beyond the orbit of Pluto. Yet, incredibly, the little probe managed to hear the faint call from its home planet,…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 28,
+    "term": "manage to do something",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ / Collocation",
+    "meaning": "xoay xở làm được",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…of Pluto. Yet, incredibly, the little probe managed to hear the faint call from its home planet, and successfully made the…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 29,
+    "term": "faint",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "yếu ớt, mờ nhạt",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…the little probe managed to hear the faint call from its home planet, and successfully made the switchover. B It…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 30,
+    "term": "switchover",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "sự chuyển đổi",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…its home planet, and successfully made the switchover. B It was the longest-distance repair job in history, and a triumph for…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 31,
+    "term": "triumph",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "chiến thắng, thành tựu lớn",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…longest-distance repair job in history, and a triumph for the NASA engineers. But it also highlighted the astonishing power…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 32,
+    "term": "highlight",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "làm nổi bật",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…a triumph for the NASA engineers. But it also highlighted the astonishing power of the techniques developed by American…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 33,
+    "term": "astonishing",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "đáng kinh ngạc",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…NASA engineers. But it also highlighted the astonishing power of the techniques developed by American communications engineer…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 34,
+    "term": "gadget",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "thiết bị nhỏ, đồ công nghệ",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…an early talent for maths and for building gadgets, and made breakthroughs in the foundations of”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 35,
+    "term": "breakthrough",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "bước đột phá",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…for maths and for building gadgets, and made breakthroughs in the foundations of”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 36,
+    "term": "foundation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "nền tảng, cơ sở",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…gadgets, and made breakthroughs in the foundations of”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 37,
+    "term": "shun",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "tránh né, từ chối",
+    "examples": [
+      {
+        "japanese": "Cách dùng: Diễn đạt ý “tránh né, từ chối” trong ngữ cảnh bài đọc.",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 38,
+    "term": "acclaim",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "sự tán dương, ca ngợi",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…information theory, but shunned the resulting acclaim. In the 1940s, he single-handedly created an entire science of…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 39,
+    "term": "inveigle somebody into something",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ / Collocation",
+    "meaning": "dụ dỗ ai làm gì",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…science of communication which has since inveigled its way into a host of applications, from dvds to satellite…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 40,
+    "term": "a host of",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ / Collocation",
+    "meaning": "rất nhiều, hàng loạt",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…which has since inveigled its way into a host of applications, from dvds to satellite communications to bar codes -…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 41,
+    "term": "satellite",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "vệ tinh",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…way into a host of applications, from dvds to satellite communications to bar codes - any area, in short, where data has to be…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 42,
+    "term": "in short",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ / Collocation",
+    "meaning": "tóm lại",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…communications to bar codes - any area, in short, where data has to be conveyed rapidly yet accurately. C This all seems…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 43,
+    "term": "convey",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "truyền đạt, chuyên chở",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…- any area, in short, where data has to be conveyed rapidly yet accurately. C This all seems light years away from the…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 44,
+    "term": "light year",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ / Collocation",
+    "meaning": "năm ánh sáng",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…rapidly yet accurately. C This all seems light years away from the down-to- earth uses Shannon originally had for his…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 45,
+    "term": "prestigious",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "danh giá, uy tín",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…graduate engineering student at the prestigious Massachusetts Institute of Technology in 1939. He set out with an…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 46,
+    "term": "set out",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ / Collocation",
+    "meaning": "bắt đầu, khởi xướng",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…Institute of Technology in 1939. He set out with an apparently simple aim: to pin down the precise meaning of…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 47,
+    "term": "apparently",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "dường như, rõ ràng",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…of Technology in 1939. He set out with an apparently simple aim: to pin down the precise meaning of the concept of…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 48,
+    "term": "pin sb/sth down",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ / Collocation",
+    "meaning": "xác định chính xác",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…He set out with an apparently simple aim: to pin down the precise meaning of the concept of ‘information’. The most…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 49,
+    "term": "precise",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "chính xác, cụ thể",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…with an apparently simple aim: to pin down the precise meaning of the concept of ‘information’. The most basic form of…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 50,
+    "term": "concept",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "khái niệm",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…aim: to pin down the precise meaning of the concept of ‘information’. The most basic form of information, Shannon argued,…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 51,
+    "term": "argue",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "lập luận, tranh luận",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…The most basic form of information, Shannon argued, is whether something is true or false - which can be captured in the…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 52,
+    "term": "capture",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "ghi lại, thu nhận",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…something is true or false - which can be captured in the binary unit, or ‘bit’, of the form 1 or 0. Having identified…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 53,
+    "term": "identify",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "xác định",
+    "examples": [
+      {
+        "japanese": "Cách dùng: Diễn đạt ý “xác định” trong ngữ cảnh bài đọc.",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 54,
+    "term": "set about doing sth",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ / Collocation",
+    "meaning": "bắt đầu thực hiện điều gì",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…Institute of Technology in 1939. He set out with an apparently simple aim: to pin down the precise meaning of…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 55,
+    "term": "vague",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "mơ hồ, không rõ",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…unit, Shannon set about defining otherwise vague ideas about information and how to transmit it from place to place. In…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 56,
+    "term": "transmit",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "truyền tín hiệu",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…vague ideas about information and how to transmit it from place to place. In the process he discovered something…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 57,
+    "term": "guarantee",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "đảm bảo",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…something surprising: it is always possible to guarantee information will get through random interference - ‘noise’ - intact. D…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 58,
+    "term": "get through",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ / Collocation",
+    "meaning": "truyền tới, vượt qua; hiểu được",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…always possible to guarantee information will get through random interference - ‘noise’ - intact. D Noise usually means…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 59,
+    "term": "interference",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "sự nhiễu tín hiệu",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…guarantee information will get through random interference - ‘noise’ - intact. D Noise usually means unwanted sounds which…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 60,
+    "term": "intact",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "nguyên vẹn",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…get through random interference - ‘noise’ - intact. D Noise usually means unwanted sounds which interfere with genuine…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 61,
+    "term": "interfere with",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ / Collocation",
+    "meaning": "can thiệp, gây nhiễu",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…D Noise usually means unwanted sounds which interfere with genuine information. Information”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 62,
+    "term": "genuine",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "chân thực, đích thực",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…means unwanted sounds which interfere with genuine information. Information”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 63,
+    "term": "generalise",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "khái quát hóa",
+    "examples": [
+      {
+        "japanese": "Trong bài: “theory generalises this idea via theorems that capture the effects of noise with…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 64,
+    "term": "theorem",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "định lý",
+    "examples": [
+      {
+        "japanese": "Trong bài: “theory generalises this idea via theorems that capture the effects of noise with mathematical precision. In…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 65,
+    "term": "capture",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "nắm bắt, thu nhận",
+    "examples": [
+      {
+        "japanese": "Trong bài: “theory generalises this idea via theorems that capture the effects of noise with mathematical precision. In particular,…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 66,
+    "term": "precision",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "sự chính xác",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…capture the effects of noise with mathematical precision. In particular, Shannon showed that noise sets a limit on the rate at…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 67,
+    "term": "in particular",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ / Collocation",
+    "meaning": "đặc biệt là",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…of noise with mathematical precision. In particular, Shannon showed that noise sets a limit on the rate at which…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 68,
+    "term": "depend on",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ / Collocation",
+    "meaning": "phụ thuộc vào",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…channels while remaining error-free. This rate depends on the relative strengths of the signal and noise travelling down the…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 69,
+    "term": "relative",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "tương đối, có liên quan",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…remaining error-free. This rate depends on the relative strengths of the signal and noise travelling down the communication…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 70,
+    "term": "capacity",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "sức chứa, khả năng",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…down the communication channel, and on its capacity (its ‘bandwidth’). The resulting limit, given in units of bits per…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 71,
+    "term": "bandwidth",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "băng thông",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…channel, and on its capacity (its ‘bandwidth’). The resulting limit, given in units of bits per second, is the…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 72,
+    "term": "package up",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ / Collocation",
+    "meaning": "đóng gói, gói ghém",
+    "examples": [
+      {
+        "japanese": "Cách dùng: Diễn đạt ý “đóng gói, gói ghém” trong ngữ cảnh bài đọc.",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 73,
+    "term": "cope with",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ / Collocation",
+    "meaning": "đối phó với, chịu đựng",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…of packaging up - ‘coding’ - information to cope with the ravages of noise, while staying within the…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 74,
+    "term": "the ravages of something",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ / Collocation",
+    "meaning": "sự tàn phá của",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…up - ‘coding’ - information to cope with the ravages of noise, while staying within the information-carrying capacity -…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 75,
+    "term": "devise",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "nghĩ ra, thiết kế ra",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…being used. E Over the years scientists have devised many such coding methods, and they have proved crucial in many…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 76,
+    "term": "crucial",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "quan trọng, then chốt",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…many such coding methods, and they have proved crucial in many technological feats. The Voyager spacecraft transmitted data…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 77,
+    "term": "feat",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "kỳ công, thành tựu",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…they have proved crucial in many technological feats. The Voyager spacecraft transmitted data using codes which added one…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 78,
+    "term": "spacecraft",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "tàu vũ trụ",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…in many technological feats. The Voyager spacecraft transmitted data using codes which added one extra bit for every single…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 79,
+    "term": "ensure",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "đảm bảo",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…uses a simple error-detecting system that ensures supermarket check-out lasers can read the price even on, say, a…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 80,
+    "term": "check out",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ / Collocation",
+    "meaning": "kiểm tra, xem xét",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…system that ensures supermarket check-out lasers can read the price even on, say, a crumpled bag of crisps.…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 81,
+    "term": "crumpled",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "bị nhàu nát",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…lasers can read the price even on, say, a crumpled bag of crisps. As recently as 1993, engineers made a major breakthrough…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 82,
+    "term": "crisp",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "sắc nét, rõ ràng, giòn",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…read the price even on, say, a crumpled bag of crisps. As recently as 1993, engineers made a major breakthrough by…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 83,
+    "term": "so-called",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "được gọi là, cái gọi là",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…made a major breakthrough by discovering so-called turbo codes - which come very close to Shannon’s ultimate limit for the…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 84,
+    "term": "ultimate",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "cuối cùng, tối hậu",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…codes - which come very close to Shannon’s ultimate limit for the maximum rate that data can be transmitted reliably, and…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 85,
+    "term": "revolution",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "cuộc cách mạng",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…now play a key role in the mobile videophone revolution.”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 86,
+    "term": "lay the foundations/groundwork/base",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ / Collocation",
+    "meaning": "đặt nền móng cho",
+    "examples": [
+      {
+        "japanese": "Trong bài: “F Shannon also laid the foundations of more efficient ways of storing information, by stripping…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 87,
+    "term": "efficient",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "hiệu quả, tiết kiệm",
+    "examples": [
+      {
+        "japanese": "Trong bài: “F Shannon also laid the foundations of more efficient ways of storing information, by stripping out superfluous (‘redundant’)…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 88,
+    "term": "strip",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "loại bỏ, tước đi",
+    "examples": [
+      {
+        "japanese": "Cách dùng: Diễn đạt ý “loại bỏ, tước đi” trong ngữ cảnh bài đọc.",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 89,
+    "term": "superfluous",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "thừa thãi, không cần thiết",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…ways of storing information, by stripping out superfluous (‘redundant’) bits from data which contributed little real information.…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 90,
+    "term": "redundant",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "dư thừa",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…information, by stripping out superfluous (‘redundant’) bits from data which contributed little real information. As mobile…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 91,
+    "term": "contribute",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "góp phần",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…superfluous (‘redundant’) bits from data which contributed little real information. As mobile phone text messages like ‘I CN C U’…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 92,
+    "term": "leave out",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ / Collocation",
+    "meaning": "lược bỏ, bỏ sót",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…like ‘I CN C U’ show, it is often possible to leave out a lot of data without losing much meaning. As with error…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 93,
+    "term": "ambiguous",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "mơ hồ, đa nghĩa",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…a limit beyond which messages become too ambiguous. Shannon showed how to calculate this limit, opening the way to the…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 94,
+    "term": "open the door/way to sth",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ / Collocation",
+    "meaning": "mở đường cho",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…Shannon showed how to calculate this limit, opening the way to the design of compression methods that cram maximum…”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 95,
+    "term": "compression",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ vựng học thuật",
+    "meaning": "sự nén dữ liệu",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…this limit, opening the way to the design of compression methods that cram maximum information into the minimum space.”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  },
+  {
+    "order": 96,
+    "term": "cram something into/onto etc something",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Cụm từ / Collocation",
+    "meaning": "nhồi nhét vào",
+    "examples": [
+      {
+        "japanese": "Trong bài: “…way to the design of compression methods that cram maximum information into the minimum space.”",
+        "reading": "",
+        "vietnamese": "Chủ đề: truyền thông, dữ liệu và công nghệ."
+      }
+    ]
+  }
+]
