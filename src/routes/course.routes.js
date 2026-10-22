@@ -2,8 +2,38 @@ const express = require('express');
 const { optionalAuth } = require('../middleware/optionalAuth.middleware');
 const courseService = require('../services/course.service');
 const quizEngineService = require('../services/quiz-engine.service');
+const ttsService = require('../services/tts.service');
 
 const router = express.Router();
+
+/**
+ * GET /api/courses/tts?text=...&lang=ja-JP|zh-CN|en-US
+ * Stream Microsoft Azure Neural TTS audio with persistent VPS SSD caching
+ */
+router.get('/tts', async (req, res) => {
+  try {
+    const text = String(req.query.text || '').trim();
+    const lang = String(req.query.lang || 'en-US').trim();
+
+    if (!text) {
+      return res.status(400).json({ success: false, message: 'Thiếu nội dung văn bản cần phát âm.' });
+    }
+
+    const { buffer, engine, voice } = await ttsService.synthesizeSpeech(text, lang);
+
+    res.set({
+      'Content-Type': 'audio/mpeg',
+      'Content-Length': buffer.length,
+      'Cache-Control': 'public, max-age=31536000, immutable',
+      'X-TTS-Engine': engine,
+      'X-TTS-Voice': voice,
+    });
+    return res.send(buffer);
+  } catch (err) {
+    console.error('❌ Error synthesizing Neural TTS:', err.message);
+    return res.status(500).json({ success: false, message: 'Không thể tạo âm thanh Neural TTS.' });
+  }
+});
 
 /**
  * GET /api/courses/:courseCode
