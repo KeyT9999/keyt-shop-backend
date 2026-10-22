@@ -18,6 +18,9 @@ function normalizeCourseCode(courseCode) {
   if (code === 'ENGBAKHI' || code === 'ENG-BA-KHI' || code === 'ENG_BA_KHI') {
     return 'ENGBK';
   }
+  if (code === 'ENGBAKHI2' || code === 'ENG-BA-KHI-2' || code === 'ENG_BA_KHI_2') {
+    return 'ENGBK2';
+  }
   return code;
 }
 
