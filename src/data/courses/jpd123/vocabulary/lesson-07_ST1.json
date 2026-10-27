@@ -1,6 +1,111 @@
 [
   {
     "order": 1,
+    "term": "りょうしん",
+    "reading": "りょうしん",
+    "romaji": "ryoushin",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Bố mẹ",
+    "examples": [
+      {
+        "japanese": "りょうしんはベトナムにすんでいます。",
+        "reading": "りょうしんはべとなむにすんでいます。",
+        "vietnamese": "Bố mẹ tôi đang sống ở Việt Nam."
+      }
+    ]
+  },
+  {
+    "order": 2,
+    "term": "ちち",
+    "reading": "ちち",
+    "romaji": "chichi",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Bố, cha",
+    "examples": [
+      {
+        "japanese": "ちちはかいしゃいんです。",
+        "reading": "ちちはかいしゃいんです。",
+        "vietnamese": "Bố tôi là nhân viên công ty."
+      }
+    ]
+  },
+  {
+    "order": 3,
+    "term": "はは",
+    "reading": "はは",
+    "romaji": "haha",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Mẹ",
+    "examples": [
+      {
+        "japanese": "はははりょうりがじょうずです。",
+        "reading": "はははりょうりがじょうずです。",
+        "vietnamese": "Mẹ tôi nấu ăn rất giỏi."
+      }
+    ]
+  },
+  {
+    "order": 4,
+    "term": "きょうだい",
+    "reading": "きょうだい",
+    "romaji": "kyoudai",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Anh em",
+    "examples": [
+      {
+        "japanese": "きょうだいはさんにんです。",
+        "reading": "きょうだいはさんにんです。",
+        "vietnamese": "Anh chị em tôi có 3 người."
+      }
+    ]
+  },
+  {
+    "order": 5,
+    "term": "あに",
+    "reading": "あに",
+    "romaji": "ani",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Anh trai",
+    "examples": [
+      {
+        "japanese": "わたしはあにがひとりいます。",
+        "reading": "わたしはあにがひとりいます。",
+        "vietnamese": "Tôi có một người anh trai."
+      }
+    ]
+  },
+  {
+    "order": 6,
+    "term": "あね",
+    "reading": "あね",
+    "romaji": "ane",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Chị gái",
+    "examples": [
+      {
+        "japanese": "あねはだいがくせいです。",
+        "reading": "あねはだいがくせいです。",
+        "vietnamese": "Chị gái tôi là sinh viên đại học."
+      }
+    ]
+  },
+  {
+    "order": 7,
+    "term": "おとうと",
+    "reading": "おとうと",
+    "romaji": "otouto",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Em trai",
+    "examples": [
+      {
+        "japanese": "おとうとはこうこうせいです。",
+        "reading": "おとうとはこうこうせいです。",
+        "vietnamese": "Em trai tôi là học sinh cấp 3."
+      }
+    ]
+  },
+  {
+    "order": 8,
     "term": "いもうと",
     "reading": "いもうと",
     "romaji": "imouto",
@@ -15,7 +120,7 @@
     ]
   },
   {
-    "order": 2,
+    "order": 9,
     "term": "おっと",
     "reading": "おっと",
     "romaji": "otto",
@@ -30,7 +135,7 @@
     ]
   },
   {
-    "order": 3,
+    "order": 10,
     "term": "つま",
     "reading": "つま",
     "romaji": "tsuma",
@@ -45,7 +150,7 @@
     ]
   },
   {
-    "order": 4,
+    "order": 11,
     "term": "こども",
     "reading": "こども",
     "romaji": "kodomo",
@@ -60,7 +165,7 @@
     ]
   },
   {
-    "order": 5,
+    "order": 12,
     "term": "むすこ",
     "reading": "むすこ",
     "romaji": "musuko",
@@ -75,7 +180,7 @@
     ]
   },
   {
-    "order": 6,
+    "order": 13,
     "term": "むすめ",
     "reading": "むすめ",
     "romaji": "musume",
@@ -90,7 +195,7 @@
     ]
   },
   {
-    "order": 7,
+    "order": 14,
     "term": "おとうさん",
     "reading": "おとうさん",
     "romaji": "otousan",
@@ -105,7 +210,7 @@
     ]
   },
   {
-    "order": 8,
+    "order": 15,
     "term": "おかあさん",
     "reading": "おかあさん",
     "romaji": "okaasan",
@@ -120,7 +225,7 @@
     ]
   },
   {
-    "order": 9,
+    "order": 16,
     "term": "おにいさん",
     "reading": "おにいさん",
     "romaji": "oniisan",
@@ -135,7 +240,7 @@
     ]
   },
   {
-    "order": 10,
+    "order": 17,
     "term": "おねえさん",
     "reading": "おねえさん",
     "romaji": "oneesan",
@@ -150,7 +255,7 @@
     ]
   },
   {
-    "order": 11,
+    "order": 18,
     "term": "おとうとさん",
     "reading": "おとうとさん",
     "romaji": "otoutosan",
@@ -165,7 +270,7 @@
     ]
   },
   {
-    "order": 12,
+    "order": 19,
     "term": "いもうとさん",
     "reading": "いもうとさん",
     "romaji": "imoutosan",
@@ -180,7 +285,7 @@
     ]
   },
   {
-    "order": 13,
+    "order": 20,
     "term": "おこさん",
     "reading": "おこさん",
     "romaji": "okosan",
@@ -195,7 +300,7 @@
     ]
   },
   {
-    "order": 14,
+    "order": 21,
     "term": "ペット",
     "reading": "ペット",
     "romaji": "petto",
@@ -210,7 +315,7 @@
     ]
   },
   {
-    "order": 15,
+    "order": 22,
     "term": "ねこ",
     "reading": "ねこ",
     "romaji": "neko",
@@ -225,7 +330,7 @@
     ]
   },
   {
-    "order": 16,
+    "order": 23,
     "term": "ピアノ",
     "reading": "ピアノ",
     "romaji": "piano",
@@ -240,7 +345,7 @@
     ]
   },
   {
-    "order": 17,
+    "order": 24,
     "term": "いしゃ",
     "reading": "いしゃ",
     "romaji": "isha",
@@ -255,7 +360,7 @@
     ]
   },
   {
-    "order": 18,
+    "order": 25,
     "term": "こうこうせい",
     "reading": "こうこうせい",
     "romaji": "koukousei",
@@ -270,7 +375,7 @@
     ]
   },
   {
-    "order": 19,
+    "order": 26,
     "term": "だいがくせい",
     "reading": "だいがくせい",
     "romaji": "daigakusei",
@@ -285,7 +390,7 @@
     ]
   },
   {
-    "order": 20,
+    "order": 27,
     "term": "～にん",
     "reading": "～にん",
     "romaji": "~nin",
@@ -300,7 +405,7 @@
     ]
   },
   {
-    "order": 21,
+    "order": 28,
     "term": "～ひき",
     "reading": "～ひき",
     "romaji": "~hiki",
@@ -315,7 +420,7 @@
     ]
   },
   {
-    "order": 22,
+    "order": 29,
     "term": "すみます",
     "reading": "すみます",
     "romaji": "sumimasu",
@@ -330,7 +435,7 @@
     ]
   },
   {
-    "order": 23,
+    "order": 30,
     "term": "います",
     "reading": "います",
     "romaji": "imasu",
@@ -345,7 +450,7 @@
     ]
   },
   {
-    "order": 24,
+    "order": 31,
     "term": "わたしはおとうとがいます。",
     "reading": "わたしはおとうとがいます。",
     "romaji": "watashi wa otouto ga imasu.",
