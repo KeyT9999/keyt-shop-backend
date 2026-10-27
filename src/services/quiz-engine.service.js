@@ -25,6 +25,12 @@ function normalizeVocabularyText(str) {
     .replace(/[！-～]/g, (ch) => String.fromCharCode(ch.charCodeAt(0) - 0xfee0)); // fullwidth ascii to halfwidth
 }
 
+function stripOptionalVocabularyMarkers(str) {
+  return normalizeVocabularyText(str)
+    .replace(/\(な\)|（な）/g, '')
+    .replace(/[～~。、.,!！?？]/g, '');
+}
+
 const quizEngineService = {
   /**
    * Generate multiple choice questions dynamically for a vocabulary lesson
@@ -137,8 +143,14 @@ const quizEngineService = {
       const cleanReading = normalizeVocabularyText(item.reading);
       const cleanTerm = normalizeVocabularyText(item.term);
       const cleanUser = normalizeVocabularyText(cleanInput);
+      const strippedReading = stripOptionalVocabularyMarkers(item.reading);
+      const strippedTerm = stripOptionalVocabularyMarkers(item.term);
+      const strippedUser = stripOptionalVocabularyMarkers(cleanInput);
 
-      const isCorrect = (cleanReading && cleanUser === cleanReading) || cleanUser === cleanTerm;
+      const isCorrect =
+        (cleanReading && cleanUser === cleanReading) ||
+        cleanUser === cleanTerm ||
+        (strippedUser && ((strippedReading && strippedUser === strippedReading) || strippedUser === strippedTerm));
       const readingSuffix = item.reading ? ` (${item.reading})` : '';
       return {
         isCorrect,

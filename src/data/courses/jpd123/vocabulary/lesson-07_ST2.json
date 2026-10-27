@@ -1,0 +1,422 @@
+[
+  {
+    "order": 1,
+    "term": "ごしゅじん",
+    "reading": "ごしゅじん",
+    "romaji": "goshujin",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Chồng (của người khác)",
+    "examples": [
+      {
+        "japanese": "ごしゅじんはどんなひとですか。",
+        "reading": "ごしゅじんはどんなひとですか。",
+        "vietnamese": "Chồng của chị là người như thế nào?"
+      }
+    ]
+  },
+  {
+    "order": 2,
+    "term": "おくさん",
+    "reading": "おくさん",
+    "romaji": "okusan",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Vợ (của người khác)",
+    "examples": [
+      {
+        "japanese": "おくさんはとてもやさしいです。",
+        "reading": "おくさんはとてもやさしいです。",
+        "vietnamese": "Vợ của anh ấy rất dịu dàng, tốt bụng."
+      }
+    ]
+  },
+  {
+    "order": 3,
+    "term": "せんぱい",
+    "reading": "せんぱい",
+    "romaji": "senpai",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Tiền bối, người đi trước",
+    "examples": [
+      {
+        "japanese": "せんぱいはとてもしんせつです。",
+        "reading": "せんぱいはとてもしんせつです。",
+        "vietnamese": "Tiền bối rất tử tế và ân cần."
+      }
+    ]
+  },
+  {
+    "order": 4,
+    "term": "こうはい",
+    "reading": "こうはい",
+    "romaji": "kouhai",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Hậu bối, người đi sau",
+    "examples": [
+      {
+        "japanese": "こうはいはまじめなひとです。",
+        "reading": "こうはいはまじめなひとです。",
+        "vietnamese": "Hậu bối là một người chăm chỉ, nghiêm túc."
+      }
+    ]
+  },
+  {
+    "order": 5,
+    "term": "うさぎ",
+    "reading": "うさぎ",
+    "romaji": "usagi",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Con thỏ",
+    "examples": [
+      {
+        "japanese": "うさぎはみみがながいです。",
+        "reading": "うさぎはみみがながいです。",
+        "vietnamese": "Con thỏ có đôi tai dài."
+      }
+    ]
+  },
+  {
+    "order": 6,
+    "term": "からだ",
+    "reading": "からだ",
+    "romaji": "karada",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Cơ thể",
+    "examples": [
+      {
+        "japanese": "からだにいいりょうりをたべます。",
+        "reading": "からだにいいりょうりをたべます。",
+        "vietnamese": "Tôi ăn những món tốt cho cơ thể."
+      }
+    ]
+  },
+  {
+    "order": 7,
+    "term": "あし",
+    "reading": "あし",
+    "romaji": "ashi",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Chân, bàn chân",
+    "examples": [
+      {
+        "japanese": "あにはあしがながいです。",
+        "reading": "あにはあしがながいです。",
+        "vietnamese": "Anh trai tôi có đôi chân dài."
+      }
+    ]
+  },
+  {
+    "order": 8,
+    "term": "かお",
+    "reading": "かお",
+    "romaji": "kao",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Mặt",
+    "examples": [
+      {
+        "japanese": "まいあさかおをあらいます。",
+        "reading": "まいあさかおをあらいます。",
+        "vietnamese": "Mỗi sáng tôi đều rửa mặt."
+      }
+    ]
+  },
+  {
+    "order": 9,
+    "term": "かみ",
+    "reading": "かみ",
+    "romaji": "kami",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Tóc",
+    "examples": [
+      {
+        "japanese": "いもうとはかみがながいです。",
+        "reading": "いもうとはかみがながいです。",
+        "vietnamese": "Em gái tôi có mái tóc dài."
+      }
+    ]
+  },
+  {
+    "order": 10,
+    "term": "くち",
+    "reading": "くち",
+    "romaji": "kuchi",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Miệng",
+    "examples": [
+      {
+        "japanese": "くちをおおきくあけてください。",
+        "reading": "くちをおおきくあけてください。",
+        "vietnamese": "Xin hãy há miệng to ra."
+      }
+    ]
+  },
+  {
+    "order": 11,
+    "term": "はな",
+    "reading": "はな",
+    "romaji": "hana",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Mũi",
+    "examples": [
+      {
+        "japanese": "ぞうははながながいです。",
+        "reading": "ぞうははながながいです。",
+        "vietnamese": "Con voi có cái vòi (mũi) dài."
+      }
+    ]
+  },
+  {
+    "order": 12,
+    "term": "め",
+    "reading": "め",
+    "romaji": "me",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Mắt",
+    "examples": [
+      {
+        "japanese": "あのこはめがおおきいです。",
+        "reading": "あのこはめがおおきいです。",
+        "vietnamese": "Đứa bé kia có đôi mắt to."
+      }
+    ]
+  },
+  {
+    "order": 13,
+    "term": "みみ",
+    "reading": "みみ",
+    "romaji": "mimi",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Tai",
+    "examples": [
+      {
+        "japanese": "うさぎのみみはながくてかわいいです。",
+        "reading": "うさぎのみみはながくてかわいいです。",
+        "vietnamese": "Tai của con thỏ vừa dài vừa đáng yêu."
+      }
+    ]
+  },
+  {
+    "order": 14,
+    "term": "あたまがいい",
+    "reading": "あたまがいい",
+    "romaji": "atama ga ii",
+    "partOfSpeech": "Cụm tính từ",
+    "meaning": "Thông minh",
+    "examples": [
+      {
+        "japanese": "おにいさんはあたまがいいです。",
+        "reading": "おにいさんはあたまがいいです。",
+        "vietnamese": "Anh trai của bạn rất thông minh."
+      }
+    ]
+  },
+  {
+    "order": 15,
+    "term": "かっこいい",
+    "reading": "かっこいい",
+    "romaji": "kakkoii",
+    "partOfSpeech": "Tính từ đuôi i",
+    "meaning": "Đẹp trai, ngầu",
+    "examples": [
+      {
+        "japanese": "せんぱいはとてもかっこいいです。",
+        "reading": "せんぱいはとてもかっこいいです。",
+        "vietnamese": "Tiền bối rất đẹp trai và ngầu."
+      }
+    ]
+  },
+  {
+    "order": 16,
+    "term": "かわいい",
+    "reading": "かわいい",
+    "romaji": "kawaii",
+    "partOfSpeech": "Tính từ đuôi i",
+    "meaning": "Dễ thương, đáng yêu",
+    "examples": [
+      {
+        "japanese": "このねこはとてもかわいいです。",
+        "reading": "このねこはとてもかわいいです。",
+        "vietnamese": "Con mèo này rất dễ thương."
+      }
+    ]
+  },
+  {
+    "order": 17,
+    "term": "せがたかい",
+    "reading": "せがたかい",
+    "romaji": "se ga takai",
+    "partOfSpeech": "Cụm tính từ",
+    "meaning": "Cao (chiều cao)",
+    "examples": [
+      {
+        "japanese": "おとうとはせがたかいです。",
+        "reading": "おとうとはせがたかいです。",
+        "vietnamese": "Em trai tôi cao."
+      }
+    ]
+  },
+  {
+    "order": 18,
+    "term": "ながい",
+    "reading": "ながい",
+    "romaji": "nagai",
+    "partOfSpeech": "Tính từ đuôi i",
+    "meaning": "Dài",
+    "examples": [
+      {
+        "japanese": "あねはかみがながいです。",
+        "reading": "あねはかみがながいです。",
+        "vietnamese": "Chị gái tôi có mái tóc dài."
+      }
+    ]
+  },
+  {
+    "order": 19,
+    "term": "みじかい",
+    "reading": "みじかい",
+    "romaji": "mijikai",
+    "partOfSpeech": "Tính từ đuôi i",
+    "meaning": "Ngắn",
+    "examples": [
+      {
+        "japanese": "わたしはかみがみじかいです。",
+        "reading": "わたしはかみがみじかいです。",
+        "vietnamese": "Tôi có mái tóc ngắn."
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "term": "やさしい",
+    "reading": "やさしい",
+    "romaji": "yasashii",
+    "partOfSpeech": "Tính từ đuôi i",
+    "meaning": "Dịu dàng, tốt bụng",
+    "examples": [
+      {
+        "japanese": "はははやさしいひとです。",
+        "reading": "はははやさしいひとです。",
+        "vietnamese": "Mẹ tôi là một người dịu dàng, tốt bụng."
+      }
+    ]
+  },
+  {
+    "order": 21,
+    "term": "くろい",
+    "reading": "くろい",
+    "romaji": "kuroi",
+    "partOfSpeech": "Tính từ đuôi i",
+    "meaning": "Màu đen",
+    "examples": [
+      {
+        "japanese": "くろいねこがいます。",
+        "reading": "くろいねこがいます。",
+        "vietnamese": "Có một con mèo màu đen."
+      }
+    ]
+  },
+  {
+    "order": 22,
+    "term": "しろい",
+    "reading": "しろい",
+    "romaji": "shiroi",
+    "partOfSpeech": "Tính từ đuôi i",
+    "meaning": "Màu trắng",
+    "examples": [
+      {
+        "japanese": "しろいうさぎがかわいいです。",
+        "reading": "しろいうさぎがかわいいです。",
+        "vietnamese": "Con thỏ màu trắng rất dễ thương."
+      }
+    ]
+  },
+  {
+    "order": 23,
+    "term": "ちゃいろい",
+    "reading": "ちゃいろい",
+    "romaji": "chairoi",
+    "partOfSpeech": "Tính từ đuôi i",
+    "meaning": "Màu nâu",
+    "examples": [
+      {
+        "japanese": "ちゃいろいいぬがいます。",
+        "reading": "ちゃいろいいぬがいます。",
+        "vietnamese": "Có một chú chó màu nâu."
+      }
+    ]
+  },
+  {
+    "order": 24,
+    "term": "げんき(な)",
+    "reading": "げんき(な)",
+    "romaji": "genki(na)",
+    "partOfSpeech": "Tính từ đuôi na",
+    "meaning": "Khỏe mạnh, vui vẻ (tính từ đuôi na)",
+    "examples": [
+      {
+        "japanese": "こどもたちはいつもげんきです。",
+        "reading": "こどもたちはいつもげんきです。",
+        "vietnamese": "Bọn trẻ lúc nào cũng khỏe mạnh, vui vẻ."
+      }
+    ]
+  },
+  {
+    "order": 25,
+    "term": "しんせつ(な)",
+    "reading": "しんせつ(な)",
+    "romaji": "shinsetsu(na)",
+    "partOfSpeech": "Tính từ đuôi na",
+    "meaning": "Tử tế, ân cần (tính từ đuôi na)",
+    "examples": [
+      {
+        "japanese": "せんせいはとてもしんせつです。",
+        "reading": "せんせいはとてもしんせつです。",
+        "vietnamese": "Thầy/cô giáo rất tử tế và ân cần."
+      }
+    ]
+  },
+  {
+    "order": 26,
+    "term": "まじめ(な)",
+    "reading": "まじめ(な)",
+    "romaji": "majime(na)",
+    "partOfSpeech": "Tính từ đuôi na",
+    "meaning": "Chăm chỉ, nghiêm túc (tính từ đuôi na)",
+    "examples": [
+      {
+        "japanese": "かれはまじめなだいがくせいです。",
+        "reading": "かれはまじめなだいがくせいです。",
+        "vietnamese": "Anh ấy là một sinh viên chăm chỉ, nghiêm túc."
+      }
+    ]
+  },
+  {
+    "order": 27,
+    "term": "じょうず(な)",
+    "reading": "じょうず(な)",
+    "romaji": "jouzu(na)",
+    "partOfSpeech": "Tính từ đuôi na",
+    "meaning": "Giỏi, khéo tay (tính từ đuôi na)",
+    "examples": [
+      {
+        "japanese": "あねはりょうりがじょうずです。",
+        "reading": "あねはりょうりがじょうずです。",
+        "vietnamese": "Chị gái tôi nấu ăn rất giỏi."
+      }
+    ]
+  },
+  {
+    "order": 28,
+    "term": "へた(な)",
+    "reading": "へた(な)",
+    "romaji": "heta(na)",
+    "partOfSpeech": "Tính từ đuôi na",
+    "meaning": "Kém, vụng về (tính từ đuôi na)",
+    "examples": [
+      {
+        "japanese": "わたしはうたがへたです。",
+        "reading": "わたしはうたがへたです。",
+        "vietnamese": "Tôi hát kém."
+      }
+    ]
+  }
+]

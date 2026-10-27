@@ -94,5 +94,21 @@
     "description": "Học về các hoạt động giải trí và sinh hoạt hàng ngày",
     "order": 12,
     "itemCount": 16
+  },
+  {
+    "lessonCode": "07_ST1",
+    "slug": "tu-vung-07-st1",
+    "title": "Từ vựng_07_ST1 — Gia đình, Thú cưng & Nghề nghiệp",
+    "description": "24 thuật ngữ học phần 07_ST1: Gia đình (của mình & của người khác), thú cưng, nghề nghiệp, cách đếm người/con vật và mẫu câu tồn tại.",
+    "order": 13,
+    "itemCount": 24
+  },
+  {
+    "lessonCode": "07_ST2",
+    "slug": "tu-vung-07-st2",
+    "title": "Từ vựng 07_ST2 — Ngoại hình, Cơ thể & Tính cách",
+    "description": "28 thuật ngữ học phần 07_ST2: Chồng/vợ người khác, tiền bối/hậu bối, bộ phận cơ thể, màu sắc và tính từ miêu tả ngoại hình, tính cách.",
+    "order": 14,
+    "itemCount": 28
   }
 ]

@@ -70,7 +70,7 @@ async function seedSingleCourse(courseSlug, coursesDir) {
     const lessonFiles = fs.readdirSync(vocabDir).filter((f) => f.startsWith('lesson-') && f.endsWith('.json'));
 
     for (const file of lessonFiles) {
-      const match = file.match(/^lesson-([0-9]+-[0-9]+)\.json$/);
+      const match = file.match(/^lesson-(.+)\.json$/);
       if (match) {
         const lessonCode = match[1];
         const lessonDoc = vocabLessonMap[lessonCode];

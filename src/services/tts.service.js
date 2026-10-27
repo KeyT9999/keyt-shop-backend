@@ -97,12 +97,14 @@ async function generateWithGoogleTts(text, tl) {
  * @returns {Promise<{ buffer: Buffer, engine: string, voice: string }>}
  */
 async function synthesizeSpeech(rawText, rawLang = 'en-US') {
-  const text = String(rawText || '').trim().slice(0, 300);
+  const { tl, voice } = normalizeLang(rawLang);
+  let text = String(rawText || '').trim().slice(0, 300);
+  if (tl === 'ja') {
+    text = text.replace(/\(な\)|（な）/g, '').replace(/[～~]/g, '').trim();
+  }
   if (!text) {
     throw new Error('Missing text for TTS');
   }
-
-  const { tl, voice } = normalizeLang(rawLang);
   const hash = crypto.createHash('sha256').update(`${voice}|${text}`).digest('hex').slice(0, 32);
   const cacheFile = path.join(CACHE_DIR, `${hash}.mp3`);
 

@@ -1,0 +1,362 @@
+[
+  {
+    "order": 1,
+    "term": "いもうと",
+    "reading": "いもうと",
+    "romaji": "imouto",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Em gái",
+    "examples": [
+      {
+        "japanese": "わたしはいもうとがいます。",
+        "reading": "わたしはいもうとがいます。",
+        "vietnamese": "Tôi có một em gái."
+      }
+    ]
+  },
+  {
+    "order": 2,
+    "term": "おっと",
+    "reading": "おっと",
+    "romaji": "otto",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Chồng",
+    "examples": [
+      {
+        "japanese": "おっとはかいしゃいんです。",
+        "reading": "おっとはかいしゃいんです。",
+        "vietnamese": "Chồng tôi là nhân viên công ty."
+      }
+    ]
+  },
+  {
+    "order": 3,
+    "term": "つま",
+    "reading": "つま",
+    "romaji": "tsuma",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Vợ",
+    "examples": [
+      {
+        "japanese": "つまはせんせいです。",
+        "reading": "つまはせんせいです。",
+        "vietnamese": "Vợ tôi là giáo viên."
+      }
+    ]
+  },
+  {
+    "order": 4,
+    "term": "こども",
+    "reading": "こども",
+    "romaji": "kodomo",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Con cái, trẻ em",
+    "examples": [
+      {
+        "japanese": "こどもがふたりいます。",
+        "reading": "こどもがふたりいます。",
+        "vietnamese": "Tôi có hai người con."
+      }
+    ]
+  },
+  {
+    "order": 5,
+    "term": "むすこ",
+    "reading": "むすこ",
+    "romaji": "musuko",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Con trai",
+    "examples": [
+      {
+        "japanese": "むすこはこうこうせいです。",
+        "reading": "むすこはこうこうせいです。",
+        "vietnamese": "Con trai tôi là học sinh cấp 3."
+      }
+    ]
+  },
+  {
+    "order": 6,
+    "term": "むすめ",
+    "reading": "むすめ",
+    "romaji": "musume",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Con gái",
+    "examples": [
+      {
+        "japanese": "むすめはだいがくせいです。",
+        "reading": "むすめはだいがくせいです。",
+        "vietnamese": "Con gái tôi là sinh viên đại học."
+      }
+    ]
+  },
+  {
+    "order": 7,
+    "term": "おとうさん",
+    "reading": "おとうさん",
+    "romaji": "otousan",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Bố (của người khác)",
+    "examples": [
+      {
+        "japanese": "おとうさんはいしゃですか。",
+        "reading": "おとうさんはいしゃですか。",
+        "vietnamese": "Bố của bạn là bác sĩ phải không?"
+      }
+    ]
+  },
+  {
+    "order": 8,
+    "term": "おかあさん",
+    "reading": "おかあさん",
+    "romaji": "okaasan",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Mẹ (của người khác)",
+    "examples": [
+      {
+        "japanese": "おかあさんはおげんきですか。",
+        "reading": "おかあさんはおげんきですか。",
+        "vietnamese": "Mẹ của bạn có khỏe không?"
+      }
+    ]
+  },
+  {
+    "order": 9,
+    "term": "おにいさん",
+    "reading": "おにいさん",
+    "romaji": "oniisan",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Anh trai (của người khác)",
+    "examples": [
+      {
+        "japanese": "おにいさんはとうきょうにすんでいます。",
+        "reading": "おにいさんはとうきょうにすんでいます。",
+        "vietnamese": "Anh trai của bạn ấy đang sống ở Tokyo."
+      }
+    ]
+  },
+  {
+    "order": 10,
+    "term": "おねえさん",
+    "reading": "おねえさん",
+    "romaji": "oneesan",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Chị gái (của người khác)",
+    "examples": [
+      {
+        "japanese": "おねえさんはピアノがじょうずです。",
+        "reading": "おねえさんはぴあのがじょうずです。",
+        "vietnamese": "Chị gái của bạn chơi đàn piano rất giỏi."
+      }
+    ]
+  },
+  {
+    "order": 11,
+    "term": "おとうとさん",
+    "reading": "おとうとさん",
+    "romaji": "otoutosan",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Em trai (của người khác)",
+    "examples": [
+      {
+        "japanese": "おとうとさんはこうこうせいですか。",
+        "reading": "おとうとさんはこうこうせいですか。",
+        "vietnamese": "Em trai của bạn là học sinh cấp 3 phải không?"
+      }
+    ]
+  },
+  {
+    "order": 12,
+    "term": "いもうとさん",
+    "reading": "いもうとさん",
+    "romaji": "imoutosan",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Em gái (của người khác)",
+    "examples": [
+      {
+        "japanese": "いもうとさんはとてもかわいいです。",
+        "reading": "いもうとさんはとてもかわいいです。",
+        "vietnamese": "Em gái của bạn rất dễ thương."
+      }
+    ]
+  },
+  {
+    "order": 13,
+    "term": "おこさん",
+    "reading": "おこさん",
+    "romaji": "okosan",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Con (của người khác)",
+    "examples": [
+      {
+        "japanese": "おこさんはなんにんいますか。",
+        "reading": "おこさんはなんにんいますか。",
+        "vietnamese": "Anh/chị có mấy người con?"
+      }
+    ]
+  },
+  {
+    "order": 14,
+    "term": "ペット",
+    "reading": "ペット",
+    "romaji": "petto",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Thú cưng",
+    "examples": [
+      {
+        "japanese": "うちにペットがいます。",
+        "reading": "うちにぺっとがいます。",
+        "vietnamese": "Ở nhà tôi có nuôi thú cưng."
+      }
+    ]
+  },
+  {
+    "order": 15,
+    "term": "ねこ",
+    "reading": "ねこ",
+    "romaji": "neko",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Con mèo",
+    "examples": [
+      {
+        "japanese": "ねこがいっぴきいます。",
+        "reading": "ねこがいっぴきいます。",
+        "vietnamese": "Tôi có một con mèo."
+      }
+    ]
+  },
+  {
+    "order": 16,
+    "term": "ピアノ",
+    "reading": "ピアノ",
+    "romaji": "piano",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Đàn piano",
+    "examples": [
+      {
+        "japanese": "まいにちピアノをひきます。",
+        "reading": "まいにちぴあのをひきます。",
+        "vietnamese": "Mỗi ngày tôi đều chơi đàn piano."
+      }
+    ]
+  },
+  {
+    "order": 17,
+    "term": "いしゃ",
+    "reading": "いしゃ",
+    "romaji": "isha",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Bác sĩ",
+    "examples": [
+      {
+        "japanese": "あにはいしゃです。",
+        "reading": "あにはいしゃです。",
+        "vietnamese": "Anh trai tôi là bác sĩ."
+      }
+    ]
+  },
+  {
+    "order": 18,
+    "term": "こうこうせい",
+    "reading": "こうこうせい",
+    "romaji": "koukousei",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Học sinh cấp 3",
+    "examples": [
+      {
+        "japanese": "いもうとはこうこうせいです。",
+        "reading": "いもうとはこうこうせいです。",
+        "vietnamese": "Em gái tôi là học sinh cấp 3."
+      }
+    ]
+  },
+  {
+    "order": 19,
+    "term": "だいがくせい",
+    "reading": "だいがくせい",
+    "romaji": "daigakusei",
+    "partOfSpeech": "Danh từ",
+    "meaning": "Sinh viên đại học",
+    "examples": [
+      {
+        "japanese": "わたしはだいがくせいです。",
+        "reading": "わたしはだいがくせいです。",
+        "vietnamese": "Tôi là sinh viên đại học."
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "term": "～にん",
+    "reading": "～にん",
+    "romaji": "~nin",
+    "partOfSpeech": "Lượng từ",
+    "meaning": "~ người",
+    "examples": [
+      {
+        "japanese": "かぞくはよんにんです。",
+        "reading": "かぞくはよんにんです。",
+        "vietnamese": "Gia đình tôi có 4 người."
+      }
+    ]
+  },
+  {
+    "order": 21,
+    "term": "～ひき",
+    "reading": "～ひき",
+    "romaji": "~hiki",
+    "partOfSpeech": "Lượng từ",
+    "meaning": "~ con (động vật)",
+    "examples": [
+      {
+        "japanese": "いぬがにひきいます。",
+        "reading": "いぬがにひきいます。",
+        "vietnamese": "Có 2 con chó."
+      }
+    ]
+  },
+  {
+    "order": 22,
+    "term": "すみます",
+    "reading": "すみます",
+    "romaji": "sumimasu",
+    "partOfSpeech": "Động từ",
+    "meaning": "sống, sinh sống",
+    "examples": [
+      {
+        "japanese": "ハノイにすんでいます。",
+        "reading": "はのいにすんでいます。",
+        "vietnamese": "Tôi đang sống ở Hà Nội."
+      }
+    ]
+  },
+  {
+    "order": 23,
+    "term": "います",
+    "reading": "います",
+    "romaji": "imasu",
+    "partOfSpeech": "Động từ",
+    "meaning": "có, tồn tại (người, động vật)",
+    "examples": [
+      {
+        "japanese": "あねがひとりいます。",
+        "reading": "あねがひとりいます。",
+        "vietnamese": "Tôi có một người chị gái."
+      }
+    ]
+  },
+  {
+    "order": 24,
+    "term": "わたしはおとうとがいます。",
+    "reading": "わたしはおとうとがいます。",
+    "romaji": "watashi wa otouto ga imasu.",
+    "partOfSpeech": "Mẫu câu",
+    "meaning": "Tôi có một em trai.",
+    "examples": [
+      {
+        "japanese": "わたしはおとうとがいます。こうこうせいです。",
+        "reading": "わたしはおとうとがいます。こうこうせいです。",
+        "vietnamese": "Tôi có một em trai. Em ấy là học sinh cấp 3."
+      }
+    ]
+  }
+]
