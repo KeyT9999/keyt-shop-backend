@@ -27,6 +27,7 @@ const chatRoutes = require('./routes/chat.routes');
 const courseRoutes = require('./routes/course.routes');
 const learningRoutes = require('./routes/learning.routes');
 const speakingRoutes = require('./routes/speaking.routes');
+const gymRoutes = require('./routes/gym.routes');
 const { authenticateToken, requireAdmin } = require('./middleware/auth.middleware');
 
 const app = express();
@@ -203,6 +204,7 @@ app.use('/api/public', publicRoutes);
 app.use('/api/courses', courseRoutes);
 app.use('/api/courses', speakingRoutes);
 app.use('/api/learning', learningRoutes);
+app.use('/api/gym', gymRoutes);
 
 // Global error handler
 app.use((err, req, res, next) => {
