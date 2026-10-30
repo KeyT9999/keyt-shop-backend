@@ -4,6 +4,99 @@ const MAX_SPLIT_DAYS = 10;
 const MAX_EXERCISES_PER_DAY = 20;
 const MAX_EXERCISE_LOGS = 100;
 
+const LEGACY_V1_SPLIT_IDS = {
+  day1: ['incline_dumbbell_press', 'barbell_bench_press', 'pec_deck_fly', 'cable_crossover'],
+  day2: ['wide_lat_pulldown', 'seated_cable_row', 'tricep_rope_pushdown', 'overhead_db_tricep_ext'],
+  day3: ['hammer_curl', 'barbell_ez_curl', 'dumbbell_shoulder_press', 'side_lateral_raise'],
+  day4: ['barbell_squat', 'leg_press_45', 'romanian_deadlift', 'lying_leg_curl'],
+  day5: ['active_mobility_recovery', 'core_plank'],
+};
+
+const UPGRADED_REAL_GYM_DAYS = {
+  day1: {
+    subtitle: 'Máy BRTW Incline & Laydown • Tạ đơn • Pec Fly • Cáp đôi • Xà kép ngực dưới',
+    exerciseIds: [
+      'brtw_incline_chest_press',
+      'brtw_laydown_chest_press',
+      'incline_dumbbell_press',
+      'barbell_bench_press',
+      'pec_deck_fly',
+      'cable_crossover',
+      'assisted_chest_dip',
+    ],
+  },
+  day2: {
+    subtitle: 'Kéo xô BRTW • Máy Impulse Row • Hít xà & Dip trợ lực • Cáp tay sau',
+    exerciseIds: [
+      'wide_lat_pulldown',
+      'iso_high_pulldown',
+      'chest_supported_row',
+      'brtw_iso_low_row',
+      'seated_cable_row',
+      'assisted_pullup',
+      'tricep_rope_pushdown',
+      'assisted_tricep_dip',
+      'overhead_db_tricep_ext',
+    ],
+  },
+  day3: {
+    subtitle: 'Máy BRTW Biceps Curl • Hammer Curl • Máy Shoulder Press & Lateral Raise • Vai sau',
+    exerciseIds: [
+      'machine_bicep_curl',
+      'hammer_curl',
+      'barbell_ez_curl',
+      'machine_shoulder_press',
+      'smith_shoulder_press',
+      'dumbbell_shoulder_press',
+      'machine_lateral_raise',
+      'side_lateral_raise',
+      'reverse_pec_deck',
+    ],
+  },
+  day4: {
+    subtitle: 'Super Squat • Leg Press • Đá/Cuốn đùi • Hip Thrust • Mở mông & Ép đùi • Bắp chân',
+    exerciseIds: [
+      'super_squat_machine',
+      'barbell_squat',
+      'leg_press_45',
+      'leg_extension',
+      'seated_leg_curl',
+      'lying_leg_curl',
+      'machine_hip_thrust',
+      'hip_abductor_adductor',
+      'hip_adductor_inner',
+      'romanian_deadlift',
+      'standing_calf_raise',
+    ],
+  },
+  day5: {
+    subtitle: 'Giãn cơ phục hồi • Ghế lưng dưới 45° • Core Plank',
+    exerciseIds: ['active_mobility_recovery', 'back_extension_45', 'core_plank'],
+  },
+};
+
+function upgradeUntouchedLegacyDays(days = []) {
+  if (!Array.isArray(days)) return { days: [], upgraded: false };
+  let upgraded = false;
+  const nextDays = days.map((day) => {
+    const legacy = LEGACY_V1_SPLIT_IDS[day.id];
+    const target = UPGRADED_REAL_GYM_DAYS[day.id];
+    const cur = Array.isArray(day.exerciseIds) ? day.exerciseIds : [];
+    const isExactLegacy =
+      legacy && cur.length === legacy.length && cur.every((id, i) => id === legacy[i]);
+    if (isExactLegacy && target) {
+      upgraded = true;
+      return {
+        ...day,
+        subtitle: target.subtitle,
+        exerciseIds: [...target.exerciseIds],
+      };
+    }
+    return day;
+  });
+  return { days: nextDays, upgraded };
+}
+
 /**
  * Pure sanitizer ensuring bounded arrays and clean primitives before DB persistence.
  */
@@ -80,7 +173,15 @@ function serializeGymProfile(doc) {
 }
 
 async function getGymProfileByUserId(userId) {
-  const doc = await GymProfile.findOne({ userId }).lean();
+  const doc = await GymProfile.findOne({ userId });
+  if (!doc) return null;
+
+  const { days, upgraded } = upgradeUntouchedLegacyDays(doc.toObject().customDays);
+  if (upgraded) {
+    doc.customDays = sanitizeCustomDays(days);
+    doc.clientUpdatedAt = Date.now();
+    await doc.save();
+  }
   return serializeGymProfile(doc);
 }
 
@@ -106,7 +207,7 @@ async function upsertGymProfileByUserId(userId, payload) {
       sessionDateKey: String(payload.sessionDateKey || '').slice(0, 20),
       workoutStreak: Math.max(0, Number(payload.workoutStreak) || 0),
       lastCompletedSessionDate: String(payload.lastCompletedSessionDate || '').slice(0, 20),
-      customDays: sanitizeCustomDays(payload.customDays),
+      customDays: sanitizeCustomDays(upgradeUntouchedLegacyDays(payload.customDays).days),
       exerciseLogs: mergedLogs,
       clientUpdatedAt: incomingTs,
     });
@@ -133,7 +234,9 @@ async function upsertGymProfileByUserId(userId, payload) {
       existing.lastCompletedSessionDate = payload.lastCompletedSessionDate.slice(0, 20);
     }
     if (Array.isArray(payload.customDays) && payload.customDays.length > 0) {
-      existing.customDays = sanitizeCustomDays(payload.customDays);
+      existing.customDays = sanitizeCustomDays(
+        upgradeUntouchedLegacyDays(payload.customDays).days
+      );
     }
     existing.clientUpdatedAt = incomingTs;
   }
@@ -145,6 +248,7 @@ async function upsertGymProfileByUserId(userId, payload) {
 module.exports = {
   sanitizeCustomDays,
   mergeExerciseLogs,
+  upgradeUntouchedLegacyDays,
   getGymProfileByUserId,
   upsertGymProfileByUserId,
 };
