@@ -1,0 +1,302 @@
+[
+  {
+    "order": 1,
+    "term": "Social inequality",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Bất bình đẳng xã hội",
+    "examples": [
+      {
+        "japanese": "Social inequality leads to unrest.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Xã hội & Đời sống"
+      }
+    ]
+  },
+  {
+    "order": 2,
+    "term": "Poverty",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Nghèo đói",
+    "examples": [
+      {
+        "japanese": "Poverty reduction is a key government goal.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Xã hội & Đời sống"
+      }
+    ]
+  },
+  {
+    "order": 3,
+    "term": "Homelessness",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Vô gia cư",
+    "examples": [
+      {
+        "japanese": "Homelessness is rising in urban areas.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Xã hội & Đời sống"
+      }
+    ]
+  },
+  {
+    "order": 4,
+    "term": "Ageing population",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Dân số già",
+    "examples": [
+      {
+        "japanese": "An ageing population increases healthcare costs.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Xã hội & Đời sống"
+      }
+    ]
+  },
+  {
+    "order": 5,
+    "term": "Youth unemployment",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Thất nghiệp thanh niên",
+    "examples": [
+      {
+        "japanese": "Youth unemployment can cause social instability.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Xã hội & Đời sống"
+      }
+    ]
+  },
+  {
+    "order": 6,
+    "term": "Gender equality",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Bình đẳng giới",
+    "examples": [
+      {
+        "japanese": "Gender equality improves economic productivity.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Xã hội & Đời sống"
+      }
+    ]
+  },
+  {
+    "order": 7,
+    "term": "Social cohesion",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Gắn kết xã hội",
+    "examples": [
+      {
+        "japanese": "Education fosters social cohesion.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Xã hội & Đời sống"
+      }
+    ]
+  },
+  {
+    "order": 8,
+    "term": "Urbanization",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Đô thị hóa",
+    "examples": [
+      {
+        "japanese": "Urbanization changes traditional lifestyles.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Xã hội & Đời sống"
+      }
+    ]
+  },
+  {
+    "order": 9,
+    "term": "Civic engagement",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Tham gia xã hội",
+    "examples": [
+      {
+        "japanese": "Voting is a form of civic engagement.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Xã hội & Đời sống"
+      }
+    ]
+  },
+  {
+    "order": 10,
+    "term": "Cultural norms",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Chuẩn mực văn hóa",
+    "examples": [
+      {
+        "japanese": "Social behavior is shaped by cultural norms.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Xã hội & Đời sống"
+      }
+    ]
+  },
+  {
+    "order": 11,
+    "term": "Discrimination",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Phân biệt đối xử",
+    "examples": [
+      {
+        "japanese": "Laws should protect against discrimination.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Xã hội & Đời sống"
+      }
+    ]
+  },
+  {
+    "order": 12,
+    "term": "Social mobility",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Tính linh động xã hội",
+    "examples": [
+      {
+        "japanese": "Education enhances social mobility.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Xã hội & Đời sống"
+      }
+    ]
+  },
+  {
+    "order": 13,
+    "term": "Welfare system",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Hệ thống phúc lợi",
+    "examples": [
+      {
+        "japanese": "A strong welfare system supports vulnerable groups.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Xã hội & Đời sống"
+      }
+    ]
+  },
+  {
+    "order": 14,
+    "term": "Income disparity",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Chênh lệch thu nhập",
+    "examples": [
+      {
+        "japanese": "Income disparity leads to unequal opportunities.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Xã hội & Đời sống"
+      }
+    ]
+  },
+  {
+    "order": 15,
+    "term": "Civil rights",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Quyền công dân",
+    "examples": [
+      {
+        "japanese": "Civil rights are protected by law.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Xã hội & Đời sống"
+      }
+    ]
+  },
+  {
+    "order": 16,
+    "term": "Cultural integration",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Hòa nhập văn hóa",
+    "examples": [
+      {
+        "japanese": "Immigrants benefit from cultural integration.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Xã hội & Đời sống"
+      }
+    ]
+  },
+  {
+    "order": 17,
+    "term": "Public services",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Dịch vụ công",
+    "examples": [
+      {
+        "japanese": "Public services must be accessible to all.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Xã hội & Đời sống"
+      }
+    ]
+  },
+  {
+    "order": 18,
+    "term": "Social justice",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Công bằng xã hội",
+    "examples": [
+      {
+        "japanese": "Social justice ensures fairness for everyone.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Xã hội & Đời sống"
+      }
+    ]
+  },
+  {
+    "order": 19,
+    "term": "Traditional values",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Giá trị truyền thống",
+    "examples": [
+      {
+        "japanese": "Traditional values are often passed down through generations.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Xã hội & Đời sống"
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "term": "Population density",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Mật độ dân số",
+    "examples": [
+      {
+        "japanese": "High population density leads to housing issues.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Xã hội & Đời sống"
+      }
+    ]
+  }
+]

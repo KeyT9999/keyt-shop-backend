@@ -1,0 +1,302 @@
+[
+  {
+    "order": 1,
+    "term": "Prison sentence",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Án tù",
+    "examples": [
+      {
+        "japanese": "A prison sentence is often given for serious crimes.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Pháp luật & Tư pháp"
+      }
+    ]
+  },
+  {
+    "order": 2,
+    "term": "Rehabilitation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Cải tạo",
+    "examples": [
+      {
+        "japanese": "Rehabilitation can reduce repeat offenses.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Pháp luật & Tư pháp"
+      }
+    ]
+  },
+  {
+    "order": 3,
+    "term": "Deterrence",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Răn đe",
+    "examples": [
+      {
+        "japanese": "Harsh penalties serve as deterrence.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Pháp luật & Tư pháp"
+      }
+    ]
+  },
+  {
+    "order": 4,
+    "term": "Recidivism",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Tái phạm",
+    "examples": [
+      {
+        "japanese": "Effective programs lower recidivism rates.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Pháp luật & Tư pháp"
+      }
+    ]
+  },
+  {
+    "order": 5,
+    "term": "Capital punishment",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Tử hình",
+    "examples": [
+      {
+        "japanese": "Many countries have abolished capital punishment.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Pháp luật & Tư pháp"
+      }
+    ]
+  },
+  {
+    "order": 6,
+    "term": "Community service",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Lao động công ích",
+    "examples": [
+      {
+        "japanese": "Community service is an alternative to imprisonment.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Pháp luật & Tư pháp"
+      }
+    ]
+  },
+  {
+    "order": 7,
+    "term": "Criminal justice system",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Hệ thống tư pháp hình sự",
+    "examples": [
+      {
+        "japanese": "The criminal justice system must ensure fairness.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Pháp luật & Tư pháp"
+      }
+    ]
+  },
+  {
+    "order": 8,
+    "term": "Law enforcement",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Thực thi pháp luật",
+    "examples": [
+      {
+        "japanese": "Law enforcement agencies maintain public order.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Pháp luật & Tư pháp"
+      }
+    ]
+  },
+  {
+    "order": 9,
+    "term": "Juvenile delinquency",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Tội phạm vị thành niên",
+    "examples": [
+      {
+        "japanese": "Education can help reduce juvenile delinquency.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Pháp luật & Tư pháp"
+      }
+    ]
+  },
+  {
+    "order": 10,
+    "term": "Inmate",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Tù nhân",
+    "examples": [
+      {
+        "japanese": "Inmates should have access to education.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Pháp luật & Tư pháp"
+      }
+    ]
+  },
+  {
+    "order": 11,
+    "term": "Criminal record",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Tiền án",
+    "examples": [
+      {
+        "japanese": "A criminal record can affect job opportunities.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Pháp luật & Tư pháp"
+      }
+    ]
+  },
+  {
+    "order": 12,
+    "term": "Probation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Án treo",
+    "examples": [
+      {
+        "japanese": "Probation is granted to non-violent offenders.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Pháp luật & Tư pháp"
+      }
+    ]
+  },
+  {
+    "order": 13,
+    "term": "Offender",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Người phạm tội",
+    "examples": [
+      {
+        "japanese": "First-time offenders may receive lighter sentences.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Pháp luật & Tư pháp"
+      }
+    ]
+  },
+  {
+    "order": 14,
+    "term": "Reoffend",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Tái phạm",
+    "examples": [
+      {
+        "japanese": "Support helps prevent ex-prisoners from reoffending.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Pháp luật & Tư pháp"
+      }
+    ]
+  },
+  {
+    "order": 15,
+    "term": "Legal system",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Hệ thống pháp luật",
+    "examples": [
+      {
+        "japanese": "An efficient legal system builds trust.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Pháp luật & Tư pháp"
+      }
+    ]
+  },
+  {
+    "order": 16,
+    "term": "Punitive measures",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Biện pháp trừng phạt",
+    "examples": [
+      {
+        "japanese": "Excessive punitive measures may be counterproductive.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Pháp luật & Tư pháp"
+      }
+    ]
+  },
+  {
+    "order": 17,
+    "term": "Restorative justice",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Công lý phục hồi",
+    "examples": [
+      {
+        "japanese": "Restorative justice focuses on healing victims.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Pháp luật & Tư pháp"
+      }
+    ]
+  },
+  {
+    "order": 18,
+    "term": "White-collar crime",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Tội phạm cổ cồn trắng",
+    "examples": [
+      {
+        "japanese": "Fraud is a common white-collar crime.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Pháp luật & Tư pháp"
+      }
+    ]
+  },
+  {
+    "order": 19,
+    "term": "Surveillance",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Giám sát",
+    "examples": [
+      {
+        "japanese": "Surveillance can deter criminal activity.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Pháp luật & Tư pháp"
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "term": "Strict laws",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Luật nghiêm khắc",
+    "examples": [
+      {
+        "japanese": "Strict laws can prevent illegal activities.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Pháp luật & Tư pháp"
+      }
+    ]
+  }
+]

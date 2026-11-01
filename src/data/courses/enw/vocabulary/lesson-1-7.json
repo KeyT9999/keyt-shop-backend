@@ -1,0 +1,302 @@
+[
+  {
+    "order": 1,
+    "term": "Mass media",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Truyền thông đại chúng",
+    "examples": [
+      {
+        "japanese": "Mass media influences public opinion significantly.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Truyền thông & Báo chí"
+      }
+    ]
+  },
+  {
+    "order": 2,
+    "term": "Censorship",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Kiểm duyệt",
+    "examples": [
+      {
+        "japanese": "Censorship restricts freedom of expression.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Truyền thông & Báo chí"
+      }
+    ]
+  },
+  {
+    "order": 3,
+    "term": "Freedom of speech",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Tự do ngôn luận",
+    "examples": [
+      {
+        "japanese": "Freedom of speech is a democratic right.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Truyền thông & Báo chí"
+      }
+    ]
+  },
+  {
+    "order": 4,
+    "term": "Social media",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Mạng xã hội",
+    "examples": [
+      {
+        "japanese": "Social media can spread both information and misinformation.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Truyền thông & Báo chí"
+      }
+    ]
+  },
+  {
+    "order": 5,
+    "term": "Fake news",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Tin giả",
+    "examples": [
+      {
+        "japanese": "Fake news can mislead the public.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Truyền thông & Báo chí"
+      }
+    ]
+  },
+  {
+    "order": 6,
+    "term": "Broadcasting",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Phát sóng",
+    "examples": [
+      {
+        "japanese": "Broadcasting has evolved with digital technology.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Truyền thông & Báo chí"
+      }
+    ]
+  },
+  {
+    "order": 7,
+    "term": "Tabloid",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Báo lá cải",
+    "examples": [
+      {
+        "japanese": "Tabloids often exaggerate stories.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Truyền thông & Báo chí"
+      }
+    ]
+  },
+  {
+    "order": 8,
+    "term": "Public opinion",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Dư luận",
+    "examples": [
+      {
+        "japanese": "Media shapes public opinion on major issues.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Truyền thông & Báo chí"
+      }
+    ]
+  },
+  {
+    "order": 9,
+    "term": "Viral content",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Nội dung lan truyền",
+    "examples": [
+      {
+        "japanese": "Viral content can influence social trends.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Truyền thông & Báo chí"
+      }
+    ]
+  },
+  {
+    "order": 10,
+    "term": "Sensationalism",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Giật gân",
+    "examples": [
+      {
+        "japanese": "Sensationalism reduces journalistic credibility.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Truyền thông & Báo chí"
+      }
+    ]
+  },
+  {
+    "order": 11,
+    "term": "Media coverage",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Đưa tin truyền thông",
+    "examples": [
+      {
+        "japanese": "The event received global media coverage.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Truyền thông & Báo chí"
+      }
+    ]
+  },
+  {
+    "order": 12,
+    "term": "Digital journalism",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Báo chí kỹ thuật số",
+    "examples": [
+      {
+        "japanese": "Digital journalism has replaced many print outlets.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Truyền thông & Báo chí"
+      }
+    ]
+  },
+  {
+    "order": 13,
+    "term": "Advertisement",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Quảng cáo",
+    "examples": [
+      {
+        "japanese": "Advertisements often target young audiences.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Truyền thông & Báo chí"
+      }
+    ]
+  },
+  {
+    "order": 14,
+    "term": "Media bias",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Thiên vị truyền thông",
+    "examples": [
+      {
+        "japanese": "Media bias undermines trust.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Truyền thông & Báo chí"
+      }
+    ]
+  },
+  {
+    "order": 15,
+    "term": "Communication skills",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Kỹ năng giao tiếp",
+    "examples": [
+      {
+        "japanese": "Strong communication skills are essential at work.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Truyền thông & Báo chí"
+      }
+    ]
+  },
+  {
+    "order": 16,
+    "term": "Internet access",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Truy cập internet",
+    "examples": [
+      {
+        "japanese": "Limited internet access hinders information flow.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Truyền thông & Báo chí"
+      }
+    ]
+  },
+  {
+    "order": 17,
+    "term": "Online platforms",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Nền tảng trực tuyến",
+    "examples": [
+      {
+        "japanese": "Online platforms enable global communication.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Truyền thông & Báo chí"
+      }
+    ]
+  },
+  {
+    "order": 18,
+    "term": "Information overload",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Quá tải thông tin",
+    "examples": [
+      {
+        "japanese": "Too much data can lead to information overload.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Truyền thông & Báo chí"
+      }
+    ]
+  },
+  {
+    "order": 19,
+    "term": "Echo chamber",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Buồng vọng",
+    "examples": [
+      {
+        "japanese": "Social media can create echo chambers.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Truyền thông & Báo chí"
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "term": "Media literacy",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Hiểu biết truyền thông",
+    "examples": [
+      {
+        "japanese": "Media literacy helps users evaluate news critically.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Truyền thông & Báo chí"
+      }
+    ]
+  }
+]

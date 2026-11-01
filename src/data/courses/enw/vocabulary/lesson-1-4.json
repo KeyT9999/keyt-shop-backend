@@ -1,0 +1,302 @@
+[
+  {
+    "order": 1,
+    "term": "Public health",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Sức khỏe cộng đồng",
+    "examples": [
+      {
+        "japanese": "Public health campaigns improve hygiene awareness.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Sức khỏe & Y tế"
+      }
+    ]
+  },
+  {
+    "order": 2,
+    "term": "Mental health",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Sức khỏe tinh thần",
+    "examples": [
+      {
+        "japanese": "Mental health is as important as physical health.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Sức khỏe & Y tế"
+      }
+    ]
+  },
+  {
+    "order": 3,
+    "term": "Healthcare system",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Hệ thống chăm sóc sức khỏe",
+    "examples": [
+      {
+        "japanese": "A strong healthcare system benefits everyone.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Sức khỏe & Y tế"
+      }
+    ]
+  },
+  {
+    "order": 4,
+    "term": "Preventive care",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Chăm sóc phòng ngừa",
+    "examples": [
+      {
+        "japanese": "Preventive care reduces treatment costs.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Sức khỏe & Y tế"
+      }
+    ]
+  },
+  {
+    "order": 5,
+    "term": "Obesity",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Béo phì",
+    "examples": [
+      {
+        "japanese": "Obesity is a growing problem in children.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Sức khỏe & Y tế"
+      }
+    ]
+  },
+  {
+    "order": 6,
+    "term": "Sedentary lifestyle",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Lối sống ít vận động",
+    "examples": [
+      {
+        "japanese": "A sedentary lifestyle increases health risks.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Sức khỏe & Y tế"
+      }
+    ]
+  },
+  {
+    "order": 7,
+    "term": "Balanced diet",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Chế độ ăn cân bằng",
+    "examples": [
+      {
+        "japanese": "A balanced diet contributes to overall health.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Sức khỏe & Y tế"
+      }
+    ]
+  },
+  {
+    "order": 8,
+    "term": "Health insurance",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Bảo hiểm y tế",
+    "examples": [
+      {
+        "japanese": "Health insurance helps cover medical expenses.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Sức khỏe & Y tế"
+      }
+    ]
+  },
+  {
+    "order": 9,
+    "term": "Nutrition",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Dinh dưỡng",
+    "examples": [
+      {
+        "japanese": "Good nutrition is vital for development.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Sức khỏe & Y tế"
+      }
+    ]
+  },
+  {
+    "order": 10,
+    "term": "Medical treatment",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Điều trị y tế",
+    "examples": [
+      {
+        "japanese": "Delays in medical treatment can be fatal.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Sức khỏe & Y tế"
+      }
+    ]
+  },
+  {
+    "order": 11,
+    "term": "Vaccination",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Tiêm chủng",
+    "examples": [
+      {
+        "japanese": "Vaccination prevents infectious diseases.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Sức khỏe & Y tế"
+      }
+    ]
+  },
+  {
+    "order": 12,
+    "term": "Epidemic",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Dịch bệnh",
+    "examples": [
+      {
+        "japanese": "The flu epidemic affected millions.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Sức khỏe & Y tế"
+      }
+    ]
+  },
+  {
+    "order": 13,
+    "term": "Chronic illness",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Bệnh mãn tính",
+    "examples": [
+      {
+        "japanese": "Diabetes is a common chronic illness.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Sức khỏe & Y tế"
+      }
+    ]
+  },
+  {
+    "order": 14,
+    "term": "Healthcare access",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Tiếp cận dịch vụ y tế",
+    "examples": [
+      {
+        "japanese": "Rural areas often lack healthcare access.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Sức khỏe & Y tế"
+      }
+    ]
+  },
+  {
+    "order": 15,
+    "term": "Life expectancy",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Tuổi thọ",
+    "examples": [
+      {
+        "japanese": "Better sanitation increases life expectancy.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Sức khỏe & Y tế"
+      }
+    ]
+  },
+  {
+    "order": 16,
+    "term": "Medical research",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Nghiên cứu y học",
+    "examples": [
+      {
+        "japanese": "Medical research leads to new treatments.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Sức khỏe & Y tế"
+      }
+    ]
+  },
+  {
+    "order": 17,
+    "term": "Unhealthy habits",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Thói quen không lành mạnh",
+    "examples": [
+      {
+        "japanese": "Smoking and drinking are unhealthy habits.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Sức khỏe & Y tế"
+      }
+    ]
+  },
+  {
+    "order": 18,
+    "term": "Physical activity",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Hoạt động thể chất",
+    "examples": [
+      {
+        "japanese": "Regular physical activity prevents heart disease.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Sức khỏe & Y tế"
+      }
+    ]
+  },
+  {
+    "order": 19,
+    "term": "Health education",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Giáo dục sức khỏe",
+    "examples": [
+      {
+        "japanese": "Health education raises awareness about hygiene.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Sức khỏe & Y tế"
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "term": "Healthcare funding",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Quỹ chăm sóc sức khỏe",
+    "examples": [
+      {
+        "japanese": "Increased healthcare funding improves hospital services.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Sức khỏe & Y tế"
+      }
+    ]
+  }
+]

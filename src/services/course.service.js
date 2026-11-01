@@ -228,6 +228,16 @@ const courseService = {
 
     if (lesson) return lesson;
 
+    if (code === 'ENW' && (slug === '1-1-tu-vung-enw' || slug === 'tu-vung-enw')) {
+      lesson = await CourseLesson.findOne({
+        courseCode: code,
+        sectionType,
+        $or: [{ slug: '1-11-tong-hop-tron-bo-enw' }, { slug: '1-1-giao-duc-dao-tao' }],
+        isPublished: true
+      }).lean();
+      if (lesson) return lesson;
+    }
+
     // Check if slug contains lesson number (e.g. kanji-jpd123-n5-4 or lesson-4 or bai-4)
     const numMatch = slug.match(/(\d+)$/);
     if (numMatch) {

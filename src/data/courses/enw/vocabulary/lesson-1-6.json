@@ -1,0 +1,302 @@
+[
+  {
+    "order": 1,
+    "term": "Workforce",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Lực lượng lao động",
+    "examples": [
+      {
+        "japanese": "A skilled workforce drives innovation.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Việc làm & Nghề nghiệp"
+      }
+    ]
+  },
+  {
+    "order": 2,
+    "term": "Unemployment",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Thất nghiệp",
+    "examples": [
+      {
+        "japanese": "High unemployment affects the economy.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Việc làm & Nghề nghiệp"
+      }
+    ]
+  },
+  {
+    "order": 3,
+    "term": "Remote work",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Làm việc từ xa",
+    "examples": [
+      {
+        "japanese": "Remote work became common during the pandemic.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Việc làm & Nghề nghiệp"
+      }
+    ]
+  },
+  {
+    "order": 4,
+    "term": "Freelancer",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Người làm việc tự do",
+    "examples": [
+      {
+        "japanese": "Freelancers enjoy flexible schedules.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Việc làm & Nghề nghiệp"
+      }
+    ]
+  },
+  {
+    "order": 5,
+    "term": "Job satisfaction",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Sự hài lòng trong công việc",
+    "examples": [
+      {
+        "japanese": "Job satisfaction boosts employee productivity.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Việc làm & Nghề nghiệp"
+      }
+    ]
+  },
+  {
+    "order": 6,
+    "term": "Workplace environment",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Môi trường làm việc",
+    "examples": [
+      {
+        "japanese": "A positive workplace environment retains staff.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Việc làm & Nghề nghiệp"
+      }
+    ]
+  },
+  {
+    "order": 7,
+    "term": "Career progression",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Phát triển sự nghiệp",
+    "examples": [
+      {
+        "japanese": "Training supports career progression.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Việc làm & Nghề nghiệp"
+      }
+    ]
+  },
+  {
+    "order": 8,
+    "term": "Promotion prospects",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Cơ hội thăng tiến",
+    "examples": [
+      {
+        "japanese": "Employees seek jobs with promotion prospects.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Việc làm & Nghề nghiệp"
+      }
+    ]
+  },
+  {
+    "order": 9,
+    "term": "Job security",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Sự ổn định trong công việc",
+    "examples": [
+      {
+        "japanese": "Permanent contracts provide job security.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Việc làm & Nghề nghiệp"
+      }
+    ]
+  },
+  {
+    "order": 10,
+    "term": "Wage gap",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Chênh lệch lương",
+    "examples": [
+      {
+        "japanese": "The gender wage gap is a major issue.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Việc làm & Nghề nghiệp"
+      }
+    ]
+  },
+  {
+    "order": 11,
+    "term": "Recruitment",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Tuyển dụng",
+    "examples": [
+      {
+        "japanese": "The company invests in recruitment strategies.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Việc làm & Nghề nghiệp"
+      }
+    ]
+  },
+  {
+    "order": 12,
+    "term": "Overtime",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Làm thêm giờ",
+    "examples": [
+      {
+        "japanese": "Too much overtime can cause burnout.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Việc làm & Nghề nghiệp"
+      }
+    ]
+  },
+  {
+    "order": 13,
+    "term": "Resignation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Sự từ chức",
+    "examples": [
+      {
+        "japanese": "Poor management leads to high resignation rates.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Việc làm & Nghề nghiệp"
+      }
+    ]
+  },
+  {
+    "order": 14,
+    "term": "Employment rate",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Tỷ lệ việc làm",
+    "examples": [
+      {
+        "japanese": "Governments aim to increase the employment rate.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Việc làm & Nghề nghiệp"
+      }
+    ]
+  },
+  {
+    "order": 15,
+    "term": "Minimum wage",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Lương tối thiểu",
+    "examples": [
+      {
+        "japanese": "Raising the minimum wage supports low-income workers.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Việc làm & Nghề nghiệp"
+      }
+    ]
+  },
+  {
+    "order": 16,
+    "term": "Work-life balance",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Cân bằng công việc - cuộc sống",
+    "examples": [
+      {
+        "japanese": "Flexible hours improve work-life balance.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Việc làm & Nghề nghiệp"
+      }
+    ]
+  },
+  {
+    "order": 17,
+    "term": "Internship",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Thực tập",
+    "examples": [
+      {
+        "japanese": "Internships provide practical experience.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Việc làm & Nghề nghiệp"
+      }
+    ]
+  },
+  {
+    "order": 18,
+    "term": "Labour market",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Thị trường lao động",
+    "examples": [
+      {
+        "japanese": "The labour market is constantly evolving.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Việc làm & Nghề nghiệp"
+      }
+    ]
+  },
+  {
+    "order": 19,
+    "term": "Occupational hazard",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Nguy cơ nghề nghiệp",
+    "examples": [
+      {
+        "japanese": "Healthcare workers face many occupational hazards.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Việc làm & Nghề nghiệp"
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "term": "Annual leave",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Nghỉ phép năm",
+    "examples": [
+      {
+        "japanese": "Employees are entitled to annual leave.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Việc làm & Nghề nghiệp"
+      }
+    ]
+  }
+]

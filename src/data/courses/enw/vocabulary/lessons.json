@@ -1,10 +1,90 @@
 [
   {
     "lessonCode": "1-1",
-    "slug": "1-1-tu-vung-enw",
-    "title": "Từ Vựng ENW",
-    "description": "199 từ vựng & cụm từ học thuật viết luận theo 10 chủ đề then chốt.",
+    "slug": "1-1-giao-duc-dao-tao",
+    "title": "Chủ đề 1: Giáo dục & Đào tạo (Education)",
+    "description": "20 từ & cụm từ về chương trình học, học phí, phương pháp sư phạm, tư duy phản biện và bất bình đẳng giáo dục.",
     "order": 1,
+    "itemCount": 20
+  },
+  {
+    "lessonCode": "1-2",
+    "slug": "1-2-moi-truong-nang-luong",
+    "title": "Chủ đề 2: Môi trường & Năng lượng (Environment)",
+    "description": "20 từ & cụm từ về dấu chân carbon, năng lượng tái tạo, nhiên liệu hóa thạch, biến đổi khí hậu và bảo tồn sinh thái.",
+    "order": 2,
+    "itemCount": 20
+  },
+  {
+    "lessonCode": "1-3",
+    "slug": "1-3-cong-nghe-ky-thuat-so",
+    "title": "Chủ đề 3: Công nghệ & Kỹ thuật số (Technology)",
+    "description": "19 từ & cụm từ về trí tuệ nhân tạo (AI), tự động hóa, an ninh mạng, dữ liệu lớn, điện toán đám mây và giám sát số.",
+    "order": 3,
+    "itemCount": 19
+  },
+  {
+    "lessonCode": "1-4",
+    "slug": "1-4-suc-khoe-y-te",
+    "title": "Chủ đề 4: Sức khỏe & Y tế (Health & Medicine)",
+    "description": "20 từ & cụm từ về y tế cộng đồng, chăm sóc phòng ngừa, bệnh mãn tính, dinh dưỡng, tiêm chủng và tuổi thọ.",
+    "order": 4,
+    "itemCount": 20
+  },
+  {
+    "lessonCode": "1-5",
+    "slug": "1-5-phap-luat-tu-phap",
+    "title": "Chủ đề 5: Pháp luật & Tư pháp (Crime & Law)",
+    "description": "20 từ & cụm từ về tư pháp hình sự, án phạt răn đe, tái phạm tội, lao động công ích và công lý phục hồi.",
+    "order": 5,
+    "itemCount": 20
+  },
+  {
+    "lessonCode": "1-6",
+    "slug": "1-6-viec-lam-nghe-nghiep",
+    "title": "Chủ đề 6: Việc làm & Nghề nghiệp (Work & Employment)",
+    "description": "20 từ & cụm từ về thị trường lao động, chênh lệch lương, làm việc từ xa, mức lương tối thiểu và cân bằng công việc.",
+    "order": 6,
+    "itemCount": 20
+  },
+  {
+    "lessonCode": "1-7",
+    "slug": "1-7-truyen-thong-bao-chi",
+    "title": "Chủ đề 7: Truyền thông & Báo chí (Media & Communication)",
+    "description": "20 từ & cụm từ về truyền thông đại chúng, kiểm duyệt, tin giả, tự do ngôn luận, dư luận và hiểu biết truyền thông.",
+    "order": 7,
+    "itemCount": 20
+  },
+  {
+    "lessonCode": "1-8",
+    "slug": "1-8-toan-cau-hoa-kinh-te",
+    "title": "Chủ đề 8: Toàn cầu hóa & Kinh tế (Globalisation)",
+    "description": "20 từ & cụm từ về kinh tế toàn cầu, tập đoàn đa quốc gia, tự do thương mại, chảy máu chất xám và đa dạng văn hóa.",
+    "order": 8,
+    "itemCount": 20
+  },
+  {
+    "lessonCode": "1-9",
+    "slug": "1-9-xa-hoi-doi-song",
+    "title": "Chủ đề 9: Xã hội & Đời sống (Society & Community)",
+    "description": "20 từ & cụm từ về bất bình đẳng xã hội, dân số già, gắn kết xã hội, bình đẳng giới, đô thị hóa và quyền công dân.",
+    "order": 9,
+    "itemCount": 20
+  },
+  {
+    "lessonCode": "1-10",
+    "slug": "1-10-chinh-phu-chinh-sach",
+    "title": "Chủ đề 10: Chính phủ & Chính sách (Government & Policy)",
+    "description": "20 từ & cụm từ về chính sách công, chính sách thuế, chi tiêu chính phủ, quy định pháp luật và ngân sách quốc gia.",
+    "order": 10,
+    "itemCount": 20
+  },
+  {
+    "lessonCode": "1-11",
+    "slug": "1-11-tong-hop-tron-bo-enw",
+    "title": "Tổng Hợp: Trọn Bộ 199 Từ Vựng ENW (10 Chủ Đề)",
+    "description": "Toàn bộ 199 từ & cụm từ học thuật viết luận kết hợp ngẫu nhiên của cả 10 chủ đề để kiểm tra và luyện phản xạ tổng hợp.",
+    "order": 11,
     "itemCount": 199
   }
 ]
