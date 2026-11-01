@@ -42,6 +42,17 @@ async function seedSingleCourse(courseSlug, coursesDir) {
   const vocabLessonMap = {};
   if (fs.existsSync(vocabLessonsPath)) {
     const vocabLessons = JSON.parse(fs.readFileSync(vocabLessonsPath, 'utf8'));
+    const validSlugs = vocabLessons.map((l) => l.slug);
+    const obsoleteLessons = await CourseLesson.find({
+      courseCode: course.code,
+      sectionType: 'vocabulary',
+      slug: { $nin: validSlugs }
+    });
+    for (const obs of obsoleteLessons) {
+      await VocabularyItem.deleteMany({ lessonId: obs._id });
+      await CourseLesson.findByIdAndDelete(obs._id);
+      console.log(`🗑️ Removed obsolete lesson: ${obs.slug}`);
+    }
     for (const l of vocabLessons) {
       const lessonDoc = await CourseLesson.findOneAndUpdate(
         { courseCode: course.code, sectionType: 'vocabulary', slug: l.slug },
