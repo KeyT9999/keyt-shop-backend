@@ -1,0 +1,2987 @@
+[
+  {
+    "order": 1,
+    "term": "School curriculum",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Chương trình học",
+    "examples": [
+      {
+        "japanese": "Governments should reform the school curriculum to include practical skills.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Giáo dục & Đào tạo"
+      }
+    ]
+  },
+  {
+    "order": 2,
+    "term": "Higher education",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Giáo dục đại học",
+    "examples": [
+      {
+        "japanese": "Many students pursue higher education abroad.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Giáo dục & Đào tạo"
+      }
+    ]
+  },
+  {
+    "order": 3,
+    "term": "Vocational training",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Đào tạo nghề",
+    "examples": [
+      {
+        "japanese": "Vocational training equips students with hands-on skills.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Giáo dục & Đào tạo"
+      }
+    ]
+  },
+  {
+    "order": 4,
+    "term": "Literacy rate",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Tỷ lệ biết chữ",
+    "examples": [
+      {
+        "japanese": "Improving the literacy rate is crucial in rural areas.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Giáo dục & Đào tạo"
+      }
+    ]
+  },
+  {
+    "order": 5,
+    "term": "Dropout rate",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Tỷ lệ bỏ học",
+    "examples": [
+      {
+        "japanese": "High dropout rates indicate flaws in the education system.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Giáo dục & Đào tạo"
+      }
+    ]
+  },
+  {
+    "order": 6,
+    "term": "Academic pressure",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Áp lực học tập",
+    "examples": [
+      {
+        "japanese": "Excessive academic pressure may lead to mental health issues.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Giáo dục & Đào tạo"
+      }
+    ]
+  },
+  {
+    "order": 7,
+    "term": "Tuition fees",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Học phí",
+    "examples": [
+      {
+        "japanese": "Rising tuition fees make higher education less accessible.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Giáo dục & Đào tạo"
+      }
+    ]
+  },
+  {
+    "order": 8,
+    "term": "Equal access to education",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Tiếp cận giáo dục bình đẳng",
+    "examples": [
+      {
+        "japanese": "Governments must ensure equal access to education for all.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Giáo dục & Đào tạo"
+      }
+    ]
+  },
+  {
+    "order": 9,
+    "term": "Distance learning",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Học từ xa",
+    "examples": [
+      {
+        "japanese": "Distance learning offers flexibility for working adults.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Giáo dục & Đào tạo"
+      }
+    ]
+  },
+  {
+    "order": 10,
+    "term": "Lifelong learning",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Học tập suốt đời",
+    "examples": [
+      {
+        "japanese": "Lifelong learning is essential in a fast-changing world.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Giáo dục & Đào tạo"
+      }
+    ]
+  },
+  {
+    "order": 11,
+    "term": "Pedagogical methods",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Phương pháp sư phạm",
+    "examples": [
+      {
+        "japanese": "Innovative pedagogical methods can improve student engagement.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Giáo dục & Đào tạo"
+      }
+    ]
+  },
+  {
+    "order": 12,
+    "term": "Holistic development",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Phát triển toàn diện",
+    "examples": [
+      {
+        "japanese": "Education should aim at holistic development, not just test scores.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Giáo dục & Đào tạo"
+      }
+    ]
+  },
+  {
+    "order": 13,
+    "term": "Standardized testing",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Kiểm tra tiêu chuẩn",
+    "examples": [
+      {
+        "japanese": "Standardized testing often fails to measure creativity.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Giáo dục & Đào tạo"
+      }
+    ]
+  },
+  {
+    "order": 14,
+    "term": "Learning outcomes",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Kết quả học tập",
+    "examples": [
+      {
+        "japanese": "The focus should be on learning outcomes rather than attendance.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Giáo dục & Đào tạo"
+      }
+    ]
+  },
+  {
+    "order": 15,
+    "term": "Rote learning",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Học vẹt",
+    "examples": [
+      {
+        "japanese": "Rote learning discourages critical thinking.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Giáo dục & Đào tạo"
+      }
+    ]
+  },
+  {
+    "order": 16,
+    "term": "Critical thinking",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Tư duy phản biện",
+    "examples": [
+      {
+        "japanese": "Encouraging critical thinking should be a goal of modern education.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Giáo dục & Đào tạo"
+      }
+    ]
+  },
+  {
+    "order": 17,
+    "term": "Academic performance",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Thành tích học tập",
+    "examples": [
+      {
+        "japanese": "Socio-economic background affects academic performance.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Giáo dục & Đào tạo"
+      }
+    ]
+  },
+  {
+    "order": 18,
+    "term": "Digital literacy",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Kỹ năng sử dụng công nghệ",
+    "examples": [
+      {
+        "japanese": "Digital literacy is now essential for all students.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Giáo dục & Đào tạo"
+      }
+    ]
+  },
+  {
+    "order": 19,
+    "term": "Educational inequality",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Bất bình đẳng giáo dục",
+    "examples": [
+      {
+        "japanese": "Educational inequality remains a major issue in developing countries.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Giáo dục & Đào tạo"
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "term": "Curriculum reform",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Cải cách chương trình học",
+    "examples": [
+      {
+        "japanese": "Curriculum reform is necessary to reflect real-world needs.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Giáo dục & Đào tạo"
+      }
+    ]
+  },
+  {
+    "order": 21,
+    "term": "Carbon footprint",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Lượng khí thải carbon",
+    "examples": [
+      {
+        "japanese": "We can reduce our carbon footprint by using public transport.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Môi trường & Năng lượng"
+      }
+    ]
+  },
+  {
+    "order": 22,
+    "term": "Renewable energy",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Năng lượng tái tạo",
+    "examples": [
+      {
+        "japanese": "Solar and wind are popular forms of renewable energy.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Môi trường & Năng lượng"
+      }
+    ]
+  },
+  {
+    "order": 23,
+    "term": "Fossil fuels",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Nhiên liệu hóa thạch",
+    "examples": [
+      {
+        "japanese": "Burning fossil fuels contributes to global warming.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Môi trường & Năng lượng"
+      }
+    ]
+  },
+  {
+    "order": 24,
+    "term": "Greenhouse gases",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Khí nhà kính",
+    "examples": [
+      {
+        "japanese": "CO2 and methane are major greenhouse gases.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Môi trường & Năng lượng"
+      }
+    ]
+  },
+  {
+    "order": 25,
+    "term": "Climate change",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Biến đổi khí hậu",
+    "examples": [
+      {
+        "japanese": "Climate change poses a threat to biodiversity.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Môi trường & Năng lượng"
+      }
+    ]
+  },
+  {
+    "order": 26,
+    "term": "Deforestation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Phá rừng",
+    "examples": [
+      {
+        "japanese": "Deforestation accelerates soil erosion.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Môi trường & Năng lượng"
+      }
+    ]
+  },
+  {
+    "order": 27,
+    "term": "Sustainable development",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Phát triển bền vững",
+    "examples": [
+      {
+        "japanese": "Sustainable development ensures resources for future generations.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Môi trường & Năng lượng"
+      }
+    ]
+  },
+  {
+    "order": 28,
+    "term": "Environmental degradation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Suy thoái môi trường",
+    "examples": [
+      {
+        "japanese": "Pollution causes environmental degradation.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Môi trường & Năng lượng"
+      }
+    ]
+  },
+  {
+    "order": 29,
+    "term": "Conservation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Bảo tồn",
+    "examples": [
+      {
+        "japanese": "Conservation of natural habitats is crucial.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Môi trường & Năng lượng"
+      }
+    ]
+  },
+  {
+    "order": 30,
+    "term": "Waste management",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Quản lý chất thải",
+    "examples": [
+      {
+        "japanese": "Effective waste management reduces land pollution.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Môi trường & Năng lượng"
+      }
+    ]
+  },
+  {
+    "order": 31,
+    "term": "Eco-friendly",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Thân thiện với môi trường",
+    "examples": [
+      {
+        "japanese": "Eco-friendly products help protect the planet.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Môi trường & Năng lượng"
+      }
+    ]
+  },
+  {
+    "order": 32,
+    "term": "Recycling",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Tái chế",
+    "examples": [
+      {
+        "japanese": "Recycling reduces the need for raw materials.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Môi trường & Năng lượng"
+      }
+    ]
+  },
+  {
+    "order": 33,
+    "term": "Emissions",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Khí thải",
+    "examples": [
+      {
+        "japanese": "Vehicle emissions contribute to urban air pollution.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Môi trường & Năng lượng"
+      }
+    ]
+  },
+  {
+    "order": 34,
+    "term": "Biodiversity",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Đa dạng sinh học",
+    "examples": [
+      {
+        "japanese": "Protecting biodiversity is essential for ecosystem balance.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Môi trường & Năng lượng"
+      }
+    ]
+  },
+  {
+    "order": 35,
+    "term": "Environmental awareness",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Nhận thức về môi trường",
+    "examples": [
+      {
+        "japanese": "Campaigns can raise environmental awareness.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Môi trường & Năng lượng"
+      }
+    ]
+  },
+  {
+    "order": 36,
+    "term": "Global warming",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Nóng lên toàn cầu",
+    "examples": [
+      {
+        "japanese": "Global warming is caused mainly by human activity.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Môi trường & Năng lượng"
+      }
+    ]
+  },
+  {
+    "order": 37,
+    "term": "Natural resources",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Tài nguyên thiên nhiên",
+    "examples": [
+      {
+        "japanese": "We should use natural resources wisely.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Môi trường & Năng lượng"
+      }
+    ]
+  },
+  {
+    "order": 38,
+    "term": "Pollution",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Ô nhiễm",
+    "examples": [
+      {
+        "japanese": "Air and water pollution affect human health.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Môi trường & Năng lượng"
+      }
+    ]
+  },
+  {
+    "order": 39,
+    "term": "Sustainable lifestyle",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Lối sống bền vững",
+    "examples": [
+      {
+        "japanese": "Adopting a sustainable lifestyle is increasingly important.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Môi trường & Năng lượng"
+      }
+    ]
+  },
+  {
+    "order": 40,
+    "term": "Habitat destruction",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Phá hủy môi trường sống",
+    "examples": [
+      {
+        "japanese": "Urban sprawl leads to habitat destruction.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Môi trường & Năng lượng"
+      }
+    ]
+  },
+  {
+    "order": 41,
+    "term": "Artificial intelligence",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Trí tuệ nhân tạo",
+    "examples": [
+      {
+        "japanese": "Artificial intelligence is transforming the job market.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Công nghệ & Kỹ thuật số"
+      }
+    ]
+  },
+  {
+    "order": 42,
+    "term": "Automation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Tự động hóa",
+    "examples": [
+      {
+        "japanese": "Automation can lead to job displacement.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Công nghệ & Kỹ thuật số"
+      }
+    ]
+  },
+  {
+    "order": 43,
+    "term": "Digital divide",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Khoảng cách số",
+    "examples": [
+      {
+        "japanese": "The digital divide limits access to education.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Công nghệ & Kỹ thuật số"
+      }
+    ]
+  },
+  {
+    "order": 44,
+    "term": "Cybersecurity",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "An ninh mạng",
+    "examples": [
+      {
+        "japanese": "Cybersecurity is a major concern for online banking.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Công nghệ & Kỹ thuật số"
+      }
+    ]
+  },
+  {
+    "order": 45,
+    "term": "Technological advancement",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Tiến bộ công nghệ",
+    "examples": [
+      {
+        "japanese": "Technological advancement improves healthcare services.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Công nghệ & Kỹ thuật số"
+      }
+    ]
+  },
+  {
+    "order": 46,
+    "term": "Innovation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Sự đổi mới",
+    "examples": [
+      {
+        "japanese": "Innovation drives economic growth.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Công nghệ & Kỹ thuật số"
+      }
+    ]
+  },
+  {
+    "order": 47,
+    "term": "Gadget",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Thiết bị công nghệ",
+    "examples": [
+      {
+        "japanese": "People are increasingly dependent on gadgets.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Công nghệ & Kỹ thuật số"
+      }
+    ]
+  },
+  {
+    "order": 48,
+    "term": "Online communication",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Giao tiếp trực tuyến",
+    "examples": [
+      {
+        "japanese": "Online communication has replaced many face-to-face meetings.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Công nghệ & Kỹ thuật số"
+      }
+    ]
+  },
+  {
+    "order": 49,
+    "term": "E-learning",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Học trực tuyến",
+    "examples": [
+      {
+        "japanese": "E-learning platforms are becoming more popular.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Công nghệ & Kỹ thuật số"
+      }
+    ]
+  },
+  {
+    "order": 50,
+    "term": "Tech-savvy",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Thông thạo công nghệ",
+    "examples": [
+      {
+        "japanese": "Tech-savvy employees are in high demand.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Công nghệ & Kỹ thuật số"
+      }
+    ]
+  },
+  {
+    "order": 51,
+    "term": "Big data",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Dữ liệu lớn",
+    "examples": [
+      {
+        "japanese": "Big data helps companies understand customer behavior.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Công nghệ & Kỹ thuật số"
+      }
+    ]
+  },
+  {
+    "order": 52,
+    "term": "Cloud computing",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Điện toán đám mây",
+    "examples": [
+      {
+        "japanese": "Cloud computing allows data access from anywhere.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Công nghệ & Kỹ thuật số"
+      }
+    ]
+  },
+  {
+    "order": 53,
+    "term": "Digital transformation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Chuyển đổi số",
+    "examples": [
+      {
+        "japanese": "Digital transformation is vital for modern businesses.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Công nghệ & Kỹ thuật số"
+      }
+    ]
+  },
+  {
+    "order": 54,
+    "term": "Smart devices",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Thiết bị thông minh",
+    "examples": [
+      {
+        "japanese": "Smart devices improve daily convenience.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Công nghệ & Kỹ thuật số"
+      }
+    ]
+  },
+  {
+    "order": 55,
+    "term": "Privacy concerns",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Lo ngại về quyền riêng tư",
+    "examples": [
+      {
+        "japanese": "Social media platforms raise privacy concerns.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Công nghệ & Kỹ thuật số"
+      }
+    ]
+  },
+  {
+    "order": 56,
+    "term": "Social networking sites",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Mạng xã hội",
+    "examples": [
+      {
+        "japanese": "Social networking sites change how people interact.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Công nghệ & Kỹ thuật số"
+      }
+    ]
+  },
+  {
+    "order": 57,
+    "term": "Surveillance",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Giám sát",
+    "examples": [
+      {
+        "japanese": "Mass surveillance can violate privacy rights.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Công nghệ & Kỹ thuật số"
+      }
+    ]
+  },
+  {
+    "order": 58,
+    "term": "Technological dependence",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Sự phụ thuộc công nghệ",
+    "examples": [
+      {
+        "japanese": "Excessive technological dependence affects real-life communication.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Công nghệ & Kỹ thuật số"
+      }
+    ]
+  },
+  {
+    "order": 59,
+    "term": "IT infrastructure",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Hạ tầng công nghệ thông tin",
+    "examples": [
+      {
+        "japanese": "IT infrastructure is crucial for digital economies.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Công nghệ & Kỹ thuật số"
+      }
+    ]
+  },
+  {
+    "order": 60,
+    "term": "Public health",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Sức khỏe cộng đồng",
+    "examples": [
+      {
+        "japanese": "Public health campaigns improve hygiene awareness.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Sức khỏe & Y tế"
+      }
+    ]
+  },
+  {
+    "order": 61,
+    "term": "Mental health",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Sức khỏe tinh thần",
+    "examples": [
+      {
+        "japanese": "Mental health is as important as physical health.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Sức khỏe & Y tế"
+      }
+    ]
+  },
+  {
+    "order": 62,
+    "term": "Healthcare system",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Hệ thống chăm sóc sức khỏe",
+    "examples": [
+      {
+        "japanese": "A strong healthcare system benefits everyone.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Sức khỏe & Y tế"
+      }
+    ]
+  },
+  {
+    "order": 63,
+    "term": "Preventive care",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Chăm sóc phòng ngừa",
+    "examples": [
+      {
+        "japanese": "Preventive care reduces treatment costs.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Sức khỏe & Y tế"
+      }
+    ]
+  },
+  {
+    "order": 64,
+    "term": "Obesity",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Béo phì",
+    "examples": [
+      {
+        "japanese": "Obesity is a growing problem in children.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Sức khỏe & Y tế"
+      }
+    ]
+  },
+  {
+    "order": 65,
+    "term": "Sedentary lifestyle",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Lối sống ít vận động",
+    "examples": [
+      {
+        "japanese": "A sedentary lifestyle increases health risks.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Sức khỏe & Y tế"
+      }
+    ]
+  },
+  {
+    "order": 66,
+    "term": "Balanced diet",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Chế độ ăn cân bằng",
+    "examples": [
+      {
+        "japanese": "A balanced diet contributes to overall health.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Sức khỏe & Y tế"
+      }
+    ]
+  },
+  {
+    "order": 67,
+    "term": "Health insurance",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Bảo hiểm y tế",
+    "examples": [
+      {
+        "japanese": "Health insurance helps cover medical expenses.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Sức khỏe & Y tế"
+      }
+    ]
+  },
+  {
+    "order": 68,
+    "term": "Nutrition",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Dinh dưỡng",
+    "examples": [
+      {
+        "japanese": "Good nutrition is vital for development.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Sức khỏe & Y tế"
+      }
+    ]
+  },
+  {
+    "order": 69,
+    "term": "Medical treatment",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Điều trị y tế",
+    "examples": [
+      {
+        "japanese": "Delays in medical treatment can be fatal.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Sức khỏe & Y tế"
+      }
+    ]
+  },
+  {
+    "order": 70,
+    "term": "Vaccination",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Tiêm chủng",
+    "examples": [
+      {
+        "japanese": "Vaccination prevents infectious diseases.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Sức khỏe & Y tế"
+      }
+    ]
+  },
+  {
+    "order": 71,
+    "term": "Epidemic",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Dịch bệnh",
+    "examples": [
+      {
+        "japanese": "The flu epidemic affected millions.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Sức khỏe & Y tế"
+      }
+    ]
+  },
+  {
+    "order": 72,
+    "term": "Chronic illness",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Bệnh mãn tính",
+    "examples": [
+      {
+        "japanese": "Diabetes is a common chronic illness.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Sức khỏe & Y tế"
+      }
+    ]
+  },
+  {
+    "order": 73,
+    "term": "Healthcare access",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Tiếp cận dịch vụ y tế",
+    "examples": [
+      {
+        "japanese": "Rural areas often lack healthcare access.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Sức khỏe & Y tế"
+      }
+    ]
+  },
+  {
+    "order": 74,
+    "term": "Life expectancy",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Tuổi thọ",
+    "examples": [
+      {
+        "japanese": "Better sanitation increases life expectancy.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Sức khỏe & Y tế"
+      }
+    ]
+  },
+  {
+    "order": 75,
+    "term": "Medical research",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Nghiên cứu y học",
+    "examples": [
+      {
+        "japanese": "Medical research leads to new treatments.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Sức khỏe & Y tế"
+      }
+    ]
+  },
+  {
+    "order": 76,
+    "term": "Unhealthy habits",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Thói quen không lành mạnh",
+    "examples": [
+      {
+        "japanese": "Smoking and drinking are unhealthy habits.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Sức khỏe & Y tế"
+      }
+    ]
+  },
+  {
+    "order": 77,
+    "term": "Physical activity",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Hoạt động thể chất",
+    "examples": [
+      {
+        "japanese": "Regular physical activity prevents heart disease.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Sức khỏe & Y tế"
+      }
+    ]
+  },
+  {
+    "order": 78,
+    "term": "Health education",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Giáo dục sức khỏe",
+    "examples": [
+      {
+        "japanese": "Health education raises awareness about hygiene.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Sức khỏe & Y tế"
+      }
+    ]
+  },
+  {
+    "order": 79,
+    "term": "Healthcare funding",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Quỹ chăm sóc sức khỏe",
+    "examples": [
+      {
+        "japanese": "Increased healthcare funding improves hospital services.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Sức khỏe & Y tế"
+      }
+    ]
+  },
+  {
+    "order": 80,
+    "term": "Prison sentence",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Án tù",
+    "examples": [
+      {
+        "japanese": "A prison sentence is often given for serious crimes.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Pháp luật & Tư pháp"
+      }
+    ]
+  },
+  {
+    "order": 81,
+    "term": "Rehabilitation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Cải tạo",
+    "examples": [
+      {
+        "japanese": "Rehabilitation can reduce repeat offenses.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Pháp luật & Tư pháp"
+      }
+    ]
+  },
+  {
+    "order": 82,
+    "term": "Deterrence",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Răn đe",
+    "examples": [
+      {
+        "japanese": "Harsh penalties serve as deterrence.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Pháp luật & Tư pháp"
+      }
+    ]
+  },
+  {
+    "order": 83,
+    "term": "Recidivism",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Tái phạm",
+    "examples": [
+      {
+        "japanese": "Effective programs lower recidivism rates.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Pháp luật & Tư pháp"
+      }
+    ]
+  },
+  {
+    "order": 84,
+    "term": "Capital punishment",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Tử hình",
+    "examples": [
+      {
+        "japanese": "Many countries have abolished capital punishment.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Pháp luật & Tư pháp"
+      }
+    ]
+  },
+  {
+    "order": 85,
+    "term": "Community service",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Lao động công ích",
+    "examples": [
+      {
+        "japanese": "Community service is an alternative to imprisonment.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Pháp luật & Tư pháp"
+      }
+    ]
+  },
+  {
+    "order": 86,
+    "term": "Criminal justice system",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Hệ thống tư pháp hình sự",
+    "examples": [
+      {
+        "japanese": "The criminal justice system must ensure fairness.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Pháp luật & Tư pháp"
+      }
+    ]
+  },
+  {
+    "order": 87,
+    "term": "Law enforcement",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Thực thi pháp luật",
+    "examples": [
+      {
+        "japanese": "Law enforcement agencies maintain public order.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Pháp luật & Tư pháp"
+      }
+    ]
+  },
+  {
+    "order": 88,
+    "term": "Juvenile delinquency",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Tội phạm vị thành niên",
+    "examples": [
+      {
+        "japanese": "Education can help reduce juvenile delinquency.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Pháp luật & Tư pháp"
+      }
+    ]
+  },
+  {
+    "order": 89,
+    "term": "Inmate",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Tù nhân",
+    "examples": [
+      {
+        "japanese": "Inmates should have access to education.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Pháp luật & Tư pháp"
+      }
+    ]
+  },
+  {
+    "order": 90,
+    "term": "Criminal record",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Tiền án",
+    "examples": [
+      {
+        "japanese": "A criminal record can affect job opportunities.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Pháp luật & Tư pháp"
+      }
+    ]
+  },
+  {
+    "order": 91,
+    "term": "Probation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Án treo",
+    "examples": [
+      {
+        "japanese": "Probation is granted to non-violent offenders.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Pháp luật & Tư pháp"
+      }
+    ]
+  },
+  {
+    "order": 92,
+    "term": "Offender",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Người phạm tội",
+    "examples": [
+      {
+        "japanese": "First-time offenders may receive lighter sentences.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Pháp luật & Tư pháp"
+      }
+    ]
+  },
+  {
+    "order": 93,
+    "term": "Reoffend",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Tái phạm",
+    "examples": [
+      {
+        "japanese": "Support helps prevent ex-prisoners from reoffending.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Pháp luật & Tư pháp"
+      }
+    ]
+  },
+  {
+    "order": 94,
+    "term": "Legal system",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Hệ thống pháp luật",
+    "examples": [
+      {
+        "japanese": "An efficient legal system builds trust.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Pháp luật & Tư pháp"
+      }
+    ]
+  },
+  {
+    "order": 95,
+    "term": "Punitive measures",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Biện pháp trừng phạt",
+    "examples": [
+      {
+        "japanese": "Excessive punitive measures may be counterproductive.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Pháp luật & Tư pháp"
+      }
+    ]
+  },
+  {
+    "order": 96,
+    "term": "Restorative justice",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Công lý phục hồi",
+    "examples": [
+      {
+        "japanese": "Restorative justice focuses on healing victims.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Pháp luật & Tư pháp"
+      }
+    ]
+  },
+  {
+    "order": 97,
+    "term": "White-collar crime",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Tội phạm cổ cồn trắng",
+    "examples": [
+      {
+        "japanese": "Fraud is a common white-collar crime.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Pháp luật & Tư pháp"
+      }
+    ]
+  },
+  {
+    "order": 98,
+    "term": "Surveillance",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Giám sát",
+    "examples": [
+      {
+        "japanese": "Surveillance can deter criminal activity.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Pháp luật & Tư pháp"
+      }
+    ]
+  },
+  {
+    "order": 99,
+    "term": "Strict laws",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Luật nghiêm khắc",
+    "examples": [
+      {
+        "japanese": "Strict laws can prevent illegal activities.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Pháp luật & Tư pháp"
+      }
+    ]
+  },
+  {
+    "order": 100,
+    "term": "Workforce",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Lực lượng lao động",
+    "examples": [
+      {
+        "japanese": "A skilled workforce drives innovation.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Việc làm & Nghề nghiệp"
+      }
+    ]
+  },
+  {
+    "order": 101,
+    "term": "Unemployment",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Thất nghiệp",
+    "examples": [
+      {
+        "japanese": "High unemployment affects the economy.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Việc làm & Nghề nghiệp"
+      }
+    ]
+  },
+  {
+    "order": 102,
+    "term": "Remote work",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Làm việc từ xa",
+    "examples": [
+      {
+        "japanese": "Remote work became common during the pandemic.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Việc làm & Nghề nghiệp"
+      }
+    ]
+  },
+  {
+    "order": 103,
+    "term": "Freelancer",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Người làm việc tự do",
+    "examples": [
+      {
+        "japanese": "Freelancers enjoy flexible schedules.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Việc làm & Nghề nghiệp"
+      }
+    ]
+  },
+  {
+    "order": 104,
+    "term": "Job satisfaction",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Sự hài lòng trong công việc",
+    "examples": [
+      {
+        "japanese": "Job satisfaction boosts employee productivity.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Việc làm & Nghề nghiệp"
+      }
+    ]
+  },
+  {
+    "order": 105,
+    "term": "Workplace environment",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Môi trường làm việc",
+    "examples": [
+      {
+        "japanese": "A positive workplace environment retains staff.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Việc làm & Nghề nghiệp"
+      }
+    ]
+  },
+  {
+    "order": 106,
+    "term": "Career progression",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Phát triển sự nghiệp",
+    "examples": [
+      {
+        "japanese": "Training supports career progression.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Việc làm & Nghề nghiệp"
+      }
+    ]
+  },
+  {
+    "order": 107,
+    "term": "Promotion prospects",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Cơ hội thăng tiến",
+    "examples": [
+      {
+        "japanese": "Employees seek jobs with promotion prospects.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Việc làm & Nghề nghiệp"
+      }
+    ]
+  },
+  {
+    "order": 108,
+    "term": "Job security",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Sự ổn định trong công việc",
+    "examples": [
+      {
+        "japanese": "Permanent contracts provide job security.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Việc làm & Nghề nghiệp"
+      }
+    ]
+  },
+  {
+    "order": 109,
+    "term": "Wage gap",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Chênh lệch lương",
+    "examples": [
+      {
+        "japanese": "The gender wage gap is a major issue.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Việc làm & Nghề nghiệp"
+      }
+    ]
+  },
+  {
+    "order": 110,
+    "term": "Recruitment",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Tuyển dụng",
+    "examples": [
+      {
+        "japanese": "The company invests in recruitment strategies.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Việc làm & Nghề nghiệp"
+      }
+    ]
+  },
+  {
+    "order": 111,
+    "term": "Overtime",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Làm thêm giờ",
+    "examples": [
+      {
+        "japanese": "Too much overtime can cause burnout.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Việc làm & Nghề nghiệp"
+      }
+    ]
+  },
+  {
+    "order": 112,
+    "term": "Resignation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Sự từ chức",
+    "examples": [
+      {
+        "japanese": "Poor management leads to high resignation rates.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Việc làm & Nghề nghiệp"
+      }
+    ]
+  },
+  {
+    "order": 113,
+    "term": "Employment rate",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Tỷ lệ việc làm",
+    "examples": [
+      {
+        "japanese": "Governments aim to increase the employment rate.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Việc làm & Nghề nghiệp"
+      }
+    ]
+  },
+  {
+    "order": 114,
+    "term": "Minimum wage",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Lương tối thiểu",
+    "examples": [
+      {
+        "japanese": "Raising the minimum wage supports low-income workers.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Việc làm & Nghề nghiệp"
+      }
+    ]
+  },
+  {
+    "order": 115,
+    "term": "Work-life balance",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Cân bằng công việc - cuộc sống",
+    "examples": [
+      {
+        "japanese": "Flexible hours improve work-life balance.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Việc làm & Nghề nghiệp"
+      }
+    ]
+  },
+  {
+    "order": 116,
+    "term": "Internship",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Thực tập",
+    "examples": [
+      {
+        "japanese": "Internships provide practical experience.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Việc làm & Nghề nghiệp"
+      }
+    ]
+  },
+  {
+    "order": 117,
+    "term": "Labour market",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Thị trường lao động",
+    "examples": [
+      {
+        "japanese": "The labour market is constantly evolving.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Việc làm & Nghề nghiệp"
+      }
+    ]
+  },
+  {
+    "order": 118,
+    "term": "Occupational hazard",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Nguy cơ nghề nghiệp",
+    "examples": [
+      {
+        "japanese": "Healthcare workers face many occupational hazards.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Việc làm & Nghề nghiệp"
+      }
+    ]
+  },
+  {
+    "order": 119,
+    "term": "Annual leave",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Nghỉ phép năm",
+    "examples": [
+      {
+        "japanese": "Employees are entitled to annual leave.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Việc làm & Nghề nghiệp"
+      }
+    ]
+  },
+  {
+    "order": 120,
+    "term": "Mass media",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Truyền thông đại chúng",
+    "examples": [
+      {
+        "japanese": "Mass media influences public opinion significantly.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Truyền thông & Báo chí"
+      }
+    ]
+  },
+  {
+    "order": 121,
+    "term": "Censorship",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Kiểm duyệt",
+    "examples": [
+      {
+        "japanese": "Censorship restricts freedom of expression.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Truyền thông & Báo chí"
+      }
+    ]
+  },
+  {
+    "order": 122,
+    "term": "Freedom of speech",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Tự do ngôn luận",
+    "examples": [
+      {
+        "japanese": "Freedom of speech is a democratic right.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Truyền thông & Báo chí"
+      }
+    ]
+  },
+  {
+    "order": 123,
+    "term": "Social media",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Mạng xã hội",
+    "examples": [
+      {
+        "japanese": "Social media can spread both information and misinformation.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Truyền thông & Báo chí"
+      }
+    ]
+  },
+  {
+    "order": 124,
+    "term": "Fake news",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Tin giả",
+    "examples": [
+      {
+        "japanese": "Fake news can mislead the public.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Truyền thông & Báo chí"
+      }
+    ]
+  },
+  {
+    "order": 125,
+    "term": "Broadcasting",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Phát sóng",
+    "examples": [
+      {
+        "japanese": "Broadcasting has evolved with digital technology.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Truyền thông & Báo chí"
+      }
+    ]
+  },
+  {
+    "order": 126,
+    "term": "Tabloid",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Báo lá cải",
+    "examples": [
+      {
+        "japanese": "Tabloids often exaggerate stories.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Truyền thông & Báo chí"
+      }
+    ]
+  },
+  {
+    "order": 127,
+    "term": "Public opinion",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Dư luận",
+    "examples": [
+      {
+        "japanese": "Media shapes public opinion on major issues.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Truyền thông & Báo chí"
+      }
+    ]
+  },
+  {
+    "order": 128,
+    "term": "Viral content",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Nội dung lan truyền",
+    "examples": [
+      {
+        "japanese": "Viral content can influence social trends.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Truyền thông & Báo chí"
+      }
+    ]
+  },
+  {
+    "order": 129,
+    "term": "Sensationalism",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Giật gân",
+    "examples": [
+      {
+        "japanese": "Sensationalism reduces journalistic credibility.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Truyền thông & Báo chí"
+      }
+    ]
+  },
+  {
+    "order": 130,
+    "term": "Media coverage",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Đưa tin truyền thông",
+    "examples": [
+      {
+        "japanese": "The event received global media coverage.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Truyền thông & Báo chí"
+      }
+    ]
+  },
+  {
+    "order": 131,
+    "term": "Digital journalism",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Báo chí kỹ thuật số",
+    "examples": [
+      {
+        "japanese": "Digital journalism has replaced many print outlets.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Truyền thông & Báo chí"
+      }
+    ]
+  },
+  {
+    "order": 132,
+    "term": "Advertisement",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Quảng cáo",
+    "examples": [
+      {
+        "japanese": "Advertisements often target young audiences.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Truyền thông & Báo chí"
+      }
+    ]
+  },
+  {
+    "order": 133,
+    "term": "Media bias",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Thiên vị truyền thông",
+    "examples": [
+      {
+        "japanese": "Media bias undermines trust.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Truyền thông & Báo chí"
+      }
+    ]
+  },
+  {
+    "order": 134,
+    "term": "Communication skills",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Kỹ năng giao tiếp",
+    "examples": [
+      {
+        "japanese": "Strong communication skills are essential at work.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Truyền thông & Báo chí"
+      }
+    ]
+  },
+  {
+    "order": 135,
+    "term": "Internet access",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Truy cập internet",
+    "examples": [
+      {
+        "japanese": "Limited internet access hinders information flow.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Truyền thông & Báo chí"
+      }
+    ]
+  },
+  {
+    "order": 136,
+    "term": "Online platforms",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Nền tảng trực tuyến",
+    "examples": [
+      {
+        "japanese": "Online platforms enable global communication.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Truyền thông & Báo chí"
+      }
+    ]
+  },
+  {
+    "order": 137,
+    "term": "Information overload",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Quá tải thông tin",
+    "examples": [
+      {
+        "japanese": "Too much data can lead to information overload.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Truyền thông & Báo chí"
+      }
+    ]
+  },
+  {
+    "order": 138,
+    "term": "Echo chamber",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Buồng vọng",
+    "examples": [
+      {
+        "japanese": "Social media can create echo chambers.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Truyền thông & Báo chí"
+      }
+    ]
+  },
+  {
+    "order": 139,
+    "term": "Media literacy",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Hiểu biết truyền thông",
+    "examples": [
+      {
+        "japanese": "Media literacy helps users evaluate news critically.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Truyền thông & Báo chí"
+      }
+    ]
+  },
+  {
+    "order": 140,
+    "term": "Global economy",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Nền kinh tế toàn cầu",
+    "examples": [
+      {
+        "japanese": "The global economy connects markets worldwide.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Toàn cầu hóa & Kinh tế"
+      }
+    ]
+  },
+  {
+    "order": 141,
+    "term": "Multinational corporation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Tập đoàn đa quốc gia",
+    "examples": [
+      {
+        "japanese": "Multinational corporations invest in many countries.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Toàn cầu hóa & Kinh tế"
+      }
+    ]
+  },
+  {
+    "order": 142,
+    "term": "Cultural exchange",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Trao đổi văn hóa",
+    "examples": [
+      {
+        "japanese": "Cultural exchange enriches understanding.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Toàn cầu hóa & Kinh tế"
+      }
+    ]
+  },
+  {
+    "order": 143,
+    "term": "Trade liberalization",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Tự do hóa thương mại",
+    "examples": [
+      {
+        "japanese": "Trade liberalization boosts economic growth.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Toàn cầu hóa & Kinh tế"
+      }
+    ]
+  },
+  {
+    "order": 144,
+    "term": "Cultural homogenization",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Đồng nhất văn hóa",
+    "examples": [
+      {
+        "japanese": "Globalisation can lead to cultural homogenization.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Toàn cầu hóa & Kinh tế"
+      }
+    ]
+  },
+  {
+    "order": 145,
+    "term": "International trade",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Thương mại quốc tế",
+    "examples": [
+      {
+        "japanese": "International trade promotes cooperation.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Toàn cầu hóa & Kinh tế"
+      }
+    ]
+  },
+  {
+    "order": 146,
+    "term": "Migration",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Di cư",
+    "examples": [
+      {
+        "japanese": "Globalisation increases migration opportunities.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Toàn cầu hóa & Kinh tế"
+      }
+    ]
+  },
+  {
+    "order": 147,
+    "term": "Outsourcing",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Thuê ngoài",
+    "examples": [
+      {
+        "japanese": "Outsourcing reduces company costs.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Toàn cầu hóa & Kinh tế"
+      }
+    ]
+  },
+  {
+    "order": 148,
+    "term": "Foreign investment",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Đầu tư nước ngoài",
+    "examples": [
+      {
+        "japanese": "Foreign investment strengthens local economies.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Toàn cầu hóa & Kinh tế"
+      }
+    ]
+  },
+  {
+    "order": 149,
+    "term": "Global workforce",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Lực lượng lao động toàn cầu",
+    "examples": [
+      {
+        "japanese": "A global workforce brings diverse skills.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Toàn cầu hóa & Kinh tế"
+      }
+    ]
+  },
+  {
+    "order": 150,
+    "term": "Technological transfer",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Chuyển giao công nghệ",
+    "examples": [
+      {
+        "japanese": "Globalisation accelerates technological transfer.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Toàn cầu hóa & Kinh tế"
+      }
+    ]
+  },
+  {
+    "order": 151,
+    "term": "International cooperation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Hợp tác quốc tế",
+    "examples": [
+      {
+        "japanese": "Climate change requires international cooperation.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Toàn cầu hóa & Kinh tế"
+      }
+    ]
+  },
+  {
+    "order": 152,
+    "term": "Cultural identity",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Bản sắc văn hóa",
+    "examples": [
+      {
+        "japanese": "Local communities fear losing cultural identity.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Toàn cầu hóa & Kinh tế"
+      }
+    ]
+  },
+  {
+    "order": 153,
+    "term": "Free market",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Thị trường tự do",
+    "examples": [
+      {
+        "japanese": "A free market encourages competition.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Toàn cầu hóa & Kinh tế"
+      }
+    ]
+  },
+  {
+    "order": 154,
+    "term": "Global citizen",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Công dân toàn cầu",
+    "examples": [
+      {
+        "japanese": "Students should be educated as global citizens.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Toàn cầu hóa & Kinh tế"
+      }
+    ]
+  },
+  {
+    "order": 155,
+    "term": "Export and import",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Xuất nhập khẩu",
+    "examples": [
+      {
+        "japanese": "Export and import drive economic ties.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Toàn cầu hóa & Kinh tế"
+      }
+    ]
+  },
+  {
+    "order": 156,
+    "term": "Brain drain",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Chảy máu chất xám",
+    "examples": [
+      {
+        "japanese": "Brain drain affects developing countries.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Toàn cầu hóa & Kinh tế"
+      }
+    ]
+  },
+  {
+    "order": 157,
+    "term": "Language barrier",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Rào cản ngôn ngữ",
+    "examples": [
+      {
+        "japanese": "Language barriers limit integration.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Toàn cầu hóa & Kinh tế"
+      }
+    ]
+  },
+  {
+    "order": 158,
+    "term": "Offshoring",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Chuyển dịch ra nước ngoài",
+    "examples": [
+      {
+        "japanese": "Offshoring jobs is a global trend.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Toàn cầu hóa & Kinh tế"
+      }
+    ]
+  },
+  {
+    "order": 159,
+    "term": "Cultural diversity",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Đa dạng văn hóa",
+    "examples": [
+      {
+        "japanese": "Globalisation should preserve cultural diversity.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Toàn cầu hóa & Kinh tế"
+      }
+    ]
+  },
+  {
+    "order": 160,
+    "term": "Social inequality",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Bất bình đẳng xã hội",
+    "examples": [
+      {
+        "japanese": "Social inequality leads to unrest.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Xã hội & Đời sống"
+      }
+    ]
+  },
+  {
+    "order": 161,
+    "term": "Poverty",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Nghèo đói",
+    "examples": [
+      {
+        "japanese": "Poverty reduction is a key government goal.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Xã hội & Đời sống"
+      }
+    ]
+  },
+  {
+    "order": 162,
+    "term": "Homelessness",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Vô gia cư",
+    "examples": [
+      {
+        "japanese": "Homelessness is rising in urban areas.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Xã hội & Đời sống"
+      }
+    ]
+  },
+  {
+    "order": 163,
+    "term": "Ageing population",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Dân số già",
+    "examples": [
+      {
+        "japanese": "An ageing population increases healthcare costs.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Xã hội & Đời sống"
+      }
+    ]
+  },
+  {
+    "order": 164,
+    "term": "Youth unemployment",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Thất nghiệp thanh niên",
+    "examples": [
+      {
+        "japanese": "Youth unemployment can cause social instability.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Xã hội & Đời sống"
+      }
+    ]
+  },
+  {
+    "order": 165,
+    "term": "Gender equality",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Bình đẳng giới",
+    "examples": [
+      {
+        "japanese": "Gender equality improves economic productivity.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Xã hội & Đời sống"
+      }
+    ]
+  },
+  {
+    "order": 166,
+    "term": "Social cohesion",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Gắn kết xã hội",
+    "examples": [
+      {
+        "japanese": "Education fosters social cohesion.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Xã hội & Đời sống"
+      }
+    ]
+  },
+  {
+    "order": 167,
+    "term": "Urbanization",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Đô thị hóa",
+    "examples": [
+      {
+        "japanese": "Urbanization changes traditional lifestyles.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Xã hội & Đời sống"
+      }
+    ]
+  },
+  {
+    "order": 168,
+    "term": "Civic engagement",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Tham gia xã hội",
+    "examples": [
+      {
+        "japanese": "Voting is a form of civic engagement.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Xã hội & Đời sống"
+      }
+    ]
+  },
+  {
+    "order": 169,
+    "term": "Cultural norms",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Chuẩn mực văn hóa",
+    "examples": [
+      {
+        "japanese": "Social behavior is shaped by cultural norms.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Xã hội & Đời sống"
+      }
+    ]
+  },
+  {
+    "order": 170,
+    "term": "Discrimination",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Phân biệt đối xử",
+    "examples": [
+      {
+        "japanese": "Laws should protect against discrimination.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Xã hội & Đời sống"
+      }
+    ]
+  },
+  {
+    "order": 171,
+    "term": "Social mobility",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Tính linh động xã hội",
+    "examples": [
+      {
+        "japanese": "Education enhances social mobility.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Xã hội & Đời sống"
+      }
+    ]
+  },
+  {
+    "order": 172,
+    "term": "Welfare system",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Hệ thống phúc lợi",
+    "examples": [
+      {
+        "japanese": "A strong welfare system supports vulnerable groups.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Xã hội & Đời sống"
+      }
+    ]
+  },
+  {
+    "order": 173,
+    "term": "Income disparity",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Chênh lệch thu nhập",
+    "examples": [
+      {
+        "japanese": "Income disparity leads to unequal opportunities.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Xã hội & Đời sống"
+      }
+    ]
+  },
+  {
+    "order": 174,
+    "term": "Civil rights",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Quyền công dân",
+    "examples": [
+      {
+        "japanese": "Civil rights are protected by law.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Xã hội & Đời sống"
+      }
+    ]
+  },
+  {
+    "order": 175,
+    "term": "Cultural integration",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Hòa nhập văn hóa",
+    "examples": [
+      {
+        "japanese": "Immigrants benefit from cultural integration.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Xã hội & Đời sống"
+      }
+    ]
+  },
+  {
+    "order": 176,
+    "term": "Public services",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Dịch vụ công",
+    "examples": [
+      {
+        "japanese": "Public services must be accessible to all.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Xã hội & Đời sống"
+      }
+    ]
+  },
+  {
+    "order": 177,
+    "term": "Social justice",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Công bằng xã hội",
+    "examples": [
+      {
+        "japanese": "Social justice ensures fairness for everyone.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Xã hội & Đời sống"
+      }
+    ]
+  },
+  {
+    "order": 178,
+    "term": "Traditional values",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Giá trị truyền thống",
+    "examples": [
+      {
+        "japanese": "Traditional values are often passed down through generations.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Xã hội & Đời sống"
+      }
+    ]
+  },
+  {
+    "order": 179,
+    "term": "Population density",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Mật độ dân số",
+    "examples": [
+      {
+        "japanese": "High population density leads to housing issues.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Xã hội & Đời sống"
+      }
+    ]
+  },
+  {
+    "order": 180,
+    "term": "Public policy",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Chính sách công",
+    "examples": [
+      {
+        "japanese": "Public policy must reflect citizens' needs.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Chính phủ & Chính sách công"
+      }
+    ]
+  },
+  {
+    "order": 181,
+    "term": "Taxation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Thuế",
+    "examples": [
+      {
+        "japanese": "Progressive taxation helps reduce inequality.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Chính phủ & Chính sách công"
+      }
+    ]
+  },
+  {
+    "order": 182,
+    "term": "Subsidy",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Trợ cấp",
+    "examples": [
+      {
+        "japanese": "Farmers receive government subsidies.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Chính phủ & Chính sách công"
+      }
+    ]
+  },
+  {
+    "order": 183,
+    "term": "Legislation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Pháp luật",
+    "examples": [
+      {
+        "japanese": "New legislation was passed to protect wildlife.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Chính phủ & Chính sách công"
+      }
+    ]
+  },
+  {
+    "order": 184,
+    "term": "Government spending",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Chi tiêu của chính phủ",
+    "examples": [
+      {
+        "japanese": "Government spending on education should increase.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Chính phủ & Chính sách công"
+      }
+    ]
+  },
+  {
+    "order": 185,
+    "term": "Democracy",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Dân chủ",
+    "examples": [
+      {
+        "japanese": "Democracy allows citizen participation in politics.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Chính phủ & Chính sách công"
+      }
+    ]
+  },
+  {
+    "order": 186,
+    "term": "Corruption",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Tham nhũng",
+    "examples": [
+      {
+        "japanese": "Anti-corruption laws strengthen governance.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Chính phủ & Chính sách công"
+      }
+    ]
+  },
+  {
+    "order": 187,
+    "term": "Public sector",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Khu vực công",
+    "examples": [
+      {
+        "japanese": "The public sector provides essential services.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Chính phủ & Chính sách công"
+      }
+    ]
+  },
+  {
+    "order": 188,
+    "term": "Regulation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Quy định",
+    "examples": [
+      {
+        "japanese": "Stricter regulations improve food safety.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Chính phủ & Chính sách công"
+      }
+    ]
+  },
+  {
+    "order": 189,
+    "term": "Bureaucracy",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Quan liêu",
+    "examples": [
+      {
+        "japanese": "Excessive bureaucracy slows decision-making.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Chính phủ & Chính sách công"
+      }
+    ]
+  },
+  {
+    "order": 190,
+    "term": "Policy implementation",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Thực thi chính sách",
+    "examples": [
+      {
+        "japanese": "Effective policy implementation ensures success.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Chính phủ & Chính sách công"
+      }
+    ]
+  },
+  {
+    "order": 191,
+    "term": "Government accountability",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Trách nhiệm của chính phủ",
+    "examples": [
+      {
+        "japanese": "Transparency ensures government accountability.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Chính phủ & Chính sách công"
+      }
+    ]
+  },
+  {
+    "order": 192,
+    "term": "Constitution",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Hiến pháp",
+    "examples": [
+      {
+        "japanese": "The constitution guarantees basic rights.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Chính phủ & Chính sách công"
+      }
+    ]
+  },
+  {
+    "order": 193,
+    "term": "Infrastructure",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Cơ sở hạ tầng",
+    "examples": [
+      {
+        "japanese": "Infrastructure investment boosts the economy.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Chính phủ & Chính sách công"
+      }
+    ]
+  },
+  {
+    "order": 194,
+    "term": "Law enforcement",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Thực thi pháp luật",
+    "examples": [
+      {
+        "japanese": "Law enforcement ensures rule of law.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Chính phủ & Chính sách công"
+      }
+    ]
+  },
+  {
+    "order": 195,
+    "term": "Public welfare",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Phúc lợi công cộng",
+    "examples": [
+      {
+        "japanese": "Policies should prioritize public welfare.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Chính phủ & Chính sách công"
+      }
+    ]
+  },
+  {
+    "order": 196,
+    "term": "Electoral system",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Hệ thống bầu cử",
+    "examples": [
+      {
+        "japanese": "A fair electoral system builds trust.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Chính phủ & Chính sách công"
+      }
+    ]
+  },
+  {
+    "order": 197,
+    "term": "Political stability",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Ổn định chính trị",
+    "examples": [
+      {
+        "japanese": "Political stability attracts foreign investors.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Chính phủ & Chính sách công"
+      }
+    ]
+  },
+  {
+    "order": 198,
+    "term": "Social reform",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Cải cách xã hội",
+    "examples": [
+      {
+        "japanese": "Social reform addresses inequality.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Chính phủ & Chính sách công"
+      }
+    ]
+  },
+  {
+    "order": 199,
+    "term": "National budget",
+    "reading": "",
+    "romaji": "",
+    "partOfSpeech": "Từ & Cụm từ",
+    "meaning": "Ngân sách quốc gia",
+    "examples": [
+      {
+        "japanese": "The national budget allocates funds for development.",
+        "reading": "",
+        "vietnamese": "Chủ đề: Chính phủ & Chính sách công"
+      }
+    ]
+  }
+]

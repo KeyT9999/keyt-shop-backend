@@ -21,6 +21,9 @@ function normalizeCourseCode(courseCode) {
   if (code === 'ENGBAKHI2' || code === 'ENG-BA-KHI-2' || code === 'ENG_BA_KHI_2') {
     return 'ENGBK2';
   }
+  if (code === 'ENGW' || code === 'ENG-W' || code === 'ENG_W') {
+    return 'ENW';
+  }
   return code;
 }
 

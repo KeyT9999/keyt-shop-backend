@@ -14,6 +14,7 @@
     "seed:engbk": "node scripts/seed-courses.js --course=ENGBK",
     "seed:engbk2": "node scripts/seed-courses.js --course=ENGBK2",
     "seed:jpd123": "node scripts/seed-courses.js --course=JPD123",
+    "seed:enw": "node scripts/seed-courses.js --course=ENW",
     "import:eng1000": "node scripts/import-eng1000-source.js",
     "import:toeic120": "node scripts/import-toeic120.js",
     "generate:hsk1-audio": "node scripts/generate-hsk1-audio.js --course HSK1",
