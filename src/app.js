@@ -28,6 +28,7 @@ const courseRoutes = require('./routes/course.routes');
 const learningRoutes = require('./routes/learning.routes');
 const speakingRoutes = require('./routes/speaking.routes');
 const gymRoutes = require('./routes/gym.routes');
+const ziweiRoutes = require('./routes/ziwei.routes');
 const { authenticateToken, requireAdmin } = require('./middleware/auth.middleware');
 
 const app = express();
@@ -205,6 +206,7 @@ app.use('/api/courses', courseRoutes);
 app.use('/api/courses', speakingRoutes);
 app.use('/api/learning', learningRoutes);
 app.use('/api/gym', gymRoutes);
+app.use('/api/ziwei', ziweiRoutes);
 
 // Global error handler
 app.use((err, req, res, next) => {
