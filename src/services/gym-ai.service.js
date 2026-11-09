@@ -173,15 +173,28 @@ function buildGymUserContextBlock(snapshot = {}) {
     .join('\n');
 }
 
-function buildSystemInstruction() {
+function buildSystemInstruction(snapshot = {}) {
+  const isMale = snapshot?.userProfile?.gender === 'male';
+  if (isMale) {
+    return [
+      `Bạn là **KeyT Gym AI Coach (Phái Mạnh)** — Huấn luyện viên cá nhân AI chuyên sâu về Thể hình Nam (Tăng cơ Ngực dày, Vai 3D, Lưng xô V-Taper, Siết cơ bụng 6 múi, Tăng cân Bulking) và Dinh dưỡng tại phòng tập thực tế có dàn máy BRTW & Impulse.`,
+      ``,
+      `NGUYÊN TẮC TRẢ LỜI BẮT BUỘC:`,
+      `1. **Lấy trực tiếp thông tin người dùng vừa nhập vào** (Chiều cao, Cân nặng, BMI, Vòng ngực, Vòng bụng, Vòng bắp tay, Mục tiêu Nam giới, Số buổi/tuần, Lộ trình bài tập & Calo/Đạm mục tiêu) để suy nghĩ, tính toán và trích dẫn ngay đầu câu trả lời.`,
+      `2. Gợi ý cụ thể bài tập, mức tạ khởi điểm (kg), số hiệp × số lần và khẩu phần ăn (gram ức gà, thịt bò, trứng, cơm/khoai lang) khớp chính xác với cân nặng của học viên.`,
+      `3. Trình bày ngắn gọn, súc tích (100–180 từ), chia gạch đầu dòng rõ ràng, dễ đọc trên điện thoại.`,
+      `4. Danh sách mã bài tập tại phòng:\n- ${GYM_CATALOG_SUMMARY}`,
+    ].join('\n');
+  }
+
   return [
-    `Bạn là **KeyT Neon Coach** — Huấn luyện viên cá nhân AI chuyên sâu về Fitness Nữ, Độ Mông (Glute Hypertrophy), Điều chỉnh lịch tập theo Chu kỳ kinh nguyệt (Cycle-Synced Training) và Dinh dưỡng giữ dáng tại phòng tập thực tế có dàn máy BRTW & Impulse.`,
+    `Bạn là **KeyT Neon Coach (Phái Đẹp)** — Huấn luyện viên cá nhân AI chuyên sâu về Fitness Nữ, Độ Mông (Glute Hypertrophy), Điều chỉnh lịch tập theo Chu kỳ kinh nguyệt (Cycle-Synced Training) và Dinh dưỡng giữ dáng tại phòng tập thực tế có dàn máy BRTW & Impulse.`,
     ``,
     `NGUYÊN TẮC TRẢ LỜI BẮT BUỘC:`,
-    `1. Luôn gọi tên học viên thân thiện, ấm áp, tràn đầy năng lượng và **trích dẫn trực tiếp số liệu thực tế của học viên** (chiều cao, cân nặng, BMI, vòng eo/mông, pha chu kỳ hiện tại, triệu chứng hôm nay, mức tạ đang tập) để chứng minh bạn nắm rõ mọi thông tin của cô ấy.`,
-    `2. Nếu học viên đang ở **Pha Hành Kinh (Kỳ Dâu)** hoặc có triệu chứng đau lưng/đau bụng/năng lượng thấp (1-2/5): khuyên giảm 15-20% mức tạ, tránh các bài ép ổ bụng/nén cột sống nặng (như Super Squat, Barbell Squat nặng), ưu tiên Máy Hip Thrust nhẹ, Máy Mở Mông (Hip Abductor) hoặc Giãn cơ phục hồi.`,
-    `3. Nếu học viên có mục tiêu **Độ mông không to đùi trước**: hướng dẫn mẹo kỹ thuật đặt bàn chân cao và rộng trên bàn đạp Leg Press, đẩy lực qua gót chân, ưu tiên Hip Thrust, Hip Abductor, Romanian Deadlift và hạn chế đá đùi trước (Leg Extension) quá nặng.`,
-    `4. Trình bày ngắn gọn (khoảng 120–220 từ), chia gạch đầu dòng rõ ràng, dễ đọc ngay trên màn hình điện thoại ở phòng tập.`,
+    `1. **Lấy trực tiếp thông tin người dùng vừa nhập vào** (Chiều cao, Cân nặng, BMI, Vòng eo V2, Vòng mông V3, Tỷ lệ WHR, Pha chu kỳ kinh nguyệt hiện tại, Triệu chứng hôm nay, Lộ trình bài tập & Calo/Đạm mục tiêu) để suy nghĩ và trích dẫn ngay đầu câu trả lời.`,
+    `2. Nếu học viên đang ở **Pha Hành Kinh (Kỳ Dâu)** hoặc có triệu chứng đau lưng/đau bụng/năng lượng thấp (1-2/5): khuyên giảm 15-20% mức tạ, tránh các bài ép ổ bụng/nén cột sống nặng, ưu tiên Máy Hip Thrust nhẹ, Máy Mở Mông (Hip Abductor) hoặc Giãn cơ phục hồi.`,
+    `3. Nếu học viên có mục tiêu **Độ mông không to đùi trước**: hướng dẫn mẹo đặt bàn chân cao trên bàn đạp Leg Press, đẩy lực qua gót chân, ưu tiên Hip Thrust, Hip Abductor, Romanian Deadlift.`,
+    `4. Trình bày ngắn gọn, súc tích (100–180 từ), chia gạch đầu dòng rõ ràng, dễ đọc ngay trên màn hình điện thoại.`,
     `5. Danh sách mã bài tập có sẵn tại phòng tập:\n- ${GYM_CATALOG_SUMMARY}`,
   ].join('\n');
 }
@@ -193,15 +206,27 @@ function buildSystemInstruction() {
 function buildDeterministicCoachReply(question, snapshot = {}) {
   const profile = snapshot.userProfile || {};
   const cycle = snapshot.cycleTracking || {};
+  const isMale = profile.gender === 'male';
   const name = profile.nickname || 'Challenger';
-  const heightCm = Number(profile.heightCm) || 160;
-  const weightKg = Number(profile.weightKg) || 50;
-  const waistCm = Number(profile.waistCm) || 63;
+  const heightCm = Number(profile.heightCm) || (isMale ? 172 : 160);
+  const weightKg = Number(profile.weightKg) || (isMale ? 68 : 50);
+  const waistCm = Number(profile.waistCm) || (isMale ? 78 : 63);
   const hipCm = Number(profile.hipCm) || 92;
+  const chestCm = Number(profile.chestCm) || 96;
+  const armCm = Number(profile.armCm) || 35;
   const bmi = ((weightKg / Math.pow(heightCm / 100, 2)) || 20).toFixed(1);
   const phaseKey = snapshot.resolvedCyclePhase || cycle.manualPhaseOverride || 'follicular';
   const energy = Number(cycle.todayEnergyLevel) || 4;
-  const isPeriodOrLow = phaseKey === 'menstrual' || energy <= 2;
+  const isPeriodOrLow = !isMale && (phaseKey === 'menstrual' || energy <= 2);
+
+  if (isMale) {
+    return [
+      `Chào **${name}**! Dựa trên thông tin bạn vừa nhập (**Nam • ${heightCm}cm • ${weightKg}kg • BMI ${bmi}**, Ngực **${chestCm}cm** • Bụng **${waistCm}cm** • Bắp tay **${armCm}cm**):`,
+      ``,
+      `- **Đề xuất tập luyện hôm nay:** Tập trung các bài máy đa khớp BRTW/Impulse (Đẩy ngực trên, Kéo xô rộng tay, Bay vai 3D) với nhịp hạ tạ chậm 2–3 giây, nghỉ 60–90 giây giữa các hiệp.`,
+      `- **Đề xuất ăn uống (${weightKg}kg):** Nạp khoảng **${Math.round(weightKg * 2.0)}g Protein/ngày** (chia 4 bữa: ức gà, thăn bò, cá, trứng, khoai lang/cơm) và uống đủ **${(weightKg * 0.042).toFixed(1)} lít nước**.`,
+    ].join('\n');
+  }
 
   return [
     `Chào **${name}**! Dựa trên hồ sơ của bạn (**${heightCm}cm • ${weightKg}kg • BMI ${bmi}**, số đo Eo/Mông **${waistCm}/${hipCm}cm**) và trạng thái hôm nay (**Năng lượng ${energy}/5**):`,
@@ -225,7 +250,7 @@ async function askGymAiCoach({ question, history = [], userSnapshot = {} }) {
   }
 
   const contextBlock = buildGymUserContextBlock(userSnapshot);
-  const systemInstruction = buildSystemInstruction();
+  const systemInstruction = buildSystemInstruction(userSnapshot);
 
   const recentHistory = Array.isArray(history)
     ? history
