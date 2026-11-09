@@ -3,6 +3,110 @@ const GymProfile = require('../models/gym-profile.model');
 const MAX_SPLIT_DAYS = 10;
 const MAX_EXERCISES_PER_DAY = 20;
 const MAX_EXERCISE_LOGS = 100;
+const MAX_RESTRICTIONS = 40;
+const MAX_CHAT_HISTORY = 20;
+
+const VALID_PRIMARY_GOALS = new Set([
+  'glute_sculpt',
+  'fat_loss',
+  'toned_curves',
+  'strength_health',
+]);
+const VALID_EXPERIENCE_LEVELS = new Set(['beginner', 'intermediate', 'advanced']);
+const VALID_CYCLE_PHASES = new Set([
+  'auto',
+  'menstrual',
+  'follicular',
+  'ovulatory',
+  'luteal',
+]);
+const VALID_RESTRICTION_KINDS = new Set(['dislike', 'injury', 'busy']);
+
+function clampNumber(val, min, max, fallback) {
+  const num = Number(val);
+  if (!Number.isFinite(num)) return fallback;
+  return Math.max(min, Math.min(max, num));
+}
+
+function sanitizeFemaleBodyProfile(raw = {}) {
+  const src = raw && typeof raw === 'object' ? raw : {};
+  return {
+    nickname: String(src.nickname || 'Challenger').trim().slice(0, 60) || 'Challenger',
+    age: clampNumber(src.age, 12, 90, 23),
+    heightCm: clampNumber(src.heightCm, 100, 230, 160),
+    weightKg: clampNumber(src.weightKg, 30, 200, 50),
+    waistCm: clampNumber(src.waistCm, 40, 160, 63),
+    hipCm: clampNumber(src.hipCm, 50, 180, 92),
+    primaryGoal: VALID_PRIMARY_GOALS.has(src.primaryGoal)
+      ? src.primaryGoal
+      : 'glute_sculpt',
+    experienceLevel: VALID_EXPERIENCE_LEVELS.has(src.experienceLevel)
+      ? src.experienceLevel
+      : 'beginner',
+    avoidHeavyQuads:
+      typeof src.avoidHeavyQuads === 'boolean' ? src.avoidHeavyQuads : true,
+    protectLowerBackKnee: Boolean(src.protectLowerBackKnee),
+    personalNotes: String(src.personalNotes || '').trim().slice(0, 400),
+    updatedAtMs: Number(src.updatedAtMs) || 0,
+  };
+}
+
+function sanitizeCycleTracking(raw = {}) {
+  const src = raw && typeof raw === 'object' ? raw : {};
+  const todaySymptoms = Array.isArray(src.todaySymptoms)
+    ? src.todaySymptoms
+        .filter((s) => typeof s === 'string' && s.trim().length > 0)
+        .map((s) => s.trim().slice(0, 32))
+        .slice(0, 15)
+    : [];
+  return {
+    enabled: typeof src.enabled === 'boolean' ? src.enabled : true,
+    lastPeriodStartDate: String(src.lastPeriodStartDate || '').trim().slice(0, 20),
+    cycleLengthDays: clampNumber(src.cycleLengthDays, 15, 60, 28),
+    periodDurationDays: clampNumber(src.periodDurationDays, 2, 12, 5),
+    manualPhaseOverride: VALID_CYCLE_PHASES.has(src.manualPhaseOverride)
+      ? src.manualPhaseOverride
+      : 'auto',
+    todayEnergyLevel: clampNumber(src.todayEnergyLevel, 1, 5, 4),
+    todaySymptoms,
+    updatedAtMs: Number(src.updatedAtMs) || 0,
+  };
+}
+
+function sanitizeExerciseRestrictions(rawList = []) {
+  if (!Array.isArray(rawList)) return [];
+  const map = new Map();
+  for (const item of rawList.slice(0, MAX_RESTRICTIONS)) {
+    if (!item || typeof item.exerciseId !== 'string' || !item.exerciseId.trim()) continue;
+    const id = item.exerciseId.trim().slice(0, 64);
+    const kind = VALID_RESTRICTION_KINDS.has(item.kind) ? item.kind : 'dislike';
+    map.set(id, {
+      exerciseId: id,
+      kind,
+      updatedAtMs: Number(item.updatedAtMs) || Date.now(),
+    });
+  }
+  return Array.from(map.values()).slice(0, MAX_RESTRICTIONS);
+}
+
+function sanitizeAiChatHistory(rawList = []) {
+  if (!Array.isArray(rawList)) return [];
+  return rawList
+    .filter(
+      (msg) =>
+        msg &&
+        (msg.role === 'user' || msg.role === 'assistant') &&
+        typeof msg.content === 'string' &&
+        msg.content.trim().length > 0
+    )
+    .slice(-MAX_CHAT_HISTORY)
+    .map((msg, idx) => ({
+      id: String(msg.id || `msg_${idx}_${Date.now()}`).slice(0, 64),
+      role: msg.role,
+      content: msg.content.trim().slice(0, 3000),
+      createdAtMs: Number(msg.createdAtMs) || Date.now(),
+    }));
+}
 
 const LEGACY_V1_SPLIT_IDS = {
   day1: ['incline_dumbbell_press', 'barbell_bench_press', 'pec_deck_fly', 'cable_crossover'],
@@ -167,6 +271,10 @@ function serializeGymProfile(doc) {
     lastCompletedSessionDate: doc.lastCompletedSessionDate || '',
     customDays: doc.customDays || [],
     exerciseLogs: doc.exerciseLogs || [],
+    userProfile: sanitizeFemaleBodyProfile(doc.userProfile),
+    cycleTracking: sanitizeCycleTracking(doc.cycleTracking),
+    exerciseRestrictions: doc.exerciseRestrictions || [],
+    aiChatHistory: doc.aiChatHistory || [],
     clientUpdatedAt: doc.clientUpdatedAt || 0,
     updatedAt: doc.updatedAt,
   };
@@ -209,6 +317,10 @@ async function upsertGymProfileByUserId(userId, payload) {
       lastCompletedSessionDate: String(payload.lastCompletedSessionDate || '').slice(0, 20),
       customDays: sanitizeCustomDays(upgradeUntouchedLegacyDays(payload.customDays).days),
       exerciseLogs: mergedLogs,
+      userProfile: sanitizeFemaleBodyProfile(payload.userProfile),
+      cycleTracking: sanitizeCycleTracking(payload.cycleTracking),
+      exerciseRestrictions: sanitizeExerciseRestrictions(payload.exerciseRestrictions),
+      aiChatHistory: sanitizeAiChatHistory(payload.aiChatHistory),
       clientUpdatedAt: incomingTs,
     });
     return serializeGymProfile(created);
@@ -238,6 +350,20 @@ async function upsertGymProfileByUserId(userId, payload) {
         upgradeUntouchedLegacyDays(payload.customDays).days
       );
     }
+    if (payload.userProfile && typeof payload.userProfile === 'object') {
+      existing.userProfile = sanitizeFemaleBodyProfile(payload.userProfile);
+    }
+    if (payload.cycleTracking && typeof payload.cycleTracking === 'object') {
+      existing.cycleTracking = sanitizeCycleTracking(payload.cycleTracking);
+    }
+    if (Array.isArray(payload.exerciseRestrictions)) {
+      existing.exerciseRestrictions = sanitizeExerciseRestrictions(
+        payload.exerciseRestrictions
+      );
+    }
+    if (Array.isArray(payload.aiChatHistory)) {
+      existing.aiChatHistory = sanitizeAiChatHistory(payload.aiChatHistory);
+    }
     existing.clientUpdatedAt = incomingTs;
   }
 
@@ -247,6 +373,10 @@ async function upsertGymProfileByUserId(userId, payload) {
 
 module.exports = {
   sanitizeCustomDays,
+  sanitizeFemaleBodyProfile,
+  sanitizeCycleTracking,
+  sanitizeExerciseRestrictions,
+  sanitizeAiChatHistory,
   mergeExerciseLogs,
   upgradeUntouchedLegacyDays,
   getGymProfileByUserId,

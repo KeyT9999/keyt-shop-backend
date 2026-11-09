@@ -1,10 +1,23 @@
 const express = require('express');
 const crypto = require('crypto');
+const rateLimit = require('express-rate-limit');
 const { body, validationResult } = require('express-validator');
 const { authenticateToken } = require('../middleware/auth.middleware');
 const gymService = require('../services/gym.service');
+const gymAiService = require('../services/gym-ai.service');
 
 const router = express.Router();
+
+const gymAiChatLimiter = rateLimit({
+  windowMs: 60 * 1000,
+  max: 12,
+  standardHeaders: true,
+  legacyHeaders: false,
+  message: {
+    success: false,
+    message: 'Bạn đang gửi câu hỏi hơi nhanh. Vui lòng đợi vài giây rồi hỏi tiếp nhé!',
+  },
+});
 
 function createFlowId() {
   return crypto.randomBytes(4).toString('hex');
@@ -22,7 +35,7 @@ function ensureGymFeatureEnabled(req, res, next) {
 
 /**
  * GET /api/gym/profile
- * Load authenticated user's synced 5-day gym routine & weight logs
+ * Load authenticated user's synced 5-day gym routine, female body profile, cycle & weight logs
  */
 router.get('/profile', ensureGymFeatureEnabled, authenticateToken, async (req, res) => {
   const flowId = createFlowId();
@@ -49,7 +62,7 @@ router.get('/profile', ensureGymFeatureEnabled, authenticateToken, async (req, r
 
 /**
  * PUT /api/gym/profile
- * Sync LocalStorage workout cycle, custom split & exercise weights with MongoDB
+ * Sync LocalStorage workout cycle, custom split, female body profile & exercise weights with MongoDB
  */
 router.put(
   '/profile',
@@ -62,6 +75,10 @@ router.put(
     body('workoutStreak').optional().isInt({ min: 0, max: 10000 }),
     body('customDays').optional().isArray({ max: 10 }),
     body('exerciseLogs').optional().isArray({ max: 100 }),
+    body('userProfile').optional().isObject(),
+    body('cycleTracking').optional().isObject(),
+    body('exerciseRestrictions').optional().isArray({ max: 40 }),
+    body('aiChatHistory').optional().isArray({ max: 25 }),
     body('clientUpdatedAt').optional().isNumeric(),
   ],
   async (req, res) => {
@@ -82,7 +99,7 @@ router.put(
       return res.json({
         success: true,
         data: synced,
-        message: 'Đã đồng bộ lịch tập và mức tạ thành công.',
+        message: 'Đã đồng bộ lịch tập và hồ sơ thành công.',
       });
     } catch (error) {
       console.error('❌ [GymAPI][PUT /profile]', {
@@ -93,6 +110,61 @@ router.put(
       return res.status(500).json({
         success: false,
         message: 'Lỗi đồng bộ dữ liệu lịch tập. Dữ liệu trên máy của bạn vẫn được giữ an toàn.',
+      });
+    }
+  }
+);
+
+/**
+ * POST /api/gym/ai-chat
+ * Personal AI Coach that knows everything about the user's body metrics, menstrual cycle phase,
+ * current split & weight logs. Open to both Guest (localStorage snapshot) and Authenticated users.
+ */
+router.post(
+  '/ai-chat',
+  ensureGymFeatureEnabled,
+  gymAiChatLimiter,
+  [
+    body('question')
+      .isString()
+      .trim()
+      .isLength({ min: 1, max: 1000 })
+      .withMessage('Vui lòng nhập câu hỏi (tối đa 1000 ký tự).'),
+    body('history').optional().isArray({ max: 12 }),
+    body('userSnapshot').optional().isObject(),
+  ],
+  async (req, res) => {
+    const flowId = createFlowId();
+    const errors = validationResult(req);
+    if (!errors.isEmpty()) {
+      return res.status(400).json({
+        success: false,
+        message: 'Câu hỏi gửi lên không hợp lệ.',
+        errors: errors.array(),
+      });
+    }
+
+    try {
+      const result = await gymAiService.askGymAiCoach({
+        question: req.body.question,
+        history: req.body.history || [],
+        userSnapshot: req.body.userSnapshot || {},
+      });
+
+      return res.json({
+        success: true,
+        data: result,
+      });
+    } catch (error) {
+      console.error('❌ [GymAPI][POST /ai-chat]', {
+        flowId,
+        error: error.message,
+      });
+      return res.status(error.statusCode || 500).json({
+        success: false,
+        message:
+          error.message ||
+          'Huấn luyện viên AI đang bận trong giây lát. Vui lòng thử lại nhé!',
       });
     }
   }
