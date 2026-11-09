@@ -8,6 +8,10 @@ const GOAL_LABELS_VI = {
   fat_loss: 'Đốt mỡ toàn thân & siết vòng eo con kiến (Fat Loss & Core)',
   toned_curves: 'Săn chắc đường cong S-Line & cải thiện tư thế (Toned Curves)',
   strength_health: 'Tăng thể lực, sức bền & sức khỏe nội tiết (Strength & Wellness)',
+  chest_shoulder_3d: 'Ngực dày vuông, Vai 3D rộng & Lưng chữ V nam tính (V-Taper Hypertrophy)',
+  lean_abs_cut: 'Siết mỡ khô nét & Lộ cơ bụng 6 múi (Cutting & Shred)',
+  mass_bulking: 'Tăng cân tăng cơ thoát gầy (Clean Mass Bulking)',
+  strength_power: 'Tăng sức mạnh tối đa & Nội tiết nam Testosterone (Strength & Power)',
 };
 
 const PHASE_LABELS_VI = {
@@ -109,15 +113,21 @@ function buildGymUserContextBlock(snapshot = {}) {
   const currentExerciseName = snapshot.currentExerciseName || 'Chưa chọn';
   const streak = Number(snapshot.workoutStreak) || 0;
 
-  const heightCm = Number(profile.heightCm) || 160;
-  const weightKg = Number(profile.weightKg) || 50;
+  const isMale = profile.gender === 'male';
+  const heightCm = Number(profile.heightCm) || (isMale ? 172 : 160);
+  const weightKg = Number(profile.weightKg) || (isMale ? 68 : 50);
   const heightM = heightCm / 100;
   const bmi = heightM > 0 ? (weightKg / (heightM * heightM)).toFixed(1) : '20.0';
-  const waistCm = Number(profile.waistCm) || 63;
+  const waistCm = Number(profile.waistCm) || (isMale ? 78 : 63);
   const hipCm = Number(profile.hipCm) || 92;
+  const chestCm = Number(profile.chestCm) || 96;
+  const armCm = Number(profile.armCm) || 35;
   const whr = hipCm > 0 ? (waistCm / hipCm).toFixed(2) : '0.68';
 
-  const goalLabel = GOAL_LABELS_VI[profile.primaryGoal] || GOAL_LABELS_VI.glute_sculpt;
+  const activeGoalKey = isMale
+    ? profile.maleGoal || 'chest_shoulder_3d'
+    : profile.primaryGoal || 'glute_sculpt';
+  const goalLabel = GOAL_LABELS_VI[activeGoalKey] || GOAL_LABELS_VI.glute_sculpt;
   const phaseKey = snapshot.resolvedCyclePhase || cycle.manualPhaseOverride || 'follicular';
   const phaseLabel = PHASE_LABELS_VI[phaseKey] || PHASE_LABELS_VI.follicular;
   const symptomsList = Array.isArray(cycle.todaySymptoms)
@@ -134,19 +144,24 @@ function buildGymUserContextBlock(snapshot = {}) {
 
   return [
     `=== HỒ SƠ CÁ NHÂN CỦA HỌC VIÊN ===`,
+    `- Giới tính: ${isMale ? 'Nam giới (/gym/nam)' : 'Nữ giới (/gym/nu)'}`,
     `- Tên/Biệt danh: ${profile.nickname || 'Challenger'} (${profile.age || 23} tuổi)`,
     `- Chỉ số hình thể: Cao ${heightCm}cm • Nặng ${weightKg}kg (BMI: ${bmi})`,
-    `- Số đo Eo / Mông: Vòng eo ${waistCm}cm • Vòng mông ${hipCm}cm (Tỷ lệ Eo/Mông WHR: ${whr})`,
+    isMale
+      ? `- Số đo Nam Giới: Vòng ngực ${chestCm}cm • Vòng bụng ${waistCm}cm • Bắp tay ${armCm}cm`
+      : `- Số đo Eo / Mông: Vòng eo ${waistCm}cm • Vòng mông ${hipCm}cm (Tỷ lệ Eo/Mông WHR: ${whr})`,
     `- Mục tiêu ưu tiên: ${goalLabel}`,
-    `- Kinh nghiệm tập: ${profile.experienceLevel || 'beginner'}`,
-    `- Ưu tiên cơ học: ${profile.avoidHeavyQuads !== false ? 'CÓ ưu tiên độ mông & hạn chế to đùi trước' : 'Phát triển đều thân dưới'} | ${profile.protectLowerBackKnee ? 'Cần bảo vệ lưng dưới & khớp gối' : 'Khớp bình thường'}`,
+    `- Kinh nghiệm tập: ${profile.experienceLevel || 'beginner'} (${profile.workoutsPerWeek || 4} buổi/tuần)`,
+    !isMale
+      ? `- Ưu tiên cơ học: ${profile.avoidHeavyQuads !== false ? 'CÓ ưu tiên độ mông & hạn chế to đùi trước' : 'Phát triển đều thân dưới'} | ${profile.protectLowerBackKnee ? 'Cần bảo vệ lưng dưới & khớp gối' : 'Khớp bình thường'}`
+      : null,
     profile.personalNotes ? `- Ghi chú cá nhân: ${profile.personalNotes}` : null,
     ``,
-    `=== TRẠNG THÁI CHU KỲ & NĂNG LƯỢNG HÔM NAY ===`,
-    `- Theo dõi chu kỳ: ${cycle.enabled !== false ? 'Đang bật' : 'Tắt'}`,
-    `- Pha chu kỳ hiện tại: ${phaseLabel}`,
+    `=== TRẠNG THÁI & NĂNG LƯỢNG HÔM NAY ===`,
+    !isMale ? `- Theo dõi chu kỳ: ${cycle.enabled !== false ? 'Đang bật' : 'Tắt'}` : null,
+    !isMale ? `- Pha chu kỳ hiện tại: ${phaseLabel}` : null,
     `- Mức năng lượng hôm nay: ${cycle.todayEnergyLevel || 4}/5`,
-    `- Triệu chứng hôm nay: ${symptomsList || 'Không có triệu chứng khó chịu'}`,
+    !isMale ? `- Triệu chứng hôm nay: ${symptomsList || 'Không có triệu chứng khó chịu'}` : null,
     ``,
     `=== LỊCH TẬP & MỨC TẠ HIỆN TẠI ===`,
     `- Chuỗi ngày tập (Streak): ${streak} buổi`,

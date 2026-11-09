@@ -6,11 +6,18 @@ const MAX_EXERCISE_LOGS = 100;
 const MAX_RESTRICTIONS = 40;
 const MAX_CHAT_HISTORY = 20;
 
+const VALID_GENDERS = new Set(['male', 'female']);
 const VALID_PRIMARY_GOALS = new Set([
   'glute_sculpt',
   'fat_loss',
   'toned_curves',
   'strength_health',
+]);
+const VALID_MALE_GOALS = new Set([
+  'chest_shoulder_3d',
+  'lean_abs_cut',
+  'mass_bulking',
+  'strength_power',
 ]);
 const VALID_EXPERIENCE_LEVELS = new Set(['beginner', 'intermediate', 'advanced']);
 const VALID_CYCLE_PHASES = new Set([
@@ -31,15 +38,22 @@ function clampNumber(val, min, max, fallback) {
 function sanitizeFemaleBodyProfile(raw = {}) {
   const src = raw && typeof raw === 'object' ? raw : {};
   return {
+    gender: VALID_GENDERS.has(src.gender) ? src.gender : 'female',
     nickname: String(src.nickname || 'Challenger').trim().slice(0, 60) || 'Challenger',
     age: clampNumber(src.age, 12, 90, 23),
     heightCm: clampNumber(src.heightCm, 100, 230, 160),
     weightKg: clampNumber(src.weightKg, 30, 200, 50),
     waistCm: clampNumber(src.waistCm, 40, 160, 63),
     hipCm: clampNumber(src.hipCm, 50, 180, 92),
+    chestCm: clampNumber(src.chestCm, 50, 180, 96),
+    armCm: clampNumber(src.armCm, 15, 70, 34),
+    workoutsPerWeek: clampNumber(src.workoutsPerWeek, 1, 7, 4),
     primaryGoal: VALID_PRIMARY_GOALS.has(src.primaryGoal)
       ? src.primaryGoal
       : 'glute_sculpt',
+    maleGoal: VALID_MALE_GOALS.has(src.maleGoal)
+      ? src.maleGoal
+      : 'chest_shoulder_3d',
     experienceLevel: VALID_EXPERIENCE_LEVELS.has(src.experienceLevel)
       ? src.experienceLevel
       : 'beginner',

@@ -136,4 +136,30 @@ describe('gym.service & gym-ai.service pure helpers', () => {
     expect(fallbackReply).toContain('Deload');
     expect(fallbackReply).toContain('Hip Thrust');
   });
+
+  it('supports male gender profile (/gym/nam) with chest/arm measurements and male goals', () => {
+    const maleProfile = sanitizeFemaleBodyProfile({
+      gender: 'male',
+      nickname: 'Minh Tuấn',
+      heightCm: 175,
+      weightKg: 70,
+      chestCm: 100,
+      waistCm: 76,
+      armCm: 37,
+      workoutsPerWeek: 5,
+      maleGoal: 'chest_shoulder_3d',
+    });
+    expect(maleProfile.gender).toBe('male');
+    expect(maleProfile.chestCm).toBe(100);
+    expect(maleProfile.armCm).toBe(37);
+    expect(maleProfile.maleGoal).toBe('chest_shoulder_3d');
+
+    const maleContext = buildGymUserContextBlock({
+      userProfile: maleProfile,
+      cycleTracking: { todayEnergyLevel: 5 },
+    });
+    expect(maleContext).toContain('Nam giới (/gym/nam)');
+    expect(maleContext).toContain('Vòng ngực 100cm');
+    expect(maleContext).toContain('Bắp tay 37cm');
+  });
 });

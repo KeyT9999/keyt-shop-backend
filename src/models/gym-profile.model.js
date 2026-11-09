@@ -34,16 +34,29 @@ const exerciseLogItemSchema = new mongoose.Schema(
 
 const femaleBodyProfileSchema = new mongoose.Schema(
   {
+    gender: {
+      type: String,
+      enum: ['male', 'female'],
+      default: 'female',
+    },
     nickname: { type: String, default: 'Challenger', trim: true, maxlength: 60 },
     age: { type: Number, default: 23, min: 12, max: 90 },
     heightCm: { type: Number, default: 160, min: 100, max: 230 },
     weightKg: { type: Number, default: 50, min: 30, max: 200 },
     waistCm: { type: Number, default: 63, min: 40, max: 160 },
     hipCm: { type: Number, default: 92, min: 50, max: 180 },
+    chestCm: { type: Number, default: 96, min: 50, max: 180 },
+    armCm: { type: Number, default: 34, min: 15, max: 70 },
+    workoutsPerWeek: { type: Number, default: 4, min: 1, max: 7 },
     primaryGoal: {
       type: String,
       enum: ['glute_sculpt', 'fat_loss', 'toned_curves', 'strength_health'],
       default: 'glute_sculpt',
+    },
+    maleGoal: {
+      type: String,
+      enum: ['chest_shoulder_3d', 'lean_abs_cut', 'mass_bulking', 'strength_power'],
+      default: 'chest_shoulder_3d',
     },
     experienceLevel: {
       type: String,
