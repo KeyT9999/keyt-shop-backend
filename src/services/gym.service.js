@@ -155,6 +155,28 @@ function sanitizeSetDetails(rawSets = []) {
   }));
 }
 
+function mergeWorkoutSetDrafts(existing = [], incoming = [], history = [], currentDate = '') {
+  const drafts = new Map();
+  for (const raw of [...existing, ...incoming]) {
+    if (!raw || !VALID_GENDERS.has(raw.gender) || !/^\d{4}-\d{2}-\d{2}$/.test(raw.dateKey)) continue;
+    if (currentDate && raw.dateKey !== currentDate) continue;
+    const dayId = typeof raw.dayId === 'string' ? raw.dayId.trim().slice(0, 40) : '';
+    const exerciseId = typeof raw.exerciseId === 'string' ? raw.exerciseId.trim().slice(0, 64) : '';
+    const goalLabel = typeof raw.goalLabel === 'string' ? raw.goalLabel.trim().slice(0, 100) : '';
+    const updatedAtMs = Number(raw.updatedAtMs);
+    if (!dayId || !exerciseId || !goalLabel || !Number.isFinite(updatedAtMs) || updatedAtMs < 0) continue;
+    if (history.some((entry) => entry.dateKey === raw.dateKey && entry.gender === raw.gender &&
+      entry.dayId === dayId && entry.createdAtMs >= updatedAtMs)) continue;
+    const key = JSON.stringify([raw.dateKey, raw.gender, dayId, exerciseId]);
+    if ((drafts.get(key)?.updatedAtMs ?? -1) > updatedAtMs) continue;
+    drafts.set(key, {
+      dateKey: raw.dateKey, gender: raw.gender, dayId, exerciseId, goalLabel,
+      sets: sanitizeSetDetails(raw.sets), startingPrKg: clampNumber(raw.startingPrKg, 0, 1000, 0), updatedAtMs,
+    });
+  }
+  return [...drafts.values()].sort((a, b) => b.updatedAtMs - a.updatedAtMs).slice(0, 150);
+}
+
 function sanitizeCompletedSetIndices(rawIndices = []) {
   if (!Array.isArray(rawIndices)) return [];
   const unique = new Set();
@@ -308,13 +330,14 @@ function normalizeLogRecord(item, fallbackPrev = null) {
   }
 
   const parsedReps = parseRepsFromNote(repsNote);
-  const base1RM = computeEstimated1RM(weightKg, parsedReps);
+  const usesWorkoutSets = item.usesWorkoutSets === true || fallbackPrev?.usesWorkoutSets === true;
+  const base1RM = usesWorkoutSets ? 0 : computeEstimated1RM(weightKg, parsedReps);
 
   const personalRecordKg = Math.max(
     clampNumber(fallbackPrev?.personalRecordKg, 0, 1000, 0),
-    clampNumber(fallbackPrev?.weightKg, 0, 1000, 0),
+    usesWorkoutSets ? 0 : clampNumber(fallbackPrev?.weightKg, 0, 1000, 0),
     clampNumber(item.personalRecordKg, 0, 1000, 0),
-    weightKg,
+    usesWorkoutSets ? 0 : weightKg,
     maxSetWeight
   );
 
@@ -332,6 +355,7 @@ function normalizeLogRecord(item, fallbackPrev = null) {
     personalTip,
     seatPinNote,
     personalRecordKg,
+    usesWorkoutSets: usesWorkoutSets || undefined,
     estimated1RM,
     setsCompletedToday,
     setsCompletedDateKey,
@@ -370,7 +394,7 @@ function mergeExerciseLogs(existingLogs = [], incomingLogs = []) {
         // Even if incoming log is older, never lose a higher historical PR recorded offline
         const incomingPr = Math.max(
           clampNumber(raw.personalRecordKg, 0, 1000, 0),
-          clampNumber(raw.weightKg, 0, 1000, 0)
+          raw.usesWorkoutSets || prev.usesWorkoutSets ? 0 : clampNumber(raw.weightKg, 0, 1000, 0)
         );
         if (incomingPr > prev.personalRecordKg) {
           prev.personalRecordKg = incomingPr;
@@ -407,10 +431,14 @@ function sanitizeWorkoutHistoryEntry(raw, idx = 0) {
     gender,
     dayId,
     dayTitle: String(raw.dayTitle || 'Buổi tập').trim().slice(0, 100),
-    durationMinutes: clampNumber(raw.durationMinutes, 1, 360, 45),
-    totalVolumeKg: Math.round(clampNumber(raw.totalVolumeKg, 0, 500000, 0)),
+    status: raw.status === 'partial' ? 'partial' : 'completed',
+    plannedExercisesCount: raw.plannedExercisesCount == null
+      ? undefined
+      : clampNumber(raw.plannedExercisesCount, 1, 40, 1),
+    durationMinutes: raw.status === 'partial' ? 0 : clampNumber(raw.durationMinutes, 0, 360, 45),
+    totalVolumeKg: Number(clampNumber(raw.totalVolumeKg, 0, 500000, 0).toFixed(2)),
     completedExercisesCount: clampNumber(raw.completedExercisesCount, 0, 40, 0),
-    caloriesBurned: Math.round(clampNumber(raw.caloriesBurned, 0, 5000, 0)),
+    caloriesBurned: raw.status === 'partial' ? 0 : Math.round(clampNumber(raw.caloriesBurned, 0, 5000, 0)),
     prCount: clampNumber(raw.prCount, 0, 30, prHighlights.length),
     prHighlights,
     createdAtMs,
@@ -515,6 +543,7 @@ function serializeGymProfile(doc) {
     femaleCustomDays: doc.femaleCustomDays || [],
     exerciseLogs: doc.exerciseLogs || [],
     workoutHistory: doc.workoutHistory || [],
+    workoutSetDrafts: doc.workoutSetDrafts,
     bodyMetricsHistory: doc.bodyMetricsHistory || [],
     userProfile: sanitizeFemaleBodyProfile(doc.userProfile),
     cycleTracking: sanitizeCycleTracking(doc.cycleTracking),
@@ -526,6 +555,10 @@ function serializeGymProfile(doc) {
 }
 
 async function getGymProfileByUserId(userId) {
+  return retryGymProfileWrite(() => loadGymProfile(userId));
+}
+
+async function loadGymProfile(userId) {
   const doc = await GymProfile.findOne({ userId });
   if (!doc) return null;
 
@@ -539,6 +572,21 @@ async function getGymProfileByUserId(userId) {
 }
 
 async function upsertGymProfileByUserId(userId, payload = {}) {
+  return retryGymProfileWrite(() => mergeAndSaveGymProfile(userId, payload));
+}
+
+async function retryGymProfileWrite(write) {
+  try {
+    return await write();
+  } catch (error) {
+    if (error?.code === 11000 || error?.name === 'VersionError' || error?.name === 'DocumentNotFoundError') {
+      return write();
+    }
+    throw error;
+  }
+}
+
+async function mergeAndSaveGymProfile(userId, payload) {
   const existing = await GymProfile.findOne({ userId });
   const incomingTs = Number(payload.clientUpdatedAt) || Date.now();
 
@@ -556,6 +604,10 @@ async function upsertGymProfileByUserId(userId, payload = {}) {
   );
 
   const isNewerSessionState = !existing || incomingTs >= (existing.clientUpdatedAt || 0);
+  const draftDate = (isNewerSessionState ? payload.sessionDateKey : existing?.sessionDateKey) || '';
+  const mergedDrafts = existing?.workoutSetDrafts || payload.workoutSetDrafts
+    ? mergeWorkoutSetDrafts(existing?.workoutSetDrafts, payload.workoutSetDrafts, mergedWorkoutHistory, draftDate)
+    : undefined;
 
   if (!existing) {
     const sanitizedProfile = sanitizeFemaleBodyProfile(payload.userProfile);
@@ -575,6 +627,7 @@ async function upsertGymProfileByUserId(userId, payload = {}) {
       femaleCustomDays: sanitizeCustomDays(payload.femaleCustomDays),
       exerciseLogs: mergedLogs,
       workoutHistory: mergedWorkoutHistory,
+      workoutSetDrafts: mergedDrafts,
       bodyMetricsHistory: mergedBodyMetrics,
       userProfile: sanitizedProfile,
       cycleTracking: sanitizeCycleTracking(payload.cycleTracking),
@@ -587,6 +640,7 @@ async function upsertGymProfileByUserId(userId, payload = {}) {
 
   existing.exerciseLogs = mergedLogs;
   existing.workoutHistory = mergedWorkoutHistory;
+  existing.workoutSetDrafts = mergedDrafts;
   existing.bodyMetricsHistory = mergedBodyMetrics;
 
   // Sub-document timestamp-aware merging for userProfile & cycleTracking
@@ -661,13 +715,26 @@ async function upsertGymProfileByUserId(userId, payload = {}) {
  * updates smart workoutStreak, and advances the active gender split day.
  */
 async function completeWorkoutSessionByUserId(userId, sessionPayload = {}) {
+  return retryGymProfileWrite(() => recordWorkoutSession(userId, sessionPayload));
+}
+
+async function recordWorkoutSession(userId, sessionPayload) {
   let doc = await GymProfile.findOne({ userId });
+  const existingEntry = sessionPayload.id && doc?.workoutHistory?.find((entry) => entry.id === sessionPayload.id);
+  if (existingEntry) {
+    return { profile: serializeGymProfile(doc), sessionEntry: existingEntry, newPrHighlights: existingEntry.prHighlights || [] };
+  }
   const nowMs = Date.now();
   const dateKey =
     String(sessionPayload.dateKey || new Date().toISOString().slice(0, 10))
       .trim()
       .slice(0, 20);
   const gender = VALID_GENDERS.has(sessionPayload.gender) ? sessionPayload.gender : 'female';
+  const isPartial = sessionPayload.status === 'partial';
+  const dayId = String(sessionPayload.dayId || 'day1').slice(0, 40);
+  const nextDayId = isPartial ? dayId : String(sessionPayload.nextDayId || dayId).slice(0, 40);
+  const createdAtMs = clampNumber(sessionPayload.createdAtMs, 1, nowMs + 60000, nowMs);
+  const isOlderSession = Boolean(doc?.sessionDateKey && doc.sessionDateKey > dateKey);
 
   const prevPrMap = new Map();
   if (doc && Array.isArray(doc.exerciseLogs)) {
@@ -698,7 +765,7 @@ async function completeWorkoutSessionByUserId(userId, sessionPayload = {}) {
         .map((s) => s.trim().slice(0, 80))
     : [];
 
-  const combinedHighlights = Array.from(new Set([...clientHighlights, ...detectedPrIds])).slice(
+  const combinedHighlights = Array.from(new Set(sessionPayload.status ? clientHighlights : [...clientHighlights, ...detectedPrIds])).slice(
     0,
     10
   );
@@ -707,60 +774,57 @@ async function completeWorkoutSessionByUserId(userId, sessionPayload = {}) {
     id: sessionPayload.id || `wh_${dateKey}_${gender}_${nowMs}`,
     dateKey,
     gender,
-    dayId: sessionPayload.dayId || 'day1',
+    dayId,
+    status: sessionPayload.status,
+    plannedExercisesCount: sessionPayload.plannedExercisesCount,
     dayTitle: sessionPayload.dayTitle || 'Buổi tập hoàn thành',
-    durationMinutes: sessionPayload.durationMinutes || 45,
+    durationMinutes: sessionPayload.durationMinutes ?? 45,
     totalVolumeKg: sessionPayload.totalVolumeKg || 0,
     completedExercisesCount: sessionPayload.completedExercisesCount || 0,
-    caloriesBurned: sessionPayload.caloriesBurned || 260,
+    caloriesBurned: sessionPayload.caloriesBurned ?? 260,
     prCount: Math.max(Number(sessionPayload.prCount) || 0, combinedHighlights.length),
     prHighlights: combinedHighlights,
-    createdAtMs: nowMs,
+    createdAtMs,
   });
 
-  const nextStreak = computeSmartWorkoutStreak(
-    doc ? doc.workoutStreak : 0,
-    doc ? doc.lastCompletedSessionDate : '',
-    dateKey
-  );
+  const shouldUpdateStreak = !isPartial && (!doc?.lastCompletedSessionDate || doc.lastCompletedSessionDate <= dateKey);
+  const nextStreak = shouldUpdateStreak
+    ? computeSmartWorkoutStreak(doc?.workoutStreak, doc?.lastCompletedSessionDate, dateKey)
+    : doc?.workoutStreak || 0;
+  const lastCompletedSessionDate = shouldUpdateStreak ? dateKey : doc?.lastCompletedSessionDate || '';
 
   if (!doc) {
     doc = await GymProfile.create({
       userId,
-      activeDayId: String(sessionPayload.nextDayId || 'day1').slice(0, 40),
-      activeMaleDayId:
-        gender === 'male' && sessionPayload.nextDayId
-          ? String(sessionPayload.nextDayId).slice(0, 40)
-          : 'm_session_1',
-      activeFemaleDayId:
-        gender === 'female' && sessionPayload.nextDayId
-          ? String(sessionPayload.nextDayId).slice(0, 40)
-          : 'f_session_1',
+      activeDayId: nextDayId,
+      activeMaleDayId: gender === 'male' ? nextDayId : 'm_session_1',
+      activeFemaleDayId: gender === 'female' ? nextDayId : 'f_session_1',
       completedExerciseIdsToday: [],
       sessionDateKey: dateKey,
       workoutStreak: nextStreak,
-      lastCompletedSessionDate: dateKey,
+      lastCompletedSessionDate,
       exerciseLogs: mergedLogs,
       workoutHistory: sessionEntry ? [sessionEntry] : [],
       clientUpdatedAt: nowMs,
     });
   } else {
     doc.exerciseLogs = mergedLogs;
-    doc.workoutHistory = mergeWorkoutHistory(
-      doc.workoutHistory,
-      sessionEntry ? [sessionEntry] : []
-    );
-    doc.workoutStreak = nextStreak;
-    doc.lastCompletedSessionDate = dateKey;
-    doc.sessionDateKey = dateKey;
-    doc.completedExerciseIdsToday = [];
-    if (sessionPayload.nextDayId) {
-      const cleanNext = String(sessionPayload.nextDayId).slice(0, 40);
-      doc.activeDayId = cleanNext;
-      if (gender === 'male') doc.activeMaleDayId = cleanNext;
-      else doc.activeFemaleDayId = cleanNext;
+    doc.workoutHistory = mergeWorkoutHistory(doc.workoutHistory, sessionEntry ? [sessionEntry] : []);
+    if (doc.workoutSetDrafts) {
+      doc.workoutSetDrafts = mergeWorkoutSetDrafts(
+        doc.workoutSetDrafts, [], doc.workoutHistory, isOlderSession ? doc.sessionDateKey : dateKey
+      );
     }
-    doc.clientUpdatedAt = nowMs;
+    doc.workoutStreak = nextStreak;
+    doc.lastCompletedSessionDate = lastCompletedSessionDate;
+    if (!isOlderSession) {
+      doc.sessionDateKey = dateKey;
+      doc.completedExerciseIdsToday = [];
+      doc.activeDayId = nextDayId;
+      if (gender === 'male') doc.activeMaleDayId = nextDayId;
+      else doc.activeFemaleDayId = nextDayId;
+    }
+    doc.clientUpdatedAt = Math.max(createdAtMs, (doc.clientUpdatedAt || 0) + 1);
     await doc.save();
   }
 

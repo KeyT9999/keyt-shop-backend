@@ -197,6 +197,41 @@ describe('gym.service & gym-ai.service pure helpers & v2 features', () => {
     expect(result.profile.workoutHistory[0].totalVolumeKg).toBe(5400);
   });
 
+  it('records a partial workout once, preserving zero estimates and the current streak', async () => {
+    const doc = {
+      activeDayId: 'm_session_1',
+      activeMaleDayId: 'm_session_1',
+      workoutStreak: 3,
+      lastCompletedSessionDate: '2026-11-09',
+      workoutHistory: [],
+      save: jest.fn().mockResolvedValue(true),
+    };
+    jest.spyOn(GymProfile, 'findOne').mockResolvedValue(doc);
+    const payload = {
+      id: 'wh_partial_1',
+      dateKey: '2026-11-11',
+      gender: 'male',
+      dayId: 'm_session_1',
+      nextDayId: 'm_session_2',
+      status: 'partial',
+      plannedExercisesCount: 6,
+      completedExercisesCount: 0,
+      durationMinutes: 0,
+      caloriesBurned: 0,
+      totalVolumeKg: 180,
+    };
+
+    const result = await completeWorkoutSessionByUserId('user_123', payload);
+    await completeWorkoutSessionByUserId('user_123', payload);
+
+    expect(doc.save).toHaveBeenCalledTimes(1);
+    expect(result.profile.workoutStreak).toBe(3);
+    expect(result.profile.lastCompletedSessionDate).toBe('2026-11-09');
+    expect(result.profile.activeMaleDayId).toBe('m_session_1');
+    expect(result.profile.workoutHistory).toHaveLength(1);
+    expect(result.sessionEntry).toMatchObject({ status: 'partial', plannedExercisesCount: 6, completedExercisesCount: 0, durationMinutes: 0, caloriesBurned: 0, totalVolumeKg: 180 });
+  });
+
   it('sanitizes female body profile, cycle tracking, restrictions and chat history safely', () => {
     const profile = sanitizeFemaleBodyProfile({
       nickname: '  Quỳnh Anh  ',

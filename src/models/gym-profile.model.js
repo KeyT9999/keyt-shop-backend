@@ -33,6 +33,20 @@ const setDetailItemSchema = new mongoose.Schema(
   { _id: false }
 );
 
+const workoutSetDraftSchema = new mongoose.Schema(
+  {
+    dateKey: { type: String, required: true, maxlength: 10 },
+    gender: { type: String, required: true, enum: ['male', 'female'] },
+    dayId: { type: String, required: true, maxlength: 40 },
+    exerciseId: { type: String, required: true, maxlength: 64 },
+    goalLabel: { type: String, required: true, maxlength: 100 },
+    startingPrKg: { type: Number, min: 0, max: 1000 },
+    sets: { type: [setDetailItemSchema], default: [] },
+    updatedAtMs: { type: Number, required: true },
+  },
+  { _id: false }
+);
+
 const exerciseLogItemSchema = new mongoose.Schema(
   {
     exerciseId: { type: String, required: true, trim: true, maxlength: 64 },
@@ -41,6 +55,7 @@ const exerciseLogItemSchema = new mongoose.Schema(
     personalTip: { type: String, default: '', trim: true, maxlength: 200 },
     seatPinNote: { type: String, default: '', trim: true, maxlength: 120 },
     personalRecordKg: { type: Number, default: 0, min: 0, max: 1000 },
+    usesWorkoutSets: { type: Boolean, default: undefined },
     estimated1RM: { type: Number, default: 0, min: 0, max: 1500 },
     setsCompletedToday: { type: [Number], default: [] },
     setsCompletedDateKey: { type: String, default: '', trim: true, maxlength: 20 },
@@ -141,8 +156,10 @@ const workoutHistoryItemSchema = new mongoose.Schema(
     gender: { type: String, enum: ['male', 'female'], default: 'female' },
     dayId: { type: String, default: 'day1', trim: true, maxlength: 40 },
     dayTitle: { type: String, default: 'Buổi tập', trim: true, maxlength: 100 },
-    durationMinutes: { type: Number, default: 45, min: 1, max: 360 },
+    durationMinutes: { type: Number, default: 45, min: 0, max: 360 },
     totalVolumeKg: { type: Number, default: 0, min: 0, max: 500000 },
+    status: { type: String, enum: ['completed', 'partial'], default: 'completed' },
+    plannedExercisesCount: { type: Number, min: 0, max: 40 },
     completedExercisesCount: { type: Number, default: 0, min: 0, max: 40 },
     caloriesBurned: { type: Number, default: 0, min: 0, max: 5000 },
     prCount: { type: Number, default: 0, min: 0, max: 30 },
@@ -230,6 +247,7 @@ const gymProfileSchema = new mongoose.Schema(
       type: [exerciseLogItemSchema],
       default: [],
     },
+    workoutSetDrafts: { type: [workoutSetDraftSchema], default: undefined },
     workoutHistory: {
       type: [workoutHistoryItemSchema],
       default: [],
@@ -259,7 +277,7 @@ const gymProfileSchema = new mongoose.Schema(
       default: 0,
     },
   },
-  { timestamps: true }
+  { timestamps: true, optimisticConcurrency: true }
 );
 
 const GymProfile = mongoose.model('GymProfile', gymProfileSchema);

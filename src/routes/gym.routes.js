@@ -80,6 +80,7 @@ router.put(
     body('femaleCustomDays').optional().isArray({ max: 10 }),
     body('exerciseLogs').optional().isArray({ max: 100 }),
     body('workoutHistory').optional().isArray({ max: 60 }),
+    body('workoutSetDrafts').optional().isArray({ max: 150 }),
     body('bodyMetricsHistory').optional().isArray({ max: 24 }),
     body('userProfile').optional().isObject(),
     body('cycleTracking').optional().isObject(),
@@ -135,6 +136,15 @@ router.post(
     body('dayId').optional().isString().isLength({ max: 40 }),
     body('dayTitle').optional().isString().isLength({ max: 100 }),
     body('nextDayId').optional().isString().isLength({ max: 40 }),
+    body('id').optional().isString().isLength({ min: 1, max: 64 }),
+    body('status').optional().isIn(['completed', 'partial']),
+    body('createdAtMs').optional().isInt({ min: 0 }),
+    body('plannedExercisesCount').if((value, { req }) => value !== undefined || req.body.status !== undefined)
+      .isInt({ min: 1, max: 40 }).custom((planned, { req }) => {
+      const completed = Number(req.body.completedExercisesCount);
+      if (req.body.status === 'partial') return completed >= 0 && completed < Number(planned);
+      return completed === Number(planned);
+    }),
     body('durationMinutes').optional().isNumeric(),
     body('totalVolumeKg').optional().isNumeric(),
     body('completedExercisesCount').optional().isInt({ min: 0, max: 40 }),
